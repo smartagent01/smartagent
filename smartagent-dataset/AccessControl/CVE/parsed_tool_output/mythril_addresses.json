@@ -1,0 +1,18 @@
+{
+  "0x403E518F21F5Ce308085Dcf6637758C61f92446A": {
+    "location": "withdraw",
+    "message": "Use of tx.origin as a part of authorization control.\nThe tx.origin environment variable has been found to influence a control flow decision. Note that using tx.origin as a security control might cause a situation where a user inadvertently authorizes a smart contract to perform an action on their behalf. It is recommended to use msg.sender instead.\nClassification: SWC-115"
+  },
+  "0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3": {
+    "location": "withdrawForeignTokens",
+    "message": "A call to a user-supplied address is executed.\nAn external message call to an address specified by the caller is executed. Note that the callee account might contain arbitrary code and could re-enter any function within this contract. Reentering the contract in an intermediate state may lead to unexpected behaviour. Make sure that no state modifications are executed after this call and/or reentrancy guards are in place.\nClassification: SWC-107"
+  },
+  "0xE30a76ec9168639F09061e602924ae601D341066": {
+    "location": "withdrawForeignTokens",
+    "message": "A call to a user-supplied address is executed.\nAn external message call to an address specified by the caller is executed. Note that the callee account might contain arbitrary code and could re-enter any function within this contract. Reentering the contract in an intermediate state may lead to unexpected behaviour. Make sure that no state modifications are executed after this call and/or reentrancy guards are in place.\nClassification: SWC-107"
+  },
+  "0xd58132f2fbd65f02beee0626542e6ee059009ab4": {
+    "location": "withdrawForeignTokens",
+    "message": "A call to a user-supplied address is executed.\nAn external message call to an address specified by the caller is executed. Note that the callee account might contain arbitrary code and could re-enter any function within this contract. Reentering the contract in an intermediate state may lead to unexpected behaviour. Make sure that no state modifications are executed after this call and/or reentrancy guards are in place.\nClassification: SWC-107"
+  }
+}

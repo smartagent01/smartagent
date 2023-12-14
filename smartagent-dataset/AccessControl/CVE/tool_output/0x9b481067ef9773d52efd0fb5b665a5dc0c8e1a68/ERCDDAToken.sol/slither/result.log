@@ -1,0 +1,20 @@
+INFO:Detectors:[92m
+ERCDDAToken.decimals should be constant (/sb/ERCDDAToken.sol#6-7)
+Reference: https://github.com/trailofbits/slither/wiki/Detectors-Documentation#state-variables-that-could-be-declared-constant[0m
+INFO:Detectors:[92m
+ERCDDAToken.owned (/sb/ERCDDAToken.sol#15-19) should be declared external
+ERCDDAToken.transfer (/sb/ERCDDAToken.sol#47-52) should be declared external
+ERCDDAToken.freezeAccount (/sb/ERCDDAToken.sol#52-57) should be declared external
+ERCDDAToken.burn (/sb/ERCDDAToken.sol#57-65) should be declared external
+ERCDDAToken.mintToken (/sb/ERCDDAToken.sol#65-69) should be declared external
+Reference: https://github.com/trailofbits/slither/wiki/Detectors-Documentation#public-function-that-could-be-declared-as-external[0m
+INFO:Detectors:[92m
+Function 'ERCDDAToken._transfer' (/sb/ERCDDAToken.sol#36-47) is not in mixedCase
+Parameter '_from' of ERCDDAToken._transfer (/sb/ERCDDAToken.sol#36) is not in mixedCase
+Parameter '_to' of ERCDDAToken._transfer (/sb/ERCDDAToken.sol#36-37) is not in mixedCase
+Parameter '_value' of ERCDDAToken._transfer (/sb/ERCDDAToken.sol#37) is not in mixedCase
+Parameter '_to' of ERCDDAToken.transfer (/sb/ERCDDAToken.sol#47) is not in mixedCase
+Parameter '_value' of ERCDDAToken.transfer (/sb/ERCDDAToken.sol#47-48) is not in mixedCase
+Parameter '_value' of ERCDDAToken.burn (/sb/ERCDDAToken.sol#57-58) is not in mixedCase
+Reference: https://github.com/trailofbits/slither/wiki/Detectors-Documentation#conformance-to-solidity-naming-conventions[0m
+INFO:Slither:/sb/ERCDDAToken.sol analyzed (1 contracts), 13 result(s) found

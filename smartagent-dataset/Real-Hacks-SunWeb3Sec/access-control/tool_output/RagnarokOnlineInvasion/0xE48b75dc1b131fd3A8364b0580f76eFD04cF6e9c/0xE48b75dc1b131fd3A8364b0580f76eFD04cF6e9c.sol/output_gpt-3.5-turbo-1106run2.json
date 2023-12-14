@@ -1,0 +1,20 @@
+renounceOwnership
+This function allows the current owner to renounce their ownership, potentially making the contract ownerless.
+
+transferOwnership
+This function allows the current owner to transfer ownership to a new address, which should be used carefully to ensure that ownership is transferred to a trusted address.
+
+lock
+This function locks the contract for a specified time period, which can be a potential access control issue if not handled properly.
+
+unlock
+This function allows the previous owner to unlock the contract after the specified lock time, which should be used carefully to ensure that only the previous owner can unlock the contract.
+
+setTaxFeePercent, setBuyFee, setSellFee, setLiquidityFeePercent, setBuyBackSellLimit, setMaxTxAmount, etc.
+These functions should be accessible only by the owner to prevent unauthorized changes to the contract parameters.
+
+enable/disable swap and liquify, buyback, and auto buyback features
+These functions should be accessible only by the owner to prevent unauthorized changes to the contract behavior.
+
+set address-specific fees for tax and liquidity
+These functions should be accessible only by the owner to prevent unauthorized changes to the fee structure.

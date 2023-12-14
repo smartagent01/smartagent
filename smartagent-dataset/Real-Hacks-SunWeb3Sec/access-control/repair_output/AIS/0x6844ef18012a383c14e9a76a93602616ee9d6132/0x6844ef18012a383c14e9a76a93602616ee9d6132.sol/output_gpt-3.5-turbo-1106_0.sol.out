@@ -1,0 +1,4 @@
+```
+setMarketAddress
+Missing permission checking for setting the market address, allowing anyone to set it.
+```

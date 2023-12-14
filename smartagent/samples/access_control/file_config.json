@@ -1,0 +1,18 @@
+{
+  "MorphToken/MorphToken.sol": {
+  "file": "MorphToken/MorphToken.sol",
+  "contract": ["MorphToken"],
+  "version": "0.4.26",
+  "blockchain": "ETH",
+  "address": "0x2Ef27BF41236bD859a95209e17a43Fbd26851f92"
+  },
+  "Melo/Melo.sol": {
+    "contract": [
+        "cERC20"
+    ],
+    "file": "Melo/Melo.sol",
+    "version": "0.5.11",
+    "blockchain": "BSC",
+    "address": "0x9a1aef8c9ada4224ad774afdac07c24955c92a54"
+  }
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "bug": [
+      "AccessControl"
+    ],
+    "blockchain": "Ethereum",
+    "address": "0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c",
+    "contract": "ROIToken",
+    "function": "transferOwnership",
+    "source_file": "0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+    "line_start": 181,
+    "line_end": 185,
+    "reference": [
+      "https://github.com/SunWeb3Sec/DeFiHackLabs/blob/main/src/test/ROI_exp.sol"
+    ],
+    "note": ""
+  }
+]

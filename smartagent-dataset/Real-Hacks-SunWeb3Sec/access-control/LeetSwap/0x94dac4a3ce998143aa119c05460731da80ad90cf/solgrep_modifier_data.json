@@ -1,0 +1,15 @@
+{
+  "/smart-agent-artifact/smart-agent/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/LeetSwap/0x94dac4a3ce998143aa119c05460731da80ad90cf/LeetSwapV2Pair_flattened.sol": [
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: LeetSwapV2Pair.lock",
+      "info": "lock",
+      "loc": [
+        498,
+        4,
+        503,
+        4
+      ]
+    }
+  ]
+}

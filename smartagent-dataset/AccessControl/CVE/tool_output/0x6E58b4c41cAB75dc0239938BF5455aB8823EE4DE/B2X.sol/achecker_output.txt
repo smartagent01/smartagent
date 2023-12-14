@@ -1,0 +1,14 @@
+File copied : /root/Achecker/B2X.bin-runtime
+processing /root/Achecker/B2X.bin-runtime
+Checking contract for [4mViolated-AC-Check[0m 
+------------------
+
+Violated access control check in function transferOwnership(address)
+	( 3644)  e3c:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {0} in function owned()
++--Attacker can make changes to AC item {0} in function transferOwnership(address)
+
+
+Checking contract for [4mMissing-AC-Check[0m 
+------------------
+44d2912a5ea8c90346809232ddaaa4ec2e2bb51d14aa1505b7d94287fe3ac6a2

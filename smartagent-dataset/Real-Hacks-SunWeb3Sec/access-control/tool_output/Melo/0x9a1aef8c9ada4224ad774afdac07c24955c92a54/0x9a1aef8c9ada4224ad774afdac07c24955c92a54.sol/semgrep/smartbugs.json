@@ -1,0 +1,50 @@
+{
+    "docker": {
+        "command": null,
+        "detach": true,
+        "entrypoint": "'/sb/bin/do_solidity.sh' '/sb/0x9a1aef8c9ada4224ad774afdac07c24955c92a54.sol' '600' '/sb/bin'",
+        "image": "smartbugs/semgrep:c3a9f40",
+        "user": 0,
+        "volumes": {
+            "/tmp/tmprru6uua9": {
+                "bind": "/sb",
+                "mode": "rw"
+            }
+        }
+    },
+    "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Melo/0x9a1aef8c9ada4224ad774afdac07c24955c92a54/0x9a1aef8c9ada4224ad774afdac07c24955c92a54.sol",
+    "platform": {
+        "cpu": "AMD EPYC 7513 32-Core Processor",
+        "python": "3.9.12.final.0 (64 bit)",
+        "release": "5.4.0-163-generic",
+        "smartbugs": "2.0.8",
+        "system": "Linux",
+        "version": "#180-Ubuntu SMP Tue Sep 5 13:21:23 UTC 2023"
+    },
+    "result": {
+        "duration": 3.6523683071136475,
+        "exit_code": 0,
+        "logs": "result.log",
+        "output": null,
+        "start": 1702432790.69584
+    },
+    "runid": "20231213_0159",
+    "solc": "0.5.11",
+    "tool": {
+        "bin": "scripts",
+        "command": null,
+        "cpu_quota": null,
+        "entrypoint": "'$BIN/do_solidity.sh' '$FILENAME' '$TIMEOUT' '$BIN'",
+        "id": "semgrep",
+        "image": "smartbugs/semgrep:c3a9f40",
+        "info": "Find patterns of vulnerabilities in smart contracts based on actual DeFi exploits as well as gas optimization rules that can be used as a part of the CI pipeline.",
+        "mem_limit": null,
+        "mode": "solidity",
+        "name": "semgrep",
+        "origin": "https://semgrep.dev/",
+        "output": null,
+        "parser": "parser.py",
+        "solc": true,
+        "version": "c3a9f40"
+    }
+}

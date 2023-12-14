@@ -1,0 +1,138 @@
+METRICS: Using configs from the Registry (like --config=p/ci) reports pseudonymous rule metrics to semgrep.dev.
+To disable Registry rule metrics, use "--metrics=off".
+Using configs only from local files (like --config=xyz.yml) does not enable metrics.
+
+More information: https://semgrep.dev/docs/metrics
+
+               
+               
+┌─────────────┐
+│ Scan Status │
+└─────────────┘
+  Scanning 1 file tracked by git with 48 Code rules:
+  Scanning 1 file with 48 solidity rules.
+                    
+                    
+┌──────────────────┐
+│ 25 Code Findings │
+└──────────────────┘
+                                     
+    /sb/LeetSwapV2Pair_flattened.sol 
+       solidity.performance.array-length-outside-loop                           
+          Caching the array length outside a loop saves reading it on each      
+  iteration, as long as the                                                     
+          array's length is not changed during the loop.                        
+                                                                                
+          782┆ for (uint256 i = 0; i < _prices.length; i++) {
+            ⋮┆----------------------------------------
+       solidity.performance.inefficient-state-variable-increment             
+          <x> += <y> costs more gas than <x> = <x> + <y> for state variables.
+                                                                             
+          625┆ index0 += _ratio;
+            ⋮┆----------------------------------------
+          645┆ index1 += _ratio;
+            ⋮┆----------------------------------------
+          701┆ reserve0CumulativeLast += _reserve0 * timeElapsed;
+            ⋮┆----------------------------------------
+          702┆ reserve1CumulativeLast += _reserve1 * timeElapsed;
+            ⋮┆----------------------------------------
+         1071┆ totalSupply += amount;
+            ⋮┆----------------------------------------
+       solidity.performance.init-variables-with-default-value                   
+          Uninitialized variables are assigned with the types default value.    
+  Explicitly initializing a                                                     
+          variable with its default value costs unnecessary gas.                
+                                                                                
+          333┆ uint256 public totalSupply = 0;
+            ⋮┆----------------------------------------
+          372┆ uint256 public index0 = 0;
+            ⋮┆----------------------------------------
+          373┆ uint256 public index1 = 0;
+            ⋮┆----------------------------------------
+       solidity.performance.non-payable-constructor      
+          Consider making costructor payable to save gas.
+                                                         
+           98┆ constructor(address _token0, address _token1) {
+           99┆     pair = msg.sender;
+          100┆     token0 = _token0;
+          101┆     token1 = _token1;
+          102┆ }
+            ⋮┆----------------------------------------
+          428┆ constructor() {
+          429┆     factory = msg.sender;
+          430┆     (address _token0, address _token1, bool _stable) =           
+  ILeetSwapV2Factory(                                                           
+          431┆         msg.sender
+          432┆     ).getInitializable();
+          433┆     (token0, token1, stable) = (_token0, _token1, _stable);
+          434┆ 
+          435┆     fees = address(new LeetSwapV2Fees(_token0, _token1));
+          436┆ 
+          437┆     observations.push(Observation(block.timestamp, 0, 0));
+             [hid 1 additional lines, adjust with --max-lines-per-finding] 
+       solidity.performance.state-variable-read-in-a-loop                       
+          Replace state variable reads and writes within loops with local       
+  variable reads and writes.                                                    
+                                                                                
+          812┆ uint256 timeElapsed = observations[nextIndex].timestamp -
+            ⋮┆----------------------------------------
+          813┆ observations[i].timestamp;
+            ⋮┆----------------------------------------
+          814┆ uint256 _reserve0 = (observations[nextIndex].reserve0Cumulative -
+            ⋮┆----------------------------------------
+          815┆ observations[i].reserve0Cumulative) / timeElapsed;
+            ⋮┆----------------------------------------
+          816┆ uint256 _reserve1 = (observations[nextIndex].reserve1Cumulative -
+            ⋮┆----------------------------------------
+          817┆ observations[i].reserve1Cumulative) / timeElapsed;
+            ⋮┆----------------------------------------
+       solidity.performance.unnecessary-checked-arithmetic-in-loop              
+          A lot of times there is no risk that the loop counter can overflow.   
+  Using Solidity's                                                              
+          unchecked block saves the overflow checks.                            
+                                                                                
+          782┆ for (uint256 i = 0; i < _prices.length; i++) {
+            ⋮┆----------------------------------------
+          986┆ for (uint256 i = 0; i < 255; i++) {
+            ⋮┆----------------------------------------
+       solidity.performance.use-nested-if                                       
+          Using nested is cheaper than using && multiple check combinations.    
+  There are more                                                                
+          advantages, such as easier to read code and better coverage reports.  
+                                                                                
+          700┆ if (timeElapsed > 0 && _reserve0 != 0 && _reserve1 != 0) {
+          701┆     reserve0CumulativeLast += _reserve0 * timeElapsed;
+          702┆     reserve1CumulativeLast += _reserve1 * timeElapsed;
+          703┆ }
+            ⋮┆----------------------------------------
+          890┆ if (amount0Out <= 0 && amount1Out <= 0)
+          891┆     revert InsufficientOutputAmount();
+            ⋮┆----------------------------------------
+          920┆ if (amount0In <= 0 && amount1In <= 0) revert                     
+  InsufficientInputAmount();                                                    
+            ⋮┆----------------------------------------
+         1148┆ if (spender != src && spenderAllowance != type(uint256).max) {
+         1149┆     uint256 newAllowance = spenderAllowance - amount;
+         1150┆     allowance[src][spender] = newAllowance;
+         1151┆ 
+         1152┆     emit Approval(src, spender, newAllowance);
+         1153┆ }
+            ⋮┆----------------------------------------
+       solidity.performance.use-prefix-increment-not-postfix                    
+          Consider using the prefix increment expression whenever the return    
+  value is not needed. The                                                      
+          prefix increment expression is cheaper in terms of gas.               
+                                                                                
+          782┆ for (uint256 i = 0; i < _prices.length; i++) {
+            ⋮┆----------------------------------------
+          986┆ for (uint256 i = 0; i < 255; i++) {
+
+                
+                
+┌──────────────┐
+│ Scan Summary │
+└──────────────┘
+
+Ran 48 rules on 1 file: 25 findings.
+
+A new version of Semgrep is available. See https://semgrep.dev/docs/upgrading

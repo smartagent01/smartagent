@@ -1,0 +1,555 @@
+{
+    "errors": [
+        "EXIT_CODE_55"
+    ],
+    "fails": [],
+    "findings": [
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "impact": "Medium",
+            "line": 65,
+            "line_end": 66,
+            "message": "Cryptbond.totalSupply (Cryptbond.sol#65-66) shadows:\n\t- ERC20Basic.totalSupply (Cryptbond.sol#34)\n",
+            "name": "shadowing-abstract"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "impact": "Informational",
+            "line": 200,
+            "line_end": 201,
+            "message": "Cryptbond.price should be constant (Cryptbond.sol#200-201)\nCryptbond.totalBounties should be constant (Cryptbond.sol#67-68)\nCryptbond.totalReserved should be constant (Cryptbond.sol#66-67)\nERC20Basic.totalSupply should be constant (Cryptbond.sol#34)\n",
+            "name": "constable-states"
+        },
+        {
+            "confidence": "High",
+            "contract": "ForeignToken",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "function": "balanceOf",
+            "impact": "Informational",
+            "line": 28,
+            "line_end": 29,
+            "message": "ForeignToken.balanceOf (Cryptbond.sol#28-29) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "ForeignToken",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "function": "transfer",
+            "impact": "Informational",
+            "line": 29,
+            "line_end": 33,
+            "message": "ForeignToken.transfer (Cryptbond.sol#29-33) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "Cryptbond",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "function": "balanceOf",
+            "impact": "Informational",
+            "line": 231,
+            "line_end": 235,
+            "message": "Cryptbond.balanceOf (Cryptbond.sol#231-235) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "ERC20Basic",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "function": "balanceOf",
+            "impact": "Informational",
+            "line": 34,
+            "line_end": 35,
+            "message": "ERC20Basic.balanceOf (Cryptbond.sol#34-35) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "Cryptbond",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "function": "transfer",
+            "impact": "Informational",
+            "line": 240,
+            "line_end": 250,
+            "message": "Cryptbond.transfer (Cryptbond.sol#240-250) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "ERC20Basic",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "function": "transfer",
+            "impact": "Informational",
+            "line": 35,
+            "line_end": 36,
+            "message": "ERC20Basic.transfer (Cryptbond.sol#35-36) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "ERC20",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "function": "allowance",
+            "impact": "Informational",
+            "line": 40,
+            "line_end": 41,
+            "message": "ERC20.allowance (Cryptbond.sol#40-41) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "Cryptbond",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "function": "allowance",
+            "impact": "Informational",
+            "line": 272,
+            "line_end": 278,
+            "message": "Cryptbond.allowance (Cryptbond.sol#272-278) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "Cryptbond",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "function": "transferFrom",
+            "impact": "Informational",
+            "line": 250,
+            "line_end": 262,
+            "message": "Cryptbond.transferFrom (Cryptbond.sol#250-262) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "ERC20",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "function": "transferFrom",
+            "impact": "Informational",
+            "line": 41,
+            "line_end": 42,
+            "message": "ERC20.transferFrom (Cryptbond.sol#41-42) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "Cryptbond",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "function": "approve",
+            "impact": "Informational",
+            "line": 262,
+            "line_end": 272,
+            "message": "Cryptbond.approve (Cryptbond.sol#262-272) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "ERC20",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "function": "approve",
+            "impact": "Informational",
+            "line": 42,
+            "line_end": 43,
+            "message": "ERC20.approve (Cryptbond.sol#42-43) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "Token",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "function": "distr",
+            "impact": "Informational",
+            "line": 47,
+            "line_end": 48,
+            "message": "Token.distr (Cryptbond.sol#47-48) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "Token",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "function": "totalSupply",
+            "impact": "Informational",
+            "line": 48,
+            "line_end": 49,
+            "message": "Token.totalSupply (Cryptbond.sol#48-49) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "Token",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "function": "balanceOf",
+            "impact": "Informational",
+            "line": 49,
+            "line_end": 54,
+            "message": "Token.balanceOf (Cryptbond.sol#49-54) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "Cryptbond",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "function": "ToOwner",
+            "impact": "Informational",
+            "line": 98,
+            "line_end": 103,
+            "message": "Cryptbond.ToOwner (Cryptbond.sol#98-103) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "Cryptbond",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "function": "Mining24",
+            "impact": "Informational",
+            "line": 103,
+            "line_end": 109,
+            "message": "Cryptbond.Mining24 (Cryptbond.sol#103-109) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "Cryptbond",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "function": "setParameters",
+            "impact": "Informational",
+            "line": 110,
+            "line_end": 115,
+            "message": "Cryptbond.setParameters (Cryptbond.sol#110-115) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "Cryptbond",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "function": "transferOwnership",
+            "impact": "Informational",
+            "line": 115,
+            "line_end": 120,
+            "message": "Cryptbond.transferOwnership (Cryptbond.sol#115-120) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "Cryptbond",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "function": "enableWhitelist",
+            "impact": "Informational",
+            "line": 120,
+            "line_end": 126,
+            "message": "Cryptbond.enableWhitelist (Cryptbond.sol#120-126) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "Cryptbond",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "function": "disableWhitelist",
+            "impact": "Informational",
+            "line": 127,
+            "line_end": 133,
+            "message": "Cryptbond.disableWhitelist (Cryptbond.sol#127-133) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "Cryptbond",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "function": "finishDistribution",
+            "impact": "Informational",
+            "line": 133,
+            "line_end": 138,
+            "message": "Cryptbond.finishDistribution (Cryptbond.sol#133-138) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "Cryptbond",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "function": "airdrop",
+            "impact": "Informational",
+            "line": 153,
+            "line_end": 168,
+            "message": "Cryptbond.airdrop (Cryptbond.sol#153-168) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "Cryptbond",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "function": "distribution",
+            "impact": "Informational",
+            "line": 168,
+            "line_end": 183,
+            "message": "Cryptbond.distribution (Cryptbond.sol#168-183) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "Cryptbond",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "function": "distributeAmounts",
+            "impact": "Informational",
+            "line": 183,
+            "line_end": 200,
+            "message": "Cryptbond.distributeAmounts (Cryptbond.sol#183-200) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "Cryptbond",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "function": "fallback",
+            "impact": "Informational",
+            "line": 201,
+            "line_end": 209,
+            "message": "Cryptbond.fallback (Cryptbond.sol#201-209) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "Cryptbond",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "function": "getTokens",
+            "impact": "Informational",
+            "line": 210,
+            "line_end": 231,
+            "message": "Cryptbond.getTokens (Cryptbond.sol#210-231) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "Cryptbond",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "function": "getTokenBalance",
+            "impact": "Informational",
+            "line": 278,
+            "line_end": 284,
+            "message": "Cryptbond.getTokenBalance (Cryptbond.sol#278-284) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "Cryptbond",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "function": "withdraw",
+            "impact": "Informational",
+            "line": 284,
+            "line_end": 285,
+            "message": "Cryptbond.withdraw (Cryptbond.sol#284-285) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "Cryptbond",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "function": "burn",
+            "impact": "Informational",
+            "line": 287,
+            "line_end": 301,
+            "message": "Cryptbond.burn (Cryptbond.sol#287-301) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "Cryptbond",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "function": "withdrawForeignTokens",
+            "impact": "Informational",
+            "message": "Cryptbond.withdrawForeignTokens (Cryptbond.sol) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "impact": "Informational",
+            "line": 1,
+            "message": "Detected issues with version pragma in Cryptbond.sol:\n\t- pragma solidity^0.4.19 (Cryptbond.sol#1): it allows old versions\n",
+            "name": "solc-version"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "impact": "Informational",
+            "line": 232,
+            "line_end": 233,
+            "message": "Parameter '_owner' of Cryptbond.balanceOf (Cryptbond.sol#232-233) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "impact": "Informational",
+            "line": 240,
+            "message": "Parameter '_to' of Cryptbond.transfer (Cryptbond.sol#240) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "impact": "Informational",
+            "line": 240,
+            "line_end": 241,
+            "message": "Parameter '_amount' of Cryptbond.transfer (Cryptbond.sol#240-241) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "impact": "Informational",
+            "line": 272,
+            "line_end": 273,
+            "message": "Parameter '_owner' of Cryptbond.allowance (Cryptbond.sol#272-273) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "impact": "Informational",
+            "line": 273,
+            "message": "Parameter '_spender' of Cryptbond.allowance (Cryptbond.sol#273) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "impact": "Informational",
+            "line": 251,
+            "line_end": 252,
+            "message": "Parameter '_from' of Cryptbond.transferFrom (Cryptbond.sol#251-252) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "impact": "Informational",
+            "line": 252,
+            "message": "Parameter '_to' of Cryptbond.transferFrom (Cryptbond.sol#252) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "impact": "Informational",
+            "line": 252,
+            "message": "Parameter '_amount' of Cryptbond.transferFrom (Cryptbond.sol#252) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "impact": "Informational",
+            "line": 263,
+            "message": "Parameter '_spender' of Cryptbond.approve (Cryptbond.sol#263) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "impact": "Informational",
+            "line": 263,
+            "message": "Parameter '_value' of Cryptbond.approve (Cryptbond.sol#263) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "impact": "Informational",
+            "line": 98,
+            "line_end": 103,
+            "message": "Function 'Cryptbond.ToOwner' (Cryptbond.sol#98-103) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "impact": "Informational",
+            "line": 103,
+            "line_end": 109,
+            "message": "Function 'Cryptbond.Mining24' (Cryptbond.sol#103-109) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "impact": "Informational",
+            "line": 104,
+            "message": "Parameter '_value' of Cryptbond.Mining24 (Cryptbond.sol#104) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "impact": "Informational",
+            "line": 104,
+            "line_end": 105,
+            "message": "Parameter '_minReq' of Cryptbond.Mining24 (Cryptbond.sol#104-105) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "impact": "Informational",
+            "line": 111,
+            "line_end": 113,
+            "message": "Parameter '_value' of Cryptbond.setParameters (Cryptbond.sol#111-113) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "impact": "Informational",
+            "line": 113,
+            "message": "Parameter '_minReq' of Cryptbond.setParameters (Cryptbond.sol#113) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "impact": "Informational",
+            "line": 139,
+            "message": "Parameter '_to' of Cryptbond.distr (Cryptbond.sol#139) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "impact": "Informational",
+            "line": 139,
+            "message": "Parameter '_amount' of Cryptbond.distr (Cryptbond.sol#139) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "impact": "Informational",
+            "line": 287,
+            "message": "Parameter '_value' of Cryptbond.burn (Cryptbond.sol#287) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "impact": "Informational",
+            "message": "Parameter '_tokenContract' of Cryptbond.withdrawForeignTokens (Cryptbond.sol) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "impact": "Informational",
+            "line": 66,
+            "line_end": 67,
+            "message": "Cryptbond.totalReserved (Cryptbond.sol#66-67) is never used in Cryptbond\nCryptbond.totalBounties (Cryptbond.sol#67-68) is never used in Cryptbond\n",
+            "name": "unused-state"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "slither",
+        "mode": "solidity",
+        "version": "2022/11/14"
+    }
+}

@@ -1,0 +1,15 @@
+{
+  "/smart-agent/smartagent-dataset/AccessControl/CVE/0x9ab4FD2234D75CfA894C394b367e48055b531e56/RobotBTC.sol": [
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: Owned.onlyOwner",
+      "info": "onlyOwner",
+      "loc": [
+        10,
+        4,
+        13,
+        4
+      ]
+    }
+  ]
+}

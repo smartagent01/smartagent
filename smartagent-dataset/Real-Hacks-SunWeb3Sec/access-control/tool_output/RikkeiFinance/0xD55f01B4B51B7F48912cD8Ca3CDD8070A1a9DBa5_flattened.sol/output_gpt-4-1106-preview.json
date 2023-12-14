@@ -1,0 +1,23 @@
+setOracleData
+This function should be protected by access control to prevent unauthorized users from changing the oracle.
+
+_setPendingAdmin
+This function should be protected by access control checks to ensure that only authorized users can call it.
+
+_acceptAdmin
+This function should be protected by access control checks to ensure that only authorized users can call it.
+
+_setCointroller
+This function should be protected by access control checks to ensure that only authorized users can call it.
+
+_setReserveFactor
+This function should be protected by access control checks to ensure that only authorized users can call it.
+
+_addReserves
+This function should be protected by access control checks to ensure that only authorized users can call it.
+
+_reduceReserves
+This function should be protected by access control checks to ensure that only authorized users can call it.
+
+sweepToken
+This function should be protected by access control to prevent unauthorized access.

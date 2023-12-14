@@ -1,0 +1,26 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9924A7E3A2756Ab8B9A828485f052b6693AaA33E/BAFCToken.sol",
+            "line": 161,
+            "message": "Using multiple require statements is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-multiple-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9924A7E3A2756Ab8B9A828485f052b6693AaA33E/BAFCToken.sol",
+            "line": 170,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "semgrep",
+        "mode": "solidity",
+        "version": "2023/08/21"
+    }
+}

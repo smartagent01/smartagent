@@ -1,0 +1,1060 @@
+{
+  "/smart-agent-artifact/smart-agent/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol": [
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC165.supportsInterface",
+      "info": "supportsInterface",
+      "loc": [
+        24,
+        4,
+        24,
+        79
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC721.balanceOf",
+      "info": "balanceOf",
+      "loc": [
+        51,
+        4,
+        51,
+        77
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC721.ownerOf",
+      "info": "ownerOf",
+      "loc": [
+        60,
+        4,
+        60,
+        75
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC721.safeTransferFrom",
+      "info": "safeTransferFrom",
+      "loc": [
+        76,
+        4,
+        80,
+        14
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC721.transferFrom",
+      "info": "transferFrom",
+      "loc": [
+        96,
+        4,
+        100,
+        14
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC721.approve",
+      "info": "approve",
+      "loc": [
+        115,
+        4,
+        115,
+        58
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC721.getApproved",
+      "info": "getApproved",
+      "loc": [
+        124,
+        4,
+        124,
+        82
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC721.setApprovalForAll",
+      "info": "setApprovalForAll",
+      "loc": [
+        136,
+        4,
+        136,
+        73
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC721.isApprovedForAll",
+      "info": "isApprovedForAll",
+      "loc": [
+        143,
+        4,
+        143,
+        91
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC721.safeTransferFrom",
+      "info": "safeTransferFrom",
+      "loc": [
+        158,
+        4,
+        163,
+        14
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC721Receiver.onERC721Received",
+      "info": "onERC721Received",
+      "loc": [
+        183,
+        4,
+        188,
+        31
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC721Metadata.name",
+      "info": "name",
+      "loc": [
+        201,
+        4,
+        201,
+        57
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC721Metadata.symbol",
+      "info": "symbol",
+      "loc": [
+        206,
+        4,
+        206,
+        59
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC721Metadata.tokenURI",
+      "info": "tokenURI",
+      "loc": [
+        211,
+        4,
+        211,
+        76
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Address.isContract",
+      "info": "isContract",
+      "loc": [
+        246,
+        4,
+        252,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Address.sendValue",
+      "info": "sendValue",
+      "loc": [
+        270,
+        4,
+        275,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Address.functionCall",
+      "info": "functionCall",
+      "loc": [
+        295,
+        4,
+        297,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Address.functionCall",
+      "info": "functionCall",
+      "loc": [
+        305,
+        4,
+        311,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Address.functionCallWithValue",
+      "info": "functionCallWithValue",
+      "loc": [
+        324,
+        4,
+        330,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Address.functionCallWithValue",
+      "info": "functionCallWithValue",
+      "loc": [
+        338,
+        4,
+        349,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Address.functionStaticCall",
+      "info": "functionStaticCall",
+      "loc": [
+        357,
+        4,
+        359,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Address.functionStaticCall",
+      "info": "functionStaticCall",
+      "loc": [
+        367,
+        4,
+        376,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Address.functionDelegateCall",
+      "info": "functionDelegateCall",
+      "loc": [
+        384,
+        4,
+        386,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Address.functionDelegateCall",
+      "info": "functionDelegateCall",
+      "loc": [
+        394,
+        4,
+        403,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Address.verifyCallResult",
+      "info": "verifyCallResult",
+      "loc": [
+        411,
+        4,
+        431,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Context._msgSender",
+      "info": "_msgSender",
+      "loc": [
+        447,
+        4,
+        449,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Context._msgData",
+      "info": "_msgData",
+      "loc": [
+        451,
+        4,
+        453,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Strings.toString",
+      "info": "toString",
+      "loc": [
+        467,
+        4,
+        487,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Strings.toHexString",
+      "info": "toHexString",
+      "loc": [
+        492,
+        4,
+        503,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Strings.toHexString",
+      "info": "toHexString",
+      "loc": [
+        508,
+        4,
+        518,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC165.supportsInterface",
+      "info": "supportsInterface",
+      "loc": [
+        541,
+        4,
+        543,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721.__constructor__",
+      "info": "__constructor__",
+      "loc": [
+        578,
+        4,
+        581,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721.supportsInterface",
+      "info": "supportsInterface",
+      "loc": [
+        586,
+        4,
+        591,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721.balanceOf",
+      "info": "balanceOf",
+      "loc": [
+        596,
+        4,
+        599,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721.ownerOf",
+      "info": "ownerOf",
+      "loc": [
+        604,
+        4,
+        608,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721.name",
+      "info": "name",
+      "loc": [
+        613,
+        4,
+        615,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721.symbol",
+      "info": "symbol",
+      "loc": [
+        620,
+        4,
+        622,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721.tokenURI",
+      "info": "tokenURI",
+      "loc": [
+        627,
+        4,
+        632,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721._baseURI",
+      "info": "_baseURI",
+      "loc": [
+        639,
+        4,
+        641,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721.approve",
+      "info": "approve",
+      "loc": [
+        646,
+        4,
+        656,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721.getApproved",
+      "info": "getApproved",
+      "loc": [
+        661,
+        4,
+        665,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721.setApprovalForAll",
+      "info": "setApprovalForAll",
+      "loc": [
+        670,
+        4,
+        672,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721.isApprovedForAll",
+      "info": "isApprovedForAll",
+      "loc": [
+        677,
+        4,
+        679,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721.transferFrom",
+      "info": "transferFrom",
+      "loc": [
+        684,
+        4,
+        693,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721.safeTransferFrom",
+      "info": "safeTransferFrom",
+      "loc": [
+        698,
+        4,
+        704,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721.safeTransferFrom",
+      "info": "safeTransferFrom",
+      "loc": [
+        709,
+        4,
+        717,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721._safeTransfer",
+      "info": "_safeTransfer",
+      "loc": [
+        737,
+        4,
+        745,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721._exists",
+      "info": "_exists",
+      "loc": [
+        755,
+        4,
+        757,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721._isApprovedOrOwner",
+      "info": "_isApprovedOrOwner",
+      "loc": [
+        766,
+        4,
+        770,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721._safeMint",
+      "info": "_safeMint",
+      "loc": [
+        782,
+        4,
+        784,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721._safeMint",
+      "info": "_safeMint",
+      "loc": [
+        790,
+        4,
+        800,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721._mint",
+      "info": "_mint",
+      "loc": [
+        814,
+        4,
+        826,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721._burn",
+      "info": "_burn",
+      "loc": [
+        838,
+        4,
+        852,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721._transfer",
+      "info": "_transfer",
+      "loc": [
+        865,
+        4,
+        885,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721._approve",
+      "info": "_approve",
+      "loc": [
+        892,
+        4,
+        895,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721._setApprovalForAll",
+      "info": "_setApprovalForAll",
+      "loc": [
+        902,
+        4,
+        910,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721._checkOnERC721Received",
+      "info": "_checkOnERC721Received",
+      "loc": [
+        922,
+        4,
+        943,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721._beforeTokenTransfer",
+      "info": "_beforeTokenTransfer",
+      "loc": [
+        959,
+        4,
+        963,
+        24
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721._afterTokenTransfer",
+      "info": "_afterTokenTransfer",
+      "loc": [
+        976,
+        4,
+        980,
+        24
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721URIStorage.tokenURI",
+      "info": "tokenURI",
+      "loc": [
+        997,
+        4,
+        1013,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721URIStorage._setTokenURI",
+      "info": "_setTokenURI",
+      "loc": [
+        1022,
+        4,
+        1025,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721URIStorage._burn",
+      "info": "_burn",
+      "loc": [
+        1037,
+        4,
+        1043,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Ownable.__constructor__",
+      "info": "__constructor__",
+      "loc": [
+        1068,
+        4,
+        1070,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Ownable.owner",
+      "info": "owner",
+      "loc": [
+        1075,
+        4,
+        1077,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Ownable.renounceOwnership",
+      "info": "renounceOwnership",
+      "loc": [
+        1094,
+        4,
+        1096,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Ownable.transferOwnership",
+      "info": "transferOwnership",
+      "loc": [
+        1102,
+        4,
+        1105,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Ownable._transferOwnership",
+      "info": "_transferOwnership",
+      "loc": [
+        1111,
+        4,
+        1115,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Counters.current",
+      "info": "current",
+      "loc": [
+        1136,
+        4,
+        1138,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Counters.increment",
+      "info": "increment",
+      "loc": [
+        1140,
+        4,
+        1144,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Counters.decrement",
+      "info": "decrement",
+      "loc": [
+        1146,
+        4,
+        1152,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Counters.reset",
+      "info": "reset",
+      "loc": [
+        1154,
+        4,
+        1156,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: FlippazOne.__constructor__",
+      "info": "__constructor__",
+      "loc": [
+        1194,
+        4,
+        1197,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: FlippazOne._baseURI",
+      "info": "_baseURI",
+      "loc": [
+        1199,
+        4,
+        1201,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: FlippazOne.editBaseUri",
+      "info": "editBaseUri",
+      "loc": [
+        1203,
+        4,
+        1205,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: FlippazOne.editBuyNowMultipler",
+      "info": "editBuyNowMultipler",
+      "loc": [
+        1208,
+        4,
+        1210,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: FlippazOne.editMinBidStep",
+      "info": "editMinBidStep",
+      "loc": [
+        1212,
+        4,
+        1214,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: FlippazOne.editDuration",
+      "info": "editDuration",
+      "loc": [
+        1217,
+        4,
+        1221,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: FlippazOne.isAuctionActive",
+      "info": "isAuctionActive",
+      "loc": [
+        1223,
+        4,
+        1230,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: FlippazOne.startAuction",
+      "info": "startAuction",
+      "loc": [
+        1232,
+        4,
+        1237,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: FlippazOne.getBidderPaidAmount",
+      "info": "getBidderPaidAmount",
+      "loc": [
+        1239,
+        4,
+        1241,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: FlippazOne.getBidderByIndex",
+      "info": "getBidderByIndex",
+      "loc": [
+        1243,
+        4,
+        1245,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: FlippazOne.bid",
+      "info": "bid",
+      "loc": [
+        1248,
+        4,
+        1267,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: FlippazOne.isBuyNowActive",
+      "info": "isBuyNowActive",
+      "loc": [
+        1269,
+        4,
+        1280,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: FlippazOne.getBuyNowPrice",
+      "info": "getBuyNowPrice",
+      "loc": [
+        1282,
+        4,
+        1289,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: FlippazOne.buyNow",
+      "info": "buyNow",
+      "loc": [
+        1291,
+        4,
+        1308,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: FlippazOne.endAuction",
+      "info": "endAuction",
+      "loc": [
+        1310,
+        4,
+        1324,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: FlippazOne.refundBids",
+      "info": "refundBids",
+      "loc": [
+        1326,
+        4,
+        1335,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: FlippazOne.burn",
+      "info": "burn",
+      "loc": [
+        1337,
+        4,
+        1340,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: FlippazOne.ownerWithdraw",
+      "info": "ownerWithdraw",
+      "loc": [
+        1342,
+        4,
+        1346,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: FlippazOne.ownerWithdrawTo",
+      "info": "ownerWithdrawTo",
+      "loc": [
+        1348,
+        4,
+        1352,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: FlippazOne.ownerWithdrawAll",
+      "info": "ownerWithdrawAll",
+      "loc": [
+        1354,
+        4,
+        1357,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: FlippazOne.ownerWithdrawAllTo",
+      "info": "ownerWithdrawAllTo",
+      "loc": [
+        1359,
+        4,
+        1362,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: FlippazOne.bidderWithdraw",
+      "info": "bidderWithdraw",
+      "loc": [
+        1364,
+        4,
+        1371,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: FlippazOne._burn",
+      "info": "_burn",
+      "loc": [
+        1373,
+        4,
+        1375,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: FlippazOne.tokenURI",
+      "info": "tokenURI",
+      "loc": [
+        1377,
+        4,
+        1385,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: FlippazOne.isApprovedForAll",
+      "info": "isApprovedForAll",
+      "loc": [
+        1387,
+        4,
+        1391,
+        4
+      ]
+    }
+  ]
+}

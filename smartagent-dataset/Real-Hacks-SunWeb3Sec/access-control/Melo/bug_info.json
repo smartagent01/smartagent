@@ -1,0 +1,18 @@
+[
+  {
+    "bug": [
+      "AccessControl"
+    ],
+    "blockchain": "BSC",
+    "address": "0x9a1aef8c9ada4224ad774afdac07c24955c92a54",
+    "contract": "cERC20",
+    "function": "mint",
+    "source_file": "0x9a1aef8c9ada4224ad774afdac07c24955c92a54.sol",
+    "line_start": 313,
+    "line_end": 321,
+    "reference": [
+      "https://github.com/SunWeb3Sec/DeFiHackLabs/blob/main/src/test/Melo_exp.sol"
+    ],
+    "note": ""
+  }
+]

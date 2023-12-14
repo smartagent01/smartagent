@@ -1,0 +1,15 @@
+File copied : /root/Achecker/ERC721BaseToken.bin-runtime
+processing /root/Achecker/ERC721BaseToken.bin-runtime
+Traceback (most recent call last):
+  File "bin/achecker.py", line 423, in <module>
+    main()
+  File "bin/achecker.py", line 419, in main
+    analysis(p, initial_storage, sym_validation =symbolic_validation, mode=mode)
+  File "bin/achecker.py", line 89, in analysis
+    ssa = rattle.Recover(bytes.hex(p.code).encode(), edges=p.cfg.edges(), split_functions=False)
+  File "/root/Achecker/src/project.py", line 49, in cfg
+    self._cfg = CFG(generate_BBs(self.code))
+  File "/root/Achecker/src/cfg/cfg.py", line 18, in __init__
+    self.root = self._bb_at[0]
+KeyError: 0
+0837284da6a232c6557d48c19bda0228621457e44f0a786f6e0e5bc7af803979

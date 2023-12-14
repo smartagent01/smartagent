@@ -1,0 +1,5 @@
+quaker
+The `quaker` function is public and allows anyone to reinitialize the contract and change the owner.
+
+mint
+The `mint` function incorrectly modifies token balances and total supply, leading to potential manipulation of token economics.

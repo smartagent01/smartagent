@@ -1,0 +1,224 @@
+METRICS: Using configs from the Registry (like --config=p/ci) reports pseudonymous rule metrics to semgrep.dev.
+To disable Registry rule metrics, use "--metrics=off".
+Using configs only from local files (like --config=xyz.yml) does not enable metrics.
+
+More information: https://semgrep.dev/docs/metrics
+
+               
+               
+┌─────────────┐
+│ Scan Status │
+└─────────────┘
+  Scanning 1 file tracked by git with 48 Code rules:
+  Scanning 1 file with 48 solidity rules.
+                    
+                    
+┌──────────────────┐
+│ 47 Code Findings │
+└──────────────────┘
+                                                       
+    /sb/0x70678291bDDfd95498d1214BE368e19e882f7614.sol 
+       solidity.best-practice.use-ownable2step                                  
+          By demanding that the receiver of the owner permissions actively      
+  accept via a contract call                                                    
+          of its own,  `Ownable2Step` and `Ownable2StepUpgradeable` prevent the 
+  contract ownership                                                            
+          from accidentally being transferred  to an address that cannot handle 
+  it.                                                                           
+                                                                                
+          414┆ contract AurumNodePool is Context, Ownable {
+            ⋮┆----------------------------------------
+       solidity.performance.init-variables-with-default-value                   
+          Uninitialized variables are assigned with the types default value.    
+  Explicitly initializing a                                                     
+          variable with its default value costs unnecessary gas.                
+                                                                                
+          428┆ uint256 public totalNodesCreated = 0;
+            ⋮┆----------------------------------------
+       solidity.performance.non-payable-constructor      
+          Consider making costructor payable to save gas.
+                                                         
+          280┆ constructor() {
+          281┆     address msgSender = _msgSender();
+          282┆     _owner = msgSender;
+          283┆     emit OwnershipTransferred(address(0), msgSender);
+          284┆ }
+            ⋮┆----------------------------------------
+          436┆ constructor(
+          437┆     uint256 _nodePrice,
+          438┆     uint256 _rewardPerDay
+          439┆ ) {
+          440┆     nodePrice = _nodePrice;
+          441┆     rewardPerDay = _rewardPerDay;
+          442┆ }
+            ⋮┆----------------------------------------
+       solidity.performance.state-variable-read-in-a-loop                       
+          Replace state variable reads and writes within loops with local       
+  variable reads and writes.                                                    
+                                                                                
+          456┆ _nodesOfUser[account].push(
+            ⋮┆----------------------------------------
+          458┆ nodeId: (totalNodesCreated + 1),
+            ⋮┆----------------------------------------
+          463┆ nodeOwners[account]++;
+            ⋮┆----------------------------------------
+          464┆ totalNodesCreated++;
+            ⋮┆----------------------------------------
+       solidity.performance.unnecessary-checked-arithmetic-in-loop              
+          A lot of times there is no risk that the loop counter can overflow.   
+  Using Solidity's                                                              
+          unchecked block saves the overflow checks.                            
+                                                                                
+          455┆ for (uint256 i = 0; i < count; i ++) {
+            ⋮┆----------------------------------------
+          526┆ for (uint256 i = 0; i < nodesCount; i++) {
+            ⋮┆----------------------------------------
+          543┆ for (uint256 i = 0; i < nodesCount; i++) {
+            ⋮┆----------------------------------------
+       solidity.performance.use-custom-error-not-require                        
+          Consider using custom errors as they are more gas efficient while     
+  allowing developers  to                                                       
+          describe the error in detail using NatSpec.                           
+                                                                                
+           58┆ require(
+           59┆     address(this).balance >= amount,
+           60┆     "Address: insufficient balance"
+           61┆ );
+            ⋮┆----------------------------------------
+           64┆ require(
+           65┆     success,
+           66┆     "Address: unable to send value, recipient may have reverted"
+           67┆ );
+            ⋮┆----------------------------------------
+          146┆ require(
+          147┆     address(this).balance >= value,
+          148┆     "Address: insufficient balance for call"
+          149┆ );
+            ⋮┆----------------------------------------
+          150┆ require(isContract(target), "Address: call to non-contract");
+            ⋮┆----------------------------------------
+          188┆ require(isContract(target), "Address: static call to             
+  non-contract");                                                               
+            ⋮┆----------------------------------------
+          223┆ require(isContract(target), "Address: delegate call to           
+  non-contract");                                                               
+            ⋮┆----------------------------------------
+          297┆ require(_owner == _msgSender(), "Ownable: caller is not the      
+  owner");                                                                      
+            ⋮┆----------------------------------------
+          318┆ require(
+          319┆     newOwner != address(0),
+          320┆     "Ownable: new owner is the zero address"
+          321┆ );
+            ⋮┆----------------------------------------
+          445┆ require(count > 0, "Count should be not 0");
+            ⋮┆----------------------------------------
+          447┆ require(nodeOwners[account] + count <= maxNodes, "Count          
+  Limited");                                                                    
+            ⋮┆----------------------------------------
+          470┆ require(
+          471┆     numberOfNodes > 0,
+          472┆     "CLAIM ERROR: You don't have nodes to claim"
+          473┆ );
+            ⋮┆----------------------------------------
+          481┆ require(found, "NODE SEARCH: No NODE Found with this blocktime");
+            ⋮┆----------------------------------------
+          506┆ require(_creationTime > 0, "NODE: CREATIME must be higher than   
+  zero");                                                                       
+            ⋮┆----------------------------------------
+          509┆ require(
+          510┆     numberOfNodes > 0,
+          511┆     "CLAIM ERROR: You don't have nodes to claim"
+          512┆ );
+            ⋮┆----------------------------------------
+          523┆ require(nodesCount > 0, "NODE: CREATIME must be higher than      
+  zero");                                                                       
+            ⋮┆----------------------------------------
+          536┆ require(isNodeOwner(account), "GET REWARD OF: NO NODE OWNER");
+            ⋮┆----------------------------------------
+          552┆ require(isNodeOwner(account), "GET REWARD OF: NO NODE OWNER");
+            ⋮┆----------------------------------------
+          554┆ require(creationTime > 0, "NODE: CREATIME must be higher than    
+  zero");                                                                       
+            ⋮┆----------------------------------------
+          557┆ require(
+          558┆     numberOfNodes > 0,
+          559┆     "CLAIM ERROR: You don't have nodes to claim"
+          560┆ );
+            ⋮┆----------------------------------------
+       solidity.performance.use-prefix-increment-not-postfix                    
+          Consider using the prefix increment expression whenever the return    
+  value is not needed. The                                                      
+          prefix increment expression is cheaper in terms of gas.               
+                                                                                
+          455┆ for (uint256 i = 0; i < count; i ++) {
+            ⋮┆----------------------------------------
+          463┆ nodeOwners[account]++;
+            ⋮┆----------------------------------------
+          464┆ totalNodesCreated++;
+            ⋮┆----------------------------------------
+          526┆ for (uint256 i = 0; i < nodesCount; i++) {
+                
+                
+┌──────────────┐
+│ Scan Summary │
+└──────────────┘
+
+Ran 48 rules on 1 file: 47 findings.
+            ⋮┆----------------------------------------
+          543┆ for (uint256 i = 0; i < nodesCount; i++) {
+            ⋮┆----------------------------------------
+       solidity.performance.use-short-revert-string                             
+          Shortening revert strings to fit in 32 bytes will decrease gas costs  
+  for deployment and  gas                                                       
+          costs when the revert condition has been met.                         
+                                                                                
+           64┆ require(
+           65┆     success,
+           66┆     "Address: unable to send value, recipient may have reverted"
+           67┆ );
+            ⋮┆----------------------------------------
+          146┆ require(
+          147┆     address(this).balance >= value,
+          148┆     "Address: insufficient balance for call"
+          149┆ );
+            ⋮┆----------------------------------------
+          188┆ require(isContract(target), "Address: static call to             
+  non-contract");                                                               
+            ⋮┆----------------------------------------
+          223┆ require(isContract(target), "Address: delegate call to           
+  non-contract");                                                               
+            ⋮┆----------------------------------------
+          318┆ require(
+          319┆     newOwner != address(0),
+          320┆     "Ownable: new owner is the zero address"
+          321┆ );
+            ⋮┆----------------------------------------
+          470┆ require(
+          471┆     numberOfNodes > 0,
+          472┆     "CLAIM ERROR: You don't have nodes to claim"
+          473┆ );
+            ⋮┆----------------------------------------
+          481┆ require(found, "NODE SEARCH: No NODE Found with this blocktime");
+            ⋮┆----------------------------------------
+          506┆ require(_creationTime > 0, "NODE: CREATIME must be higher than   
+  zero");                                                                       
+            ⋮┆----------------------------------------
+          509┆ require(
+          510┆     numberOfNodes > 0,
+          511┆     "CLAIM ERROR: You don't have nodes to claim"
+          512┆ );
+            ⋮┆----------------------------------------
+          523┆ require(nodesCount > 0, "NODE: CREATIME must be higher than      
+  zero");                                                                       
+            ⋮┆----------------------------------------
+          554┆ require(creationTime > 0, "NODE: CREATIME must be higher than    
+  zero");                                                                       
+            ⋮┆----------------------------------------
+          557┆ require(
+          558┆     numberOfNodes > 0,
+          559┆     "CLAIM ERROR: You don't have nodes to claim"
+          560┆ );
+
+
+A new version of Semgrep is available. See https://semgrep.dev/docs/upgrading

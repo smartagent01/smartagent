@@ -1,0 +1,5 @@
+mint
+The `mint` function is public, allowing anyone to mint an unlimited amount of tokens.
+
+_constructor
+The constructor is incorrectly marked as `public`, which is a syntax issue in Solidity 0.5.x and above.

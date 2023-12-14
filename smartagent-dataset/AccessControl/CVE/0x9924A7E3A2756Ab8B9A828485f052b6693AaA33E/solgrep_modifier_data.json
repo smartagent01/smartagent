@@ -1,0 +1,48 @@
+{
+  "/smart-agent/smartagent-dataset/AccessControl/CVE/0x9924A7E3A2756Ab8B9A828485f052b6693AaA33E/BAFCToken.sol": [
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: BasicToken.onlyPayloadSize",
+      "info": "onlyPayloadSize",
+      "loc": [
+        60,
+        2,
+        65,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: BasicToken.unFrozenAccount",
+      "info": "unFrozenAccount",
+      "loc": [
+        67,
+        2,
+        70,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: BasicToken.onlyOwner",
+      "info": "onlyOwner",
+      "loc": [
+        72,
+        2,
+        79,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: BasicToken.onlyTransferable",
+      "info": "onlyTransferable",
+      "loc": [
+        81,
+        2,
+        88,
+        2
+      ]
+    }
+  ]
+}

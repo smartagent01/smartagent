@@ -1,0 +1,166 @@
+INFO:Slither:Compilation warnings/errors on /sb/BAFCToken.sol:
+/sb/BAFCToken.sol:28:7: Warning: "throw" is deprecated in favour of "revert()", "require()" and "assert()".
+      throw;
+      ^---^
+/sb/BAFCToken.sol:62:8: Warning: "throw" is deprecated in favour of "revert()", "require()" and "assert()".
+       throw;
+       ^---^
+/sb/BAFCToken.sol:77:11: Warning: "throw" is deprecated in favour of "revert()", "require()" and "assert()".
+          throw;
+          ^---^
+/sb/BAFCToken.sol:86:11: Warning: "throw" is deprecated in favour of "revert()", "require()" and "assert()".
+          throw;
+          ^---^
+/sb/BAFCToken.sol:158:5: Warning: Use of the "var" keyword is deprecated.
+    var _allowance = allowed[_from][msg.sender];
+    ^------------^
+/sb/BAFCToken.sol:170:64: Warning: "throw" is deprecated in favour of "revert()", "require()" and "assert()".
+    if ((_value != 0) && (allowed[msg.sender][_spender] != 0)) throw;
+                                                               ^---^
+/sb/BAFCToken.sol:26:3: Warning: This declaration shadows a builtin symbol.
+  function assert(bool assertion) internal {
+  ^ (Relevant source part starts here and spans across multiple lines).
+/sb/BAFCToken.sol:76:11: Warning: Invoking events without "emit" prefix is deprecated.
+          InvalidCaller(msg.sender);
+          ^-----------------------^
+/sb/BAFCToken.sol:85:11: Warning: Invoking events without "emit" prefix is deprecated.
+          LiquidityAlarm("The liquidity is switched off");
+          ^---------------------------------------------^
+/sb/BAFCToken.sol:110:9: Warning: Invoking events without "emit" prefix is deprecated.
+        InvalidAccount(_to, "The receiver account is frozen");
+        ^---------------------------------------------------^
+/sb/BAFCToken.sol:114:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Transfer(msg.sender, _to, _value);
+        ^-------------------------------^
+/sb/BAFCToken.sol:127:7: Warning: Invoking events without "emit" prefix is deprecated.
+      FrozenFunds(target, freeze);
+      ^-------------------------^
+/sb/BAFCToken.sol:138:11: Warning: Invoking events without "emit" prefix is deprecated.
+          OwnershipTransferred(oldOwner, owner);
+          ^-----------------------------------^
+/sb/BAFCToken.sol:166:5: Warning: Invoking events without "emit" prefix is deprecated.
+    Transfer(_from, _to, _value);
+    ^--------------------------^
+/sb/BAFCToken.sol:173:5: Warning: Invoking events without "emit" prefix is deprecated.
+    Approval(msg.sender, _spender, _value);
+    ^------------------------------------^
+/sb/BAFCToken.sol:36:3: Warning: No visibility specified. Defaulting to "public". 
+  function balanceOf(address who) constant returns (uint);
+  ^------------------------------------------------------^
+/sb/BAFCToken.sol:37:3: Warning: No visibility specified. Defaulting to "public". 
+  function transfer(address to, uint value);
+  ^----------------------------------------^
+/sb/BAFCToken.sol:40:3: Warning: No visibility specified. Defaulting to "public". 
+  function allowance(address owner, address spender) constant returns (uint);
+  ^-------------------------------------------------------------------------^
+/sb/BAFCToken.sol:41:3: Warning: No visibility specified. Defaulting to "public". 
+  function transferFrom(address from, address to, uint value);
+  ^----------------------------------------------------------^
+/sb/BAFCToken.sol:42:3: Warning: No visibility specified. Defaulting to "public". 
+  function approve(address spender, uint value);
+  ^--------------------------------------------^
+/sb/BAFCToken.sol:108:3: Warning: No visibility specified. Defaulting to "public". 
+  function transfer(address _to, uint _value) onlyPayloadSize(2 * 32) unFrozenAccount onlyTransferable {
+  ^ (Relevant source part starts here and spans across multiple lines).
+/sb/BAFCToken.sol:118:3: Warning: No visibility specified. Defaulting to "public". 
+  function balanceOf(address _owner) view returns (uint balance) {
+  ^ (Relevant source part starts here and spans across multiple lines).
+/sb/BAFCToken.sol:130:3: Warning: No visibility specified. Defaulting to "public". 
+  function accountFrozenStatus(address target) view returns (bool frozen) {
+  ^ (Relevant source part starts here and spans across multiple lines).
+/sb/BAFCToken.sol:142:3: Warning: No visibility specified. Defaulting to "public". 
+  function switchLiquidity (bool _transferable) onlyOwner returns (bool success) {
+  ^ (Relevant source part starts here and spans across multiple lines).
+/sb/BAFCToken.sol:147:3: Warning: No visibility specified. Defaulting to "public". 
+  function liquidityStatus () view returns (bool _transferable) {
+  ^ (Relevant source part starts here and spans across multiple lines).
+/sb/BAFCToken.sol:157:3: Warning: No visibility specified. Defaulting to "public". 
+  function transferFrom(address _from, address _to, uint _value) onlyPayloadSize(3 * 32) unFrozenAccount onlyTransferable{
+  ^ (Relevant source part starts here and spans across multiple lines).
+/sb/BAFCToken.sol:169:3: Warning: No visibility specified. Defaulting to "public". 
+  function approve(address _spender, uint _value) unFrozenAccount {
+  ^ (Relevant source part starts here and spans across multiple lines).
+/sb/BAFCToken.sol:176:3: Warning: No visibility specified. Defaulting to "public". 
+  function allowance(address _owner, address _spender) view returns (uint remaining) {
+  ^ (Relevant source part starts here and spans across multiple lines).
+/sb/BAFCToken.sol:190:5: Warning: No visibility specified. Defaulting to "public". 
+    function UBSexToken() {
+    ^ (Relevant source part starts here and spans across multiple lines).
+/sb/BAFCToken.sol:10:3: Warning: Function state mutability can be restricted to pure
+  function div(uint a, uint b) internal returns (uint) {
+  ^ (Relevant source part starts here and spans across multiple lines).
+/sb/BAFCToken.sol:26:3: Warning: Function state mutability can be restricted to pure
+  function assert(bool assertion) internal {
+  ^ (Relevant source part starts here and spans across multiple lines).
+
+INFO:Detectors:[93m
+ERC20Basic (/sb/BAFCToken.sol#35-48) has incorrect ERC20 function interface(s):
+	-transfer (/sb/BAFCToken.sol#37-38)
+	-transferFrom (/sb/BAFCToken.sol#41-42)
+	-approve (/sb/BAFCToken.sol#42-43)
+BasicToken (/sb/BAFCToken.sol#48-157) has incorrect ERC20 function interface(s):
+	-transfer (/sb/BAFCToken.sol#109-122)
+StandardToken (/sb/BAFCToken.sol#157-188) has incorrect ERC20 function interface(s):
+	-transferFrom (/sb/BAFCToken.sol#158-172)
+	-approve (/sb/BAFCToken.sol#172-183)
+Reference: https://github.com/trailofbits/slither/wiki/Detectors-Documentation#incorrect-erc20-interface[0m
+INFO:Detectors:[93m
+Contract locking ether found in /sb/BAFCToken.sol:
+	Contract BAFCToken has payable functions:
+	 - fallback (/sb/BAFCToken.sol)
+	But does not have a function to withdraw the ether
+Reference: https://github.com/trailofbits/slither/wiki/Detectors-Documentation#contracts-that-lock-ether[0m
+INFO:Detectors:[92m
+SafeMath.assert (function @ /sb/BAFCToken.sol#26-35) shadows built-in symbol "assert"
+Reference: https://github.com/trailofbits/slither/wiki/Detectors-Documentation#builtin-symbol-shadowing[0m
+INFO:Detectors:[92m
+BAFCToken.decimals should be constant (/sb/BAFCToken.sol#192-193)
+BAFCToken.name should be constant (/sb/BAFCToken.sol#189-191)
+BAFCToken.symbol should be constant (/sb/BAFCToken.sol#192)
+Reference: https://github.com/trailofbits/slither/wiki/Detectors-Documentation#state-variables-that-could-be-declared-constant[0m
+INFO:Detectors:[92m
+Deprecated standard detected @ /sb/BAFCToken.sol#34:
+	- Usage of "throw" should be replaced with "revert()"
+Deprecated standard detected @ /sb/BAFCToken.sol#68:
+	- Usage of "throw" should be replaced with "revert()"
+Deprecated standard detected @ /sb/BAFCToken.sol#82-83:
+	- Usage of "throw" should be replaced with "revert()"
+Deprecated standard detected @ /sb/BAFCToken.sol#91:
+	- Usage of "throw" should be replaced with "revert()"
+Deprecated standard detected @ /sb/BAFCToken.sol#176:
+	- Usage of "throw" should be replaced with "revert()"
+Reference: https://github.com/trailofbits/slither/wiki/Detectors-Documentation#deprecated-standards[0m
+INFO:Detectors:[92m
+BasicToken.balanceOf (/sb/BAFCToken.sol#122-123) should be declared external
+ERC20Basic.balanceOf (/sb/BAFCToken.sol#36-37) should be declared external
+BasicToken.transfer (/sb/BAFCToken.sol#109-122) should be declared external
+ERC20Basic.transfer (/sb/BAFCToken.sol#37-38) should be declared external
+ERC20Basic.allowance (/sb/BAFCToken.sol#40-41) should be declared external
+StandardToken.allowance (/sb/BAFCToken.sol#184-187) should be declared external
+StandardToken.transferFrom (/sb/BAFCToken.sol#158-172) should be declared external
+ERC20Basic.transferFrom (/sb/BAFCToken.sol#41-42) should be declared external
+StandardToken.approve (/sb/BAFCToken.sol#172-183) should be declared external
+ERC20Basic.approve (/sb/BAFCToken.sol#42-43) should be declared external
+BasicToken.freezeAccount (/sb/BAFCToken.sol#127-134) should be declared external
+BasicToken.accountFrozenStatus (/sb/BAFCToken.sol#134-136) should be declared external
+BasicToken.transferOwnership (/sb/BAFCToken.sol#136-144) should be declared external
+BasicToken.switchLiquidity (/sb/BAFCToken.sol#147-154) should be declared external
+BasicToken.liquidityStatus (/sb/BAFCToken.sol#155-157) should be declared external
+BAFCToken.UBSexToken (/sb/BAFCToken.sol#198-199) should be declared external
+BAFCToken.fallback (/sb/BAFCToken.sol) should be declared external
+Reference: https://github.com/trailofbits/slither/wiki/Detectors-Documentation#public-function-that-could-be-declared-as-external[0m
+INFO:Detectors:[92m
+Parameter '_owner' of BasicToken.balanceOf (/sb/BAFCToken.sol#122) is not in mixedCase
+Parameter '_to' of BasicToken.transfer (/sb/BAFCToken.sol#109-110) is not in mixedCase
+Parameter '_value' of BasicToken.transfer (/sb/BAFCToken.sol#110) is not in mixedCase
+Parameter '_transferable' of BasicToken.switchLiquidity (/sb/BAFCToken.sol#147) is not in mixedCase
+Parameter '_owner' of StandardToken.allowance (/sb/BAFCToken.sol#184) is not in mixedCase
+Parameter '_spender' of StandardToken.allowance (/sb/BAFCToken.sol#184) is not in mixedCase
+Parameter '_from' of StandardToken.transferFrom (/sb/BAFCToken.sol#160) is not in mixedCase
+Parameter '_to' of StandardToken.transferFrom (/sb/BAFCToken.sol#160) is not in mixedCase
+Parameter '_value' of StandardToken.transferFrom (/sb/BAFCToken.sol#160) is not in mixedCase
+Parameter '_spender' of StandardToken.approve (/sb/BAFCToken.sol#173) is not in mixedCase
+Parameter '_value' of StandardToken.approve (/sb/BAFCToken.sol#173) is not in mixedCase
+Function 'BAFCToken.UBSexToken' (/sb/BAFCToken.sol#198-199) is not in mixedCase
+Reference: https://github.com/trailofbits/slither/wiki/Detectors-Documentation#conformance-to-solidity-naming-conventions[0m
+INFO:Slither:/sb/BAFCToken.sol analyzed (5 contracts), 40 result(s) found

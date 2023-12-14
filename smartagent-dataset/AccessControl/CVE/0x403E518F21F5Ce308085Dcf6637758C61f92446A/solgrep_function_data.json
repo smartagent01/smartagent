@@ -1,0 +1,620 @@
+{
+  "/smart-agent/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol": [
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.mul",
+      "info": "mul",
+      "loc": [
+        8,
+        2,
+        12,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.div",
+      "info": "div",
+      "loc": [
+        14,
+        2,
+        19,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.sub",
+      "info": "sub",
+      "loc": [
+        21,
+        2,
+        24,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.add",
+      "info": "add",
+      "loc": [
+        26,
+        2,
+        30,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Ownable.__constructor__",
+      "info": "__constructor__",
+      "loc": [
+        48,
+        2,
+        50,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Ownable.transferOwnership",
+      "info": "transferOwnership",
+      "loc": [
+        64,
+        2,
+        68,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: tokenInterface.balanceOf",
+      "info": "balanceOf",
+      "loc": [
+        72,
+        1,
+        72,
+        77
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: tokenInterface.transfer",
+      "info": "transfer",
+      "loc": [
+        73,
+        1,
+        73,
+        69
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: rateInterface.readRate",
+      "info": "readRate",
+      "loc": [
+        77,
+        4,
+        77,
+        83
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ICOEngineInterface.started",
+      "info": "started",
+      "loc": [
+        83,
+        4,
+        83,
+        48
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ICOEngineInterface.ended",
+      "info": "ended",
+      "loc": [
+        86,
+        4,
+        86,
+        46
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ICOEngineInterface.startTime",
+      "info": "startTime",
+      "loc": [
+        89,
+        4,
+        89,
+        50
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ICOEngineInterface.endTime",
+      "info": "endTime",
+      "loc": [
+        92,
+        4,
+        92,
+        48
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ICOEngineInterface.totalTokens",
+      "info": "totalTokens",
+      "loc": [
+        103,
+        4,
+        103,
+        52
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ICOEngineInterface.remainingTokens",
+      "info": "remainingTokens",
+      "loc": [
+        107,
+        4,
+        107,
+        56
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ICOEngineInterface.price",
+      "info": "price",
+      "loc": [
+        110,
+        4,
+        110,
+        46
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: KYCBase.__constructor__",
+      "info": "__constructor__",
+      "loc": [
+        121,
+        4,
+        125,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: KYCBase.releaseTokensTo",
+      "info": "releaseTokensTo",
+      "loc": [
+        128,
+        4,
+        128,
+        66
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: KYCBase.senderAllowedFor",
+      "info": "senderAllowedFor",
+      "loc": [
+        131,
+        4,
+        135,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: KYCBase.buyTokensFor",
+      "info": "buyTokensFor",
+      "loc": [
+        137,
+        4,
+        142,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: KYCBase.buyTokens",
+      "info": "buyTokens",
+      "loc": [
+        144,
+        4,
+        148,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: KYCBase.buyImplementation",
+      "info": "buyImplementation",
+      "loc": [
+        150,
+        4,
+        165,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: RC.__constructor__",
+      "info": "__constructor__",
+      "loc": [
+        187,
+        4,
+        207,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: RC.setTimeRC",
+      "info": "setTimeRC",
+      "loc": [
+        209,
+        4,
+        220,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: RC.setTime",
+      "info": "setTime",
+      "loc": [
+        227,
+        4,
+        230,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: RC.changeMinimum",
+      "info": "changeMinimum",
+      "loc": [
+        232,
+        4,
+        234,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: RC.releaseTokensTo",
+      "info": "releaseTokensTo",
+      "loc": [
+        236,
+        4,
+        240,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: RC.started",
+      "info": "started",
+      "loc": [
+        242,
+        4,
+        244,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: RC.ended",
+      "info": "ended",
+      "loc": [
+        246,
+        4,
+        248,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: RC.startTime",
+      "info": "startTime",
+      "loc": [
+        250,
+        4,
+        252,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: RC.endTime",
+      "info": "endTime",
+      "loc": [
+        254,
+        4,
+        256,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: RC.totalTokens",
+      "info": "totalTokens",
+      "loc": [
+        258,
+        4,
+        260,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: RC.remainingTokens",
+      "info": "remainingTokens",
+      "loc": [
+        262,
+        4,
+        264,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: RC.price",
+      "info": "price",
+      "loc": [
+        266,
+        4,
+        269,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: RC.__fallback__",
+      "info": "__fallback__",
+      "loc": [
+        271,
+        1,
+        279,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: RC.takeEther",
+      "info": "takeEther",
+      "loc": [
+        283,
+        1,
+        312,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: RC.giveToken",
+      "info": "giveToken",
+      "loc": [
+        314,
+        1,
+        325,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: RC.claimTokenBonus",
+      "info": "claimTokenBonus",
+      "loc": [
+        327,
+        4,
+        343,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: RC.refundEther",
+      "info": "refundEther",
+      "loc": [
+        345,
+        4,
+        349,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: RC.withdraw",
+      "info": "withdraw",
+      "loc": [
+        351,
+        4,
+        353,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: RC.userBalance",
+      "info": "userBalance",
+      "loc": [
+        355,
+        1,
+        357,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: TokenSale.__constructor__",
+      "info": "__constructor__",
+      "loc": [
+        377,
+        4,
+        384,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: TokenSale.tokenValueInEther",
+      "info": "tokenValueInEther",
+      "loc": [
+        386,
+        4,
+        390,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: TokenSale.buyFromRC",
+      "info": "buyFromRC",
+      "loc": [
+        409,
+        4,
+        436,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: TokenSale.forward",
+      "info": "forward",
+      "loc": [
+        438,
+        4,
+        443,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: TokenSale.addMeByRC",
+      "info": "addMeByRC",
+      "loc": [
+        447,
+        4,
+        453,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: TokenSale.setTime",
+      "info": "setTime",
+      "loc": [
+        455,
+        4,
+        458,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: TokenSale.withdraw",
+      "info": "withdraw",
+      "loc": [
+        460,
+        4,
+        462,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: TokenSale.withdrawTokens",
+      "info": "withdrawTokens",
+      "loc": [
+        464,
+        4,
+        466,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: TokenSale.setTokenContract",
+      "info": "setTokenContract",
+      "loc": [
+        468,
+        4,
+        470,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: TokenSale.setWalletAddress",
+      "info": "setWalletAddress",
+      "loc": [
+        472,
+        4,
+        474,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: TokenSale.setAdvisorAddress",
+      "info": "setAdvisorAddress",
+      "loc": [
+        476,
+        4,
+        478,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: TokenSale.setAdvisorFee",
+      "info": "setAdvisorFee",
+      "loc": [
+        480,
+        4,
+        482,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: TokenSale.setRateContract",
+      "info": "setRateContract",
+      "loc": [
+        484,
+        4,
+        486,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: TokenSale.claim",
+      "info": "claim",
+      "loc": [
+        488,
+        1,
+        490,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: TokenSale.__fallback__",
+      "info": "__fallback__",
+      "loc": [
+        492,
+        4,
+        494,
+        4
+      ]
+    }
+  ]
+}

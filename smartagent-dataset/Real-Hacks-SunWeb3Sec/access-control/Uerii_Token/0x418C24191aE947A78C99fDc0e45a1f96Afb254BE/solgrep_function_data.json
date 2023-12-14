@@ -1,0 +1,356 @@
+{
+  "/smart-agent-artifact/smart-agent/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Uerii_Token/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE.sol": [
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20.totalSupply",
+      "info": "totalSupply",
+      "loc": [
+        14,
+        4,
+        14,
+        58
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20.balanceOf",
+      "info": "balanceOf",
+      "loc": [
+        19,
+        4,
+        19,
+        71
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20.transfer",
+      "info": "transfer",
+      "loc": [
+        28,
+        4,
+        28,
+        80
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20.allowance",
+      "info": "allowance",
+      "loc": [
+        37,
+        4,
+        37,
+        86
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20.approve",
+      "info": "approve",
+      "loc": [
+        53,
+        4,
+        53,
+        77
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20.transferFrom",
+      "info": "transferFrom",
+      "loc": [
+        64,
+        4,
+        68,
+        29
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20Metadata.name",
+      "info": "name",
+      "loc": [
+        94,
+        4,
+        94,
+        57
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20Metadata.symbol",
+      "info": "symbol",
+      "loc": [
+        99,
+        4,
+        99,
+        59
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20Metadata.decimals",
+      "info": "decimals",
+      "loc": [
+        104,
+        4,
+        104,
+        53
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Context._msgSender",
+      "info": "_msgSender",
+      "loc": [
+        119,
+        4,
+        121,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Context._msgData",
+      "info": "_msgData",
+      "loc": [
+        123,
+        4,
+        125,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.__constructor__",
+      "info": "__constructor__",
+      "loc": [
+        172,
+        4,
+        175,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.name",
+      "info": "name",
+      "loc": [
+        180,
+        4,
+        182,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.symbol",
+      "info": "symbol",
+      "loc": [
+        188,
+        4,
+        190,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.decimals",
+      "info": "decimals",
+      "loc": [
+        205,
+        4,
+        207,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.totalSupply",
+      "info": "totalSupply",
+      "loc": [
+        212,
+        4,
+        214,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.balanceOf",
+      "info": "balanceOf",
+      "loc": [
+        219,
+        4,
+        221,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.transfer",
+      "info": "transfer",
+      "loc": [
+        231,
+        4,
+        234,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.allowance",
+      "info": "allowance",
+      "loc": [
+        239,
+        4,
+        241,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.approve",
+      "info": "approve",
+      "loc": [
+        250,
+        4,
+        253,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.transferFrom",
+      "info": "transferFrom",
+      "loc": [
+        268,
+        4,
+        282,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.increaseAllowance",
+      "info": "increaseAllowance",
+      "loc": [
+        296,
+        4,
+        299,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.decreaseAllowance",
+      "info": "decreaseAllowance",
+      "loc": [
+        315,
+        4,
+        323,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20._transfer",
+      "info": "_transfer",
+      "loc": [
+        339,
+        4,
+        359,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20._mint",
+      "info": "_mint",
+      "loc": [
+        370,
+        4,
+        380,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20._burn",
+      "info": "_burn",
+      "loc": [
+        393,
+        4,
+        408,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20._approve",
+      "info": "_approve",
+      "loc": [
+        423,
+        4,
+        433,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20._beforeTokenTransfer",
+      "info": "_beforeTokenTransfer",
+      "loc": [
+        449,
+        4,
+        453,
+        24
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20._afterTokenTransfer",
+      "info": "_afterTokenTransfer",
+      "loc": [
+        469,
+        4,
+        473,
+        24
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Token.__constructor__",
+      "info": "__constructor__",
+      "loc": [
+        484,
+        4,
+        487,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Token.mint",
+      "info": "mint",
+      "loc": [
+        489,
+        4,
+        492,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Token.decimals",
+      "info": "decimals",
+      "loc": [
+        494,
+        4,
+        496,
+        4
+      ]
+    }
+  ]
+}

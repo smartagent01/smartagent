@@ -1,0 +1,376 @@
+METRICS: Using configs from the Registry (like --config=p/ci) reports pseudonymous rule metrics to semgrep.dev.
+To disable Registry rule metrics, use "--metrics=off".
+Using configs only from local files (like --config=xyz.yml) does not enable metrics.
+
+More information: https://semgrep.dev/docs/metrics
+
+               
+               
+┌─────────────┐
+│ Scan Status │
+└─────────────┘
+  Scanning 1 file tracked by git with 48 Code rules:
+  Scanning 1 file with 48 solidity rules.
+                    
+                    
+┌──────────────────┐
+│ 99 Code Findings │
+└──────────────────┘
+                                                                 
+    /sb/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol 
+       solidity.best-practice.use-abi-encodecall-instead-of-encodewithselector  
+          To guarantee arguments type safety it is recommended to use           
+  `abi.encodeCall` instead of                                                   
+          `abi.encodeWithSelector`.                                             
+                                                                                
+         2119┆ (bool success, bytes memory data) =                              
+  token.call(abi.encodeWithSelector(0x095ea7b3, to, value));                    
+            ⋮┆----------------------------------------
+         2125┆ (bool success, bytes memory data) =                              
+  token.call(abi.encodeWithSelector(0xa9059cbb, to, value));                    
+            ⋮┆----------------------------------------
+         2131┆ (bool success, bytes memory data) =                              
+  token.call(abi.encodeWithSelector(0x23b872dd, from, to, value));              
+            ⋮┆----------------------------------------
+       solidity.best-practice.use-ownable2step                                  
+          By demanding that the receiver of the owner permissions actively      
+  accept via a contract call                                                    
+          of its own,  `Ownable2Step` and `Ownable2StepUpgradeable` prevent the 
+  contract ownership                                                            
+          from accidentally being transferred  to an address that cannot handle 
+  it.                                                                           
+                                                                                
+         2199┆ contract BabyBaseRouter is IBabyBaseRouter, Ownable {
+            ⋮┆----------------------------------------
+       solidity.performance.array-length-outside-loop                           
+          Caching the array length outside a loop saves reading it on each      
+  iteration, as long as the                                                     
+          array's length is not changed during the loop.                        
+                                                                                
+         1976┆ for (uint i; i < path.length - 1; i++) {
+            ⋮┆----------------------------------------
+         1987┆ for (uint i; i < path.length - 1; i++) {
+            ⋮┆----------------------------------------
+         1999┆ for (uint i = path.length - 1; i > 0; i--) {
+            ⋮┆----------------------------------------
+         2009┆ for (uint i = path.length - 1; i > 0; i--) {
+            ⋮┆----------------------------------------
+         2288┆ for (uint i; i < path.length - 1; i++) {
+            ⋮┆----------------------------------------
+         2296┆ address to = i < path.length - 2 ? address(this) : _to;
+            ⋮┆----------------------------------------
+         2300┆ if (i < path.length - 2) {
+            ⋮┆----------------------------------------
+         2428┆ for (uint i; i < path.length - 1; i++) {
+            ⋮┆----------------------------------------
+         2445┆ address to = i < path.length - 2 ? address(this) : _to;
+            ⋮┆----------------------------------------
+         2447┆ if (i < path.length - 2) {
+            ⋮┆----------------------------------------
+       solidity.performance.non-payable-constructor      
+          Consider making costructor payable to save gas.
+                                                         
+         2220┆ constructor(address _factory, address _WETH, address _swapMining,
+  address _routerFeeReceiver) {                                                 
+         2221┆     factory = _factory;
+         2222┆     WETH = _WETH;
+         2223┆     swapMining = _swapMining;
+         2224┆     routerFeeReceiver = _routerFeeReceiver;
+         2225┆ }
+            ⋮┆----------------------------------------
+         2238┆ constructor(
+         2239┆     address _factory,
+         2240┆     address _WETH,
+         2241┆     address _swapMining,
+         2242┆     address _routerFeeReceiver,
+         2243┆     address _normalRouter
+         2244┆ ) BabyBaseRouter(_factory, _WETH, _swapMining,                   
+  _routerFeeReceiver) {                                                         
+         2245┆     normalRouter = _normalRouter;
+         2246┆ }
+            ⋮┆----------------------------------------
+       solidity.performance.unnecessary-checked-arithmetic-in-loop              
+          A lot of times there is no risk that the loop counter can overflow.   
+  Using Solidity's                                                              
+          unchecked block saves the overflow checks.                            
+                                                                                
+         1976┆ for (uint i; i < path.length - 1; i++) {
+            ⋮┆----------------------------------------
+         1987┆ for (uint i; i < path.length - 1; i++) {
+            ⋮┆----------------------------------------
+         2288┆ for (uint i; i < path.length - 1; i++) {
+            ⋮┆----------------------------------------
+         2428┆ for (uint i; i < path.length - 1; i++) {
+            ⋮┆----------------------------------------
+       solidity.performance.use-custom-error-not-require                        
+          Consider using custom errors as they are more gas efficient while     
+  allowing developers  to                                                       
+          describe the error in detail using NatSpec.                           
+                                                                                
+           72┆ require(owner() == _msgSender(), "Ownable: caller is not the     
+  owner");                                                                      
+            ⋮┆----------------------------------------
+           93┆ require(newOwner != address(0), "Ownable: new owner is the zero  
+  address");                                                                    
+            ⋮┆----------------------------------------
+          210┆ require(c >= a, 'SafeMath: addition overflow');
+            ⋮┆----------------------------------------
+          269┆ require(c / a == b, 'SafeMath: multiplication overflow');
+            ⋮┆----------------------------------------
+         1910┆ require(tokenA != tokenB, 'BabyLibrary: IDENTICAL_ADDRESSES');
+            ⋮┆----------------------------------------
+         1912┆ require(token0 != address(0), 'BabyLibrary: ZERO_ADDRESS');
+            ⋮┆----------------------------------------
+         1930┆ require(amountA > 0, 'BabyLibrary: INSUFFICIENT_AMOUNT');
+            ⋮┆----------------------------------------
+         1931┆ require(reserveA > 0 && reserveB > 0, 'BabyLibrary:              
+  INSUFFICIENT_LIQUIDITY');                                                     
+            ⋮┆----------------------------------------
+         1937┆ require(amountIn > 0, 'BabyLibrary: INSUFFICIENT_INPUT_AMOUNT');
+            ⋮┆----------------------------------------
+         1938┆ require(reserveIn > 0 && reserveOut > 0, 'BabyLibrary:           
+  INSUFFICIENT_LIQUIDITY');                                                     
+            ⋮┆----------------------------------------
+         1946┆ require(amountIn > 0, 'BabyLibrary: INSUFFICIENT_INPUT_AMOUNT');
+            ⋮┆----------------------------------------
+         1947┆ require(reserveIn > 0 && reserveOut > 0, 'BabyLibrary:           
+  INSUFFICIENT_LIQUIDITY');                                                     
+            ⋮┆----------------------------------------
+         1956┆ require(amountOut > 0, 'BabyLibrary:                             
+  INSUFFICIENT_OUTPUT_AMOUNT');                                                 
+            ⋮┆----------------------------------------
+         1957┆ require(reserveIn > 0 && reserveOut > 0, 'BabyLibrary:           
+  INSUFFICIENT_LIQUIDITY');                                                     
+            ⋮┆----------------------------------------
+         1964┆ require(amountOut > 0, 'BabyLibrary:                             
+  INSUFFICIENT_OUTPUT_AMOUNT');                                                 
+            ⋮┆----------------------------------------
+         1965┆ require(reserveIn > 0 && reserveOut > 0, 'BabyLibrary:           
+  INSUFFICIENT_LIQUIDITY');                                                     
+            ⋮┆----------------------------------------
+         1973┆ require(path.length >= 2, 'BabyLibrary: INVALID_PATH');
+            ⋮┆----------------------------------------
+         1984┆ require(path.length >= 2 && path.length - 1 == factories.length  
+  && factories.length == fees.length, 'BabyLibrary: INVALID_PATH');             
+            ⋮┆----------------------------------------
+         1996┆ require(path.length >= 2, 'BabyLibrary: INVALID_PATH');
+            ⋮┆----------------------------------------
+         2006┆ require(path.length >= 2 && path.length - 1 == factories.length  
+  && factories.length == fees.length, 'BabyLibrary: INVALID_PATH');             
+            ⋮┆----------------------------------------
+         2120┆ require(success && (data.length == 0 || abi.decode(data,         
+  (bool))), 'TransferHelper: APPROVE_FAILED');                                  
+            ⋮┆----------------------------------------
+         2126┆ require(success && (data.length == 0 || abi.decode(data,         
+  (bool))), 'TransferHelper: TRANSFER_FAILED');                                 
+            ⋮┆----------------------------------------
+         2132┆ require(success && (data.length == 0 || abi.decode(data,         
+  (bool))), 'TransferHelper: TRANSFER_FROM_FAILED');                            
+            ⋮┆----------------------------------------
+         2137┆ require(success, 'TransferHelper: ETH_TRANSFER_FAILED');
+            ⋮┆----------------------------------------
+         2208┆ require(deadline >= block.timestamp, 'BabyRouter: EXPIRED');
+            ⋮┆----------------------------------------
+         2317┆ require(amounts[amounts.length - 1] >= amountOutMin, 'BabyRouter:
+  INSUFFICIENT_OUTPUT_AMOUNT');                                                 
+            ⋮┆----------------------------------------
+         2335┆ require(amounts[0] <= amountInMax, 'BabyRouter:                  
+  EXCESSIVE_INPUT_AMOUNT');                                                     
+            ⋮┆----------------------------------------
+         2351┆ require(path[0] == WETH, 'BabyRouter: INVALID_PATH');
+            ⋮┆----------------------------------------
+         2353┆ require(amounts[amounts.length - 1] >= amountOutMin, 'BabyRouter:
+  INSUFFICIENT_OUTPUT_AMOUNT');                                                 
+            ⋮┆----------------------------------------
+         2369┆ require(path[path.length - 1] == WETH, 'BabyRouter:              
+  INVALID_PATH');                                                               
+            ⋮┆----------------------------------------
+         2371┆ require(amounts[0] <= amountInMax, 'BabyRouter:                  
+  EXCESSIVE_INPUT_AMOUNT');                                                     
+            ⋮┆----------------------------------------
+         2390┆ require(path[path.length - 1] == WETH, 'BabyRouter:              
+  INVALID_PATH');                                                               
+            ⋮┆----------------------------------------
+         2392┆ require(amounts[amounts.length - 1] >= amountOutMin, 'BabyRouter:
+  INSUFFICIENT_OUTPUT_AMOUNT');                                                 
+            ⋮┆----------------------------------------
+         2410┆ require(path[0] == WETH, 'BabyRouter: INVALID_PATH');
+            ⋮┆----------------------------------------
+         2412┆ require(amounts[0] <= msg.value, 'BabyRouter:                    
+  EXCESSIVE_INPUT_AMOUNT');                                                     
+            ⋮┆----------------------------------------
+         2469┆ require(
+         2470┆     IERC20(path[path.length -                                    
+  1]).balanceOf(to).sub(balanceBefore) >= amountOutMin,                         
+         2471┆     'BabyRouter:INSUFFICIENT_OUTPUT_AMOUNT'
+         2472┆ );
+            ⋮┆----------------------------------------
+         2483┆ require(path[0] == WETH, 'BabyRouter');
+            ⋮┆----------------------------------------
+         2491┆ require(
+         2492┆     balanceAfter.sub(balanceBefore) >= amountOutMin,
+         2493┆     'BabyRouter: INSUFFICIENT_OUTPUT_AMOUNT'
+         2494┆ );
+            ⋮┆----------------------------------------
+         2506┆ require(path[path.length - 1] == WETH, 'BabyRouter:              
+  INVALID_PATH');                                                               
+            ⋮┆----------------------------------------
+         2513┆ require(amountOut >= amountOutMin, 'BabyRouter:                  
+  INSUFFICIENT_OUTPUT_AMOUNT');                                                 
+            ⋮┆----------------------------------------
+       solidity.performance.use-multiple-require                                
+          Using multiple require statements is cheaper than using && multiple   
+  check combinations.                                                           
+          There are more advantages, such as easier to read code and better     
+  coverage reports.                                                             
+                                                                                
+         1931┆ require(reserveA > 0 && reserveB > 0, 'BabyLibrary:              
+  INSUFFICIENT_LIQUIDITY');                                                     
+            ⋮┆----------------------------------------
+         1938┆ require(reserveIn > 0 && reserveOut > 0, 'BabyLibrary:           
+  INSUFFICIENT_LIQUIDITY');                                                     
+            ⋮┆----------------------------------------
+         1947┆ require(reserveIn > 0 && reserveOut > 0, 'BabyLibrary:           
+  INSUFFICIENT_LIQUIDITY');                                                     
+            ⋮┆----------------------------------------
+         1957┆ require(reserveIn > 0 && reserveOut > 0, 'BabyLibrary:           
+  INSUFFICIENT_LIQUIDITY');                                                     
+            ⋮┆----------------------------------------
+         1965┆ require(reserveIn > 0 && reserveOut > 0, 'BabyLibrary:           
+  INSUFFICIENT_LIQUIDITY');                                                     
+            ⋮┆----------------------------------------
+         1984┆ require(path.length >= 2 && path.length - 1 == factories.length  
+  && factories.length == fees.length, 'BabyLibrary: INVALID_PATH');             
+            ⋮┆----------------------------------------
+         2006┆ require(path.length >= 2 && path.length - 1 == factories.length  
+  && factories.length == fees.length, 'BabyLibrary: INVALID_PATH');             
+            ⋮┆----------------------------------------
+         2120┆ require(success && (data.length == 0 || abi.decode(data,         
+  (bool))), 'TransferHelper: APPROVE_FAILED');                                  
+            ⋮┆----------------------------------------
+         2126┆ require(success && (data.length == 0 || abi.decode(data,         
+  (bool))), 'TransferHelper: TRANSFER_FAILED');                                 
+            ⋮┆----------------------------------------
+         2132┆ require(success && (data.length == 0 || abi.decode(data,         
+  (bool))), 'TransferHelper: TRANSFER_FROM_FAILED');                            
+            ⋮┆----------------------------------------
+       solidity.performance.use-nested-if                                       
+          Using nested is cheaper than using && multiple check combinations.    
+  There are more                                                                
+          advantages, such as easier to read code and better coverage reports.  
+                                                                                
+         2249┆ if (routerFeeReceiver != address(0) && _factory == factory) {
+         2250┆     uint fee = _amount.mul(1).div(1000);
+         2251┆     if (fee > 0) {
+         2252┆         if (_user == address(this)) {
+         2253┆             TransferHelper.safeTransfer(_token,                  
+  routerFeeReceiver, fee);                                                      
+         2254┆         } else {
+         2255┆             TransferHelper.safeTransferFrom(
+         2256┆                 _token, msg.sender, routerFeeReceiver, fee
+         2257┆             );
+         2258┆         }
+             [hid 3 additional lines, adjust with --max-lines-per-finding] 
+       solidity.performance.use-prefix-decrement-not-postfix                    
+          Consider using the prefix decrement expression whenever the return    
+  value is not needed. The                                                      
+          prefix decrement expression is cheaper in terms of gas.               
+                                                                                
+         1999┆ for (uint i = path.length - 1; i > 0; i--) {
+            ⋮┆----------------------------------------
+         2009┆ for (uint i = path.length - 1; i > 0; i--) {
+            ⋮┆----------------------------------------
+       solidity.performance.use-prefix-increment-not-postfix                    
+          Consider using the prefix increment expression whenever the return    
+  value is not needed. The                                                      
+          prefix increment expression is cheaper in terms of gas.               
+                                                                                
+         1976┆ for (uint i; i < path.length - 1; i++) {
+            ⋮┆----------------------------------------
+         1987┆ for (uint i; i < path.length - 1; i++) {
+            ⋮┆----------------------------------------
+         2288┆ for (uint i; i < path.length - 1; i++) {
+            ⋮┆----------------------------------------
+         2428┆ for (uint i; i < path.length - 1; i++) {
+            ⋮┆----------------------------------------
+       solidity.performance.use-short-revert-string                             
+          Shortening revert strings to fit in 32 bytes will decrease gas costs  
+                
+                
+┌──────────────┐
+│ Scan Summary │
+└──────────────┘
+
+Ran 48 rules on 1 file: 99 findings.
+  for deployment and  gas                                                       
+          costs when the revert condition has been met.                         
+                                                                                
+           93┆ require(newOwner != address(0), "Ownable: new owner is the zero  
+  address");                                                                    
+            ⋮┆----------------------------------------
+          269┆ require(c / a == b, 'SafeMath: multiplication overflow');
+            ⋮┆----------------------------------------
+         1931┆ require(reserveA > 0 && reserveB > 0, 'BabyLibrary:              
+  INSUFFICIENT_LIQUIDITY');                                                     
+            ⋮┆----------------------------------------
+         1937┆ require(amountIn > 0, 'BabyLibrary: INSUFFICIENT_INPUT_AMOUNT');
+            ⋮┆----------------------------------------
+         1938┆ require(reserveIn > 0 && reserveOut > 0, 'BabyLibrary:           
+  INSUFFICIENT_LIQUIDITY');                                                     
+            ⋮┆----------------------------------------
+         1946┆ require(amountIn > 0, 'BabyLibrary: INSUFFICIENT_INPUT_AMOUNT');
+            ⋮┆----------------------------------------
+         1947┆ require(reserveIn > 0 && reserveOut > 0, 'BabyLibrary:           
+  INSUFFICIENT_LIQUIDITY');                                                     
+            ⋮┆----------------------------------------
+         1956┆ require(amountOut > 0, 'BabyLibrary:                             
+  INSUFFICIENT_OUTPUT_AMOUNT');                                                 
+            ⋮┆----------------------------------------
+         1957┆ require(reserveIn > 0 && reserveOut > 0, 'BabyLibrary:           
+  INSUFFICIENT_LIQUIDITY');                                                     
+            ⋮┆----------------------------------------
+         1964┆ require(amountOut > 0, 'BabyLibrary:                             
+  INSUFFICIENT_OUTPUT_AMOUNT');                                                 
+            ⋮┆----------------------------------------
+         1965┆ require(reserveIn > 0 && reserveOut > 0, 'BabyLibrary:           
+  INSUFFICIENT_LIQUIDITY');                                                     
+            ⋮┆----------------------------------------
+         2132┆ require(success && (data.length == 0 || abi.decode(data,         
+  (bool))), 'TransferHelper: TRANSFER_FROM_FAILED');                            
+            ⋮┆----------------------------------------
+         2137┆ require(success, 'TransferHelper: ETH_TRANSFER_FAILED');
+            ⋮┆----------------------------------------
+         2317┆ require(amounts[amounts.length - 1] >= amountOutMin, 'BabyRouter:
+  INSUFFICIENT_OUTPUT_AMOUNT');                                                 
+            ⋮┆----------------------------------------
+         2335┆ require(amounts[0] <= amountInMax, 'BabyRouter:                  
+  EXCESSIVE_INPUT_AMOUNT');                                                     
+            ⋮┆----------------------------------------
+         2353┆ require(amounts[amounts.length - 1] >= amountOutMin, 'BabyRouter:
+  INSUFFICIENT_OUTPUT_AMOUNT');                                                 
+            ⋮┆----------------------------------------
+         2371┆ require(amounts[0] <= amountInMax, 'BabyRouter:                  
+  EXCESSIVE_INPUT_AMOUNT');                                                     
+            ⋮┆----------------------------------------
+         2392┆ require(amounts[amounts.length - 1] >= amountOutMin, 'BabyRouter:
+  INSUFFICIENT_OUTPUT_AMOUNT');                                                 
+            ⋮┆----------------------------------------
+         2412┆ require(amounts[0] <= msg.value, 'BabyRouter:                    
+  EXCESSIVE_INPUT_AMOUNT');                                                     
+            ⋮┆----------------------------------------
+         2469┆ require(
+         2470┆     IERC20(path[path.length -                                    
+  1]).balanceOf(to).sub(balanceBefore) >= amountOutMin,                         
+         2471┆     'BabyRouter:INSUFFICIENT_OUTPUT_AMOUNT'
+         2472┆ );
+            ⋮┆----------------------------------------
+         2491┆ require(
+         2492┆     balanceAfter.sub(balanceBefore) >= amountOutMin,
+         2493┆     'BabyRouter: INSUFFICIENT_OUTPUT_AMOUNT'
+         2494┆ );
+            ⋮┆----------------------------------------
+         2513┆ require(amountOut >= amountOutMin, 'BabyRouter:                  
+  INSUFFICIENT_OUTPUT_AMOUNT');                                                 
+
+
+A new version of Semgrep is available. See https://semgrep.dev/docs/upgrading

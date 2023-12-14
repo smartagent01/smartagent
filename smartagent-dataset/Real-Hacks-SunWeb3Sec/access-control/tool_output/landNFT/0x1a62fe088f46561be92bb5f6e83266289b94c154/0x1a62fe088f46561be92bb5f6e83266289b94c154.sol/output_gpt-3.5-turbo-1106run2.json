@@ -1,0 +1,3 @@
+The contract has a function for setting the addresses of other ERC20 and ERC1155 tokens, which are used for consuming tokens during the upgrade process - Missing permission checking in functions that can change the ownership or admin right of the contract.
+
+The contract includes a modifier "onlyMiner" to restrict certain functions to be accessible only by designated miners - Incorrect implementation of access control modifier.

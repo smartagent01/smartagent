@@ -1,0 +1,851 @@
+{
+  "/smart-agent-artifact/smart-agent/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol": [
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Context.__constructor__",
+      "info": "__constructor__",
+      "loc": [
+        22,
+        4,
+        22,
+        30
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Context._msgSender",
+      "info": "_msgSender",
+      "loc": [
+        25,
+        4,
+        27,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Context._msgData",
+      "info": "_msgData",
+      "loc": [
+        29,
+        4,
+        32,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20.totalSupply",
+      "info": "totalSupply",
+      "loc": [
+        47,
+        4,
+        47,
+        58
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20.balanceOf",
+      "info": "balanceOf",
+      "loc": [
+        52,
+        4,
+        52,
+        71
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20.transfer",
+      "info": "transfer",
+      "loc": [
+        61,
+        4,
+        61,
+        80
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20.allowance",
+      "info": "allowance",
+      "loc": [
+        70,
+        4,
+        70,
+        86
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20.approve",
+      "info": "approve",
+      "loc": [
+        86,
+        4,
+        86,
+        77
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20.transferFrom",
+      "info": "transferFrom",
+      "loc": [
+        97,
+        4,
+        97,
+        100
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.add",
+      "info": "add",
+      "loc": [
+        141,
+        4,
+        146,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.sub",
+      "info": "sub",
+      "loc": [
+        157,
+        4,
+        159,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.sub",
+      "info": "sub",
+      "loc": [
+        172,
+        4,
+        177,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.mul",
+      "info": "mul",
+      "loc": [
+        188,
+        4,
+        200,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.div",
+      "info": "div",
+      "loc": [
+        213,
+        4,
+        215,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.div",
+      "info": "div",
+      "loc": [
+        230,
+        4,
+        237,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.mod",
+      "info": "mod",
+      "loc": [
+        250,
+        4,
+        252,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.mod",
+      "info": "mod",
+      "loc": [
+        267,
+        4,
+        270,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.totalSupply",
+      "info": "totalSupply",
+      "loc": [
+        315,
+        4,
+        317,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.balanceOf",
+      "info": "balanceOf",
+      "loc": [
+        322,
+        4,
+        324,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.transfer",
+      "info": "transfer",
+      "loc": [
+        334,
+        4,
+        337,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.allowance",
+      "info": "allowance",
+      "loc": [
+        342,
+        4,
+        344,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.approve",
+      "info": "approve",
+      "loc": [
+        353,
+        4,
+        356,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.transferFrom",
+      "info": "transferFrom",
+      "loc": [
+        370,
+        4,
+        374,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.increaseAllowance",
+      "info": "increaseAllowance",
+      "loc": [
+        388,
+        4,
+        391,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.decreaseAllowance",
+      "info": "decreaseAllowance",
+      "loc": [
+        407,
+        4,
+        410,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20._transfer",
+      "info": "_transfer",
+      "loc": [
+        426,
+        4,
+        433,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20._mint",
+      "info": "_mint",
+      "loc": [
+        444,
+        4,
+        450,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20._burn",
+      "info": "_burn",
+      "loc": [
+        463,
+        4,
+        469,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20._approve",
+      "info": "_approve",
+      "loc": [
+        484,
+        4,
+        490,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20._burnFrom",
+      "info": "_burnFrom",
+      "loc": [
+        498,
+        4,
+        501,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20Detailed.__constructor__",
+      "info": "__constructor__",
+      "loc": [
+        521,
+        4,
+        525,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20Detailed.name",
+      "info": "name",
+      "loc": [
+        530,
+        4,
+        532,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20Detailed.symbol",
+      "info": "symbol",
+      "loc": [
+        538,
+        4,
+        540,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20Detailed.decimals",
+      "info": "decimals",
+      "loc": [
+        554,
+        4,
+        556,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Roles.add",
+      "info": "add",
+      "loc": [
+        572,
+        4,
+        575,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Roles.remove",
+      "info": "remove",
+      "loc": [
+        580,
+        4,
+        583,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Roles.has",
+      "info": "has",
+      "loc": [
+        589,
+        4,
+        592,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MinterRole.__constructor__",
+      "info": "__constructor__",
+      "loc": [
+        603,
+        4,
+        605,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MinterRole.isMinter",
+      "info": "isMinter",
+      "loc": [
+        612,
+        4,
+        614,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MinterRole.addMinter",
+      "info": "addMinter",
+      "loc": [
+        616,
+        4,
+        618,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MinterRole.renounceMinter",
+      "info": "renounceMinter",
+      "loc": [
+        620,
+        4,
+        622,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MinterRole._addMinter",
+      "info": "_addMinter",
+      "loc": [
+        624,
+        4,
+        627,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MinterRole._removeMinter",
+      "info": "_removeMinter",
+      "loc": [
+        629,
+        4,
+        632,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Address.isContract",
+      "info": "isContract",
+      "loc": [
+        653,
+        4,
+        662,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Address.toPayable",
+      "info": "toPayable",
+      "loc": [
+        670,
+        4,
+        672,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Address.sendValue",
+      "info": "sendValue",
+      "loc": [
+        692,
+        4,
+        698,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ReentrancyGuard.__constructor__",
+      "info": "__constructor__",
+      "loc": [
+        725,
+        4,
+        733,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Router01.factory",
+      "info": "factory",
+      "loc": [
+        758,
+        4,
+        758,
+        54
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Router01.WETH",
+      "info": "WETH",
+      "loc": [
+        759,
+        4,
+        759,
+        51
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Router01.swapExactTokensForTokens",
+      "info": "swapExactTokensForTokens",
+      "loc": [
+        760,
+        4,
+        766,
+        46
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Router01.addLiquidity",
+      "info": "addLiquidity",
+      "loc": [
+        768,
+        4,
+        774,
+        74
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Router01.transferLiquidity",
+      "info": "transferLiquidity",
+      "loc": [
+        776,
+        4,
+        779,
+        43
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Router01.getCommunityToken",
+      "info": "getCommunityToken",
+      "loc": [
+        780,
+        4,
+        780,
+        72
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Router01.transfer",
+      "info": "transfer",
+      "loc": [
+        781,
+        4,
+        781,
+        70
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Factory.getPair",
+      "info": "getPair",
+      "loc": [
+        785,
+        4,
+        785,
+        89
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Pair.mint",
+      "info": "mint",
+      "loc": [
+        789,
+        4,
+        789,
+        63
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Pair.getReserves",
+      "info": "getReserves",
+      "loc": [
+        790,
+        4,
+        790,
+        112
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Pair.isWhite",
+      "info": "isWhite",
+      "loc": [
+        791,
+        4,
+        791,
+        65
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Pair.white",
+      "info": "white",
+      "loc": [
+        792,
+        4,
+        792,
+        63
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20Mintable.__constructor__",
+      "info": "__constructor__",
+      "loc": [
+        815,
+        4,
+        817,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20Mintable.getTransactFee",
+      "info": "getTransactFee",
+      "loc": [
+        818,
+        4,
+        820,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20Mintable.setTransactFee",
+      "info": "setTransactFee",
+      "loc": [
+        822,
+        4,
+        824,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20Mintable.setDis",
+      "info": "setDis",
+      "loc": [
+        826,
+        4,
+        828,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20Mintable.setSaleDate",
+      "info": "setSaleDate",
+      "loc": [
+        829,
+        4,
+        831,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20Mintable.setSell",
+      "info": "setSell",
+      "loc": [
+        833,
+        4,
+        835,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20Mintable.setRoter",
+      "info": "setRoter",
+      "loc": [
+        836,
+        4,
+        840,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20Mintable.sendTransfer",
+      "info": "sendTransfer",
+      "loc": [
+        842,
+        4,
+        845,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20Mintable.sendApprove",
+      "info": "sendApprove",
+      "loc": [
+        846,
+        4,
+        849,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20Mintable.setContractorsFee",
+      "info": "setContractorsFee",
+      "loc": [
+        850,
+        4,
+        860,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20Mintable.getContractorsFee",
+      "info": "getContractorsFee",
+      "loc": [
+        862,
+        4,
+        866,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20Mintable.addLiquidity",
+      "info": "addLiquidity",
+      "loc": [
+        868,
+        4,
+        876,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20Mintable.transferLiquidity",
+      "info": "transferLiquidity",
+      "loc": [
+        878,
+        3,
+        884,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20Mintable.isContract",
+      "info": "isContract",
+      "loc": [
+        886,
+        4,
+        890,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20Mintable.transactionFee",
+      "info": "transactionFee",
+      "loc": [
+        892,
+        4,
+        970,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20Mintable._transfer",
+      "info": "_transfer",
+      "loc": [
+        972,
+        4,
+        979,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20Mintable.buyMiner",
+      "info": "buyMiner",
+      "loc": [
+        982,
+        4,
+        996,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: UniverseGoldMountain.__constructor__",
+      "info": "__constructor__",
+      "loc": [
+        1000,
+        4,
+        1005,
+        4
+      ]
+    }
+  ]
+}

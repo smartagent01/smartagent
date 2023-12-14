@@ -1,0 +1,5 @@
+Owned
+Incorrect constructor name or initialize function that is public, allow anyone to call it to initialize the contract.
+
+ERC20
+Missing access control modifier in the transfer function, allowing anyone to transfer tokens, even if they are blacklisted.

@@ -1,0 +1,22 @@
+```
+DrugDealer
+Incorrect constructor name or initialize function that is public, allow anyone to call it to initialize the contract.
+
+collectDrugs
+Missing permission checking to ensure only authorized users can call it.
+
+sellDrugs
+Missing permission checking to ensure only authorized users can call it.
+
+buyDrugs
+Missing permission checking to ensure only authorized users can call it.
+
+seedMarket
+Missing permission checking to ensure only authorized users can call it.
+
+getFreeKilo
+Missing permission checking to ensure only authorized users can claim free kilos.
+
+ceoAddress
+Publicly accessible and can be changed by anyone, which is a critical access control bug.
+```

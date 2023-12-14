@@ -1,0 +1,143 @@
+METRICS: Using configs from the Registry (like --config=p/ci) reports pseudonymous rule metrics to semgrep.dev.
+To disable Registry rule metrics, use "--metrics=off".
+Using configs only from local files (like --config=xyz.yml) does not enable metrics.
+
+More information: https://semgrep.dev/docs/metrics
+
+               
+               
+┌─────────────┐
+│ Scan Status │
+└─────────────┘
+  Scanning 1 file tracked by git with 48 Code rules:
+  Scanning 1 file with 48 solidity rules.
+                    
+                    
+┌──────────────────┐
+│ 25 Code Findings │
+└──────────────────┘
+                                             
+    /sb/ZeroXStargateLPSwapper_flattened.sol 
+       solidity.best-practice.use-abi-encodecall-instead-of-encodewithselector  
+          To guarantee arguments type safety it is recommended to use           
+  `abi.encodeCall` instead of                                                   
+          `abi.encodeWithSelector`.                                             
+                                                                                
+          101┆ (bool success, bytes memory data) =                              
+  address(token).staticcall(abi.encodeWithSelector(SIG_SYMBOL));                
+            ⋮┆----------------------------------------
+          109┆ (bool success, bytes memory data) =                              
+  address(token).staticcall(abi.encodeWithSelector(SIG_NAME));                  
+            ⋮┆----------------------------------------
+          117┆ (bool success, bytes memory data) =                              
+  address(token).staticcall(abi.encodeWithSelector(SIG_DECIMALS));              
+            ⋮┆----------------------------------------
+          126┆ (bool success, bytes memory data) =                              
+  address(token).staticcall(abi.encodeWithSelector(SIG_BALANCE_OF, to));        
+            ⋮┆----------------------------------------
+          135┆ (bool success, bytes memory data) =                              
+  address(token).staticcall(abi.encodeWithSelector(SIG_TOTALSUPPLY));           
+            ⋮┆----------------------------------------
+          150┆ (bool success, bytes memory data) =                              
+  address(token).call(abi.encodeWithSelector(SIG_TRANSFER, to, amount));        
+            ⋮┆----------------------------------------
+          166┆ (bool success, bytes memory data) =                              
+  address(token).call(abi.encodeWithSelector(SIG_TRANSFER_FROM, from, to,       
+  amount));                                                                     
+            ⋮┆----------------------------------------
+       solidity.performance.non-payable-constructor      
+          Consider making costructor payable to save gas.
+                                                         
+          687┆ constructor(
+          688┆     IBentoBoxV1 _bentoBox,
+          689┆     IStargatePool _pool,
+          690┆     uint16 _poolId,
+          691┆     IStargateRouter _stargateRouter,
+          692┆     IERC20 _mim,
+          693┆     address _zeroXExchangeProxy
+          694┆ ) {
+          695┆     bentoBox = _bentoBox;
+          696┆     pool = _pool;
+             [hid 9 additional lines, adjust with --max-lines-per-finding] 
+       solidity.performance.use-custom-error-not-require                        
+          Consider using custom errors as they are more gas efficient while     
+  allowing developers  to                                                       
+          describe the error in detail using NatSpec.                           
+                                                                                
+          127┆ require(success && data.length >= 32, "BoringERC20: BalanceOf    
+  failed");                                                                     
+            ⋮┆----------------------------------------
+          136┆ require(success && data.length >= 32, "BoringERC20: totalSupply  
+  failed");                                                                     
+            ⋮┆----------------------------------------
+          151┆ require(success && (data.length == 0 || abi.decode(data,         
+  (bool))), "BoringERC20: Transfer failed");                                    
+            ⋮┆----------------------------------------
+          167┆ require(success && (data.length == 0 || abi.decode(data,         
+  (bool))), "BoringERC20: TransferFrom failed");                                
+            ⋮┆----------------------------------------
+          723┆ require(IERC20(address(pool)).balanceOf(address(this)) == 0,     
+  "Cannot fully redeem");                                                       
+            ⋮┆----------------------------------------
+       solidity.performance.use-multiple-require                                
+          Using multiple require statements is cheaper than using && multiple   
+  check combinations.                                                           
+          There are more advantages, such as easier to read code and better     
+  coverage reports.                                                             
+                                                                                
+          127┆ require(success && data.length >= 32, "BoringERC20: BalanceOf    
+  failed");                                                                     
+            ⋮┆----------------------------------------
+          136┆ require(success && data.length >= 32, "BoringERC20: totalSupply  
+  failed");                                                                     
+            ⋮┆----------------------------------------
+          151┆ require(success && (data.length == 0 || abi.decode(data,         
+  (bool))), "BoringERC20: Transfer failed");                                    
+            ⋮┆----------------------------------------
+          167┆ require(success && (data.length == 0 || abi.decode(data,         
+  (bool))), "BoringERC20: TransferFrom failed");                                
+            ⋮┆----------------------------------------
+       solidity.performance.use-nested-if                                       
+          Using nested is cheaper than using && multiple check combinations.    
+  There are more                                                                
+          advantages, such as easier to read code and better coverage reports.  
+                                                                                
+          251┆ if (roundUp && (base * total.elastic) / total.base < elastic) {
+          252┆     base++;
+          253┆ }
+            ⋮┆----------------------------------------
+          267┆ if (roundUp && (elastic * total.base) / total.elastic < base) {
+          268┆     elastic++;
+          269┆ }
+            ⋮┆----------------------------------------
+          666┆ if (data.length != 0 && !abi.decode(data, (bool))) {
+          667┆     revert ErrApproveFailedWithData(data);
+          668┆ }
+            ⋮┆----------------------------------------
+       solidity.performance.use-prefix-increment-not-postfix                    
+          Consider using the prefix increment expression whenever the return    
+  value is not needed. The                                                      
+          prefix increment expression is cheaper in terms of gas.               
+                                                                                
+           85┆ i++;
+            ⋮┆----------------------------------------
+           88┆ for (i = 0; i < 32 && data[i] != 0; i++) {
+            ⋮┆----------------------------------------
+          252┆ base++;
+            ⋮┆----------------------------------------
+          268┆ elastic++;
+            ⋮┆----------------------------------------
+       solidity.security.basic-arithmetic-underflow
+          Possible arithmetic underflow            
+                                                   
+          732┆ extraShare = shareReturned - shareToMin;
+
+                
+                
+┌──────────────┐
+│ Scan Summary │
+└──────────────┘
+
+Ran 48 rules on 1 file: 25 findings.
+
+A new version of Semgrep is available. See https://semgrep.dev/docs/upgrading

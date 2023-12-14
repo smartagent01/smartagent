@@ -1,0 +1,24 @@
+File copied : /root/Achecker/BOMBBA.bin-runtime
+processing /root/Achecker/BOMBBA.bin-runtime
+Checking contract for [4mViolated-AC-Check[0m 
+------------------
+
+Violated access control check in function pullBack(address,address,uint256)
+	( 3961)  f79:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {0} in function quaker(address)
++--Attacker can make changes to AC item {0} in function transferOwnership(address)
+
+Violated access control check in function mint(address,address,uint256)
+	( 5450) 154a:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {0} in function quaker(address)
++--Attacker can make changes to AC item {0} in function transferOwnership(address)
+
+Violated access control check in function transferOwnership(address)
+	( 6693) 1a25:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {0} in function quaker(address)
++--Attacker can make changes to AC item {0} in function transferOwnership(address)
+
+
+Checking contract for [4mMissing-AC-Check[0m 
+------------------
+8c9f76c8aad5689df5d10bb0440a8272c05840c5a108a484b000b52876c2d468

@@ -1,0 +1,419 @@
+METRICS: Using configs from the Registry (like --config=p/ci) reports pseudonymous rule metrics to semgrep.dev.
+To disable Registry rule metrics, use "--metrics=off".
+Using configs only from local files (like --config=xyz.yml) does not enable metrics.
+
+More information: https://semgrep.dev/docs/metrics
+
+               
+               
+┌─────────────┐
+│ Scan Status │
+└─────────────┘
+  Scanning 1 file tracked by git with 48 Code rules:
+  Scanning 1 file with 48 solidity rules.
+                    
+                    
+┌──────────────────┐
+│ 81 Code Findings │
+└──────────────────┘
+                      
+    /sb/unibot_v2.sol 
+       solidity.best-practice.use-ownable2step                                  
+          By demanding that the receiver of the owner permissions actively      
+  accept via a contract call                                                    
+          of its own,  `Ownable2Step` and `Ownable2StepUpgradeable` prevent the 
+  contract ownership                                                            
+          from accidentally being transferred  to an address that cannot handle 
+  it.                                                                           
+                                                                                
+          991┆ contract UnibotV2 is ERC20, Ownable {
+            ⋮┆----------------------------------------
+       solidity.performance.inefficient-state-variable-increment             
+          <x> += <y> costs more gas than <x> = <x> + <y> for state variables.
+                                                                             
+          466┆ _totalSupply += amount;
+            ⋮┆----------------------------------------
+         1350┆ tokensForLiquidity += (fees * sellLiquidityFee) / sellTotalFees;
+            ⋮┆----------------------------------------
+         1351┆ tokensForTeam += (fees * sellTeamFee) / sellTotalFees;
+            ⋮┆----------------------------------------
+         1352┆ tokensForRevShare += (fees * sellRevShareFee) / sellTotalFees;
+            ⋮┆----------------------------------------
+         1357┆ tokensForLiquidity += (fees * buyLiquidityFee) / buyTotalFees;
+            ⋮┆----------------------------------------
+         1358┆ tokensForTeam += (fees * buyTeamFee) / buyTotalFees;
+            ⋮┆----------------------------------------
+         1359┆ tokensForRevShare += (fees * buyRevShareFee) / buyTotalFees;
+            ⋮┆----------------------------------------
+       solidity.performance.init-variables-with-default-value                   
+          Uninitialized variables are assigned with the types default value.    
+  Explicitly initializing a                                                     
+          variable with its default value costs unnecessary gas.                
+                                                                                
+         1008┆ bool public tradingActive = false;
+            ⋮┆----------------------------------------
+         1009┆ bool public swapEnabled = false;
+            ⋮┆----------------------------------------
+         1011┆ bool public blacklistRenounced = false;
+            ⋮┆----------------------------------------
+       solidity.performance.non-payable-constructor      
+          Consider making costructor payable to save gas.
+                                                         
+          263┆ constructor(string memory name_, string memory symbol_) {
+          264┆     _name = name_;
+          265┆     _symbol = symbol_;
+          266┆ }
+            ⋮┆----------------------------------------
+         1068┆ constructor() ERC20("Unibot", "UNIBOT") {
+         1069┆     IUniswapV2Router02 _uniswapV2Router = IUniswapV2Router02(
+         1070┆         0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D
+         1071┆     );
+         1072┆ 
+         1073┆     excludeFromMaxTransaction(address(_uniswapV2Router), true);
+         1074┆     uniswapV2Router = _uniswapV2Router;
+         1075┆ 
+         1076┆     uniswapV2Pair = IUniswapV2Factory(_uniswapV2Router.factory())
+         1077┆         .createPair(address(this), _uniswapV2Router.WETH());
+             [hid 47 additional lines, adjust with --max-lines-per-finding] 
+       solidity.performance.use-custom-error-not-require                        
+          Consider using custom errors as they are more gas efficient while     
+  allowing developers  to                                                       
+          describe the error in detail using NatSpec.                           
+                                                                                
+           72┆ require(owner() == _msgSender(), "Ownable: caller is not the     
+  owner");                                                                      
+            ⋮┆----------------------------------------
+           92┆ require(newOwner != address(0), "Ownable: new owner is the zero  
+  address");                                                                    
+            ⋮┆----------------------------------------
+          367┆ require(currentAllowance >= amount, "ERC20: transfer amount      
+  exceeds allowance");                                                          
+            ⋮┆----------------------------------------
+          408┆ require(currentAllowance >= subtractedValue, "ERC20: decreased   
+  allowance below zero");                                                       
+            ⋮┆----------------------------------------
+          435┆ require(sender != address(0), "ERC20: transfer from the zero     
+  address");                                                                    
+            ⋮┆----------------------------------------
+          436┆ require(recipient != address(0), "ERC20: transfer to the zero    
+  address");                                                                    
+            ⋮┆----------------------------------------
+          441┆ require(senderBalance >= amount, "ERC20: transfer amount exceeds 
+  balance");                                                                    
+            ⋮┆----------------------------------------
+          462┆ require(account != address(0), "ERC20: mint to the zero          
+  address");                                                                    
+            ⋮┆----------------------------------------
+          485┆ require(account != address(0), "ERC20: burn from the zero        
+  address");                                                                    
+            ⋮┆----------------------------------------
+          490┆ require(accountBalance >= amount, "ERC20: burn amount exceeds    
+  balance");                                                                    
+            ⋮┆----------------------------------------
+          519┆ require(owner != address(0), "ERC20: approve from the zero       
+  address");                                                                    
+            ⋮┆----------------------------------------
+          520┆ require(spender != address(0), "ERC20: approve to the zero       
+  address");                                                                    
+            ⋮┆----------------------------------------
+         1147┆ require(
+         1148┆     newAmount >= (totalSupply() * 1) / 100000,
+         1149┆     "Swap amount cannot be lower than 0.001% total supply."
+         1150┆ );
+            ⋮┆----------------------------------------
+         1151┆ require(
+         1152┆     newAmount <= (totalSupply() * 5) / 1000,
+         1153┆     "Swap amount cannot be higher than 0.5% total supply."
+         1154┆ );
+            ⋮┆----------------------------------------
+         1160┆ require(
+         1161┆     newNum >= ((totalSupply() * 5) / 1000) / 1e18,
+         1162┆     "Cannot set maxTransactionAmount lower than 0.5%"
+         1163┆ );
+            ⋮┆----------------------------------------
+         1168┆ require(
+         1169┆     newNum >= ((totalSupply() * 10) / 1000) / 1e18,
+         1170┆     "Cannot set maxWallet lower than 1.0%"
+         1171┆ );
+            ⋮┆----------------------------------------
+         1196┆ require(buyTotalFees <= 5, "Buy fees must be <= 5.");
+            ⋮┆----------------------------------------
+         1208┆ require(sellTotalFees <= 5, "Sell fees must be <= 5.");
+            ⋮┆----------------------------------------
+         1220┆ require(
+         1221┆     pair != uniswapV2Pair,
+         1222┆     "The pair cannot be removed from automatedMarketMakerPairs"
+         1223┆ );
+            ⋮┆----------------------------------------
+         1257┆ require(from != address(0), "ERC20: transfer from the zero       
+  address");                                                                    
+            ⋮┆----------------------------------------
+         1258┆ require(to != address(0), "ERC20: transfer to the zero address");
+            ⋮┆----------------------------------------
+         1259┆ require(!blacklisted[from],"Sender blacklisted");
+            ⋮┆----------------------------------------
+         1260┆ require(!blacklisted[to],"Receiver blacklisted");
+            ⋮┆----------------------------------------
+         1263┆ require(preMigrationTransferrable[from], "Not authorized to      
+  transfer pre-migration.");                                                    
+            ⋮┆----------------------------------------
+         1280┆ require(
+         1281┆     _isExcludedFromFees[from] || _isExcludedFromFees[to],
+         1282┆     "Trading is not active."
+         1283┆ );
+            ⋮┆----------------------------------------
+         1291┆ require(
+         1292┆     amount <= maxTransactionAmount,
+         1293┆     "Buy transfer amount exceeds the maxTransactionAmount."
+         1294┆ );
+            ⋮┆----------------------------------------
+         1295┆ require(
+         1296┆     amount + balanceOf(to) <= maxWallet,
+         1297┆     "Max wallet exceeded"
+         1298┆ );
+            ⋮┆----------------------------------------
+         1305┆ require(
+         1306┆     amount <= maxTransactionAmount,
+         1307┆     "Sell transfer amount exceeds the maxTransactionAmount."
+         1308┆ );
+            ⋮┆----------------------------------------
+         1310┆ require(
+         1311┆     amount + balanceOf(to) <= maxWallet,
+         1312┆     "Max wallet exceeded"
+         1313┆ );
+            ⋮┆----------------------------------------
+         1463┆ require(_token != address(0), "_token address cannot be 0");
+            ⋮┆----------------------------------------
+         1481┆ require(!blacklistRenounced, "Team has revoked blacklist         
+  rights");                                                                     
+            ⋮┆----------------------------------------
+         1482┆ require(
+         1483┆     _addr != address(uniswapV2Pair) && _addr !=                  
+  address(0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D),                          
+         1484┆     "Cannot blacklist token's v2 router or v2 pool."
+         1485┆ );
+            ⋮┆----------------------------------------
+         1491┆ require(!blacklistRenounced, "Team has revoked blacklist         
+  rights");                                                                     
+            ⋮┆----------------------------------------
+         1492┆ require(
+         1493┆     lpAddress != address(uniswapV2Pair) && lpAddress !=          
+  address(0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D),                          
+         1494┆     "Cannot blacklist token's v2 router or v2 pool."
+         1495┆ );
+            ⋮┆----------------------------------------
+       solidity.performance.use-multiple-require                                
+          Using multiple require statements is cheaper than using && multiple   
+  check combinations.                                                           
+          There are more advantages, such as easier to read code and better     
+  coverage reports.                                                             
+                                                                                
+         1482┆ require(
+         1483┆     _addr != address(uniswapV2Pair) && _addr !=                  
+  address(0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D),                          
+         1484┆     "Cannot blacklist token's v2 router or v2 pool."
+         1485┆ );
+            ⋮┆----------------------------------------
+         1492┆ require(
+         1493┆     lpAddress != address(uniswapV2Pair) && lpAddress !=          
+  address(0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D),                          
+         1494┆     "Cannot blacklist token's v2 router or v2 pool."
+         1495┆ );
+            ⋮┆----------------------------------------
+       solidity.performance.use-nested-if                                       
+          Using nested is cheaper than using && multiple check combinations.    
+  There are more                                                                
+          advantages, such as easier to read code and better coverage reports.  
+                                                                                
+         1272┆ if (
+         1273┆     from != owner() &&
+         1274┆     to != owner() &&
+         1275┆     to != address(0) &&
+         1276┆     to != address(0xdead) &&
+         1277┆     !swapping
+         1278┆ ) {
+         1279┆     if (!tradingActive) {
+         1280┆         require(
+         1281┆             _isExcludedFromFees[from] || _isExcludedFromFees[to],
+             [hid 34 additional lines, adjust with --max-lines-per-finding] 
+         1287┆ if (
+         1288┆     automatedMarketMakerPairs[from] &&
+         1289┆     !_isExcludedMaxTransactionAmount[to]
+         1290┆ ) {
+         1291┆     require(
+         1292┆         amount <= maxTransactionAmount,
+         1293┆         "Buy transfer amount exceeds the maxTransactionAmount."
+         1294┆     );
+         1295┆     require(
+         1296┆         amount + balanceOf(to) <= maxWallet,
+             [hid 18 additional lines, adjust with --max-lines-per-finding] 
+         1301┆ else if (
+         1302┆     automatedMarketMakerPairs[to] &&
+         1303┆     !_isExcludedMaxTransactionAmount[from]
+         1304┆ ) {
+         1305┆     require(
+         1306┆         amount <= maxTransactionAmount,
+         1307┆         "Sell transfer amount exceeds the maxTransactionAmount."
+         1308┆     );
+         1309┆ } else if (!_isExcludedMaxTransactionAmount[to]) {
+         1310┆     require(
+             [hid 4 additional lines, adjust with --max-lines-per-finding] 
+         1322┆ if (
+         1323┆     canSwap &&
+         1324┆     swapEnabled &&
+         1325┆     !swapping &&
+         1326┆     !automatedMarketMakerPairs[from] &&
+         1327┆     !_isExcludedFromFees[from] &&
+         1328┆     !_isExcludedFromFees[to]
+         1329┆ ) {
+         1330┆     swapping = true;
+         1331┆ 
+             [hid 4 additional lines, adjust with --max-lines-per-finding] 
+         1348┆ if (automatedMarketMakerPairs[to] && sellTotalFees > 0) {
+         1349┆     fees = amount.mul(sellTotalFees).div(100);
+         1350┆     tokensForLiquidity += (fees * sellLiquidityFee) /            
+  sellTotalFees;                                                                
+         1351┆     tokensForTeam += (fees * sellTeamFee) / sellTotalFees;
+         1352┆     tokensForRevShare += (fees * sellRevShareFee) /              
+  sellTotalFees;                                                                
+         1353┆ }
+         1354┆ // on buy
+         1355┆ else if (automatedMarketMakerPairs[from] && buyTotalFees > 0) {
+         1356┆     fees = amount.mul(buyTotalFees).div(100);
+         1357┆     tokensForLiquidity += (fees * buyLiquidityFee) /             
+  buyTotalFees;                                                                 
+             [hid 3 additional lines, adjust with --max-lines-per-finding] 
+         1355┆ else if (automatedMarketMakerPairs[from] && buyTotalFees > 0) {
+         1356┆     fees = amount.mul(buyTotalFees).div(100);
+         1357┆     tokensForLiquidity += (fees * buyLiquidityFee) /             
+  buyTotalFees;                                                                 
+         1358┆     tokensForTeam += (fees * buyTeamFee) / buyTotalFees;
+         1359┆     tokensForRevShare += (fees * buyRevShareFee) / buyTotalFees;
+         1360┆ }
+            ⋮┆----------------------------------------
+         1444┆ if (liquidityTokens > 0 && ethForLiquidity > 0) {
+         1445┆     addLiquidity(liquidityTokens, ethForLiquidity);
+         1446┆     emit SwapAndLiquify(
+         1447┆         amountToSwapForETH,
+         1448┆         ethForLiquidity,
+         1449┆         tokensForLiquidity
+         1450┆     );
+         1451┆ }
+            ⋮┆----------------------------------------
+       solidity.performance.use-short-revert-string                             
+          Shortening revert strings to fit in 32 bytes will decrease gas costs  
+  for deployment and  gas                                                       
+          costs when the revert condition has been met.                         
+                                                                                
+           92┆ require(newOwner != address(0), "Ownable: new owner is the zero  
+  address");                                                                    
+            ⋮┆----------------------------------------
+          367┆ require(currentAllowance >= amount, "ERC20: transfer amount      
+  exceeds allowance");                                                          
+            ⋮┆----------------------------------------
+          408┆ require(currentAllowance >= subtractedValue, "ERC20: decreased   
+  allowance below zero");                                                       
+            ⋮┆----------------------------------------
+          435┆ require(sender != address(0), "ERC20: transfer from the zero     
+  address");                                                                    
+            ⋮┆----------------------------------------
+          436┆ require(recipient != address(0), "ERC20: transfer to the zero    
+  address");                                                                    
+            ⋮┆----------------------------------------
+          441┆ require(senderBalance >= amount, "ERC20: transfer amount exceeds 
+  balance");                                                                    
+            ⋮┆----------------------------------------
+          485┆ require(account != address(0), "ERC20: burn from the zero        
+  address");                                                                    
+            ⋮┆----------------------------------------
+          490┆ require(accountBalance >= amount, "ERC20: burn amount exceeds    
+  balance");                                                                    
+            ⋮┆----------------------------------------
+          519┆ require(owner != address(0), "ERC20: approve from the zero       
+  address");                                                                    
+            ⋮┆----------------------------------------
+          520┆ require(spender != address(0), "ERC20: approve to the zero       
+  address");                                                                    
+            ⋮┆----------------------------------------
+         1147┆ require(
+         1148┆     newAmount >= (totalSupply() * 1) / 100000,
+         1149┆     "Swap amount cannot be lower than 0.001% total supply."
+         1150┆ );
+            ⋮┆----------------------------------------
+         1151┆ require(
+         1152┆     newAmount <= (totalSupply() * 5) / 1000,
+         1153┆     "Swap amount cannot be higher than 0.5% total supply."
+         1154┆ );
+            ⋮┆----------------------------------------
+         1160┆ require(
+         1161┆     newNum >= ((totalSupply() * 5) / 1000) / 1e18,
+         1162┆     "Cannot set maxTransactionAmount lower than 0.5%"
+         1163┆ );
+            ⋮┆----------------------------------------
+         1168┆ require(
+         1169┆     newNum >= ((totalSupply() * 10) / 1000) / 1e18,
+         1170┆     "Cannot set maxWallet lower than 1.0%"
+         1171┆ );
+            ⋮┆----------------------------------------
+         1220┆ require(
+         1221┆     pair != uniswapV2Pair,
+         1222┆     "The pair cannot be removed from automatedMarketMakerPairs"
+         1223┆ );
+            ⋮┆----------------------------------------
+         1257┆ require(from != address(0), "ERC20: transfer from the zero       
+                
+                
+┌──────────────┐
+│ Scan Summary │
+└──────────────┘
+
+Ran 48 rules on 1 file: 81 findings.
+  address");                                                                    
+            ⋮┆----------------------------------------
+         1258┆ require(to != address(0), "ERC20: transfer to the zero address");
+            ⋮┆----------------------------------------
+         1263┆ require(preMigrationTransferrable[from], "Not authorized to      
+  transfer pre-migration.");                                                    
+            ⋮┆----------------------------------------
+         1291┆ require(
+         1292┆     amount <= maxTransactionAmount,
+         1293┆     "Buy transfer amount exceeds the maxTransactionAmount."
+         1294┆ );
+            ⋮┆----------------------------------------
+         1305┆ require(
+         1306┆     amount <= maxTransactionAmount,
+         1307┆     "Sell transfer amount exceeds the maxTransactionAmount."
+         1308┆ );
+            ⋮┆----------------------------------------
+         1481┆ require(!blacklistRenounced, "Team has revoked blacklist         
+  rights");                                                                     
+            ⋮┆----------------------------------------
+         1482┆ require(
+         1483┆     _addr != address(uniswapV2Pair) && _addr !=                  
+  address(0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D),                          
+         1484┆     "Cannot blacklist token's v2 router or v2 pool."
+         1485┆ );
+            ⋮┆----------------------------------------
+         1491┆ require(!blacklistRenounced, "Team has revoked blacklist         
+  rights");                                                                     
+            ⋮┆----------------------------------------
+         1492┆ require(
+         1493┆     lpAddress != address(uniswapV2Pair) && lpAddress !=          
+  address(0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D),                          
+         1494┆     "Cannot blacklist token's v2 router or v2 pool."
+         1495┆ );
+            ⋮┆----------------------------------------
+       solidity.security.no-slippage-check          
+          No slippage check in a Uniswap v2/v3 trade
+                                                    
+         1381┆                                                                  
+  uniswapV2Router.swapExactTokensForETHSupportingFeeOnTransferTokens(           
+         1382┆     tokenAmount,
+         1383┆     0, // accept any amount of ETH
+         1384┆     path,
+         1385┆     address(this),
+         1386┆     block.timestamp
+         1387┆ );
+
+
+A new version of Semgrep is available. See https://semgrep.dev/docs/upgrading

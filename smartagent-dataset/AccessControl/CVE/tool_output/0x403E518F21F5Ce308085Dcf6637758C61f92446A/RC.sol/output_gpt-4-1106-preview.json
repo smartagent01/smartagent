@@ -1,0 +1,2 @@
+addMeByRC
+The use of `tx.origin` for authorization in the `addMeByRC` function can lead to vulnerabilities.

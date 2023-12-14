@@ -1,0 +1,249 @@
+File copied : /root/sailfish/code/static_analysis/analysis/IDXM.sol
+processing /root/sailfish/code/static_analysis/analysis/IDXM.sol
+Installing solc '0.4.26'...
+Version '0.4.26' installed.
+Switched global version to 0.4.26
+[INFO] | 2023-12-05 04:19:58 AM | analyzer.IDXM   | Analysis started at: 2023-12-05 04:19:58 AM
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Version constraints: ['^0.4.19']
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | solc version: v0.4.19
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Callgraph generation started!
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Callgraph generation finished!
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Interprocedural CFG generation started!
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Interprocedural CFG generation finished!
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Storage dependency graph generation started!
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Storage dependency graph generation finished!
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Value Range Analysis started
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Generating return summary for receiveApproval
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Return summary generated for receiveApproval
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | State variable assignement do not exist
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Processed function receiveApproval
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Generating return summary for safeMul
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Return summary generated for safeMul
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | State variable assignement do not exist
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Processed function safeMul
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Generating return summary for safeSub
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Return summary generated for safeSub
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | State variable assignement do not exist
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Processed function safeSub
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Generating return summary for safeAdd
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Return summary generated for safeAdd
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | State variable assignement do not exist
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Processed function safeAdd
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Generating return summary for Owned
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Return summary generated for Owned
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Range graph generated
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Processed function Owned
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Generating return summary for setOwner
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Return summary generated for setOwner
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Range graph generated
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Processed function setOwner
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Generating return summary for safeMul
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Return summary generated for safeMul
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | State variable assignement do not exist
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Processed function safeMul
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Generating return summary for safeSub
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Return summary generated for safeSub
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | State variable assignement do not exist
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Processed function safeSub
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Generating return summary for safeAdd
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Return summary generated for safeAdd
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | State variable assignement do not exist
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Processed function safeAdd
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Generating return summary for Owned
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Return summary generated for Owned
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Range graph generated
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Processed function Owned
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Generating return summary for setOwner
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Return summary generated for setOwner
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Range graph generated
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Processed function setOwner
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Generating return summary for fallback
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Return summary generated for fallback
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | State variable assignement do not exist
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Processed function fallback
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Generating return summary for transfer
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Return summary generated for transfer
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Range graph generated
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Processed function transfer
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Generating return summary for transferFrom
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Return summary generated for transferFrom
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Range graph generated
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Processed function transferFrom
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Generating return summary for approve
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Return summary generated for approve
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Range graph generated
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Processed function approve
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Generating return summary for feeFor
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Return summary generated for feeFor
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | State variable assignement do not exist
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Processed function feeFor
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Generating return summary for div10
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Return summary generated for div10
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | State variable assignement do not exist
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Processed function div10
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Generating return summary for pow10
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Return summary generated for pow10
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | State variable assignement do not exist
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Processed function pow10
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Generating return summary for slitherConstructorVariables
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Return summary generated for slitherConstructorVariables
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Range graph generated
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Processed function slitherConstructorVariables
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Generating return summary for onlyOwner
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Return summary generated for onlyOwner
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | State variable assignement do not exist
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Processed function onlyOwner
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Generating return summary for approveAndCall
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Return summary generated for approveAndCall
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Range graph generated
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Processed function approveAndCall
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Generating return summary for uploadBalances
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Return summary generated for uploadBalances
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Range graph generated
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Processed function uploadBalances
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Generating return summary for precalculate
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Return summary generated for precalculate
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Range graph generated
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Processed function precalculate
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Generating return summary for lockBalances
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Return summary generated for lockBalances
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Range graph generated
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Processed function lockBalances
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Generating return summary for setExportFee
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Return summary generated for setExportFee
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Range graph generated
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Processed function setExportFee
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Generating return summary for setHoldingPeriod
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Return summary generated for setHoldingPeriod
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Range graph generated
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Processed function setHoldingPeriod
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Generating return summary for unlockToken
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Return summary generated for unlockToken
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Range graph generated
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Processed function unlockToken
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Generating return summary for IDXM
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Return summary generated for IDXM
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Range graph generated
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Processed function IDXM
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Value Range Analysis took 0.012523 seconds
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Value Range Analysis finished
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Storage dependency graph compostion started!
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Storage dependency graph compostion finished!
+[INFO] | 2023-12-05 04:19:59 AM | analyzer.IDXM   | Dependency detection started!
+Traceback (most recent call last):
+  File "contractlint.py", line 111, in analyze_contracts
+    detection = Detection(slither_obj, contract_name, composed_sdg, sdg_objects, icfg_objects, graph_dir, dump_graph, dao, tod, generated_vrg, log)
+  File "/root/sailfish/code/static_analysis/analysis/detection.py", line 63, in __init__
+    self.setup()
+  File "/root/sailfish/code/static_analysis/analysis/detection.py", line 66, in setup
+    self.global_vars, self.global_constant_vars, self.range_vars, self.global_blocks, self.range_blocks, self.total_range_instructions = compute_range_blocks(self._slither, self.vrg_obj, self._log)
+  File "/root/sailfish/code/static_analysis/analysis/symex_helper.py", line 1379, in compute_range_blocks
+    global_vars, global_constant_vars, range_vars, global_blocks, range_blocks = get_statevar_assignments(slither_obj, vrg_obj)
+  File "/root/sailfish/code/static_analysis/analysis/symex_helper.py", line 365, in get_statevar_assignments
+    conditional_blocks = generate_conditional_irs(scope_str, json_block['addr'], nop_block_addr, range_node, triplet[1])
+  File "/root/sailfish/code/static_analysis/analysis/symex_helper.py", line 235, in generate_conditional_irs
+    if range_node._true_or_false[pred_node] == 'true':
+KeyError: <range_node.RangeNode object at 0x7f9b641e4fd0>
+[36m[#] Analysing started: IDXM.sol[0m
+/root/.solc-select/artifacts/solc-0.4.26
+[36m[#] Interprocedural CFG generation started for modifier onlyOwner[0m
+[36m[#] Interprocedural CFG generated for modifer onlyOwner[0m
+[36m[#] Interprocedural CFG generation started for modifier onlyOwner[0m
+[36m[#] Interprocedural CFG generated for modifer onlyOwner[0m
+[36m[#] Interprocedural CFG generation started for receiveApproval[0m
+[36m[#] Interprocedural CFG generated for receiveApproval[0m
+[36m[#] Interprocedural CFG generation started for safeMul[0m
+[36m[#] Interprocedural CFG generated for safeMul[0m
+[36m[#] Interprocedural CFG generation started for safeSub[0m
+[36m[#] Interprocedural CFG generated for safeSub[0m
+[36m[#] Interprocedural CFG generation started for safeAdd[0m
+[36m[#] Interprocedural CFG generated for safeAdd[0m
+[36m[#] Interprocedural CFG generation started for Owned[0m
+[36m[#] Interprocedural CFG generated for Owned[0m
+[36m[#] Interprocedural CFG generation started for setOwner[0m
+[36m[#] Interprocedural CFG generated for setOwner[0m
+[36m[#] Interprocedural CFG generation started for safeMul[0m
+[36m[#] Interprocedural CFG generated for safeMul[0m
+[36m[#] Interprocedural CFG generation started for safeSub[0m
+[36m[#] Interprocedural CFG generated for safeSub[0m
+[36m[#] Interprocedural CFG generation started for safeAdd[0m
+[36m[#] Interprocedural CFG generated for safeAdd[0m
+[36m[#] Interprocedural CFG generation started for Owned[0m
+[36m[#] Interprocedural CFG generated for Owned[0m
+[36m[#] Interprocedural CFG generation started for setOwner[0m
+[36m[#] Interprocedural CFG generated for setOwner[0m
+[36m[#] Interprocedural CFG generation started for fallback[0m
+[36m[#] Interprocedural CFG generated for fallback[0m
+[36m[#] Interprocedural CFG generation started for IDXM[0m
+[36m[#] Interprocedural CFG generated for IDXM[0m
+[36m[#] Interprocedural CFG generation started for uploadBalances[0m
+[36m[#] Interprocedural CFG generated for uploadBalances[0m
+[36m[#] Interprocedural CFG generation started for lockBalances[0m
+[36m[#] Interprocedural CFG generated for lockBalances[0m
+[36m[#] Interprocedural CFG generation started for transfer[0m
+[36m[#] Interprocedural CFG generated for transfer[0m
+[36m[#] Interprocedural CFG generation started for transferFrom[0m
+[36m[#] Interprocedural CFG generated for transferFrom[0m
+[36m[#] Interprocedural CFG generation started for approveAndCall[0m
+[36m[#] Interprocedural CFG generated for approveAndCall[0m
+[36m[#] Interprocedural CFG generation started for approve[0m
+[36m[#] Interprocedural CFG generated for approve[0m
+[36m[#] Interprocedural CFG generation started for setExportFee[0m
+[36m[#] Interprocedural CFG generated for setExportFee[0m
+[36m[#] Interprocedural CFG generation started for setHoldingPeriod[0m
+[36m[#] Interprocedural CFG generated for setHoldingPeriod[0m
+[36m[#] Interprocedural CFG generation started for feeFor[0m
+[36m[#] Interprocedural CFG generated for feeFor[0m
+[36m[#] Interprocedural CFG generation started for unlockToken[0m
+[36m[#] Interprocedural CFG generated for unlockToken[0m
+[36m[#] SDG generation started for receiveApproval[0m
+[36m[#] SDG generated for receiveApproval[0m
+[36m[#] SDG generation started for safeMul[0m
+[36m[#] SDG generated for safeMul[0m
+[36m[#] SDG generation started for safeSub[0m
+[36m[#] SDG generated for safeSub[0m
+[36m[#] SDG generation started for safeAdd[0m
+[36m[#] SDG generated for safeAdd[0m
+[36m[#] SDG generation started for Owned[0m
+[36m[#] SDG generated for Owned[0m
+[36m[#] SDG generation started for setOwner[0m
+[36m[#] SDG generated for setOwner[0m
+[36m[#] SDG generation started for modifier onlyOwner[0m
+[36m[#] SDG generated for modifier onlyOwner[0m
+[36m[#] SDG generation started for safeMul[0m
+[36m[#] SDG generated for safeMul[0m
+[36m[#] SDG generation started for safeSub[0m
+[36m[#] SDG generated for safeSub[0m
+[36m[#] SDG generation started for safeAdd[0m
+[36m[#] SDG generated for safeAdd[0m
+[36m[#] SDG generation started for Owned[0m
+[36m[#] SDG generated for Owned[0m
+[36m[#] SDG generation started for setOwner[0m
+[36m[#] SDG generated for setOwner[0m
+[36m[#] SDG generation started for fallback[0m
+[36m[#] SDG generated for fallback[0m
+[36m[#] SDG generation started for IDXM[0m
+[36m[#] SDG generated for IDXM[0m
+[36m[#] SDG generation started for uploadBalances[0m
+[36m[#] SDG generated for uploadBalances[0m
+[36m[#] SDG generation started for lockBalances[0m
+[36m[#] SDG generated for lockBalances[0m
+[36m[#] SDG generation started for transfer[0m
+[36m[#] SDG generated for transfer[0m
+[36m[#] SDG generation started for transferFrom[0m
+[36m[#] SDG generated for transferFrom[0m
+[36m[#] SDG generation started for approveAndCall[0m
+[36m[#] SDG generated for approveAndCall[0m
+[36m[#] SDG generation started for approve[0m
+[36m[#] SDG generated for approve[0m
+[36m[#] SDG generation started for setExportFee[0m
+[36m[#] SDG generated for setExportFee[0m
+[36m[#] SDG generation started for setHoldingPeriod[0m
+[36m[#] SDG generated for setHoldingPeriod[0m
+[36m[#] SDG generation started for feeFor[0m
+[36m[#] SDG generated for feeFor[0m
+[36m[#] SDG generation started for unlockToken[0m
+[36m[#] SDG generated for unlockToken[0m
+[36m[#] SDG generation started for modifier onlyOwner[0m
+[36m[#] SDG generated for modifier onlyOwner[0m
+2963ef411c452b083eb927e11c4c7acaec13a8e55b85622827c9a8f9e12093d3

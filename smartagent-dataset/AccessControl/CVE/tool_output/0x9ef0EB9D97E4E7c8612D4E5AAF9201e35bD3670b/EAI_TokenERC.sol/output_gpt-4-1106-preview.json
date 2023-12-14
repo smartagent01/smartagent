@@ -1,0 +1,2 @@
+EAI_TokenERC20
+The constructor function is incorrectly named and public, allowing anyone to re-initialize the contract.

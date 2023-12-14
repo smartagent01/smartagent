@@ -1,0 +1,376 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RikkeiFinance/0xD55f01B4B51B7F48912cD8Ca3CDD8070A1a9DBa5_flattened.sol",
+            "line": 2891,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RikkeiFinance/0xD55f01B4B51B7F48912cD8Ca3CDD8070A1a9DBa5_flattened.sol",
+            "line": 2892,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RikkeiFinance/0xD55f01B4B51B7F48912cD8Ca3CDD8070A1a9DBa5_flattened.sol",
+            "line": 1244,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RikkeiFinance/0xD55f01B4B51B7F48912cD8Ca3CDD8070A1a9DBa5_flattened.sol",
+            "line": 1245,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RikkeiFinance/0xD55f01B4B51B7F48912cD8Ca3CDD8070A1a9DBa5_flattened.sol",
+            "line": 1249,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RikkeiFinance/0xD55f01B4B51B7F48912cD8Ca3CDD8070A1a9DBa5_flattened.sol",
+            "line": 1253,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RikkeiFinance/0xD55f01B4B51B7F48912cD8Ca3CDD8070A1a9DBa5_flattened.sol",
+            "line": 1261,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RikkeiFinance/0xD55f01B4B51B7F48912cD8Ca3CDD8070A1a9DBa5_flattened.sol",
+            "line": 1406,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RikkeiFinance/0xD55f01B4B51B7F48912cD8Ca3CDD8070A1a9DBa5_flattened.sol",
+            "line": 1465,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RikkeiFinance/0xD55f01B4B51B7F48912cD8Ca3CDD8070A1a9DBa5_flattened.sol",
+            "line": 1475,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RikkeiFinance/0xD55f01B4B51B7F48912cD8Ca3CDD8070A1a9DBa5_flattened.sol",
+            "line": 1486,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RikkeiFinance/0xD55f01B4B51B7F48912cD8Ca3CDD8070A1a9DBa5_flattened.sol",
+            "line": 1532,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RikkeiFinance/0xD55f01B4B51B7F48912cD8Ca3CDD8070A1a9DBa5_flattened.sol",
+            "line": 1543,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RikkeiFinance/0xD55f01B4B51B7F48912cD8Ca3CDD8070A1a9DBa5_flattened.sol",
+            "line": 1615,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RikkeiFinance/0xD55f01B4B51B7F48912cD8Ca3CDD8070A1a9DBa5_flattened.sol",
+            "line": 1619,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RikkeiFinance/0xD55f01B4B51B7F48912cD8Ca3CDD8070A1a9DBa5_flattened.sol",
+            "line": 1749,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RikkeiFinance/0xD55f01B4B51B7F48912cD8Ca3CDD8070A1a9DBa5_flattened.sol",
+            "line": 1757,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RikkeiFinance/0xD55f01B4B51B7F48912cD8Ca3CDD8070A1a9DBa5_flattened.sol",
+            "line": 1760,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RikkeiFinance/0xD55f01B4B51B7F48912cD8Ca3CDD8070A1a9DBa5_flattened.sol",
+            "line": 1828,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RikkeiFinance/0xD55f01B4B51B7F48912cD8Ca3CDD8070A1a9DBa5_flattened.sol",
+            "line": 2114,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RikkeiFinance/0xD55f01B4B51B7F48912cD8Ca3CDD8070A1a9DBa5_flattened.sol",
+            "line": 2117,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RikkeiFinance/0xD55f01B4B51B7F48912cD8Ca3CDD8070A1a9DBa5_flattened.sol",
+            "line": 2213,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RikkeiFinance/0xD55f01B4B51B7F48912cD8Ca3CDD8070A1a9DBa5_flattened.sol",
+            "line": 2216,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RikkeiFinance/0xD55f01B4B51B7F48912cD8Ca3CDD8070A1a9DBa5_flattened.sol",
+            "line": 2227,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RikkeiFinance/0xD55f01B4B51B7F48912cD8Ca3CDD8070A1a9DBa5_flattened.sol",
+            "line": 2378,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RikkeiFinance/0xD55f01B4B51B7F48912cD8Ca3CDD8070A1a9DBa5_flattened.sol",
+            "line": 2483,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RikkeiFinance/0xD55f01B4B51B7F48912cD8Ca3CDD8070A1a9DBa5_flattened.sol",
+            "line": 2547,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RikkeiFinance/0xD55f01B4B51B7F48912cD8Ca3CDD8070A1a9DBa5_flattened.sol",
+            "line": 2601,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RikkeiFinance/0xD55f01B4B51B7F48912cD8Ca3CDD8070A1a9DBa5_flattened.sol",
+            "line": 2641,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RikkeiFinance/0xD55f01B4B51B7F48912cD8Ca3CDD8070A1a9DBa5_flattened.sol",
+            "line": 2777,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RikkeiFinance/0xD55f01B4B51B7F48912cD8Ca3CDD8070A1a9DBa5_flattened.sol",
+            "line": 2831,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RikkeiFinance/0xD55f01B4B51B7F48912cD8Ca3CDD8070A1a9DBa5_flattened.sol",
+            "line": 2835,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RikkeiFinance/0xD55f01B4B51B7F48912cD8Ca3CDD8070A1a9DBa5_flattened.sol",
+            "line": 2866,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RikkeiFinance/0xD55f01B4B51B7F48912cD8Ca3CDD8070A1a9DBa5_flattened.sol",
+            "line": 1245,
+            "message": "Using multiple require statements is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-multiple-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RikkeiFinance/0xD55f01B4B51B7F48912cD8Ca3CDD8070A1a9DBa5_flattened.sol",
+            "line": 1244,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RikkeiFinance/0xD55f01B4B51B7F48912cD8Ca3CDD8070A1a9DBa5_flattened.sol",
+            "line": 1245,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RikkeiFinance/0xD55f01B4B51B7F48912cD8Ca3CDD8070A1a9DBa5_flattened.sol",
+            "line": 1249,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RikkeiFinance/0xD55f01B4B51B7F48912cD8Ca3CDD8070A1a9DBa5_flattened.sol",
+            "line": 1261,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RikkeiFinance/0xD55f01B4B51B7F48912cD8Ca3CDD8070A1a9DBa5_flattened.sol",
+            "line": 1486,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RikkeiFinance/0xD55f01B4B51B7F48912cD8Ca3CDD8070A1a9DBa5_flattened.sol",
+            "line": 1543,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RikkeiFinance/0xD55f01B4B51B7F48912cD8Ca3CDD8070A1a9DBa5_flattened.sol",
+            "line": 1757,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RikkeiFinance/0xD55f01B4B51B7F48912cD8Ca3CDD8070A1a9DBa5_flattened.sol",
+            "line": 1760,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RikkeiFinance/0xD55f01B4B51B7F48912cD8Ca3CDD8070A1a9DBa5_flattened.sol",
+            "line": 1828,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RikkeiFinance/0xD55f01B4B51B7F48912cD8Ca3CDD8070A1a9DBa5_flattened.sol",
+            "line": 2114,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RikkeiFinance/0xD55f01B4B51B7F48912cD8Ca3CDD8070A1a9DBa5_flattened.sol",
+            "line": 2117,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RikkeiFinance/0xD55f01B4B51B7F48912cD8Ca3CDD8070A1a9DBa5_flattened.sol",
+            "line": 2213,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RikkeiFinance/0xD55f01B4B51B7F48912cD8Ca3CDD8070A1a9DBa5_flattened.sol",
+            "line": 2547,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RikkeiFinance/0xD55f01B4B51B7F48912cD8Ca3CDD8070A1a9DBa5_flattened.sol",
+            "line": 2777,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RikkeiFinance/0xD55f01B4B51B7F48912cD8Ca3CDD8070A1a9DBa5_flattened.sol",
+            "line": 2779,
+            "message": "Function sweepToken is allowed to be called by anyone",
+            "name": "compound-sweeptoken-not-restricted"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RikkeiFinance/0xD55f01B4B51B7F48912cD8Ca3CDD8070A1a9DBa5_flattened.sol",
+            "line": 2893,
+            "message": "Oracle price data can be submitted by anyone",
+            "name": "oracle-price-update-not-restricted"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RikkeiFinance/0xD55f01B4B51B7F48912cD8Ca3CDD8070A1a9DBa5_flattened.sol",
+            "line": 2894,
+            "message": "Oracle price data can be submitted by anyone",
+            "name": "oracle-price-update-not-restricted"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RikkeiFinance/0xD55f01B4B51B7F48912cD8Ca3CDD8070A1a9DBa5_flattened.sol",
+            "line": 2895,
+            "message": "Oracle price data can be submitted by anyone",
+            "name": "oracle-price-update-not-restricted"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "semgrep",
+        "mode": "solidity",
+        "version": "2023/08/21"
+    }
+}

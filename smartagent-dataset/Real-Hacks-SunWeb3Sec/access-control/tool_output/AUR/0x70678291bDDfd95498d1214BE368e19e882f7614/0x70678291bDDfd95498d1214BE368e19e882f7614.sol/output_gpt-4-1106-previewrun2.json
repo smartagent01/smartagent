@@ -1,0 +1,5 @@
+changeNodePrice
+Any user can call this function and change the node price, which should be restricted to the owner.
+
+changeRewardPerNode
+Any user can call this function and change the reward per day, which should be restricted to the owner.

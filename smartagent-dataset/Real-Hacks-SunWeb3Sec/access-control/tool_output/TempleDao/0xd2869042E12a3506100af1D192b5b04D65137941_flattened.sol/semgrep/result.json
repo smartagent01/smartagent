@@ -1,0 +1,600 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 849,
+            "message": "To guarantee arguments type safety it is recommended to use `abi.encodeCall` instead of `abi.encodeWithSelector`.",
+            "name": "use-abi-encodecall-instead-of-encodewithselector"
+        },
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 858,
+            "message": "To guarantee arguments type safety it is recommended to use `abi.encodeCall` instead of `abi.encodeWithSelector`.",
+            "name": "use-abi-encodecall-instead-of-encodewithselector"
+        },
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 880,
+            "message": "To guarantee arguments type safety it is recommended to use `abi.encodeCall` instead of `abi.encodeWithSelector`.",
+            "name": "use-abi-encodecall-instead-of-encodewithselector"
+        },
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 889,
+            "message": "To guarantee arguments type safety it is recommended to use `abi.encodeCall` instead of `abi.encodeWithSelector`.",
+            "name": "use-abi-encodecall-instead-of-encodewithselector"
+        },
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 901,
+            "message": "To guarantee arguments type safety it is recommended to use `abi.encodeCall` instead of `abi.encodeWithSelector`.",
+            "name": "use-abi-encodecall-instead-of-encodewithselector"
+        },
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 930,
+            "message": "By demanding that the receiver of the owner permissions actively accept via a contract call of its own,  `Ownable2Step` and `Ownable2StepUpgradeable` prevent the contract ownership from accidentally being transferred  to an address that cannot handle it.",
+            "name": "use-ownable2step"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 1085,
+            "message": "Caching the array length outside a loop saves reading it on each iteration, as long as the array's length is not changed during the loop.",
+            "name": "array-length-outside-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 1181,
+            "message": "Caching the array length outside a loop saves reading it on each iteration, as long as the array's length is not changed during the loop.",
+            "name": "array-length-outside-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 478,
+            "message": "<x> += <y> costs more gas than <x> = <x> + <y> for state variables.",
+            "name": "inefficient-state-variable-increment"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 1044,
+            "message": "<x> += <y> costs more gas than <x> = <x> + <y> for state variables.",
+            "name": "inefficient-state-variable-increment"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 270,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 271,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 272,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 273,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 964,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 965,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 966,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 967,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 1085,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 1086,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 1181,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 1182,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 1183,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 1184,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 1184,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 1186,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 1186,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 1187,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 1187,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 1085,
+            "message": "A lot of times there is no risk that the loop counter can overflow. Using Solidity's unchecked block saves the overflow checks.",
+            "name": "unnecessary-checked-arithmetic-in-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 1181,
+            "message": "A lot of times there is no risk that the loop counter can overflow. Using Solidity's unchecked block saves the overflow checks.",
+            "name": "unnecessary-checked-arithmetic-in-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 72,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 92,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 420,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 447,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 448,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 453,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 474,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 497,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 502,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 531,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 532,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 553,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 669,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 672,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 742,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 743,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 770,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 797,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 876,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 877,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 878,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 879,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 899,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 919,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 985,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 1036,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 1056,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 1057,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 1130,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 1131,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 1132,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 1174,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 1085,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 1181,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 92,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 420,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 447,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 448,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 453,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 497,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 502,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 531,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 532,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 672,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 742,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 770,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 797,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 876,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 877,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 878,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 879,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 899,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+            "line": 919,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "semgrep",
+        "mode": "solidity",
+        "version": "2023/08/21"
+    }
+}

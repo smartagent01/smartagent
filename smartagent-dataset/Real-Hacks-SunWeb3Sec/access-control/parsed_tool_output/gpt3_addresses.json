@@ -1,0 +1,82 @@
+{
+  "0x9a1aef8c9ada4224ad774afdac07c24955c92a54": [
+    {
+      "location": "constructor",
+      "message": "The constructor function does not have any access control modifier, which means anyone can call it to initialize the contract."
+    },
+    {
+      "location": "mint",
+      "message": "The `mint` function does not have any access control modifier, allowing anyone to mint an unlimited amount of tokens."
+    },
+    {
+      "location": "transferFrom",
+      "message": "The `transferFrom` function does not have proper permission checking, as it allows the caller to transfer tokens without checking if they have the necessary allowance."
+    },
+    {
+      "location": "approve,",
+      "message": "The `approve`, `increaseAllowance`, and `decreaseAllowance` functions also do not have any access control modifier, allowing anyone to modify the allowance for any address."
+    }
+  ],
+  "0xd2869042E12a3506100af1D192b5b04D65137941": [
+    {
+      "location": "renounceOwnership",
+      "message": "Proper permission checking is implemented before allowing ownership changes."
+    }
+  ],
+  "0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c": [
+    {
+      "location": "Incorrect implementation of access control modifier:",
+      "message": "No specific function mentioned."
+    }
+  ],
+  "0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a": [
+    {
+      "location": "None",
+      "message": "5. None"
+    },
+    {
+      "location": "None",
+      "message": "3. None"
+    },
+    {
+      "location": "The following functions have access control bugs:",
+      "message": "1. None"
+    }
+  ],
+  "0x6844ef18012a383c14e9a76a93602616ee9d6132": [
+    {
+      "location": "setSwapPairs",
+      "message": "- The function setSwapPairs does not have any access control modifier, allowing anyone to set pairs of addresses for swapping."
+    },
+    {
+      "location": "harvestMarket",
+      "message": "- The function harvestMarket allows anyone to mint tokens to the MarketAddress based on pending mint value."
+    },
+    {
+      "location": "balanceOf",
+      "message": "- The function balanceOf deducts the pending burn amount from the actual balance without proper permission checking."
+    }
+  ],
+  "0x863DF6BFa4469f3ead0bE8f9F2AAE51c91A907b4": [
+    {
+      "location": "addOwner",
+      "message": "Missing permission checking in functions that can change the ownership or admin right of the contract."
+    },
+    {
+      "location": "removeOwner",
+      "message": "Missing permission checking in functions that can change the ownership or admin right of the contract."
+    },
+    {
+      "location": "changeConfirmations",
+      "message": "Missing permission checking in functions that can change the ownership or admin right of the contract."
+    },
+    {
+      "location": "executeTransaction",
+      "message": "The function checks if the sender is an owner and if the transaction is under the daily limit, which is a good practice for access control."
+    },
+    {
+      "location": "confirmTransaction",
+      "message": "The function requires multiple owners to confirm before the transaction is executed, which is a good practice for access control."
+    }
+  ]
+}

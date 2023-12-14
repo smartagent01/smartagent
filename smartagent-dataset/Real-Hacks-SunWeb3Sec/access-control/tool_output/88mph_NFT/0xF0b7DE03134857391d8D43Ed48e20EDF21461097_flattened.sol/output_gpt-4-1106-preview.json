@@ -1,0 +1,2 @@
+init
+The `init` function is marked as `external`, allowing anyone to call it and potentially reinitialize the contract.

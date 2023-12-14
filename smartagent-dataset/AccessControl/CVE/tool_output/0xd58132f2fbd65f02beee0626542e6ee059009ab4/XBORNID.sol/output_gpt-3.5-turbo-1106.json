@@ -1,0 +1,20 @@
+XBornID
+The constructor function is named "XBornID" instead of "constructor", which means it can be called by anyone to initialize the contract.
+
+distr
+The "distr" function does not have any permission checking, allowing anyone to distribute tokens.
+
+transferOwnership
+The "transferOwnership" function does not have any permission checking, allowing anyone to change the ownership of the contract.
+
+finishDistribution
+The "finishDistribution" function does not have any permission checking, allowing anyone to finish the token distribution.
+
+withdraw
+The "withdraw" function does not have any permission checking, allowing anyone to withdraw ether from the contract.
+
+burn
+The "burn" function does not have any permission checking, allowing anyone to burn tokens.
+
+withdrawForeignTokens
+The "withdrawForeignTokens" function does not have any permission checking, allowing anyone to withdraw foreign tokens from the contract.

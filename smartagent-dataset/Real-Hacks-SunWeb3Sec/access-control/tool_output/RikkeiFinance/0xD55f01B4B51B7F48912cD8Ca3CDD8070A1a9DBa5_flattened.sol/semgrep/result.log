@@ -1,0 +1,199 @@
+METRICS: Using configs from the Registry (like --config=p/ci) reports pseudonymous rule metrics to semgrep.dev.
+To disable Registry rule metrics, use "--metrics=off".
+Using configs only from local files (like --config=xyz.yml) does not enable metrics.
+
+More information: https://semgrep.dev/docs/metrics
+
+               
+               
+┌─────────────┐
+│ Scan Status │
+└─────────────┘
+  Scanning 1 file tracked by git with 48 Code rules:
+  Scanning 1 file with 48 solidity rules.
+                    
+                    
+┌──────────────────┐
+│ 49 Code Findings │
+└──────────────────┘
+                                                                 
+    /sb/0xD55f01B4B51B7F48912cD8Ca3CDD8070A1a9DBa5_flattened.sol 
+       solidity.performance.non-payable-constructor      
+          Consider making costructor payable to save gas.
+                                                         
+         2891┆ constructor() public {
+         2892┆ }
+            ⋮┆----------------------------------------
+       solidity.performance.use-custom-error-not-require                        
+          Consider using custom errors as they are more gas efficient while     
+  allowing developers  to                                                       
+          describe the error in detail using NatSpec.                           
+                                                                                
+         1244┆ require(msg.sender == admin, "only admin may initialize the      
+  market");                                                                     
+            ⋮┆----------------------------------------
+         1245┆ require(accrualBlockNumber == 0 && borrowIndex == 0, "market may 
+  only be initialized once");                                                   
+            ⋮┆----------------------------------------
+         1249┆ require(initialExchangeRateMantissa > 0, "initial exchange rate  
+  must be greater than zero.");                                                 
+            ⋮┆----------------------------------------
+         1253┆ require(err == uint(Error.NO_ERROR), "setting cointroller        
+  failed");                                                                     
+            ⋮┆----------------------------------------
+         1261┆ require(err == uint(Error.NO_ERROR), "setting interest rate model
+  failed");                                                                     
+            ⋮┆----------------------------------------
+         1406┆ require(mErr == MathError.NO_ERROR, "balance could not be        
+  calculated");                                                                 
+            ⋮┆----------------------------------------
+         1465┆ require(accrueInterest() == uint(Error.NO_ERROR), "accrue        
+  interest failed");                                                            
+            ⋮┆----------------------------------------
+         1475┆ require(accrueInterest() == uint(Error.NO_ERROR), "accrue        
+  interest failed");                                                            
+            ⋮┆----------------------------------------
+         1486┆ require(err == MathError.NO_ERROR, "borrowBalanceStored:         
+  borrowBalanceStoredInternal failed");                                         
+            ⋮┆----------------------------------------
+         1532┆ require(accrueInterest() == uint(Error.NO_ERROR), "accrue        
+  interest failed");                                                            
+            ⋮┆----------------------------------------
+         1543┆ require(err == MathError.NO_ERROR, "exchangeRateStored:          
+  exchangeRateStoredInternal failed");                                          
+            ⋮┆----------------------------------------
+         1615┆ require(borrowRateMantissa <= borrowRateMaxMantissa, "borrow rate
+  is absurdly high");                                                           
+            ⋮┆----------------------------------------
+         1619┆ require(mathErr == MathError.NO_ERROR, "could not calculate block
+  delta");                                                                      
+            ⋮┆----------------------------------------
+         1749┆ require(vars.mathErr == MathError.NO_ERROR,                      
+  "MINT_EXCHANGE_CALCULATION_FAILED");                                          
+            ⋮┆----------------------------------------
+         1757┆ require(vars.mathErr == MathError.NO_ERROR,                      
+  "MINT_NEW_TOTAL_SUPPLY_CALCULATION_FAILED");                                  
+            ⋮┆----------------------------------------
+         1760┆ require(vars.mathErr == MathError.NO_ERROR,                      
+  "MINT_NEW_ACCOUNT_BALANCE_CALCULATION_FAILED");                               
+            ⋮┆----------------------------------------
+         1828┆ require(redeemTokensIn == 0 || redeemAmountIn == 0, "one of      
+  redeemTokensIn or redeemAmountIn must be zero");                              
+            ⋮┆----------------------------------------
+         2114┆ require(vars.mathErr == MathError.NO_ERROR,                      
+  "REPAY_BORROW_NEW_ACCOUNT_BORROW_BALANCE_CALCULATION_FAILED");                
+            ⋮┆----------------------------------------
+         2117┆ require(vars.mathErr == MathError.NO_ERROR,                      
+  "REPAY_BORROW_NEW_TOTAL_BALANCE_CALCULATION_FAILED");                         
+            ⋮┆----------------------------------------
+         2213┆ require(amountSeizeError == uint(Error.NO_ERROR),                
+  "LIQUIDATE_COINTROLLER_CALCULATE_AMOUNT_SEIZE_FAILED");                       
+            ⋮┆----------------------------------------
+         2216┆ require(rTokenCollateral.balanceOf(borrower) >= seizeTokens,     
+  "LIQUIDATE_SEIZE_TOO_MUCH");                                                  
+            ⋮┆----------------------------------------
+         2227┆ require(seizeError == uint(Error.NO_ERROR), "token seizure       
+  failed");                                                                     
+            ⋮┆----------------------------------------
+         2378┆ require(newCointroller.isCointroller(), "marker method returned  
+  false");                                                                      
+            ⋮┆----------------------------------------
+         2483┆ require(totalReservesNew >= totalReserves, "add reserves         
+  unexpected overflow");                                                        
+            ⋮┆----------------------------------------
+         2547┆ require(totalReservesNew <= totalReserves, "reduce reserves      
+  unexpected underflow");                                                       
+            ⋮┆----------------------------------------
+         2601┆ require(newInterestRateModel.isInterestRateModel(), "marker      
+  method returned false");                                                      
+            ⋮┆----------------------------------------
+         2641┆ require(_notEntered, "re-entered");
+            ⋮┆----------------------------------------
+         2777┆ require(address(token) != underlying, "RBep20::sweepToken: can   
+  not sweep underlying token");                                                 
+            ⋮┆----------------------------------------
+         2831┆ require(success, "TOKEN_TRANSFER_IN_FAILED");
+            ⋮┆----------------------------------------
+         2835┆ require(balanceAfter >= balanceBefore,                           
+  "TOKEN_TRANSFER_IN_OVERFLOW");                                                
+            ⋮┆----------------------------------------
+         2866┆ require(success, "TOKEN_TRANSFER_OUT_FAILED");
+            ⋮┆----------------------------------------
+       solidity.performance.use-multiple-require                                
+          Using multiple require statements is cheaper than using && multiple   
+  check combinations.                                                           
+          There are more advantages, such as easier to read code and better     
+  coverage reports.                                                             
+                                                                                
+         1245┆ require(accrualBlockNumber == 0 && borrowIndex == 0, "market may 
+  only be initialized once");                                                   
+            ⋮┆----------------------------------------
+       solidity.performance.use-short-revert-string                             
+          Shortening revert strings to fit in 32 bytes will decrease gas costs  
+  for deployment and  gas                                                       
+          costs when the revert condition has been met.                         
+                                                                                
+         1244┆ require(msg.sender == admin, "only admin may initialize the      
+  market");                                                                     
+            ⋮┆----------------------------------------
+         1245┆ require(accrualBlockNumber == 0 && borrowIndex == 0, "market may 
+  only be initialized once");                                                   
+            ⋮┆----------------------------------------
+         1249┆ require(initialExchangeRateMantissa > 0, "initial exchange rate  
+  must be greater than zero.");                                                 
+            ⋮┆----------------------------------------
+         1261┆ require(err == uint(Error.NO_ERROR), "setting interest rate model
+  failed");                                                                     
+            ⋮┆----------------------------------------
+         1486┆ require(err == MathError.NO_ERROR, "borrowBalanceStored:         
+  borrowBalanceStoredInternal failed");                                         
+            ⋮┆----------------------------------------
+         1543┆ require(err == MathError.NO_ERROR, "exchangeRateStored:          
+  exchangeRateStoredInternal failed");                                          
+            ⋮┆----------------------------------------
+         1757┆ require(vars.mathErr == MathError.NO_ERROR,                      
+  "MINT_NEW_TOTAL_SUPPLY_CALCULATION_FAILED");                                  
+            ⋮┆----------------------------------------
+         1760┆ require(vars.mathErr == MathError.NO_ERROR,                      
+  "MINT_NEW_ACCOUNT_BALANCE_CALCULATION_FAILED");                               
+            ⋮┆----------------------------------------
+         1828┆ require(redeemTokensIn == 0 || redeemAmountIn == 0, "one of      
+  redeemTokensIn or redeemAmountIn must be zero");                              
+            ⋮┆----------------------------------------
+         2114┆ require(vars.mathErr == MathError.NO_ERROR,                      
+  "REPAY_BORROW_NEW_ACCOUNT_BORROW_BALANCE_CALCULATION_FAILED");                
+            ⋮┆----------------------------------------
+         2117┆ require(vars.mathErr == MathError.NO_ERROR,                      
+  "REPAY_BORROW_NEW_TOTAL_BALANCE_CALCULATION_FAILED");                         
+            ⋮┆----------------------------------------
+         2213┆ require(amountSeizeError == uint(Error.NO_ERROR),                
+  "LIQUIDATE_COINTROLLER_CALCULATE_AMOUNT_SEIZE_FAILED");                       
+            ⋮┆----------------------------------------
+         2547┆ require(totalReservesNew <= totalReserves, "reduce reserves      
+  unexpected underflow");                                                       
+            ⋮┆----------------------------------------
+         2777┆ require(address(token) != underlying, "RBep20::sweepToken: can   
+  not sweep underlying token");                                                 
+            ⋮┆----------------------------------------
+       solidity.security.compound-sweeptoken-not-restricted    
+          Function sweepToken is allowed to be called by anyone
+                                                               
+         2779┆ token.transfer(admin, balance);
+            ⋮┆----------------------------------------
+       solidity.security.oracle-price-update-not-restricted
+          Oracle price data can be submitted by anyone     
+                                                           
+         2893┆ function setOracleData(address rToken, oracleChainlink _oracle)  
+  external {                                                                    
+         2894┆     oracleData[rToken] = _oracle;
+         2895┆ }
+
+                
+                
+┌──────────────┐
+│ Scan Summary │
+└──────────────┘
+
+Ran 48 rules on 1 file: 49 findings.
+
+A new version of Semgrep is available. See https://semgrep.dev/docs/upgrading

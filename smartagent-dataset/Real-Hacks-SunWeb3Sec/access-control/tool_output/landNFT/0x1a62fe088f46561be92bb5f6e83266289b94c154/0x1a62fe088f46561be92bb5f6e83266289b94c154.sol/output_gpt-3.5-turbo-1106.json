@@ -1,0 +1,9 @@
+The code does not have any explicit access control modifiers or functions that restrict access to certain actions based on user roles or permissions. This means that anyone can call the mint function and create new tokens, which could lead to unauthorized creation of tokens.
+
+The code does not have any permission checking in the upgrade function, which allows any user to upgrade their tokens to a higher level without any restrictions.
+
+The code does not have any permission checking in the synthesis function, which allows any user to upgrade their tokens to a higher level without any restrictions.
+
+The code does not have any permission checking in the mint function, which allows any user to mint new tokens without any restrictions.
+
+The code does not have any permission checking in the gethistoryList function, which allows any user to access the transaction history of any address without any restrictions.

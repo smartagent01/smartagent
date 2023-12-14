@@ -1,0 +1,378 @@
+{
+  "/smart-agent-artifact/smart-agent/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Melo/0x9a1aef8c9ada4224ad774afdac07c24955c92a54/0x9a1aef8c9ada4224ad774afdac07c24955c92a54.sol": [
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IcERC20.totalSupply",
+      "info": "totalSupply",
+      "loc": [
+        5,
+        4,
+        5,
+        58
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IcERC20.balanceOf",
+      "info": "balanceOf",
+      "loc": [
+        7,
+        4,
+        7,
+        71
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IcERC20.transfer",
+      "info": "transfer",
+      "loc": [
+        9,
+        4,
+        11,
+        18
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IcERC20.allowance",
+      "info": "allowance",
+      "loc": [
+        13,
+        4,
+        16,
+        21
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IcERC20.approve",
+      "info": "approve",
+      "loc": [
+        18,
+        4,
+        18,
+        77
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IcERC20.transferFrom",
+      "info": "transferFrom",
+      "loc": [
+        20,
+        4,
+        24,
+        29
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IcERC20.name",
+      "info": "name",
+      "loc": [
+        26,
+        4,
+        26,
+        57
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IcERC20.symbol",
+      "info": "symbol",
+      "loc": [
+        28,
+        4,
+        28,
+        59
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IcERC20.decimals",
+      "info": "decimals",
+      "loc": [
+        30,
+        4,
+        30,
+        53
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IcERC20.mint",
+      "info": "mint",
+      "loc": [
+        32,
+        4,
+        36,
+        29
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.add",
+      "info": "add",
+      "loc": [
+        57,
+        4,
+        62,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.sub",
+      "info": "sub",
+      "loc": [
+        73,
+        4,
+        75,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.sub",
+      "info": "sub",
+      "loc": [
+        88,
+        4,
+        93,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.mul",
+      "info": "mul",
+      "loc": [
+        104,
+        4,
+        116,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.div",
+      "info": "div",
+      "loc": [
+        129,
+        4,
+        131,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.div",
+      "info": "div",
+      "loc": [
+        146,
+        4,
+        153,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.mod",
+      "info": "mod",
+      "loc": [
+        166,
+        4,
+        168,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.mod",
+      "info": "mod",
+      "loc": [
+        183,
+        4,
+        186,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: cERC20.__constructor__",
+      "info": "__constructor__",
+      "loc": [
+        202,
+        4,
+        213,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: cERC20.name",
+      "info": "name",
+      "loc": [
+        215,
+        4,
+        217,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: cERC20.symbol",
+      "info": "symbol",
+      "loc": [
+        219,
+        4,
+        221,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: cERC20.decimals",
+      "info": "decimals",
+      "loc": [
+        223,
+        4,
+        225,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: cERC20.totalSupply",
+      "info": "totalSupply",
+      "loc": [
+        227,
+        4,
+        229,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: cERC20.balanceOf",
+      "info": "balanceOf",
+      "loc": [
+        231,
+        4,
+        233,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: cERC20.transfer",
+      "info": "transfer",
+      "loc": [
+        235,
+        4,
+        238,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: cERC20.allowance",
+      "info": "allowance",
+      "loc": [
+        240,
+        4,
+        246,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: cERC20.approve",
+      "info": "approve",
+      "loc": [
+        248,
+        4,
+        251,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: cERC20.transferFrom",
+      "info": "transferFrom",
+      "loc": [
+        253,
+        4,
+        268,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: cERC20.increaseAllowance",
+      "info": "increaseAllowance",
+      "loc": [
+        270,
+        4,
+        280,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: cERC20.decreaseAllowance",
+      "info": "decreaseAllowance",
+      "loc": [
+        282,
+        4,
+        295,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: cERC20._transfer",
+      "info": "_transfer",
+      "loc": [
+        297,
+        4,
+        311,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: cERC20.mint",
+      "info": "mint",
+      "loc": [
+        313,
+        4,
+        321,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: cERC20._mint",
+      "info": "_mint",
+      "loc": [
+        323,
+        4,
+        329,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: cERC20._approve",
+      "info": "_approve",
+      "loc": [
+        331,
+        4,
+        341,
+        4
+      ]
+    }
+  ]
+}

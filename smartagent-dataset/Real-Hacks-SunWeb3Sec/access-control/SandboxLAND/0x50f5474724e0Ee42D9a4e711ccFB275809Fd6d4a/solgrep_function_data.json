@@ -1,0 +1,741 @@
+{
+  "/smart-agent-artifact/smart-agent/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol": [
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Admin.getAdmin",
+      "info": "getAdmin",
+      "loc": [
+        29,
+        4,
+        31,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Admin.changeAdmin",
+      "info": "changeAdmin",
+      "loc": [
+        35,
+        4,
+        39,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SuperOperators.setSuperOperator",
+      "info": "setSuperOperator",
+      "loc": [
+        57,
+        4,
+        64,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SuperOperators.isSuperOperator",
+      "info": "isSuperOperator",
+      "loc": [
+        69,
+        4,
+        71,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MetaTransactionReceiver.setMetaTransactionProcessor",
+      "info": "setMetaTransactionProcessor",
+      "loc": [
+        82,
+        4,
+        88,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MetaTransactionReceiver._setMetaTransactionProcessor",
+      "info": "_setMetaTransactionProcessor",
+      "loc": [
+        90,
+        4,
+        93,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MetaTransactionReceiver.isMetaTransactionProcessor",
+      "info": "isMetaTransactionProcessor",
+      "loc": [
+        98,
+        4,
+        100,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721TokenReceiver.onERC721Received",
+      "info": "onERC721Received",
+      "loc": [
+        104,
+        4,
+        109,
+        31
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AddressUtils.toPayable",
+      "info": "toPayable",
+      "loc": [
+        114,
+        4,
+        116,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AddressUtils.isContract",
+      "info": "isContract",
+      "loc": [
+        118,
+        4,
+        128,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721MandatoryTokenReceiver.onERC721BatchReceived",
+      "info": "onERC721BatchReceived",
+      "loc": [
+        133,
+        4,
+        138,
+        31
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721MandatoryTokenReceiver.onERC721Received",
+      "info": "onERC721Received",
+      "loc": [
+        140,
+        4,
+        145,
+        31
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721BaseToken.__constructor__",
+      "info": "__constructor__",
+      "loc": [
+        169,
+        4,
+        175,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721BaseToken._transferFrom",
+      "info": "_transferFrom",
+      "loc": [
+        177,
+        4,
+        182,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721BaseToken.balanceOf",
+      "info": "balanceOf",
+      "loc": [
+        189,
+        4,
+        192,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721BaseToken._ownerOf",
+      "info": "_ownerOf",
+      "loc": [
+        195,
+        4,
+        197,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721BaseToken._ownerAndOperatorEnabledOf",
+      "info": "_ownerAndOperatorEnabledOf",
+      "loc": [
+        199,
+        4,
+        203,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721BaseToken.ownerOf",
+      "info": "ownerOf",
+      "loc": [
+        210,
+        4,
+        213,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721BaseToken._approveFor",
+      "info": "_approveFor",
+      "loc": [
+        215,
+        4,
+        223,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721BaseToken.approveFor",
+      "info": "approveFor",
+      "loc": [
+        231,
+        4,
+        247,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721BaseToken.approve",
+      "info": "approve",
+      "loc": [
+        254,
+        4,
+        264,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721BaseToken.getApproved",
+      "info": "getApproved",
+      "loc": [
+        271,
+        4,
+        279,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721BaseToken._checkTransfer",
+      "info": "_checkTransfer",
+      "loc": [
+        281,
+        4,
+        295,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721BaseToken._checkInterfaceWith10000Gas",
+      "info": "_checkInterfaceWith10000Gas",
+      "loc": [
+        297,
+        4,
+        327,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721BaseToken.transferFrom",
+      "info": "transferFrom",
+      "loc": [
+        335,
+        4,
+        344,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721BaseToken.safeTransferFrom",
+      "info": "safeTransferFrom",
+      "loc": [
+        353,
+        4,
+        362,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721BaseToken.safeTransferFrom",
+      "info": "safeTransferFrom",
+      "loc": [
+        370,
+        4,
+        372,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721BaseToken.batchTransferFrom",
+      "info": "batchTransferFrom",
+      "loc": [
+        381,
+        4,
+        383,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721BaseToken._batchTransferFrom",
+      "info": "_batchTransferFrom",
+      "loc": [
+        385,
+        4,
+        415,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721BaseToken.safeBatchTransferFrom",
+      "info": "safeBatchTransferFrom",
+      "loc": [
+        424,
+        4,
+        426,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721BaseToken.supportsInterface",
+      "info": "supportsInterface",
+      "loc": [
+        435,
+        4,
+        437,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721BaseToken.setApprovalForAllFor",
+      "info": "setApprovalForAllFor",
+      "loc": [
+        445,
+        4,
+        459,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721BaseToken.setApprovalForAll",
+      "info": "setApprovalForAll",
+      "loc": [
+        466,
+        4,
+        468,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721BaseToken._setApprovalForAll",
+      "info": "_setApprovalForAll",
+      "loc": [
+        471,
+        4,
+        483,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721BaseToken.isApprovedForAll",
+      "info": "isApprovedForAll",
+      "loc": [
+        491,
+        4,
+        497,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721BaseToken._burn",
+      "info": "_burn",
+      "loc": [
+        500,
+        4,
+        506,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721BaseToken.burn",
+      "info": "burn",
+      "loc": [
+        510,
+        4,
+        512,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721BaseToken.burnFrom",
+      "info": "burnFrom",
+      "loc": [
+        517,
+        4,
+        529,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721BaseToken._checkOnERC721Received",
+      "info": "_checkOnERC721Received",
+      "loc": [
+        531,
+        4,
+        536,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC721BaseToken._checkOnERC721BatchReceived",
+      "info": "_checkOnERC721BatchReceived",
+      "loc": [
+        538,
+        4,
+        543,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LandBaseToken.setMinter",
+      "info": "setMinter",
+      "loc": [
+        563,
+        4,
+        570,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LandBaseToken.isMinter",
+      "info": "isMinter",
+      "loc": [
+        575,
+        4,
+        577,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LandBaseToken.__constructor__",
+      "info": "__constructor__",
+      "loc": [
+        579,
+        4,
+        583,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LandBaseToken.width",
+      "info": "width",
+      "loc": [
+        587,
+        4,
+        589,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LandBaseToken.height",
+      "info": "height",
+      "loc": [
+        593,
+        4,
+        595,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LandBaseToken.x",
+      "info": "x",
+      "loc": [
+        600,
+        4,
+        603,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LandBaseToken.y",
+      "info": "y",
+      "loc": [
+        608,
+        4,
+        611,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LandBaseToken.mintQuad",
+      "info": "mintQuad",
+      "loc": [
+        621,
+        4,
+        697,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LandBaseToken._idInPath",
+      "info": "_idInPath",
+      "loc": [
+        699,
+        4,
+        706,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LandBaseToken.transferQuad",
+      "info": "transferQuad",
+      "loc": [
+        715,
+        4,
+        731,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LandBaseToken._checkBatchReceiverAcceptQuad",
+      "info": "_checkBatchReceiverAcceptQuad",
+      "loc": [
+        733,
+        4,
+        752,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LandBaseToken.batchTransferQuad",
+      "info": "batchTransferQuad",
+      "loc": [
+        761,
+        4,
+        804,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LandBaseToken._transferQuad",
+      "info": "_transferQuad",
+      "loc": [
+        806,
+        4,
+        819,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LandBaseToken._checkAndClear",
+      "info": "_checkAndClear",
+      "loc": [
+        821,
+        4,
+        829,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LandBaseToken._regroup",
+      "info": "_regroup",
+      "loc": [
+        831,
+        4,
+        846,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LandBaseToken._regroup3x3",
+      "info": "_regroup3x3",
+      "loc": [
+        848,
+        4,
+        871,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LandBaseToken._regroup6x6",
+      "info": "_regroup6x6",
+      "loc": [
+        872,
+        4,
+        903,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LandBaseToken._regroup12x12",
+      "info": "_regroup12x12",
+      "loc": [
+        904,
+        4,
+        934,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LandBaseToken._regroup24x24",
+      "info": "_regroup24x24",
+      "loc": [
+        935,
+        4,
+        964,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LandBaseToken._ownerOf",
+      "info": "_ownerOf",
+      "loc": [
+        966,
+        4,
+        992,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LandBaseToken._ownerAndOperatorEnabledOf",
+      "info": "_ownerAndOperatorEnabledOf",
+      "loc": [
+        994,
+        4,
+        1025,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Land.__constructor__",
+      "info": "__constructor__",
+      "loc": [
+        1030,
+        4,
+        1037,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Land.name",
+      "info": "name",
+      "loc": [
+        1043,
+        4,
+        1045,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Land.symbol",
+      "info": "symbol",
+      "loc": [
+        1051,
+        4,
+        1053,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Land.uint2str",
+      "info": "uint2str",
+      "loc": [
+        1056,
+        4,
+        1073,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Land.tokenURI",
+      "info": "tokenURI",
+      "loc": [
+        1080,
+        4,
+        1090,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Land.supportsInterface",
+      "info": "supportsInterface",
+      "loc": [
+        1100,
+        4,
+        1102,
+        4
+      ]
+    }
+  ]
+}

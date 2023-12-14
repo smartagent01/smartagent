@@ -1,0 +1,16 @@
+```
+AURA()
+The constructor function `AURA()` is public, which means anyone can call it to initialize the contract. This is an access control bug as only the contract creator should be able to initialize the contract.
+
+setOwner
+The `setOwner` function in the `Owned` contract allows anyone to change the owner of the contract, which is a critical action. There is no permission checking in this function, so it is an access control bug.
+
+unlockToken
+The `unlockToken` function in the `AURA` contract allows anyone to unlock the token, which is a critical action. There is no permission checking in this function, so it is an access control bug.
+
+uploadBalances
+The `uploadBalances` function in the `AURA` contract allows anyone to upload balances for multiple recipients, which can change the ownership of tokens. There is no permission checking in this function, so it is an access control bug.
+
+lockBalances
+The `lockBalances` function in the `AURA` contract allows anyone to lock the balances, which is a critical action. There is no permission checking in this function, so it is an access control bug.
+```

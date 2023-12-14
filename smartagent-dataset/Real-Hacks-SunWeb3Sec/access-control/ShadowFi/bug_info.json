@@ -1,0 +1,19 @@
+[
+  {
+    "bug": [
+      "AccessControl"
+    ],
+    "blockchain": "BSC",
+    "address": "0x10bc28d2810dD462E16facfF18f78783e859351b",
+    "source_file": "./0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+    "contract": "ShadowFi",
+    "function": "burn",
+    "line_start": 958,
+    "line_end": 962,
+    "reference": [
+      "https://github.com/SunWeb3Sec/DeFiHackLabs/blob/main/src/test/Shadowfi_exp.sol",
+      "https://twitter.com/PeckShieldAlert/status/1565549688509861888"
+    ],
+    "note": ""
+  }
+]

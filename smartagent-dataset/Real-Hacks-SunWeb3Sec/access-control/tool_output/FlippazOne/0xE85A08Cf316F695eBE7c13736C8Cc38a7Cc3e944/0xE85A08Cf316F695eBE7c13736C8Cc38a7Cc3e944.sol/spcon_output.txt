@@ -1,0 +1,19 @@
+Running SPCON... 0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944 600 2022-05-23
+Installing solc '0.8.15'...
+Version '0.8.15' installed.
+2022-05-23
+{'limit': 0, 'network': 'ethereum', 'address': '0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944', 'date': '2022-05-23'}
+0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944 FlippazOne
+./0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944
+loaded abi.
+0  functions []
+0  users
+Timecost for loading history: 0.0070421695709228516
+No.user: 0; No.func: 0
+total timecost: 9.695865392684937 seconds
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/SpCon-0.1.0-py3.8.egg/spcon/__main__.py", line 67, in main
+    execute_command(args)
+  File "/usr/local/lib/python3.8/dist-packages/SpCon-0.1.0-py3.8.egg/spcon/__main__.py", line 34, in execute_command
+    assert  boolflag==True, "security policies inference error"
+AssertionError: security policies inference error

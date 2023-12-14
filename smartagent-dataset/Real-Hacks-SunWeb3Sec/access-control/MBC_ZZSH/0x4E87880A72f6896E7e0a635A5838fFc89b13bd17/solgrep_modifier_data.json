@@ -1,0 +1,15 @@
+{
+  "/smart-agent-artifact/smart-agent/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/MBC_ZZSH/0x4E87880A72f6896E7e0a635A5838fFc89b13bd17/0x4E87880A72f6896E7e0a635A5838fFc89b13bd17.sol": [
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: Ownable.onlyOwner",
+      "info": "onlyOwner",
+      "loc": [
+        284,
+        4,
+        287,
+        4
+      ]
+    }
+  ]
+}

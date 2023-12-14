@@ -1,0 +1,977 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "confirm",
+            "source_mapping": {
+              "start": 10116,
+              "length": 542,
+              "filename_relative": "",
+              "filename_absolute": "",
+              "filename_short": "",
+              "is_dependency": false,
+              "lines": [],
+              "starting_column": 0,
+              "ending_column": 0
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "WalletLibrary",
+                "source_mapping": {
+                  "start": 2810,
+                  "length": 11706,
+                  "filename_relative": "",
+                  "filename_absolute": "",
+                  "filename_short": "",
+                  "is_dependency": false,
+                  "lines": [],
+                  "starting_column": 0,
+                  "ending_column": 0
+                }
+              },
+              "signature": "confirm(bytes32)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "! m_txs[_h].to.call.value(m_txs[_h].value)(m_txs[_h].data)",
+            "source_mapping": {
+              "start": 10420,
+              "length": 57,
+              "filename_relative": "",
+              "filename_absolute": "",
+              "filename_short": "",
+              "is_dependency": false,
+              "lines": [],
+              "starting_column": 0,
+              "ending_column": 0
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "confirm",
+                "source_mapping": {
+                  "start": 10116,
+                  "length": 542,
+                  "filename_relative": "",
+                  "filename_absolute": "",
+                  "filename_short": "",
+                  "is_dependency": false,
+                  "lines": [],
+                  "starting_column": 0,
+                  "ending_column": 0
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "WalletLibrary",
+                    "source_mapping": {
+                      "start": 2810,
+                      "length": 11706,
+                      "filename_relative": "",
+                      "filename_absolute": "",
+                      "filename_short": "",
+                      "is_dependency": false,
+                      "lines": [],
+                      "starting_column": 0,
+                      "ending_column": 0
+                    }
+                  },
+                  "signature": "confirm(bytes32)"
+                }
+              }
+            },
+            "additional_fields": {
+              "underlying_type": "external_calls"
+            }
+          },
+          {
+            "type": "node",
+            "name": "delete m_txs[_h]",
+            "source_mapping": {
+              "start": 10609,
+              "length": 16,
+              "filename_relative": "",
+              "filename_absolute": "",
+              "filename_short": "",
+              "is_dependency": false,
+              "lines": [],
+              "starting_column": 0,
+              "ending_column": 0
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "confirm",
+                "source_mapping": {
+                  "start": 10116,
+                  "length": 542,
+                  "filename_relative": "",
+                  "filename_absolute": "",
+                  "filename_short": "",
+                  "is_dependency": false,
+                  "lines": [],
+                  "starting_column": 0,
+                  "ending_column": 0
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "WalletLibrary",
+                    "source_mapping": {
+                      "start": 2810,
+                      "length": 11706,
+                      "filename_relative": "",
+                      "filename_absolute": "",
+                      "filename_short": "",
+                      "is_dependency": false,
+                      "lines": [],
+                      "starting_column": 0,
+                      "ending_column": 0
+                    }
+                  },
+                  "signature": "confirm(bytes32)"
+                }
+              }
+            },
+            "additional_fields": {
+              "underlying_type": "variables_written",
+              "variable_name": "m_txs"
+            }
+          }
+        ],
+        "description": "Reentrancy in WalletLibrary.confirm(bytes32) ():\n\tExternal calls:\n\t- ! m_txs[_h].to.call.value(m_txs[_h].value)(m_txs[_h].data) ()\n\tState variables written after the call(s):\n\t- delete m_txs[_h] ()\n\tWalletLibrary.m_txs () can be used in cross function reentrancies:\n\t- WalletLibrary.clearPending() ()\n\t- WalletLibrary.confirm(bytes32) ()\n\t- WalletLibrary.execute(address,uint256,bytes) ()\n",
+        "markdown": "Reentrancy in [WalletLibrary.confirm(bytes32)]():\n\tExternal calls:\n\t- [! m_txs[_h].to.call.value(m_txs[_h].value)(m_txs[_h].data)]()\n\tState variables written after the call(s):\n\t- [delete m_txs[_h]]()\n\t[WalletLibrary.m_txs]() can be used in cross function reentrancies:\n\t- [WalletLibrary.clearPending()]()\n\t- [WalletLibrary.confirm(bytes32)]()\n\t- [WalletLibrary.execute(address,uint256,bytes)]()\n",
+        "first_markdown_element": "",
+        "id": "32e0565a8776bcdcd718c615f832d3e093fe7e0d933cf4f9cc10e87a95e6dbbc",
+        "check": "reentrancy-eth",
+        "impact": "High",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "kill",
+            "source_mapping": {
+              "start": 8210,
+              "length": 92,
+              "filename_relative": "",
+              "filename_absolute": "",
+              "filename_short": "",
+              "is_dependency": false,
+              "lines": [],
+              "starting_column": 0,
+              "ending_column": 0
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "WalletLibrary",
+                "source_mapping": {
+                  "start": 2810,
+                  "length": 11706,
+                  "filename_relative": "",
+                  "filename_absolute": "",
+                  "filename_short": "",
+                  "is_dependency": false,
+                  "lines": [],
+                  "starting_column": 0,
+                  "ending_column": 0
+                }
+              },
+              "signature": "kill(address)"
+            }
+          }
+        ],
+        "description": "WalletLibrary.kill(address) () allows anyone to destruct the contract\n",
+        "markdown": "[WalletLibrary.kill(address)]() allows anyone to destruct the contract\n",
+        "first_markdown_element": "",
+        "id": "e146efa96f7ab727401a37eb17e8fd93f389c386d4112334b28020eebdf23b3f",
+        "check": "suicidal",
+        "impact": "High",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "m_owners",
+            "source_mapping": {
+              "start": 16703,
+              "length": 18,
+              "filename_relative": "",
+              "filename_absolute": "",
+              "filename_short": "",
+              "is_dependency": false,
+              "lines": [],
+              "starting_column": 0,
+              "ending_column": 0
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Wallet",
+                "source_mapping": {
+                  "start": 14520,
+                  "length": 2205,
+                  "filename_relative": "",
+                  "filename_absolute": "",
+                  "filename_short": "",
+                  "is_dependency": false,
+                  "lines": [],
+                  "starting_column": 0,
+                  "ending_column": 0
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "getOwner",
+            "source_mapping": {
+              "start": 15838,
+              "length": 115,
+              "filename_relative": "",
+              "filename_absolute": "",
+              "filename_short": "",
+              "is_dependency": false,
+              "lines": [],
+              "starting_column": 0,
+              "ending_column": 0
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Wallet",
+                "source_mapping": {
+                  "start": 14520,
+                  "length": 2205,
+                  "filename_relative": "",
+                  "filename_absolute": "",
+                  "filename_short": "",
+                  "is_dependency": false,
+                  "lines": [],
+                  "starting_column": 0,
+                  "ending_column": 0
+                }
+              },
+              "signature": "getOwner(uint256)"
+            }
+          }
+        ],
+        "description": "Wallet.m_owners () is never initialized. It is used in:\n\t- Wallet.getOwner(uint256) ()\n",
+        "markdown": "[Wallet.m_owners]() is never initialized. It is used in:\n\t- [Wallet.getOwner(uint256)]()\n",
+        "first_markdown_element": "",
+        "id": "11cde90b9cb0ad61ef7d118cdb78d52f42a3cf2b897a84091ef35abf374d3372",
+        "check": "uninitialized-state",
+        "impact": "High",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "fallback",
+            "source_mapping": {
+              "start": 15555,
+              "length": 204,
+              "filename_relative": "",
+              "filename_absolute": "",
+              "filename_short": "",
+              "is_dependency": false,
+              "lines": [],
+              "starting_column": 0,
+              "ending_column": 0
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Wallet",
+                "source_mapping": {
+                  "start": 14520,
+                  "length": 2205,
+                  "filename_relative": "",
+                  "filename_absolute": "",
+                  "filename_short": "",
+                  "is_dependency": false,
+                  "lines": [],
+                  "starting_column": 0,
+                  "ending_column": 0
+                }
+              },
+              "signature": "fallback()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "_walletLibrary.delegatecall(msg.data)",
+            "source_mapping": {
+              "start": 15716,
+              "length": 37,
+              "filename_relative": "",
+              "filename_absolute": "",
+              "filename_short": "",
+              "is_dependency": false,
+              "lines": [],
+              "starting_column": 0,
+              "ending_column": 0
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "fallback",
+                "source_mapping": {
+                  "start": 15555,
+                  "length": 204,
+                  "filename_relative": "",
+                  "filename_absolute": "",
+                  "filename_short": "",
+                  "is_dependency": false,
+                  "lines": [],
+                  "starting_column": 0,
+                  "ending_column": 0
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Wallet",
+                    "source_mapping": {
+                      "start": 14520,
+                      "length": 2205,
+                      "filename_relative": "",
+                      "filename_absolute": "",
+                      "filename_short": "",
+                      "is_dependency": false,
+                      "lines": [],
+                      "starting_column": 0,
+                      "ending_column": 0
+                    }
+                  },
+                  "signature": "fallback()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Wallet.fallback() () ignores return value by _walletLibrary.delegatecall(msg.data) ()\n",
+        "markdown": "[Wallet.fallback()]() ignores return value by [_walletLibrary.delegatecall(msg.data)]()\n",
+        "first_markdown_element": "",
+        "id": "f7d566c6bff0df2a0f090d7d0ae7fabceb3b103ed534bdf310be01023613a9f3",
+        "check": "unchecked-lowlevel",
+        "impact": "Medium",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "created",
+            "source_mapping": {
+              "start": 10282,
+              "length": 16,
+              "filename_relative": "",
+              "filename_absolute": "",
+              "filename_short": "",
+              "is_dependency": false,
+              "lines": [],
+              "starting_column": 0,
+              "ending_column": 0
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "confirm",
+                "source_mapping": {
+                  "start": 10116,
+                  "length": 542,
+                  "filename_relative": "",
+                  "filename_absolute": "",
+                  "filename_short": "",
+                  "is_dependency": false,
+                  "lines": [],
+                  "starting_column": 0,
+                  "ending_column": 0
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "WalletLibrary",
+                    "source_mapping": {
+                      "start": 2810,
+                      "length": 11706,
+                      "filename_relative": "",
+                      "filename_absolute": "",
+                      "filename_short": "",
+                      "is_dependency": false,
+                      "lines": [],
+                      "starting_column": 0,
+                      "ending_column": 0
+                    }
+                  },
+                  "signature": "confirm(bytes32)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "WalletLibrary.confirm(bytes32).created () is a local variable never initialized\n",
+        "markdown": "[WalletLibrary.confirm(bytes32).created]() is a local variable never initialized\n",
+        "first_markdown_element": "",
+        "id": "944371537fe22b61230ffbf6545d329a2bcf2075aea2d372b4263a829a93ea89",
+        "check": "uninitialized-local",
+        "impact": "Medium",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "created",
+            "source_mapping": {
+              "start": 9001,
+              "length": 16,
+              "filename_relative": "",
+              "filename_absolute": "",
+              "filename_short": "",
+              "is_dependency": false,
+              "lines": [],
+              "starting_column": 0,
+              "ending_column": 0
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "execute",
+                "source_mapping": {
+                  "start": 8701,
+                  "length": 998,
+                  "filename_relative": "",
+                  "filename_absolute": "",
+                  "filename_short": "",
+                  "is_dependency": false,
+                  "lines": [],
+                  "starting_column": 0,
+                  "ending_column": 0
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "WalletLibrary",
+                    "source_mapping": {
+                      "start": 2810,
+                      "length": 11706,
+                      "filename_relative": "",
+                      "filename_absolute": "",
+                      "filename_short": "",
+                      "is_dependency": false,
+                      "lines": [],
+                      "starting_column": 0,
+                      "ending_column": 0
+                    }
+                  },
+                  "signature": "execute(address,uint256,bytes)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "WalletLibrary.execute(address,uint256,bytes).created () is a local variable never initialized\n",
+        "markdown": "[WalletLibrary.execute(address,uint256,bytes).created]() is a local variable never initialized\n",
+        "first_markdown_element": "",
+        "id": "d4b1da18e0193f3fbc2aedb5b53bcc8869d8735bd7045539f958d57045ffdfae",
+        "check": "uninitialized-local",
+        "impact": "Medium",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "onlymanyowners",
+            "source_mapping": {
+              "start": 3527,
+              "length": 98,
+              "filename_relative": "",
+              "filename_absolute": "",
+              "filename_short": "",
+              "is_dependency": false,
+              "lines": [],
+              "starting_column": 0,
+              "ending_column": 0
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "WalletLibrary",
+                "source_mapping": {
+                  "start": 2810,
+                  "length": 11706,
+                  "filename_relative": "",
+                  "filename_absolute": "",
+                  "filename_short": "",
+                  "is_dependency": false,
+                  "lines": [],
+                  "starting_column": 0,
+                  "ending_column": 0
+                }
+              },
+              "signature": "onlymanyowners(bytes32)"
+            }
+          }
+        ],
+        "description": "Modifier WalletLibrary.onlymanyowners(bytes32) () does not always execute _; or revert",
+        "markdown": "Modifier [WalletLibrary.onlymanyowners(bytes32)]() does not always execute _; or revert",
+        "first_markdown_element": "",
+        "id": "4d0aa1921b35546edcdd309e3744ec5f0ff674fa24aedb185268e9614b788540",
+        "check": "incorrect-modifier",
+        "impact": "Low",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "onlyowner",
+            "source_mapping": {
+              "start": 3258,
+              "length": 65,
+              "filename_relative": "",
+              "filename_absolute": "",
+              "filename_short": "",
+              "is_dependency": false,
+              "lines": [],
+              "starting_column": 0,
+              "ending_column": 0
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "WalletLibrary",
+                "source_mapping": {
+                  "start": 2810,
+                  "length": 11706,
+                  "filename_relative": "",
+                  "filename_absolute": "",
+                  "filename_short": "",
+                  "is_dependency": false,
+                  "lines": [],
+                  "starting_column": 0,
+                  "ending_column": 0
+                }
+              },
+              "signature": "onlyowner()"
+            }
+          }
+        ],
+        "description": "Modifier WalletLibrary.onlyowner() () does not always execute _; or revert",
+        "markdown": "Modifier [WalletLibrary.onlyowner()]() does not always execute _; or revert",
+        "first_markdown_element": "",
+        "id": "a4a609967b712f0896e8736ce2d022f90f1c77e279fe3d0262fcfa9596948c3b",
+        "check": "incorrect-modifier",
+        "impact": "Low",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "execute",
+            "source_mapping": {
+              "start": 8701,
+              "length": 998,
+              "filename_relative": "",
+              "filename_absolute": "",
+              "filename_short": "",
+              "is_dependency": false,
+              "lines": [],
+              "starting_column": 0,
+              "ending_column": 0
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "WalletLibrary",
+                "source_mapping": {
+                  "start": 2810,
+                  "length": 11706,
+                  "filename_relative": "",
+                  "filename_absolute": "",
+                  "filename_short": "",
+                  "is_dependency": false,
+                  "lines": [],
+                  "starting_column": 0,
+                  "ending_column": 0
+                }
+              },
+              "signature": "execute(address,uint256,bytes)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "! _to.call.value(_value)(_data)",
+            "source_mapping": {
+              "start": 9112,
+              "length": 30,
+              "filename_relative": "",
+              "filename_absolute": "",
+              "filename_short": "",
+              "is_dependency": false,
+              "lines": [],
+              "starting_column": 0,
+              "ending_column": 0
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "execute",
+                "source_mapping": {
+                  "start": 8701,
+                  "length": 998,
+                  "filename_relative": "",
+                  "filename_absolute": "",
+                  "filename_short": "",
+                  "is_dependency": false,
+                  "lines": [],
+                  "starting_column": 0,
+                  "ending_column": 0
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "WalletLibrary",
+                    "source_mapping": {
+                      "start": 2810,
+                      "length": 11706,
+                      "filename_relative": "",
+                      "filename_absolute": "",
+                      "filename_short": "",
+                      "is_dependency": false,
+                      "lines": [],
+                      "starting_column": 0,
+                      "ending_column": 0
+                    }
+                  },
+                  "signature": "execute(address,uint256,bytes)"
+                }
+              }
+            },
+            "additional_fields": {
+              "underlying_type": "external_calls"
+            }
+          },
+          {
+            "type": "node",
+            "name": "SingleTransact(msg.sender,_value,_to,_data,created)",
+            "source_mapping": {
+              "start": 9178,
+              "length": 55,
+              "filename_relative": "",
+              "filename_absolute": "",
+              "filename_short": "",
+              "is_dependency": false,
+              "lines": [],
+              "starting_column": 0,
+              "ending_column": 0
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "execute",
+                "source_mapping": {
+                  "start": 8701,
+                  "length": 998,
+                  "filename_relative": "",
+                  "filename_absolute": "",
+                  "filename_short": "",
+                  "is_dependency": false,
+                  "lines": [],
+                  "starting_column": 0,
+                  "ending_column": 0
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "WalletLibrary",
+                    "source_mapping": {
+                      "start": 2810,
+                      "length": 11706,
+                      "filename_relative": "",
+                      "filename_absolute": "",
+                      "filename_short": "",
+                      "is_dependency": false,
+                      "lines": [],
+                      "starting_column": 0,
+                      "ending_column": 0
+                    }
+                  },
+                  "signature": "execute(address,uint256,bytes)"
+                }
+              }
+            },
+            "additional_fields": {
+              "underlying_type": "event"
+            }
+          }
+        ],
+        "description": "Reentrancy in WalletLibrary.execute(address,uint256,bytes) ():\n\tExternal calls:\n\t- ! _to.call.value(_value)(_data) ()\n\tEvent emitted after the call(s):\n\t- SingleTransact(msg.sender,_value,_to,_data,created) ()\n",
+        "markdown": "Reentrancy in [WalletLibrary.execute(address,uint256,bytes)]():\n\tExternal calls:\n\t- [! _to.call.value(_value)(_data)]()\n\tEvent emitted after the call(s):\n\t- [SingleTransact(msg.sender,_value,_to,_data,created)]()\n",
+        "first_markdown_element": "",
+        "id": "ca3483dc339d29e697690a1290e8e3263572243aadffa8f4a4752b83ba222c27",
+        "check": "reentrancy-events",
+        "impact": "Low",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "confirm",
+            "source_mapping": {
+              "start": 10116,
+              "length": 542,
+              "filename_relative": "",
+              "filename_absolute": "",
+              "filename_short": "",
+              "is_dependency": false,
+              "lines": [],
+              "starting_column": 0,
+              "ending_column": 0
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "WalletLibrary",
+                "source_mapping": {
+                  "start": 2810,
+                  "length": 11706,
+                  "filename_relative": "",
+                  "filename_absolute": "",
+                  "filename_short": "",
+                  "is_dependency": false,
+                  "lines": [],
+                  "starting_column": 0,
+                  "ending_column": 0
+                }
+              },
+              "signature": "confirm(bytes32)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "! m_txs[_h].to.call.value(m_txs[_h].value)(m_txs[_h].data)",
+            "source_mapping": {
+              "start": 10420,
+              "length": 57,
+              "filename_relative": "",
+              "filename_absolute": "",
+              "filename_short": "",
+              "is_dependency": false,
+              "lines": [],
+              "starting_column": 0,
+              "ending_column": 0
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "confirm",
+                "source_mapping": {
+                  "start": 10116,
+                  "length": 542,
+                  "filename_relative": "",
+                  "filename_absolute": "",
+                  "filename_short": "",
+                  "is_dependency": false,
+                  "lines": [],
+                  "starting_column": 0,
+                  "ending_column": 0
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "WalletLibrary",
+                    "source_mapping": {
+                      "start": 2810,
+                      "length": 11706,
+                      "filename_relative": "",
+                      "filename_absolute": "",
+                      "filename_short": "",
+                      "is_dependency": false,
+                      "lines": [],
+                      "starting_column": 0,
+                      "ending_column": 0
+                    }
+                  },
+                  "signature": "confirm(bytes32)"
+                }
+              }
+            },
+            "additional_fields": {
+              "underlying_type": "external_calls"
+            }
+          },
+          {
+            "type": "node",
+            "name": "MultiTransact(msg.sender,_h,m_txs[_h].value,m_txs[_h].to,m_txs[_h].data,created)",
+            "source_mapping": {
+              "start": 10515,
+              "length": 85,
+              "filename_relative": "",
+              "filename_absolute": "",
+              "filename_short": "",
+              "is_dependency": false,
+              "lines": [],
+              "starting_column": 0,
+              "ending_column": 0
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "confirm",
+                "source_mapping": {
+                  "start": 10116,
+                  "length": 542,
+                  "filename_relative": "",
+                  "filename_absolute": "",
+                  "filename_short": "",
+                  "is_dependency": false,
+                  "lines": [],
+                  "starting_column": 0,
+                  "ending_column": 0
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "WalletLibrary",
+                    "source_mapping": {
+                      "start": 2810,
+                      "length": 11706,
+                      "filename_relative": "",
+                      "filename_absolute": "",
+                      "filename_short": "",
+                      "is_dependency": false,
+                      "lines": [],
+                      "starting_column": 0,
+                      "ending_column": 0
+                    }
+                  },
+                  "signature": "confirm(bytes32)"
+                }
+              }
+            },
+            "additional_fields": {
+              "underlying_type": "event"
+            }
+          }
+        ],
+        "description": "Reentrancy in WalletLibrary.confirm(bytes32) ():\n\tExternal calls:\n\t- ! m_txs[_h].to.call.value(m_txs[_h].value)(m_txs[_h].data) ()\n\tEvent emitted after the call(s):\n\t- MultiTransact(msg.sender,_h,m_txs[_h].value,m_txs[_h].to,m_txs[_h].data,created) ()\n",
+        "markdown": "Reentrancy in [WalletLibrary.confirm(bytes32)]():\n\tExternal calls:\n\t- [! m_txs[_h].to.call.value(m_txs[_h].value)(m_txs[_h].data)]()\n\tEvent emitted after the call(s):\n\t- [MultiTransact(msg.sender,_h,m_txs[_h].value,m_txs[_h].to,m_txs[_h].data,created)]()\n",
+        "first_markdown_element": "",
+        "id": "d2f66aebd03b42cacc89e443ac7fa4752c01ea00ca8c195e1e5234d006809553",
+        "check": "reentrancy-events",
+        "impact": "Low",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "underLimit",
+            "source_mapping": {
+              "start": 12810,
+              "length": 551,
+              "filename_relative": "",
+              "filename_absolute": "",
+              "filename_short": "",
+              "is_dependency": false,
+              "lines": [],
+              "starting_column": 0,
+              "ending_column": 0
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "WalletLibrary",
+                "source_mapping": {
+                  "start": 2810,
+                  "length": 11706,
+                  "filename_relative": "",
+                  "filename_absolute": "",
+                  "filename_short": "",
+                  "is_dependency": false,
+                  "lines": [],
+                  "starting_column": 0,
+                  "ending_column": 0
+                }
+              },
+              "signature": "underLimit(uint256)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "today() > m_lastDay",
+            "source_mapping": {
+              "start": 12960,
+              "length": 19,
+              "filename_relative": "",
+              "filename_absolute": "",
+              "filename_short": "",
+              "is_dependency": false,
+              "lines": [],
+              "starting_column": 0,
+              "ending_column": 0
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "underLimit",
+                "source_mapping": {
+                  "start": 12810,
+                  "length": 551,
+                  "filename_relative": "",
+                  "filename_absolute": "",
+                  "filename_short": "",
+                  "is_dependency": false,
+                  "lines": [],
+                  "starting_column": 0,
+                  "ending_column": 0
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "WalletLibrary",
+                    "source_mapping": {
+                      "start": 2810,
+                      "length": 11706,
+                      "filename_relative": "",
+                      "filename_absolute": "",
+                      "filename_short": "",
+                      "is_dependency": false,
+                      "lines": [],
+                      "starting_column": 0,
+                      "ending_column": 0
+                    }
+                  },
+                  "signature": "underLimit(uint256)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "WalletLibrary.underLimit(uint256) () uses timestamp for comparisons\n\tDangerous comparisons:\n\t- today() > m_lastDay ()\n",
+        "markdown": "[WalletLibrary.underLimit(uint256)]() uses timestamp for comparisons\n\tDangerous comparisons:\n\t- [today() > m_lastDay]()\n",
+        "first_markdown_element": "",
+        "id": "131b16f28ce0bce2b4929edfb0c8066dd59d6167a5353ed2c4d2a256025220c5",
+        "check": "timestamp",
+        "impact": "Low",
+        "confidence": "Medium"
+      }
+    ]
+  }
+}

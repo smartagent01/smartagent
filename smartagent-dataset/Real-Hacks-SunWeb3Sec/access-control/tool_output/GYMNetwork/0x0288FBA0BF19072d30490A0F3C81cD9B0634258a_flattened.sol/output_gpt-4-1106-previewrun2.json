@@ -1,0 +1,2 @@
+transferPoolRewards
+The `transferPoolRewards` function could lead to unauthorized withdrawal of funds if the `runnerScriptAddress` is compromised.

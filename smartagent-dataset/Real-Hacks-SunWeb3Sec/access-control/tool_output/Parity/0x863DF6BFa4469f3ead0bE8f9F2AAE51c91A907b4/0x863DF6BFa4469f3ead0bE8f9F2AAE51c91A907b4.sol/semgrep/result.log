@@ -1,0 +1,171 @@
+METRICS: Using configs from the Registry (like --config=p/ci) reports pseudonymous rule metrics to semgrep.dev.
+To disable Registry rule metrics, use "--metrics=off".
+Using configs only from local files (like --config=xyz.yml) does not enable metrics.
+
+More information: https://semgrep.dev/docs/metrics
+
+               
+               
+┌─────────────┐
+│ Scan Status │
+└─────────────┘
+  Scanning 1 file tracked by git with 48 Code rules:
+  Scanning 1 file with 48 solidity rules.
+                    
+                    
+┌──────────────────┐
+│ 38 Code Findings │
+└──────────────────┘
+                                                       
+    /sb/0x863DF6BFa4469f3ead0bE8f9F2AAE51c91A907b4.sol 
+       solidity.performance.array-length-outside-loop                           
+          Caching the array length outside a loop saves reading it on each      
+  iteration, as long as the                                                     
+          array's length is not changed during the loop.                        
+                                                                                
+          111┆ for (uint i = 0; i < _owners.length; ++i)
+            ⋮┆----------------------------------------
+       solidity.performance.inefficient-state-variable-increment             
+          <x> += <y> costs more gas than <x> = <x> + <y> for state variables.
+                                                                             
+          350┆ m_spentToday += _value;
+            ⋮┆----------------------------------------
+       solidity.performance.state-variable-read-in-a-loop                       
+          Replace state variable reads and writes within loops with local       
+  variable reads and writes.                                                    
+                                                                                
+          113┆ m_owners[2 + i] = uint(_owners[i]);
+            ⋮┆----------------------------------------
+          114┆ m_ownerIndex[uint(_owners[i])] = 2 + i;
+            ⋮┆----------------------------------------
+          326┆ while (free < m_numOwners)
+            ⋮┆----------------------------------------
+          328┆ while (free < m_numOwners && m_owners[free] != 0) free++;
+            ⋮┆----------------------------------------
+          328┆ while (free < m_numOwners && m_owners[free] != 0) free++;
+            ⋮┆----------------------------------------
+          329┆ while (m_numOwners > 1 && m_owners[m_numOwners] == 0)            
+  m_numOwners--;                                                                
+            ⋮┆----------------------------------------
+          329┆ while (m_numOwners > 1 && m_owners[m_numOwners] == 0)            
+  m_numOwners--;                                                                
+            ⋮┆----------------------------------------
+          329┆ while (m_numOwners > 1 && m_owners[m_numOwners] == 0)            
+  m_numOwners--;                                                                
+            ⋮┆----------------------------------------
+          329┆ while (m_numOwners > 1 && m_owners[m_numOwners] == 0)            
+  m_numOwners--;                                                                
+            ⋮┆----------------------------------------
+          330┆ if (free < m_numOwners && m_owners[m_numOwners] != 0 &&          
+  m_owners[free] == 0)                                                          
+            ⋮┆----------------------------------------
+          330┆ if (free < m_numOwners && m_owners[m_numOwners] != 0 &&          
+  m_owners[free] == 0)                                                          
+            ⋮┆----------------------------------------
+          330┆ if (free < m_numOwners && m_owners[m_numOwners] != 0 &&          
+  m_owners[free] == 0)                                                          
+            ⋮┆----------------------------------------
+          330┆ if (free < m_numOwners && m_owners[m_numOwners] != 0 &&          
+  m_owners[free] == 0)                                                          
+            ⋮┆----------------------------------------
+          332┆ m_owners[free] = m_owners[m_numOwners];
+            ⋮┆----------------------------------------
+          332┆ m_owners[free] = m_owners[m_numOwners];
+            ⋮┆----------------------------------------
+          332┆ m_owners[free] = m_owners[m_numOwners];
+            ⋮┆----------------------------------------
+          333┆ m_ownerIndex[m_owners[free]] = free;
+            ⋮┆----------------------------------------
+          333┆ m_ownerIndex[m_owners[free]] = free;
+            ⋮┆----------------------------------------
+          334┆ m_owners[m_numOwners] = 0;
+            ⋮┆----------------------------------------
+          334┆ m_owners[m_numOwners] = 0;
+            ⋮┆----------------------------------------
+          363┆ delete m_txs[m_pendingIndex[i]];
+            ⋮┆----------------------------------------
+          363┆ delete m_txs[m_pendingIndex[i]];
+            ⋮┆----------------------------------------
+          365┆ if (m_pendingIndex[i] != 0)
+            ⋮┆----------------------------------------
+          366┆ delete m_pending[m_pendingIndex[i]];
+            ⋮┆----------------------------------------
+          366┆ delete m_pending[m_pendingIndex[i]];
+            ⋮┆----------------------------------------
+       solidity.performance.unnecessary-checked-arithmetic-in-loop              
+          A lot of times there is no risk that the loop counter can overflow.   
+  Using Solidity's                                                              
+          unchecked block saves the overflow checks.                            
+                                                                                
+          111┆ for (uint i = 0; i < _owners.length; ++i)
+            ⋮┆----------------------------------------
+          362┆ for (uint i = 0; i < length; ++i) {
+            ⋮┆----------------------------------------
+       solidity.performance.use-nested-if                                       
+          Using nested is cheaper than using && multiple check combinations.    
+  There are more                                                                
+          advantages, such as easier to read code and better coverage reports.  
+                                                                                
+          235┆ if ((_data.length == 0 && underLimit(_value)) || m_required == 1)
+  {                                                                             
+          236┆   // yes - just execute the call.
+          237┆   address created;
+          238┆   if (_to == 0) {
+          239┆     created = create(_value, _data);
+          240┆   } else {
+          241┆     if (!_to.call.value(_value)(_data))
+          242┆       throw;
+          243┆   }
+          244┆   SingleTransact(msg.sender, _value, _to, _data, created);
+             [hid 13 additional lines, adjust with --max-lines-per-finding] 
+          249┆ if (m_txs[o_hash].to == 0 && m_txs[o_hash].value == 0 &&         
+  m_txs[o_hash].data.length == 0) {                                             
+          250┆   m_txs[o_hash].to = _to;
+          251┆   m_txs[o_hash].value = _value;
+          252┆   m_txs[o_hash].data = _data;
+          253┆ }
+            ⋮┆----------------------------------------
+          330┆ if (free < m_numOwners && m_owners[m_numOwners] != 0 &&          
+  m_owners[free] == 0)                                                          
+          331┆ {
+          332┆   m_owners[free] = m_owners[m_numOwners];
+          333┆   m_ownerIndex[m_owners[free]] = free;
+          334┆   m_owners[m_numOwners] = 0;
+          335┆ }
+            ⋮┆----------------------------------------
+          349┆ if (m_spentToday + _value >= m_spentToday && m_spentToday +      
+  _value <= m_dailyLimit) {                                                     
+          350┆   m_spentToday += _value;
+          351┆   return true;
+          352┆ }
+            ⋮┆----------------------------------------
+       solidity.performance.use-prefix-decrement-not-postfix                    
+          Consider using the prefix decrement expression whenever the return    
+  value is not needed. The                                                      
+          prefix decrement expression is cheaper in terms of gas.               
+                                                                                
+          318┆ pending.yetNeeded--;
+            ⋮┆----------------------------------------
+          329┆ while (m_numOwners > 1 && m_owners[m_numOwners] == 0)            
+  m_numOwners--;                                                                
+            ⋮┆----------------------------------------
+       solidity.performance.use-prefix-increment-not-postfix                    
+          Consider using the prefix increment expression whenever the return    
+  value is not needed. The                                                      
+          prefix increment expression is cheaper in terms of gas.               
+                                                                                
+          127┆ pending.yetNeeded++;
+            ⋮┆----------------------------------------
+          154┆ m_numOwners++;
+            ⋮┆----------------------------------------
+          328┆ while (free < m_numOwners && m_owners[free] != 0) free++;
+
+                
+                
+┌──────────────┐
+│ Scan Summary │
+└──────────────┘
+
+Ran 48 rules on 1 file: 38 findings.
+
+A new version of Semgrep is available. See https://semgrep.dev/docs/upgrading

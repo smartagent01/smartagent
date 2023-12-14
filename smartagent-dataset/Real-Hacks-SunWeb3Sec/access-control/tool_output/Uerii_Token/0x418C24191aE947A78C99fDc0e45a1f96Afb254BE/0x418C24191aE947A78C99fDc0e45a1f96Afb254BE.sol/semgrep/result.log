@@ -1,0 +1,114 @@
+METRICS: Using configs from the Registry (like --config=p/ci) reports pseudonymous rule metrics to semgrep.dev.
+To disable Registry rule metrics, use "--metrics=off".
+Using configs only from local files (like --config=xyz.yml) does not enable metrics.
+
+More information: https://semgrep.dev/docs/metrics
+
+               
+               
+┌─────────────┐
+│ Scan Status │
+└─────────────┘
+  Scanning 1 file tracked by git with 48 Code rules:
+  Scanning 1 file with 48 solidity rules.
+                    
+                    
+┌──────────────────┐
+│ 22 Code Findings │
+└──────────────────┘
+                                                       
+    /sb/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE.sol 
+       solidity.performance.inefficient-state-variable-increment             
+          <x> += <y> costs more gas than <x> = <x> + <y> for state variables.
+                                                                             
+          375┆ _totalSupply += amount;
+            ⋮┆----------------------------------------
+       solidity.performance.non-payable-constructor      
+          Consider making costructor payable to save gas.
+                                                         
+          172┆ constructor(string memory name_, string memory symbol_) {
+          173┆     _name = name_;
+          174┆     _symbol = symbol_;
+          175┆ }
+            ⋮┆----------------------------------------
+          484┆ constructor () ERC20("UERII", "UERII") {
+          485┆ 
+          486┆     _mint(msg.sender, 100000000000000000);
+          487┆ }
+            ⋮┆----------------------------------------
+       solidity.performance.use-custom-error-not-require                        
+          Consider using custom errors as they are more gas efficient while     
+  allowing developers  to                                                       
+          describe the error in detail using NatSpec.                           
+                                                                                
+          276┆ require(currentAllowance >= amount, "ERC20: transfer amount      
+  exceeds allowance");                                                          
+            ⋮┆----------------------------------------
+          317┆ require(currentAllowance >= subtractedValue, "ERC20: decreased   
+  allowance below zero");                                                       
+            ⋮┆----------------------------------------
+          344┆ require(sender != address(0), "ERC20: transfer from the zero     
+  address");                                                                    
+            ⋮┆----------------------------------------
+          345┆ require(recipient != address(0), "ERC20: transfer to the zero    
+  address");                                                                    
+            ⋮┆----------------------------------------
+          350┆ require(senderBalance >= amount, "ERC20: transfer amount exceeds 
+  balance");                                                                    
+            ⋮┆----------------------------------------
+          371┆ require(account != address(0), "ERC20: mint to the zero          
+  address");                                                                    
+            ⋮┆----------------------------------------
+          394┆ require(account != address(0), "ERC20: burn from the zero        
+  address");                                                                    
+            ⋮┆----------------------------------------
+          399┆ require(accountBalance >= amount, "ERC20: burn amount exceeds    
+  balance");                                                                    
+            ⋮┆----------------------------------------
+          428┆ require(owner != address(0), "ERC20: approve from the zero       
+  address");                                                                    
+            ⋮┆----------------------------------------
+          429┆ require(spender != address(0), "ERC20: approve to the zero       
+  address");                                                                    
+            ⋮┆----------------------------------------
+       solidity.performance.use-short-revert-string                             
+          Shortening revert strings to fit in 32 bytes will decrease gas costs  
+  for deployment and  gas                                                       
+          costs when the revert condition has been met.                         
+                                                                                
+          276┆ require(currentAllowance >= amount, "ERC20: transfer amount      
+  exceeds allowance");                                                          
+            ⋮┆----------------------------------------
+          317┆ require(currentAllowance >= subtractedValue, "ERC20: decreased   
+  allowance below zero");                                                       
+            ⋮┆----------------------------------------
+          344┆ require(sender != address(0), "ERC20: transfer from the zero     
+  address");                                                                    
+            ⋮┆----------------------------------------
+          345┆ require(recipient != address(0), "ERC20: transfer to the zero    
+  address");                                                                    
+            ⋮┆----------------------------------------
+          350┆ require(senderBalance >= amount, "ERC20: transfer amount exceeds 
+  balance");                                                                    
+            ⋮┆----------------------------------------
+          394┆ require(account != address(0), "ERC20: burn from the zero        
+  address");                                                                    
+            ⋮┆----------------------------------------
+          399┆ require(accountBalance >= amount, "ERC20: burn amount exceeds    
+  balance");                                                                    
+            ⋮┆----------------------------------------
+          428┆ require(owner != address(0), "ERC20: approve from the zero       
+  address");                                                                    
+            ⋮┆----------------------------------------
+          429┆ require(spender != address(0), "ERC20: approve to the zero       
+  address");                                                                    
+
+                
+                
+┌──────────────┐
+│ Scan Summary │
+└──────────────┘
+
+Ran 48 rules on 1 file: 22 findings.
+
+A new version of Semgrep is available. See https://semgrep.dev/docs/upgrading

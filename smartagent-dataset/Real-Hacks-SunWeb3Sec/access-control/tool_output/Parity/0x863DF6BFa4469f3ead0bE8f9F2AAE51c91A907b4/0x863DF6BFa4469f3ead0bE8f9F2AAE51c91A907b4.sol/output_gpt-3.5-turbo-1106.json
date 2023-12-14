@@ -1,0 +1,14 @@
+addOwner
+Missing permission checking in functions that can change the ownership or admin right of the contract.
+
+removeOwner
+Missing permission checking in functions that can change the ownership or admin right of the contract.
+
+changeConfirmations
+Missing permission checking in functions that can change the ownership or admin right of the contract.
+
+executeTransaction
+The function checks if the sender is an owner and if the transaction is under the daily limit, which is a good practice for access control.
+
+confirmTransaction
+The function requires multiple owners to confirm before the transaction is executed, which is a good practice for access control.

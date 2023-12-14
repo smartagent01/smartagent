@@ -1,0 +1,628 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 957,
+            "message": "Caching the array length outside a loop saves reading it on each iteration, as long as the array's length is not changed during the loop.",
+            "name": "array-length-outside-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 22,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 521,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 522,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 523,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 524,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 525,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 603,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 604,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 605,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 725,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 726,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 727,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 728,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 729,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 730,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 731,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 732,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 733,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 815,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 816,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 817,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 1000,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 1001,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 1002,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 1003,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 1004,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 1005,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 957,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 958,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 959,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 960,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 957,
+            "message": "A lot of times there is no risk that the loop counter can overflow. Using Solidity's unchecked block saves the overflow checks.",
+            "name": "unnecessary-checked-arithmetic-in-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 143,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 197,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 427,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 428,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 445,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 464,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 485,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 486,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 573,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 581,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 590,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 608,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 693,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 697,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 744,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 843,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 847,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 851,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 865,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 872,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 873,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 874,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 881,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 882,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 898,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 908,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 910,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 926,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 927,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 988,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 934,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 935,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 936,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 937,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 938,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 939,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 940,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 941,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 942,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 943,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 957,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 197,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 427,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 428,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 464,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 485,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 486,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 581,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 590,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 608,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 697,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 873,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 874,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 882,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol",
+            "line": 988,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "semgrep",
+        "mode": "solidity",
+        "version": "2023/08/21"
+    }
+}

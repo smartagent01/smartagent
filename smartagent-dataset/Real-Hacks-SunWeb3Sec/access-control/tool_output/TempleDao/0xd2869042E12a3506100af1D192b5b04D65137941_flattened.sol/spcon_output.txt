@@ -1,0 +1,19 @@
+Running SPCON... 0xd2869042E12a3506100af1D192b5b04D65137941 600 2022-05-23
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/SpCon-0.1.0-py3.8.egg/spcon/__main__.py", line 67, in main
+    execute_command(args)
+  File "/usr/local/lib/python3.8/dist-packages/SpCon-0.1.0-py3.8.egg/spcon/__main__.py", line 34, in execute_command
+    assert  boolflag==True, "security policies inference error"
+AssertionError: security policies inference error
+Installing solc '0.8.4'...
+Version '0.8.4' installed.
+2022-05-23
+{'limit': 0, 'network': 'ethereum', 'address': '0xd2869042E12a3506100af1D192b5b04D65137941', 'date': '2022-05-23'}
+0xd2869042E12a3506100af1D192b5b04D65137941 StaxLPStaking
+./0xd2869042E12a3506100af1D192b5b04D65137941
+loaded abi.
+0  functions []
+0  users
+Timecost for loading history: 0.00543212890625
+No.user: 0; No.func: 0
+total timecost: 7.245691299438477 seconds

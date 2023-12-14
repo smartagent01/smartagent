@@ -1,0 +1,223 @@
+METRICS: Using configs from the Registry (like --config=p/ci) reports pseudonymous rule metrics to semgrep.dev.
+To disable Registry rule metrics, use "--metrics=off".
+Using configs only from local files (like --config=xyz.yml) does not enable metrics.
+
+More information: https://semgrep.dev/docs/metrics
+
+               
+               
+┌─────────────┐
+│ Scan Status │
+└─────────────┘
+  Scanning 1 file tracked by git with 48 Code rules:
+  Scanning 1 file with 48 solidity rules.
+                    
+                    
+┌──────────────────┐
+│ 56 Code Findings │
+└──────────────────┘
+                                                       
+    /sb/0x5f58058C0eC971492166763c8C22632B583F667f.sol 
+       solidity.best-practice.use-abi-encodecall-instead-of-encodewithselector  
+          To guarantee arguments type safety it is recommended to use           
+  `abi.encodeCall` instead of                                                   
+          `abi.encodeWithSelector`.                                             
+                                                                                
+          521┆ execute(_token, abi.encodeWithSelector(APPROVE_FUNC_SELECTOR,    
+  _spender, _value));                                                           
+            ⋮┆----------------------------------------
+          534┆ execute(_token, abi.encodeWithSelector(TRANSFER_FUNC_SELECTOR,   
+  _to, _value));                                                                
+            ⋮┆----------------------------------------
+          548┆ nexecute(_token,                                                 
+  abi.encodeWithSelector(TRANSFER_FROM_FUNC_SELECTOR, _from, _to, _value));     
+            ⋮┆----------------------------------------
+         1372┆ bytes memory data =                                              
+  abi.encodeWithSelector(GET_RETURN_FUNC_SELECTOR, _sourceToken, _targetToken,  
+  _amount);                                                                     
+            ⋮┆----------------------------------------
+         1398┆ bytes memory data =                                              
+  abi.encodeWithSelector(IS_V28_OR_HIGHER_FUNC_SELECTOR);                       
+            ⋮┆----------------------------------------
+       solidity.performance.array-length-outside-loop                           
+          Caching the array length outside a loop saves reading it on each      
+  iteration, as long as the                                                     
+          array's length is not changed during the loop.                        
+                                                                                
+          886┆ for (uint256 i = 2; i < _path.length; i += 2) {
+            ⋮┆----------------------------------------
+         1125┆ for (uint256 i = 0; i < _data.length; i++) {
+            ⋮┆----------------------------------------
+         1256┆ for (i = 0; i < _conversionPath.length - 1; i += 2) {
+            ⋮┆----------------------------------------
+         1310┆ for (i = 0; i < data.length; i++) {
+            ⋮┆----------------------------------------
+         1319┆ else if (i == data.length - 1)
+            ⋮┆----------------------------------------
+       solidity.performance.init-variables-with-default-value                   
+          Uninitialized variables are assigned with the types default value.    
+  Explicitly initializing a                                                     
+          variable with its default value costs unnecessary gas.                
+                                                                                
+          480┆ bool private locked = false;
+            ⋮┆----------------------------------------
+       solidity.performance.non-payable-constructor      
+          Consider making costructor payable to save gas.
+                                                         
+          269┆ constructor() public {
+          270┆     owner = msg.sender;
+          271┆ }
+            ⋮┆----------------------------------------
+          410┆ constructor(IContractRegistry _registry) internal                
+  validAddress(_registry) {                                                     
+          411┆     registry = IContractRegistry(_registry);
+          412┆     prevRegistry = IContractRegistry(_registry);
+          413┆ }
+            ⋮┆----------------------------------------
+          485┆ constructor() internal {}
+            ⋮┆----------------------------------------
+          816┆ constructor(IContractRegistry _registry)                         
+  ContractRegistryClient(_registry) public {                                    
+          817┆     etherTokens[ETH_RESERVE_ADDRESS] = true;
+          818┆ }
+            ⋮┆----------------------------------------
+       solidity.performance.state-variable-read-in-a-loop                       
+          Replace state variable reads and writes within loops with local       
+  variable reads and writes.                                                    
+                                                                                
+          892┆ if (etherTokens[sourceToken])
+            ⋮┆----------------------------------------
+          894┆ if (etherTokens[targetToken])
+            ⋮┆----------------------------------------
+         1132┆ if (i != 0 && _data[i - 1].beneficiary == address(this) &&       
+  !etherTokens[stepData.sourceToken])                                           
+            ⋮┆----------------------------------------
+         1145┆ else if (etherTokens[stepData.sourceToken])
+            ⋮┆----------------------------------------
+         1360┆ if (etherTokens[reserveTokenAddress])
+            ⋮┆----------------------------------------
+       solidity.performance.unnecessary-checked-arithmetic-in-loop              
+          A lot of times there is no risk that the loop counter can overflow.   
+  Using Solidity's                                                              
+          unchecked block saves the overflow checks.                            
+                                                                                
+         1125┆ for (uint256 i = 0; i < _data.length; i++) {
+            ⋮┆----------------------------------------
+         1358┆ for (uint256 i = 0; i < reserveCount; i++) {
+            ⋮┆----------------------------------------
+       solidity.performance.use-custom-error-not-require                        
+          Consider using custom errors as they are more gas efficient while     
+  allowing developers  to                                                       
+          describe the error in detail using NatSpec.                           
+                                                                                
+          281┆ require(msg.sender == owner, "ERR_ACCESS_DENIED");
+            ⋮┆----------------------------------------
+          292┆ require(_newOwner != owner, "ERR_SAME_OWNER");
+            ⋮┆----------------------------------------
+          300┆ require(msg.sender == newOwner, "ERR_ACCESS_DENIED");
+            ⋮┆----------------------------------------
+          323┆ require(_value > 0, "ERR_ZERO_VALUE");
+            ⋮┆----------------------------------------
+          334┆ require(_address != address(0), "ERR_INVALID_ADDRESS");
+            ⋮┆----------------------------------------
+          345┆ require(_address != address(this), "ERR_ADDRESS_IS_SELF");
+            ⋮┆----------------------------------------
+          402┆ require(msg.sender == addressOf(_contractName),                  
+  "ERR_ACCESS_DENIED");                                                         
+            ⋮┆----------------------------------------
+          420┆ require(msg.sender == owner || !onlyOwnerCanUpdateRegistry,      
+  "ERR_ACCESS_DENIED");                                                         
+            ⋮┆----------------------------------------
+          426┆ require(newRegistry != address(registry) && newRegistry !=       
+  address(0), "ERR_INVALID_REGISTRY");                                          
+            ⋮┆----------------------------------------
+          429┆ require(newRegistry.addressOf(CONTRACT_REGISTRY) != address(0),  
+  "ERR_INVALID_REGISTRY");                                                      
+            ⋮┆----------------------------------------
+          497┆ require(!locked, "ERR_REENTRANCY");
+            ⋮┆----------------------------------------
+          577┆ require(ret[0] != 0, "ERR_TRANSFER_FAILED");
+            ⋮┆----------------------------------------
+          639┆ require(z >= _x, "ERR_OVERFLOW");
+            ⋮┆----------------------------------------
+          652┆ require(_x >= _y, "ERR_UNDERFLOW");
+            ⋮┆----------------------------------------
+          670┆ require(z / _x == _y, "ERR_OVERFLOW");
+            ⋮┆----------------------------------------
+          683┆ require(_y > 0, "ERR_DIVIDE_BY_ZERO");
+            ⋮┆----------------------------------------
+          829┆ require(_maxAffiliateFee <= AFFILIATE_FEE_RESOLUTION,            
+  "ERR_INVALID_AFFILIATE_FEE");                                                 
+            ⋮┆----------------------------------------
+          883┆ require(_path.length > 2 && _path.length % 2 == 1,               
+  "ERR_INVALID_PATH");                                                          
+            ⋮┆----------------------------------------
+          967┆ require(_path.length > 2 && _path.length % 2 == 1,               
+  "ERR_INVALID_PATH");                                                          
+            ⋮┆----------------------------------------
+          975┆ require(_affiliateFee == 0, "ERR_INVALID_AFFILIATE_FEE");
+            ⋮┆----------------------------------------
+          978┆ require(0 < _affiliateFee && _affiliateFee <= maxAffiliateFee,   
+  "ERR_INVALID_AFFILIATE_FEE");                                                 
+            ⋮┆----------------------------------------
+         1061┆ require(targetToken == addressOf(BNT_TOKEN),                     
+  "ERR_INVALID_TARGET_TOKEN");                                                  
+            ⋮┆----------------------------------------
+         1094┆ require(_path[0] == _bancorX.token(),                            
+  "ERR_INVALID_SOURCE_TOKEN");                                                  
+            ⋮┆----------------------------------------
+         1153┆ require(stepData.targetToken.transfer(_affiliateAccount,         
+  affiliateAmount), "ERR_FEE_TRANSFER_FAILED");                                 
+            ⋮┆----------------------------------------
+         1162┆ require(toAmount >= _minReturn, "ERR_RETURN_TOO_LOW");
+            ⋮┆----------------------------------------
+         1181┆ require(msg.value == _amount, "ERR_ETH_AMOUNT_MISMATCH");
+            ⋮┆----------------------------------------
+       solidity.performance.use-multiple-require                                
+          Using multiple require statements is cheaper than using && multiple   
+  check combinations.                                                           
+          There are more advantages, such as easier to read code and better     
+  coverage reports.                                                             
+                                                                                
+          426┆ require(newRegistry != address(registry) && newRegistry !=       
+  address(0), "ERR_INVALID_REGISTRY");                                          
+            ⋮┆----------------------------------------
+          883┆ require(_path.length > 2 && _path.length % 2 == 1,               
+  "ERR_INVALID_PATH");                                                          
+            ⋮┆----------------------------------------
+          967┆ require(_path.length > 2 && _path.length % 2 == 1,               
+  "ERR_INVALID_PATH");                                                          
+            ⋮┆----------------------------------------
+          978┆ require(0 < _affiliateFee && _affiliateFee <= maxAffiliateFee,   
+  "ERR_INVALID_AFFILIATE_FEE");                                                 
+            ⋮┆----------------------------------------
+       solidity.performance.use-nested-if                                       
+          Using nested is cheaper than using && multiple check combinations.    
+  There are more                                                                
+          advantages, such as easier to read code and better coverage reports.  
+                                                                                
+         1132┆ if (i != 0 && _data[i - 1].beneficiary == address(this) &&       
+  !etherTokens[stepData.sourceToken])                                           
+         1133┆     safeTransfer(stepData.sourceToken, stepData.converter,       
+  fromAmount);                                                                  
+            ⋮┆----------------------------------------
+                
+                
+┌──────────────┐
+│ Scan Summary │
+└──────────────┘
+       solidity.performance.use-prefix-increment-not-postfix                    
+          Consider using the prefix increment expression whenever the return    
+
+  value is not needed. The                                                      
+Ran 48 rules on 1 file: 56 findings.
+          prefix increment expression is cheaper in terms of gas.               
+                                                                                
+         1125┆ for (uint256 i = 0; i < _data.length; i++) {
+            ⋮┆----------------------------------------
+         1310┆ for (i = 0; i < data.length; i++) {
+            ⋮┆----------------------------------------
+         1358┆ for (uint256 i = 0; i < reserveCount; i++) {
+
+
+A new version of Semgrep is available. See https://semgrep.dev/docs/upgrading

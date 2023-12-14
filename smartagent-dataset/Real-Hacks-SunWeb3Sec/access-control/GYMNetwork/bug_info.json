@@ -1,0 +1,19 @@
+[
+  {
+    "bug": [
+      "AccessControl"
+    ],
+    "blockchain": "BSC",
+    "address": "0x0288FBA0BF19072d30490A0F3C81cD9B0634258a",
+    "contract": "GymSinglePool",
+    "function": "depositFromOtherContract",
+    "source_file": "0x0288FBA0BF19072d30490A0F3C81cD9B0634258a_flattened.sol",
+    "line_start": 1832,
+    "line_end": 1840,
+    "reference": [
+      "https://github.com/SunWeb3Sec/DeFiHackLabs/blob/main/src/test/Gym_2_exp.sol",
+      "https://twitter.com/peckshield/status/1534423219607719936"
+    ],
+    "note": ""
+  }
+]

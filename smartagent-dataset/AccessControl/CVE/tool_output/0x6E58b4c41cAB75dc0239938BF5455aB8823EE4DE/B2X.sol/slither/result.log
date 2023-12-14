@@ -1,0 +1,168 @@
+INFO:Slither:Compilation warnings/errors on /sb/B2X.sol:
+/sb/B2X.sol:105:9: Warning: "throw" is deprecated in favour of "revert()", "require()" and "assert()".
+        throw;
+        ^---^
+/sb/B2X.sol:114:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function B2X(
+    ^ (Relevant source part starts here and spans across multiple lines).
+/sb/B2X.sol:52:13: Warning: Invoking events without "emit" prefix is deprecated.
+            Transfer(msg.sender, _to, _value);
+            ^-------------------------------^
+/sb/B2X.sol:63:13: Warning: Invoking events without "emit" prefix is deprecated.
+            Transfer(_from, _to, _value);
+            ^--------------------------^
+/sb/B2X.sol:72:10: Warning: Invoking events without "emit" prefix is deprecated.
+         Transfer(msg.sender, addresses[i], _value);
+         ^----------------------------------------^
+/sb/B2X.sol:82:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Approval(msg.sender, _spender, _value);
+        ^------------------------------------^
+/sb/B2X.sol:6:5: Warning: No visibility specified. Defaulting to "public". 
+    function totalSupply() constant returns (uint256 supply) {}
+    ^---------------------------------------------------------^
+/sb/B2X.sol:6:46: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    function totalSupply() constant returns (uint256 supply) {}
+                                             ^------------^
+/sb/B2X.sol:9:5: Warning: No visibility specified. Defaulting to "public". 
+    function balanceOf(address _owner) constant returns (uint256 balance) {}
+    ^----------------------------------------------------------------------^
+/sb/B2X.sol:9:24: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    function balanceOf(address _owner) constant returns (uint256 balance) {}
+                       ^------------^
+/sb/B2X.sol:9:58: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    function balanceOf(address _owner) constant returns (uint256 balance) {}
+                                                         ^-------------^
+/sb/B2X.sol:12:5: Warning: No visibility specified. Defaulting to "public". 
+    function transfer(address _to, uint256 _value) returns (bool success) {}
+    ^----------------------------------------------------------------------^
+/sb/B2X.sol:12:23: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    function transfer(address _to, uint256 _value) returns (bool success) {}
+                      ^---------^
+/sb/B2X.sol:12:36: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    function transfer(address _to, uint256 _value) returns (bool success) {}
+                                   ^------------^
+/sb/B2X.sol:12:61: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    function transfer(address _to, uint256 _value) returns (bool success) {}
+                                                            ^----------^
+/sb/B2X.sol:15:5: Warning: No visibility specified. Defaulting to "public". 
+    function transferFrom(address _from, address _to, uint256 _value) returns (bool success) {}
+    ^-----------------------------------------------------------------------------------------^
+/sb/B2X.sol:15:27: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    function transferFrom(address _from, address _to, uint256 _value) returns (bool success) {}
+                          ^-----------^
+/sb/B2X.sol:15:42: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    function transferFrom(address _from, address _to, uint256 _value) returns (bool success) {}
+                                         ^---------^
+/sb/B2X.sol:15:55: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    function transferFrom(address _from, address _to, uint256 _value) returns (bool success) {}
+                                                      ^------------^
+/sb/B2X.sol:15:80: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    function transferFrom(address _from, address _to, uint256 _value) returns (bool success) {}
+                                                                               ^----------^
+/sb/B2X.sol:18:5: Warning: No visibility specified. Defaulting to "public". 
+    function approve(address _spender, uint256 _value) returns (bool success) {}
+    ^--------------------------------------------------------------------------^
+/sb/B2X.sol:18:22: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    function approve(address _spender, uint256 _value) returns (bool success) {}
+                     ^--------------^
+/sb/B2X.sol:18:40: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    function approve(address _spender, uint256 _value) returns (bool success) {}
+                                       ^------------^
+/sb/B2X.sol:18:65: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    function approve(address _spender, uint256 _value) returns (bool success) {}
+                                                                ^----------^
+/sb/B2X.sol:21:5: Warning: No visibility specified. Defaulting to "public". 
+    function allowance(address _owner, address _spender) constant returns (uint256 remaining) {}
+    ^------------------------------------------------------------------------------------------^
+/sb/B2X.sol:21:24: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    function allowance(address _owner, address _spender) constant returns (uint256 remaining) {}
+                       ^------------^
+/sb/B2X.sol:21:40: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    function allowance(address _owner, address _spender) constant returns (uint256 remaining) {}
+                                       ^--------------^
+/sb/B2X.sol:21:76: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    function allowance(address _owner, address _spender) constant returns (uint256 remaining) {}
+                                                                           ^---------------^
+/sb/B2X.sol:47:5: Warning: No visibility specified. Defaulting to "public". 
+    function transfer(address _to, uint256 _value) returns (bool success) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+/sb/B2X.sol:57:5: Warning: No visibility specified. Defaulting to "public". 
+    function transferFrom(address _from, address _to, uint256 _value) returns (bool success) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+/sb/B2X.sol:68:5: Warning: No visibility specified. Defaulting to "public". 
+    function distributeToken(address[] addresses, uint256 _value) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+/sb/B2X.sol:76:5: Warning: No visibility specified. Defaulting to "public". 
+    function balanceOf(address _owner) constant returns (uint256 balance) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+/sb/B2X.sol:80:5: Warning: No visibility specified. Defaulting to "public". 
+    function approve(address _spender, uint256 _value) returns (bool success) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+/sb/B2X.sol:86:5: Warning: No visibility specified. Defaulting to "public". 
+    function allowance(address _owner, address _spender) constant returns (uint256 remaining) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+/sb/B2X.sol:103:5: Warning: No visibility specified. Defaulting to "public". 
+    function () {
+    ^ (Relevant source part starts here and spans across multiple lines).
+/sb/B2X.sol:114:5: Warning: No visibility specified. Defaulting to "public". 
+    function B2X(
+    ^ (Relevant source part starts here and spans across multiple lines).
+/sb/B2X.sol:6:5: Warning: Function state mutability can be restricted to pure
+    function totalSupply() constant returns (uint256 supply) {}
+    ^---------------------------------------------------------^
+/sb/B2X.sol:9:5: Warning: Function state mutability can be restricted to pure
+    function balanceOf(address _owner) constant returns (uint256 balance) {}
+    ^----------------------------------------------------------------------^
+/sb/B2X.sol:12:5: Warning: Function state mutability can be restricted to pure
+    function transfer(address _to, uint256 _value) returns (bool success) {}
+    ^----------------------------------------------------------------------^
+/sb/B2X.sol:15:5: Warning: Function state mutability can be restricted to pure
+    function transferFrom(address _from, address _to, uint256 _value) returns (bool success) {}
+    ^-----------------------------------------------------------------------------------------^
+/sb/B2X.sol:18:5: Warning: Function state mutability can be restricted to pure
+    function approve(address _spender, uint256 _value) returns (bool success) {}
+    ^--------------------------------------------------------------------------^
+/sb/B2X.sol:21:5: Warning: Function state mutability can be restricted to pure
+    function allowance(address _owner, address _spender) constant returns (uint256 remaining) {}
+    ^------------------------------------------------------------------------------------------^
+
+INFO:Detectors:[92m
+Deprecated standard detected @ /sb/B2X.sol#110-111:
+	- Usage of "throw" should be replaced with "revert()"
+Reference: https://github.com/trailofbits/slither/wiki/Detectors-Documentation#deprecated-standards[0m
+INFO:Detectors:[92m
+Token.totalSupply (/sb/B2X.sol#6-8) should be declared external
+StandardToken.balanceOf (/sb/B2X.sol#77-80) should be declared external
+Token.balanceOf (/sb/B2X.sol#9-12) should be declared external
+StandardToken.transfer (/sb/B2X.sol#47-57) should be declared external
+Token.transfer (/sb/B2X.sol#12-15) should be declared external
+Token.transferFrom (/sb/B2X.sol#15-18) should be declared external
+StandardToken.transferFrom (/sb/B2X.sol#57-68) should be declared external
+Token.approve (/sb/B2X.sol#18-21) should be declared external
+StandardToken.approve (/sb/B2X.sol#81-86) should be declared external
+StandardToken.allowance (/sb/B2X.sol#86-93) should be declared external
+Token.allowance (/sb/B2X.sol#21-23) should be declared external
+Owned.owned (/sb/B2X.sol#32-36) should be declared external
+Owned.transferOwnership (/sb/B2X.sol#40-45) should be declared external
+StandardToken.distributeToken (/sb/B2X.sol#69-76) should be declared external
+B2X.fallback (/sb/B2X.sol#110-111) should be declared external
+Reference: https://github.com/trailofbits/slither/wiki/Detectors-Documentation#public-function-that-could-be-declared-as-external[0m
+INFO:Detectors:[92m
+Detected issues with version pragma in /sb/B2X.sol:
+	- pragma solidity^0.4.4 (/sb/B2X.sol#1): it allows old versions
+Reference: https://github.com/trailofbits/slither/wiki/Detectors-Documentation#incorrect-version-of-solidity[0m
+INFO:Detectors:[92m
+Parameter '_owner' of StandardToken.balanceOf (/sb/B2X.sol#77-78) is not in mixedCase
+Parameter '_to' of StandardToken.transfer (/sb/B2X.sol#47-48) is not in mixedCase
+Parameter '_value' of StandardToken.transfer (/sb/B2X.sol#48-49) is not in mixedCase
+Parameter '_from' of StandardToken.transferFrom (/sb/B2X.sol#57-58) is not in mixedCase
+Parameter '_to' of StandardToken.transferFrom (/sb/B2X.sol#58-59) is not in mixedCase
+Parameter '_value' of StandardToken.transferFrom (/sb/B2X.sol#59) is not in mixedCase
+Parameter '_spender' of StandardToken.approve (/sb/B2X.sol#81) is not in mixedCase
+Parameter '_value' of StandardToken.approve (/sb/B2X.sol#81-82) is not in mixedCase
+Parameter '_owner' of StandardToken.allowance (/sb/B2X.sol#87) is not in mixedCase
+Parameter '_spender' of StandardToken.allowance (/sb/B2X.sol#87-88) is not in mixedCase
+Parameter '_value' of StandardToken.distributeToken (/sb/B2X.sol#69-70) is not in mixedCase
+Function 'B2X.B2X' (/sb/B2X.sol#117-125) is not in mixedCase
+Reference: https://github.com/trailofbits/slither/wiki/Detectors-Documentation#conformance-to-solidity-naming-conventions[0m
+INFO:Slither:/sb/B2X.sol analyzed (4 contracts), 29 result(s) found

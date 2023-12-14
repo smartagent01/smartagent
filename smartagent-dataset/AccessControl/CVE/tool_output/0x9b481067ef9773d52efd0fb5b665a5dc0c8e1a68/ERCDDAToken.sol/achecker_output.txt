@@ -1,0 +1,25 @@
+File copied : /root/Achecker/ERCDDAToken.bin-runtime
+processing /root/Achecker/ERCDDAToken.bin-runtime
+Checking contract for [4mViolated-AC-Check[0m 
+------------------
+
+Violated access control check in function burn(uint256)
+	( 1456)  5b0:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {0} in function owned()
+
+Violated access control check in function mintToken(address,uint256)
+	( 1829)  725:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {0} in function owned()
+
+Violated access control check in function freezeAccount(address,bool)
+	( 2333)  91d:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {0} in function owned()
+
+Violated access control check in function transfer(address,uint256)
+	( 2883)  b43:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {6} in function freezeAccount(address,bool)
+
+
+Checking contract for [4mMissing-AC-Check[0m 
+------------------
+fba61dbfd69424f08f82c892a9e24327d0387392076ad76af3dc708d3aaece35

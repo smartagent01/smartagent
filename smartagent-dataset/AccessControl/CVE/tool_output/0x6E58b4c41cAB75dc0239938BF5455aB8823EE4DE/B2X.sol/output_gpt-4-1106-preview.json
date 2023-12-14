@@ -1,0 +1,5 @@
+owned
+The `owned` function is public and can be called multiple times, allowing unauthorized ownership claim.
+
+distributeToken
+The `distributeToken` function lacks access control, allowing anyone to distribute tokens from their balance.

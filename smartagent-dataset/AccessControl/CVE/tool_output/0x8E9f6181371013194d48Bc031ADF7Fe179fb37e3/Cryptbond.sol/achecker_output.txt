@@ -1,0 +1,80 @@
+File copied : /root/Achecker/Cryptbond.bin-runtime
+processing /root/Achecker/Cryptbond.bin-runtime
+Checking contract for [4mViolated-AC-Check[0m 
+------------------
+
+Violated access control check in function withdraw()
+	( 4230) 1086:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {1} in function Mining24(uint256,uint256)
++--Attacker can make changes to AC item {1} in function ToOwner()
++--Attacker can make changes to AC item {1} in function transferOwnership(address)
+
+Violated access control check in function burn(uint256)
+	( 4457) 1169:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {1} in function Mining24(uint256,uint256)
++--Attacker can make changes to AC item {1} in function ToOwner()
++--Attacker can make changes to AC item {1} in function transferOwnership(address)
+
+Violated access control check in function disableWhitelist(address[])
+	( 4917) 1335:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {1} in function Mining24(uint256,uint256)
++--Attacker can make changes to AC item {1} in function ToOwner()
++--Attacker can make changes to AC item {1} in function transferOwnership(address)
+
+Violated access control check in function airdrop(address[])
+	( 5379) 1503:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {1} in function Mining24(uint256,uint256)
++--Attacker can make changes to AC item {1} in function ToOwner()
++--Attacker can make changes to AC item {1} in function transferOwnership(address)
+
+Violated access control check in function setParameters(uint256,uint256)
+	( 5668) 1624:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {1} in function Mining24(uint256,uint256)
++--Attacker can make changes to AC item {1} in function ToOwner()
++--Attacker can make changes to AC item {1} in function transferOwnership(address)
+
+Violated access control check in function finishDistribution()
+	( 5837) 16cd:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {1} in function Mining24(uint256,uint256)
++--Attacker can make changes to AC item {1} in function ToOwner()
++--Attacker can make changes to AC item {1} in function transferOwnership(address)
+
+Violated access control check in function enableWhitelist(address[])
+	( 6037) 1795:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {1} in function Mining24(uint256,uint256)
++--Attacker can make changes to AC item {1} in function ToOwner()
++--Attacker can make changes to AC item {1} in function transferOwnership(address)
+
+Violated access control check in function distributeAmounts(address[],uint256[])
+	( 6273) 1881:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {1} in function Mining24(uint256,uint256)
++--Attacker can make changes to AC item {1} in function ToOwner()
++--Attacker can make changes to AC item {1} in function transferOwnership(address)
+
+Violated access control check in function getTokens()
+	( 7213) 1c2d:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {4} in function disableWhitelist(address[])
++--Attacker can make changes to AC item {4} in function enableWhitelist(address[])
+
+Violated access control check in function withdrawForeignTokens(address)
+	( 8035) 1f63:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {1} in function Mining24(uint256,uint256)
++--Attacker can make changes to AC item {1} in function ToOwner()
++--Attacker can make changes to AC item {1} in function transferOwnership(address)
+
+Violated access control check in function transferOwnership(address)
+	( 8569) 2179:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {1} in function Mining24(uint256,uint256)
++--Attacker can make changes to AC item {1} in function ToOwner()
++--Attacker can make changes to AC item {1} in function transferOwnership(address)
+
+Violated access control check in function distribution(address[],uint256)
+	( 8786) 2252:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {1} in function Mining24(uint256,uint256)
++--Attacker can make changes to AC item {1} in function ToOwner()
++--Attacker can make changes to AC item {1} in function transferOwnership(address)
+
+
+Checking contract for [4mMissing-AC-Check[0m 
+------------------
+68158d18998b4846ca8ff86f9f80c21469ab90b79abbaaa7809804daeeb9e16f

@@ -1,0 +1,16 @@
+[
+  {
+    "blockchain": "BSC",
+    "address": "0x70678291bDDfd95498d1214BE368e19e882f7614",
+    "contract": "AurumNodePool",
+    "function": "changeRewardPerNode",
+    "source_file": "./0x70678291bDDfd95498d1214BE368e19e882f7614/0x70678291bDDfd95498d1214BE368e19e882f7614.sol",
+    "line_start": 574,
+    "line_end": 576,
+    "reference": [
+      "https://github.com/SunWeb3Sec/DeFiHackLabs/blob/main/src/test/AUR_exp.sol",
+      "https://twitter.com/AnciliaInc/status/1595142246570958848"
+    ],
+    "note": ""
+  }
+]

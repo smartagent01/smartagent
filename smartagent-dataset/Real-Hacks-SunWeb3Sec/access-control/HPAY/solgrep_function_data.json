@@ -1,0 +1,2754 @@
+{
+  "/smart-agent-artifact/smart-agent/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/HPAY/0xE9bc03Ef08E991a99F1bd095a8590499931DcC30_flattened.sol": [
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20.totalSupply",
+      "info": "totalSupply",
+      "loc": [
+        30,
+        4,
+        30,
+        58
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20.balanceOf",
+      "info": "balanceOf",
+      "loc": [
+        35,
+        4,
+        35,
+        71
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20.transfer",
+      "info": "transfer",
+      "loc": [
+        44,
+        4,
+        44,
+        80
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20.allowance",
+      "info": "allowance",
+      "loc": [
+        53,
+        4,
+        53,
+        86
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20.approve",
+      "info": "approve",
+      "loc": [
+        69,
+        4,
+        69,
+        77
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20.transferFrom",
+      "info": "transferFrom",
+      "loc": [
+        80,
+        4,
+        84,
+        29
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20Metadata.name",
+      "info": "name",
+      "loc": [
+        117,
+        4,
+        117,
+        57
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20Metadata.symbol",
+      "info": "symbol",
+      "loc": [
+        122,
+        4,
+        122,
+        59
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20Metadata.decimals",
+      "info": "decimals",
+      "loc": [
+        127,
+        4,
+        127,
+        53
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Context._msgSender",
+      "info": "_msgSender",
+      "loc": [
+        146,
+        4,
+        148,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Context._msgData",
+      "info": "_msgData",
+      "loc": [
+        150,
+        4,
+        152,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.__constructor__",
+      "info": "__constructor__",
+      "loc": [
+        199,
+        4,
+        202,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.name",
+      "info": "name",
+      "loc": [
+        207,
+        4,
+        209,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.symbol",
+      "info": "symbol",
+      "loc": [
+        215,
+        4,
+        217,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.decimals",
+      "info": "decimals",
+      "loc": [
+        232,
+        4,
+        234,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.totalSupply",
+      "info": "totalSupply",
+      "loc": [
+        239,
+        4,
+        241,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.balanceOf",
+      "info": "balanceOf",
+      "loc": [
+        246,
+        4,
+        248,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.transfer",
+      "info": "transfer",
+      "loc": [
+        258,
+        4,
+        261,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.allowance",
+      "info": "allowance",
+      "loc": [
+        266,
+        4,
+        268,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.approve",
+      "info": "approve",
+      "loc": [
+        277,
+        4,
+        280,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.transferFrom",
+      "info": "transferFrom",
+      "loc": [
+        295,
+        4,
+        309,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.increaseAllowance",
+      "info": "increaseAllowance",
+      "loc": [
+        323,
+        4,
+        326,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.decreaseAllowance",
+      "info": "decreaseAllowance",
+      "loc": [
+        342,
+        4,
+        350,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20._transfer",
+      "info": "_transfer",
+      "loc": [
+        366,
+        4,
+        386,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20._mint",
+      "info": "_mint",
+      "loc": [
+        397,
+        4,
+        407,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20._burn",
+      "info": "_burn",
+      "loc": [
+        420,
+        4,
+        435,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20._approve",
+      "info": "_approve",
+      "loc": [
+        450,
+        4,
+        460,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20._beforeTokenTransfer",
+      "info": "_beforeTokenTransfer",
+      "loc": [
+        476,
+        4,
+        480,
+        24
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20._afterTokenTransfer",
+      "info": "_afterTokenTransfer",
+      "loc": [
+        496,
+        4,
+        500,
+        24
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20Burnable.burn",
+      "info": "burn",
+      "loc": [
+        522,
+        4,
+        524,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20Burnable.burnFrom",
+      "info": "burnFrom",
+      "loc": [
+        537,
+        4,
+        544,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Pausable.__constructor__",
+      "info": "__constructor__",
+      "loc": [
+        586,
+        4,
+        588,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Pausable.paused",
+      "info": "paused",
+      "loc": [
+        593,
+        4,
+        595,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Pausable._pause",
+      "info": "_pause",
+      "loc": [
+        628,
+        4,
+        631,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Pausable._unpause",
+      "info": "_unpause",
+      "loc": [
+        640,
+        4,
+        643,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20Pausable._beforeTokenTransfer",
+      "info": "_beforeTokenTransfer",
+      "loc": [
+        661,
+        4,
+        669,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IAccessControl.hasRole",
+      "info": "hasRole",
+      "loc": [
+        723,
+        4,
+        723,
+        80
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IAccessControl.getRoleAdmin",
+      "info": "getRoleAdmin",
+      "loc": [
+        731,
+        4,
+        731,
+        71
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IAccessControl.grantRole",
+      "info": "grantRole",
+      "loc": [
+        743,
+        4,
+        743,
+        62
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IAccessControl.revokeRole",
+      "info": "revokeRole",
+      "loc": [
+        754,
+        4,
+        754,
+        63
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IAccessControl.renounceRole",
+      "info": "renounceRole",
+      "loc": [
+        770,
+        4,
+        770,
+        65
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IAccessControlEnumerable.getRoleMember",
+      "info": "getRoleMember",
+      "loc": [
+        789,
+        4,
+        789,
+        87
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IAccessControlEnumerable.getRoleMemberCount",
+      "info": "getRoleMemberCount",
+      "loc": [
+        795,
+        4,
+        795,
+        77
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Strings.toString",
+      "info": "toString",
+      "loc": [
+        820,
+        4,
+        840,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Strings.toHexString",
+      "info": "toHexString",
+      "loc": [
+        845,
+        4,
+        856,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Strings.toHexString",
+      "info": "toHexString",
+      "loc": [
+        861,
+        4,
+        871,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC165.supportsInterface",
+      "info": "supportsInterface",
+      "loc": [
+        903,
+        4,
+        903,
+        79
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC165.supportsInterface",
+      "info": "supportsInterface",
+      "loc": [
+        924,
+        4,
+        926,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AccessControl.supportsInterface",
+      "info": "supportsInterface",
+      "loc": [
+        995,
+        4,
+        997,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AccessControl.hasRole",
+      "info": "hasRole",
+      "loc": [
+        1002,
+        4,
+        1004,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AccessControl._checkRole",
+      "info": "_checkRole",
+      "loc": [
+        1013,
+        4,
+        1026,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AccessControl.getRoleAdmin",
+      "info": "getRoleAdmin",
+      "loc": [
+        1034,
+        4,
+        1036,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AccessControl.grantRole",
+      "info": "grantRole",
+      "loc": [
+        1048,
+        4,
+        1050,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AccessControl.revokeRole",
+      "info": "revokeRole",
+      "loc": [
+        1061,
+        4,
+        1063,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AccessControl.renounceRole",
+      "info": "renounceRole",
+      "loc": [
+        1079,
+        4,
+        1083,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AccessControl._setupRole",
+      "info": "_setupRole",
+      "loc": [
+        1103,
+        4,
+        1105,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AccessControl._setRoleAdmin",
+      "info": "_setRoleAdmin",
+      "loc": [
+        1112,
+        4,
+        1116,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AccessControl._grantRole",
+      "info": "_grantRole",
+      "loc": [
+        1123,
+        4,
+        1128,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AccessControl._revokeRole",
+      "info": "_revokeRole",
+      "loc": [
+        1135,
+        4,
+        1140,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: EnumerableSet._add",
+      "info": "_add",
+      "loc": [
+        1196,
+        4,
+        1206,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: EnumerableSet._remove",
+      "info": "_remove",
+      "loc": [
+        1214,
+        4,
+        1246,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: EnumerableSet._contains",
+      "info": "_contains",
+      "loc": [
+        1251,
+        4,
+        1253,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: EnumerableSet._length",
+      "info": "_length",
+      "loc": [
+        1258,
+        4,
+        1260,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: EnumerableSet._at",
+      "info": "_at",
+      "loc": [
+        1272,
+        4,
+        1274,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: EnumerableSet._values",
+      "info": "_values",
+      "loc": [
+        1284,
+        4,
+        1286,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: EnumerableSet.add",
+      "info": "add",
+      "loc": [
+        1300,
+        4,
+        1302,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: EnumerableSet.remove",
+      "info": "remove",
+      "loc": [
+        1310,
+        4,
+        1312,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: EnumerableSet.contains",
+      "info": "contains",
+      "loc": [
+        1317,
+        4,
+        1319,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: EnumerableSet.length",
+      "info": "length",
+      "loc": [
+        1324,
+        4,
+        1326,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: EnumerableSet.at",
+      "info": "at",
+      "loc": [
+        1338,
+        4,
+        1340,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: EnumerableSet.values",
+      "info": "values",
+      "loc": [
+        1350,
+        4,
+        1352,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: EnumerableSet.add",
+      "info": "add",
+      "loc": [
+        1366,
+        4,
+        1368,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: EnumerableSet.remove",
+      "info": "remove",
+      "loc": [
+        1376,
+        4,
+        1378,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: EnumerableSet.contains",
+      "info": "contains",
+      "loc": [
+        1383,
+        4,
+        1385,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: EnumerableSet.length",
+      "info": "length",
+      "loc": [
+        1390,
+        4,
+        1392,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: EnumerableSet.at",
+      "info": "at",
+      "loc": [
+        1404,
+        4,
+        1406,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: EnumerableSet.values",
+      "info": "values",
+      "loc": [
+        1416,
+        4,
+        1425,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: EnumerableSet.add",
+      "info": "add",
+      "loc": [
+        1439,
+        4,
+        1441,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: EnumerableSet.remove",
+      "info": "remove",
+      "loc": [
+        1449,
+        4,
+        1451,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: EnumerableSet.contains",
+      "info": "contains",
+      "loc": [
+        1456,
+        4,
+        1458,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: EnumerableSet.length",
+      "info": "length",
+      "loc": [
+        1463,
+        4,
+        1465,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: EnumerableSet.at",
+      "info": "at",
+      "loc": [
+        1477,
+        4,
+        1479,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: EnumerableSet.values",
+      "info": "values",
+      "loc": [
+        1489,
+        4,
+        1498,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AccessControlEnumerable.supportsInterface",
+      "info": "supportsInterface",
+      "loc": [
+        1512,
+        4,
+        1514,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AccessControlEnumerable.getRoleMember",
+      "info": "getRoleMember",
+      "loc": [
+        1528,
+        4,
+        1530,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AccessControlEnumerable.getRoleMemberCount",
+      "info": "getRoleMemberCount",
+      "loc": [
+        1536,
+        4,
+        1538,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AccessControlEnumerable._grantRole",
+      "info": "_grantRole",
+      "loc": [
+        1543,
+        4,
+        1546,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AccessControlEnumerable._revokeRole",
+      "info": "_revokeRole",
+      "loc": [
+        1551,
+        4,
+        1554,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20PresetMinterPauser.__constructor__",
+      "info": "__constructor__",
+      "loc": [
+        1582,
+        4,
+        1587,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20PresetMinterPauser.mint",
+      "info": "mint",
+      "loc": [
+        1598,
+        4,
+        1601,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20PresetMinterPauser.pause",
+      "info": "pause",
+      "loc": [
+        1612,
+        4,
+        1615,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20PresetMinterPauser.unpause",
+      "info": "unpause",
+      "loc": [
+        1626,
+        4,
+        1629,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20PresetMinterPauser._beforeTokenTransfer",
+      "info": "_beforeTokenTransfer",
+      "loc": [
+        1631,
+        4,
+        1637,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AddressUpgradeable.isContract",
+      "info": "isContract",
+      "loc": [
+        1683,
+        4,
+        1693,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AddressUpgradeable.sendValue",
+      "info": "sendValue",
+      "loc": [
+        1711,
+        4,
+        1716,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AddressUpgradeable.functionCall",
+      "info": "functionCall",
+      "loc": [
+        1736,
+        4,
+        1738,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AddressUpgradeable.functionCall",
+      "info": "functionCall",
+      "loc": [
+        1746,
+        4,
+        1752,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AddressUpgradeable.functionCallWithValue",
+      "info": "functionCallWithValue",
+      "loc": [
+        1765,
+        4,
+        1771,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AddressUpgradeable.functionCallWithValue",
+      "info": "functionCallWithValue",
+      "loc": [
+        1779,
+        4,
+        1790,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AddressUpgradeable.functionStaticCall",
+      "info": "functionStaticCall",
+      "loc": [
+        1798,
+        4,
+        1800,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AddressUpgradeable.functionStaticCall",
+      "info": "functionStaticCall",
+      "loc": [
+        1808,
+        4,
+        1817,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AddressUpgradeable.verifyCallResult",
+      "info": "verifyCallResult",
+      "loc": [
+        1825,
+        4,
+        1845,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Initializable._isConstructor",
+      "info": "_isConstructor",
+      "loc": [
+        1917,
+        4,
+        1919,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ContextUpgradeable.__Context_init",
+      "info": "__Context_init",
+      "loc": [
+        1933,
+        4,
+        1935,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ContextUpgradeable.__Context_init_unchained",
+      "info": "__Context_init_unchained",
+      "loc": [
+        1937,
+        4,
+        1938,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ContextUpgradeable._msgSender",
+      "info": "_msgSender",
+      "loc": [
+        1939,
+        4,
+        1941,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ContextUpgradeable._msgData",
+      "info": "_msgData",
+      "loc": [
+        1943,
+        4,
+        1945,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: OwnableUpgradeable.__Ownable_init",
+      "info": "__Ownable_init",
+      "loc": [
+        1970,
+        4,
+        1973,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: OwnableUpgradeable.__Ownable_init_unchained",
+      "info": "__Ownable_init_unchained",
+      "loc": [
+        1975,
+        4,
+        1977,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: OwnableUpgradeable.owner",
+      "info": "owner",
+      "loc": [
+        1982,
+        4,
+        1984,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: OwnableUpgradeable.renounceOwnership",
+      "info": "renounceOwnership",
+      "loc": [
+        2001,
+        4,
+        2003,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: OwnableUpgradeable.transferOwnership",
+      "info": "transferOwnership",
+      "loc": [
+        2009,
+        4,
+        2012,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: OwnableUpgradeable._transferOwnership",
+      "info": "_transferOwnership",
+      "loc": [
+        2018,
+        4,
+        2022,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Address.isContract",
+      "info": "isContract",
+      "loc": [
+        2059,
+        4,
+        2069,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Address.sendValue",
+      "info": "sendValue",
+      "loc": [
+        2087,
+        4,
+        2092,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Address.functionCall",
+      "info": "functionCall",
+      "loc": [
+        2112,
+        4,
+        2114,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Address.functionCall",
+      "info": "functionCall",
+      "loc": [
+        2122,
+        4,
+        2128,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Address.functionCallWithValue",
+      "info": "functionCallWithValue",
+      "loc": [
+        2141,
+        4,
+        2147,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Address.functionCallWithValue",
+      "info": "functionCallWithValue",
+      "loc": [
+        2155,
+        4,
+        2166,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Address.functionStaticCall",
+      "info": "functionStaticCall",
+      "loc": [
+        2174,
+        4,
+        2176,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Address.functionStaticCall",
+      "info": "functionStaticCall",
+      "loc": [
+        2184,
+        4,
+        2193,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Address.functionDelegateCall",
+      "info": "functionDelegateCall",
+      "loc": [
+        2201,
+        4,
+        2203,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Address.functionDelegateCall",
+      "info": "functionDelegateCall",
+      "loc": [
+        2211,
+        4,
+        2220,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Address.verifyCallResult",
+      "info": "verifyCallResult",
+      "loc": [
+        2228,
+        4,
+        2248,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeERC20.safeTransfer",
+      "info": "safeTransfer",
+      "loc": [
+        2263,
+        4,
+        2269,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeERC20.safeTransferFrom",
+      "info": "safeTransferFrom",
+      "loc": [
+        2271,
+        4,
+        2278,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeERC20.safeApprove",
+      "info": "safeApprove",
+      "loc": [
+        2287,
+        4,
+        2300,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeERC20.safeIncreaseAllowance",
+      "info": "safeIncreaseAllowance",
+      "loc": [
+        2302,
+        4,
+        2309,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeERC20.safeDecreaseAllowance",
+      "info": "safeDecreaseAllowance",
+      "loc": [
+        2311,
+        4,
+        2322,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeERC20._callOptionalReturn",
+      "info": "_callOptionalReturn",
+      "loc": [
+        2330,
+        4,
+        2340,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IAccessControlUpgradeable.hasRole",
+      "info": "hasRole",
+      "loc": [
+        2417,
+        4,
+        2417,
+        80
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IAccessControlUpgradeable.getRoleAdmin",
+      "info": "getRoleAdmin",
+      "loc": [
+        2425,
+        4,
+        2425,
+        71
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IAccessControlUpgradeable.grantRole",
+      "info": "grantRole",
+      "loc": [
+        2437,
+        4,
+        2437,
+        62
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IAccessControlUpgradeable.revokeRole",
+      "info": "revokeRole",
+      "loc": [
+        2448,
+        4,
+        2448,
+        63
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IAccessControlUpgradeable.renounceRole",
+      "info": "renounceRole",
+      "loc": [
+        2464,
+        4,
+        2464,
+        65
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: StringsUpgradeable.toString",
+      "info": "toString",
+      "loc": [
+        2482,
+        4,
+        2502,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: StringsUpgradeable.toHexString",
+      "info": "toHexString",
+      "loc": [
+        2507,
+        4,
+        2518,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: StringsUpgradeable.toHexString",
+      "info": "toHexString",
+      "loc": [
+        2523,
+        4,
+        2533,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC165Upgradeable.supportsInterface",
+      "info": "supportsInterface",
+      "loc": [
+        2565,
+        4,
+        2565,
+        79
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC165Upgradeable.__ERC165_init",
+      "info": "__ERC165_init",
+      "loc": [
+        2584,
+        4,
+        2586,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC165Upgradeable.__ERC165_init_unchained",
+      "info": "__ERC165_init_unchained",
+      "loc": [
+        2588,
+        4,
+        2589,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC165Upgradeable.supportsInterface",
+      "info": "supportsInterface",
+      "loc": [
+        2593,
+        4,
+        2595,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AccessControlUpgradeable.__AccessControl_init",
+      "info": "__AccessControl_init",
+      "loc": [
+        2639,
+        4,
+        2643,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AccessControlUpgradeable.__AccessControl_init_unchained",
+      "info": "__AccessControl_init_unchained",
+      "loc": [
+        2645,
+        4,
+        2646,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AccessControlUpgradeable.supportsInterface",
+      "info": "supportsInterface",
+      "loc": [
+        2674,
+        4,
+        2676,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AccessControlUpgradeable.hasRole",
+      "info": "hasRole",
+      "loc": [
+        2681,
+        4,
+        2683,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AccessControlUpgradeable._checkRole",
+      "info": "_checkRole",
+      "loc": [
+        2692,
+        4,
+        2705,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AccessControlUpgradeable.getRoleAdmin",
+      "info": "getRoleAdmin",
+      "loc": [
+        2713,
+        4,
+        2715,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AccessControlUpgradeable.grantRole",
+      "info": "grantRole",
+      "loc": [
+        2727,
+        4,
+        2729,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AccessControlUpgradeable.revokeRole",
+      "info": "revokeRole",
+      "loc": [
+        2740,
+        4,
+        2742,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AccessControlUpgradeable.renounceRole",
+      "info": "renounceRole",
+      "loc": [
+        2758,
+        4,
+        2762,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AccessControlUpgradeable._setupRole",
+      "info": "_setupRole",
+      "loc": [
+        2782,
+        4,
+        2784,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AccessControlUpgradeable._setRoleAdmin",
+      "info": "_setRoleAdmin",
+      "loc": [
+        2791,
+        4,
+        2795,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AccessControlUpgradeable._grantRole",
+      "info": "_grantRole",
+      "loc": [
+        2802,
+        4,
+        2807,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AccessControlUpgradeable._revokeRole",
+      "info": "_revokeRole",
+      "loc": [
+        2814,
+        4,
+        2819,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: BaseStaking.__BaseStaking_init",
+      "info": "__BaseStaking_init",
+      "loc": [
+        2893,
+        4,
+        2896,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: BaseStaking.__BaseStaking_init_unchained",
+      "info": "__BaseStaking_init_unchained",
+      "loc": [
+        2898,
+        4,
+        2904,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: BaseStaking.topUpRewards",
+      "info": "topUpRewards",
+      "loc": [
+        2906,
+        4,
+        2910,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: BaseStaking.blocksLeft",
+      "info": "blocksLeft",
+      "loc": [
+        2912,
+        4,
+        2917,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: BaseStaking.rewardPerToken",
+      "info": "rewardPerToken",
+      "loc": [
+        2919,
+        4,
+        2927,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: BaseStaking.earned",
+      "info": "earned",
+      "loc": [
+        2929,
+        4,
+        2931,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: BaseStaking.stake",
+      "info": "stake",
+      "loc": [
+        2946,
+        4,
+        2948,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: BaseStaking._stake",
+      "info": "_stake",
+      "loc": [
+        2950,
+        4,
+        2959,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: BaseStaking.compound",
+      "info": "compound",
+      "loc": [
+        2961,
+        4,
+        2963,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: BaseStaking._compound",
+      "info": "_compound",
+      "loc": [
+        2965,
+        4,
+        2976,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: BaseStaking.withdraw",
+      "info": "withdraw",
+      "loc": [
+        2978,
+        4,
+        2980,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: BaseStaking._withdraw",
+      "info": "_withdraw",
+      "loc": [
+        2982,
+        4,
+        2994,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: BaseStaking.claim",
+      "info": "claim",
+      "loc": [
+        2996,
+        4,
+        2998,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: BaseStaking._claim",
+      "info": "_claim",
+      "loc": [
+        3000,
+        4,
+        3009,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: BaseStaking.setRewardRate",
+      "info": "setRewardRate",
+      "loc": [
+        3011,
+        4,
+        3016,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: BaseStaking.start",
+      "info": "start",
+      "loc": [
+        3018,
+        4,
+        3020,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: BaseStaking._start",
+      "info": "_start",
+      "loc": [
+        3022,
+        4,
+        3026,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: BaseStaking.rescueTokens",
+      "info": "rescueTokens",
+      "loc": [
+        3028,
+        4,
+        3031,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: BaseStaking.getInfo",
+      "info": "getInfo",
+      "loc": [
+        3033,
+        4,
+        3043,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: BaseStaking.userInfo",
+      "info": "userInfo",
+      "loc": [
+        3045,
+        4,
+        3049,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: BaseStaking._canStake",
+      "info": "_canStake",
+      "loc": [
+        3051,
+        4,
+        3060,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: BaseStaking._canWithdraw",
+      "info": "_canWithdraw",
+      "loc": [
+        3062,
+        4,
+        3062,
+        82
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: BaseStaking.setLimits",
+      "info": "setLimits",
+      "loc": [
+        3064,
+        4,
+        3067,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: BaseStaking._canClaim",
+      "info": "_canClaim",
+      "loc": [
+        3069,
+        4,
+        3069,
+        63
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: TaxedStaking.__TaxedStaking_init",
+      "info": "__TaxedStaking_init",
+      "loc": [
+        3080,
+        4,
+        3086,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: TaxedStaking.__TaxedStaking_init_unchained",
+      "info": "__TaxedStaking_init_unchained",
+      "loc": [
+        3088,
+        4,
+        3090,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: TaxedStaking.setTaxAddresses",
+      "info": "setTaxAddresses",
+      "loc": [
+        3092,
+        4,
+        3095,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: TaxedStaking.setHpayAddress",
+      "info": "setHpayAddress",
+      "loc": [
+        3097,
+        4,
+        3099,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: TaxedStaking._stake",
+      "info": "_stake",
+      "loc": [
+        3101,
+        4,
+        3104,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: TaxedStaking._withdraw",
+      "info": "_withdraw",
+      "loc": [
+        3106,
+        4,
+        3109,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: TaxedStaking.takeUnstakeTax",
+      "info": "takeUnstakeTax",
+      "loc": [
+        3111,
+        4,
+        3128,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: TaxedStaking.takeStakeTax",
+      "info": "takeStakeTax",
+      "loc": [
+        3130,
+        4,
+        3143,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: TaxedStaking.setTax",
+      "info": "setTax",
+      "loc": [
+        3145,
+        4,
+        3149,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: TaxedStaking.setHpayTax",
+      "info": "setHpayTax",
+      "loc": [
+        3151,
+        4,
+        3154,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: FixedTimeLockStaking.__FixedTimeLockStaking_init",
+      "info": "__FixedTimeLockStaking_init",
+      "loc": [
+        3187,
+        4,
+        3195,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: FixedTimeLockStaking.__FixedTimeLockStaking_init_unchained",
+      "info": "__FixedTimeLockStaking_init_unchained",
+      "loc": [
+        3197,
+        4,
+        3200,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: FixedTimeLockStaking.stake",
+      "info": "stake",
+      "loc": [
+        3202,
+        4,
+        3205,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: FixedTimeLockStaking._withdraw",
+      "info": "_withdraw",
+      "loc": [
+        3207,
+        4,
+        3212,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: FixedTimeLockStaking._stake",
+      "info": "_stake",
+      "loc": [
+        3214,
+        4,
+        3216,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: FixedTimeLockStaking._canWithdraw",
+      "info": "_canWithdraw",
+      "loc": [
+        3218,
+        4,
+        3224,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: FixedTimeLockStaking.timelockConfigurations",
+      "info": "timelockConfigurations",
+      "loc": [
+        3226,
+        4,
+        3228,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: FixedTimeLockStaking.takeUnstakeTax",
+      "info": "takeUnstakeTax",
+      "loc": [
+        3230,
+        4,
+        3239,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: FixedTimeLockStaking.lockEnded",
+      "info": "lockEnded",
+      "loc": [
+        3241,
+        4,
+        3243,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: FixedTimeLockStaking.setTimelock",
+      "info": "setTimelock",
+      "loc": [
+        3245,
+        4,
+        3247,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: FixedTimeLockStaking.setPenalty",
+      "info": "setPenalty",
+      "loc": [
+        3249,
+        4,
+        3251,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: FixedTimeLockStaking.setAllowEarlyUnlock",
+      "info": "setAllowEarlyUnlock",
+      "loc": [
+        3253,
+        4,
+        3255,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: StaticFixedTimeLockStaking.__StaticFixedTimeLockStaking_init",
+      "info": "__StaticFixedTimeLockStaking_init",
+      "loc": [
+        3264,
+        4,
+        3272,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: StaticFixedTimeLockStaking._start",
+      "info": "_start",
+      "loc": [
+        3274,
+        4,
+        3277,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: StaticFixedTimeLockStaking._stake",
+      "info": "_stake",
+      "loc": [
+        3279,
+        4,
+        3281,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: StaticFixedTimeLockStaking.updateLock",
+      "info": "updateLock",
+      "loc": [
+        3283,
+        4,
+        3285,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: RelockBonusStaking.__RelockBonusStaking_init_unchained",
+      "info": "__RelockBonusStaking_init_unchained",
+      "loc": [
+        3293,
+        4,
+        3295,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: RelockBonusStaking.relock",
+      "info": "relock",
+      "loc": [
+        3297,
+        4,
+        3304,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: RelockBonusStaking.setRelockBonus",
+      "info": "setRelockBonus",
+      "loc": [
+        3306,
+        4,
+        3308,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: RelockBonusStaking.allocateBonus",
+      "info": "allocateBonus",
+      "loc": [
+        3310,
+        4,
+        3310,
+        78
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MintableSupplyStaking._stake",
+      "info": "_stake",
+      "loc": [
+        3338,
+        4,
+        3344,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MintableSupplyStaking._compound",
+      "info": "_compound",
+      "loc": [
+        3346,
+        4,
+        3354,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MintableSupplyStaking._claim",
+      "info": "_claim",
+      "loc": [
+        3356,
+        4,
+        3361,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MintableSupplyStaking.setRewardRate",
+      "info": "setRewardRate",
+      "loc": [
+        3363,
+        4,
+        3367,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MintableSupplyStaking.getInfo",
+      "info": "getInfo",
+      "loc": [
+        3369,
+        4,
+        3379,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MintableSupplyStaking._canStake",
+      "info": "_canStake",
+      "loc": [
+        3381,
+        4,
+        3387,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MintableSupplyStaking.topUpRewards",
+      "info": "topUpRewards",
+      "loc": [
+        3389,
+        4,
+        3389,
+        60
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MintableSupplyStaking.blocksLeft",
+      "info": "blocksLeft",
+      "loc": [
+        3391,
+        4,
+        3391,
+        74
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MintableSupplyStaking.rewardPerToken",
+      "info": "rewardPerToken",
+      "loc": [
+        3393,
+        4,
+        3400,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AutocompundStaking.__AutocompundStaking_init",
+      "info": "__AutocompundStaking_init",
+      "loc": [
+        3425,
+        4,
+        3432,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AutocompundStaking.__AutocompundStaking_init_unchained",
+      "info": "__AutocompundStaking_init_unchained",
+      "loc": [
+        3434,
+        4,
+        3439,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AutocompundStaking.runCompund",
+      "info": "runCompund",
+      "loc": [
+        3441,
+        4,
+        3462,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AutocompundStaking.compundForAccount",
+      "info": "compundForAccount",
+      "loc": [
+        3464,
+        4,
+        3470,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AutocompundStaking.currentReward",
+      "info": "currentReward",
+      "loc": [
+        3472,
+        4,
+        3486,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AutocompundStaking._stake",
+      "info": "_stake",
+      "loc": [
+        3488,
+        4,
+        3491,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AutocompundStaking._withdraw",
+      "info": "_withdraw",
+      "loc": [
+        3493,
+        4,
+        3498,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AutocompundStaking.totalStakeHolders",
+      "info": "totalStakeHolders",
+      "loc": [
+        3500,
+        4,
+        3502,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AutocompundStaking.setPerformanceFee",
+      "info": "setPerformanceFee",
+      "loc": [
+        3504,
+        4,
+        3506,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AutocompundStaking.setCompundReward",
+      "info": "setCompundReward",
+      "loc": [
+        3508,
+        4,
+        3510,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AutocompundStaking.resetLastCompound",
+      "info": "resetLastCompound",
+      "loc": [
+        3512,
+        4,
+        3514,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MintableAutoCompundRelockBonus.initialize",
+      "info": "initialize",
+      "loc": [
+        3525,
+        4,
+        3537,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MintableAutoCompundRelockBonus._start",
+      "info": "_start",
+      "loc": [
+        3548,
+        4,
+        3550,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MintableAutoCompundRelockBonus.takeUnstakeTax",
+      "info": "takeUnstakeTax",
+      "loc": [
+        3552,
+        4,
+        3559,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MintableAutoCompundRelockBonus.stake",
+      "info": "stake",
+      "loc": [
+        3561,
+        4,
+        3568,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MintableAutoCompundRelockBonus._compound",
+      "info": "_compound",
+      "loc": [
+        3570,
+        4,
+        3573,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MintableAutoCompundRelockBonus._stake",
+      "info": "_stake",
+      "loc": [
+        3575,
+        4,
+        3584,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MintableAutoCompundRelockBonus.withdraw",
+      "info": "withdraw",
+      "loc": [
+        3586,
+        4,
+        3588,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MintableAutoCompundRelockBonus._withdraw",
+      "info": "_withdraw",
+      "loc": [
+        3590,
+        4,
+        3616,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MintableAutoCompundRelockBonus.setRewardRate",
+      "info": "setRewardRate",
+      "loc": [
+        3618,
+        4,
+        3626,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MintableAutoCompundRelockBonus.lockEnded",
+      "info": "lockEnded",
+      "loc": [
+        3628,
+        4,
+        3630,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MintableAutoCompundRelockBonus.getInfo",
+      "info": "getInfo",
+      "loc": [
+        3632,
+        4,
+        3642,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MintableAutoCompundRelockBonus.userInfo",
+      "info": "userInfo",
+      "loc": [
+        3644,
+        4,
+        3648,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MintableAutoCompundRelockBonus._claim",
+      "info": "_claim",
+      "loc": [
+        3650,
+        4,
+        3652,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MintableAutoCompundRelockBonus.allocateBonus",
+      "info": "allocateBonus",
+      "loc": [
+        3654,
+        4,
+        3656,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MintableAutoCompundRelockBonus.rewardPerToken",
+      "info": "rewardPerToken",
+      "loc": [
+        3658,
+        4,
+        3660,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MintableAutoCompundRelockBonus.setStartTime",
+      "info": "setStartTime",
+      "loc": [
+        3662,
+        4,
+        3664,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MintableAutoCompundRelockBonus.topUpRewards",
+      "info": "topUpRewards",
+      "loc": [
+        3666,
+        4,
+        3666,
+        88
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MintableAutoCompundRelockBonus.blocksLeft",
+      "info": "blocksLeft",
+      "loc": [
+        3668,
+        4,
+        3668,
+        102
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MintableAutoCompundRelockBonus._canStake",
+      "info": "_canStake",
+      "loc": [
+        3670,
+        4,
+        3672,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MintableAutoCompundRelockBonus._canWithdraw",
+      "info": "_canWithdraw",
+      "loc": [
+        3674,
+        4,
+        3676,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MintableAutoCompundRelockBonus.setToken",
+      "info": "setToken",
+      "loc": [
+        3678,
+        4,
+        3681,
+        4
+      ]
+    }
+  ]
+}

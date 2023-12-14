@@ -1,0 +1,26 @@
+Running SPCON... 0x9b481067ef9773d52efd0fb5b665a5dc0c8e1a68 600 2022-05-23
+Installing solc '0.4.24'...
+Version '0.4.24' installed.
+2022-05-23
+{'limit': 4, 'network': 'ethereum', 'address': '0x9b481067ef9773d52efd0fb5b665a5dc0c8e1a68', 'date': '2022-05-23'}
+0x9b481067ef9773d52efd0fb5b665a5dc0c8e1a68 ERCDDAToken
+./0x9b481067ef9773d52efd0fb5b665a5dc0c8e1a68
+loaded abi.
+1  functions ['transfer']
+2  users
+Timecost for loading history: 0.00747227668762207
+No.user: 2; No.func: 1
++----------------------------------------------------+
+| Basic roles statistics (id, len(users), functions) |
++-------------+-----------+--------------------------+
+|    RoleId   |   Users   |        Functions         |
++-------------+-----------+--------------------------+
+|      0      |     2     |       ['transfer']       |
++-------------+-----------+--------------------------+
+total timecost: 7.930135011672974 seconds
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/SpCon-0.1.0-py3.8.egg/spcon/__main__.py", line 67, in main
+    execute_command(args)
+  File "/usr/local/lib/python3.8/dist-packages/SpCon-0.1.0-py3.8.egg/spcon/__main__.py", line 34, in execute_command
+    assert  boolflag==True, "security policies inference error"
+AssertionError: security policies inference error

@@ -1,0 +1,552 @@
+File copied : /root/sailfish/code/static_analysis/analysis/BAFCToken.sol
+processing /root/sailfish/code/static_analysis/analysis/BAFCToken.sol
+Installing solc '0.4.26'...
+Version '0.4.26' installed.
+Switched global version to 0.4.26
+[INFO] | 2023-12-05 03:28:49 AM | analyzer.BAFCToken | Analysis started at: 2023-12-05 03:28:49 AM
+[INFO] | 2023-12-05 03:28:50 AM | analyzer.BAFCToken | Version constraints: ['^0.4.24']
+[INFO] | 2023-12-05 03:28:50 AM | analyzer.BAFCToken | solc version: v0.4.24
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Callgraph generation started!
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Callgraph generation finished!
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Interprocedural CFG generation started!
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Interprocedural CFG generation finished!
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Storage dependency graph generation started!
+[36m[#] Analysing started: BAFCToken.sol[0m
+/root/.solc-select/artifacts/solc-0.4.26
+[36m[#] Interprocedural CFG generation started for modifier onlyPayloadSize[0m
+[36m[#] Interprocedural CFG generated for modifer onlyPayloadSize[0m
+[36m[#] Interprocedural CFG generation started for modifier unFrozenAccount[0m
+[36m[#] Interprocedural CFG generated for modifer unFrozenAccount[0m
+[36m[#] Interprocedural CFG generation started for modifier onlyOwner[0m
+[36m[#] Interprocedural CFG generated for modifer onlyOwner[0m
+[36m[#] Interprocedural CFG generation started for modifier onlyTransferable[0m
+[36m[#] Interprocedural CFG generated for modifer onlyTransferable[0m
+[36m[#] Interprocedural CFG generation started for modifier onlyPayloadSize[0m
+[36m[#] Interprocedural CFG generated for modifer onlyPayloadSize[0m
+[36m[#] Interprocedural CFG generation started for modifier unFrozenAccount[0m
+[36m[#] Interprocedural CFG generated for modifer unFrozenAccount[0m
+[36m[#] Interprocedural CFG generation started for modifier onlyOwner[0m
+[36m[#] Interprocedural CFG generated for modifer onlyOwner[0m
+[36m[#] Interprocedural CFG generation started for modifier onlyTransferable[0m
+[36m[#] Interprocedural CFG generated for modifer onlyTransferable[0m
+[36m[#] Interprocedural CFG generation started for modifier onlyPayloadSize[0m
+[36m[#] Interprocedural CFG generated for modifer onlyPayloadSize[0m
+[36m[#] Interprocedural CFG generation started for modifier unFrozenAccount[0m
+[36m[#] Interprocedural CFG generated for modifer unFrozenAccount[0m
+[36m[#] Interprocedural CFG generation started for modifier onlyOwner[0m
+[36m[#] Interprocedural CFG generated for modifer onlyOwner[0m
+[36m[#] Interprocedural CFG generation started for modifier onlyTransferable[0m
+[36m[#] Interprocedural CFG generated for modifer onlyTransferable[0m
+[36m[#] Interprocedural CFG generation started for balanceOf[0m
+[36m[#] Interprocedural CFG generated for balanceOf[0m
+[36m[#] Interprocedural CFG generation started for transfer[0m
+[36m[#] Interprocedural CFG generated for transfer[0m
+[36m[#] Interprocedural CFG generation started for allowance[0m
+[36m[#] Interprocedural CFG generated for allowance[0m
+[36m[#] Interprocedural CFG generation started for transferFrom[0m
+[36m[#] Interprocedural CFG generated for transferFrom[0m
+[36m[#] Interprocedural CFG generation started for approve[0m
+[36m[#] Interprocedural CFG generated for approve[0m
+[36m[#] Interprocedural CFG generation started for balanceOf[0m
+[36m[#] Interprocedural CFG generated for balanceOf[0m
+[36m[#] Interprocedural CFG generation started for transfer[0m
+[36m[#] Interprocedural CFG generated for transfer[0m
+[36m[#] Interprocedural CFG generation started for allowance[0m
+[36m[#] Interprocedural CFG generated for allowance[0m
+[36m[#] Interprocedural CFG generation started for transferFrom[0m
+[36m[#] Interprocedural CFG generated for transferFrom[0m
+[36m[#] Interprocedural CFG generation started for approve[0m
+[36m[#] Interprocedural CFG generated for approve[0m
+[36m[#] Interprocedural CFG generation started for transfer[0m
+[36m[#] Interprocedural CFG generated for transfer[0m
+[36m[#] Interprocedural CFG generation started for balanceOf[0m
+[36m[#] Interprocedural CFG generated for balanceOf[0m
+[36m[#] Interprocedural CFG generation started for freezeAccount[0m
+[36m[#] Interprocedural CFG generated for freezeAccount[0m
+[36m[#] Interprocedural CFG generation started for accountFrozenStatus[0m
+[36m[#] Interprocedural CFG generated for accountFrozenStatus[0m
+[36m[#] Interprocedural CFG generation started for transferOwnership[0m
+[36m[#] Interprocedural CFG generated for transferOwnership[0m
+[36m[#] Interprocedural CFG generation started for switchLiquidity[0m
+[36m[#] Interprocedural CFG generated for switchLiquidity[0m
+[36m[#] Interprocedural CFG generation started for liquidityStatus[0m
+[36m[#] Interprocedural CFG generated for liquidityStatus[0m
+[36m[#] Interprocedural CFG generation started for balanceOf[0m
+[36m[#] Interprocedural CFG generated for balanceOf[0m
+[36m[#] Interprocedural CFG generation started for transfer[0m
+[36m[#] Interprocedural CFG generated for transfer[0m
+[36m[#] Interprocedural CFG generation started for allowance[0m
+[36m[#] Interprocedural CFG generated for allowance[0m
+[36m[#] Interprocedural CFG generation started for transferFrom[0m
+[36m[#] Interprocedural CFG generated for transferFrom[0m
+[36m[#] Interprocedural CFG generation started for approve[0m
+[36m[#] Interprocedural CFG generated for approve[0m
+[36m[#] Interprocedural CFG generation started for transfer[0m
+[36m[#] Interprocedural CFG generated for transfer[0m
+[36m[#] Interprocedural CFG generation started for balanceOf[0m
+[36m[#] Interprocedural CFG generated for balanceOf[0m
+[36m[#] Interprocedural CFG generation started for freezeAccount[0m
+[36m[#] Interprocedural CFG generated for freezeAccount[0m
+[36m[#] Interprocedural CFG generation started for accountFrozenStatus[0m
+[36m[#] Interprocedural CFG generated for accountFrozenStatus[0m
+[36m[#] Interprocedural CFG generation started for transferOwnership[0m
+[36m[#] Interprocedural CFG generated for transferOwnership[0m
+[36m[#] Interprocedural CFG generation started for switchLiquidity[0m
+[36m[#] Interprocedural CFG generated for switchLiquidity[0m
+[36m[#] Interprocedural CFG generation started for liquidityStatus[0m
+[36m[#] Interprocedural CFG generated for liquidityStatus[0m
+[36m[#] Interprocedural CFG generation started for transferFrom[0m
+[36m[#] Interprocedural CFG generated for transferFrom[0m
+[36m[#] Interprocedural CFG generation started for approve[0m
+[36m[#] Interprocedural CFG generated for approve[0m
+[36m[#] Interprocedural CFG generation started for allowance[0m
+[36m[#] Interprocedural CFG generated for allowance[0m
+[36m[#] Interprocedural CFG generation started for balanceOf[0m
+[36m[#] Interprocedural CFG generated for balanceOf[0m
+[36m[#] Interprocedural CFG generation started for transfer[0m
+[36m[#] Interprocedural CFG generated for transfer[0m
+[36m[#] Interprocedural CFG generation started for allowance[0m
+[36m[#] Interprocedural CFG generated for allowance[0m
+[36m[#] Interprocedural CFG generation started for transferFrom[0m
+[36m[#] Interprocedural CFG generated for transferFrom[0m
+[36m[#] Interprocedural CFG generation started for approve[0m
+[36m[#] Interprocedural CFG generated for approve[0m
+[36m[#] Interprocedural CFG generation started for transfer[0m
+[36m[#] Interprocedural CFG generated for transfer[0m
+[36m[#] Interprocedural CFG generation started for balanceOf[0m
+[36m[#] Interprocedural CFG generated for balanceOf[0m
+[36m[#] Interprocedural CFG generation started for freezeAccount[0m
+[36m[#] Interprocedural CFG generated for freezeAccount[0m
+[36m[#] Interprocedural CFG generation started for accountFrozenStatus[0m
+[36m[#] Interprocedural CFG generated for accountFrozenStatus[0m
+[36m[#] Interprocedural CFG generation started for transferOwnership[0m
+[36m[#] Interprocedural CFG generated for transferOwnership[0m
+[36m[#] Interprocedural CFG generation started for switchLiquidity[0m
+[36m[#] Interprocedural CFG generated for switchLiquidity[0m
+[36m[#] Interprocedural CFG generation started for liquidityStatus[0m
+[36m[#] Interprocedural CFG generated for liquidityStatus[0m
+[36m[#] Interprocedural CFG generation started for transferFrom[0m
+[36m[#] Interprocedural CFG generated for transferFrom[0m
+[36m[#] Interprocedural CFG generation started for approve[0m
+[36m[#] Interprocedural CFG generated for approve[0m
+[36m[#] Interprocedural CFG generation started for allowance[0m
+[36m[#] Interprocedural CFG generated for allowance[0m
+[36m[#] Interprocedural CFG generation started for UBSexToken[0m
+[36m[#] Interprocedural CFG generated for UBSexToken[0m
+[36m[#] Interprocedural CFG generation started for fallback[0m
+[36m[#] Interprocedural CFG generated for fallback[0m
+[36m[#] SDG generation started for balanceOf[0m
+[36m[#] SDG generated for balanceOf[0m[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Storage dependency graph generation finished!
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Value Range Analysis started
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for div
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for div
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | State variable assignement do not exist
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function div
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for assert
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for assert
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | State variable assignement do not exist
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function assert
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for balanceOf
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for balanceOf
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | State variable assignement do not exist
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function balanceOf
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for transfer
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for transfer
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | State variable assignement do not exist
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function transfer
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for allowance
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for allowance
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | State variable assignement do not exist
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function allowance
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for transferFrom
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for transferFrom
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | State variable assignement do not exist
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function transferFrom
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for approve
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for approve
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | State variable assignement do not exist
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function approve
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for balanceOf
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for balanceOf
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | State variable assignement do not exist
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function balanceOf
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for transfer
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for transfer
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | State variable assignement do not exist
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function transfer
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for allowance
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for allowance
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | State variable assignement do not exist
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function allowance
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for transferFrom
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for transferFrom
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | State variable assignement do not exist
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function transferFrom
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for approve
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for approve
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | State variable assignement do not exist
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function approve
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for balanceOf
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for balanceOf
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | State variable assignement do not exist
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function balanceOf
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for accountFrozenStatus
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for accountFrozenStatus
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | State variable assignement do not exist
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function accountFrozenStatus
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for liquidityStatus
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for liquidityStatus
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | State variable assignement do not exist
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function liquidityStatus
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for slitherConstructorVariables
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for slitherConstructorVariables
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Range graph generated
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function slitherConstructorVariables
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for onlyTransferable
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for onlyTransferable
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | State variable assignement do not exist
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function onlyTransferable
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for onlyPayloadSize
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for onlyPayloadSize
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | State variable assignement do not exist
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function onlyPayloadSize
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for unFrozenAccount
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for unFrozenAccount
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | State variable assignement do not exist
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function unFrozenAccount
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for onlyOwner
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for onlyOwner
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | State variable assignement do not exist
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function onlyOwner
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for balanceOf
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for balanceOf
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | State variable assignement do not exist
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function balanceOf
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for transfer
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for transfer
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | State variable assignement do not exist
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function transfer
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for allowance
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for allowance
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | State variable assignement do not exist
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function allowance
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for transferFrom
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for transferFrom
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | State variable assignement do not exist
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function transferFrom
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for approve
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for approve
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | State variable assignement do not exist
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function approve
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for balanceOf
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for balanceOf
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | State variable assignement do not exist
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function balanceOf
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for accountFrozenStatus
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for accountFrozenStatus
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | State variable assignement do not exist
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function accountFrozenStatus
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for liquidityStatus
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for liquidityStatus
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | State variable assignement do not exist
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function liquidityStatus
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for allowance
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for allowance
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | State variable assignement do not exist
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function allowance
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for slitherConstructorVariables
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for slitherConstructorVariables
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Range graph generated
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function slitherConstructorVariables
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for unFrozenAccount
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for unFrozenAccount
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | State variable assignement do not exist
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function unFrozenAccount
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for onlyPayloadSize
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for onlyPayloadSize
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | State variable assignement do not exist
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function onlyPayloadSize
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for onlyTransferable
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for onlyTransferable
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | State variable assignement do not exist
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function onlyTransferable
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for onlyOwner
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for onlyOwner
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | State variable assignement do not exist
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function onlyOwner
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for balanceOf
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for balanceOf
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | State variable assignement do not exist
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function balanceOf
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for transfer
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for transfer
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | State variable assignement do not exist
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function transfer
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for allowance
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for allowance
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | State variable assignement do not exist
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function allowance
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for transferFrom
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for transferFrom
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | State variable assignement do not exist
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function transferFrom
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for approve
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for approve
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | State variable assignement do not exist
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function approve
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for balanceOf
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for balanceOf
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | State variable assignement do not exist
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function balanceOf
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for accountFrozenStatus
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for accountFrozenStatus
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | State variable assignement do not exist
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function accountFrozenStatus
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for liquidityStatus
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for liquidityStatus
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | State variable assignement do not exist
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function liquidityStatus
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for allowance
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for allowance
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | State variable assignement do not exist
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function allowance
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for UBSexToken
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for UBSexToken
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Range graph generated
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function UBSexToken
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for fallback
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for fallback
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | State variable assignement do not exist
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function fallback
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for slitherConstructorVariables
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for slitherConstructorVariables
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Range graph generated
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function slitherConstructorVariables
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for onlyTransferable
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for onlyTransferable
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | State variable assignement do not exist
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function onlyTransferable
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for unFrozenAccount
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for unFrozenAccount
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | State variable assignement do not exist
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function unFrozenAccount
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for onlyPayloadSize
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for onlyPayloadSize
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | State variable assignement do not exist
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function onlyPayloadSize
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for onlyOwner
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for onlyOwner
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | State variable assignement do not exist
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function onlyOwner
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for mul
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for mul
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | State variable assignement do not exist
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function mul
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for sub
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for sub
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | State variable assignement do not exist
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function sub
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for add
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for add
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | State variable assignement do not exist
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function add
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for freezeAccount
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for freezeAccount
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Range graph generated
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function freezeAccount
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for transferOwnership
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for transferOwnership
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Range graph generated
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function transferOwnership
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for switchLiquidity
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for switchLiquidity
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Range graph generated
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function switchLiquidity
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for approve
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for approve
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Range graph generated
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function approve
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for freezeAccount
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for freezeAccount
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Range graph generated
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function freezeAccount
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for transferOwnership
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for transferOwnership
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Range graph generated
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function transferOwnership
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for switchLiquidity
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for switchLiquidity
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Range graph generated
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function switchLiquidity
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for approve
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for approve
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Range graph generated
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function approve
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for freezeAccount
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for freezeAccount
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Range graph generated
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function freezeAccount
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for transferOwnership
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for transferOwnership
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Range graph generated
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function transferOwnership
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for switchLiquidity
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for switchLiquidity
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Range graph generated
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function switchLiquidity
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for transfer
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for transfer
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Range graph generated
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function transfer
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for transfer
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for transfer
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Range graph generated
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function transfer
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for transferFrom
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for transferFrom
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Range graph generated
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function transferFrom
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for transfer
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for transfer
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Range graph generated
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function transfer
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Generating return summary for transferFrom
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Return summary generated for transferFrom
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Range graph generated
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Processed function transferFrom
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Value Range Analysis took 0.022122 seconds
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Value Range Analysis finished
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Storage dependency graph compostion started!
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Storage dependency graph compostion finished!
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Dependency detection started!
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Dependency detection finished!
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Static Analysis took 1.257324 seconds
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Dependency does not exist
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Symbolic execution is not needed!
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Analysis finished!
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Analysis took 1.257512 seconds
+[INFO] | 2023-12-05 03:28:51 AM | analyzer.BAFCToken | Analysis finished at: 2023-12-05 03:28:51 AM
+
+[36m[#] SDG generation started for transfer[0m
+[36m[#] SDG generated for transfer[0m
+[36m[#] SDG generation started for allowance[0m
+[36m[#] SDG generated for allowance[0m
+[36m[#] SDG generation started for transferFrom[0m
+[36m[#] SDG generated for transferFrom[0m
+[36m[#] SDG generation started for approve[0m
+[36m[#] SDG generated for approve[0m
+[36m[#] SDG generation started for balanceOf[0m
+[36m[#] SDG generated for balanceOf[0m
+[36m[#] SDG generation started for transfer[0m
+[36m[#] SDG generated for transfer[0m
+[36m[#] SDG generation started for allowance[0m
+[36m[#] SDG generated for allowance[0m
+[36m[#] SDG generation started for transferFrom[0m
+[36m[#] SDG generated for transferFrom[0m
+[36m[#] SDG generation started for approve[0m
+[36m[#] SDG generated for approve[0m
+[36m[#] SDG generation started for transfer[0m
+[36m[#] SDG generated for transfer[0m
+[36m[#] SDG generation started for balanceOf[0m
+[36m[#] SDG generated for balanceOf[0m
+[36m[#] SDG generation started for freezeAccount[0m
+[36m[#] SDG generated for freezeAccount[0m
+[36m[#] SDG generation started for accountFrozenStatus[0m
+[36m[#] SDG generated for accountFrozenStatus[0m
+[36m[#] SDG generation started for transferOwnership[0m
+[36m[#] SDG generated for transferOwnership[0m
+[36m[#] SDG generation started for switchLiquidity[0m
+[36m[#] SDG generated for switchLiquidity[0m
+[36m[#] SDG generation started for liquidityStatus[0m
+[36m[#] SDG generated for liquidityStatus[0m
+[36m[#] SDG generation started for modifier onlyPayloadSize[0m
+[36m[#] SDG generated for modifier onlyPayloadSize[0m
+[36m[#] SDG generation started for modifier unFrozenAccount[0m
+[36m[#] SDG generated for modifier unFrozenAccount[0m
+[36m[#] SDG generation started for modifier onlyOwner[0m
+[36m[#] SDG generated for modifier onlyOwner[0m
+[36m[#] SDG generation started for modifier onlyTransferable[0m
+[36m[#] SDG generated for modifier onlyTransferable[0m
+[36m[#] SDG generation started for balanceOf[0m
+[36m[#] SDG generated for balanceOf[0m
+[36m[#] SDG generation started for transfer[0m
+[36m[#] SDG generated for transfer[0m
+[36m[#] SDG generation started for allowance[0m
+[36m[#] SDG generated for allowance[0m
+[36m[#] SDG generation started for transferFrom[0m
+[36m[#] SDG generated for transferFrom[0m
+[36m[#] SDG generation started for approve[0m
+[36m[#] SDG generated for approve[0m
+[36m[#] SDG generation started for transfer[0m
+[36m[#] SDG generated for transfer[0m
+[36m[#] SDG generation started for balanceOf[0m
+[36m[#] SDG generated for balanceOf[0m
+[36m[#] SDG generation started for freezeAccount[0m
+[36m[#] SDG generated for freezeAccount[0m
+[36m[#] SDG generation started for accountFrozenStatus[0m
+[36m[#] SDG generated for accountFrozenStatus[0m
+[36m[#] SDG generation started for transferOwnership[0m
+[36m[#] SDG generated for transferOwnership[0m
+[36m[#] SDG generation started for switchLiquidity[0m
+[36m[#] SDG generated for switchLiquidity[0m
+[36m[#] SDG generation started for liquidityStatus[0m
+[36m[#] SDG generated for liquidityStatus[0m
+[36m[#] SDG generation started for transferFrom[0m
+[36m[#] SDG generated for transferFrom[0m
+[36m[#] SDG generation started for approve[0m
+[36m[#] SDG generated for approve[0m
+[36m[#] SDG generation started for allowance[0m
+[36m[#] SDG generated for allowance[0m
+[36m[#] SDG generation started for modifier onlyPayloadSize[0m
+[36m[#] SDG generated for modifier onlyPayloadSize[0m
+[36m[#] SDG generation started for modifier unFrozenAccount[0m
+[36m[#] SDG generated for modifier unFrozenAccount[0m
+[36m[#] SDG generation started for modifier onlyOwner[0m
+[36m[#] SDG generated for modifier onlyOwner[0m
+[36m[#] SDG generation started for modifier onlyTransferable[0m
+[36m[#] SDG generated for modifier onlyTransferable[0m
+[36m[#] SDG generation started for balanceOf[0m
+[36m[#] SDG generated for balanceOf[0m
+[36m[#] SDG generation started for transfer[0m
+[36m[#] SDG generated for transfer[0m
+[36m[#] SDG generation started for allowance[0m
+[36m[#] SDG generated for allowance[0m
+[36m[#] SDG generation started for transferFrom[0m
+[36m[#] SDG generated for transferFrom[0m
+[36m[#] SDG generation started for approve[0m
+[36m[#] SDG generated for approve[0m
+[36m[#] SDG generation started for transfer[0m
+[36m[#] SDG generated for transfer[0m
+[36m[#] SDG generation started for balanceOf[0m
+[36m[#] SDG generated for balanceOf[0m
+[36m[#] SDG generation started for freezeAccount[0m
+[36m[#] SDG generated for freezeAccount[0m
+[36m[#] SDG generation started for accountFrozenStatus[0m
+[36m[#] SDG generated for accountFrozenStatus[0m
+[36m[#] SDG generation started for transferOwnership[0m
+[36m[#] SDG generated for transferOwnership[0m
+[36m[#] SDG generation started for switchLiquidity[0m
+[36m[#] SDG generated for switchLiquidity[0m
+[36m[#] SDG generation started for liquidityStatus[0m
+[36m[#] SDG generated for liquidityStatus[0m
+[36m[#] SDG generation started for transferFrom[0m
+[36m[#] SDG generated for transferFrom[0m
+[36m[#] SDG generation started for approve[0m
+[36m[#] SDG generated for approve[0m
+[36m[#] SDG generation started for allowance[0m
+[36m[#] SDG generated for allowance[0m
+[36m[#] SDG generation started for UBSexToken[0m
+[36m[#] SDG generated for UBSexToken[0m
+[36m[#] SDG generation started for fallback[0m
+[36m[#] SDG generated for fallback[0m
+[36m[#] SDG generation started for modifier onlyPayloadSize[0m
+[36m[#] SDG generated for modifier onlyPayloadSize[0m
+[36m[#] SDG generation started for modifier unFrozenAccount[0m
+[36m[#] SDG generated for modifier unFrozenAccount[0m
+[36m[#] SDG generation started for modifier onlyOwner[0m
+[36m[#] SDG generated for modifier onlyOwner[0m
+[36m[#] SDG generation started for modifier onlyTransferable[0m
+[36m[#] SDG generated for modifier onlyTransferable[0m
+[36m[#] Analysis took 1.257512 seconds[0m
+[36m[#] Analysis completed: BAFCToken.sol [0m
+c5a49c8a793053d0a7f41abe1555f96b422d68e44598213841e9b84b64143a7f

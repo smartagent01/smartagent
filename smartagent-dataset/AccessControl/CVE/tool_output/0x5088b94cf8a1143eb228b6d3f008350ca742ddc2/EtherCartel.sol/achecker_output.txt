@@ -1,0 +1,31 @@
+File copied : /root/Achecker/EtherCartel.bin-runtime
+processing /root/Achecker/EtherCartel.bin-runtime
+Traceback (most recent call last):
+  File "bin/achecker.py", line 423, in <module>
+    main()
+  File "bin/achecker.py", line 419, in main
+    analysis(p, initial_storage, sym_validation =symbolic_validation, mode=mode)
+  File "bin/achecker.py", line 89, in analysis
+    ssa = rattle.Recover(bytes.hex(p.code).encode(), edges=p.cfg.edges(), split_functions=False)
+  File "/root/Achecker/src/project.py", line 49, in cfg
+    self._cfg = CFG(generate_BBs(self.code))
+  File "/root/Achecker/src/cfg/cfg.py", line 22, in __init__
+    self._xrefs(fix_only_easy_xrefs)
+  File "/root/Achecker/src/cfg/cfg.py", line 46, in _xrefs
+    self._hard_xrefs()            
+  File "/root/Achecker/src/cfg/cfg.py", line 64, in _hard_xrefs
+    succ_addrs, new_succ_addrs = pred.get_succ_addrs_full(self.valid_jump_targets)
+  File "/root/Achecker/src/cfg/bb.py", line 136, in get_succ_addrs_full
+    bs = backward_slice(self.ins[-1], [0], must_visits=self.must_visit)            
+  File "/root/Achecker/src/slicing.py", line 157, in backward_slice
+    slices = [r.backward_slice[::-1] for r in
+  File "/root/Achecker/src/slicing.py", line 157, in <listcomp>
+    slices = [r.backward_slice[::-1] for r in
+  File "/root/Achecker/src/explorer/backward.py", line 130, in traverse_back
+    new_todo = generate_sucessors(state, new_data, update_data, predicate=predicate)
+  File "/root/Achecker/src/explorer/backward.py", line 66, in generate_sucessors
+    new_must_visit.add(b, a)
+  File "/root/Achecker/src/util/frontierset.py", line 56, in add
+    self._edges.add((a, b))
+MemoryError
+f2f23f935e5f3caff3ca4838c3f66b084b927e08d123731ade21c1a6d28e50a8

@@ -1,0 +1,213 @@
+{
+  "/smart-agent/smartagent-dataset/AccessControl/CVE/0x9ab4FD2234D75CfA894C394b367e48055b531e56/RobotBTC.sol": [
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Owned.owned",
+      "info": "owned",
+      "loc": [
+        6,
+        4,
+        8,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Owned.transferOwnership",
+      "info": "transferOwnership",
+      "loc": [
+        15,
+        4,
+        17,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: tokenRecipient.receiveApproval",
+      "info": "receiveApproval",
+      "loc": [
+        20,
+        27,
+        20,
+        123
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: TokenERC20.__constructor__",
+      "info": "__constructor__",
+      "loc": [
+        45,
+        4,
+        54,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: TokenERC20._transfer",
+      "info": "_transfer",
+      "loc": [
+        59,
+        4,
+        75,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: TokenERC20.transfer",
+      "info": "transfer",
+      "loc": [
+        85,
+        4,
+        87,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: TokenERC20.transferFrom",
+      "info": "transferFrom",
+      "loc": [
+        98,
+        4,
+        103,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: TokenERC20.approve",
+      "info": "approve",
+      "loc": [
+        113,
+        4,
+        117,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: TokenERC20.approveAndCall",
+      "info": "approveAndCall",
+      "loc": [
+        128,
+        4,
+        134,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: TokenERC20.burn",
+      "info": "burn",
+      "loc": [
+        143,
+        4,
+        149,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: TokenERC20.burnFrom",
+      "info": "burnFrom",
+      "loc": [
+        159,
+        4,
+        167,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: RobotBTC.__constructor__",
+      "info": "__constructor__",
+      "loc": [
+        186,
+        4,
+        192,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: RobotBTC._transfer",
+      "info": "_transfer",
+      "loc": [
+        195,
+        4,
+        204,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: RobotBTC.mintToken",
+      "info": "mintToken",
+      "loc": [
+        209,
+        4,
+        214,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: RobotBTC.freezeAccount",
+      "info": "freezeAccount",
+      "loc": [
+        219,
+        4,
+        222,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: RobotBTC.setPrices",
+      "info": "setPrices",
+      "loc": [
+        227,
+        4,
+        230,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: RobotBTC.buy",
+      "info": "buy",
+      "loc": [
+        233,
+        4,
+        237,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: RobotBTC.sell",
+      "info": "sell",
+      "loc": [
+        241,
+        4,
+        246,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: RobotBTC.setExchange",
+      "info": "setExchange",
+      "loc": [
+        248,
+        4,
+        250,
+        4
+      ]
+    }
+  ]
+}

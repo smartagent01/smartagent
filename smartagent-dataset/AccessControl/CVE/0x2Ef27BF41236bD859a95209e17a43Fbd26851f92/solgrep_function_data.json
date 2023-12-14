@@ -1,0 +1,169 @@
+{
+  "/smart-agent/smartagent-dataset/AccessControl/CVE/0x2Ef27BF41236bD859a95209e17a43Fbd26851f92/MorphToken.sol": [
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Owned.owned",
+      "info": "owned",
+      "loc": [
+        12,
+        8,
+        14,
+        8
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Owned.transferOwnership",
+      "info": "transferOwnership",
+      "loc": [
+        25,
+        8,
+        27,
+        8
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.__constructor__",
+      "info": "__constructor__",
+      "loc": [
+        59,
+        2,
+        64,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.transfer",
+      "info": "transfer",
+      "loc": [
+        70,
+        1,
+        83,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.transferFrom",
+      "info": "transferFrom",
+      "loc": [
+        92,
+        4,
+        110,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.approve",
+      "info": "approve",
+      "loc": [
+        117,
+        5,
+        121,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.allowance",
+      "info": "allowance",
+      "loc": [
+        128,
+        4,
+        130,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.mul",
+      "info": "mul",
+      "loc": [
+        139,
+        2,
+        146,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.div",
+      "info": "div",
+      "loc": [
+        148,
+        2,
+        153,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.sub",
+      "info": "sub",
+      "loc": [
+        155,
+        2,
+        158,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.add",
+      "info": "add",
+      "loc": [
+        160,
+        2,
+        164,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MorphToken.__constructor__",
+      "info": "__constructor__",
+      "loc": [
+        182,
+        1,
+        187,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MorphToken.blacklistAccount",
+      "info": "blacklistAccount",
+      "loc": [
+        195,
+        4,
+        197,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MorphToken.mintTokens",
+      "info": "mintTokens",
+      "loc": [
+        204,
+        4,
+        208,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MorphToken.burn",
+      "info": "burn",
+      "loc": [
+        214,
+        4,
+        222,
+        2
+      ]
+    }
+  ]
+}

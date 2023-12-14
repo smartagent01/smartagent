@@ -1,0 +1,399 @@
+METRICS: Using configs from the Registry (like --config=p/ci) reports pseudonymous rule metrics to semgrep.dev.
+To disable Registry rule metrics, use "--metrics=off".
+Using configs only from local files (like --config=xyz.yml) does not enable metrics.
+
+More information: https://semgrep.dev/docs/metrics
+
+               
+               
+┌─────────────┐
+│ Scan Status │
+└─────────────┘
+  Scanning 1 file tracked by git with 48 Code rules:
+  Scanning 1 file with 48 solidity rules.
+                     
+                     
+┌───────────────────┐
+│ 106 Code Findings │
+└───────────────────┘
+                                                       
+    /sb/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol 
+       solidity.best-practice.use-ownable2step                                  
+          By demanding that the receiver of the owner permissions actively      
+  accept via a contract call                                                    
+          of its own,  `Ownable2Step` and `Ownable2StepUpgradeable` prevent the 
+  contract ownership                                                            
+          from accidentally being transferred  to an address that cannot handle 
+  it.                                                                           
+                                                                                
+         1291┆ contract landNFT is  Ownable, ERC721A, ReentrancyGuard,Pausable{
+            ⋮┆----------------------------------------
+       solidity.performance.init-variables-with-default-value                   
+          Uninitialized variables are assigned with the types default value.    
+  Explicitly initializing a                                                     
+          variable with its default value costs unnecessary gas.                
+                                                                                
+          750┆ uint256 private currentIndex = 0;
+            ⋮┆----------------------------------------
+         1187┆ uint256 public nextOwnerToExplicitlySet = 0;
+            ⋮┆----------------------------------------
+       solidity.performance.non-payable-constructor      
+          Consider making costructor payable to save gas.
+                                                         
+          783┆ constructor(
+          784┆   string memory name_,
+          785┆   string memory symbol_,
+          786┆   uint256 maxBatchSize_,
+          787┆   uint256 collectionSize_
+          788┆ ) {
+          789┆   require(
+          790┆     collectionSize_ > 0,
+          791┆     "ERC721A: collection must have a nonzero supply"
+          792┆   );
+             [hid 6 additional lines, adjust with --max-lines-per-finding] 
+         1328┆ constructor() ERC721A("land", "land",200,1000) {
+         1329┆     _baseURIextended="https://goldseed-dao.com/NFTIMG/";
+         1330┆     extension = ".png";
+         1331┆     miner[msg.sender]=true;
+         1332┆     consumption["2"].consumedGSD=50*10**18;
+         1333┆     consumption["2"].consumedLFT=5000*10**18;
+         1334┆     consumption["2"].consumedsoil=2;
+         1335┆     consumption["3"].consumedGSD=100*10**18;
+         1336┆     consumption["3"].consumedLFT=10000*10**18;
+         1337┆     consumption["3"].consumedsoil=4;
+             [hid 7 additional lines, adjust with --max-lines-per-finding] 
+       solidity.performance.state-variable-read-in-a-loop                       
+          Replace state variable reads and writes within loops with local       
+  variable reads and writes.                                                    
+                                                                                
+          831┆ TokenOwnership memory ownership = _ownerships[i];
+            ⋮┆----------------------------------------
+          901┆ TokenOwnership memory ownership = _ownerships[curr];
+            ⋮┆----------------------------------------
+         1096┆ tokenTraits[updatedIndex].level=1;
+            ⋮┆----------------------------------------
+         1097┆ _balanceOfLevel[to][1]+=1;
+            ⋮┆----------------------------------------
+         1098┆ _totalSupplyOfLevel[1]+=1;
+            ⋮┆----------------------------------------
+         1202┆ if (_ownerships[i].addr == address(0)) {
+            ⋮┆----------------------------------------
+         1204┆ _ownerships[i] = TokenOwnership(
+            ⋮┆----------------------------------------
+       solidity.performance.unnecessary-checked-arithmetic-in-loop              
+          A lot of times there is no risk that the loop counter can overflow.   
+  Using Solidity's                                                              
+          unchecked block saves the overflow checks.                            
+                                                                                
+          830┆ for (uint256 i = 0; i < numMintedSoFar; i++) {
+            ⋮┆----------------------------------------
+         1095┆ for (uint256 i = 0; i < quantity; i++) {
+            ⋮┆----------------------------------------
+         1201┆ for (uint256 i = oldNextOwnerToSet; i <= endIndex; i++) {
+            ⋮┆----------------------------------------
+       solidity.performance.use-custom-error-not-require                        
+          Consider using custom errors as they are more gas efficient while     
+  allowing developers  to                                                       
+          describe the error in detail using NatSpec.                           
+                                                                                
+            8┆ require(c >= a, "SafeMath: addition overflow");
+            ⋮┆----------------------------------------
+           27┆ require(c / a == b, "SafeMath: multiplication overflow");
+            ⋮┆----------------------------------------
+          176┆ require(address(this).balance >= amount, "Address: insufficient  
+  balance");                                                                    
+            ⋮┆----------------------------------------
+          179┆ require(success, "Address: unable to send value, recipient may   
+  have reverted");                                                              
+            ⋮┆----------------------------------------
+          211┆ require(address(this).balance >= value, "Address: insufficient   
+  balance for call");                                                           
+            ⋮┆----------------------------------------
+          212┆ require(isContract(target), "Address: call to non-contract");
+            ⋮┆----------------------------------------
+          229┆ require(isContract(target), "Address: static call to             
+  non-contract");                                                               
+            ⋮┆----------------------------------------
+          246┆ require(isContract(target), "Address: delegate call to           
+  non-contract");                                                               
+            ⋮┆----------------------------------------
+          344┆ require(value == 0, "Strings: hex length insufficient");
+            ⋮┆----------------------------------------
+          389┆ require(owner() == _msgSender(), "Ownable: caller is not the     
+  owner");                                                                      
+            ⋮┆----------------------------------------
+          409┆ require(newOwner != address(0), "Ownable: new owner is the zero  
+  address");                                                                    
+            ⋮┆----------------------------------------
+          508┆ require(!paused(), "Pausable: paused");
+            ⋮┆----------------------------------------
+          520┆ require(paused(), "Pausable: not paused");
+            ⋮┆----------------------------------------
+          691┆ require(_status != _ENTERED, "ReentrancyGuard: reentrant call");
+            ⋮┆----------------------------------------
+          789┆ require(
+          790┆   collectionSize_ > 0,
+          791┆   "ERC721A: collection must have a nonzero supply"
+          792┆ );
+            ⋮┆----------------------------------------
+          793┆ require(maxBatchSize_ > 0, "ERC721A: max batch size must be      
+  nonzero");                                                                    
+            ⋮┆----------------------------------------
+          811┆ require(index < totalSupply(), "ERC721A: global index out of     
+  bounds");                                                                     
+            ⋮┆----------------------------------------
+          826┆ require(index < balanceOf(owner), "ERC721A: owner index out of   
+  bounds");                                                                     
+            ⋮┆----------------------------------------
+          842┆ revert("ERC721A: unable to get token of owner by index");
+            ⋮┆----------------------------------------
+          876┆ require(owner != address(0), "ERC721A: balance query for the zero
+  address");                                                                    
+            ⋮┆----------------------------------------
+          881┆ require(
+          882┆   owner != address(0),
+          883┆   "ERC721A: number minted query for the zero address"
+          884┆ );
+            ⋮┆----------------------------------------
+          893┆ require(_exists(tokenId), "ERC721A: owner query for nonexistent  
+  token");                                                                      
+            ⋮┆----------------------------------------
+          907┆ revert("ERC721A: unable to determine the owner of token");
+            ⋮┆----------------------------------------
+          941┆ require(
+          942┆   _exists(tokenId),
+          943┆   "ERC721Metadata: URI query for nonexistent token"
+          944┆ );
+            ⋮┆----------------------------------------
+          967┆ require(to != owner, "ERC721A: approval to current owner");
+            ⋮┆----------------------------------------
+          969┆ require(
+          970┆   _msgSender() == owner || isApprovedForAll(owner, _msgSender()),
+          971┆   "ERC721A: approve caller is not owner nor approved for all"
+          972┆ );
+            ⋮┆----------------------------------------
+          981┆ require(_exists(tokenId), "ERC721A: approved query for           
+  nonexistent token");                                                          
+            ⋮┆----------------------------------------
+          990┆ require(operator != _msgSender(), "ERC721A: approve to caller");
+            ⋮┆----------------------------------------
+         1041┆ require(
+         1042┆   _checkOnERC721Received(from, to, tokenId, _data),
+                
+                
+┌──────────────┐
+│ Scan Summary │
+└──────────────┘
+
+Ran 48 rules on 1 file: 106 findings.
+         1043┆   "ERC721A: transfer to non ERC721Receiver implementer"
+         1044┆ );
+            ⋮┆----------------------------------------
+         1079┆ require(to != address(0), "ERC721A: mint to the zero address");
+            ⋮┆----------------------------------------
+         1081┆ require(!_exists(startTokenId), "ERC721A: token already minted");
+            ⋮┆----------------------------------------
+         1082┆ require(quantity <= maxBatchSize, "ERC721A: quantity to mint too 
+  high");                                                                       
+            ⋮┆----------------------------------------
+         1100┆ require(
+         1101┆   _checkOnERC721Received(address(0), to, updatedIndex, _data),
+         1102┆   "ERC721A: transfer to non ERC721Receiver implementer"
+         1103┆ );
+            ⋮┆----------------------------------------
+         1132┆ require(
+         1133┆   isApprovedOrOwner,
+         1134┆   "ERC721A: transfer caller is not owner nor approved"
+         1135┆ );
+            ⋮┆----------------------------------------
+         1137┆ require(
+         1138┆   prevOwnership.addr == from,
+         1139┆   "ERC721A: transfer from incorrect owner"
+         1140┆ );
+            ⋮┆----------------------------------------
+         1141┆ require(to != address(0), "ERC721A: transfer to the zero         
+  address");                                                                    
+            ⋮┆----------------------------------------
+         1194┆ require(quantity > 0, "quantity must be nonzero");
+            ⋮┆----------------------------------------
+         1200┆ require(_exists(endIndex), "not enough minted yet for this       
+  cleanup");                                                                    
+            ⋮┆----------------------------------------
+         1236┆ revert("ERC721A: transfer to non ERC721Receiver implementer");
+            ⋮┆----------------------------------------
+         1347┆ require(miner[msg.sender]==true, "Ownable: caller is not the     
+  miner");                                                                      
+            ⋮┆----------------------------------------
+         1373┆ require(_exists(tokenId), "ERC721Metadata: URI query for         
+  nonexistent token");                                                          
+            ⋮┆----------------------------------------
+         1474┆ require(msg.sender == tx.origin,"Address: The address cannot be a
+  contract");                                                                   
+            ⋮┆----------------------------------------
+         1475┆ require(_exists(_tokenId), "ERC721Metadata: URI query for        
+  nonexistent token");                                                          
+            ⋮┆----------------------------------------
+         1476┆ require(ownerOf(_tokenId)==msg.sender,"ERC721: transfer of token 
+  that is not own");                                                            
+            ⋮┆----------------------------------------
+         1477┆ require(tokenTraits[_tokenId].level<5,"Already the highest level 
+  of land");                                                                    
+            ⋮┆----------------------------------------
+         1594┆ require(_tokenId.add(amount)<=MAX_SUPPLY,"MAX_SUPPLY err");
+            ⋮┆----------------------------------------
+         1613┆ require(_exists(_tokenId), "ERC721Metadata: URI query for        
+  nonexistent token");                                                          
+            ⋮┆----------------------------------------
+       solidity.performance.use-prefix-decrement-not-postfix                    
+          Consider using the prefix decrement expression whenever the return    
+  value is not needed. The                                                      
+          prefix decrement expression is cheaper in terms of gas.               
+                                                                                
+          900┆ for (uint256 curr = tokenId; curr >= lowestTokenToCheck; curr--) 
+  {                                                                             
+            ⋮┆----------------------------------------
+       solidity.performance.use-prefix-increment-not-postfix                    
+          Consider using the prefix increment expression whenever the return    
+  value is not needed. The                                                      
+          prefix increment expression is cheaper in terms of gas.               
+                                                                                
+          309┆ digits++;
+            ⋮┆----------------------------------------
+          329┆ length++;
+            ⋮┆----------------------------------------
+          830┆ for (uint256 i = 0; i < numMintedSoFar; i++) {
+            ⋮┆----------------------------------------
+          839┆ tokenIdsIdx++;
+            ⋮┆----------------------------------------
+         1095┆ for (uint256 i = 0; i < quantity; i++) {
+            ⋮┆----------------------------------------
+         1104┆ updatedIndex++;
+            ⋮┆----------------------------------------
+         1201┆ for (uint256 i = oldNextOwnerToSet; i <= endIndex; i++) {
+            ⋮┆----------------------------------------
+       solidity.performance.use-short-revert-string                             
+          Shortening revert strings to fit in 32 bytes will decrease gas costs  
+  for deployment and  gas                                                       
+          costs when the revert condition has been met.                         
+                                                                                
+           27┆ require(c / a == b, "SafeMath: multiplication overflow");
+            ⋮┆----------------------------------------
+          179┆ require(success, "Address: unable to send value, recipient may   
+  have reverted");                                                              
+            ⋮┆----------------------------------------
+          211┆ require(address(this).balance >= value, "Address: insufficient   
+  balance for call");                                                           
+            ⋮┆----------------------------------------
+          229┆ require(isContract(target), "Address: static call to             
+  non-contract");                                                               
+            ⋮┆----------------------------------------
+          246┆ require(isContract(target), "Address: delegate call to           
+  non-contract");                                                               
+            ⋮┆----------------------------------------
+          409┆ require(newOwner != address(0), "Ownable: new owner is the zero  
+  address");                                                                    
+            ⋮┆----------------------------------------
+          789┆ require(
+          790┆   collectionSize_ > 0,
+          791┆   "ERC721A: collection must have a nonzero supply"
+          792┆ );
+            ⋮┆----------------------------------------
+          793┆ require(maxBatchSize_ > 0, "ERC721A: max batch size must be      
+  nonzero");                                                                    
+            ⋮┆----------------------------------------
+          811┆ require(index < totalSupply(), "ERC721A: global index out of     
+  bounds");                                                                     
+            ⋮┆----------------------------------------
+          826┆ require(index < balanceOf(owner), "ERC721A: owner index out of   
+  bounds");                                                                     
+            ⋮┆----------------------------------------
+          842┆ revert("ERC721A: unable to get token of owner by index");
+            ⋮┆----------------------------------------
+          876┆ require(owner != address(0), "ERC721A: balance query for the zero
+  address");                                                                    
+            ⋮┆----------------------------------------
+          881┆ require(
+          882┆   owner != address(0),
+          883┆   "ERC721A: number minted query for the zero address"
+          884┆ );
+            ⋮┆----------------------------------------
+          893┆ require(_exists(tokenId), "ERC721A: owner query for nonexistent  
+  token");                                                                      
+            ⋮┆----------------------------------------
+          907┆ revert("ERC721A: unable to determine the owner of token");
+            ⋮┆----------------------------------------
+          941┆ require(
+          942┆   _exists(tokenId),
+          943┆   "ERC721Metadata: URI query for nonexistent token"
+          944┆ );
+            ⋮┆----------------------------------------
+          967┆ require(to != owner, "ERC721A: approval to current owner");
+            ⋮┆----------------------------------------
+          969┆ require(
+          970┆   _msgSender() == owner || isApprovedForAll(owner, _msgSender()),
+          971┆   "ERC721A: approve caller is not owner nor approved for all"
+          972┆ );
+            ⋮┆----------------------------------------
+          981┆ require(_exists(tokenId), "ERC721A: approved query for           
+  nonexistent token");                                                          
+            ⋮┆----------------------------------------
+         1041┆ require(
+         1042┆   _checkOnERC721Received(from, to, tokenId, _data),
+         1043┆   "ERC721A: transfer to non ERC721Receiver implementer"
+         1044┆ );
+            ⋮┆----------------------------------------
+         1079┆ require(to != address(0), "ERC721A: mint to the zero address");
+            ⋮┆----------------------------------------
+         1082┆ require(quantity <= maxBatchSize, "ERC721A: quantity to mint too 
+  high");                                                                       
+            ⋮┆----------------------------------------
+         1100┆ require(
+         1101┆   _checkOnERC721Received(address(0), to, updatedIndex, _data),
+         1102┆   "ERC721A: transfer to non ERC721Receiver implementer"
+         1103┆ );
+            ⋮┆----------------------------------------
+         1132┆ require(
+         1133┆   isApprovedOrOwner,
+         1134┆   "ERC721A: transfer caller is not owner nor approved"
+         1135┆ );
+            ⋮┆----------------------------------------
+         1137┆ require(
+         1138┆   prevOwnership.addr == from,
+         1139┆   "ERC721A: transfer from incorrect owner"
+         1140┆ );
+            ⋮┆----------------------------------------
+         1141┆ require(to != address(0), "ERC721A: transfer to the zero         
+  address");                                                                    
+            ⋮┆----------------------------------------
+         1200┆ require(_exists(endIndex), "not enough minted yet for this       
+  cleanup");                                                                    
+            ⋮┆----------------------------------------
+         1236┆ revert("ERC721A: transfer to non ERC721Receiver implementer");
+            ⋮┆----------------------------------------
+         1373┆ require(_exists(tokenId), "ERC721Metadata: URI query for         
+  nonexistent token");                                                          
+            ⋮┆----------------------------------------
+         1474┆ require(msg.sender == tx.origin,"Address: The address cannot be a
+  contract");                                                                   
+            ⋮┆----------------------------------------
+         1475┆ require(_exists(_tokenId), "ERC721Metadata: URI query for        
+  nonexistent token");                                                          
+            ⋮┆----------------------------------------
+         1476┆ require(ownerOf(_tokenId)==msg.sender,"ERC721: transfer of token 
+  that is not own");                                                            
+            ⋮┆----------------------------------------
+         1477┆ require(tokenTraits[_tokenId].level<5,"Already the highest level 
+  of land");                                                                    
+            ⋮┆----------------------------------------
+         1613┆ require(_exists(_tokenId), "ERC721Metadata: URI query for        
+  nonexistent token");                                                          
+            ⋮┆----------------------------------------
+       solidity.security.erc721-reentrancy    
+          ERC721 onERC721Received() reentrancy
+                                              
+         1042┆ _checkOnERC721Received(from, to, tokenId, _data),
+            ⋮┆----------------------------------------
+         1101┆ _checkOnERC721Received(address(0), to, updatedIndex, _data),
+
+
+A new version of Semgrep is available. See https://semgrep.dev/docs/upgrading

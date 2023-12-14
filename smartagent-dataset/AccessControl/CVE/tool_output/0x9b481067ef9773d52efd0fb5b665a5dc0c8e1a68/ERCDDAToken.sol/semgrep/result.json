@@ -1,0 +1,96 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9b481067ef9773d52efd0fb5b665a5dc0c8e1a68/ERCDDAToken.sol",
+            "line": 67,
+            "message": "<x> += <y> costs more gas than <x> = <x> + <y> for state variables.",
+            "name": "inefficient-state-variable-increment"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9b481067ef9773d52efd0fb5b665a5dc0c8e1a68/ERCDDAToken.sol",
+            "line": 6,
+            "message": "Uninitialized variables are assigned with the types default value. Explicitly initializing a variable with its default value costs unnecessary gas.",
+            "name": "init-variables-with-default-value"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9b481067ef9773d52efd0fb5b665a5dc0c8e1a68/ERCDDAToken.sol",
+            "line": 24,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9b481067ef9773d52efd0fb5b665a5dc0c8e1a68/ERCDDAToken.sol",
+            "line": 25,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9b481067ef9773d52efd0fb5b665a5dc0c8e1a68/ERCDDAToken.sol",
+            "line": 26,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9b481067ef9773d52efd0fb5b665a5dc0c8e1a68/ERCDDAToken.sol",
+            "line": 27,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9b481067ef9773d52efd0fb5b665a5dc0c8e1a68/ERCDDAToken.sol",
+            "line": 28,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9b481067ef9773d52efd0fb5b665a5dc0c8e1a68/ERCDDAToken.sol",
+            "line": 29,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9b481067ef9773d52efd0fb5b665a5dc0c8e1a68/ERCDDAToken.sol",
+            "line": 30,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9b481067ef9773d52efd0fb5b665a5dc0c8e1a68/ERCDDAToken.sol",
+            "line": 31,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9b481067ef9773d52efd0fb5b665a5dc0c8e1a68/ERCDDAToken.sol",
+            "line": 32,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9b481067ef9773d52efd0fb5b665a5dc0c8e1a68/ERCDDAToken.sol",
+            "line": 33,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "semgrep",
+        "mode": "solidity",
+        "version": "2023/08/21"
+    }
+}

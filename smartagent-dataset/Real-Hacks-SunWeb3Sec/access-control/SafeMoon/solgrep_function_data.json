@@ -1,0 +1,1676 @@
+{
+  "/smart-agent-artifact/smart-agent/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SafeMoon/0x8e7877FE58bc2A979692862DF9E84E1BF7EC94Ae.sol": [
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMathUpgradeable.tryAdd",
+      "info": "tryAdd",
+      "loc": [
+        15,
+        4,
+        19,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMathUpgradeable.trySub",
+      "info": "trySub",
+      "loc": [
+        26,
+        4,
+        29,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMathUpgradeable.tryMul",
+      "info": "tryMul",
+      "loc": [
+        36,
+        4,
+        44,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMathUpgradeable.tryDiv",
+      "info": "tryDiv",
+      "loc": [
+        51,
+        4,
+        54,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMathUpgradeable.tryMod",
+      "info": "tryMod",
+      "loc": [
+        61,
+        4,
+        64,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMathUpgradeable.add",
+      "info": "add",
+      "loc": [
+        76,
+        4,
+        80,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMathUpgradeable.sub",
+      "info": "sub",
+      "loc": [
+        92,
+        4,
+        95,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMathUpgradeable.mul",
+      "info": "mul",
+      "loc": [
+        107,
+        4,
+        112,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMathUpgradeable.div",
+      "info": "div",
+      "loc": [
+        126,
+        4,
+        129,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMathUpgradeable.mod",
+      "info": "mod",
+      "loc": [
+        143,
+        4,
+        146,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMathUpgradeable.sub",
+      "info": "sub",
+      "loc": [
+        161,
+        4,
+        168,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMathUpgradeable.div",
+      "info": "div",
+      "loc": [
+        185,
+        4,
+        192,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMathUpgradeable.mod",
+      "info": "mod",
+      "loc": [
+        209,
+        4,
+        216,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AddressUpgradeable.isContract",
+      "info": "isContract",
+      "loc": [
+        237,
+        4,
+        248,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AddressUpgradeable.sendValue",
+      "info": "sendValue",
+      "loc": [
+        266,
+        4,
+        272,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AddressUpgradeable.functionCall",
+      "info": "functionCall",
+      "loc": [
+        292,
+        4,
+        294,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AddressUpgradeable.functionCall",
+      "info": "functionCall",
+      "loc": [
+        302,
+        4,
+        308,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AddressUpgradeable.functionCallWithValue",
+      "info": "functionCallWithValue",
+      "loc": [
+        321,
+        4,
+        327,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AddressUpgradeable.functionCallWithValue",
+      "info": "functionCallWithValue",
+      "loc": [
+        335,
+        4,
+        347,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AddressUpgradeable.functionStaticCall",
+      "info": "functionStaticCall",
+      "loc": [
+        355,
+        4,
+        357,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AddressUpgradeable.functionStaticCall",
+      "info": "functionStaticCall",
+      "loc": [
+        365,
+        4,
+        375,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AddressUpgradeable._verifyCallResult",
+      "info": "_verifyCallResult",
+      "loc": [
+        377,
+        4,
+        398,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Initializable._isConstructor",
+      "info": "_isConstructor",
+      "loc": [
+        432,
+        4,
+        434,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ContextUpgradeable.__Context_init",
+      "info": "__Context_init",
+      "loc": [
+        438,
+        4,
+        440,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ContextUpgradeable.__Context_init_unchained",
+      "info": "__Context_init_unchained",
+      "loc": [
+        442,
+        4,
+        442,
+        62
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ContextUpgradeable._msgSender",
+      "info": "_msgSender",
+      "loc": [
+        444,
+        4,
+        446,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ContextUpgradeable._msgData",
+      "info": "_msgData",
+      "loc": [
+        448,
+        4,
+        451,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: OwnableUpgradeable.__Ownable_init",
+      "info": "__Ownable_init",
+      "loc": [
+        464,
+        4,
+        467,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: OwnableUpgradeable.__Ownable_init_unchained",
+      "info": "__Ownable_init_unchained",
+      "loc": [
+        469,
+        4,
+        473,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: OwnableUpgradeable.owner",
+      "info": "owner",
+      "loc": [
+        478,
+        4,
+        480,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: OwnableUpgradeable.renounceOwnership",
+      "info": "renounceOwnership",
+      "loc": [
+        497,
+        4,
+        500,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: OwnableUpgradeable.transferOwnership",
+      "info": "transferOwnership",
+      "loc": [
+        506,
+        4,
+        510,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ISafemoon.totalSupply",
+      "info": "totalSupply",
+      "loc": [
+        519,
+        4,
+        519,
+        58
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ISafemoon.balanceOf",
+      "info": "balanceOf",
+      "loc": [
+        524,
+        4,
+        524,
+        71
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ISafemoon.transfer",
+      "info": "transfer",
+      "loc": [
+        533,
+        4,
+        533,
+        80
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ISafemoon.allowance",
+      "info": "allowance",
+      "loc": [
+        542,
+        4,
+        542,
+        86
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ISafemoon.approve",
+      "info": "approve",
+      "loc": [
+        558,
+        4,
+        558,
+        77
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ISafemoon.transferFrom",
+      "info": "transferFrom",
+      "loc": [
+        569,
+        4,
+        573,
+        29
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ISafemoon.migrate",
+      "info": "migrate",
+      "loc": [
+        584,
+        4,
+        584,
+        62
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ISafemoon.isMigrationStarted",
+      "info": "isMigrationStarted",
+      "loc": [
+        586,
+        4,
+        586,
+        62
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Factory.createPair",
+      "info": "createPair",
+      "loc": [
+        606,
+        4,
+        610,
+        37
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Router01.factory",
+      "info": "factory",
+      "loc": [
+        614,
+        4,
+        614,
+        54
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Router01.routerTrade",
+      "info": "routerTrade",
+      "loc": [
+        616,
+        4,
+        616,
+        58
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Router01.WETH",
+      "info": "WETH",
+      "loc": [
+        618,
+        4,
+        618,
+        51
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Router01.addLiquidityETH",
+      "info": "addLiquidityETH",
+      "loc": [
+        620,
+        4,
+        634,
+        5
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ISafeSwapTradeRouter.setRouter",
+      "info": "setRouter",
+      "loc": [
+        650,
+        4,
+        650,
+        48
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ISafeSwapTradeRouter.setFeePercent",
+      "info": "setFeePercent",
+      "loc": [
+        652,
+        4,
+        652,
+        56
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ISafeSwapTradeRouter.sePercent",
+      "info": "sePercent",
+      "loc": [
+        654,
+        4,
+        654,
+        49
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ISafeSwapTradeRouter.addFfsWhitelist",
+      "info": "addFfsWhitelist",
+      "loc": [
+        656,
+        4,
+        656,
+        50
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ISafeSwapTradeRouter.removeFfsWhitelist",
+      "info": "removeFfsWhitelist",
+      "loc": [
+        658,
+        4,
+        658,
+        53
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ISafeSwapTradeRouter.setFeeJar",
+      "info": "setFeeJar",
+      "loc": [
+        660,
+        4,
+        660,
+        48
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ISafeSwapTradeRouter.swapExactTokensForETHAndFeeAmount",
+      "info": "swapExactTokensForETHAndFeeAmount",
+      "loc": [
+        662,
+        4,
+        662,
+        85
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ISafeSwapTradeRouter.swapTokensForExactETHAndFeeAmount",
+      "info": "swapTokensForExactETHAndFeeAmount",
+      "loc": [
+        664,
+        4,
+        664,
+        85
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ISafeSwapTradeRouter.swapExactETHForTokensWithFeeAmount",
+      "info": "swapExactETHForTokensWithFeeAmount",
+      "loc": [
+        666,
+        4,
+        666,
+        106
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ISafeSwapTradeRouter.swapETHForExactTokensWithFeeAmount",
+      "info": "swapETHForExactTokensWithFeeAmount",
+      "loc": [
+        668,
+        4,
+        668,
+        106
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ISafeSwapTradeRouter.swapExactTokensForTokensWithFeeAmount",
+      "info": "swapExactTokensForTokensWithFeeAmount",
+      "loc": [
+        670,
+        4,
+        670,
+        89
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ISafeSwapTradeRouter.swapTokensForExactTokensWithFeeAmount",
+      "info": "swapTokensForExactTokensWithFeeAmount",
+      "loc": [
+        672,
+        4,
+        672,
+        89
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ISafeSwapTradeRouter.getSwapFee",
+      "info": "getSwapFee",
+      "loc": [
+        674,
+        4,
+        679,
+        42
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ISafeSwapTradeRouter.getSwapFees",
+      "info": "getSwapFees",
+      "loc": [
+        681,
+        4,
+        681,
+        103
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.initialize",
+      "info": "initialize",
+      "loc": [
+        836,
+        4,
+        840,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.__Safemoon_v2_init_unchained",
+      "info": "__Safemoon_v2_init_unchained",
+      "loc": [
+        842,
+        4,
+        872,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.initRouterAndPair",
+      "info": "initRouterAndPair",
+      "loc": [
+        874,
+        4,
+        879,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.__Safemoon_tiers_init",
+      "info": "__Safemoon_tiers_init",
+      "loc": [
+        881,
+        4,
+        886,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.name",
+      "info": "name",
+      "loc": [
+        888,
+        4,
+        890,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.symbol",
+      "info": "symbol",
+      "loc": [
+        892,
+        4,
+        894,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.decimals",
+      "info": "decimals",
+      "loc": [
+        896,
+        4,
+        898,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.totalSupply",
+      "info": "totalSupply",
+      "loc": [
+        900,
+        4,
+        902,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.balanceOf",
+      "info": "balanceOf",
+      "loc": [
+        904,
+        4,
+        907,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.transfer",
+      "info": "transfer",
+      "loc": [
+        909,
+        4,
+        912,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.allowance",
+      "info": "allowance",
+      "loc": [
+        914,
+        4,
+        916,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.approve",
+      "info": "approve",
+      "loc": [
+        918,
+        4,
+        921,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.transferFrom",
+      "info": "transferFrom",
+      "loc": [
+        923,
+        4,
+        935,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.increaseAllowance",
+      "info": "increaseAllowance",
+      "loc": [
+        937,
+        4,
+        940,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.decreaseAllowance",
+      "info": "decreaseAllowance",
+      "loc": [
+        942,
+        4,
+        949,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.isExcludedFromReward",
+      "info": "isExcludedFromReward",
+      "loc": [
+        951,
+        4,
+        953,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.totalFees",
+      "info": "totalFees",
+      "loc": [
+        955,
+        4,
+        957,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.reflectionFromTokenInTiers",
+      "info": "reflectionFromTokenInTiers",
+      "loc": [
+        959,
+        4,
+        972,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.reflectionFromToken",
+      "info": "reflectionFromToken",
+      "loc": [
+        974,
+        4,
+        976,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.tokenFromReflection",
+      "info": "tokenFromReflection",
+      "loc": [
+        978,
+        4,
+        982,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.excludeFromReward",
+      "info": "excludeFromReward",
+      "loc": [
+        986,
+        4,
+        996,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.includeInReward",
+      "info": "includeInReward",
+      "loc": [
+        1000,
+        4,
+        1013,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.excludeFromFee",
+      "info": "excludeFromFee",
+      "loc": [
+        1015,
+        4,
+        1017,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.includeInFee",
+      "info": "includeInFee",
+      "loc": [
+        1019,
+        4,
+        1021,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.whitelistAddress",
+      "info": "whitelistAddress",
+      "loc": [
+        1023,
+        4,
+        1031,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.excludeWhitelistedAddress",
+      "info": "excludeWhitelistedAddress",
+      "loc": [
+        1033,
+        4,
+        1037,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.accountTier",
+      "info": "accountTier",
+      "loc": [
+        1039,
+        4,
+        1041,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.isWhitelisted",
+      "info": "isWhitelisted",
+      "loc": [
+        1043,
+        4,
+        1045,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.checkFees",
+      "info": "checkFees",
+      "loc": [
+        1047,
+        4,
+        1054,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.checkFeesChanged",
+      "info": "checkFeesChanged",
+      "loc": [
+        1056,
+        4,
+        1071,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.setEcoSystemFeePercent",
+      "info": "setEcoSystemFeePercent",
+      "loc": [
+        1073,
+        4,
+        1084,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.setLiquidityFeePercent",
+      "info": "setLiquidityFeePercent",
+      "loc": [
+        1086,
+        4,
+        1097,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.setTaxFeePercent",
+      "info": "setTaxFeePercent",
+      "loc": [
+        1099,
+        4,
+        1106,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.setOwnerFeePercent",
+      "info": "setOwnerFeePercent",
+      "loc": [
+        1108,
+        4,
+        1115,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.setBurnFeePercent",
+      "info": "setBurnFeePercent",
+      "loc": [
+        1117,
+        4,
+        1124,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.setEcoSystemFeeAddress",
+      "info": "setEcoSystemFeeAddress",
+      "loc": [
+        1126,
+        4,
+        1137,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.setOwnerFeeAddress",
+      "info": "setOwnerFeeAddress",
+      "loc": [
+        1139,
+        4,
+        1146,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.addTier",
+      "info": "addTier",
+      "loc": [
+        1148,
+        4,
+        1158,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon._addTier",
+      "info": "_addTier",
+      "loc": [
+        1160,
+        4,
+        1177,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.feeTier",
+      "info": "feeTier",
+      "loc": [
+        1179,
+        4,
+        1181,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.blacklistAddress",
+      "info": "blacklistAddress",
+      "loc": [
+        1183,
+        4,
+        1186,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.unBlacklistAddress",
+      "info": "unBlacklistAddress",
+      "loc": [
+        1188,
+        4,
+        1190,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.updateRouterAndPair",
+      "info": "updateRouterAndPair",
+      "loc": [
+        1192,
+        4,
+        1196,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.setDefaultSettings",
+      "info": "setDefaultSettings",
+      "loc": [
+        1198,
+        4,
+        1201,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.setMaxTxPercent",
+      "info": "setMaxTxPercent",
+      "loc": [
+        1203,
+        4,
+        1205,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.setSwapAndEvolveEnabled",
+      "info": "setSwapAndEvolveEnabled",
+      "loc": [
+        1207,
+        4,
+        1210,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.__receiveEther__",
+      "info": "__receiveEther__",
+      "loc": [
+        1213,
+        4,
+        1213,
+        32
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon._reflectFee",
+      "info": "_reflectFee",
+      "loc": [
+        1215,
+        4,
+        1218,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon._getValues",
+      "info": "_getValues",
+      "loc": [
+        1220,
+        4,
+        1241,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon._getTValues",
+      "info": "_getTValues",
+      "loc": [
+        1243,
+        4,
+        1262,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon._getRValues",
+      "info": "_getRValues",
+      "loc": [
+        1264,
+        4,
+        1283,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon._getRate",
+      "info": "_getRate",
+      "loc": [
+        1285,
+        4,
+        1288,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon._getCurrentSupply",
+      "info": "_getCurrentSupply",
+      "loc": [
+        1290,
+        4,
+        1300,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.calculateFee",
+      "info": "calculateFee",
+      "loc": [
+        1302,
+        4,
+        1305,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.removeAllFee",
+      "info": "removeAllFee",
+      "loc": [
+        1307,
+        4,
+        1310,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.restoreAllFee",
+      "info": "restoreAllFee",
+      "loc": [
+        1312,
+        4,
+        1314,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.isExcludedFromFee",
+      "info": "isExcludedFromFee",
+      "loc": [
+        1316,
+        4,
+        1318,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.isBlacklisted",
+      "info": "isBlacklisted",
+      "loc": [
+        1320,
+        4,
+        1322,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon._approve",
+      "info": "_approve",
+      "loc": [
+        1324,
+        4,
+        1338,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon._transfer",
+      "info": "_transfer",
+      "loc": [
+        1340,
+        4,
+        1400,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.collectBNB",
+      "info": "collectBNB",
+      "loc": [
+        1402,
+        4,
+        1404,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.swapTokensForBnb",
+      "info": "swapTokensForBnb",
+      "loc": [
+        1406,
+        4,
+        1425,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.setRouter",
+      "info": "setRouter",
+      "loc": [
+        1427,
+        4,
+        1429,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.swapAndEvolve",
+      "info": "swapAndEvolve",
+      "loc": [
+        1431,
+        4,
+        1458,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.swapBnbForTokens",
+      "info": "swapBnbForTokens",
+      "loc": [
+        1460,
+        4,
+        1479,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.addLiquidity",
+      "info": "addLiquidity",
+      "loc": [
+        1481,
+        4,
+        1494,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon._tokenTransfer",
+      "info": "_tokenTransfer",
+      "loc": [
+        1497,
+        4,
+        1517,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon._transferBothExcluded",
+      "info": "_transferBothExcluded",
+      "loc": [
+        1521,
+        4,
+        1539,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon._transferStandard",
+      "info": "_transferStandard",
+      "loc": [
+        1541,
+        4,
+        1553,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon._transferToExcluded",
+      "info": "_transferToExcluded",
+      "loc": [
+        1557,
+        4,
+        1574,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon._transferFromExcluded",
+      "info": "_transferFromExcluded",
+      "loc": [
+        1578,
+        4,
+        1594,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon._takeFees",
+      "info": "_takeFees",
+      "loc": [
+        1596,
+        4,
+        1605,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon._takeFee",
+      "info": "_takeFee",
+      "loc": [
+        1609,
+        4,
+        1628,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon._takeBurn",
+      "info": "_takeBurn",
+      "loc": [
+        1632,
+        4,
+        1640,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.setMigrationAddress",
+      "info": "setMigrationAddress",
+      "loc": [
+        1642,
+        4,
+        1644,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.isMigrationStarted",
+      "info": "isMigrationStarted",
+      "loc": [
+        1646,
+        4,
+        1648,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.migrate",
+      "info": "migrate",
+      "loc": [
+        1650,
+        4,
+        1658,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon._migrate",
+      "info": "_migrate",
+      "loc": [
+        1660,
+        4,
+        1664,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.feeTiersLength",
+      "info": "feeTiersLength",
+      "loc": [
+        1666,
+        4,
+        1668,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.updateBurnAddress",
+      "info": "updateBurnAddress",
+      "loc": [
+        1670,
+        4,
+        1673,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.withdrawToken",
+      "info": "withdrawToken",
+      "loc": [
+        1675,
+        4,
+        1677,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.setNumberOfTokenToCollectBNB",
+      "info": "setNumberOfTokenToCollectBNB",
+      "loc": [
+        1679,
+        4,
+        1681,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.setNumOfBnbToSwapAndEvolve",
+      "info": "setNumOfBnbToSwapAndEvolve",
+      "loc": [
+        1683,
+        4,
+        1685,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.getContractBalance",
+      "info": "getContractBalance",
+      "loc": [
+        1687,
+        4,
+        1689,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.getBNBBalance",
+      "info": "getBNBBalance",
+      "loc": [
+        1691,
+        4,
+        1693,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.withdrawBnb",
+      "info": "withdrawBnb",
+      "loc": [
+        1695,
+        4,
+        1697,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.addListIgnoreCollectBNBOnTransferAddresses",
+      "info": "addListIgnoreCollectBNBOnTransferAddresses",
+      "loc": [
+        1699,
+        4,
+        1708,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.removeListIgnoreCollectBNBOnTransferAddresses",
+      "info": "removeListIgnoreCollectBNBOnTransferAddresses",
+      "loc": [
+        1710,
+        4,
+        1719,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon._isInCollectBNBWhitelist",
+      "info": "_isInCollectBNBWhitelist",
+      "loc": [
+        1721,
+        4,
+        1723,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.setBridgeBurnAddress",
+      "info": "setBridgeBurnAddress",
+      "loc": [
+        1725,
+        4,
+        1727,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.setWhitelistMint",
+      "info": "setWhitelistMint",
+      "loc": [
+        1729,
+        4,
+        1731,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.mint",
+      "info": "mint",
+      "loc": [
+        1733,
+        4,
+        1735,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Safemoon.burn",
+      "info": "burn",
+      "loc": [
+        1737,
+        4,
+        1739,
+        4
+      ]
+    }
+  ]
+}

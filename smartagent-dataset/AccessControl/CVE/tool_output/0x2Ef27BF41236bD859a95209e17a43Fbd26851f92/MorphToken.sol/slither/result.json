@@ -1,0 +1,302 @@
+{
+    "errors": [
+        "EXIT_CODE_31"
+    ],
+    "fails": [],
+    "findings": [
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x2Ef27BF41236bD859a95209e17a43Fbd26851f92/MorphToken.sol",
+            "impact": "Informational",
+            "line": 50,
+            "line_end": 52,
+            "message": "ERC20.decimals should be constant (MorphToken.sol#50-52)\nMorphToken.tokenSupply should be constant (MorphToken.sol#177-179)\n",
+            "name": "constable-states"
+        },
+        {
+            "confidence": "High",
+            "contract": "Owned",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x2Ef27BF41236bD859a95209e17a43Fbd26851f92/MorphToken.sol",
+            "function": "owned",
+            "impact": "Informational",
+            "line": 12,
+            "line_end": 16,
+            "message": "Owned.owned (MorphToken.sol#12-16) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "Owned",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x2Ef27BF41236bD859a95209e17a43Fbd26851f92/MorphToken.sol",
+            "function": "transferOwnership",
+            "impact": "Informational",
+            "line": 25,
+            "line_end": 32,
+            "message": "Owned.transferOwnership (MorphToken.sol#25-32) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "ERC20",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x2Ef27BF41236bD859a95209e17a43Fbd26851f92/MorphToken.sol",
+            "function": "transfer",
+            "impact": "Informational",
+            "line": 70,
+            "line_end": 86,
+            "message": "ERC20.transfer (MorphToken.sol#70-86) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "ERC20",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x2Ef27BF41236bD859a95209e17a43Fbd26851f92/MorphToken.sol",
+            "function": "transferFrom",
+            "impact": "Informational",
+            "line": 95,
+            "line_end": 112,
+            "message": "ERC20.transferFrom (MorphToken.sol#95-112) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "ERC20",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x2Ef27BF41236bD859a95209e17a43Fbd26851f92/MorphToken.sol",
+            "function": "approve",
+            "impact": "Informational",
+            "line": 118,
+            "line_end": 124,
+            "message": "ERC20.approve (MorphToken.sol#118-124) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "ERC20",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x2Ef27BF41236bD859a95209e17a43Fbd26851f92/MorphToken.sol",
+            "function": "allowance",
+            "impact": "Informational",
+            "line": 129,
+            "line_end": 139,
+            "message": "ERC20.allowance (MorphToken.sol#129-139) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "MorphToken",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x2Ef27BF41236bD859a95209e17a43Fbd26851f92/MorphToken.sol",
+            "function": "blacklistAccount",
+            "impact": "Informational",
+            "line": 200,
+            "line_end": 204,
+            "message": "MorphToken.blacklistAccount (MorphToken.sol#200-204) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "MorphToken",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x2Ef27BF41236bD859a95209e17a43Fbd26851f92/MorphToken.sol",
+            "function": "mintTokens",
+            "impact": "Informational",
+            "line": 207,
+            "line_end": 215,
+            "message": "MorphToken.mintTokens (MorphToken.sol#207-215) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "MorphToken",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x2Ef27BF41236bD859a95209e17a43Fbd26851f92/MorphToken.sol",
+            "function": "burn",
+            "impact": "Informational",
+            "line": 217,
+            "line_end": 223,
+            "message": "MorphToken.burn (MorphToken.sol#217-223) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x2Ef27BF41236bD859a95209e17a43Fbd26851f92/MorphToken.sol",
+            "impact": "Informational",
+            "line": 1,
+            "message": "Detected issues with version pragma in MorphToken.sol:\n\t- pragma solidity^0.4.18 (MorphToken.sol#1): it allows old versions\n",
+            "name": "solc-version"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x2Ef27BF41236bD859a95209e17a43Fbd26851f92/MorphToken.sol",
+            "impact": "Informational",
+            "line": 25,
+            "line_end": 26,
+            "message": "Parameter '_newOwner' of Owned.transferOwnership (MorphToken.sol#25-26) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x2Ef27BF41236bD859a95209e17a43Fbd26851f92/MorphToken.sol",
+            "impact": "Informational",
+            "line": 59,
+            "line_end": 66,
+            "message": "Function 'ERC20.ERC20' (MorphToken.sol#59-66) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x2Ef27BF41236bD859a95209e17a43Fbd26851f92/MorphToken.sol",
+            "impact": "Informational",
+            "line": 59,
+            "line_end": 60,
+            "message": "Parameter '_initialSupply' of ERC20.ERC20 (MorphToken.sol#59-60) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x2Ef27BF41236bD859a95209e17a43Fbd26851f92/MorphToken.sol",
+            "impact": "Informational",
+            "line": 60,
+            "message": "Parameter '_tokenName' of ERC20.ERC20 (MorphToken.sol#60) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x2Ef27BF41236bD859a95209e17a43Fbd26851f92/MorphToken.sol",
+            "impact": "Informational",
+            "line": 60,
+            "message": "Parameter '_tokenSymbol' of ERC20.ERC20 (MorphToken.sol#60) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x2Ef27BF41236bD859a95209e17a43Fbd26851f92/MorphToken.sol",
+            "impact": "Informational",
+            "line": 71,
+            "message": "Parameter '_to' of ERC20.transfer (MorphToken.sol#71) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x2Ef27BF41236bD859a95209e17a43Fbd26851f92/MorphToken.sol",
+            "impact": "Informational",
+            "line": 71,
+            "message": "Parameter '_value' of ERC20.transfer (MorphToken.sol#71) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x2Ef27BF41236bD859a95209e17a43Fbd26851f92/MorphToken.sol",
+            "impact": "Informational",
+            "line": 96,
+            "line_end": 97,
+            "message": "Parameter '_from' of ERC20.transferFrom (MorphToken.sol#96-97) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x2Ef27BF41236bD859a95209e17a43Fbd26851f92/MorphToken.sol",
+            "impact": "Informational",
+            "line": 98,
+            "message": "Parameter '_to' of ERC20.transferFrom (MorphToken.sol#98) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x2Ef27BF41236bD859a95209e17a43Fbd26851f92/MorphToken.sol",
+            "impact": "Informational",
+            "line": 98,
+            "line_end": 99,
+            "message": "Parameter '_amount' of ERC20.transferFrom (MorphToken.sol#98-99) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x2Ef27BF41236bD859a95209e17a43Fbd26851f92/MorphToken.sol",
+            "impact": "Informational",
+            "line": 118,
+            "line_end": 119,
+            "message": "Parameter '_spender' of ERC20.approve (MorphToken.sol#118-119) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x2Ef27BF41236bD859a95209e17a43Fbd26851f92/MorphToken.sol",
+            "impact": "Informational",
+            "line": 119,
+            "message": "Parameter '_amount' of ERC20.approve (MorphToken.sol#119) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x2Ef27BF41236bD859a95209e17a43Fbd26851f92/MorphToken.sol",
+            "impact": "Informational",
+            "line": 130,
+            "line_end": 135,
+            "message": "Parameter '_owner' of ERC20.allowance (MorphToken.sol#130-135) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x2Ef27BF41236bD859a95209e17a43Fbd26851f92/MorphToken.sol",
+            "impact": "Informational",
+            "line": 135,
+            "line_end": 136,
+            "message": "Parameter '_spender' of ERC20.allowance (MorphToken.sol#135-136) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x2Ef27BF41236bD859a95209e17a43Fbd26851f92/MorphToken.sol",
+            "impact": "Informational",
+            "line": 190,
+            "line_end": 191,
+            "message": "Function 'MorphToken.MorphToken' (MorphToken.sol#190-191) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x2Ef27BF41236bD859a95209e17a43Fbd26851f92/MorphToken.sol",
+            "impact": "Informational",
+            "line": 201,
+            "message": "Parameter '_target' of MorphToken.blacklistAccount (MorphToken.sol#201) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x2Ef27BF41236bD859a95209e17a43Fbd26851f92/MorphToken.sol",
+            "impact": "Informational",
+            "line": 201,
+            "line_end": 202,
+            "message": "Parameter '_isBlacklisted' of MorphToken.blacklistAccount (MorphToken.sol#201-202) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x2Ef27BF41236bD859a95209e17a43Fbd26851f92/MorphToken.sol",
+            "impact": "Informational",
+            "line": 207,
+            "line_end": 210,
+            "message": "Parameter '_mintedAmount' of MorphToken.mintTokens (MorphToken.sol#207-210) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x2Ef27BF41236bD859a95209e17a43Fbd26851f92/MorphToken.sol",
+            "impact": "Informational",
+            "line": 217,
+            "message": "Parameter '_value' of MorphToken.burn (MorphToken.sol#217) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x2Ef27BF41236bD859a95209e17a43Fbd26851f92/MorphToken.sol",
+            "impact": "Informational",
+            "line": 177,
+            "line_end": 179,
+            "message": "MorphToken.tokenSupply (MorphToken.sol#177-179) is never used in MorphToken\n",
+            "name": "unused-state"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "slither",
+        "mode": "solidity",
+        "version": "2022/11/14"
+    }
+}

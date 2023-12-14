@@ -1,0 +1,11 @@
+```
+releaseTokensTo
+This function is marked as internal, meaning it can only be called from within the contract or contracts that inherit from `KYCBase`.
+takeEther
+giveToken
+claimTokenBonus
+refundEther
+These functions are marked as internal, meaning they can only be called from within the contract or contracts that inherit from `RC`.
+buyFromRC
+This function is marked as onlyRC, meaning it can only be called by contracts that are authorized as RC (Referral Contract).
+```

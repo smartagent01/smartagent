@@ -1,0 +1,72 @@
+Running SPCON... 0x5088b94cf8a1143eb228b6d3f008350ca742ddc2 600 2022-05-23
+Installing solc '0.4.18'...
+Version '0.4.18' installed.
+2022-05-23
+{'limit': 519, 'network': 'ethereum', 'address': '0x5088b94cf8a1143eb228b6d3f008350ca742ddc2', 'date': '2022-05-23'}
+0x5088b94cf8a1143eb228b6d3f008350ca742ddc2 EtherCartel
+./0x5088b94cf8a1143eb228b6d3f008350ca742ddc2
+loaded abi.
+6  functions ['getFreeKilo', 'DrugDealer', 'seedMarket', 'sellDrugs', 'collectDrugs', 'buyDrugs']
+163  users
+Timecost for loading history: 0.03380393981933594
+No.user: 163; No.func: 6
++----------------------------------------------------+
+| Basic roles statistics (id, len(users), functions) |
++-----------+----------+-----------------------------+
+|   RoleId  |  Users   |          Functions          |
++-----------+----------+-----------------------------+
+|     0     |   149    |       ['getFreeKilo']       |
+|     1     |    18    |        ['DrugDealer']       |
+|     2     |    88    |        ['sellDrugs']        |
+|     3     |    32    |       ['collectDrugs']      |
+|     4     |    29    |         ['buyDrugs']        |
+|     5     |    1     |        ['seedMarket']       |
++-----------+----------+-----------------------------+
+Gen. 0 (0.00%): Max/Min/Avg Fitness(Raw)             [2.05(2.01)/1.33(1.38)/1.71(1.71)]
+Gen. 100 (100.00%): INFO:spcon.symExec:Totally 0 integrity policies
+INFO:spcon.symExec:Totally 3 integrity policies
+INFO:spcon.symExec:Test Sequence: ['getFreeKilo']
+INFO:spcon.symExec:SymExecEVM().symExec: getFreeKilo()
+INFO:spcon.symExec:attacker: 0xc0ffee753b42bda1bcfa682f29685e2fd6729016
+INFO:spcon.symExec:transaction status: false
+INFO:spcon.symExec:test sequence is not feasible
+INFO:spcon.symExec:Test Sequence: ['seedMarket', 'getFreeKilo']
+INFO:spcon.symExec:SymExecEVM().symExec: seedMarket(uint256)
+INFO:spcon.symExec:attacker: 0xc0ffee753b42bda1bcfa682f29685e2fd6729016
+INFO:spcon.symExec:transaction status: success
+INFO:spcon.symExec:SymExecEVM().symExec: getFreeKilo()
+INFO:spcon.symExec:attacker: 0xc0ffee753b42bda1bcfa682f29685e2fd6729016
+INFO:spcon.symExec:transaction status: success
+CRITICAL:spcon.symExec:Permission Bug: find an attack sequence ['seedMarket', 'getFreeKilo']
+INFO:spcon.symExec:Test Sequence: ['DrugDealer']
+INFO:spcon.symExec:SymExecEVM().symExec: DrugDealer()
+INFO:spcon.symExec:attacker: 0xc0ffee753b42bda1bcfa682f29685e2fd6729016
+INFO:spcon.symExec:transaction status: success
+CRITICAL:spcon.symExec:Permission Bug: find an attack sequence ['DrugDealer']
+INFO:spcon.symExec:Test Sequence: ['seedMarket']
+INFO:spcon.symExec:SymExecEVM().symExec: seedMarket(uint256)
+INFO:spcon.symExec:attacker: 0xc0ffee753b42bda1bcfa682f29685e2fd6729016
+INFO:spcon.symExec:transaction status: success
+CRITICAL:spcon.symExec:Permission Bug: find an attack sequence ['seedMarket']
+INFO:spcon.symExec:Testing time: 16.532641649246216 seconds
+Max/Min/Avg Fitness(Raw)             [2.13(2.22)/1.46(1.39)/1.78(1.78)]
+Total time elapsed: 6.980 seconds.
+best role number: 4
+Role#0:{'sellDrugs', 'getFreeKilo'}
+Role#1:{'DrugDealer'}
+Role#2:{'collectDrugs', 'buyDrugs'}
+Role#3:{'seedMarket'}
+Time cost: 7.064807176589966
+Security Policy:
+Policy#0: sellDrugs getFreeKilo -> lastCollect claimedDrugs via functions getFreeKilo
+Policy#1: DrugDealer -> ceoAddress via functions DrugDealer
+Policy#2: seedMarket -> initialized via functions seedMarket
+https://api.etherscan.io/api?module=proxy&action=eth_getStorageAt&address=0x5088b94cf8a1143eb228b6d3f008350ca742ddc2&position=0x4&tag=latest&apikey=CMMEM9V5Y1B1S1JT4MITADSPPACMJBYPZ2
+https://api.etherscan.io/api?module=proxy&action=eth_getStorageAt&address=0x5088b94cf8a1143eb228b6d3f008350ca742ddc2&position=0x4&tag=latest&apikey=CMMEM9V5Y1B1S1JT4MITADSPPACMJBYPZ2
+https://api.etherscan.io/api?module=proxy&action=eth_getStorageAt&address=0x5088b94cf8a1143eb228b6d3f008350ca742ddc2&position=0x9&tag=latest&apikey=CMMEM9V5Y1B1S1JT4MITADSPPACMJBYPZ2
+https://api.etherscan.io/api?module=proxy&action=eth_getStorageAt&address=0x5088b94cf8a1143eb228b6d3f008350ca742ddc2&position=0x9&tag=latest&apikey=CMMEM9V5Y1B1S1JT4MITADSPPACMJBYPZ2
+https://api.etherscan.io/api?module=proxy&action=eth_getStorageAt&address=0x5088b94cf8a1143eb228b6d3f008350ca742ddc2&position=0xf5cf18063c59fb05a6b9536d7eb8ea5d605b95f45b361dc9a1ec3361bfe27058&tag=latest&apikey=CMMEM9V5Y1B1S1JT4MITADSPPACMJBYPZ2
+https://api.etherscan.io/api?module=proxy&action=eth_getStorageAt&address=0x5088b94cf8a1143eb228b6d3f008350ca742ddc2&position=0xf5cf18063c59fb05a6b9536d7eb8ea5d605b95f45b361dc9a1ec3361bfe27058&tag=latest&apikey=CMMEM9V5Y1B1S1JT4MITADSPPACMJBYPZ2
+https://api.etherscan.io/api?module=proxy&action=eth_getStorageAt&address=0x5088b94cf8a1143eb228b6d3f008350ca742ddc2&position=0x1&tag=latest&apikey=CMMEM9V5Y1B1S1JT4MITADSPPACMJBYPZ2
+https://api.etherscan.io/api?module=proxy&action=eth_getStorageAt&address=0x5088b94cf8a1143eb228b6d3f008350ca742ddc2&position=0x1&tag=latest&apikey=CMMEM9V5Y1B1S1JT4MITADSPPACMJBYPZ2
+total timecost: 43.34225106239319 seconds

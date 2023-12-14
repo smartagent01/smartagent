@@ -1,0 +1,96 @@
+File copied : /root/sailfish/code/static_analysis/analysis/ERCDDAToken.sol
+processing /root/sailfish/code/static_analysis/analysis/ERCDDAToken.sol
+Installing solc '0.4.26'...
+Version '0.4.26' installed.
+Switched global version to 0.4.26
+[INFO] | 2023-12-05 03:49:17 AM | analyzer.ERCDDAToken | Analysis started at: 2023-12-05 03:49:17 AM
+[INFO] | 2023-12-05 03:49:18 AM | analyzer.ERCDDAToken | Version constraints: ['^0.4.24']
+[INFO] | 2023-12-05 03:49:18 AM | analyzer.ERCDDAToken | solc version: v0.4.24
+[INFO] | 2023-12-05 03:49:18 AM | analyzer.ERCDDAToken | Callgraph generation started!
+[INFO] | 2023-12-05 03:49:18 AM | analyzer.ERCDDAToken | Callgraph generation finished!
+[INFO] | 2023-12-05 03:49:18 AM | analyzer.ERCDDAToken | Interprocedural CFG generation started!
+[INFO] | 2023-12-05 03:49:18 AM | analyzer.ERCDDAToken | Interprocedural CFG generation finished!
+[INFO] | 2023-12-05 03:49:18 AM | analyzer.ERCDDAToken | Storage dependency graph generation started!
+[INFO] | 2023-12-05 03:49:18 AM | analyzer.ERCDDAToken | Storage dependency graph generation finished!
+[INFO] | 2023-12-05 03:49:18 AM | analyzer.ERCDDAToken | Value Range Analysis started
+[INFO] | 2023-12-05 03:49:18 AM | analyzer.ERCDDAToken | Generating return summary for owned
+[INFO] | 2023-12-05 03:49:18 AM | analyzer.ERCDDAToken | Return summary generated for owned
+[INFO] | 2023-12-05 03:49:18 AM | analyzer.ERCDDAToken | Range graph generated
+[INFO] | 2023-12-05 03:49:18 AM | analyzer.ERCDDAToken | Processed function owned
+[INFO] | 2023-12-05 03:49:18 AM | analyzer.ERCDDAToken | Generating return summary for constructor
+[INFO] | 2023-12-05 03:49:18 AM | analyzer.ERCDDAToken | Return summary generated for constructor
+[INFO] | 2023-12-05 03:49:18 AM | analyzer.ERCDDAToken | Range graph generated
+[INFO] | 2023-12-05 03:49:18 AM | analyzer.ERCDDAToken | Processed function constructor
+[INFO] | 2023-12-05 03:49:18 AM | analyzer.ERCDDAToken | Generating return summary for _transfer
+[INFO] | 2023-12-05 03:49:18 AM | analyzer.ERCDDAToken | Return summary generated for _transfer
+[INFO] | 2023-12-05 03:49:18 AM | analyzer.ERCDDAToken | Range graph generated
+[INFO] | 2023-12-05 03:49:18 AM | analyzer.ERCDDAToken | Processed function _transfer
+[INFO] | 2023-12-05 03:49:18 AM | analyzer.ERCDDAToken | Generating return summary for slitherConstructorVariables
+[INFO] | 2023-12-05 03:49:18 AM | analyzer.ERCDDAToken | Return summary generated for slitherConstructorVariables
+[INFO] | 2023-12-05 03:49:18 AM | analyzer.ERCDDAToken | Range graph generated
+[INFO] | 2023-12-05 03:49:18 AM | analyzer.ERCDDAToken | Processed function slitherConstructorVariables
+[INFO] | 2023-12-05 03:49:18 AM | analyzer.ERCDDAToken | Generating return summary for onlyOwner
+[INFO] | 2023-12-05 03:49:18 AM | analyzer.ERCDDAToken | Return summary generated for onlyOwner
+[INFO] | 2023-12-05 03:49:18 AM | analyzer.ERCDDAToken | State variable assignement do not exist
+[INFO] | 2023-12-05 03:49:18 AM | analyzer.ERCDDAToken | Processed function onlyOwner
+[INFO] | 2023-12-05 03:49:18 AM | analyzer.ERCDDAToken | Generating return summary for transfer
+[INFO] | 2023-12-05 03:49:18 AM | analyzer.ERCDDAToken | Return summary generated for transfer
+[INFO] | 2023-12-05 03:49:18 AM | analyzer.ERCDDAToken | Range graph generated
+[INFO] | 2023-12-05 03:49:18 AM | analyzer.ERCDDAToken | Processed function transfer
+[INFO] | 2023-12-05 03:49:18 AM | analyzer.ERCDDAToken | Generating return summary for freezeAccount
+[INFO] | 2023-12-05 03:49:18 AM | analyzer.ERCDDAToken | Return summary generated for freezeAccount
+[INFO] | 2023-12-05 03:49:18 AM | analyzer.ERCDDAToken | Range graph generated
+[INFO] | 2023-12-05 03:49:18 AM | analyzer.ERCDDAToken | Processed function freezeAccount
+[INFO] | 2023-12-05 03:49:18 AM | analyzer.ERCDDAToken | Generating return summary for burn
+[INFO] | 2023-12-05 03:49:18 AM | analyzer.ERCDDAToken | Return summary generated for burn
+[INFO] | 2023-12-05 03:49:18 AM | analyzer.ERCDDAToken | Range graph generated
+[INFO] | 2023-12-05 03:49:18 AM | analyzer.ERCDDAToken | Processed function burn
+[INFO] | 2023-12-05 03:49:18 AM | analyzer.ERCDDAToken | Generating return summary for mintToken
+[INFO] | 2023-12-05 03:49:18 AM | analyzer.ERCDDAToken | Return summary generated for mintToken
+[INFO] | 2023-12-05 03:49:18 AM | analyzer.ERCDDAToken | Range graph generated
+[INFO] | 2023-12-05 03:49:18 AM | analyzer.ERCDDAToken | Processed function mintToken
+[INFO] | 2023-12-05 03:49:18 AM | analyzer.ERCDDAToken | Value Range Analysis took 0.003469 seconds
+[INFO] | 2023-12-05 03:49:18 AM | analyzer.ERCDDAToken | Value Range Analysis finished
+[INFO] | 2023-12-05 03:49:18 AM | analyzer.ERCDDAToken | Storage dependency graph compostion started!
+[INFO] | 2023-12-05 03:49:18 AM | analyzer.ERCDDAToken | Storage dependency graph compostion finished!
+[INFO] | 2023-12-05 03:49:18 AM | analyzer.ERCDDAToken | Dependency detection started!
+[INFO] | 2023-12-05 03:49:18 AM | analyzer.ERCDDAToken | Dependency detection finished!
+[INFO] | 2023-12-05 03:49:18 AM | analyzer.ERCDDAToken | Static Analysis took 0.654131 seconds
+[INFO] | 2023-12-05 03:49:18 AM | analyzer.ERCDDAToken | Dependency does not exist
+[INFO] | 2023-12-05 03:49:18 AM | analyzer.ERCDDAToken | Symbolic execution is not needed!
+[INFO] | 2023-12-05 03:49:18 AM | analyzer.ERCDDAToken | Analysis finished!
+[INFO] | 2023-12-05 03:49:18 AM | analyzer.ERCDDAToken | Analysis took 0.654311 seconds
+[INFO] | 2023-12-05 03:49:18 AM | analyzer.ERCDDAToken | Analysis finished at: 2023-12-05 03:49:18 AM
+[36m[#] Analysing started: ERCDDAToken.sol[0m
+/root/.solc-select/artifacts/solc-0.4.26
+[36m[#] Interprocedural CFG generation started for modifier onlyOwner[0m
+[36m[#] Interprocedural CFG generated for modifer onlyOwner[0m
+[36m[#] Interprocedural CFG generation started for owned[0m
+[36m[#] Interprocedural CFG generated for owned[0m
+[36m[#] Interprocedural CFG generation started for constructor[0m
+[36m[#] Interprocedural CFG generated for constructor[0m
+[36m[#] Interprocedural CFG generation started for transfer[0m
+[36m[#] Interprocedural CFG generated for transfer[0m
+[36m[#] Interprocedural CFG generation started for freezeAccount[0m
+[36m[#] Interprocedural CFG generated for freezeAccount[0m
+[36m[#] Interprocedural CFG generation started for burn[0m
+[36m[#] Interprocedural CFG generated for burn[0m
+[36m[#] Interprocedural CFG generation started for mintToken[0m
+[36m[#] Interprocedural CFG generated for mintToken[0m
+[36m[#] SDG generation started for owned[0m
+[36m[#] SDG generated for owned[0m
+[36m[#] SDG generation started for constructor[0m
+[36m[#] SDG generated for constructor[0m
+[36m[#] SDG generation started for transfer[0m
+[36m[#] SDG generated for transfer[0m
+[36m[#] SDG generation started for freezeAccount[0m
+[36m[#] SDG generated for freezeAccount[0m
+[36m[#] SDG generation started for burn[0m
+[36m[#] SDG generated for burn[0m
+[36m[#] SDG generation started for mintToken[0m
+[36m[#] SDG generated for mintToken[0m
+[36m[#] SDG generation started for modifier onlyOwner[0m
+[36m[#] SDG generated for modifier onlyOwner[0m
+[36m[#] Analysis took 0.654311 seconds[0m
+[36m[#] Analysis completed: ERCDDAToken.sol [0m
+849d03476e81d098ed6ba05fa62fce6d1447044e778a234bb30145abc53450d5

@@ -1,0 +1,15 @@
+{
+  "/smart-agent/smartagent-dataset/AccessControl/CVE/0x5ABC07D28DCC3B60a164d57e4E3981a090c5d6De/BOMBBA.sol": [
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: Ownable.onlyOwner",
+      "info": "onlyOwner",
+      "loc": [
+        62,
+        2,
+        65,
+        2
+      ]
+    }
+  ]
+}

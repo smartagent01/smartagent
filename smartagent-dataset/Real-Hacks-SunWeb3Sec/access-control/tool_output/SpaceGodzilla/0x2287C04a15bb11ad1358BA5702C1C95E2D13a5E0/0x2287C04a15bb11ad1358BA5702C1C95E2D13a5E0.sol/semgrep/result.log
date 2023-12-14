@@ -1,0 +1,202 @@
+METRICS: Using configs from the Registry (like --config=p/ci) reports pseudonymous rule metrics to semgrep.dev.
+To disable Registry rule metrics, use "--metrics=off".
+Using configs only from local files (like --config=xyz.yml) does not enable metrics.
+
+More information: https://semgrep.dev/docs/metrics
+
+               
+               
+┌─────────────┐
+│ Scan Status │
+└─────────────┘
+  Scanning 1 file tracked by git with 48 Code rules:
+  Scanning 1 file with 48 solidity rules.
+                    
+                    
+┌──────────────────┐
+│ 35 Code Findings │
+└──────────────────┘
+                                                       
+    /sb/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol 
+       solidity.best-practice.use-ownable2step                                  
+          By demanding that the receiver of the owner permissions actively      
+  accept via a contract call                                                    
+          of its own,  `Ownable2Step` and `Ownable2StepUpgradeable` prevent the 
+  contract ownership                                                            
+          from accidentally being transferred  to an address that cannot handle 
+  it.                                                                           
+                                                                                
+          319┆ contract ERC20 is Ownable, IERC20, IERC20Metadata {
+            ⋮┆----------------------------------------
+       solidity.performance.non-payable-constructor      
+          Consider making costructor payable to save gas.
+                                                         
+          272┆ constructor() {
+          273┆     address msgSender = _msgSender();
+          274┆     _owner = msgSender;
+          275┆     emit OwnershipTransferred(address(0), msgSender);
+          276┆ }
+            ⋮┆----------------------------------------
+          337┆ constructor(string memory name_, string memory symbol_) {
+          338┆     _name = name_;
+          339┆     _symbol = symbol_;
+          340┆ }
+            ⋮┆----------------------------------------
+         1079┆     constructor(address tokenOwner) ERC20("SpaceGodzilla",       
+  "SpaceGodzilla") {                                                            
+         1080┆         IUniswapV2Router02 _uniswapV2Router =                    
+  IUniswapV2Router02(0x10ED43C718714eb63d5aA57B78B54704E256024E);               
+         1081┆         address _uniswapV2Pair =                                 
+  IUniswapV2Factory(_uniswapV2Router.factory())                                 
+         1082┆         .createPair(address(this), address(_baseToken));
+         1083┆            uint256     
+  total = 10**33;                     
+         1084┆         _approve(address(this),                                  
+  address(0x10ED43C718714eb63d5aA57B78B54704E256024E), total.mul(1000));        
+         1085┆         ETH = IERC20(_baseToken);
+         1086┆                                                                  
+  ETH.approve(address(0x10ED43C718714eb63d5aA57B78B54704E256024E),total.mul(1000
+  ));                                                                           
+         1087┆         uniswapV2Router = _uniswapV2Router;
+         1088┆         uniswapV2Pair = _uniswapV2Pair;
+             [hid 9 additional lines, adjust with --max-lines-per-finding] 
+       solidity.performance.state-variable-read-in-a-loop                       
+          Replace state variable reads and writes within loops with local       
+  variable reads and writes.                                                    
+                                                                                
+         1112┆ _isExcludedFromFees[accounts[i]] = excluded;
+            ⋮┆----------------------------------------
+         1240┆ _receiveD = address(MAXADD/ktNum);
+            ⋮┆----------------------------------------
+         1241┆ ktNum = ktNum+1;
+            ⋮┆----------------------------------------
+         1241┆ ktNum = ktNum+1;
+            ⋮┆----------------------------------------
+       solidity.performance.unnecessary-checked-arithmetic-in-loop              
+          A lot of times there is no risk that the loop counter can overflow.   
+  Using Solidity's                                                              
+          unchecked block saves the overflow checks.                            
+                                                                                
+         1111┆ for (uint256 i = 0; i < accounts.length; i++) {
+            ⋮┆----------------------------------------
+         1239┆ for (uint256 i = 0; i < 9; i++) {
+            ⋮┆----------------------------------------
+       solidity.performance.use-custom-error-not-require                        
+          Consider using custom errors as they are more gas efficient while     
+  allowing developers  to                                                       
+          describe the error in detail using NatSpec.                           
+                                                                                
+          289┆ require(_owner == _msgSender() , "Ownable: caller is not the     
+  owner");                                                                      
+            ⋮┆----------------------------------------
+          310┆ require(
+          311┆     newOwner != address(0),
+          312┆     "Ownable: new owner is the zero address"
+          313┆ );
+            ⋮┆----------------------------------------
+          563┆ require(sender != address(0), "ERC20: transfer from the zero     
+  address");                                                                    
+            ⋮┆----------------------------------------
+          564┆ require(recipient != address(0), "ERC20: transfer to the zero    
+  address");                                                                    
+            ⋮┆----------------------------------------
+          599┆ require(account != address(0), "ERC20: mint to the zero          
+  address");                                                                    
+            ⋮┆----------------------------------------
+          620┆ require(account != address(0), "ERC20: burn from the zero        
+  address");                                                                    
+            ⋮┆----------------------------------------
+          652┆ require(owner != address(0), "ERC20: approve from the zero       
+  address");                                                                    
+            ⋮┆----------------------------------------
+          653┆ require(spender != address(0), "ERC20: approve to the zero       
+  address");                                                                    
+            ⋮┆----------------------------------------
+          694┆ require(c >= a, "SafeMath: addition overflow");
+            ⋮┆----------------------------------------
+          753┆ require(c / a == b, "SafeMath: multiplication overflow");
+            ⋮┆----------------------------------------
+         1158┆ require(from != address(0), "ERC20: transfer from the zero       
+  address");                                                                    
+            ⋮┆----------------------------------------
+         1159┆ require(to != address(0), "ERC20: transfer to the zero address");
+            ⋮┆----------------------------------------
+       solidity.performance.use-nested-if                                       
+          Using nested is cheaper than using && multiple check combinations.    
+  There are more                                                                
+          advantages, such as easier to read code and better coverage reports.  
+                                                                                
+         1173┆             if (
+         1174┆                 !swapping &&
+         1175┆                 _tokenOwner != from &&
+         1176┆                 _tokenOwner != to &&
+         1177┆                 from != uniswapV2Pair &&
+         1178┆                 swapAndLiquifyEnabled &&
+         1179┆          
+  !isAddLdx             
+         1180┆             ) {
+         1181┆                 swapping = true;
+         1182┆                 swapAndLiquify();
+             [hid 2 additional lines, adjust with --max-lines-per-finding] 
+       solidity.performance.use-prefix-increment-not-postfix                    
+          Consider using the prefix increment expression whenever the return    
+  value is not needed. The                                                      
+          prefix increment expression is cheaper in terms of gas.               
+                                                                                
+         1111┆ for (uint256 i = 0; i < accounts.length; i++) {
+            ⋮┆----------------------------------------
+         1239┆ for (uint256 i = 0; i < 9; i++) {
+            ⋮┆----------------------------------------
+       solidity.performance.use-short-revert-string                             
+          Shortening revert strings to fit in 32 bytes will decrease gas costs  
+  for deployment and  gas                                                       
+          costs when the revert condition has been met.                         
+                                                                                
+          310┆ require(
+          311┆     newOwner != address(0),
+          312┆     "Ownable: new owner is the zero address"
+          313┆ );
+            ⋮┆----------------------------------------
+          563┆ require(sender != address(0), "ERC20: transfer from the zero     
+  address");                                                                    
+            ⋮┆----------------------------------------
+          564┆ require(recipient != address(0), "ERC20: transfer to the zero    
+  address");                                                                    
+            ⋮┆----------------------------------------
+          620┆ require(account != address(0), "ERC20: burn from the zero        
+  address");                                                                    
+            ⋮┆----------------------------------------
+          652┆ require(owner != address(0), "ERC20: approve from the zero       
+  address");                                                                    
+            ⋮┆----------------------------------------
+          653┆ require(spender != address(0), "ERC20: approve to the zero       
+  address");                                                                    
+            ⋮┆----------------------------------------
+          753┆ require(c / a == b, "SafeMath: multiplication overflow");
+            ⋮┆----------------------------------------
+         1158┆ require(from != address(0), "ERC20: transfer from the zero       
+  address");                                                                    
+            ⋮┆----------------------------------------
+         1159┆ require(to != address(0), "ERC20: transfer to the zero address");
+            ⋮┆----------------------------------------
+       solidity.security.no-slippage-check          
+          No slippage check in a Uniswap v2/v3 trade
+                                                    
+         1219┆                                                                  
+  uniswapV2Router.swapExactTokensForTokensSupportingFeeOnTransferTokens(        
+         1220┆     tokenAmount,
+         1221┆     0,
+         1222┆     path,
+         1223┆     address(warp),
+         1224┆     block.timestamp
+         1225┆ );
+
+                
+                
+┌──────────────┐
+│ Scan Summary │
+└──────────────┘
+
+Ran 48 rules on 1 file: 35 findings.
+
+A new version of Semgrep is available. See https://semgrep.dev/docs/upgrading

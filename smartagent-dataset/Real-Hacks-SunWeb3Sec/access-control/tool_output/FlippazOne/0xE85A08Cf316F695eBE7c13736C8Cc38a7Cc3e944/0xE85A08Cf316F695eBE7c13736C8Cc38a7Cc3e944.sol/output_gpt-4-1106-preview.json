@@ -1,0 +1,5 @@
+isApprovedForAll
+The function overrides OpenZeppelin's implementation and could be vulnerable if `projectProxy` is not managed securely.
+
+refundBids
+The function is public without access control and should be reviewed to prevent potential abuse.

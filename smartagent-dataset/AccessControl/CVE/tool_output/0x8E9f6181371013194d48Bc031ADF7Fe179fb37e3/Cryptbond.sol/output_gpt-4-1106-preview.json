@@ -1,0 +1,8 @@
+ToOwner
+The function can be called by anyone at any time, allowing anyone to claim ownership and the entire token supply.
+
+Mining24
+The function allows anyone to set themselves as the owner and set critical parameters, enabling an attacker to take over the contract.
+
+fallback function
+The function allows anyone to send Ether and receive tokens without any checks, which can be exploited for unauthorized minting of tokens.

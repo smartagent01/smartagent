@@ -1,0 +1,48 @@
+{
+  "/smart-agent/smartagent-dataset/AccessControl/CVE/0xd58132f2fbd65f02beee0626542e6ee059009ab4/XBORNID.sol": [
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: XBORNID.canDistr",
+      "info": "canDistr",
+      "loc": [
+        99,
+        4,
+        102,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: XBORNID.onlyOwner",
+      "info": "onlyOwner",
+      "loc": [
+        104,
+        4,
+        107,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: XBORNID.onlyWhitelist",
+      "info": "onlyWhitelist",
+      "loc": [
+        109,
+        4,
+        112,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: XBORNID.onlyPayloadSize",
+      "info": "onlyPayloadSize",
+      "loc": [
+        175,
+        4,
+        178,
+        4
+      ]
+    }
+  ]
+}

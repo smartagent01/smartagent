@@ -1,0 +1,663 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 457,
+            "message": "To guarantee arguments type safety it is recommended to use `abi.encodeCall` instead of `abi.encodeWithSelector`.",
+            "name": "use-abi-encodecall-instead-of-encodewithselector"
+        },
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 466,
+            "message": "To guarantee arguments type safety it is recommended to use `abi.encodeCall` instead of `abi.encodeWithSelector`.",
+            "name": "use-abi-encodecall-instead-of-encodewithselector"
+        },
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 488,
+            "message": "To guarantee arguments type safety it is recommended to use `abi.encodeCall` instead of `abi.encodeWithSelector`.",
+            "name": "use-abi-encodecall-instead-of-encodewithselector"
+        },
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 497,
+            "message": "To guarantee arguments type safety it is recommended to use `abi.encodeCall` instead of `abi.encodeWithSelector`.",
+            "name": "use-abi-encodecall-instead-of-encodewithselector"
+        },
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 509,
+            "message": "To guarantee arguments type safety it is recommended to use `abi.encodeCall` instead of `abi.encodeWithSelector`.",
+            "name": "use-abi-encodecall-instead-of-encodewithselector"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 3762,
+            "message": "Caching the array length outside a loop saves reading it on each iteration, as long as the array's length is not changed during the loop.",
+            "name": "array-length-outside-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 4156,
+            "message": "Caching the array length outside a loop saves reading it on each iteration, as long as the array's length is not changed during the loop.",
+            "name": "array-length-outside-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 1021,
+            "message": "<x> += <y> costs more gas than <x> = <x> + <y> for state variables.",
+            "name": "inefficient-state-variable-increment"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 811,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 812,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 813,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 814,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 3762,
+            "message": "A lot of times there is no risk that the loop counter can overflow. Using Solidity's unchecked block saves the overflow checks.",
+            "name": "unnecessary-checked-arithmetic-in-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 4156,
+            "message": "A lot of times there is no risk that the loop counter can overflow. Using Solidity's unchecked block saves the overflow checks.",
+            "name": "unnecessary-checked-arithmetic-in-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 4164,
+            "message": "A lot of times there is no risk that the loop counter can overflow. Using Solidity's unchecked block saves the overflow checks.",
+            "name": "unnecessary-checked-arithmetic-in-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 255,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 258,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 328,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 399,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 484,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 485,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 486,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 487,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 507,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 526,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 543,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 961,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 988,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 989,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 994,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 1017,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 1043,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 1048,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 1078,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 1079,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 1100,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 1652,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 1657,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 1662,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 1668,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 1673,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 3722,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 3768,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 3780,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 3907,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 4047,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 4048,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 4049,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 4050,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 4053,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 4054,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 4055,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 4133,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 4136,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 4137,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 4138,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 4139,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 4140,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 4141,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 4142,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 4143,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 4222,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 4317,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 3470,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 3471,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 3472,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 3955,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 3956,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 3957,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 3690,
+            "message": "Consider using the prefix decrement expression whenever the return value is not needed. The prefix decrement expression is cheaper in terms of gas.",
+            "name": "use-prefix-decrement-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 258,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 328,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 484,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 485,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 486,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 487,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 507,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 526,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 543,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 961,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 988,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 989,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 994,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 1043,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 1048,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 1078,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 1079,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 1662,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 4053,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 4054,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 4055,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 4140,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Dexible/0x33e690aea97e4ef25f0d140f1bf044d663091daf/Dexible_flattened.sol",
+            "line": 4142,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "semgrep",
+        "mode": "solidity",
+        "version": "2023/08/21"
+    }
+}

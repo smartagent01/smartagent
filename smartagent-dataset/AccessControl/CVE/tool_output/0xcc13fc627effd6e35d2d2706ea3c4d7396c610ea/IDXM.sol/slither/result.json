@@ -1,0 +1,281 @@
+{
+    "errors": [
+        "EXIT_CODE_28"
+    ],
+    "fails": [],
+    "findings": [
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xcc13fc627effd6e35d2d2706ea3c4d7396c610ea/IDXM.sol",
+            "impact": "Informational",
+            "line": 45,
+            "line_end": 46,
+            "message": "IDXM.decimals should be constant (IDXM.sol#45-46)\nIDXM.feeDecimals should be constant (IDXM.sol#68-72)\nIDXM.name should be constant (IDXM.sol#47-48)\nIDXM.standard should be constant (IDXM.sol#46)\nIDXM.symbol should be constant (IDXM.sol#48-50)\n",
+            "name": "constable-states"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xcc13fc627effd6e35d2d2706ea3c4d7396c610ea/IDXM.sol",
+            "impact": "Informational",
+            "line": 67,
+            "line_end": 68,
+            "message": "Deprecated standard detected @ IDXM.sol#67-68:\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+            "name": "deprecated-standards"
+        },
+        {
+            "confidence": "High",
+            "contract": "tokenRecipient",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xcc13fc627effd6e35d2d2706ea3c4d7396c610ea/IDXM.sol",
+            "function": "receiveApproval",
+            "impact": "Informational",
+            "line": 9,
+            "line_end": 11,
+            "message": "tokenRecipient.receiveApproval (IDXM.sol#9-11) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "SafeMath",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xcc13fc627effd6e35d2d2706ea3c4d7396c610ea/IDXM.sol",
+            "function": "safeMul",
+            "impact": "Informational",
+            "line": 12,
+            "line_end": 17,
+            "message": "SafeMath.safeMul (IDXM.sol#12-17) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "Owned",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xcc13fc627effd6e35d2d2706ea3c4d7396c610ea/IDXM.sol",
+            "function": "setOwner",
+            "impact": "Informational",
+            "line": 33,
+            "line_end": 38,
+            "message": "Owned.setOwner (IDXM.sol#33-38) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "IDXM",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xcc13fc627effd6e35d2d2706ea3c4d7396c610ea/IDXM.sol",
+            "function": "uploadBalances",
+            "impact": "Informational",
+            "line": 90,
+            "line_end": 105,
+            "message": "IDXM.uploadBalances (IDXM.sol#90-105) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "IDXM",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xcc13fc627effd6e35d2d2706ea3c4d7396c610ea/IDXM.sol",
+            "function": "lockBalances",
+            "impact": "Informational",
+            "line": 105,
+            "line_end": 107,
+            "message": "IDXM.lockBalances (IDXM.sol#105-107) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "IDXM",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xcc13fc627effd6e35d2d2706ea3c4d7396c610ea/IDXM.sol",
+            "function": "transfer",
+            "impact": "Informational",
+            "line": 112,
+            "line_end": 131,
+            "message": "IDXM.transfer (IDXM.sol#112-131) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "IDXM",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xcc13fc627effd6e35d2d2706ea3c4d7396c610ea/IDXM.sol",
+            "function": "transferFrom",
+            "impact": "Informational",
+            "line": 137,
+            "line_end": 157,
+            "message": "IDXM.transferFrom (IDXM.sol#137-157) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "IDXM",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xcc13fc627effd6e35d2d2706ea3c4d7396c610ea/IDXM.sol",
+            "function": "approveAndCall",
+            "impact": "Informational",
+            "line": 164,
+            "line_end": 174,
+            "message": "IDXM.approveAndCall (IDXM.sol#164-174) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "IDXM",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xcc13fc627effd6e35d2d2706ea3c4d7396c610ea/IDXM.sol",
+            "function": "setExportFee",
+            "impact": "Informational",
+            "line": 189,
+            "line_end": 197,
+            "message": "IDXM.setExportFee (IDXM.sol#189-197) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "IDXM",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xcc13fc627effd6e35d2d2706ea3c4d7396c610ea/IDXM.sol",
+            "function": "setHoldingPeriod",
+            "impact": "Informational",
+            "line": 197,
+            "line_end": 199,
+            "message": "IDXM.setHoldingPeriod (IDXM.sol#197-199) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "IDXM",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xcc13fc627effd6e35d2d2706ea3c4d7396c610ea/IDXM.sol",
+            "function": "unlockToken",
+            "impact": "Informational",
+            "line": 235,
+            "line_end": 237,
+            "message": "IDXM.unlockToken (IDXM.sol#235-237) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xcc13fc627effd6e35d2d2706ea3c4d7396c610ea/IDXM.sol",
+            "impact": "Informational",
+            "line": 1,
+            "message": "Detected issues with version pragma in IDXM.sol:\n\t- pragma solidity^0.4.19 (IDXM.sol#1): it allows old versions\n",
+            "name": "solc-version"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xcc13fc627effd6e35d2d2706ea3c4d7396c610ea/IDXM.sol",
+            "impact": "Informational",
+            "line": 9,
+            "line_end": 11,
+            "message": "Contract 'tokenRecipient' (IDXM.sol#9-11) is not in CapWords\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xcc13fc627effd6e35d2d2706ea3c4d7396c610ea/IDXM.sol",
+            "impact": "Informational",
+            "line": 31,
+            "line_end": 33,
+            "message": "Function 'Owned.Owned' (IDXM.sol#31-33) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xcc13fc627effd6e35d2d2706ea3c4d7396c610ea/IDXM.sol",
+            "impact": "Informational",
+            "line": 33,
+            "line_end": 34,
+            "message": "Parameter '_owner' of Owned.setOwner (IDXM.sol#33-34) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xcc13fc627effd6e35d2d2706ea3c4d7396c610ea/IDXM.sol",
+            "impact": "Informational",
+            "line": 82,
+            "line_end": 89,
+            "message": "Function 'IDXM.IDXM' (IDXM.sol#82-89) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xcc13fc627effd6e35d2d2706ea3c4d7396c610ea/IDXM.sol",
+            "impact": "Informational",
+            "line": 112,
+            "message": "Parameter '_to' of IDXM.transfer (IDXM.sol#112) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xcc13fc627effd6e35d2d2706ea3c4d7396c610ea/IDXM.sol",
+            "impact": "Informational",
+            "line": 112,
+            "line_end": 113,
+            "message": "Parameter '_amount' of IDXM.transfer (IDXM.sol#112-113) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xcc13fc627effd6e35d2d2706ea3c4d7396c610ea/IDXM.sol",
+            "impact": "Informational",
+            "line": 138,
+            "message": "Parameter '_from' of IDXM.transferFrom (IDXM.sol#138) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xcc13fc627effd6e35d2d2706ea3c4d7396c610ea/IDXM.sol",
+            "impact": "Informational",
+            "line": 138,
+            "message": "Parameter '_to' of IDXM.transferFrom (IDXM.sol#138) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xcc13fc627effd6e35d2d2706ea3c4d7396c610ea/IDXM.sol",
+            "impact": "Informational",
+            "line": 138,
+            "message": "Parameter '_amount' of IDXM.transferFrom (IDXM.sol#138) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xcc13fc627effd6e35d2d2706ea3c4d7396c610ea/IDXM.sol",
+            "impact": "Informational",
+            "line": 164,
+            "line_end": 165,
+            "message": "Parameter '_spender' of IDXM.approveAndCall (IDXM.sol#164-165) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xcc13fc627effd6e35d2d2706ea3c4d7396c610ea/IDXM.sol",
+            "impact": "Informational",
+            "line": 165,
+            "message": "Parameter '_amount' of IDXM.approveAndCall (IDXM.sol#165) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xcc13fc627effd6e35d2d2706ea3c4d7396c610ea/IDXM.sol",
+            "impact": "Informational",
+            "line": 165,
+            "message": "Parameter '_extraData' of IDXM.approveAndCall (IDXM.sol#165) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xcc13fc627effd6e35d2d2706ea3c4d7396c610ea/IDXM.sol",
+            "impact": "Informational",
+            "line": 181,
+            "line_end": 182,
+            "message": "Parameter '_spender' of IDXM.approve (IDXM.sol#181-182) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xcc13fc627effd6e35d2d2706ea3c4d7396c610ea/IDXM.sol",
+            "impact": "Informational",
+            "line": 182,
+            "line_end": 184,
+            "message": "Parameter '_amount' of IDXM.approve (IDXM.sol#182-184) is not in mixedCase\n",
+            "name": "naming-convention"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "slither",
+        "mode": "solidity",
+        "version": "2022/11/14"
+    }
+}

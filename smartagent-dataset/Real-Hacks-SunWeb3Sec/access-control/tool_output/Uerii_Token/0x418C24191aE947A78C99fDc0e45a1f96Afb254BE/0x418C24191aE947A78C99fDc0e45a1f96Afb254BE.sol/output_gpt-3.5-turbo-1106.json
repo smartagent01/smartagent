@@ -1,0 +1,3 @@
+2. The implementation of access control modifiers is not present in the code, which could potentially lead to access control bugs. However, this is not a bug in itself, but rather a missing feature.
+
+5. The contract does not allow anyone to burn, transfer tokens belonging to other users, or mint an unlimited amount of tokens. The only minting function is restricted to the contract creator.

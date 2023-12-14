@@ -1,0 +1,400 @@
+{
+    "errors": [
+        "EXIT_CODE_40"
+    ],
+    "fails": [],
+    "findings": [
+        {
+            "confidence": "High",
+            "contract": "ERC20Basic",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9924A7E3A2756Ab8B9A828485f052b6693AaA33E/BAFCToken.sol",
+            "function": "approve",
+            "impact": "Medium",
+            "line": 35,
+            "line_end": 48,
+            "message": "ERC20Basic (BAFCToken.sol#35-48) has incorrect ERC20 function interface(s):\n\t-transfer (BAFCToken.sol#37-38)\n\t-transferFrom (BAFCToken.sol#41-42)\n\t-approve (BAFCToken.sol#42-43)\n",
+            "name": "erc20-interface"
+        },
+        {
+            "confidence": "High",
+            "contract": "BasicToken",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9924A7E3A2756Ab8B9A828485f052b6693AaA33E/BAFCToken.sol",
+            "function": "transfer",
+            "impact": "Medium",
+            "line": 48,
+            "line_end": 157,
+            "message": "BasicToken (BAFCToken.sol#48-157) has incorrect ERC20 function interface(s):\n\t-transfer (BAFCToken.sol#109-122)\n",
+            "name": "erc20-interface"
+        },
+        {
+            "confidence": "High",
+            "contract": "StandardToken",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9924A7E3A2756Ab8B9A828485f052b6693AaA33E/BAFCToken.sol",
+            "function": "approve",
+            "impact": "Medium",
+            "line": 157,
+            "line_end": 188,
+            "message": "StandardToken (BAFCToken.sol#157-188) has incorrect ERC20 function interface(s):\n\t-transferFrom (BAFCToken.sol#158-172)\n\t-approve (BAFCToken.sol#172-183)\n",
+            "name": "erc20-interface"
+        },
+        {
+            "confidence": "High",
+            "contract": "BAFCToken",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9924A7E3A2756Ab8B9A828485f052b6693AaA33E/BAFCToken.sol",
+            "function": "fallback",
+            "impact": "Medium",
+            "message": "Contract locking ether found in BAFCToken.sol:\n\tContract BAFCToken has payable functions:\n\t - fallback (BAFCToken.sol)\n\tBut does not have a function to withdraw the ether\n",
+            "name": "locked-ether"
+        },
+        {
+            "confidence": "High",
+            "contract": "SafeMath",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9924A7E3A2756Ab8B9A828485f052b6693AaA33E/BAFCToken.sol",
+            "function": "assert",
+            "impact": "Low",
+            "line": 26,
+            "line_end": 35,
+            "message": "SafeMath.assert (function @ BAFCToken.sol#26-35) shadows built-in symbol \"assert\"\n",
+            "name": "shadowing-builtin"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9924A7E3A2756Ab8B9A828485f052b6693AaA33E/BAFCToken.sol",
+            "impact": "Informational",
+            "line": 192,
+            "line_end": 193,
+            "message": "BAFCToken.decimals should be constant (BAFCToken.sol#192-193)\nBAFCToken.name should be constant (BAFCToken.sol#189-191)\nBAFCToken.symbol should be constant (BAFCToken.sol#192)\n",
+            "name": "constable-states"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9924A7E3A2756Ab8B9A828485f052b6693AaA33E/BAFCToken.sol",
+            "impact": "Informational",
+            "line": 34,
+            "message": "Deprecated standard detected @ BAFCToken.sol#34:\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+            "name": "deprecated-standards"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9924A7E3A2756Ab8B9A828485f052b6693AaA33E/BAFCToken.sol",
+            "impact": "Informational",
+            "line": 68,
+            "message": "Deprecated standard detected @ BAFCToken.sol#68:\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+            "name": "deprecated-standards"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9924A7E3A2756Ab8B9A828485f052b6693AaA33E/BAFCToken.sol",
+            "impact": "Informational",
+            "line": 82,
+            "line_end": 83,
+            "message": "Deprecated standard detected @ BAFCToken.sol#82-83:\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+            "name": "deprecated-standards"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9924A7E3A2756Ab8B9A828485f052b6693AaA33E/BAFCToken.sol",
+            "impact": "Informational",
+            "line": 91,
+            "message": "Deprecated standard detected @ BAFCToken.sol#91:\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+            "name": "deprecated-standards"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9924A7E3A2756Ab8B9A828485f052b6693AaA33E/BAFCToken.sol",
+            "impact": "Informational",
+            "line": 176,
+            "message": "Deprecated standard detected @ BAFCToken.sol#176:\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+            "name": "deprecated-standards"
+        },
+        {
+            "confidence": "High",
+            "contract": "BasicToken",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9924A7E3A2756Ab8B9A828485f052b6693AaA33E/BAFCToken.sol",
+            "function": "balanceOf",
+            "impact": "Informational",
+            "line": 122,
+            "line_end": 123,
+            "message": "BasicToken.balanceOf (BAFCToken.sol#122-123) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "ERC20Basic",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9924A7E3A2756Ab8B9A828485f052b6693AaA33E/BAFCToken.sol",
+            "function": "balanceOf",
+            "impact": "Informational",
+            "line": 36,
+            "line_end": 37,
+            "message": "ERC20Basic.balanceOf (BAFCToken.sol#36-37) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "BasicToken",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9924A7E3A2756Ab8B9A828485f052b6693AaA33E/BAFCToken.sol",
+            "function": "transfer",
+            "impact": "Informational",
+            "line": 109,
+            "line_end": 122,
+            "message": "BasicToken.transfer (BAFCToken.sol#109-122) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "ERC20Basic",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9924A7E3A2756Ab8B9A828485f052b6693AaA33E/BAFCToken.sol",
+            "function": "transfer",
+            "impact": "Informational",
+            "line": 37,
+            "line_end": 38,
+            "message": "ERC20Basic.transfer (BAFCToken.sol#37-38) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "ERC20Basic",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9924A7E3A2756Ab8B9A828485f052b6693AaA33E/BAFCToken.sol",
+            "function": "allowance",
+            "impact": "Informational",
+            "line": 40,
+            "line_end": 41,
+            "message": "ERC20Basic.allowance (BAFCToken.sol#40-41) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "StandardToken",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9924A7E3A2756Ab8B9A828485f052b6693AaA33E/BAFCToken.sol",
+            "function": "allowance",
+            "impact": "Informational",
+            "line": 184,
+            "line_end": 187,
+            "message": "StandardToken.allowance (BAFCToken.sol#184-187) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "StandardToken",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9924A7E3A2756Ab8B9A828485f052b6693AaA33E/BAFCToken.sol",
+            "function": "transferFrom",
+            "impact": "Informational",
+            "line": 158,
+            "line_end": 172,
+            "message": "StandardToken.transferFrom (BAFCToken.sol#158-172) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "ERC20Basic",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9924A7E3A2756Ab8B9A828485f052b6693AaA33E/BAFCToken.sol",
+            "function": "transferFrom",
+            "impact": "Informational",
+            "line": 41,
+            "line_end": 42,
+            "message": "ERC20Basic.transferFrom (BAFCToken.sol#41-42) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "StandardToken",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9924A7E3A2756Ab8B9A828485f052b6693AaA33E/BAFCToken.sol",
+            "function": "approve",
+            "impact": "Informational",
+            "line": 172,
+            "line_end": 183,
+            "message": "StandardToken.approve (BAFCToken.sol#172-183) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "ERC20Basic",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9924A7E3A2756Ab8B9A828485f052b6693AaA33E/BAFCToken.sol",
+            "function": "approve",
+            "impact": "Informational",
+            "line": 42,
+            "line_end": 43,
+            "message": "ERC20Basic.approve (BAFCToken.sol#42-43) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "BasicToken",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9924A7E3A2756Ab8B9A828485f052b6693AaA33E/BAFCToken.sol",
+            "function": "freezeAccount",
+            "impact": "Informational",
+            "line": 127,
+            "line_end": 134,
+            "message": "BasicToken.freezeAccount (BAFCToken.sol#127-134) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "BasicToken",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9924A7E3A2756Ab8B9A828485f052b6693AaA33E/BAFCToken.sol",
+            "function": "accountFrozenStatus",
+            "impact": "Informational",
+            "line": 134,
+            "line_end": 136,
+            "message": "BasicToken.accountFrozenStatus (BAFCToken.sol#134-136) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "BasicToken",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9924A7E3A2756Ab8B9A828485f052b6693AaA33E/BAFCToken.sol",
+            "function": "transferOwnership",
+            "impact": "Informational",
+            "line": 136,
+            "line_end": 144,
+            "message": "BasicToken.transferOwnership (BAFCToken.sol#136-144) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "BasicToken",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9924A7E3A2756Ab8B9A828485f052b6693AaA33E/BAFCToken.sol",
+            "function": "switchLiquidity",
+            "impact": "Informational",
+            "line": 147,
+            "line_end": 154,
+            "message": "BasicToken.switchLiquidity (BAFCToken.sol#147-154) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "BasicToken",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9924A7E3A2756Ab8B9A828485f052b6693AaA33E/BAFCToken.sol",
+            "function": "liquidityStatus",
+            "impact": "Informational",
+            "line": 155,
+            "line_end": 157,
+            "message": "BasicToken.liquidityStatus (BAFCToken.sol#155-157) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "BAFCToken",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9924A7E3A2756Ab8B9A828485f052b6693AaA33E/BAFCToken.sol",
+            "function": "UBSexToken",
+            "impact": "Informational",
+            "line": 198,
+            "line_end": 199,
+            "message": "BAFCToken.UBSexToken (BAFCToken.sol#198-199) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "BAFCToken",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9924A7E3A2756Ab8B9A828485f052b6693AaA33E/BAFCToken.sol",
+            "function": "fallback",
+            "impact": "Informational",
+            "message": "BAFCToken.fallback (BAFCToken.sol) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9924A7E3A2756Ab8B9A828485f052b6693AaA33E/BAFCToken.sol",
+            "impact": "Informational",
+            "line": 122,
+            "message": "Parameter '_owner' of BasicToken.balanceOf (BAFCToken.sol#122) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9924A7E3A2756Ab8B9A828485f052b6693AaA33E/BAFCToken.sol",
+            "impact": "Informational",
+            "line": 109,
+            "line_end": 110,
+            "message": "Parameter '_to' of BasicToken.transfer (BAFCToken.sol#109-110) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9924A7E3A2756Ab8B9A828485f052b6693AaA33E/BAFCToken.sol",
+            "impact": "Informational",
+            "line": 110,
+            "message": "Parameter '_value' of BasicToken.transfer (BAFCToken.sol#110) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9924A7E3A2756Ab8B9A828485f052b6693AaA33E/BAFCToken.sol",
+            "impact": "Informational",
+            "line": 147,
+            "message": "Parameter '_transferable' of BasicToken.switchLiquidity (BAFCToken.sol#147) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9924A7E3A2756Ab8B9A828485f052b6693AaA33E/BAFCToken.sol",
+            "impact": "Informational",
+            "line": 184,
+            "message": "Parameter '_owner' of StandardToken.allowance (BAFCToken.sol#184) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9924A7E3A2756Ab8B9A828485f052b6693AaA33E/BAFCToken.sol",
+            "impact": "Informational",
+            "line": 184,
+            "message": "Parameter '_spender' of StandardToken.allowance (BAFCToken.sol#184) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9924A7E3A2756Ab8B9A828485f052b6693AaA33E/BAFCToken.sol",
+            "impact": "Informational",
+            "line": 160,
+            "message": "Parameter '_from' of StandardToken.transferFrom (BAFCToken.sol#160) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9924A7E3A2756Ab8B9A828485f052b6693AaA33E/BAFCToken.sol",
+            "impact": "Informational",
+            "line": 160,
+            "message": "Parameter '_to' of StandardToken.transferFrom (BAFCToken.sol#160) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9924A7E3A2756Ab8B9A828485f052b6693AaA33E/BAFCToken.sol",
+            "impact": "Informational",
+            "line": 160,
+            "message": "Parameter '_value' of StandardToken.transferFrom (BAFCToken.sol#160) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9924A7E3A2756Ab8B9A828485f052b6693AaA33E/BAFCToken.sol",
+            "impact": "Informational",
+            "line": 173,
+            "message": "Parameter '_spender' of StandardToken.approve (BAFCToken.sol#173) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9924A7E3A2756Ab8B9A828485f052b6693AaA33E/BAFCToken.sol",
+            "impact": "Informational",
+            "line": 173,
+            "message": "Parameter '_value' of StandardToken.approve (BAFCToken.sol#173) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9924A7E3A2756Ab8B9A828485f052b6693AaA33E/BAFCToken.sol",
+            "impact": "Informational",
+            "line": 198,
+            "line_end": 199,
+            "message": "Function 'BAFCToken.UBSexToken' (BAFCToken.sol#198-199) is not in mixedCase\n",
+            "name": "naming-convention"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "slither",
+        "mode": "solidity",
+        "version": "2022/11/14"
+    }
+}

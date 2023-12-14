@@ -1,0 +1,303 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "transferOwnership",
+            "source_mapping": {
+              "start": 978,
+              "length": 97,
+              "filename_relative": "B2X.sol",
+              "filename_absolute": "/home/ethsec/B2X.sol",
+              "filename_short": "B2X.sol",
+              "is_dependency": false,
+              "lines": [
+                40,
+                41,
+                42
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Owned",
+                "source_mapping": {
+                  "start": 772,
+                  "length": 306,
+                  "filename_relative": "B2X.sol",
+                  "filename_absolute": "/home/ethsec/B2X.sol",
+                  "filename_short": "B2X.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "transferOwnership(address)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "owner = newOwner",
+            "source_mapping": {
+              "start": 1051,
+              "length": 16,
+              "filename_relative": "B2X.sol",
+              "filename_absolute": "/home/ethsec/B2X.sol",
+              "filename_short": "B2X.sol",
+              "is_dependency": false,
+              "lines": [
+                41
+              ],
+              "starting_column": 9,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transferOwnership",
+                "source_mapping": {
+                  "start": 978,
+                  "length": 97,
+                  "filename_relative": "B2X.sol",
+                  "filename_absolute": "/home/ethsec/B2X.sol",
+                  "filename_short": "B2X.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    40,
+                    41,
+                    42
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Owned",
+                    "source_mapping": {
+                      "start": 772,
+                      "length": 306,
+                      "filename_relative": "B2X.sol",
+                      "filename_absolute": "/home/ethsec/B2X.sol",
+                      "filename_short": "B2X.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "transferOwnership(address)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Owned.transferOwnership(address) (B2X.sol#40-42) should emit an event for: \n\t- owner = newOwner (B2X.sol#41) \n",
+        "markdown": "[Owned.transferOwnership(address)](B2X.sol#L40-L42) should emit an event for: \n\t- [owner = newOwner](B2X.sol#L41) \n",
+        "first_markdown_element": "B2X.sol#L40-L42",
+        "id": "ffe0709e0836585a8423858ae766958eb905639016a8566996c7acfcf18fd66b",
+        "check": "events-access",
+        "impact": "Low",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "newOwner",
+            "source_mapping": {
+              "start": 1005,
+              "length": 16,
+              "filename_relative": "B2X.sol",
+              "filename_absolute": "/home/ethsec/B2X.sol",
+              "filename_short": "B2X.sol",
+              "is_dependency": false,
+              "lines": [
+                40
+              ],
+              "starting_column": 32,
+              "ending_column": 48
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transferOwnership",
+                "source_mapping": {
+                  "start": 978,
+                  "length": 97,
+                  "filename_relative": "B2X.sol",
+                  "filename_absolute": "/home/ethsec/B2X.sol",
+                  "filename_short": "B2X.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    40,
+                    41,
+                    42
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Owned",
+                    "source_mapping": {
+                      "start": 772,
+                      "length": 306,
+                      "filename_relative": "B2X.sol",
+                      "filename_absolute": "/home/ethsec/B2X.sol",
+                      "filename_short": "B2X.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "transferOwnership(address)"
+                }
+              }
+            }
+          },
+          {
+            "type": "node",
+            "name": "owner = newOwner",
+            "source_mapping": {
+              "start": 1051,
+              "length": 16,
+              "filename_relative": "B2X.sol",
+              "filename_absolute": "/home/ethsec/B2X.sol",
+              "filename_short": "B2X.sol",
+              "is_dependency": false,
+              "lines": [
+                41
+              ],
+              "starting_column": 9,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transferOwnership",
+                "source_mapping": {
+                  "start": 978,
+                  "length": 97,
+                  "filename_relative": "B2X.sol",
+                  "filename_absolute": "/home/ethsec/B2X.sol",
+                  "filename_short": "B2X.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    40,
+                    41,
+                    42
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Owned",
+                    "source_mapping": {
+                      "start": 772,
+                      "length": 306,
+                      "filename_relative": "B2X.sol",
+                      "filename_absolute": "/home/ethsec/B2X.sol",
+                      "filename_short": "B2X.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "transferOwnership(address)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Owned.transferOwnership(address).newOwner (B2X.sol#40) lacks a zero-check on :\n\t\t- owner = newOwner (B2X.sol#41)\n",
+        "markdown": "[Owned.transferOwnership(address).newOwner](B2X.sol#L40) lacks a zero-check on :\n\t\t- [owner = newOwner](B2X.sol#L41)\n",
+        "first_markdown_element": "B2X.sol#L40",
+        "id": "1ba1d15412ac92b9ab8a965a51a08fd98b039d9d4e896aeec8bbee2d0fd7e2c8",
+        "check": "missing-zero-check",
+        "impact": "Low",
+        "confidence": "Medium"
+      }
+    ]
+  }
+}

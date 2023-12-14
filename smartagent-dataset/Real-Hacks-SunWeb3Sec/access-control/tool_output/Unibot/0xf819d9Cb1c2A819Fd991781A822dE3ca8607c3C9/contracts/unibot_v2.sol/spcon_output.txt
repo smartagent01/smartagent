@@ -1,0 +1,19 @@
+Running SPCON... 0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9 600 2022-05-23
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/SpCon-0.1.0-py3.8.egg/spcon/__main__.py", line 67, in main
+    execute_command(args)
+  File "/usr/local/lib/python3.8/dist-packages/SpCon-0.1.0-py3.8.egg/spcon/__main__.py", line 34, in execute_command
+    assert  boolflag==True, "security policies inference error"
+AssertionError: security policies inference error
+Installing solc '0.8.20'...
+Version '0.8.20' installed.
+2022-05-23
+{'limit': 0, 'network': 'ethereum', 'address': '0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9', 'date': '2022-05-23'}
+0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9 UnibotV2
+./0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9
+loaded abi.
+0  functions []
+0  users
+Timecost for loading history: 0.007088184356689453
+No.user: 0; No.func: 0
+total timecost: 22.61898946762085 seconds

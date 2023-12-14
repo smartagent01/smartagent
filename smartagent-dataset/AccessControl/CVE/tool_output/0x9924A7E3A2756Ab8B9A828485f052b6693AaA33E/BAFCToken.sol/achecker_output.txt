@@ -1,0 +1,36 @@
+File copied : /root/Achecker/BAFCToken.bin-runtime
+processing /root/Achecker/BAFCToken.bin-runtime
+Checking contract for [4mViolated-AC-Check[0m 
+------------------
+
+Violated access control check in function switchLiquidity(bool)
+	( 1949)  79d:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {1} in function UBSexToken()
++--Attacker can make changes to AC item {1} in function transferOwnership(address)
+
+Violated access control check in function approve(address,uint256)
+	( 2177)  881:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {3} in function freezeAccount(address,bool)
+
+Violated access control check in function transferFrom(address,address,uint256)
+	( 2682)  a7a:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {3} in function freezeAccount(address,bool)
+
+Violated access control check in function transfer(address,uint256)
+	( 4375) 1117:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {3} in function freezeAccount(address,bool)
+
+Violated access control check in function freezeAccount(address,bool)
+	( 5387) 150b:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {1} in function UBSexToken()
++--Attacker can make changes to AC item {1} in function transferOwnership(address)
+
+Violated access control check in function transferOwnership(address)
+	( 5786) 169a:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {1} in function UBSexToken()
++--Attacker can make changes to AC item {1} in function transferOwnership(address)
+
+
+Checking contract for [4mMissing-AC-Check[0m 
+------------------
+585ba80598306ad811a08e65c1096b0f7c462782b8af84d331d936da8cd013fa

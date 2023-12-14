@@ -1,0 +1,4 @@
+```
+owned
+The `Owned` contract has a constructor named `owned`, which should be named `Owned` to match the contract name. This could potentially allow anyone to call it to initialize the contract.
+```

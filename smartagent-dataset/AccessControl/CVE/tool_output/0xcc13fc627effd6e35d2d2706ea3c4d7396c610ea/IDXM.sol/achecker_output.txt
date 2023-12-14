@@ -1,0 +1,29 @@
+File copied : /root/Achecker/IDXM.bin-runtime
+processing /root/Achecker/IDXM.bin-runtime
+Checking contract for [4mViolated-AC-Check[0m 
+------------------
+
+Violated access control check in function unlockToken()
+	( 2966)  b96:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {0} in function setOwner(address)
+
+Violated access control check in function lockBalances()
+	( 4541) 11bd:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {0} in function setOwner(address)
+
+Violated access control check in function setExportFee(address,uint256)
+	( 4762) 129a:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {0} in function setOwner(address)
+
+Violated access control check in function setHoldingPeriod(uint256)
+	( 7020) 1b6c:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {0} in function setOwner(address)
+
+Violated access control check in function uploadBalances(address[],uint256[])
+	( 7148) 1bec:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {0} in function setOwner(address)
+
+
+Checking contract for [4mMissing-AC-Check[0m 
+------------------
+e2ffb443e6c2f5e0c66d9201db6cee9a53330d9486d181bde547488ef37b033b

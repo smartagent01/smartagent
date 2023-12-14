@@ -1,0 +1,5 @@
+Wallet
+The `Wallet` contract's use of delegate call within the constructor for initialization is unconventional and could lead to errors.
+
+Wallet
+The fallback function in the `Wallet` contract could be a potential vulnerability as it allows for any function of the `_walletLibrary` to be called if the library is not secure.

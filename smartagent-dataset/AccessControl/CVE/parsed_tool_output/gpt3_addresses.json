@@ -1,0 +1,362 @@
+{
+  "0x2Ef27BF41236bD859a95209e17a43Fbd26851f92/MorphToken.sol": [
+    {
+      "location": "Owned",
+      "message": "Incorrect constructor name or initialize function that is public, allow anyone to call it to initialize the contract."
+    },
+    {
+      "location": "ERC20",
+      "message": "Missing access control modifier in the transfer function, allowing anyone to transfer tokens, even if they are blacklisted."
+    }
+  ],
+  "0x33c2DA7Fd5B125E629B3950f3c38d7f721D7B30D/Seal.sol": [
+    {
+      "location": "The Ownable contract constructor",
+      "message": "Sets the owner to msg.sender, allowing anyone who deploys the contract to become the owner."
+    },
+    {
+      "location": "The burn function in the Seal contract",
+      "message": "Does not have proper permission checking, allowing anyone to burn tokens from any address."
+    }
+  ],
+  "0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol": [
+    {
+      "location": "releaseTokensTo",
+      "message": "This function is marked as internal, meaning it can only be called from within the contract or contracts that inherit from `KYCBase`."
+    },
+    {
+      "location": "takeEther",
+      "message": "giveToken"
+    },
+    {
+      "location": "claimTokenBonus",
+      "message": "refundEther"
+    },
+    {
+      "location": "These functions are marked as internal, meaning they can only be called from within the contract or contracts that inherit from `RC`.",
+      "message": "buyFromRC"
+    }
+  ],
+  "0x5088b94cf8a1143eb228b6d3f008350ca742ddc2/EtherCartel.sol": [
+    {
+      "location": "DrugDealer",
+      "message": "Incorrect constructor name or initialize function that is public, allow anyone to call it to initialize the contract."
+    },
+    {
+      "location": "collectDrugs",
+      "message": "Missing permission checking to ensure only authorized users can call it."
+    },
+    {
+      "location": "sellDrugs",
+      "message": "Missing permission checking to ensure only authorized users can call it."
+    },
+    {
+      "location": "buyDrugs",
+      "message": "Missing permission checking to ensure only authorized users can call it."
+    },
+    {
+      "location": "seedMarket",
+      "message": "Missing permission checking to ensure only authorized users can call it."
+    },
+    {
+      "location": "getFreeKilo",
+      "message": "Missing permission checking to ensure only authorized users can claim free kilos."
+    },
+    {
+      "location": "ceoAddress",
+      "message": "Publicly accessible and can be changed by anyone, which is a critical access control bug."
+    }
+  ],
+  "0x5ABC07D28DCC3B60a164d57e4E3981a090c5d6De/BOMBBA.sol": [
+    {
+      "location": "quaker",
+      "message": "This function sets the owner and ownerWallet variables without the onlyOwner modifier, allowing anyone to potentially change the owner and ownerWallet."
+    },
+    {
+      "location": "showMyTokenBalance",
+      "message": "This function does not have any access control measures, allowing anyone to call it to view the token balance of any address."
+    }
+  ],
+  "0x6E58b4c41cAB75dc0239938BF5455aB8823EE4DE/B2X.sol": [
+    {
+      "location": "owned",
+      "message": "The `Owned` contract has a constructor named `owned`, which is incorrect as the constructor should have the same name as the contract. This could potentially allow anyone to call the `owned` function and change the owner of the contract."
+    },
+    {
+      "location": "distributeToken",
+      "message": "The `distributeToken` function in the `StandardToken` contract allows anyone to distribute tokens, which could potentially be a permission-related bug if it's not intended for anyone to be able to distribute tokens."
+    },
+    {
+      "location": "fallback function",
+      "message": "The `B2X` contract has a fallback function that uses `throw`, which is deprecated in favor of using `revert` in newer versions of Solidity."
+    }
+  ],
+  "0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol": [
+    {
+      "location": "ToOwner",
+      "message": "The `owner` variable is initialized with `msg.sender` in the constructor function `ToOwner`, but there is no access control or permission checking to ensure that only the contract creator can call this function. This could potentially allow anyone to become the owner of the contract."
+    },
+    {
+      "location": "Mining24",
+      "message": "The `Mining24` function also sets the `owner` variable to `msg.sender` without any access control or permission checking. This could also potentially allow anyone to become the owner of the contract."
+    },
+    {
+      "location": "setParameters",
+      "message": "The `setParameters` function allows the owner to set parameters without any access control or permission checking. This could potentially lead to unauthorized changes to the contract state."
+    },
+    {
+      "location": "enableWhitelist",
+      "message": "The `enableWhitelist` function allows the owner to modify the `blacklist` mapping without any access control or permission checking. This could potentially lead to unauthorized changes to the contract state."
+    },
+    {
+      "location": "disableWhitelist",
+      "message": "The `disableWhitelist` function allows the owner to modify the `blacklist` mapping without any access control or permission checking. This could potentially lead to unauthorized changes to the contract state."
+    },
+    {
+      "location": "finishDistribution",
+      "message": "The `finishDistribution` function allows the owner to finish the distribution without any access control or permission checking. This could potentially lead to unauthorized changes to the contract state."
+    },
+    {
+      "location": "airdrop",
+      "message": "The `airdrop` function allows the owner to distribute tokens without any access control or permission checking. This could potentially lead to unauthorized token distribution."
+    },
+    {
+      "location": "distribution",
+      "message": "The `distribution` function allows the owner to distribute tokens without any access control or permission checking. This could potentially lead to unauthorized token distribution."
+    },
+    {
+      "location": "distributeAmounts",
+      "message": "The `distributeAmounts` function allows the owner to distribute tokens without any access control or permission checking. This could potentially lead to unauthorized token distribution."
+    },
+    {
+      "location": "getTokens",
+      "message": "The `getTokens` function allows anyone on the whitelist to get tokens without any access control or permission checking. This could potentially lead to unauthorized token distribution."
+    },
+    {
+      "location": "withdraw",
+      "message": "The `withdraw` function allows the owner to withdraw ether from the contract without any access control or permission checking. This could potentially lead to unauthorized ether withdrawal."
+    },
+    {
+      "location": "burn",
+      "message": "The `burn` function allows the owner to burn tokens without any access control or permission checking. This could potentially lead to unauthorized token burning."
+    },
+    {
+      "location": "withdrawForeignTokens",
+      "message": "The `withdrawForeignTokens` function allows the owner to withdraw tokens from the contract without any access control or permission checking. This could potentially lead to unauthorized token withdrawal."
+    }
+  ],
+  "0x9924A7E3A2756Ab8B9A828485f052b6693AaA33E/BAFCToken.sol": [
+    {
+      "location": "freezeAccount",
+      "message": "The \"onlyOwner\" modifier is used, but the \"owner\" variable is not initialized in the constructor function, leading to potential unauthorized access."
+    },
+    {
+      "location": "transferOwnership",
+      "message": "The \"onlyOwner\" modifier is used, but the \"owner\" variable is not initialized in the constructor function, leading to potential unauthorized access."
+    },
+    {
+      "location": "switchLiquidity",
+      "message": "The \"switchLiquidity\" function allows anyone to switch the liquidity, potentially leading to unauthorized changes in the contract's behavior."
+    },
+    {
+      "location": "approve",
+      "message": "The \"approve\" function does not have proper permission checking, allowing anyone to approve spending on behalf of another address."
+    }
+  ],
+  "0x9ab4FD2234D75CfA894C394b367e48055b531e56/RobotBTC.sol": [
+    {
+      "location": "owned",
+      "message": "Constructor named `owned` should be `constructor` instead."
+    },
+    {
+      "location": "mintToken",
+      "message": "Missing modifier to enforce access control."
+    },
+    {
+      "location": "freezeAccount",
+      "message": "Missing modifier to enforce access control."
+    },
+    {
+      "location": "setPrices",
+      "message": "Missing modifier to enforce access control."
+    },
+    {
+      "location": "setExchange",
+      "message": "Missing modifier to enforce access control."
+    }
+  ],
+  "0x9b481067ef9773d52efd0fb5b665a5dc0c8e1a68/ERCDDAToken.sol": [
+    {
+      "location": "freezeAccount",
+      "message": "Ensuring that only the owner can freeze or unfreeze accounts."
+    },
+    {
+      "location": "burn",
+      "message": "Ensuring that only the owner can burn tokens."
+    },
+    {
+      "location": "mintToken",
+      "message": "Ensuring that only the owner can mint new tokens."
+    }
+  ],
+  "0x9ef0EB9D97E4E7c8612D4E5AAF9201e35bD3670b/EAI_TokenERC.sol": [
+    {
+      "location": "EAI_TokenERC20",
+      "message": "The constructor function is named `EAI_TokenERC20` instead of `EAI_TokenERC`, which could potentially allow anyone to call it to initialize the contract."
+    },
+    {
+      "location": "transfer",
+      "message": "There is no implementation of access control modifier in the `transfer` function, allowing anyone to call it to perform actions on the contract."
+    },
+    {
+      "location": "transferFrom",
+      "message": "There is no implementation of access control modifier in the `transferFrom` function, allowing anyone to call it to perform actions on the contract."
+    },
+    {
+      "location": "burn",
+      "message": "The `burn` function allows anyone to burn tokens from their own account without any permission checking."
+    },
+    {
+      "location": "burnFrom",
+      "message": "The `burnFrom` function allows anyone to burn tokens from another account without any permission checking."
+    },
+    {
+      "location": "totalSupply",
+      "message": "There is no permission checking for the `totalSupply` variable, allowing anyone to change the total supply of the token without proper authorization."
+    }
+  ],
+  "0xCdCFc0f66c522Fd086A1b725ea3c0Eeb9F9e8814/AURA.sol": [
+    {
+      "location": "AURA",
+      "message": "The constructor function `AURA()` is public, which means anyone can call it to initialize the contract. This is an access control bug as only the contract creator should be able to initialize the contract."
+    },
+    {
+      "location": "setOwner",
+      "message": "The `setOwner` function in the `Owned` contract allows anyone to change the owner of the contract, which is a critical action. There is no permission checking in this function, so it is an access control bug."
+    },
+    {
+      "location": "unlockToken",
+      "message": "The `unlockToken` function in the `AURA` contract allows anyone to unlock the token, which is a critical action. There is no permission checking in this function, so it is an access control bug."
+    },
+    {
+      "location": "uploadBalances",
+      "message": "The `uploadBalances` function in the `AURA` contract allows anyone to upload balances for multiple recipients, which can change the ownership of tokens. There is no permission checking in this function, so it is an access control bug."
+    },
+    {
+      "location": "lockBalances",
+      "message": "The `lockBalances` function in the `AURA` contract allows anyone to lock the balances, which is a critical action. There is no permission checking in this function, so it is an access control bug."
+    }
+  ],
+  "0xE30a76ec9168639F09061e602924ae601D341066/NewIntelTechMedia.sol": [
+    {
+      "location": "NETM",
+      "message": "The constructor function is named \"NETM\" instead of \"NewIntelTechMedia\", which could potentially allow anyone to call it and initialize the contract. This is an access control bug."
+    },
+    {
+      "location": "distr",
+      "message": "The \"distr\" function does not have any permission checking, allowing anyone to distribute tokens. This is an access control bug."
+    },
+    {
+      "location": "getTokens",
+      "message": "The \"getTokens\" function does not have proper permission checking, allowing anyone to get tokens. This is an access control bug."
+    },
+    {
+      "location": "withdraw",
+      "message": "The \"withdraw\" function only has the \"onlyOwner\" modifier, which means only the owner can withdraw ether from the contract. However, it does not have any permission checking for token withdrawal, which could potentially allow anyone to withdraw tokens. This is an access control bug."
+    },
+    {
+      "location": "burn",
+      "message": "The \"burn\" function only has the \"onlyOwner\" modifier, which means only the owner can burn tokens. However, it does not have any permission checking for token burning, which could potentially allow anyone to burn tokens. This is an access control bug."
+    },
+    {
+      "location": "withdrawForeignTokens",
+      "message": "The \"withdrawForeignTokens\" function only has the \"onlyOwner\" modifier, which means only the owner can withdraw foreign tokens from the contract. However, it does not have any permission checking for token withdrawal, which could potentially allow anyone to withdraw foreign tokens. This is an access control bug."
+    }
+  ],
+  "0xcc13fc627effd6e35d2d2706ea3c4d7396c610ea/IDXM.sol": [
+    {
+      "location": "IDXM",
+      "message": "The constructor function `IDXM()` is public, which means anyone can call it to initialize the contract. This could be a potential access control bug if only the owner should be able to initialize the contract."
+    },
+    {
+      "location": "setOwner",
+      "message": "The `setOwner` function allows anyone to change the owner of the contract, which could be a potential access control bug if only the current owner should be able to change the owner."
+    },
+    {
+      "location": "uploadBalances",
+      "message": "The `uploadBalances` function can only be called by the owner, but it does not check for permission to change the balances of other addresses. This could be a potential access control bug if only the owner should be able to change the balances of other addresses."
+    },
+    {
+      "location": "lockBalances",
+      "message": "The `lockBalances` function can only be called by the owner, but it does not check for permission to lock the balances. This could be a potential access control bug if only the owner should be able to lock the balances."
+    },
+    {
+      "location": "transfer and transferFrom",
+      "message": "The `transfer` and `transferFrom` functions do not have any access control modifiers, which means anyone can call these functions to transfer tokens. This could be a potential access control bug if only certain addresses should be able to transfer tokens."
+    },
+    {
+      "location": "unlockToken",
+      "message": "The `unlockToken` function can only be called by the owner, but it does not check for permission to unlock the token. This could be a potential access control bug if only the owner should be able to unlock the token."
+    },
+    {
+      "location": "setExportFee and setHoldingPeriod",
+      "message": "The `setExportFee` and `setHoldingPeriod` functions can only be called by the owner, but they do not check for permission to change the export fee or holding period. This could be a potential access control bug if only the owner should be able to change these parameters."
+    }
+  ],
+  "0xd58132f2fbd65f02beee0626542e6ee059009ab4/XBORNID.sol": [
+    {
+      "location": "XBornID",
+      "message": "The constructor function is named \"XBornID\" instead of \"constructor\", which means it can be called by anyone to initialize the contract."
+    },
+    {
+      "location": "distr",
+      "message": "The \"distr\" function does not have any permission checking, allowing anyone to distribute tokens."
+    },
+    {
+      "location": "transferOwnership",
+      "message": "The \"transferOwnership\" function does not have any permission checking, allowing anyone to change the ownership of the contract."
+    },
+    {
+      "location": "finishDistribution",
+      "message": "The \"finishDistribution\" function does not have any permission checking, allowing anyone to finish the token distribution."
+    },
+    {
+      "location": "withdraw",
+      "message": "The \"withdraw\" function does not have any permission checking, allowing anyone to withdraw ether from the contract."
+    },
+    {
+      "location": "burn",
+      "message": "The \"burn\" function does not have any permission checking, allowing anyone to burn tokens."
+    },
+    {
+      "location": "withdrawForeignTokens",
+      "message": "The \"withdrawForeignTokens\" function does not have any permission checking, allowing anyone to withdraw foreign tokens from the contract."
+    }
+  ],
+  "0xe81d72d14b1516e68ac3190a46c93302cc8ed60f/Coinlancer.sol": [
+    {
+      "location": "Coinlancer",
+      "message": "The constructor function \"Coinlancer\" is not explicitly defined as public or private, which means it is public by default. This allows anyone to call the constructor function and potentially reinitialize the contract."
+    },
+    {
+      "location": "onlyOwner modifier",
+      "message": "The \"onlyOwner\" modifier is incorrectly implemented. The require statement should check if the message sender is equal to the owner, but it currently checks if they are not equal. This means that anyone can execute functions with the \"onlyOwner\" modifier."
+    },
+    {
+      "location": "transfer and transferFrom",
+      "message": "There is no permission checking in the \"transfer\" and \"transferFrom\" functions to change the ownership or admin rights of the contract. This means that anyone can transfer tokens without proper authorization."
+    },
+    {
+      "location": "approve",
+      "message": "The \"approve\" function allows anyone to set the allowance for a spender without proper permission checking. This can lead to unauthorized token transfers."
+    },
+    {
+      "location": "Self-destruct, ether withdrawal, token withdrawal functions",
+      "message": "There is no explicit permission checking for self-destruct, ether withdrawal, or token withdrawal functions, which means anyone can potentially perform these actions."
+    },
+    {
+      "location": "Burning, transferring tokens, minting",
+      "message": "The contract does not have any explicit permission checking for burning, transferring tokens belonging to other users, or minting an unlimited amount of tokens."
+    }
+  ]
+}

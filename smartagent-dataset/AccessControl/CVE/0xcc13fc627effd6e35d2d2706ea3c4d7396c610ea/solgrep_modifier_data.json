@@ -1,0 +1,15 @@
+{
+  "/smart-agent/smartagent-dataset/AccessControl/CVE/0xcc13fc627effd6e35d2d2706ea3c4d7396c610ea/IDXM.sol": [
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: Owned.onlyOwner",
+      "info": "onlyOwner",
+      "loc": [
+        37,
+        2,
+        40,
+        2
+      ]
+    }
+  ]
+}

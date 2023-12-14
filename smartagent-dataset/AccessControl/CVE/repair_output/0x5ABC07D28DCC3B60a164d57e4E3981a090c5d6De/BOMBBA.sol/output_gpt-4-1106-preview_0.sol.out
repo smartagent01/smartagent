@@ -1,0 +1,10 @@
+File copied : /root/Achecker/output_gpt-4-1106-preview_0.sol.bin-runtime
+processing /root/Achecker/output_gpt-4-1106-preview_0.sol.bin-runtime
+Checking contract for [4mViolated-AC-Check[0m 
+------------------
+
+
+Checking contract for [4mMissing-AC-Check[0m 
+------------------
+631e4f62c412a4a4ed2bbe5704880fca93f55b03f1e84846c809512e559a3549
+(True, None, None)

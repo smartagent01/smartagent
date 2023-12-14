@@ -1,0 +1,7 @@
+```
+initialize
+The `initialize` function is marked as `public`, allowing anyone to call it and potentially lead to unauthorized access to the contract's initialization process.
+
+rebalance
+The `rebalance` function is marked as `external`, allowing unauthorized access to the rebalance functionality.
+```

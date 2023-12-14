@@ -1,0 +1,332 @@
+METRICS: Using configs from the Registry (like --config=p/ci) reports pseudonymous rule metrics to semgrep.dev.
+To disable Registry rule metrics, use "--metrics=off".
+Using configs only from local files (like --config=xyz.yml) does not enable metrics.
+
+More information: https://semgrep.dev/docs/metrics
+
+               
+               
+┌─────────────┐
+│ Scan Status │
+└─────────────┘
+  Scanning 1 file tracked by git with 48 Code rules:
+  Scanning 1 file with 48 solidity rules.
+                    
+                    
+┌──────────────────┐
+│ 83 Code Findings │
+└──────────────────┘
+                                                       
+    /sb/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol 
+       solidity.best-practice.use-abi-encodecall-instead-of-encodewithselector  
+          To guarantee arguments type safety it is recommended to use           
+  `abi.encodeCall` instead of                                                   
+          `abi.encodeWithSelector`.                                             
+                                                                                
+          472┆ _callOptionalReturn(token,                                       
+  abi.encodeWithSelector(token.transfer.selector, to, value));                  
+            ⋮┆----------------------------------------
+          476┆ _callOptionalReturn(token,                                       
+  abi.encodeWithSelector(token.transferFrom.selector, from, to, value));        
+            ⋮┆----------------------------------------
+          494┆ _callOptionalReturn(token,                                       
+  abi.encodeWithSelector(token.approve.selector, spender, value));              
+            ⋮┆----------------------------------------
+          499┆ _callOptionalReturn(token,                                       
+  abi.encodeWithSelector(token.approve.selector, spender, newAllowance));       
+            ⋮┆----------------------------------------
+          504┆ _callOptionalReturn(token,                                       
+  abi.encodeWithSelector(token.approve.selector, spender, newAllowance));       
+            ⋮┆----------------------------------------
+       solidity.performance.init-variables-with-default-value                   
+          Uninitialized variables are assigned with the types default value.    
+  Explicitly initializing a                                                     
+          variable with its default value costs unnecessary gas.                
+                                                                                
+          879┆ bool private reentrancyLock = false;
+            ⋮┆----------------------------------------
+       solidity.performance.non-payable-constructor      
+          Consider making costructor payable to save gas.
+                                                         
+          539┆ constructor(address multiSignature) public {
+          540┆     require(multiSignature != address(0),"multiSignatureClient : 
+  Multiple signature contract address is zero!");                               
+          541┆     saveValue(multiSignaturePositon,uint256(multiSignature));
+          542┆ }
+            ⋮┆----------------------------------------
+          593┆ constructor(address multiSignature)                              
+  multiSignatureClient(multiSignature) public{                                  
+          594┆     _setProxyOwner(msg.sender);
+          595┆     _setProxyOrigin(tx.origin);
+          596┆ }
+            ⋮┆----------------------------------------
+         1049┆ constructor (address multiSignature) proxyOwner(multiSignature)  
+  public{                                                                       
+         1050┆ }
+            ⋮┆----------------------------------------
+       solidity.performance.unnecessary-checked-arithmetic-in-loop              
+          A lot of times there is no risk that the loop counter can overflow.   
+  Using Solidity's                                                              
+          unchecked block saves the overflow checks.                            
+                                                                                
+          808┆ for (uint i=0;i<len;i++){
+            ⋮┆----------------------------------------
+       solidity.performance.use-custom-error-not-require                        
+          Consider using custom errors as they are more gas efficient while     
+  allowing developers  to                                                       
+          describe the error in detail using NatSpec.                           
+                                                                                
+          121┆ require(c >= a, "SafeMath: addition overflow");
+            ⋮┆----------------------------------------
+          175┆ require(c / a == b, "SafeMath: multiplication overflow");
+            ⋮┆----------------------------------------
+          313┆ require(address(this).balance >= amount, "Address: insufficient  
+  balance");                                                                    
+            ⋮┆----------------------------------------
+          317┆ require(success, "Address: unable to send value, recipient may   
+  have reverted");                                                              
+            ⋮┆----------------------------------------
+          374┆ require(address(this).balance >= value, "Address: insufficient   
+  balance for call");                                                           
+            ⋮┆----------------------------------------
+          375┆ require(isContract(target), "Address: call to non-contract");
+            ⋮┆----------------------------------------
+          399┆ require(isContract(target), "Address: static call to             
+  non-contract");                                                               
+            ⋮┆----------------------------------------
+          423┆ require(isContract(target), "Address: delegate call to           
+  non-contract");                                                               
+            ⋮┆----------------------------------------
+          491┆ require((value == 0) || (token.allowance(address(this), spender) 
+  == 0),                                                                        
+          492┆     "SafeERC20: approve from non-zero to non-zero allowance"
+          493┆ );
+            ⋮┆----------------------------------------
+          521┆ require(abi.decode(returndata, (bool)), "SafeERC20: ERC20        
+  operation did not succeed");                                                  
+            ⋮┆----------------------------------------
+          540┆ require(multiSignature != address(0),"multiSignatureClient :     
+  Multiple signature contract address is zero!");                               
+            ⋮┆----------------------------------------
+          559┆ require(newIndex > index, "multiSignatureClient : This tx is not 
+  aprroved");                                                                   
+            ⋮┆----------------------------------------
+          629┆ require (isOwner(),"proxyOwner: caller must be the proxy owner   
+  and a contract and not expired");                                             
+            ⋮┆----------------------------------------
+          657┆ require (msg.sender == txOrigin(),"proxyOwner: caller is not the 
+  tx origin!");                                                                 
+            ⋮┆----------------------------------------
+          659┆ require (getValue(key)==0, "proxyOwner : This function must be   
+  invoked only once!");                                                         
+            ⋮┆----------------------------------------
+          670┆ require (msg.sender == txOrigin(),"proxyOwner: caller is not the 
+  tx origin!");                                                                 
+            ⋮┆----------------------------------------
+          679┆ require(false,"proxyOwner: caller is not owner or origin");
+            ⋮┆----------------------------------------
+          740┆ require(initializing || isConstructor() || !initialized,         
+  "Contract instance has already been initialized");                            
+            ⋮┆----------------------------------------
+          780┆ require(implementationVersion() > version() &&                   
+  ownerExpiredTime()>now,"New version implementation is already updated!");     
+            ⋮┆----------------------------------------
+          809┆ require(prices[i] >= 100 && prices[i] <= 1e30,"oracle price      
+  error");                                                                      
+            ⋮┆----------------------------------------
+          815┆ require(price >= 100 && price <= 1e30,"oracle price error");
+            ⋮┆----------------------------------------
+          820┆ require(price >= 100 && price <= 1e30,"oracle price error");
+            ⋮┆----------------------------------------
+          825┆ require(price1 >= 100 && price1 <= 1e30,"oracle price error");
+            ⋮┆----------------------------------------
+          826┆ require(price2 >= 100 && price2 <= 1e30,"oracle price error");
+            ⋮┆----------------------------------------
+          911┆ require(msg.sender == _operators[managerIndex], "Operator: caller
+  is not the manager");                                                         
+            ⋮┆----------------------------------------
+          915┆ require(_operators[index] == msg.sender,"Operator: caller is not 
+  the eligible Operator");                                                      
+            ⋮┆----------------------------------------
+          919┆ require(_operators[index1] == msg.sender || _operators[index2] ==
+  msg.sender,"Operator: caller is not the eligible Operator");                  
+            ⋮┆----------------------------------------
+          923┆ require(_operators[index1] == msg.sender || _operators[index2] ==
+  msg.sender || _operators[index3] == msg.sender,                               
+          924┆     "Operator: caller is not the eligible Operator");
+            ⋮┆----------------------------------------
+          935┆ require(index>0, "Index must greater than 0");
+            ⋮┆----------------------------------------
+         1060┆ require(swapRouter != _swapRouter,"swapRouter : same address");
+            ⋮┆----------------------------------------
+         1105┆ require(_buyFee<5e6 && _sellFee<5e6 &&_rebalanceFee<5e6,"Leverage
+  fee is beyond the limit");                                                    
+            ⋮┆----------------------------------------
+         1235┆ require(amount > 0, 'buy amount is zero');
+            ⋮┆----------------------------------------
+         1241┆ require(leverageAmount>=minAmount,"token amount is less than     
+  minAmount");                                                                  
+            ⋮┆----------------------------------------
+         1250┆ require(amount>=amountOut, "swap slip page is more than 2%");
+            ⋮┆----------------------------------------
+         1272┆ require(amount > 0, 'sell amount is zero');
+            ⋮┆----------------------------------------
+         1303┆ require(userPayback >= minAmount, "Repay amount is less than     
+  minAmount");                                                                  
+            ⋮┆----------------------------------------
+         1359┆ require(id == 0 || id == 1 ,"leverageInfo id is error!");
+            ⋮┆----------------------------------------
+         1442┆ require(false, "Liquidate: current price is not under the        
+  threshold!");                                                                 
+                
+                
+┌──────────────┐
+│ Scan Summary │
+└──────────────┘
+
+Ran 48 rules on 1 file: 83 findings.
+            ⋮┆----------------------------------------
+         1514┆ require(deadline >= block.timestamp, 'leveragedPool: EXPIRED');
+            ⋮┆----------------------------------------
+         1522┆ require(!halted,"This contract is halted");
+            ⋮┆----------------------------------------
+       solidity.performance.use-multiple-require                                
+          Using multiple require statements is cheaper than using && multiple   
+  check combinations.                                                           
+          There are more advantages, such as easier to read code and better     
+  coverage reports.                                                             
+                                                                                
+          780┆ require(implementationVersion() > version() &&                   
+  ownerExpiredTime()>now,"New version implementation is already updated!");     
+            ⋮┆----------------------------------------
+          809┆ require(prices[i] >= 100 && prices[i] <= 1e30,"oracle price      
+  error");                                                                      
+            ⋮┆----------------------------------------
+          815┆ require(price >= 100 && price <= 1e30,"oracle price error");
+            ⋮┆----------------------------------------
+          820┆ require(price >= 100 && price <= 1e30,"oracle price error");
+            ⋮┆----------------------------------------
+          825┆ require(price1 >= 100 && price1 <= 1e30,"oracle price error");
+            ⋮┆----------------------------------------
+          826┆ require(price2 >= 100 && price2 <= 1e30,"oracle price error");
+            ⋮┆----------------------------------------
+         1105┆ require(_buyFee<5e6 && _sellFee<5e6 &&_rebalanceFee<5e6,"Leverage
+  fee is beyond the limit");                                                    
+            ⋮┆----------------------------------------
+       solidity.performance.use-nested-if                                       
+          Using nested is cheaper than using && multiple check combinations.    
+  There are more                                                                
+          advantages, such as easier to read code and better coverage reports.  
+                                                                                
+         1326┆ if(leverageRate <defaultLeverageRatio+rebalanceTol &&
+         1327┆     leverageRate >defaultLeverageRatio-rebalanceTol){
+         1328┆         return (0,0);
+         1329┆ }
+            ⋮┆----------------------------------------
+         1380┆         if (buyLev > 0 && buyHe>0){
+         1381┆                                                                  
+  swapRebalance(leverageCoin.token,hedgeCoin.token,buyLev,buyHe,currentPrice,0);
+         1382┆ //                                                               
+  delegateCallSwap(abi.encodeWithSignature("swapBuyAndBuy(address,address,addres
+  s,uint256,uint256,uint256[2])",                                               
+         1383┆ //                                                               
+  swapRouter,leverageCoin.token,hedgeCoin.token,buyLev,buyHe,currentPrice));    
+         1384┆         }else if(buyLev>0){
+         1385┆                                                                  
+  swapRebalance(leverageCoin.token,hedgeCoin.token,buyLev,sellHe,currentPrice,2<
+  <128);                                                                        
+         1386┆ //                                                               
+  delegateCallSwap(abi.encodeWithSignature("swapBuyAndSell(address,address,addre
+  ss,uint256,uint256,uint256[2],uint8)",                                        
+         1387┆ //                                                               
+  swapRouter,leverageCoin.token,hedgeCoin.token,buyLev,sellHe.mulPrice(currentPr
+  ice,0)/calDecimal,currentPrice,0));                                           
+         1388┆         }else if(buyHe>0){
+         1389┆                                                                  
+  swapRebalance(hedgeCoin.token,leverageCoin.token,buyHe,sellLev,currentPrice,(2
+  <<128)+1);                                                                    
+             [hid 9 additional lines, adjust with --max-lines-per-finding] 
+       solidity.performance.use-prefix-increment-not-postfix                    
+          Consider using the prefix increment expression whenever the return    
+  value is not needed. The                                                      
+          prefix increment expression is cheaper in terms of gas.               
+                                                                                
+          808┆ for (uint i=0;i<len;i++){
+            ⋮┆----------------------------------------
+       solidity.performance.use-short-revert-string                             
+          Shortening revert strings to fit in 32 bytes will decrease gas costs  
+  for deployment and  gas                                                       
+          costs when the revert condition has been met.                         
+                                                                                
+          175┆ require(c / a == b, "SafeMath: multiplication overflow");
+            ⋮┆----------------------------------------
+          317┆ require(success, "Address: unable to send value, recipient may   
+  have reverted");                                                              
+            ⋮┆----------------------------------------
+          374┆ require(address(this).balance >= value, "Address: insufficient   
+  balance for call");                                                           
+            ⋮┆----------------------------------------
+          399┆ require(isContract(target), "Address: static call to             
+  non-contract");                                                               
+            ⋮┆----------------------------------------
+          423┆ require(isContract(target), "Address: delegate call to           
+  non-contract");                                                               
+            ⋮┆----------------------------------------
+          491┆ require((value == 0) || (token.allowance(address(this), spender) 
+  == 0),                                                                        
+          492┆     "SafeERC20: approve from non-zero to non-zero allowance"
+          493┆ );
+            ⋮┆----------------------------------------
+          521┆ require(abi.decode(returndata, (bool)), "SafeERC20: ERC20        
+  operation did not succeed");                                                  
+            ⋮┆----------------------------------------
+          540┆ require(multiSignature != address(0),"multiSignatureClient :     
+  Multiple signature contract address is zero!");                               
+            ⋮┆----------------------------------------
+          559┆ require(newIndex > index, "multiSignatureClient : This tx is not 
+  aprroved");                                                                   
+            ⋮┆----------------------------------------
+          629┆ require (isOwner(),"proxyOwner: caller must be the proxy owner   
+  and a contract and not expired");                                             
+            ⋮┆----------------------------------------
+          657┆ require (msg.sender == txOrigin(),"proxyOwner: caller is not the 
+  tx origin!");                                                                 
+            ⋮┆----------------------------------------
+          659┆ require (getValue(key)==0, "proxyOwner : This function must be   
+  invoked only once!");                                                         
+            ⋮┆----------------------------------------
+          670┆ require (msg.sender == txOrigin(),"proxyOwner: caller is not the 
+  tx origin!");                                                                 
+            ⋮┆----------------------------------------
+          679┆ require(false,"proxyOwner: caller is not owner or origin");
+            ⋮┆----------------------------------------
+          740┆ require(initializing || isConstructor() || !initialized,         
+  "Contract instance has already been initialized");                            
+            ⋮┆----------------------------------------
+          780┆ require(implementationVersion() > version() &&                   
+  ownerExpiredTime()>now,"New version implementation is already updated!");     
+            ⋮┆----------------------------------------
+          911┆ require(msg.sender == _operators[managerIndex], "Operator: caller
+  is not the manager");                                                         
+            ⋮┆----------------------------------------
+          915┆ require(_operators[index] == msg.sender,"Operator: caller is not 
+  the eligible Operator");                                                      
+            ⋮┆----------------------------------------
+          919┆ require(_operators[index1] == msg.sender || _operators[index2] ==
+  msg.sender,"Operator: caller is not the eligible Operator");                  
+            ⋮┆----------------------------------------
+          923┆ require(_operators[index1] == msg.sender || _operators[index2] ==
+  msg.sender || _operators[index3] == msg.sender,                               
+          924┆     "Operator: caller is not the eligible Operator");
+            ⋮┆----------------------------------------
+         1241┆ require(leverageAmount>=minAmount,"token amount is less than     
+  minAmount");                                                                  
+            ⋮┆----------------------------------------
+         1303┆ require(userPayback >= minAmount, "Repay amount is less than     
+  minAmount");                                                                  
+            ⋮┆----------------------------------------
+         1442┆ require(false, "Liquidate: current price is not under the        
+  threshold!");                                                                 
+
+
+A new version of Semgrep is available. See https://semgrep.dev/docs/upgrading

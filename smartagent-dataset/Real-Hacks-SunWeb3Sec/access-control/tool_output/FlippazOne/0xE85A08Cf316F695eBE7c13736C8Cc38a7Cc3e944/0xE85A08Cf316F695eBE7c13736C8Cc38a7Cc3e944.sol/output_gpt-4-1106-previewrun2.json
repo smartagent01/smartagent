@@ -1,0 +1,14 @@
+ownerWithdraw
+Anyone can call this function and potentially withdraw funds from the contract.
+
+ownerWithdrawTo
+Anyone can call this function and potentially withdraw funds from the contract.
+
+ownerWithdrawAll
+Anyone can call this function and potentially withdraw funds from the contract.
+
+ownerWithdrawAllTo
+Anyone can call this function and potentially withdraw funds from the contract.
+
+refundBids
+Anyone can trigger refunds, which could be used maliciously to deny service.

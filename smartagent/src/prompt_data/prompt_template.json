@@ -1,0 +1,27 @@
+{
+    "llm-detector":
+    {
+        "bug-type": "access control",
+        "bug-description": "Access control bug means that an unauthorized user can withdraw ether, token, destroy, perform arbitrary logic or critical action on the smart contract.",
+        "bug-sample": [
+                        "Incorrect constructor name or initialize function that is public, allow anyone to call it to initialize the contract. ",
+                        "Incorrect implementation of access control modifier.",
+                        "Missing permission checking in functions that can change the ownership or admin right of the contract.",
+                        "Allow anyone to self destruct, withdraw ether, or withdraw token from the contract. ",
+                        "Allow anyone to burn, transfer token belong to other users or minting unlimited amount of token. ",
+                        "Allow anyone to delegate call to their controlled contract. ",
+                        "Allow anyone to perform external call to arbitrary contract. "]
+    },
+    "llm-repair":{
+        "bug-type": "access control",
+        "repair-samples":[
+            "//1. In solidity version before 0.5.0, if the intended logic is constructor, change the function name to match the contract name:\npragma solidity ^0.4.23;\ncontract Test {\n   address owner;\n   uint data;\n   // change any wrong named function to match contract name \n   function Test(uint _data) public {\n      owner = msg.sender; \n      data = _data;\n   }\n}",
+            "//2. From solidity 0.5.0, if the intended logic is constructor, fix the function name to `constructor`. :\npragma solidity ^0.5.0;\ncontract Test {\n   address owner;\n   uint data;\n   constructor(uint _data) public {\n      owner = msg.sender; \n      data = _data;\n   }\n}",
+            "//3. When necessary, add relevant modifier(s)\n//4. When necessary, add additional validations\n//5. When necessary, change the function body\n\ncontract Test {\n   address owner;\n   modifier onlyOwner() {\n    require(msg.sender == owner);\n    _;\n  }\n   uint data;\n   // add modifier \n   function important_function_1(uint _data) public onlyOwner {\n      // important function logic\n   }\n   function important_function_2(uint _data) public {\n      // add sender validation \n      require(msg.sender == owner);\n      // important function logic\n   }\n   function important_function_3(uint _data) public {\n      // fix the buggy logic intended to be accessed by anyone\n   }\n}"
+        ]
+    },
+    "llm-output-analyzer":
+    {
+        "instruction": "You are a semantic analyzer of text. The following text is a vulnerability detection result for a smart contract for access control related bug. output the function and the one sentence reason why the bug exist. Only print the function, the message, and nothing else. The text is:"
+    }
+}

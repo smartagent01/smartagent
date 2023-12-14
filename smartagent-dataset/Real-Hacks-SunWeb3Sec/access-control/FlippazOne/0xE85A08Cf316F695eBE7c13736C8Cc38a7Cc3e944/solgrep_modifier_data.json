@@ -1,0 +1,15 @@
+{
+  "/smart-agent-artifact/smart-agent/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol": [
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: Ownable.onlyOwner",
+      "info": "onlyOwner",
+      "loc": [
+        1082,
+        4,
+        1085,
+        4
+      ]
+    }
+  ]
+}

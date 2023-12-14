@@ -1,0 +1,34 @@
+File copied : /root/Achecker/XBORNID.bin-runtime
+processing /root/Achecker/XBORNID.bin-runtime
+Checking contract for [4mViolated-AC-Check[0m 
+------------------
+
+Violated access control check in function withdraw()
+	( 3830)  ef6:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {1} in function XBornID()
++--Attacker can make changes to AC item {1} in function transferOwnership(address)
+
+Violated access control check in function burn(uint256)
+	( 4064)  fe0:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {1} in function XBornID()
++--Attacker can make changes to AC item {1} in function transferOwnership(address)
+
+Violated access control check in function finishDistribution()
+	( 4654) 122e:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {1} in function XBornID()
++--Attacker can make changes to AC item {1} in function transferOwnership(address)
+
+Violated access control check in function withdrawForeignTokens(address)
+	( 5994) 176a:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {1} in function XBornID()
++--Attacker can make changes to AC item {1} in function transferOwnership(address)
+
+Violated access control check in function transferOwnership(address)
+	( 6576) 19b0:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {1} in function XBornID()
++--Attacker can make changes to AC item {1} in function transferOwnership(address)
+
+
+Checking contract for [4mMissing-AC-Check[0m 
+------------------
+2e28e46fd03c8aa0aae97163c7d1d35ab89cb524fb8eb7f6085761d6527dfa30

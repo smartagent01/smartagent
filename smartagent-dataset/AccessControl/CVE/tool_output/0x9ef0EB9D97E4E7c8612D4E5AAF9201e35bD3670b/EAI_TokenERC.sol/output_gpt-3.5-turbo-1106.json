@@ -1,0 +1,19 @@
+```
+EAI_TokenERC20
+The constructor function is named `EAI_TokenERC20` instead of `EAI_TokenERC`, which could potentially allow anyone to call it to initialize the contract.
+
+transfer
+There is no implementation of access control modifier in the `transfer` function, allowing anyone to call it to perform actions on the contract.
+
+transferFrom
+There is no implementation of access control modifier in the `transferFrom` function, allowing anyone to call it to perform actions on the contract.
+
+burn
+The `burn` function allows anyone to burn tokens from their own account without any permission checking.
+
+burnFrom
+The `burnFrom` function allows anyone to burn tokens from another account without any permission checking.
+
+totalSupply
+There is no permission checking for the `totalSupply` variable, allowing anyone to change the total supply of the token without proper authorization.
+```

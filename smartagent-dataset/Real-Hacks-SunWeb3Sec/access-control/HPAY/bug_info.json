@@ -1,0 +1,19 @@
+[
+  {
+    "bug": [
+      "AccessControl"
+    ],
+    "blockchain": "BSC",
+    "address": "0xE9bc03Ef08E991a99F1bd095a8590499931DcC30",
+    "compiler_version": "0.8.9",
+    "contract": "MintableAutoCompundRelockBonus",
+    "function": "setToken",
+    "source_file": "0xE9bc03Ef08E991a99F1bd095a8590499931DcC30_flattened.sol",
+    "line_start": 3678,
+    "line_end": 3681,
+    "reference": [
+      "https://github.com/SunWeb3Sec/DeFiHackLabs/blob/main/src/test/HPAY_exp.sol"
+    ],
+    "note": ""
+  }
+]

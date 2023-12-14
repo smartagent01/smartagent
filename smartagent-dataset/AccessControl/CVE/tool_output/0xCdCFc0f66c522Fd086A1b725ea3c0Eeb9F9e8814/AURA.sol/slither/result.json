@@ -1,0 +1,276 @@
+{
+    "errors": [
+        "EXIT_CODE_29"
+    ],
+    "fails": [],
+    "findings": [
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xCdCFc0f66c522Fd086A1b725ea3c0Eeb9F9e8814/AURA.sol",
+            "impact": "Informational",
+            "line": 42,
+            "line_end": 43,
+            "message": "AURA.decimals should be constant (AURA.sol#42-43)\nAURA.name should be constant (AURA.sol#40-41)\nAURA.symbol should be constant (AURA.sol#41-42)\n",
+            "name": "constable-states"
+        },
+        {
+            "confidence": "High",
+            "contract": "tokenRecipient",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xCdCFc0f66c522Fd086A1b725ea3c0Eeb9F9e8814/AURA.sol",
+            "function": "receiveApproval",
+            "impact": "Informational",
+            "line": 3,
+            "message": "tokenRecipient.receiveApproval (AURA.sol#3) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "SafeMath",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xCdCFc0f66c522Fd086A1b725ea3c0Eeb9F9e8814/AURA.sol",
+            "function": "safeMul",
+            "impact": "Informational",
+            "line": 6,
+            "line_end": 11,
+            "message": "SafeMath.safeMul (AURA.sol#6-11) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "Owned",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xCdCFc0f66c522Fd086A1b725ea3c0Eeb9F9e8814/AURA.sol",
+            "function": "setOwner",
+            "impact": "Informational",
+            "line": 27,
+            "line_end": 32,
+            "message": "Owned.setOwner (AURA.sol#27-32) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "AURA",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xCdCFc0f66c522Fd086A1b725ea3c0Eeb9F9e8814/AURA.sol",
+            "function": "transfer",
+            "impact": "Informational",
+            "line": 82,
+            "line_end": 89,
+            "message": "AURA.transfer (AURA.sol#82-89) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "AURA",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xCdCFc0f66c522Fd086A1b725ea3c0Eeb9F9e8814/AURA.sol",
+            "function": "transferFrom",
+            "impact": "Informational",
+            "line": 95,
+            "line_end": 105,
+            "message": "AURA.transferFrom (AURA.sol#95-105) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "AURA",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xCdCFc0f66c522Fd086A1b725ea3c0Eeb9F9e8814/AURA.sol",
+            "function": "approveAndCall",
+            "impact": "Informational",
+            "line": 129,
+            "line_end": 141,
+            "message": "AURA.approveAndCall (AURA.sol#129-141) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "AURA",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xCdCFc0f66c522Fd086A1b725ea3c0Eeb9F9e8814/AURA.sol",
+            "function": "unlockToken",
+            "impact": "Informational",
+            "line": 141,
+            "line_end": 142,
+            "message": "AURA.unlockToken (AURA.sol#141-142) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "AURA",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xCdCFc0f66c522Fd086A1b725ea3c0Eeb9F9e8814/AURA.sol",
+            "function": "uploadBalances",
+            "impact": "Informational",
+            "line": 144,
+            "line_end": 153,
+            "message": "AURA.uploadBalances (AURA.sol#144-153) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "AURA",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xCdCFc0f66c522Fd086A1b725ea3c0Eeb9F9e8814/AURA.sol",
+            "function": "lockBalances",
+            "impact": "Informational",
+            "message": "AURA.lockBalances (AURA.sol) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xCdCFc0f66c522Fd086A1b725ea3c0Eeb9F9e8814/AURA.sol",
+            "impact": "Informational",
+            "line": 1,
+            "message": "Detected issues with version pragma in AURA.sol:\n\t- pragma solidity^0.4.19 (AURA.sol#1): it allows old versions\n",
+            "name": "solc-version"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xCdCFc0f66c522Fd086A1b725ea3c0Eeb9F9e8814/AURA.sol",
+            "impact": "Informational",
+            "line": 3,
+            "line_end": 5,
+            "message": "Contract 'tokenRecipient' (AURA.sol#3-5) is not in CapWords\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xCdCFc0f66c522Fd086A1b725ea3c0Eeb9F9e8814/AURA.sol",
+            "impact": "Informational",
+            "line": 25,
+            "line_end": 27,
+            "message": "Function 'Owned.Owned' (AURA.sol#25-27) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xCdCFc0f66c522Fd086A1b725ea3c0Eeb9F9e8814/AURA.sol",
+            "impact": "Informational",
+            "line": 27,
+            "message": "Parameter '_owner' of Owned.setOwner (AURA.sol#27) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xCdCFc0f66c522Fd086A1b725ea3c0Eeb9F9e8814/AURA.sol",
+            "impact": "Informational",
+            "line": 54,
+            "line_end": 59,
+            "message": "Function 'AURA.AURA' (AURA.sol#54-59) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xCdCFc0f66c522Fd086A1b725ea3c0Eeb9F9e8814/AURA.sol",
+            "impact": "Informational",
+            "line": 61,
+            "line_end": 76,
+            "message": "Function 'AURA._transfer' (AURA.sol#61-76) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xCdCFc0f66c522Fd086A1b725ea3c0Eeb9F9e8814/AURA.sol",
+            "impact": "Informational",
+            "line": 62,
+            "message": "Parameter '_from' of AURA._transfer (AURA.sol#62) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xCdCFc0f66c522Fd086A1b725ea3c0Eeb9F9e8814/AURA.sol",
+            "impact": "Informational",
+            "line": 62,
+            "message": "Parameter '_to' of AURA._transfer (AURA.sol#62) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xCdCFc0f66c522Fd086A1b725ea3c0Eeb9F9e8814/AURA.sol",
+            "impact": "Informational",
+            "line": 62,
+            "message": "Parameter '_value' of AURA._transfer (AURA.sol#62) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xCdCFc0f66c522Fd086A1b725ea3c0Eeb9F9e8814/AURA.sol",
+            "impact": "Informational",
+            "line": 82,
+            "message": "Parameter '_to' of AURA.transfer (AURA.sol#82) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xCdCFc0f66c522Fd086A1b725ea3c0Eeb9F9e8814/AURA.sol",
+            "impact": "Informational",
+            "line": 82,
+            "line_end": 83,
+            "message": "Parameter '_value' of AURA.transfer (AURA.sol#82-83) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xCdCFc0f66c522Fd086A1b725ea3c0Eeb9F9e8814/AURA.sol",
+            "impact": "Informational",
+            "line": 96,
+            "message": "Parameter '_from' of AURA.transferFrom (AURA.sol#96) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xCdCFc0f66c522Fd086A1b725ea3c0Eeb9F9e8814/AURA.sol",
+            "impact": "Informational",
+            "line": 96,
+            "message": "Parameter '_to' of AURA.transferFrom (AURA.sol#96) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xCdCFc0f66c522Fd086A1b725ea3c0Eeb9F9e8814/AURA.sol",
+            "impact": "Informational",
+            "line": 96,
+            "message": "Parameter '_value' of AURA.transferFrom (AURA.sol#96) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xCdCFc0f66c522Fd086A1b725ea3c0Eeb9F9e8814/AURA.sol",
+            "impact": "Informational",
+            "line": 113,
+            "message": "Parameter '_spender' of AURA.approve (AURA.sol#113) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xCdCFc0f66c522Fd086A1b725ea3c0Eeb9F9e8814/AURA.sol",
+            "impact": "Informational",
+            "line": 113,
+            "message": "Parameter '_value' of AURA.approve (AURA.sol#113) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xCdCFc0f66c522Fd086A1b725ea3c0Eeb9F9e8814/AURA.sol",
+            "impact": "Informational",
+            "line": 129,
+            "message": "Parameter '_spender' of AURA.approveAndCall (AURA.sol#129) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xCdCFc0f66c522Fd086A1b725ea3c0Eeb9F9e8814/AURA.sol",
+            "impact": "Informational",
+            "line": 129,
+            "message": "Parameter '_value' of AURA.approveAndCall (AURA.sol#129) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xCdCFc0f66c522Fd086A1b725ea3c0Eeb9F9e8814/AURA.sol",
+            "impact": "Informational",
+            "line": 130,
+            "message": "Parameter '_extraData' of AURA.approveAndCall (AURA.sol#130) is not in mixedCase\n",
+            "name": "naming-convention"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "slither",
+        "mode": "solidity",
+        "version": "2022/11/14"
+    }
+}

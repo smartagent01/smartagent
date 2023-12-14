@@ -1,0 +1,14 @@
+Running SPCON... 0x6E58b4c41cAB75dc0239938BF5455aB8823EE4DE 600 2022-05-23
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/SpCon-0.1.0-py3.8.egg/spcon/__main__.py", line 67, in main
+    execute_command(args)
+  File "/usr/local/lib/python3.8/dist-packages/SpCon-0.1.0-py3.8.egg/spcon/__main__.py", line 27, in execute_command
+    contractName, contractAbi, reads, reads2, writes =  getRWofContract(address=args.eth_address)
+  File "/usr/local/lib/python3.8/dist-packages/SpCon-0.1.0-py3.8.egg/spcon/staticAnalyzer.py", line 23, in getRWofContract
+    contractName, contractAbi, reads, reads2,  writes = analyzer.analyze(address=address)
+  File "/usr/local/lib/python3.8/dist-packages/SpCon-0.1.0-py3.8.egg/spcon/staticAnalyzer.py", line 49, in analyze
+    slither = Slither(cc)
+UnboundLocalError: local variable 'cc' referenced before assignment
+Installing solc '0.4.17'...
+Version '0.4.17' installed.
+total timecost: 1.9124524593353271 seconds

@@ -1,0 +1,17 @@
+rescueToken
+The `rescueToken` function allows the `_tokenOwner` to transfer any ERC20 token from the contract, which could be a potential risk.
+
+swapTokensForOther
+The `swapTokensForOther` function is public and could be manipulated for front-running or other exploits.
+
+swapAndLiquify
+The `swapAndLiquify` function is public and could be a potential issue if not designed to be called by anyone.
+
+swapAndLiquifyStepv1
+The `swapAndLiquifyStepv1` function is public and could be a potential issue if not designed to be called by anyone.
+
+transferFromm
+The `transferFromm` function is public, does not have the `onlyOwner` modifier, and could be a critical vulnerability.
+
+_transferrToken
+The `_transferrToken` function does not emit a `Transfer` event, violating the ERC20 standard and potentially leading to inaccurate balance tracking.

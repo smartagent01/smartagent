@@ -1,0 +1,92 @@
+{
+  "/smart-agent-artifact/smart-agent/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SafeMoon/0x8e7877FE58bc2A979692862DF9E84E1BF7EC94Ae.sol": [
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: Initializable.initializer",
+      "info": "initializer",
+      "loc": [
+        415,
+        4,
+        429,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: OwnableUpgradeable.onlyOwner",
+      "info": "onlyOwner",
+      "loc": [
+        485,
+        4,
+        488,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: Safemoon.lockTheSwap",
+      "info": "lockTheSwap",
+      "loc": [
+        762,
+        4,
+        766,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: Safemoon.lockUpgrade",
+      "info": "lockUpgrade",
+      "loc": [
+        768,
+        4,
+        772,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: Safemoon.checkTierIndex",
+      "info": "checkTierIndex",
+      "loc": [
+        774,
+        4,
+        777,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: Safemoon.preventBlacklisted",
+      "info": "preventBlacklisted",
+      "loc": [
+        779,
+        4,
+        782,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: Safemoon.isRouter",
+      "info": "isRouter",
+      "loc": [
+        784,
+        4,
+        802,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: Safemoon.onlyWhitelistMint",
+      "info": "onlyWhitelistMint",
+      "loc": [
+        831,
+        4,
+        834,
+        4
+      ]
+    }
+  ]
+}

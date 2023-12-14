@@ -1,0 +1,2 @@
+owned
+The `owned` function is public and lacks access control, allowing anyone to change the contract's owner.

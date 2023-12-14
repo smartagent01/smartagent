@@ -1,0 +1,2 @@
+_setSwapPairs
+The `setSwapPairs` function is potentially vulnerable due to missing the `onlyOwner` modifier, allowing unauthorized setting of pairs.

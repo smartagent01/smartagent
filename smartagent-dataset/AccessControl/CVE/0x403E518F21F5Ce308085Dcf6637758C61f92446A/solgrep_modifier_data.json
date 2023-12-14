@@ -1,0 +1,48 @@
+{
+  "/smart-agent/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol": [
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: Ownable.onlyOwner",
+      "info": "onlyOwner",
+      "loc": [
+        55,
+        2,
+        58,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: RC.onlyTokenSaleOwner",
+      "info": "onlyTokenSaleOwner",
+      "loc": [
+        222,
+        4,
+        225,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: TokenSale.isBuyable",
+      "info": "isBuyable",
+      "loc": [
+        392,
+        4,
+        400,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: TokenSale.onlyRC",
+      "info": "onlyRC",
+      "loc": [
+        404,
+        4,
+        407,
+        4
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+INFO:Slither:Compilation warnings/errors on /sb/EtherCartel.sol:
+/sb/EtherCartel.sol:51:69: Warning: Using contract member "balance" inherited from the address type is deprecated. Convert the contract to "address" type to access the member, for example use "address(contract).balance" instead.
+        uint256 drugsBought=calculateDrugBuy(msg.value,SafeMath.sub(this.balance,msg.value));
+                                                                    ^----------^
+/sb/EtherCartel.sol:62:49: Warning: Using contract member "balance" inherited from the address type is deprecated. Convert the contract to "address" type to access the member, for example use "address(contract).balance" instead.
+        return calculateTrade(drugs,marketDrugs,this.balance);
+                                                ^----------^
+/sb/EtherCartel.sol:68:37: Warning: Using contract member "balance" inherited from the address type is deprecated. Convert the contract to "address" type to access the member, for example use "address(contract).balance" instead.
+        return calculateDrugBuy(eth,this.balance);
+                                    ^----------^
+/sb/EtherCartel.sol:85:16: Warning: Using contract member "balance" inherited from the address type is deprecated. Convert the contract to "address" type to access the member, for example use "address(contract).balance" instead.
+        return this.balance;
+               ^----------^
+/sb/EtherCartel.sol:70:5: Warning: Function state mutability can be restricted to pure
+    function devFee(uint256 amount) public view returns(uint256){
+    ^ (Relevant source part starts here and spans across multiple lines).
+
+INFO:Detectors:[92m
+EtherCartel.DRUGS_TO_PRODUCE_1KILO should be constant (/sb/EtherCartel.sol#7)
+EtherCartel.PSN should be constant (/sb/EtherCartel.sol#9-10)
+EtherCartel.PSNH should be constant (/sb/EtherCartel.sol#10-11)
+EtherCartel.STARTING_KILOS should be constant (/sb/EtherCartel.sol#8-9)
+Reference: https://github.com/trailofbits/slither/wiki/Detectors-Documentation#state-variables-that-could-be-declared-constant[0m
+INFO:Detectors:[92m
+EtherCartel.DrugDealer (/sb/EtherCartel.sol#18-21) should be declared external
+EtherCartel.collectDrugs (/sb/EtherCartel.sol#21-39) should be declared external
+EtherCartel.sellDrugs (/sb/EtherCartel.sol#39-50) should be declared external
+EtherCartel.buyDrugs (/sb/EtherCartel.sol#50-57) should be declared external
+EtherCartel.calculateDrugBuySimple (/sb/EtherCartel.sol#67-71) should be declared external
+EtherCartel.seedMarket (/sb/EtherCartel.sol#74-80) should be declared external
+EtherCartel.getFreeKilo (/sb/EtherCartel.sol#80-85) should be declared external
+EtherCartel.getBalance (/sb/EtherCartel.sol#86-88) should be declared external
+EtherCartel.getMyKilo (/sb/EtherCartel.sol#89-91) should be declared external
+Reference: https://github.com/trailofbits/slither/wiki/Detectors-Documentation#public-function-that-could-be-declared-as-external[0m
+INFO:Detectors:[92m
+Detected issues with version pragma in /sb/EtherCartel.sol:
+	- pragma solidity^0.4.18 (/sb/EtherCartel.sol#1): it allows old versions
+Reference: https://github.com/trailofbits/slither/wiki/Detectors-Documentation#incorrect-version-of-solidity[0m
+INFO:Detectors:[92m
+Function 'EtherCartel.DrugDealer' (/sb/EtherCartel.sol#18-21) is not in mixedCase
+Variable 'EtherCartel.DRUGS_TO_PRODUCE_1KILO' (/sb/EtherCartel.sol#7) is not in mixedCase
+Variable 'EtherCartel.STARTING_KILOS' (/sb/EtherCartel.sol#8-9) is not in mixedCase
+Variable 'EtherCartel.PSN' (/sb/EtherCartel.sol#9-10) is not in mixedCase
+Variable 'EtherCartel.PSNH' (/sb/EtherCartel.sol#10-11) is not in mixedCase
+Variable 'EtherCartel.Kilos' (/sb/EtherCartel.sol#13-14) is not in mixedCase
+Reference: https://github.com/trailofbits/slither/wiki/Detectors-Documentation#conformance-to-solidity-naming-conventions[0m
+INFO:Slither:/sb/EtherCartel.sol analyzed (2 contracts), 17 result(s) found

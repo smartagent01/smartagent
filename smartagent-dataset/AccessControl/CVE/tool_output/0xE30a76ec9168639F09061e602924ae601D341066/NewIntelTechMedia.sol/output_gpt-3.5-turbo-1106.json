@@ -1,0 +1,19 @@
+```
+NETM
+The constructor function is named "NETM" instead of "NewIntelTechMedia", which could potentially allow anyone to call it and initialize the contract. This is an access control bug.
+
+distr
+The "distr" function does not have any permission checking, allowing anyone to distribute tokens. This is an access control bug.
+
+getTokens
+The "getTokens" function does not have proper permission checking, allowing anyone to get tokens. This is an access control bug.
+
+withdraw
+The "withdraw" function only has the "onlyOwner" modifier, which means only the owner can withdraw ether from the contract. However, it does not have any permission checking for token withdrawal, which could potentially allow anyone to withdraw tokens. This is an access control bug.
+
+burn
+The "burn" function only has the "onlyOwner" modifier, which means only the owner can burn tokens. However, it does not have any permission checking for token burning, which could potentially allow anyone to burn tokens. This is an access control bug.
+
+withdrawForeignTokens
+The "withdrawForeignTokens" function only has the "onlyOwner" modifier, which means only the owner can withdraw foreign tokens from the contract. However, it does not have any permission checking for token withdrawal, which could potentially allow anyone to withdraw foreign tokens. This is an access control bug.
+```

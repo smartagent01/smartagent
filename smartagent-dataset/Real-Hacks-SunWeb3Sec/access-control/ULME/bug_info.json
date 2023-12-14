@@ -1,0 +1,18 @@
+[
+  {
+    "bug": [
+      "AccessControl"
+    ],
+    "blockchain": "BSC",
+    "address": "0xAE975a25646E6eB859615d0A147B909c13D31FEd",
+    "contract": "UniverseGoldMountain",
+    "function": "buyMiner",
+    "source_file": "ULME.sol",
+    "line_start": 982,
+    "line_end": 996,
+    "reference": [
+      "https://github.com/SunWeb3Sec/DeFiHackLabs/blob/main/src/test/ULME_exp.sol",
+      "https://github.com/SunWeb3Sec/DeFiHackLabs/blob/main/src/test/ULME_exp2.sol"
+    ]
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "bug": [
+      "AccessControl"
+    ],
+    "blockchain": "Ethereum",
+    "address": "0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944",
+    "contract": "FlippazOne",
+    "function": "ownerWithdrawAllTo",
+    "source_file": "0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+    "line_start": 1359,
+    "line_end": 1362,
+    "reference": [
+      "https://github.com/SunWeb3Sec/DeFiHackLabs/blob/main/src/test/FlippazOne.sol"
+    ],
+    "note": ""
+  }
+]

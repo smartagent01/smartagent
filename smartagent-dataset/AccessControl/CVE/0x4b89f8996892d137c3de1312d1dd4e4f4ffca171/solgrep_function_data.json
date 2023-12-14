@@ -1,0 +1,477 @@
+{
+  "/smart-agent/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol": [
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.totalSupply",
+      "info": "totalSupply",
+      "loc": [
+        25,
+        4,
+        28,
+        22
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.balanceOf",
+      "info": "balanceOf",
+      "loc": [
+        30,
+        4,
+        35,
+        22
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.allowance",
+      "info": "allowance",
+      "loc": [
+        37,
+        4,
+        43,
+        22
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.transfer",
+      "info": "transfer",
+      "loc": [
+        45,
+        4,
+        50,
+        22
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.transferFrom",
+      "info": "transferFrom",
+      "loc": [
+        52,
+        4,
+        58,
+        22
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.approve",
+      "info": "approve",
+      "loc": [
+        60,
+        4,
+        65,
+        22
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AddressUtil.isContract",
+      "info": "isContract",
+      "loc": [
+        111,
+        4,
+        121,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AddressUtil.toPayable",
+      "info": "toPayable",
+      "loc": [
+        123,
+        4,
+        131,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AddressUtil.sendETH",
+      "info": "sendETH",
+      "loc": [
+        135,
+        4,
+        149,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AddressUtil.sendETHAndVerify",
+      "info": "sendETHAndVerify",
+      "loc": [
+        153,
+        4,
+        163,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: BurnableERC20.burn",
+      "info": "burn",
+      "loc": [
+        191,
+        4,
+        195,
+        22
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: BurnableERC20.burnFrom",
+      "info": "burnFrom",
+      "loc": [
+        197,
+        4,
+        202,
+        22
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Ownable.__constructor__",
+      "info": "__constructor__",
+      "loc": [
+        258,
+        4,
+        262,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Ownable.transferOwnership",
+      "info": "transferOwnership",
+      "loc": [
+        274,
+        4,
+        283,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Ownable.renounceOwnership",
+      "info": "renounceOwnership",
+      "loc": [
+        285,
+        4,
+        291,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Claimable.transferOwnership",
+      "info": "transferOwnership",
+      "loc": [
+        312,
+        4,
+        320,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Claimable.claimOwnership",
+      "info": "claimOwnership",
+      "loc": [
+        323,
+        4,
+        330,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20SafeTransfer.safeTransferAndVerify",
+      "info": "safeTransferAndVerify",
+      "loc": [
+        358,
+        4,
+        371,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20SafeTransfer.safeTransfer",
+      "info": "safeTransfer",
+      "loc": [
+        373,
+        4,
+        387,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20SafeTransfer.safeTransferWithGasLimitAndVerify",
+      "info": "safeTransferWithGasLimitAndVerify",
+      "loc": [
+        389,
+        4,
+        401,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20SafeTransfer.safeTransferWithGasLimit",
+      "info": "safeTransferWithGasLimit",
+      "loc": [
+        403,
+        4,
+        424,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20SafeTransfer.safeTransferFromAndVerify",
+      "info": "safeTransferFromAndVerify",
+      "loc": [
+        426,
+        4,
+        441,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20SafeTransfer.safeTransferFrom",
+      "info": "safeTransferFrom",
+      "loc": [
+        443,
+        4,
+        459,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20SafeTransfer.safeTransferFromWithGasLimitAndVerify",
+      "info": "safeTransferFromWithGasLimitAndVerify",
+      "loc": [
+        461,
+        4,
+        478,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20SafeTransfer.safeTransferFromWithGasLimit",
+      "info": "safeTransferFromWithGasLimit",
+      "loc": [
+        480,
+        4,
+        503,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20SafeTransfer.checkReturnValue",
+      "info": "checkReturnValue",
+      "loc": [
+        505,
+        4,
+        534,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MathUint.mul",
+      "info": "mul",
+      "loc": [
+        559,
+        4,
+        569,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MathUint.sub",
+      "info": "sub",
+      "loc": [
+        571,
+        4,
+        581,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MathUint.add",
+      "info": "add",
+      "loc": [
+        583,
+        4,
+        593,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MathUint.decodeFloat",
+      "info": "decodeFloat",
+      "loc": [
+        595,
+        4,
+        606,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IProtocolFeeVault.updateSettings",
+      "info": "updateSettings",
+      "loc": [
+        707,
+        4,
+        712,
+        16
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IProtocolFeeVault.claimStakingReward",
+      "info": "claimStakingReward",
+      "loc": [
+        719,
+        4,
+        719,
+        53
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IProtocolFeeVault.fundDAO",
+      "info": "fundDAO",
+      "loc": [
+        723,
+        4,
+        723,
+        31
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IProtocolFeeVault.sellTokenForLRC",
+      "info": "sellTokenForLRC",
+      "loc": [
+        729,
+        4,
+        733,
+        16
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IProtocolFeeVault.getProtocolFeeStats",
+      "info": "getProtocolFeeStats",
+      "loc": [
+        744,
+        4,
+        756,
+        9
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ITokenSeller.sellToken",
+      "info": "sellToken",
+      "loc": [
+        786,
+        4,
+        792,
+        30
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ProtocolFeeVault.__constructor__",
+      "info": "__constructor__",
+      "loc": [
+        804,
+        4,
+        810,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ProtocolFeeVault.__fallback__",
+      "info": "__fallback__",
+      "loc": [
+        812,
+        4,
+        812,
+        34
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ProtocolFeeVault.updateSettings",
+      "info": "updateSettings",
+      "loc": [
+        814,
+        4,
+        834,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ProtocolFeeVault.claimStakingReward",
+      "info": "claimStakingReward",
+      "loc": [
+        836,
+        4,
+        847,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ProtocolFeeVault.fundDAO",
+      "info": "fundDAO",
+      "loc": [
+        849,
+        4,
+        871,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ProtocolFeeVault.sellTokenForLRC",
+      "info": "sellTokenForLRC",
+      "loc": [
+        873,
+        4,
+        898,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ProtocolFeeVault.getProtocolFeeStats",
+      "info": "getProtocolFeeStats",
+      "loc": [
+        900,
+        4,
+        924,
+        4
+      ]
+    }
+  ]
+}

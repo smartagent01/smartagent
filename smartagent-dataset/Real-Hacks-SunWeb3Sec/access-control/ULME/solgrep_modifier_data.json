@@ -1,0 +1,26 @@
+{
+  "/smart-agent-artifact/smart-agent/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ULME/ULME.sol": [
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: MinterRole.onlyMinter",
+      "info": "onlyMinter",
+      "loc": [
+        607,
+        4,
+        610,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: ReentrancyGuard.nonReentrant",
+      "info": "nonReentrant",
+      "loc": [
+        742,
+        4,
+        754,
+        4
+      ]
+    }
+  ]
+}

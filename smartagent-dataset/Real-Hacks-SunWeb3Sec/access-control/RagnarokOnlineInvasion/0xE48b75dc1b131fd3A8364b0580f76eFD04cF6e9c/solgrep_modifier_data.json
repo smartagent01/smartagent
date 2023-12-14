@@ -1,0 +1,26 @@
+{
+  "/smart-agent-artifact/smart-agent/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol": [
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: Ownable.onlyOwner",
+      "info": "onlyOwner",
+      "loc": [
+        171,
+        4,
+        174,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: ROIToken.lockTheSwap",
+      "info": "lockTheSwap",
+      "loc": [
+        521,
+        4,
+        525,
+        4
+      ]
+    }
+  ]
+}

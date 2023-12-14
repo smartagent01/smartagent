@@ -1,0 +1,82 @@
+METRICS: Using configs from the Registry (like --config=p/ci) reports pseudonymous rule metrics to semgrep.dev.
+To disable Registry rule metrics, use "--metrics=off".
+Using configs only from local files (like --config=xyz.yml) does not enable metrics.
+
+More information: https://semgrep.dev/docs/metrics
+
+               
+               
+┌─────────────┐
+│ Scan Status │
+└─────────────┘
+  Scanning 1 file tracked by git with 48 Code rules:
+  Scanning 1 file with 48 solidity rules.
+                    
+                    
+┌──────────────────┐
+│ 11 Code Findings │
+└──────────────────┘
+                 
+    /sb/IDXM.sol 
+       solidity.performance.array-length-outside-loop                           
+          Caching the array length outside a loop saves reading it on each      
+  iteration, as long as the                                                     
+          array's length is not changed during the loop.                        
+                                                                                
+           93┆ for (uint256 i = 0; i < uint256(addresses.length); i++) {
+            ⋮┆----------------------------------------
+       solidity.performance.init-variables-with-default-value                   
+          Uninitialized variables are assigned with the types default value.    
+  Explicitly initializing a                                                     
+          variable with its default value costs unnecessary gas.                
+                                                                                
+           87┆ bool public balancesLocked = false;
+            ⋮┆----------------------------------------
+       solidity.performance.state-variable-read-in-a-loop                       
+          Replace state variable reads and writes within loops with local       
+  variable reads and writes.                                                    
+                                                                                
+           94┆ sum = safeAdd(sum, safeSub(balances[i],                          
+  balanceOf[addresses[i]]));                                                    
+            ⋮┆----------------------------------------
+           95┆ balanceOf[addresses[i]] = balances[i];
+            ⋮┆----------------------------------------
+       solidity.performance.unnecessary-checked-arithmetic-in-loop              
+          A lot of times there is no risk that the loop counter can overflow.   
+  Using Solidity's                                                              
+          unchecked block saves the overflow checks.                            
+                                                                                
+           93┆ for (uint256 i = 0; i < uint256(addresses.length); i++) {
+            ⋮┆----------------------------------------
+          238┆ for (uint8 i = 0; i < b; i++) {
+            ⋮┆----------------------------------------
+          244┆ for (uint8 i = 0; i < b; i++) {
+            ⋮┆----------------------------------------
+       solidity.performance.use-multiple-require                                
+          Using multiple require statements is cheaper than using && multiple   
+  check combinations.                                                           
+          There are more advantages, such as easier to read code and better     
+  coverage reports.                                                             
+                                                                                
+           23┆ require(c >= a && c >= b);
+            ⋮┆----------------------------------------
+       solidity.performance.use-prefix-increment-not-postfix                    
+          Consider using the prefix increment expression whenever the return    
+  value is not needed. The                                                      
+          prefix increment expression is cheaper in terms of gas.               
+                                                                                
+           93┆ for (uint256 i = 0; i < uint256(addresses.length); i++) {
+            ⋮┆----------------------------------------
+          238┆ for (uint8 i = 0; i < b; i++) {
+            ⋮┆----------------------------------------
+          244┆ for (uint8 i = 0; i < b; i++) {
+
+                
+                
+┌──────────────┐
+│ Scan Summary │
+└──────────────┘
+
+Ran 48 rules on 1 file: 11 findings.
+
+A new version of Semgrep is available. See https://semgrep.dev/docs/upgrading

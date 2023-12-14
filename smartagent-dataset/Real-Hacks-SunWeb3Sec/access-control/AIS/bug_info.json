@@ -1,0 +1,19 @@
+[
+  {
+    "bug": [
+      "AccessControl"
+    ],
+    "blockchain": "BSC",
+    "address": "0x6844ef18012a383c14e9a76a93602616ee9d6132",
+    "contract": "AISPACE",
+    "function": "setSwapPairs",
+    "source_file": "0x6844ef18012a383c14e9a76a93602616ee9d6132.sol",
+    "line_start": 949,
+    "line_end": 951,
+    "reference": [
+      "https://github.com/SunWeb3Sec/DeFiHackLabs/blob/main/src/test/AIS_exp.sol",
+      "https://twitter.com/Phalcon_xyz/status/1729861048004391306"
+    ],
+    "note": ""
+  }
+]

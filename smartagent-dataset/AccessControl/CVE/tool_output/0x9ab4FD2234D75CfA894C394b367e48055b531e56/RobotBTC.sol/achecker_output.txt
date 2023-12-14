@@ -1,0 +1,50 @@
+File copied : /root/Achecker/RobotBTC.bin-runtime
+processing /root/Achecker/RobotBTC.bin-runtime
+Checking contract for [4mViolated-AC-Check[0m 
+------------------
+
+Violated access control check in function setPrices(uint256,uint256)
+	( 2191)  88f:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {0} in function owned()
++--Attacker can make changes to AC item {0} in function transferOwnership(address)
+
+Violated access control check in function setExchange(bool)
+	( 2925)  b6d:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {0} in function owned()
++--Attacker can make changes to AC item {0} in function transferOwnership(address)
+
+Violated access control check in function transferFrom(address,address,uint256)
+	( 5911) 1717:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {10} in function freezeAccount(address,bool)
+
+Violated access control check in function mintToken(address,uint256)
+	( 3354)  d1a:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {0} in function owned()
++--Attacker can make changes to AC item {0} in function transferOwnership(address)
+
+Violated access control check in function transfer(address,uint256)
+	( 5911) 1717:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {10} in function freezeAccount(address,bool)
+
+Violated access control check in function buy()
+	( 5911) 1717:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {10} in function freezeAccount(address,bool)
+
+Violated access control check in function freezeAccount(address,bool)
+	( 5204) 1454:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {0} in function owned()
++--Attacker can make changes to AC item {0} in function transferOwnership(address)
+
+Violated access control check in function transferOwnership(address)
+	( 5497) 1579:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {0} in function owned()
++--Attacker can make changes to AC item {0} in function transferOwnership(address)
+
+Violated access control check in function sell(uint256)
+	( 5911) 1717:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {10} in function freezeAccount(address,bool)
+
+
+Checking contract for [4mMissing-AC-Check[0m 
+------------------
+efc1e9fabddee6cb228dda182c0cd3773cb6f91492fc18caceb0d5e9d50c99bb

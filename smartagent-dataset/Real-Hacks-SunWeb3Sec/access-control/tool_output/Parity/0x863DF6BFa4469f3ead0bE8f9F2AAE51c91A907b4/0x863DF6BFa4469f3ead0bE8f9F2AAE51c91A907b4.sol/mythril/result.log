@@ -1,0 +1,1 @@
+{"success": false, "error": "Solc experienced a fatal error.\n\n/sb/0x863DF6BFa4469f3ead0bE8f9F2AAE51c91A907b4.sol:263:13: DeclarationError: Identifier not found.\n      jumpi(invalidJumpLabel, iszero(extcodesize(o_addr)))\r\n            ^--------------^\n", "issues": []}

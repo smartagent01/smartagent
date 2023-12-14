@@ -1,0 +1,5 @@
+mint
+The function is external and lacks explicit access control, potentially allowing unauthorized minting of tokens.
+
+burn
+The function is external and lacks explicit access control, potentially allowing unauthorized burning of tokens.

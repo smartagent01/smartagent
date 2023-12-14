@@ -1,0 +1,15 @@
+{
+  "/smart-agent/smartagent-dataset/AccessControl/CVE/0x9b481067ef9773d52efd0fb5b665a5dc0c8e1a68/ERCDDAToken.sol": [
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: ERCDDAToken.onlyOwner",
+      "info": "onlyOwner",
+      "loc": [
+        19,
+        4,
+        22,
+        4
+      ]
+    }
+  ]
+}

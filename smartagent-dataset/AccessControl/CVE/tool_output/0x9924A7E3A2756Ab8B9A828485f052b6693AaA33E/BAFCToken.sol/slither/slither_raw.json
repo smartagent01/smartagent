@@ -1,0 +1,891 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "contract",
+            "name": "BAFCToken",
+            "source_mapping": {
+              "start": 5085,
+              "length": 446,
+              "filename_relative": "BAFCToken.sol",
+              "filename_absolute": "/home/ethsec/BAFCToken.sol",
+              "filename_short": "BAFCToken.sol",
+              "is_dependency": false,
+              "lines": [
+                183,
+                184,
+                185,
+                186,
+                187,
+                188,
+                189,
+                190,
+                191,
+                192,
+                193,
+                194,
+                195,
+                196,
+                197,
+                198,
+                199,
+                200
+              ],
+              "starting_column": 1,
+              "ending_column": 0
+            }
+          },
+          {
+            "type": "function",
+            "name": "transferFrom",
+            "source_mapping": {
+              "start": 4215,
+              "length": 484,
+              "filename_relative": "BAFCToken.sol",
+              "filename_absolute": "/home/ethsec/BAFCToken.sol",
+              "filename_short": "BAFCToken.sol",
+              "is_dependency": false,
+              "lines": [
+                157,
+                158,
+                159,
+                160,
+                161,
+                162,
+                163,
+                164,
+                165,
+                166,
+                167
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "StandardToken",
+                "source_mapping": {
+                  "start": 4110,
+                  "length": 969,
+                  "filename_relative": "BAFCToken.sol",
+                  "filename_absolute": "/home/ethsec/BAFCToken.sol",
+                  "filename_short": "BAFCToken.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    153,
+                    154,
+                    155,
+                    156,
+                    157,
+                    158,
+                    159,
+                    160,
+                    161,
+                    162,
+                    163,
+                    164,
+                    165,
+                    166,
+                    167,
+                    168,
+                    169,
+                    170,
+                    171,
+                    172,
+                    173,
+                    174,
+                    175,
+                    176,
+                    177,
+                    178,
+                    179,
+                    180
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "transferFrom(address,address,uint256)"
+            }
+          }
+        ],
+        "description": "BAFCToken (BAFCToken.sol#183-200) has incorrect ERC20 function interface:StandardToken.transferFrom(address,address,uint256) (BAFCToken.sol#157-167)\n",
+        "markdown": "[BAFCToken](BAFCToken.sol#L183-L200) has incorrect ERC20 function interface:[StandardToken.transferFrom(address,address,uint256)](BAFCToken.sol#L157-L167)\n",
+        "first_markdown_element": "BAFCToken.sol#L183-L200",
+        "id": "0524715c84e093143d9b1b90a3b992a5452a87f766ef5c617dc733ca202ce0de",
+        "check": "erc20-interface",
+        "impact": "Medium",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "contract",
+            "name": "BAFCToken",
+            "source_mapping": {
+              "start": 5085,
+              "length": 446,
+              "filename_relative": "BAFCToken.sol",
+              "filename_absolute": "/home/ethsec/BAFCToken.sol",
+              "filename_short": "BAFCToken.sol",
+              "is_dependency": false,
+              "lines": [
+                183,
+                184,
+                185,
+                186,
+                187,
+                188,
+                189,
+                190,
+                191,
+                192,
+                193,
+                194,
+                195,
+                196,
+                197,
+                198,
+                199,
+                200
+              ],
+              "starting_column": 1,
+              "ending_column": 0
+            }
+          },
+          {
+            "type": "function",
+            "name": "approve",
+            "source_mapping": {
+              "start": 996,
+              "length": 46,
+              "filename_relative": "BAFCToken.sol",
+              "filename_absolute": "/home/ethsec/BAFCToken.sol",
+              "filename_short": "BAFCToken.sol",
+              "is_dependency": false,
+              "lines": [
+                42
+              ],
+              "starting_column": 3,
+              "ending_column": 49
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20Basic",
+                "source_mapping": {
+                  "start": 617,
+                  "length": 507,
+                  "filename_relative": "BAFCToken.sol",
+                  "filename_absolute": "/home/ethsec/BAFCToken.sol",
+                  "filename_short": "BAFCToken.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "approve(address,uint256)"
+            }
+          }
+        ],
+        "description": "BAFCToken (BAFCToken.sol#183-200) has incorrect ERC20 function interface:ERC20Basic.approve(address,uint256) (BAFCToken.sol#42)\n",
+        "markdown": "[BAFCToken](BAFCToken.sol#L183-L200) has incorrect ERC20 function interface:[ERC20Basic.approve(address,uint256)](BAFCToken.sol#L42)\n",
+        "first_markdown_element": "BAFCToken.sol#L183-L200",
+        "id": "2c277fe17cc8641f77cd9323fed32d3d49ce0acefd55d1ede60aa99a90b2a05f",
+        "check": "erc20-interface",
+        "impact": "Medium",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "contract",
+            "name": "BAFCToken",
+            "source_mapping": {
+              "start": 5085,
+              "length": 446,
+              "filename_relative": "BAFCToken.sol",
+              "filename_absolute": "/home/ethsec/BAFCToken.sol",
+              "filename_short": "BAFCToken.sol",
+              "is_dependency": false,
+              "lines": [
+                183,
+                184,
+                185,
+                186,
+                187,
+                188,
+                189,
+                190,
+                191,
+                192,
+                193,
+                194,
+                195,
+                196,
+                197,
+                198,
+                199,
+                200
+              ],
+              "starting_column": 1,
+              "ending_column": 0
+            }
+          },
+          {
+            "type": "function",
+            "name": "transferFrom",
+            "source_mapping": {
+              "start": 932,
+              "length": 60,
+              "filename_relative": "BAFCToken.sol",
+              "filename_absolute": "/home/ethsec/BAFCToken.sol",
+              "filename_short": "BAFCToken.sol",
+              "is_dependency": false,
+              "lines": [
+                41
+              ],
+              "starting_column": 3,
+              "ending_column": 63
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20Basic",
+                "source_mapping": {
+                  "start": 617,
+                  "length": 507,
+                  "filename_relative": "BAFCToken.sol",
+                  "filename_absolute": "/home/ethsec/BAFCToken.sol",
+                  "filename_short": "BAFCToken.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "transferFrom(address,address,uint256)"
+            }
+          }
+        ],
+        "description": "BAFCToken (BAFCToken.sol#183-200) has incorrect ERC20 function interface:ERC20Basic.transferFrom(address,address,uint256) (BAFCToken.sol#41)\n",
+        "markdown": "[BAFCToken](BAFCToken.sol#L183-L200) has incorrect ERC20 function interface:[ERC20Basic.transferFrom(address,address,uint256)](BAFCToken.sol#L41)\n",
+        "first_markdown_element": "BAFCToken.sol#L183-L200",
+        "id": "85cd7a97fe38a0e95589e375eb0342f03b38b7efac97b2ff880cb551744d9550",
+        "check": "erc20-interface",
+        "impact": "Medium",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "contract",
+            "name": "BAFCToken",
+            "source_mapping": {
+              "start": 5085,
+              "length": 446,
+              "filename_relative": "BAFCToken.sol",
+              "filename_absolute": "/home/ethsec/BAFCToken.sol",
+              "filename_short": "BAFCToken.sol",
+              "is_dependency": false,
+              "lines": [
+                183,
+                184,
+                185,
+                186,
+                187,
+                188,
+                189,
+                190,
+                191,
+                192,
+                193,
+                194,
+                195,
+                196,
+                197,
+                198,
+                199,
+                200
+              ],
+              "starting_column": 1,
+              "ending_column": 0
+            }
+          },
+          {
+            "type": "function",
+            "name": "transfer",
+            "source_mapping": {
+              "start": 2652,
+              "length": 386,
+              "filename_relative": "BAFCToken.sol",
+              "filename_absolute": "/home/ethsec/BAFCToken.sol",
+              "filename_short": "BAFCToken.sol",
+              "is_dependency": false,
+              "lines": [
+                108,
+                109,
+                110,
+                111,
+                112,
+                113,
+                114,
+                115,
+                116
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "BasicToken",
+                "source_mapping": {
+                  "start": 1130,
+                  "length": 2974,
+                  "filename_relative": "BAFCToken.sol",
+                  "filename_absolute": "/home/ethsec/BAFCToken.sol",
+                  "filename_short": "BAFCToken.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84,
+                    85,
+                    86,
+                    87,
+                    88,
+                    89,
+                    90,
+                    91,
+                    92,
+                    93,
+                    94,
+                    95,
+                    96,
+                    97,
+                    98,
+                    99,
+                    100,
+                    101,
+                    102,
+                    103,
+                    104,
+                    105,
+                    106,
+                    107,
+                    108,
+                    109,
+                    110,
+                    111,
+                    112,
+                    113,
+                    114,
+                    115,
+                    116,
+                    117,
+                    118,
+                    119,
+                    120,
+                    121,
+                    122,
+                    123,
+                    124,
+                    125,
+                    126,
+                    127,
+                    128,
+                    129,
+                    130,
+                    131,
+                    132,
+                    133,
+                    134,
+                    135,
+                    136,
+                    137,
+                    138,
+                    139,
+                    140,
+                    141,
+                    142,
+                    143,
+                    144,
+                    145,
+                    146,
+                    147,
+                    148,
+                    149,
+                    150
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "transfer(address,uint256)"
+            }
+          }
+        ],
+        "description": "BAFCToken (BAFCToken.sol#183-200) has incorrect ERC20 function interface:BasicToken.transfer(address,uint256) (BAFCToken.sol#108-116)\n",
+        "markdown": "[BAFCToken](BAFCToken.sol#L183-L200) has incorrect ERC20 function interface:[BasicToken.transfer(address,uint256)](BAFCToken.sol#L108-L116)\n",
+        "first_markdown_element": "BAFCToken.sol#L183-L200",
+        "id": "966bcdd0c0b099d9f85dd02752d61e4e9bcfceac9a48eec0770168f7765a3b75",
+        "check": "erc20-interface",
+        "impact": "Medium",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "contract",
+            "name": "BAFCToken",
+            "source_mapping": {
+              "start": 5085,
+              "length": 446,
+              "filename_relative": "BAFCToken.sol",
+              "filename_absolute": "/home/ethsec/BAFCToken.sol",
+              "filename_short": "BAFCToken.sol",
+              "is_dependency": false,
+              "lines": [
+                183,
+                184,
+                185,
+                186,
+                187,
+                188,
+                189,
+                190,
+                191,
+                192,
+                193,
+                194,
+                195,
+                196,
+                197,
+                198,
+                199,
+                200
+              ],
+              "starting_column": 1,
+              "ending_column": 0
+            }
+          },
+          {
+            "type": "function",
+            "name": "approve",
+            "source_mapping": {
+              "start": 4705,
+              "length": 233,
+              "filename_relative": "BAFCToken.sol",
+              "filename_absolute": "/home/ethsec/BAFCToken.sol",
+              "filename_short": "BAFCToken.sol",
+              "is_dependency": false,
+              "lines": [
+                169,
+                170,
+                171,
+                172,
+                173,
+                174
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "StandardToken",
+                "source_mapping": {
+                  "start": 4110,
+                  "length": 969,
+                  "filename_relative": "BAFCToken.sol",
+                  "filename_absolute": "/home/ethsec/BAFCToken.sol",
+                  "filename_short": "BAFCToken.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    153,
+                    154,
+                    155,
+                    156,
+                    157,
+                    158,
+                    159,
+                    160,
+                    161,
+                    162,
+                    163,
+                    164,
+                    165,
+                    166,
+                    167,
+                    168,
+                    169,
+                    170,
+                    171,
+                    172,
+                    173,
+                    174,
+                    175,
+                    176,
+                    177,
+                    178,
+                    179,
+                    180
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "approve(address,uint256)"
+            }
+          }
+        ],
+        "description": "BAFCToken (BAFCToken.sol#183-200) has incorrect ERC20 function interface:StandardToken.approve(address,uint256) (BAFCToken.sol#169-174)\n",
+        "markdown": "[BAFCToken](BAFCToken.sol#L183-L200) has incorrect ERC20 function interface:[StandardToken.approve(address,uint256)](BAFCToken.sol#L169-L174)\n",
+        "first_markdown_element": "BAFCToken.sol#L183-L200",
+        "id": "be1f7d01cfd8e0c99374ca78417821aa4e4b2abc6974bc5e9c9c80035750136e",
+        "check": "erc20-interface",
+        "impact": "Medium",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "contract",
+            "name": "BAFCToken",
+            "source_mapping": {
+              "start": 5085,
+              "length": 446,
+              "filename_relative": "BAFCToken.sol",
+              "filename_absolute": "/home/ethsec/BAFCToken.sol",
+              "filename_short": "BAFCToken.sol",
+              "is_dependency": false,
+              "lines": [
+                183,
+                184,
+                185,
+                186,
+                187,
+                188,
+                189,
+                190,
+                191,
+                192,
+                193,
+                194,
+                195,
+                196,
+                197,
+                198,
+                199,
+                200
+              ],
+              "starting_column": 1,
+              "ending_column": 0
+            }
+          },
+          {
+            "type": "function",
+            "name": "transfer",
+            "source_mapping": {
+              "start": 730,
+              "length": 42,
+              "filename_relative": "BAFCToken.sol",
+              "filename_absolute": "/home/ethsec/BAFCToken.sol",
+              "filename_short": "BAFCToken.sol",
+              "is_dependency": false,
+              "lines": [
+                37
+              ],
+              "starting_column": 3,
+              "ending_column": 45
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20Basic",
+                "source_mapping": {
+                  "start": 617,
+                  "length": 507,
+                  "filename_relative": "BAFCToken.sol",
+                  "filename_absolute": "/home/ethsec/BAFCToken.sol",
+                  "filename_short": "BAFCToken.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "transfer(address,uint256)"
+            }
+          }
+        ],
+        "description": "BAFCToken (BAFCToken.sol#183-200) has incorrect ERC20 function interface:ERC20Basic.transfer(address,uint256) (BAFCToken.sol#37)\n",
+        "markdown": "[BAFCToken](BAFCToken.sol#L183-L200) has incorrect ERC20 function interface:[ERC20Basic.transfer(address,uint256)](BAFCToken.sol#L37)\n",
+        "first_markdown_element": "BAFCToken.sol#L183-L200",
+        "id": "dc7d7cb348bc944ee7bb963bb769d24e10a91e546f84b1f58262ed31662b6db4",
+        "check": "erc20-interface",
+        "impact": "Medium",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "contract",
+            "name": "BAFCToken",
+            "source_mapping": {
+              "start": 5085,
+              "length": 446,
+              "filename_relative": "BAFCToken.sol",
+              "filename_absolute": "/home/ethsec/BAFCToken.sol",
+              "filename_short": "BAFCToken.sol",
+              "is_dependency": false,
+              "lines": [
+                183,
+                184,
+                185,
+                186,
+                187,
+                188,
+                189,
+                190,
+                191,
+                192,
+                193,
+                194,
+                195,
+                196,
+                197,
+                198,
+                199,
+                200
+              ],
+              "starting_column": 1,
+              "ending_column": 0
+            }
+          },
+          {
+            "type": "function",
+            "name": "fallback",
+            "source_mapping": {
+              "start": 5474,
+              "length": 54,
+              "filename_relative": "BAFCToken.sol",
+              "filename_absolute": "/home/ethsec/BAFCToken.sol",
+              "filename_short": "BAFCToken.sol",
+              "is_dependency": false,
+              "lines": [
+                196,
+                197,
+                198
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "BAFCToken",
+                "source_mapping": {
+                  "start": 5085,
+                  "length": 446,
+                  "filename_relative": "BAFCToken.sol",
+                  "filename_absolute": "/home/ethsec/BAFCToken.sol",
+                  "filename_short": "BAFCToken.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    183,
+                    184,
+                    185,
+                    186,
+                    187,
+                    188,
+                    189,
+                    190,
+                    191,
+                    192,
+                    193,
+                    194,
+                    195,
+                    196,
+                    197,
+                    198,
+                    199,
+                    200
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 0
+                }
+              },
+              "signature": "fallback()"
+            }
+          }
+        ],
+        "description": "Contract locking ether found:\n\tContract BAFCToken (BAFCToken.sol#183-200) has payable functions:\n\t - BAFCToken.fallback() (BAFCToken.sol#196-198)\n\tBut does not have a function to withdraw the ether\n",
+        "markdown": "Contract locking ether found:\n\tContract [BAFCToken](BAFCToken.sol#L183-L200) has payable functions:\n\t - [BAFCToken.fallback()](BAFCToken.sol#L196-L198)\n\tBut does not have a function to withdraw the ether\n",
+        "first_markdown_element": "BAFCToken.sol#L183-L200",
+        "id": "6c0ab562341916fa50d09388ae00229b743a4a16d048e873e213ef0d10cc6f37",
+        "check": "locked-ether",
+        "impact": "Medium",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "assert",
+            "source_mapping": {
+              "start": 517,
+              "length": 91,
+              "filename_relative": "BAFCToken.sol",
+              "filename_absolute": "/home/ethsec/BAFCToken.sol",
+              "filename_short": "BAFCToken.sol",
+              "is_dependency": false,
+              "lines": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "SafeMath",
+                "source_mapping": {
+                  "start": 29,
+                  "length": 582,
+                  "filename_relative": "BAFCToken.sol",
+                  "filename_absolute": "/home/ethsec/BAFCToken.sol",
+                  "filename_short": "BAFCToken.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "assert(bool)"
+            }
+          }
+        ],
+        "description": "SafeMath.assert(bool) (BAFCToken.sol#26-30) (function) shadows built-in symbol\"\n",
+        "markdown": "[SafeMath.assert(bool)](BAFCToken.sol#L26-L30) (function) shadows built-in symbol\"\n",
+        "first_markdown_element": "BAFCToken.sol#L26-L30",
+        "id": "2ed4a8d1ba6e312aa9e54b65a7bd9f8608ba30ae953b80c8ccaa4fae542dd23a",
+        "check": "shadowing-builtin",
+        "impact": "Low",
+        "confidence": "High"
+      }
+    ]
+  }
+}

@@ -1,0 +1,166 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Melo/0x9a1aef8c9ada4224ad774afdac07c24955c92a54/0x9a1aef8c9ada4224ad774afdac07c24955c92a54.sol",
+            "line": 202,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Melo/0x9a1aef8c9ada4224ad774afdac07c24955c92a54/0x9a1aef8c9ada4224ad774afdac07c24955c92a54.sol",
+            "line": 203,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Melo/0x9a1aef8c9ada4224ad774afdac07c24955c92a54/0x9a1aef8c9ada4224ad774afdac07c24955c92a54.sol",
+            "line": 204,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Melo/0x9a1aef8c9ada4224ad774afdac07c24955c92a54/0x9a1aef8c9ada4224ad774afdac07c24955c92a54.sol",
+            "line": 205,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Melo/0x9a1aef8c9ada4224ad774afdac07c24955c92a54/0x9a1aef8c9ada4224ad774afdac07c24955c92a54.sol",
+            "line": 206,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Melo/0x9a1aef8c9ada4224ad774afdac07c24955c92a54/0x9a1aef8c9ada4224ad774afdac07c24955c92a54.sol",
+            "line": 207,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Melo/0x9a1aef8c9ada4224ad774afdac07c24955c92a54/0x9a1aef8c9ada4224ad774afdac07c24955c92a54.sol",
+            "line": 208,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Melo/0x9a1aef8c9ada4224ad774afdac07c24955c92a54/0x9a1aef8c9ada4224ad774afdac07c24955c92a54.sol",
+            "line": 209,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Melo/0x9a1aef8c9ada4224ad774afdac07c24955c92a54/0x9a1aef8c9ada4224ad774afdac07c24955c92a54.sol",
+            "line": 210,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Melo/0x9a1aef8c9ada4224ad774afdac07c24955c92a54/0x9a1aef8c9ada4224ad774afdac07c24955c92a54.sol",
+            "line": 211,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Melo/0x9a1aef8c9ada4224ad774afdac07c24955c92a54/0x9a1aef8c9ada4224ad774afdac07c24955c92a54.sol",
+            "line": 59,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Melo/0x9a1aef8c9ada4224ad774afdac07c24955c92a54/0x9a1aef8c9ada4224ad774afdac07c24955c92a54.sol",
+            "line": 113,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Melo/0x9a1aef8c9ada4224ad774afdac07c24955c92a54/0x9a1aef8c9ada4224ad774afdac07c24955c92a54.sol",
+            "line": 302,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Melo/0x9a1aef8c9ada4224ad774afdac07c24955c92a54/0x9a1aef8c9ada4224ad774afdac07c24955c92a54.sol",
+            "line": 303,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Melo/0x9a1aef8c9ada4224ad774afdac07c24955c92a54/0x9a1aef8c9ada4224ad774afdac07c24955c92a54.sol",
+            "line": 324,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Melo/0x9a1aef8c9ada4224ad774afdac07c24955c92a54/0x9a1aef8c9ada4224ad774afdac07c24955c92a54.sol",
+            "line": 336,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Melo/0x9a1aef8c9ada4224ad774afdac07c24955c92a54/0x9a1aef8c9ada4224ad774afdac07c24955c92a54.sol",
+            "line": 337,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Melo/0x9a1aef8c9ada4224ad774afdac07c24955c92a54/0x9a1aef8c9ada4224ad774afdac07c24955c92a54.sol",
+            "line": 113,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Melo/0x9a1aef8c9ada4224ad774afdac07c24955c92a54/0x9a1aef8c9ada4224ad774afdac07c24955c92a54.sol",
+            "line": 302,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Melo/0x9a1aef8c9ada4224ad774afdac07c24955c92a54/0x9a1aef8c9ada4224ad774afdac07c24955c92a54.sol",
+            "line": 303,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Melo/0x9a1aef8c9ada4224ad774afdac07c24955c92a54/0x9a1aef8c9ada4224ad774afdac07c24955c92a54.sol",
+            "line": 336,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Melo/0x9a1aef8c9ada4224ad774afdac07c24955c92a54/0x9a1aef8c9ada4224ad774afdac07c24955c92a54.sol",
+            "line": 337,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "semgrep",
+        "mode": "solidity",
+        "version": "2023/08/21"
+    }
+}

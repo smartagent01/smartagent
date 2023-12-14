@@ -1,0 +1,5 @@
+The contract has a constructor that sets the initial owner and initializes the token with a total supply.
+- Incorrect constructor name or initialize function that is public, allowing anyone to call it to initialize the contract.
+
+The rescueToken function allows the owner to rescue tokens from the contract.
+- Missing permission checking in functions that can change the ownership or admin right of the contract.

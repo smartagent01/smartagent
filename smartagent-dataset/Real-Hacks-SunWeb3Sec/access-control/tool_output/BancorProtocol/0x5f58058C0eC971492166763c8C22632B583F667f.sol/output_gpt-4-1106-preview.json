@@ -1,0 +1,8 @@
+transferOwnership
+The function is missing permission checking which could allow unauthorized users to change ownership.
+
+acceptOwnership
+The function is missing permission checking which could allow unauthorized users to accept ownership rights.
+
+withdrawTokens
+The function uses an `ownerOnly` modifier but without the full code, it's unclear if this prevents unauthorized withdrawals, caution is advised.

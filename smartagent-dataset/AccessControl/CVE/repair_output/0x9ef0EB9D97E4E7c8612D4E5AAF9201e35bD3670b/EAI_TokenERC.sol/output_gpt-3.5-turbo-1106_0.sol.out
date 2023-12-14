@@ -1,0 +1,11 @@
+EAI_TokenERC
+The constructor function `EAI_TokenERC` is not marked as `constructor`, which means it can be called by anyone to initialize the contract.
+
+transfer and transferFrom
+The `transfer` and `transferFrom` functions do not have any access control modifiers, which means anyone can call these functions to transfer tokens.
+
+burn and burnFrom
+The `burn` and `burnFrom` functions also do not have any access control modifiers, which means anyone can call these functions to burn tokens.
+
+totalSupply
+There is no access control for the `totalSupply` variable, which means anyone can modify the total supply of the token.

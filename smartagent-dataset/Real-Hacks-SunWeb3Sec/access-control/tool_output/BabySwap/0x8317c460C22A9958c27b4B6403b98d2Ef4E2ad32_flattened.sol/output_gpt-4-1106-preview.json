@@ -1,0 +1,2 @@
+Fallback Function in BabySmartRouter
+The fallback function delegates calls to a `normalRouter` without proper access control checks, potentially allowing unauthorized actions if `normalRouter` is compromised or incorrectly implemented.

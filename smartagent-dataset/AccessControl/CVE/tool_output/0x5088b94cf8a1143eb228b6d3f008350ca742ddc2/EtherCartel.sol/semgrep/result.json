@@ -1,0 +1,40 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x5088b94cf8a1143eb228b6d3f008350ca742ddc2/EtherCartel.sol",
+            "line": 11,
+            "message": "Uninitialized variables are assigned with the types default value. Explicitly initializing a variable with its default value costs unnecessary gas.",
+            "name": "init-variables-with-default-value"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x5088b94cf8a1143eb228b6d3f008350ca742ddc2/EtherCartel.sol",
+            "line": 23,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x5088b94cf8a1143eb228b6d3f008350ca742ddc2/EtherCartel.sol",
+            "line": 24,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x5088b94cf8a1143eb228b6d3f008350ca742ddc2/EtherCartel.sol",
+            "line": 25,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "semgrep",
+        "mode": "solidity",
+        "version": "2023/08/21"
+    }
+}

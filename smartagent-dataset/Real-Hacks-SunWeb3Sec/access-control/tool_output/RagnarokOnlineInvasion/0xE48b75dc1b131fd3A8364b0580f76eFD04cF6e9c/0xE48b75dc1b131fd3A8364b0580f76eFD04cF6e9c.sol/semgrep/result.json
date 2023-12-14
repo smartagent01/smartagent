@@ -1,0 +1,1188 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 420,
+            "message": "By demanding that the receiver of the owner permissions actively accept via a contract call of its own,  `Ownable2Step` and `Ownable2StepUpgradeable` prevent the contract ownership from accidentally being transferred  to an address that cannot handle it.",
+            "name": "use-ownable2step"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 657,
+            "message": "Caching the array length outside a loop saves reading it on each iteration, as long as the array's length is not changed during the loop.",
+            "name": "array-length-outside-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 659,
+            "message": "Caching the array length outside a loop saves reading it on each iteration, as long as the array's length is not changed during the loop.",
+            "name": "array-length-outside-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 720,
+            "message": "Caching the array length outside a loop saves reading it on each iteration, as long as the array's length is not changed during the loop.",
+            "name": "array-length-outside-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 957,
+            "message": "Caching the array length outside a loop saves reading it on each iteration, as long as the array's length is not changed during the loop.",
+            "name": "array-length-outside-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 1029,
+            "message": "Caching the array length outside a loop saves reading it on each iteration, as long as the array's length is not changed during the loop.",
+            "name": "array-length-outside-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 496,
+            "message": "Uninitialized variables are assigned with the types default value. Explicitly initializing a variable with its default value costs unnecessary gas.",
+            "name": "init-variables-with-default-value"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 161,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 162,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 163,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 164,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 165,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 527,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 528,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 529,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 530,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 531,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 532,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 533,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 534,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 535,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 536,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 657,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 658,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 659,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 659,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 659,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 660,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 661,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 662,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 720,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 722,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 723,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 957,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 958,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 958,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 958,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 958,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 958,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 958,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 959,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 959,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 960,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 960,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 1029,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 1031,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 1033,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 1033,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 1034,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 1034,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 1044,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 657,
+            "message": "A lot of times there is no risk that the loop counter can overflow. Using Solidity's unchecked block saves the overflow checks.",
+            "name": "unnecessary-checked-arithmetic-in-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 720,
+            "message": "A lot of times there is no risk that the loop counter can overflow. Using Solidity's unchecked block saves the overflow checks.",
+            "name": "unnecessary-checked-arithmetic-in-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 957,
+            "message": "A lot of times there is no risk that the loop counter can overflow. Using Solidity's unchecked block saves the overflow checks.",
+            "name": "unnecessary-checked-arithmetic-in-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 1029,
+            "message": "A lot of times there is no risk that the loop counter can overflow. Using Solidity's unchecked block saves the overflow checks.",
+            "name": "unnecessary-checked-arithmetic-in-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 1042,
+            "message": "A lot of times there is no risk that the loop counter can overflow. Using Solidity's unchecked block saves the overflow checks.",
+            "name": "unnecessary-checked-arithmetic-in-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 45,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 67,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 109,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 113,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 130,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 135,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 172,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 182,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 203,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 204,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 620,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 629,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 640,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 647,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 656,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 669,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 670,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 681,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 682,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 683,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 685,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 1066,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 1169,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 1181,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 684,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 685,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 686,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 691,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 692,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 693,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 694,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 695,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 696,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 697,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 700,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 701,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 702,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 703,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 704,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 705,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 706,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 707,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 708,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 709,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 702,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 703,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 704,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 705,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 706,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 728,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 729,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 730,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 869,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 870,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 871,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 872,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 873,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 874,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 875,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 876,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 877,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 871,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 872,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 873,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 874,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 875,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 876,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 877,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 873,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 874,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 875,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 876,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 877,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 987,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 657,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 720,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 957,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 1029,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 1042,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 67,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 113,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 130,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 182,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 203,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 620,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 640,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 669,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 670,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 681,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 682,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 683,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 685,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 1066,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 1169,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 822,
+            "message": "No slippage check in a Uniswap v2/v3 trade",
+            "name": "no-slippage-check"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 823,
+            "message": "No slippage check in a Uniswap v2/v3 trade",
+            "name": "no-slippage-check"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 824,
+            "message": "No slippage check in a Uniswap v2/v3 trade",
+            "name": "no-slippage-check"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 825,
+            "message": "No slippage check in a Uniswap v2/v3 trade",
+            "name": "no-slippage-check"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 826,
+            "message": "No slippage check in a Uniswap v2/v3 trade",
+            "name": "no-slippage-check"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 827,
+            "message": "No slippage check in a Uniswap v2/v3 trade",
+            "name": "no-slippage-check"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 828,
+            "message": "No slippage check in a Uniswap v2/v3 trade",
+            "name": "no-slippage-check"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 840,
+            "message": "No slippage check in a Uniswap v2/v3 trade",
+            "name": "no-slippage-check"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 841,
+            "message": "No slippage check in a Uniswap v2/v3 trade",
+            "name": "no-slippage-check"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 842,
+            "message": "No slippage check in a Uniswap v2/v3 trade",
+            "name": "no-slippage-check"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 843,
+            "message": "No slippage check in a Uniswap v2/v3 trade",
+            "name": "no-slippage-check"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 844,
+            "message": "No slippage check in a Uniswap v2/v3 trade",
+            "name": "no-slippage-check"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 845,
+            "message": "No slippage check in a Uniswap v2/v3 trade",
+            "name": "no-slippage-check"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 181,
+            "message": "Unrestricted transferOwnership",
+            "name": "unrestricted-transferownership"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 182,
+            "message": "Unrestricted transferOwnership",
+            "name": "unrestricted-transferownership"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 183,
+            "message": "Unrestricted transferOwnership",
+            "name": "unrestricted-transferownership"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 184,
+            "message": "Unrestricted transferOwnership",
+            "name": "unrestricted-transferownership"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RagnarokOnlineInvasion/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c/0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol",
+            "line": 185,
+            "message": "Unrestricted transferOwnership",
+            "name": "unrestricted-transferownership"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "semgrep",
+        "mode": "solidity",
+        "version": "2023/08/21"
+    }
+}

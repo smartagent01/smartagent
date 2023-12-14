@@ -1,0 +1,400 @@
+{
+  "/smart-agent/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol": [
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.mul",
+      "info": "mul",
+      "loc": [
+        4,
+        2,
+        8,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.div",
+      "info": "div",
+      "loc": [
+        10,
+        2,
+        13,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.sub",
+      "info": "sub",
+      "loc": [
+        15,
+        2,
+        18,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.add",
+      "info": "add",
+      "loc": [
+        20,
+        2,
+        24,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ForeignToken.balanceOf",
+      "info": "balanceOf",
+      "loc": [
+        28,
+        4,
+        28,
+        72
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ForeignToken.transfer",
+      "info": "transfer",
+      "loc": [
+        29,
+        4,
+        29,
+        72
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20Basic.balanceOf",
+      "info": "balanceOf",
+      "loc": [
+        34,
+        4,
+        34,
+        69
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20Basic.transfer",
+      "info": "transfer",
+      "loc": [
+        35,
+        4,
+        35,
+        70
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.allowance",
+      "info": "allowance",
+      "loc": [
+        40,
+        4,
+        40,
+        88
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.transferFrom",
+      "info": "transferFrom",
+      "loc": [
+        41,
+        4,
+        41,
+        88
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.approve",
+      "info": "approve",
+      "loc": [
+        42,
+        4,
+        42,
+        74
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Token.distr",
+      "info": "distr",
+      "loc": [
+        47,
+        4,
+        47,
+        69
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Token.totalSupply",
+      "info": "totalSupply",
+      "loc": [
+        48,
+        4,
+        48,
+        67
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Token.balanceOf",
+      "info": "balanceOf",
+      "loc": [
+        49,
+        4,
+        49,
+        80
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Cryptbond.ToOwner",
+      "info": "ToOwner",
+      "loc": [
+        95,
+        4,
+        100,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Cryptbond.Mining24",
+      "info": "Mining24",
+      "loc": [
+        101,
+        4,
+        106,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Cryptbond.setParameters",
+      "info": "setParameters",
+      "loc": [
+        108,
+        5,
+        111,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Cryptbond.transferOwnership",
+      "info": "transferOwnership",
+      "loc": [
+        113,
+        4,
+        117,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Cryptbond.enableWhitelist",
+      "info": "enableWhitelist",
+      "loc": [
+        119,
+        4,
+        123,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Cryptbond.disableWhitelist",
+      "info": "disableWhitelist",
+      "loc": [
+        125,
+        4,
+        129,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Cryptbond.finishDistribution",
+      "info": "finishDistribution",
+      "loc": [
+        131,
+        4,
+        135,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Cryptbond.distr",
+      "info": "distr",
+      "loc": [
+        137,
+        4,
+        148,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Cryptbond.airdrop",
+      "info": "airdrop",
+      "loc": [
+        150,
+        4,
+        163,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Cryptbond.distribution",
+      "info": "distribution",
+      "loc": [
+        165,
+        4,
+        178,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Cryptbond.distributeAmounts",
+      "info": "distributeAmounts",
+      "loc": [
+        180,
+        4,
+        193,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Cryptbond.__fallback__",
+      "info": "__fallback__",
+      "loc": [
+        195,
+        4,
+        202,
+        5
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Cryptbond.getTokens",
+      "info": "getTokens",
+      "loc": [
+        203,
+        4,
+        223,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Cryptbond.balanceOf",
+      "info": "balanceOf",
+      "loc": [
+        225,
+        4,
+        227,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Cryptbond.transfer",
+      "info": "transfer",
+      "loc": [
+        235,
+        4,
+        244,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Cryptbond.transferFrom",
+      "info": "transferFrom",
+      "loc": [
+        246,
+        4,
+        257,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Cryptbond.approve",
+      "info": "approve",
+      "loc": [
+        259,
+        4,
+        265,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Cryptbond.allowance",
+      "info": "allowance",
+      "loc": [
+        267,
+        4,
+        269,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Cryptbond.getTokenBalance",
+      "info": "getTokenBalance",
+      "loc": [
+        271,
+        4,
+        275,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Cryptbond.withdraw",
+      "info": "withdraw",
+      "loc": [
+        277,
+        4,
+        280,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Cryptbond.burn",
+      "info": "burn",
+      "loc": [
+        282,
+        4,
+        292,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Cryptbond.withdrawForeignTokens",
+      "info": "withdrawForeignTokens",
+      "loc": [
+        294,
+        4,
+        298,
+        4
+      ]
+    }
+  ]
+}

@@ -1,0 +1,747 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 1937,
+            "message": "To guarantee arguments type safety it is recommended to use `abi.encodeCall` instead of `abi.encodeWithSelector`.",
+            "name": "use-abi-encodecall-instead-of-encodewithselector"
+        },
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 1938,
+            "message": "To guarantee arguments type safety it is recommended to use `abi.encodeCall` instead of `abi.encodeWithSelector`.",
+            "name": "use-abi-encodecall-instead-of-encodewithselector"
+        },
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 1939,
+            "message": "To guarantee arguments type safety it is recommended to use `abi.encodeCall` instead of `abi.encodeWithSelector`.",
+            "name": "use-abi-encodecall-instead-of-encodewithselector"
+        },
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 1940,
+            "message": "To guarantee arguments type safety it is recommended to use `abi.encodeCall` instead of `abi.encodeWithSelector`.",
+            "name": "use-abi-encodecall-instead-of-encodewithselector"
+        },
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 1941,
+            "message": "To guarantee arguments type safety it is recommended to use `abi.encodeCall` instead of `abi.encodeWithSelector`.",
+            "name": "use-abi-encodecall-instead-of-encodewithselector"
+        },
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 1942,
+            "message": "To guarantee arguments type safety it is recommended to use `abi.encodeCall` instead of `abi.encodeWithSelector`.",
+            "name": "use-abi-encodecall-instead-of-encodewithselector"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 927,
+            "message": "Caching the array length outside a loop saves reading it on each iteration, as long as the array's length is not changed during the loop.",
+            "name": "array-length-outside-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 990,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 991,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 992,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 993,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 2040,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 2041,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 2042,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 2043,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 2044,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 881,
+            "message": "A lot of times there is no risk that the loop counter can overflow. Using Solidity's unchecked block saves the overflow checks.",
+            "name": "unnecessary-checked-arithmetic-in-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 927,
+            "message": "A lot of times there is no risk that the loop counter can overflow. Using Solidity's unchecked block saves the overflow checks.",
+            "name": "unnecessary-checked-arithmetic-in-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 1917,
+            "message": "A lot of times there is no risk that the loop counter can overflow. Using Solidity's unchecked block saves the overflow checks.",
+            "name": "unnecessary-checked-arithmetic-in-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 2277,
+            "message": "A lot of times there is no risk that the loop counter can overflow. Using Solidity's unchecked block saves the overflow checks.",
+            "name": "unnecessary-checked-arithmetic-in-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 2420,
+            "message": "A lot of times there is no risk that the loop counter can overflow. Using Solidity's unchecked block saves the overflow checks.",
+            "name": "unnecessary-checked-arithmetic-in-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 2449,
+            "message": "A lot of times there is no risk that the loop counter can overflow. Using Solidity's unchecked block saves the overflow checks.",
+            "name": "unnecessary-checked-arithmetic-in-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 585,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 636,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 683,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 716,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 828,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 829,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 830,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 831,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 883,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 884,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 885,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 886,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 931,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 932,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 933,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 934,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 998,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 1266,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 1361,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 1362,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 1363,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 1364,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 1382,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 1476,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 1477,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 1478,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 1479,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 1480,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 1496,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 1508,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 1509,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 1510,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 1511,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 1677,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 1689,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 1690,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 1691,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 1692,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 1735,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 1750,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 1767,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 1784,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 1799,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 1860,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 2055,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 2062,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 2148,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 2152,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 2186,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 2188,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 2189,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 2190,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 2191,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 2194,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 2195,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 2196,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 2197,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 2221,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 2320,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 2339,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 2340,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 2341,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 2342,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 2367,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 2368,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 2369,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 2370,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 2385,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 2386,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 2387,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 2388,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 2425,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 2426,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 2427,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 2428,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 2454,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 881,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 927,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 1917,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 2277,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 2420,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 2449,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/CoWSwap/0x9008d19f58aabd9ed0d60971565aa8510560ab41/GPv2Settlement_flatten.sol",
+            "line": 1967,
+            "message": "An attacker may perform delegatecall() to an arbitrary address.",
+            "name": "delegatecall-to-arbitrary-address"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "semgrep",
+        "mode": "solidity",
+        "version": "2023/08/21"
+    }
+}

@@ -1,0 +1,5 @@
+EtherCartel
+Incorrect constructor name allows potential reinitialization of ceoAddress when inherited.
+
+seedMarket
+Public function without permission checks allows unauthorized reinitialization of the market.

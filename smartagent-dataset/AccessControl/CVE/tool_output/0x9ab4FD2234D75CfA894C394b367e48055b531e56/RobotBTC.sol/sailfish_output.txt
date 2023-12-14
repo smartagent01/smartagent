@@ -1,0 +1,276 @@
+File copied : /root/sailfish/code/static_analysis/analysis/RobotBTC.sol
+processing /root/sailfish/code/static_analysis/analysis/RobotBTC.sol
+Installing solc '0.4.26'...
+Version '0.4.26' installed.
+Switched global version to 0.4.26
+[INFO] | 2023-12-05 03:39:03 AM | analyzer.RobotBTC | Analysis started at: 2023-12-05 03:39:03 AM
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Version constraints: ['^0.4.18']
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | solc version: v0.4.18
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Callgraph generation started!
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Callgraph generation finished!
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Interprocedural CFG generation started!
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Interprocedural CFG generation finished!
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Storage dependency graph generation started!
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Storage dependency graph generation finished!
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Value Range Analysis started
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Generating return summary for owned
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Return summary generated for owned
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Range graph generated
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Processed function owned
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Generating return summary for onlyOwner
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Return summary generated for onlyOwner
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | State variable assignement do not exist
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Processed function onlyOwner
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Generating return summary for receiveApproval
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Return summary generated for receiveApproval
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | State variable assignement do not exist
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Processed function receiveApproval
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Generating return summary for TokenERC20
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Return summary generated for TokenERC20
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Range graph generated
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Processed function TokenERC20
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Generating return summary for _transfer
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Return summary generated for _transfer
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Range graph generated
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Processed function _transfer
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Generating return summary for approve
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Return summary generated for approve
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Range graph generated
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Processed function approve
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Generating return summary for burn
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Return summary generated for burn
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Range graph generated
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Processed function burn
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Generating return summary for burnFrom
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Return summary generated for burnFrom
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Range graph generated
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Processed function burnFrom
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Generating return summary for slitherConstructorVariables
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Return summary generated for slitherConstructorVariables
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Range graph generated
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Processed function slitherConstructorVariables
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Generating return summary for TokenERC20
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Return summary generated for TokenERC20
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Range graph generated
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Processed function TokenERC20
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Generating return summary for _transfer
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Return summary generated for _transfer
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Range graph generated
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Processed function _transfer
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Generating return summary for approve
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Return summary generated for approve
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Range graph generated
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Processed function approve
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Generating return summary for burn
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Return summary generated for burn
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Range graph generated
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Processed function burn
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Generating return summary for burnFrom
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Return summary generated for burnFrom
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Range graph generated
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Processed function burnFrom
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Generating return summary for owned
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Return summary generated for owned
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Range graph generated
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Processed function owned
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Generating return summary for _transfer
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Return summary generated for _transfer
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Range graph generated
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Processed function _transfer
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Generating return summary for slitherConstructorVariables
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Return summary generated for slitherConstructorVariables
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Range graph generated
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Processed function slitherConstructorVariables
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Generating return summary for onlyOwner
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Return summary generated for onlyOwner
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | State variable assignement do not exist
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Processed function onlyOwner
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Generating return summary for transferOwnership
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Return summary generated for transferOwnership
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Range graph generated
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Processed function transferOwnership
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Generating return summary for approveAndCall
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Return summary generated for approveAndCall
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Range graph generated
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Processed function approveAndCall
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Generating return summary for approveAndCall
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Return summary generated for approveAndCall
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Range graph generated
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Processed function approveAndCall
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Generating return summary for RobotBTC
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Return summary generated for RobotBTC
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Range graph generated
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Processed function RobotBTC
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Generating return summary for transfer
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Return summary generated for transfer
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Range graph generated
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Processed function transfer
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Generating return summary for transferFrom
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Return summary generated for transferFrom
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Range graph generated
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Processed function transferFrom
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Generating return summary for transfer
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Return summary generated for transfer
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Range graph generated
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Processed function transfer
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Generating return summary for transferFrom
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Return summary generated for transferFrom
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Range graph generated
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Processed function transferFrom
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Generating return summary for buy
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Return summary generated for buy
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Range graph generated
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Processed function buy
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Generating return summary for sell
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Return summary generated for sell
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Range graph generated
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Processed function sell
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Generating return summary for transferOwnership
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Return summary generated for transferOwnership
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Range graph generated
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Processed function transferOwnership
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Generating return summary for mintToken
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Return summary generated for mintToken
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Range graph generated
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Processed function mintToken
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Generating return summary for freezeAccount
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Return summary generated for freezeAccount
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Range graph generated
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Processed function freezeAccount
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Generating return summary for setPrices
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Return summary generated for setPrices
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Range graph generated
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Processed function setPrices
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Generating return summary for setExchange
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Return summary generated for setExchange
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Range graph generated
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Processed function setExchange
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Value Range Analysis took 0.012462 seconds
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Value Range Analysis finished
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Storage dependency graph compostion started!
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Storage dependency graph compostion finished!
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Dependency detection started!
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Dependency detection finished!
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Static Analysis took 1.322096 seconds
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Dependency does not exist
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Symbolic execution is not needed!
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Analysis finished!
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Analysis took 1.322284 seconds
+[INFO] | 2023-12-05 03:39:04 AM | analyzer.RobotBTC | Analysis finished at: 2023-12-05 03:39:04 AM
+[36m[#] Analysing started: RobotBTC.sol[0m
+/root/.solc-select/artifacts/solc-0.4.26
+[36m[#] Interprocedural CFG generation started for modifier onlyOwner[0m
+[36m[#] Interprocedural CFG generated for modifer onlyOwner[0m
+[36m[#] Interprocedural CFG generation started for modifier onlyOwner[0m
+[36m[#] Interprocedural CFG generated for modifer onlyOwner[0m
+[36m[#] Interprocedural CFG generation started for owned[0m
+[36m[#] Interprocedural CFG generated for owned[0m
+[36m[#] Interprocedural CFG generation started for transferOwnership[0m
+[36m[#] Interprocedural CFG generated for transferOwnership[0m
+[36m[#] Interprocedural CFG generation started for receiveApproval[0m
+[36m[#] Interprocedural CFG generated for receiveApproval[0m
+[36m[#] Interprocedural CFG generation started for TokenERC20[0m
+[36m[#] Interprocedural CFG generated for TokenERC20[0m
+[36m[#] Interprocedural CFG generation started for transfer[0m
+[36m[#] Interprocedural CFG generated for transfer[0m
+[36m[#] Interprocedural CFG generation started for transferFrom[0m
+[36m[#] Interprocedural CFG generated for transferFrom[0m
+[36m[#] Interprocedural CFG generation started for approve[0m
+[36m[#] Interprocedural CFG generated for approve[0m
+[36m[#] Interprocedural CFG generation started for approveAndCall[0m
+[36m[#] Interprocedural CFG generated for approveAndCall[0m
+[36m[#] Interprocedural CFG generation started for burn[0m
+[36m[#] Interprocedural CFG generated for burn[0m
+[36m[#] Interprocedural CFG generation started for burnFrom[0m
+[36m[#] Interprocedural CFG generated for burnFrom[0m
+[36m[#] Interprocedural CFG generation started for TokenERC20[0m
+[36m[#] Interprocedural CFG generated for TokenERC20[0m
+[36m[#] Interprocedural CFG generation started for transfer[0m
+[36m[#] Interprocedural CFG generated for transfer[0m
+[36m[#] Interprocedural CFG generation started for transferFrom[0m
+[36m[#] Interprocedural CFG generated for transferFrom[0m
+[36m[#] Interprocedural CFG generation started for approve[0m
+[36m[#] Interprocedural CFG generated for approve[0m
+[36m[#] Interprocedural CFG generation started for approveAndCall[0m
+[36m[#] Interprocedural CFG generated for approveAndCall[0m
+[36m[#] Interprocedural CFG generation started for burn[0m
+[36m[#] Interprocedural CFG generated for burn[0m
+[36m[#] Interprocedural CFG generation started for burnFrom[0m
+[36m[#] Interprocedural CFG generated for burnFrom[0m
+[36m[#] Interprocedural CFG generation started for owned[0m
+[36m[#] Interprocedural CFG generated for owned[0m
+[36m[#] Interprocedural CFG generation started for transferOwnership[0m
+[36m[#] Interprocedural CFG generated for transferOwnership[0m
+[36m[#] Interprocedural CFG generation started for RobotBTC[0m
+[36m[#] Interprocedural CFG generated for RobotBTC[0m
+[36m[#] Interprocedural CFG generation started for mintToken[0m
+[36m[#] Interprocedural CFG generated for mintToken[0m
+[36m[#] Interprocedural CFG generation started for freezeAccount[0m
+[36m[#] Interprocedural CFG generated for freezeAccount[0m
+[36m[#] Interprocedural CFG generation started for setPrices[0m
+[36m[#] Interprocedural CFG generated for setPrices[0m
+[36m[#] Interprocedural CFG generation started for buy[0m
+[36m[#] Interprocedural CFG generated for buy[0m
+[36m[#] Interprocedural CFG generation started for sell[0m
+[36m[#] Interprocedural CFG generated for sell[0m
+[36m[#] Interprocedural CFG generation started for setExchange[0m
+[36m[#] Interprocedural CFG generated for setExchange[0m
+[36m[#] SDG generation started for owned[0m
+[36m[#] SDG generated for owned[0m
+[36m[#] SDG generation started for transferOwnership[0m
+[36m[#] SDG generated for transferOwnership[0m
+[36m[#] SDG generation started for modifier onlyOwner[0m
+[36m[#] SDG generated for modifier onlyOwner[0m
+[36m[#] SDG generation started for receiveApproval[0m
+[36m[#] SDG generated for receiveApproval[0m
+[36m[#] SDG generation started for TokenERC20[0m
+[36m[#] SDG generated for TokenERC20[0m
+[36m[#] SDG generation started for transfer[0m
+[36m[#] SDG generated for transfer[0m
+[36m[#] SDG generation started for transferFrom[0m
+[36m[#] SDG generated for transferFrom[0m
+[36m[#] SDG generation started for approve[0m
+[36m[#] SDG generated for approve[0m
+[36m[#] SDG generation started for approveAndCall[0m
+[36m[#] SDG generated for approveAndCall[0m
+[36m[#] SDG generation started for burn[0m
+[36m[#] SDG generated for burn[0m
+[36m[#] SDG generation started for burnFrom[0m
+[36m[#] SDG generated for burnFrom[0m
+[36m[#] SDG generation started for TokenERC20[0m
+[36m[#] SDG generated for TokenERC20[0m
+[36m[#] SDG generation started for transfer[0m
+[36m[#] SDG generated for transfer[0m
+[36m[#] SDG generation started for transferFrom[0m
+[36m[#] SDG generated for transferFrom[0m
+[36m[#] SDG generation started for approve[0m
+[36m[#] SDG generated for approve[0m
+[36m[#] SDG generation started for approveAndCall[0m
+[36m[#] SDG generated for approveAndCall[0m
+[36m[#] SDG generation started for burn[0m
+[36m[#] SDG generated for burn[0m
+[36m[#] SDG generation started for burnFrom[0m
+[36m[#] SDG generated for burnFrom[0m
+[36m[#] SDG generation started for owned[0m
+[36m[#] SDG generated for owned[0m
+[36m[#] SDG generation started for transferOwnership[0m
+[36m[#] SDG generated for transferOwnership[0m
+[36m[#] SDG generation started for RobotBTC[0m
+[36m[#] SDG generated for RobotBTC[0m
+[36m[#] SDG generation started for mintToken[0m
+[36m[#] SDG generated for mintToken[0m
+[36m[#] SDG generation started for freezeAccount[0m
+[36m[#] SDG generated for freezeAccount[0m
+[36m[#] SDG generation started for setPrices[0m
+[36m[#] SDG generated for setPrices[0m
+[36m[#] SDG generation started for buy[0m
+[36m[#] SDG generated for buy[0m
+[36m[#] SDG generation started for sell[0m
+[36m[#] SDG generated for sell[0m
+[36m[#] SDG generation started for setExchange[0m
+[36m[#] SDG generated for setExchange[0m
+[36m[#] SDG generation started for modifier onlyOwner[0m
+[36m[#] SDG generated for modifier onlyOwner[0m
+[36m[#] Analysis took 1.322284 seconds[0m
+[36m[#] Analysis completed: RobotBTC.sol [0m
+0edfb3afa031facc88ff228c535ff34f3e6cc1987c4e2aed39ff75423292db70

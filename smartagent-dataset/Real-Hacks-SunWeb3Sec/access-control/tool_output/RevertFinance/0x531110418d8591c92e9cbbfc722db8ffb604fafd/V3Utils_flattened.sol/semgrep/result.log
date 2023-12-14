@@ -1,0 +1,170 @@
+METRICS: Using configs from the Registry (like --config=p/ci) reports pseudonymous rule metrics to semgrep.dev.
+To disable Registry rule metrics, use "--metrics=off".
+Using configs only from local files (like --config=xyz.yml) does not enable metrics.
+
+More information: https://semgrep.dev/docs/metrics
+
+               
+               
+┌─────────────┐
+│ Scan Status │
+└─────────────┘
+  Scanning 1 file tracked by git with 48 Code rules:
+  Scanning 1 file with 48 solidity rules.
+                    
+                    
+┌──────────────────┐
+│ 26 Code Findings │
+└──────────────────┘
+                              
+    /sb/V3Utils_flattened.sol 
+       solidity.best-practice.use-abi-encodecall-instead-of-encodewithselector  
+          To guarantee arguments type safety it is recommended to use           
+  `abi.encodeCall` instead of                                                   
+          `abi.encodeWithSelector`.                                             
+                                                                                
+          983┆ _callOptionalReturn(token,                                       
+  abi.encodeWithSelector(token.transfer.selector, to, value));                  
+            ⋮┆----------------------------------------
+          992┆ _callOptionalReturn(token,                                       
+  abi.encodeWithSelector(token.transferFrom.selector, from, to, value));        
+            ⋮┆----------------------------------------
+         1014┆ _callOptionalReturn(token,                                       
+  abi.encodeWithSelector(token.approve.selector, spender, value));              
+            ⋮┆----------------------------------------
+         1023┆ _callOptionalReturn(token,                                       
+  abi.encodeWithSelector(token.approve.selector, spender, newAllowance));       
+            ⋮┆----------------------------------------
+         1035┆ _callOptionalReturn(token,                                       
+  abi.encodeWithSelector(token.approve.selector, spender, newAllowance));       
+            ⋮┆----------------------------------------
+       solidity.performance.non-payable-constructor      
+          Consider making costructor payable to save gas.
+                                                         
+         1139┆ constructor(INonfungiblePositionManager                          
+  _nonfungiblePositionManager) {                                                
+         1140┆     weth = IWETH9(_nonfungiblePositionManager.WETH9());
+         1141┆     nonfungiblePositionManager = _nonfungiblePositionManager;
+         1142┆ }
+            ⋮┆----------------------------------------
+       solidity.performance.use-custom-error-not-require                        
+          Consider using custom errors as they are more gas efficient while     
+  allowing developers  to                                                       
+          describe the error in detail using NatSpec.                           
+                                                                                
+          781┆ require(address(this).balance >= amount, "Address: insufficient  
+  balance");                                                                    
+            ⋮┆----------------------------------------
+          784┆ require(success, "Address: unable to send value, recipient may   
+  have reverted");                                                              
+            ⋮┆----------------------------------------
+          854┆ require(address(this).balance >= value, "Address: insufficient   
+  balance for call");                                                           
+            ⋮┆----------------------------------------
+          925┆ require(isContract(target), "Address: call to non-contract");
+            ⋮┆----------------------------------------
+         1010┆ require(
+         1011┆     (value == 0) || (token.allowance(address(this), spender) ==  
+  0),                                                                           
+         1012┆     "SafeERC20: approve from non-zero to non-zero allowance"
+         1013┆ );
+            ⋮┆----------------------------------------
+         1033┆ require(oldAllowance >= value, "SafeERC20: decreased allowance   
+  below zero");                                                                 
+            ⋮┆----------------------------------------
+         1052┆ require(nonceAfter == nonceBefore + 1, "SafeERC20: permit did not
+  succeed");                                                                    
+            ⋮┆----------------------------------------
+         1069┆ require(abi.decode(returndata, (bool)), "SafeERC20: ERC20        
+  operation did not succeed");                                                  
+            ⋮┆----------------------------------------
+       solidity.performance.use-nested-if                                       
+          Using nested is cheaper than using && multiple check combinations.    
+  There are more                                                                
+          advantages, such as easier to read code and better coverage reports.  
+                                                                                
+         1301┆ if (targetAmount > 0 && instructions.targetToken != address(0)) {
+         1302┆     _transferToken(instructions.recipient,                       
+  IERC20(instructions.targetToken), targetAmount, instructions.unwrap);         
+         1303┆ }
+            ⋮┆----------------------------------------
+         1485┆ if (address(otherToken) != address(0) && token0 != otherToken && 
+  token1 != otherToken && amountOther > amountAddedOther) {                     
+         1486┆     uint balanceBefore = otherToken.balanceOf(address(this));
+         1487┆     SafeERC20.safeTransferFrom(otherToken, msg.sender,           
+  address(this), amountOther - amountAddedOther);                               
+         1488┆     uint balanceAfter = otherToken.balanceOf(address(this));
+         1489┆     if (balanceAfter - balanceBefore != amountOther -            
+  amountAddedOther) {                                                           
+         1490┆         revert TransferError(); // reverts for fee-on-transfer   
+  tokens                                                                        
+         1491┆     }
+         1492┆ }
+            ⋮┆----------------------------------------
+         1609┆ if (address(weth) == address(token) && unwrap) {
+         1610┆     weth.withdraw(amount);
+         1611┆     (bool sent, ) = to.call{value: amount}("");
+         1612┆     if (!sent) {
+         1613┆         revert EtherSendFailed();
+         1614┆     }
+         1615┆ } else {
+         1616┆     SafeERC20.safeTransfer(token, to, amount);
+         1617┆ }
+            ⋮┆----------------------------------------
+         1624┆ if (amountIn > 0 && swapData.length > 0 && address(tokenOut) !=  
+  address(0)) {                                                                 
+         1625┆     uint balanceInBefore = tokenIn.balanceOf(address(this));
+         1626┆     uint balanceOutBefore = tokenOut.balanceOf(address(this));
+         1627┆ 
+         1628┆     // get router specific swap data
+         1629┆     (address swapRouter, address allowanceTarget, bytes memory   
+  data) = abi.decode(swapData, (address, address, bytes));                      
+         1630┆ 
+         1631┆     // approve needed amount
+         1632┆     tokenIn.approve(allowanceTarget, amountIn);
+         1633┆ 
+             [hid 23 additional lines, adjust with --max-lines-per-finding] 
+       solidity.performance.use-short-revert-string                             
+          Shortening revert strings to fit in 32 bytes will decrease gas costs  
+  for deployment and  gas                                                       
+          costs when the revert condition has been met.                         
+                                                                                
+          784┆ require(success, "Address: unable to send value, recipient may   
+  have reverted");                                                              
+            ⋮┆----------------------------------------
+          854┆ require(address(this).balance >= value, "Address: insufficient   
+  balance for call");                                                           
+            ⋮┆----------------------------------------
+         1010┆ require(
+         1011┆     (value == 0) || (token.allowance(address(this), spender) ==  
+  0),                                                                           
+         1012┆     "SafeERC20: approve from non-zero to non-zero allowance"
+         1013┆ );
+            ⋮┆----------------------------------------
+         1033┆ require(oldAllowance >= value, "SafeERC20: decreased allowance   
+  below zero");                                                                 
+            ⋮┆----------------------------------------
+         1052┆ require(nonceAfter == nonceBefore + 1, "SafeERC20: permit did not
+  succeed");                                                                    
+            ⋮┆----------------------------------------
+         1069┆ require(abi.decode(returndata, (bool)), "SafeERC20: ERC20        
+  operation did not succeed");                                                  
+            ⋮┆----------------------------------------
+       solidity.security.basic-arithmetic-underflow
+          Possible arithmetic underflow            
+                                                   
+         1284┆ _transferToken(instructions.recipient, IERC20(state.token0),     
+  state.amount0 - amountInDelta, instructions.unwrap);                          
+            ⋮┆----------------------------------------
+         1293┆ _transferToken(instructions.recipient, IERC20(state.token1),     
+  state.amount1 - amountInDelta, instructions.unwrap);                          
+
+                
+                
+┌──────────────┐
+│ Scan Summary │
+└──────────────┘
+
+Ran 48 rules on 1 file: 26 findings.
+
+A new version of Semgrep is available. See https://semgrep.dev/docs/upgrading

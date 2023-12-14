@@ -1,0 +1,180 @@
+{
+  "/smart-agent/smartagent-dataset/AccessControl/CVE/0x6E58b4c41cAB75dc0239938BF5455aB8823EE4DE/B2X.sol": [
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Token.totalSupply",
+      "info": "totalSupply",
+      "loc": [
+        6,
+        4,
+        6,
+        62
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Token.balanceOf",
+      "info": "balanceOf",
+      "loc": [
+        9,
+        4,
+        9,
+        75
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Token.transfer",
+      "info": "transfer",
+      "loc": [
+        12,
+        4,
+        12,
+        75
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Token.transferFrom",
+      "info": "transferFrom",
+      "loc": [
+        15,
+        4,
+        15,
+        94
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Token.approve",
+      "info": "approve",
+      "loc": [
+        18,
+        4,
+        18,
+        79
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Token.allowance",
+      "info": "allowance",
+      "loc": [
+        21,
+        4,
+        21,
+        95
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Owned.owned",
+      "info": "owned",
+      "loc": [
+        31,
+        4,
+        33,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Owned.transferOwnership",
+      "info": "transferOwnership",
+      "loc": [
+        40,
+        4,
+        42,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: StandardToken.transfer",
+      "info": "transfer",
+      "loc": [
+        47,
+        4,
+        55,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: StandardToken.transferFrom",
+      "info": "transferFrom",
+      "loc": [
+        57,
+        4,
+        66,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: StandardToken.distributeToken",
+      "info": "distributeToken",
+      "loc": [
+        68,
+        4,
+        74,
+        0
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: StandardToken.balanceOf",
+      "info": "balanceOf",
+      "loc": [
+        76,
+        4,
+        78,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: StandardToken.approve",
+      "info": "approve",
+      "loc": [
+        80,
+        4,
+        84,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: StandardToken.allowance",
+      "info": "allowance",
+      "loc": [
+        86,
+        4,
+        88,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: B2X.__fallback__",
+      "info": "__fallback__",
+      "loc": [
+        103,
+        4,
+        106,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: B2X.__constructor__",
+      "info": "__constructor__",
+      "loc": [
+        114,
+        4,
+        121,
+        4
+      ]
+    }
+  ]
+}

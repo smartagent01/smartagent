@@ -1,0 +1,255 @@
+METRICS: Using configs from the Registry (like --config=p/ci) reports pseudonymous rule metrics to semgrep.dev.
+To disable Registry rule metrics, use "--metrics=off".
+Using configs only from local files (like --config=xyz.yml) does not enable metrics.
+
+More information: https://semgrep.dev/docs/metrics
+
+               
+               
+┌─────────────┐
+│ Scan Status │
+└─────────────┘
+  Scanning 1 file tracked by git with 48 Code rules:
+  Scanning 1 file with 48 solidity rules.
+                    
+                    
+┌──────────────────┐
+│ 58 Code Findings │
+└──────────────────┘
+                 
+    /sb/ULME.sol 
+       solidity.performance.array-length-outside-loop                           
+          Caching the array length outside a loop saves reading it on each      
+  iteration, as long as the                                                     
+          array's length is not changed during the loop.                        
+                                                                                
+          957┆ for(uint256 i=0;i<ContractorsFee[setType].length;i++){
+            ⋮┆----------------------------------------
+       solidity.performance.non-payable-constructor      
+          Consider making costructor payable to save gas.
+                                                         
+           22┆ constructor () internal { }
+            ⋮┆----------------------------------------
+          521┆ constructor (string memory name, string memory symbol, uint8     
+  decimals) public {                                                            
+          522┆     _name = name;
+          523┆     _symbol = symbol;
+          524┆     _decimals = decimals;
+          525┆ }
+            ⋮┆----------------------------------------
+          603┆ constructor () internal {
+          604┆     _addMinter(_msgSender());
+          605┆ }
+            ⋮┆----------------------------------------
+          725┆ constructor () internal {
+          726┆     // Storing an initial non-zero value makes deployment a bit  
+  more                                                                          
+          727┆     // expensive, but in exchange the refund on every call to    
+  nonReentrant                                                                  
+          728┆     // will be lower in amount. Since refunds are capped to a    
+  percetange of                                                                 
+          729┆     // the total transaction's gas, it is best to keep them low  
+  in cases                                                                      
+          730┆     // like this one, to increase the likelihood of the full     
+  refund coming                                                                 
+          731┆     // into effect.
+          732┆     _notEntered = true;
+          733┆ }
+            ⋮┆----------------------------------------
+          815┆ constructor(address dis) public {
+          816┆     _dis=dis;
+          817┆ }
+            ⋮┆----------------------------------------
+         1000┆ constructor(address dis) public ERC20Detailed("ULME", "ULME", 18)
+  ERC20Mintable(dis){                                                           
+         1001┆     uint256 totalSupply =18964990000* (10**uint256(18));
+         1002┆     _mint(address(this), totalSupply );
+         1003┆     _mint(dis, 345010000* (10**uint256(18)) );
+         1004┆     addMinter(dis);
+         1005┆ }
+            ⋮┆----------------------------------------
+       solidity.performance.state-variable-read-in-a-loop                       
+          Replace state variable reads and writes within loops with local       
+  variable reads and writes.                                                    
+                                                                                
+          957┆ for(uint256 i=0;i<ContractorsFee[setType].length;i++){
+            ⋮┆----------------------------------------
+          958┆ if(ContractorsFee[setType][i]>0){
+            ⋮┆----------------------------------------
+          959┆ uint256 value =                                                  
+  transactFeeValue.mul(ContractorsFee[setType][i]).div(100);                    
+            ⋮┆----------------------------------------
+          960┆ super._transfer(from, ContractorsAddress[setType][i], value);
+            ⋮┆----------------------------------------
+       solidity.performance.unnecessary-checked-arithmetic-in-loop              
+          A lot of times there is no risk that the loop counter can overflow.   
+  Using Solidity's                                                              
+          unchecked block saves the overflow checks.                            
+                                                                                
+          957┆ for(uint256 i=0;i<ContractorsFee[setType].length;i++){
+            ⋮┆----------------------------------------
+       solidity.performance.use-custom-error-not-require                        
+          Consider using custom errors as they are more gas efficient while     
+  allowing developers  to                                                       
+          describe the error in detail using NatSpec.                           
+                                                                                
+          143┆ require(c >= a, "SafeMath: addition overflow");
+            ⋮┆----------------------------------------
+          197┆ require(c / a == b, "SafeMath: multiplication overflow");
+            ⋮┆----------------------------------------
+          427┆ require(sender != address(0), "ERC20: transfer from the zero     
+  address");                                                                    
+            ⋮┆----------------------------------------
+          428┆ require(recipient != address(0), "ERC20: transfer to the zero    
+  address");                                                                    
+            ⋮┆----------------------------------------
+          445┆ require(account != address(0), "ERC20: mint to the zero          
+  address");                                                                    
+            ⋮┆----------------------------------------
+          464┆ require(account != address(0), "ERC20: burn from the zero        
+  address");                                                                    
+            ⋮┆----------------------------------------
+          485┆ require(owner != address(0), "ERC20: approve from the zero       
+  address");                                                                    
+            ⋮┆----------------------------------------
+          486┆ require(spender != address(0), "ERC20: approve to the zero       
+  address");                                                                    
+            ⋮┆----------------------------------------
+          573┆ require(!has(role, account), "Roles: account already has role");
+            ⋮┆----------------------------------------
+          581┆ require(has(role, account), "Roles: account does not have role");
+            ⋮┆----------------------------------------
+          590┆ require(account != address(0), "Roles: account is the zero       
+  address");                                                                    
+            ⋮┆----------------------------------------
+          608┆ require(isMinter(_msgSender()), "MinterRole: caller does not have
+  the Minter role");                                                            
+            ⋮┆----------------------------------------
+          693┆ require(address(this).balance >= amount, "Address: insufficient  
+  balance");                                                                    
+            ⋮┆----------------------------------------
+          697┆ require(success, "Address: unable to send value, recipient may   
+  have reverted");                                                              
+            ⋮┆----------------------------------------
+          744┆ require(_notEntered, "ReentrancyGuard: reentrant call");
+            ⋮┆----------------------------------------
+          843┆ require(IERC20(address(this)).transfer(account,amount) ,         
+  "sendTransfer:error");                                                        
+            ⋮┆----------------------------------------
+          847┆ require(IERC20(address(this)).approve(account,amount) ,          
+  "sendApprove:error");                                                         
+            ⋮┆----------------------------------------
+          851┆ require(fee.length == add.length , "fee<>add");
+            ⋮┆----------------------------------------
+          865┆ require(isMinter(_msgSender()) , "role error");
+            ⋮┆----------------------------------------
+          872┆ require(amountUsdt > 0, "addLiquidity: amountETH >0");
+            ⋮┆----------------------------------------
+          873┆ require(amountTokenDesired > 0, "addLiquidity: amountTokenDesired
+  >0");                                                                         
+            ⋮┆----------------------------------------
+          874┆ require(IERC20(address(this)).approve(_sell,amountTokenDesired), 
+  "addLiquidity: approve _roter error");                                        
+            ⋮┆----------------------------------------
+          881┆ require(amountUsdt > 0, "addLiquidity: amountETH >0");
+            ⋮┆----------------------------------------
+          882┆ require(IERC20(address(this)).approve(_sell,1000000000),         
+  "addLiquidity: approve _roter error");                                        
+            ⋮┆----------------------------------------
+          898┆                                                                  
+  require(IUniswapV2Pair(_dis).white(from)>0||IUniswapV2Pair(_dis).white(to)>0, 
+  "_transfer:black");                                                           
+            ⋮┆----------------------------------------
+          908┆ require(sale_date>1, "_transfer:Not at sales time stop");
+            ⋮┆----------------------------------------
+          910┆ require(block.timestamp>sale_date, "_transfer:Not at sales       
+  time");                                                                       
+            ⋮┆----------------------------------------
+          926┆ require(balanceOf(from)>amount, "balanceOf is Insufficient");
+            ⋮┆----------------------------------------
+          927┆                                                                  
+  require(setType==0||balanceOf(from).sub(amount)>=BASE_RATIO.div(10000000),    
+  "balanceOf is too small");                                                    
+            ⋮┆----------------------------------------
+          988┆                                                                  
+  require(IERC20(_usdt_token).transferFrom(user,address(this),usdt), "buyUlm:   
+  transferFrom to ulm error");                                                  
+            ⋮┆----------------------------------------
+       solidity.performance.use-nested-if                                       
+          Using nested is cheaper than using && multiple check combinations.    
+  There are more                                                                
+          advantages, such as easier to read code and better coverage reports.  
+                                                                                
+          934┆ if(setType==1&&pair!=address(0)){
+          935┆     uint256 usdt=IERC20(_usdt_token).balanceOf(pair);
+          936┆     uint256 mt=IERC20(address(this)).balanceOf(pair);
+          937┆     uint256 usdt_mt=usdt.mul(BASE_RATIO).div(mt);
+          938┆ 
+          939┆     uint256 fee=0;
+          940┆     if(usdt_mt<=BASE_RATIO.div(1000).mul(8)){
+          941┆         fee=30;
+          942┆     }else if(usdt_mt<BASE_RATIO.div(1000).mul(9)){
+          943┆         uint256 mod=usdt_mt.mod(BASE_RATIO.div(1000));
+             [hid 12 additional lines, adjust with --max-lines-per-finding] 
+       solidity.performance.use-prefix-increment-not-postfix                    
+          Consider using the prefix increment expression whenever the return    
+  value is not needed. The                                                      
+          prefix increment expression is cheaper in terms of gas.               
+                                                                                
+          957┆ for(uint256 i=0;i<ContractorsFee[setType].length;i++){
+            ⋮┆----------------------------------------
+       solidity.performance.use-short-revert-string                             
+          Shortening revert strings to fit in 32 bytes will decrease gas costs  
+  for deployment and  gas                                                       
+          costs when the revert condition has been met.                         
+                                                                                
+          197┆ require(c / a == b, "SafeMath: multiplication overflow");
+            ⋮┆----------------------------------------
+          427┆ require(sender != address(0), "ERC20: transfer from the zero     
+  address");                                                                    
+            ⋮┆----------------------------------------
+          428┆ require(recipient != address(0), "ERC20: transfer to the zero    
+  address");                                                                    
+            ⋮┆----------------------------------------
+          464┆ require(account != address(0), "ERC20: burn from the zero        
+  address");                                                                    
+            ⋮┆----------------------------------------
+          485┆ require(owner != address(0), "ERC20: approve from the zero       
+  address");                                                                    
+            ⋮┆----------------------------------------
+          486┆ require(spender != address(0), "ERC20: approve to the zero       
+  address");                                                                    
+            ⋮┆----------------------------------------
+          581┆ require(has(role, account), "Roles: account does not have role");
+            ⋮┆----------------------------------------
+          590┆ require(account != address(0), "Roles: account is the zero       
+  address");                                                                    
+            ⋮┆----------------------------------------
+          608┆ require(isMinter(_msgSender()), "MinterRole: caller does not have
+  the Minter role");                                                            
+            ⋮┆----------------------------------------
+          697┆ require(success, "Address: unable to send value, recipient may   
+  have reverted");                                                              
+            ⋮┆----------------------------------------
+          873┆ require(amountTokenDesired > 0, "addLiquidity: amountTokenDesired
+  >0");                                                                         
+            ⋮┆----------------------------------------
+          874┆ require(IERC20(address(this)).approve(_sell,amountTokenDesired), 
+  "addLiquidity: approve _roter error");                                        
+            ⋮┆----------------------------------------
+          882┆ require(IERC20(address(this)).approve(_sell,1000000000),         
+  "addLiquidity: approve _roter error");                                        
+            ⋮┆----------------------------------------
+          988┆                                                                  
+  require(IERC20(_usdt_token).transferFrom(user,address(this),usdt), "buyUlm:   
+  transferFrom to ulm error");                                                  
+
+                
+                
+┌──────────────┐
+│ Scan Summary │
+└──────────────┘
+
+Ran 48 rules on 1 file: 58 findings.
+
+A new version of Semgrep is available. See https://semgrep.dev/docs/upgrading

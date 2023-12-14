@@ -1,0 +1,29 @@
+updateUniswapV2Router
+Allows the owner to update the Uniswap V2 Router address, potentially leading to unauthorized access.
+
+excludeFromFees
+Allows the owner to exclude an account from fees, potentially manipulating the fee system and allowing unauthorized access.
+
+setSwapTokensAtAmount
+Allows the owner to set the amount of tokens to swap, potentially manipulating the swapping mechanism and allowing unauthorized access.
+
+changeSwapWarp
+Allows the owner to change the Warp contract address, potentially leading to unauthorized access.
+
+addOtherTokenPair
+Allows the owner to add other token pairs, potentially manipulating the token pairs and allowing unauthorized access.
+
+changeDistribution
+Allows the owner to change the distribution status, potentially manipulating the distribution mechanism and allowing unauthorized access.
+
+warpWithdraw
+Allows the owner to withdraw from the Warp contract, potentially manipulating the withdrawal process and allowing unauthorized access.
+
+changeRate
+Allows the owner to change the rate of distribution, potentially manipulating the distribution rate and allowing unauthorized access.
+
+changeSwapStats
+Allows the owner to change the swap statistics, potentially manipulating the swap statistics and allowing unauthorized access.
+
+swapAndLiquify
+Performs swapping and liquidity addition, potentially allowing unauthorized access to the contract.

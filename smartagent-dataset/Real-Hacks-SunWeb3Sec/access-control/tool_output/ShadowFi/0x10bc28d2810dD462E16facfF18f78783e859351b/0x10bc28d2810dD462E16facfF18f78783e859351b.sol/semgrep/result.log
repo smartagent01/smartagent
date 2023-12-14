@@ -1,0 +1,274 @@
+METRICS: Using configs from the Registry (like --config=p/ci) reports pseudonymous rule metrics to semgrep.dev.
+To disable Registry rule metrics, use "--metrics=off".
+Using configs only from local files (like --config=xyz.yml) does not enable metrics.
+
+More information: https://semgrep.dev/docs/metrics
+
+               
+               
+┌─────────────┐
+│ Scan Status │
+└─────────────┘
+  Scanning 1 file tracked by git with 48 Code rules:
+  Scanning 1 file with 48 solidity rules.
+                    
+                    
+┌──────────────────┐
+│ 67 Code Findings │
+└──────────────────┘
+                                                       
+    /sb/0x10bc28d2810dD462E16facfF18f78783e859351b.sol 
+       solidity.performance.array-length-outside-loop                           
+          Caching the array length outside a loop saves reading it on each      
+  iteration, as long as the                                                     
+          array's length is not changed during the loop.                        
+                                                                                
+          714┆ for (uint256 i = 0; i < liqPairs.length; i++) {
+            ⋮┆----------------------------------------
+          745┆ for (uint256 i = 0; i < liqPairs.length; i++) {
+            ⋮┆----------------------------------------
+       solidity.performance.init-variables-with-default-value                   
+          Uninitialized variables are assigned with the types default value.    
+  Explicitly initializing a                                                     
+          variable with its default value costs unnecessary gas.                
+                                                                                
+          567┆ uint256 buybackFee = 0;
+            ⋮┆----------------------------------------
+          591┆ bool public feesOnNormalTransfers = false;
+            ⋮┆----------------------------------------
+       solidity.performance.non-payable-constructor      
+          Consider making costructor payable to save gas.
+                                                         
+          417┆ constructor (address _router) {
+          418┆     router = _router != address(0)
+          419┆         ? IDEXRouter(_router)
+          420┆         : IDEXRouter(0x10ED43C718714eb63d5aA57B78B54704E256024E);
+          421┆     _token = msg.sender;
+          422┆ }
+            ⋮┆----------------------------------------
+          603┆ constructor (uint256 _transferBlockTime) ShadowAuth(msg.sender) {
+          604┆     router =                                                     
+  IDEXRouter(0x10ED43C718714eb63d5aA57B78B54704E256024E);                       
+          605┆     pancakeV2BNBPair =                                           
+  IDEXFactory(router.factory()).createPair(WBNB, address(this));                
+          606┆     _allowances[address(this)][address(router)] = ~uint256(0);
+          607┆ 
+          608┆     pairs.push(pancakeV2BNBPair);
+          609┆     distributor = new DividendDistributor(address(router));
+          610┆ 
+          611┆     address owner_ = msg.sender;
+          612┆     allowedAddresses[owner_] = true;
+             [hid 17 additional lines, adjust with --max-lines-per-finding] 
+       solidity.performance.state-variable-read-in-a-loop                       
+          Replace state variable reads and writes within loops with local       
+  variable reads and writes.                                                    
+                                                                                
+          205┆ authorizations[owner_][i] = true;
+            ⋮┆----------------------------------------
+          254┆ uint256 permIndex = permissionNameToIndex[permissionNames[i]];
+            ⋮┆----------------------------------------
+          255┆ authorizations[adr][permIndex] = true;
+            ⋮┆----------------------------------------
+          278┆ uint256 permIndex = permissionNameToIndex[permissionNames[i]];
+            ⋮┆----------------------------------------
+          279┆ authorizations[adr][permIndex] = false;
+            ⋮┆----------------------------------------
+          312┆ authorizations[oldOwner][i] = false;
+            ⋮┆----------------------------------------
+          313┆ authorizations[owner][i] = true;
+            ⋮┆----------------------------------------
+          313┆ authorizations[owner][i] = true;
+            ⋮┆----------------------------------------
+          476┆ if(currentIndex >= shareholderCount){
+            ⋮┆----------------------------------------
+          477┆ currentIndex = 0;
+            ⋮┆----------------------------------------
+          480┆ if(shouldDistribute(shareholders[currentIndex])){
+            ⋮┆----------------------------------------
+          480┆ if(shouldDistribute(shareholders[currentIndex])){
+            ⋮┆----------------------------------------
+          481┆ distributeDividend(shareholders[currentIndex]);
+            ⋮┆----------------------------------------
+          481┆ distributeDividend(shareholders[currentIndex]);
+            ⋮┆----------------------------------------
+          486┆ currentIndex++;
+            ⋮┆----------------------------------------
+       solidity.performance.unnecessary-checked-arithmetic-in-loop              
+          A lot of times there is no risk that the loop counter can overflow.   
+  Using Solidity's                                                              
+          unchecked block saves the overflow checks.                            
+                                                                                
+          204┆ for (uint256 i; i < NUM_PERMISSIONS; i++) {
+            ⋮┆----------------------------------------
+          253┆ for (uint256 i; i < permissionNames.length; i++) {
+            ⋮┆----------------------------------------
+          277┆ for (uint256 i; i < permissionNames.length; i++) {
+            ⋮┆----------------------------------------
+          311┆ for (uint256 i; i < NUM_PERMISSIONS; i++) {
+            ⋮┆----------------------------------------
+          714┆ for (uint256 i = 0; i < liqPairs.length; i++) {
+            ⋮┆----------------------------------------
+          745┆ for (uint256 i = 0; i < liqPairs.length; i++) {
+            ⋮┆----------------------------------------
+       solidity.performance.use-custom-error-not-require                        
+          Consider using custom errors as they are more gas efficient while     
+  allowing developers  to                                                       
+          describe the error in detail using NatSpec.                           
+                                                                                
+           68┆ require(c >= a, "SafeMath: addition overflow");
+            ⋮┆----------------------------------------
+           87┆ require(c / a == b, "SafeMath: multiplication overflow");
+            ⋮┆----------------------------------------
+          229┆ require(isOwner(msg.sender), "Ownership required."); _;
+            ⋮┆----------------------------------------
+          236┆ require(!lockedPermissions[uint256(permission)].isLocked,        
+  "Permission is locked.");                                                     
+            ⋮┆----------------------------------------
+          264┆ require(adr != owner, "Can't unauthorize owner");
+            ⋮┆----------------------------------------
+          275┆ require(adr != owner, "Can't unauthorize owner");
+            ⋮┆----------------------------------------
+          353┆ require(block.timestamp > getPermissionUnlockTime(permissionName)
+  , "Permission is locked until the expiry time.");                             
+            ⋮┆----------------------------------------
+          643┆ require(block.timestamp > transferBlockTime, "Transfers have not 
+  been enabled yet.");                                                          
+            ⋮┆----------------------------------------
+          646┆ require(!blackList[msg.sender], "You are a bad boy!");
+            ⋮┆----------------------------------------
+          671┆ require(block.timestamp > transferBlockTime, "Transfers have not 
+  been enabled yet.");                                                          
+            ⋮┆----------------------------------------
+          674┆ require(!blackList[sender] && !blackList[recipient], "Either the 
+  spender or recipient is blacklisted.");                                       
+            ⋮┆----------------------------------------
+          706┆ require(amount <= _maxTxAmount || isTxLimitExempt[sender], "TX   
+  Limit Exceeded");                                                             
+            ⋮┆----------------------------------------
+          839┆ revert("Buyback failed without an error message from             
+  pancakeSwap");                                                                
+            ⋮┆----------------------------------------
+          891┆ require(totalBuyFee <= feeDenominator / 10, "Buy fee too high");
+            ⋮┆----------------------------------------
+          892┆ require(totalSellFee <= feeDenominator / 5, "Sell fee too high");
+            ⋮┆----------------------------------------
+       solidity.performance.use-multiple-require                                
+          Using multiple require statements is cheaper than using && multiple   
+  check combinations.                                                           
+          There are more advantages, such as easier to read code and better     
+  coverage reports.                                                             
+                                                                                
+          674┆ require(!blackList[sender] && !blackList[recipient], "Either the 
+  spender or recipient is blacklisted.");                                       
+            ⋮┆----------------------------------------
+          844┆ require(numerator / denominator <= 3 && numerator > denominator);
+            ⋮┆----------------------------------------
+          865┆ require(holder != address(this) && holder != pancakeV2BNBPair);
+            ⋮┆----------------------------------------
+       solidity.performance.use-nested-if                                       
+          Using nested is cheaper than using && multiple check combinations.    
+  There are more                                                                
+          advantages, such as easier to read code and better coverage reports.  
+                                                                                
+          434┆ if(amount > 0 && shares[shareholder].amount == 0){
+          435┆     addShareholder(shareholder);
+          436┆ }else if(amount == 0 && shares[shareholder].amount > 0){
+          437┆     removeShareholder(shareholder);
+          438┆ }
+            ⋮┆----------------------------------------
+          436┆ }else if(amount == 0 && shares[shareholder].amount > 0){
+          437┆     removeShareholder(shareholder);
+          438┆ }
+            ⋮┆----------------------------------------
+          670┆ if (!allowedAddresses[msg.sender] &&                             
+  !allowedAddresses[recipient]) {                                               
+          671┆     require(block.timestamp > transferBlockTime, "Transfers have 
+  not been enabled yet.");                                                      
+          672┆ }
+            ⋮┆----------------------------------------
+          682┆ if(!launched() && recipient == pancakeV2BNBPair){                
+  require(_balances[sender] > 0); launch(); }                                   
+            ⋮┆----------------------------------------
+          723┆ if(selling &&                                                    
+  buybackMultiplierTriggeredAt.add(buybackMultiplierLength) > block.timestamp){ 
+  return getMultipliedFee(); }                                                  
+            ⋮┆----------------------------------------
+       solidity.performance.use-prefix-increment-not-postfix                    
+          Consider using the prefix increment expression whenever the return    
+  value is not needed. The                                                      
+          prefix increment expression is cheaper in terms of gas.               
+                                                                                
+          204┆ for (uint256 i; i < NUM_PERMISSIONS; i++) {
+            ⋮┆----------------------------------------
+          253┆ for (uint256 i; i < permissionNames.length; i++) {
+            ⋮┆----------------------------------------
+          277┆ for (uint256 i; i < permissionNames.length; i++) {
+            ⋮┆----------------------------------------
+          311┆ for (uint256 i; i < NUM_PERMISSIONS; i++) {
+            ⋮┆----------------------------------------
+          486┆ currentIndex++;
+            ⋮┆----------------------------------------
+          487┆ iterations++;
+            ⋮┆----------------------------------------
+          714┆ for (uint256 i = 0; i < liqPairs.length; i++) {
+            ⋮┆----------------------------------------
+          745┆ for (uint256 i = 0; i < liqPairs.length; i++) {
+            ⋮┆----------------------------------------
+       solidity.performance.use-short-revert-string                             
+          Shortening revert strings to fit in 32 bytes will decrease gas costs  
+  for deployment and  gas                                                       
+          costs when the revert condition has been met.                         
+                                                                                
+           87┆ require(c / a == b, "SafeMath: multiplication overflow");
+            ⋮┆----------------------------------------
+          353┆ require(block.timestamp > getPermissionUnlockTime(permissionName)
+  , "Permission is locked until the expiry time.");                             
+            ⋮┆----------------------------------------
+          643┆ require(block.timestamp > transferBlockTime, "Transfers have not 
+  been enabled yet.");                                                          
+            ⋮┆----------------------------------------
+          671┆ require(block.timestamp > transferBlockTime, "Transfers have not 
+  been enabled yet.");                                                          
+            ⋮┆----------------------------------------
+          674┆ require(!blackList[sender] && !blackList[recipient], "Either the 
+  spender or recipient is blacklisted.");                                       
+            ⋮┆----------------------------------------
+          839┆ revert("Buyback failed without an error message from             
+  pancakeSwap");                                                                
+            ⋮┆----------------------------------------
+       solidity.security.no-slippage-check          
+          No slippage check in a Uniswap v2/v3 trade
+                                                    
+          452┆ router.swapExactETHForTokensSupportingFeeOnTransferTokens{value: 
+  msg.value}(                                                                   
+          453┆     0,
+          454┆     path,
+          455┆     address(this),
+          456┆     block.timestamp
+          457┆ );
+            ⋮┆----------------------------------------
+          769┆ try router.swapExactTokensForETHSupportingFeeOnTransferTokens(
+          770┆     amountToSwap,
+          771┆     0,
+          772┆     path,
+          773┆     address(this),
+          774┆     block.timestamp
+          775┆ ) {
+            ⋮┆----------------------------------------
+          829┆ try router.swapExactETHForTokensSupportingFeeOnTransferTokens{   
+  value: amount }(                                                              
+          830┆     0,
+          831┆     path,
+          832┆     to,
+          833┆     block.timestamp
+          834┆ ) {
+
+                
+                
+┌──────────────┐
+│ Scan Summary │
+└──────────────┘
+
+Ran 48 rules on 1 file: 67 findings.
+
+A new version of Semgrep is available. See https://semgrep.dev/docs/upgrading

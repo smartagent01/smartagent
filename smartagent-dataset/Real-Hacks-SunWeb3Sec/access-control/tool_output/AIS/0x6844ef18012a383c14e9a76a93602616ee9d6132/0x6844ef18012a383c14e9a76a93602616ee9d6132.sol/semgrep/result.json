@@ -1,0 +1,117 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/AIS/0x6844ef18012a383c14e9a76a93602616ee9d6132/0x6844ef18012a383c14e9a76a93602616ee9d6132.sol",
+            "line": 933,
+            "message": "By demanding that the receiver of the owner permissions actively accept via a contract call of its own,  `Ownable2Step` and `Ownable2StepUpgradeable` prevent the contract ownership from accidentally being transferred  to an address that cannot handle it.",
+            "name": "use-ownable2step"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/AIS/0x6844ef18012a383c14e9a76a93602616ee9d6132/0x6844ef18012a383c14e9a76a93602616ee9d6132.sol",
+            "line": 717,
+            "message": "<x> += <y> costs more gas than <x> = <x> + <y> for state variables.",
+            "name": "inefficient-state-variable-increment"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/AIS/0x6844ef18012a383c14e9a76a93602616ee9d6132/0x6844ef18012a383c14e9a76a93602616ee9d6132.sol",
+            "line": 977,
+            "message": "<x> += <y> costs more gas than <x> = <x> + <y> for state variables.",
+            "name": "inefficient-state-variable-increment"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/AIS/0x6844ef18012a383c14e9a76a93602616ee9d6132/0x6844ef18012a383c14e9a76a93602616ee9d6132.sol",
+            "line": 985,
+            "message": "<x> += <y> costs more gas than <x> = <x> + <y> for state variables.",
+            "name": "inefficient-state-variable-increment"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/AIS/0x6844ef18012a383c14e9a76a93602616ee9d6132/0x6844ef18012a383c14e9a76a93602616ee9d6132.sol",
+            "line": 934,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/AIS/0x6844ef18012a383c14e9a76a93602616ee9d6132/0x6844ef18012a383c14e9a76a93602616ee9d6132.sol",
+            "line": 935,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/AIS/0x6844ef18012a383c14e9a76a93602616ee9d6132/0x6844ef18012a383c14e9a76a93602616ee9d6132.sol",
+            "line": 936,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/AIS/0x6844ef18012a383c14e9a76a93602616ee9d6132/0x6844ef18012a383c14e9a76a93602616ee9d6132.sol",
+            "line": 937,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/AIS/0x6844ef18012a383c14e9a76a93602616ee9d6132/0x6844ef18012a383c14e9a76a93602616ee9d6132.sol",
+            "line": 938,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/AIS/0x6844ef18012a383c14e9a76a93602616ee9d6132/0x6844ef18012a383c14e9a76a93602616ee9d6132.sol",
+            "line": 939,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/AIS/0x6844ef18012a383c14e9a76a93602616ee9d6132/0x6844ef18012a383c14e9a76a93602616ee9d6132.sol",
+            "line": 940,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/AIS/0x6844ef18012a383c14e9a76a93602616ee9d6132/0x6844ef18012a383c14e9a76a93602616ee9d6132.sol",
+            "line": 941,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/AIS/0x6844ef18012a383c14e9a76a93602616ee9d6132/0x6844ef18012a383c14e9a76a93602616ee9d6132.sol",
+            "line": 969,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/AIS/0x6844ef18012a383c14e9a76a93602616ee9d6132/0x6844ef18012a383c14e9a76a93602616ee9d6132.sol",
+            "line": 982,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/AIS/0x6844ef18012a383c14e9a76a93602616ee9d6132/0x6844ef18012a383c14e9a76a93602616ee9d6132.sol",
+            "line": 990,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "semgrep",
+        "mode": "solidity",
+        "version": "2023/08/21"
+    }
+}

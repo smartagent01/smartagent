@@ -1,0 +1,1216 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1291,
+            "message": "By demanding that the receiver of the owner permissions actively accept via a contract call of its own,  `Ownable2Step` and `Ownable2StepUpgradeable` prevent the contract ownership from accidentally being transferred  to an address that cannot handle it.",
+            "name": "use-ownable2step"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 750,
+            "message": "Uninitialized variables are assigned with the types default value. Explicitly initializing a variable with its default value costs unnecessary gas.",
+            "name": "init-variables-with-default-value"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1187,
+            "message": "Uninitialized variables are assigned with the types default value. Explicitly initializing a variable with its default value costs unnecessary gas.",
+            "name": "init-variables-with-default-value"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 783,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 784,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 785,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 786,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 787,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 788,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 789,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 790,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 791,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 792,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1328,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1329,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1330,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1331,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1332,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1333,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1334,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1335,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1336,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1337,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 831,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 901,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1096,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1097,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1098,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1202,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1204,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 830,
+            "message": "A lot of times there is no risk that the loop counter can overflow. Using Solidity's unchecked block saves the overflow checks.",
+            "name": "unnecessary-checked-arithmetic-in-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1095,
+            "message": "A lot of times there is no risk that the loop counter can overflow. Using Solidity's unchecked block saves the overflow checks.",
+            "name": "unnecessary-checked-arithmetic-in-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1201,
+            "message": "A lot of times there is no risk that the loop counter can overflow. Using Solidity's unchecked block saves the overflow checks.",
+            "name": "unnecessary-checked-arithmetic-in-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 8,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 27,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 176,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 179,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 211,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 212,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 229,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 246,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 344,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 389,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 409,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 508,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 520,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 691,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 789,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 790,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 791,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 792,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 793,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 811,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 826,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 842,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 876,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 881,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 882,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 883,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 884,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 893,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 907,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 941,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 942,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 943,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 944,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 967,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 969,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 970,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 971,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 972,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 981,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 990,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1041,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1042,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1043,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1044,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1079,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1081,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1082,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1100,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1101,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1102,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1103,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1132,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1133,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1134,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1135,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1137,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1138,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1139,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1140,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1141,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1194,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1200,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1236,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1347,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1373,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1474,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1475,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1476,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1477,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1594,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1613,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 900,
+            "message": "Consider using the prefix decrement expression whenever the return value is not needed. The prefix decrement expression is cheaper in terms of gas.",
+            "name": "use-prefix-decrement-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 309,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 329,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 830,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 839,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1095,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1104,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1201,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 27,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 179,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 211,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 229,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 246,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 409,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 789,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 790,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 791,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 792,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 793,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 811,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 826,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 842,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 876,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 881,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 882,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 883,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 884,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 893,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 907,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 941,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 942,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 943,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 944,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 967,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 969,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 970,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 971,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 972,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 981,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1041,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1042,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1043,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1044,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1079,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1082,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1100,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1101,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1102,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1103,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1132,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1133,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1134,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1135,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1137,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1138,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1139,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1140,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1141,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1200,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1236,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1373,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1474,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1475,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1476,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1477,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1613,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1042,
+            "message": "ERC721 onERC721Received() reentrancy",
+            "name": "erc721-reentrancy"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+            "line": 1101,
+            "message": "ERC721 onERC721Received() reentrancy",
+            "name": "erc721-reentrancy"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "semgrep",
+        "mode": "solidity",
+        "version": "2023/08/21"
+    }
+}

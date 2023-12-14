@@ -1,0 +1,873 @@
+{
+  "/smart-agent-artifact/smart-agent/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol": [
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Context._msgSender",
+      "info": "_msgSender",
+      "loc": [
+        28,
+        4,
+        30,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Context._msgData",
+      "info": "_msgData",
+      "loc": [
+        32,
+        4,
+        34,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Ownable.__constructor__",
+      "info": "__constructor__",
+      "loc": [
+        57,
+        4,
+        59,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Ownable.owner",
+      "info": "owner",
+      "loc": [
+        64,
+        4,
+        66,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Ownable.renounceOwnership",
+      "info": "renounceOwnership",
+      "loc": [
+        83,
+        4,
+        85,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Ownable.transferOwnership",
+      "info": "transferOwnership",
+      "loc": [
+        91,
+        4,
+        94,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Ownable._transferOwnership",
+      "info": "_transferOwnership",
+      "loc": [
+        100,
+        4,
+        104,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20.totalSupply",
+      "info": "totalSupply",
+      "loc": [
+        139,
+        4,
+        139,
+        58
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20.balanceOf",
+      "info": "balanceOf",
+      "loc": [
+        144,
+        4,
+        144,
+        71
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20.transfer",
+      "info": "transfer",
+      "loc": [
+        153,
+        4,
+        153,
+        73
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20.allowance",
+      "info": "allowance",
+      "loc": [
+        162,
+        4,
+        162,
+        86
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20.approve",
+      "info": "approve",
+      "loc": [
+        178,
+        4,
+        178,
+        77
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20.transferFrom",
+      "info": "transferFrom",
+      "loc": [
+        189,
+        4,
+        193,
+        29
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20Metadata.name",
+      "info": "name",
+      "loc": [
+        212,
+        4,
+        212,
+        57
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20Metadata.symbol",
+      "info": "symbol",
+      "loc": [
+        217,
+        4,
+        217,
+        59
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20Metadata.decimals",
+      "info": "decimals",
+      "loc": [
+        222,
+        4,
+        222,
+        53
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.__constructor__",
+      "info": "__constructor__",
+      "loc": [
+        270,
+        4,
+        273,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.name",
+      "info": "name",
+      "loc": [
+        278,
+        4,
+        280,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.symbol",
+      "info": "symbol",
+      "loc": [
+        286,
+        4,
+        288,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.decimals",
+      "info": "decimals",
+      "loc": [
+        303,
+        4,
+        305,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.totalSupply",
+      "info": "totalSupply",
+      "loc": [
+        310,
+        4,
+        312,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.balanceOf",
+      "info": "balanceOf",
+      "loc": [
+        317,
+        4,
+        319,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.transfer",
+      "info": "transfer",
+      "loc": [
+        329,
+        4,
+        333,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.allowance",
+      "info": "allowance",
+      "loc": [
+        338,
+        4,
+        340,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.approve",
+      "info": "approve",
+      "loc": [
+        352,
+        4,
+        356,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.transferFrom",
+      "info": "transferFrom",
+      "loc": [
+        374,
+        4,
+        383,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.increaseAllowance",
+      "info": "increaseAllowance",
+      "loc": [
+        397,
+        4,
+        401,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.decreaseAllowance",
+      "info": "decreaseAllowance",
+      "loc": [
+        417,
+        4,
+        426,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20._transfer",
+      "info": "_transfer",
+      "loc": [
+        442,
+        4,
+        462,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20._mint",
+      "info": "_mint",
+      "loc": [
+        473,
+        4,
+        483,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20._burn",
+      "info": "_burn",
+      "loc": [
+        496,
+        4,
+        511,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20._approve",
+      "info": "_approve",
+      "loc": [
+        526,
+        4,
+        536,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20._spendAllowance",
+      "info": "_spendAllowance",
+      "loc": [
+        546,
+        4,
+        558,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20._beforeTokenTransfer",
+      "info": "_beforeTokenTransfer",
+      "loc": [
+        574,
+        4,
+        578,
+        24
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20._afterTokenTransfer",
+      "info": "_afterTokenTransfer",
+      "loc": [
+        594,
+        4,
+        598,
+        24
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Address.isContract",
+      "info": "isContract",
+      "loc": [
+        644,
+        4,
+        650,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Address.sendValue",
+      "info": "sendValue",
+      "loc": [
+        668,
+        4,
+        673,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Address.functionCall",
+      "info": "functionCall",
+      "loc": [
+        693,
+        4,
+        695,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Address.functionCall",
+      "info": "functionCall",
+      "loc": [
+        703,
+        4,
+        709,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Address.functionCallWithValue",
+      "info": "functionCallWithValue",
+      "loc": [
+        722,
+        4,
+        728,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Address.functionCallWithValue",
+      "info": "functionCallWithValue",
+      "loc": [
+        736,
+        4,
+        747,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Address.functionStaticCall",
+      "info": "functionStaticCall",
+      "loc": [
+        755,
+        4,
+        757,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Address.functionStaticCall",
+      "info": "functionStaticCall",
+      "loc": [
+        765,
+        4,
+        774,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Address.functionDelegateCall",
+      "info": "functionDelegateCall",
+      "loc": [
+        782,
+        4,
+        784,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Address.functionDelegateCall",
+      "info": "functionDelegateCall",
+      "loc": [
+        792,
+        4,
+        801,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Address.verifyCallResult",
+      "info": "verifyCallResult",
+      "loc": [
+        809,
+        4,
+        829,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeERC20.safeTransfer",
+      "info": "safeTransfer",
+      "loc": [
+        844,
+        4,
+        850,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeERC20.safeTransferFrom",
+      "info": "safeTransferFrom",
+      "loc": [
+        852,
+        4,
+        859,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeERC20.safeApprove",
+      "info": "safeApprove",
+      "loc": [
+        868,
+        4,
+        881,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeERC20.safeIncreaseAllowance",
+      "info": "safeIncreaseAllowance",
+      "loc": [
+        883,
+        4,
+        890,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeERC20.safeDecreaseAllowance",
+      "info": "safeDecreaseAllowance",
+      "loc": [
+        892,
+        4,
+        903,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeERC20._callOptionalReturn",
+      "info": "_callOptionalReturn",
+      "loc": [
+        911,
+        4,
+        921,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: StaxLPStaking.__constructor__",
+      "info": "__constructor__",
+      "loc": [
+        964,
+        4,
+        967,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: StaxLPStaking.setRewardDistributor",
+      "info": "setRewardDistributor",
+      "loc": [
+        970,
+        4,
+        974,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: StaxLPStaking.totalSupply",
+      "info": "totalSupply",
+      "loc": [
+        976,
+        4,
+        978,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: StaxLPStaking.balanceOf",
+      "info": "balanceOf",
+      "loc": [
+        980,
+        4,
+        982,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: StaxLPStaking.addReward",
+      "info": "addReward",
+      "loc": [
+        984,
+        4,
+        989,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: StaxLPStaking._rewardPerToken",
+      "info": "_rewardPerToken",
+      "loc": [
+        991,
+        4,
+        1002,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: StaxLPStaking.rewardPerToken",
+      "info": "rewardPerToken",
+      "loc": [
+        1004,
+        4,
+        1006,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: StaxLPStaking.rewardPeriodFinish",
+      "info": "rewardPeriodFinish",
+      "loc": [
+        1008,
+        4,
+        1010,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: StaxLPStaking.earned",
+      "info": "earned",
+      "loc": [
+        1012,
+        4,
+        1014,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: StaxLPStaking._earned",
+      "info": "_earned",
+      "loc": [
+        1016,
+        4,
+        1024,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: StaxLPStaking.stake",
+      "info": "stake",
+      "loc": [
+        1026,
+        4,
+        1028,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: StaxLPStaking.stakeAll",
+      "info": "stakeAll",
+      "loc": [
+        1030,
+        4,
+        1033,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: StaxLPStaking.stakeFor",
+      "info": "stakeFor",
+      "loc": [
+        1035,
+        4,
+        1041,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: StaxLPStaking._applyStake",
+      "info": "_applyStake",
+      "loc": [
+        1043,
+        4,
+        1047,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: StaxLPStaking._withdrawFor",
+      "info": "_withdrawFor",
+      "loc": [
+        1049,
+        4,
+        1069,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: StaxLPStaking.withdraw",
+      "info": "withdraw",
+      "loc": [
+        1071,
+        4,
+        1073,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: StaxLPStaking.withdrawAll",
+      "info": "withdrawAll",
+      "loc": [
+        1075,
+        4,
+        1077,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: StaxLPStaking.getRewards",
+      "info": "getRewards",
+      "loc": [
+        1079,
+        4,
+        1081,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: StaxLPStaking._getRewards",
+      "info": "_getRewards",
+      "loc": [
+        1084,
+        4,
+        1088,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: StaxLPStaking.getReward",
+      "info": "getReward",
+      "loc": [
+        1090,
+        4,
+        1092,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: StaxLPStaking._getReward",
+      "info": "_getReward",
+      "loc": [
+        1094,
+        4,
+        1102,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: StaxLPStaking._lastTimeRewardApplicable",
+      "info": "_lastTimeRewardApplicable",
+      "loc": [
+        1104,
+        4,
+        1109,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: StaxLPStaking._notifyReward",
+      "info": "_notifyReward",
+      "loc": [
+        1111,
+        4,
+        1124,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: StaxLPStaking.notifyRewardAmount",
+      "info": "notifyRewardAmount",
+      "loc": [
+        1126,
+        4,
+        1139,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: StaxLPStaking.setMigrator",
+      "info": "setMigrator",
+      "loc": [
+        1141,
+        4,
+        1144,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: StaxLPStaking.migrateStake",
+      "info": "migrateStake",
+      "loc": [
+        1155,
+        4,
+        1158,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: StaxLPStaking.migrateWithdraw",
+      "info": "migrateWithdraw",
+      "loc": [
+        1169,
+        4,
+        1171,
+        4
+      ]
+    }
+  ]
+}

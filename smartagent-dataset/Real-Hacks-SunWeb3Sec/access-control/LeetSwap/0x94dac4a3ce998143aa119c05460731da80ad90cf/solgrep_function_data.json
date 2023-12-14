@@ -1,0 +1,994 @@
+{
+  "/smart-agent-artifact/smart-agent/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/LeetSwap/0x94dac4a3ce998143aa119c05460731da80ad90cf/LeetSwapV2Pair_flattened.sol": [
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20.totalSupply",
+      "info": "totalSupply",
+      "loc": [
+        35,
+        4,
+        35,
+        58
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20.balanceOf",
+      "info": "balanceOf",
+      "loc": [
+        40,
+        4,
+        40,
+        71
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20.transfer",
+      "info": "transfer",
+      "loc": [
+        49,
+        4,
+        49,
+        73
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20.allowance",
+      "info": "allowance",
+      "loc": [
+        58,
+        4,
+        58,
+        86
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20.approve",
+      "info": "approve",
+      "loc": [
+        74,
+        4,
+        74,
+        77
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20.transferFrom",
+      "info": "transferFrom",
+      "loc": [
+        85,
+        4,
+        85,
+        91
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LeetSwapV2Fees.__constructor__",
+      "info": "__constructor__",
+      "loc": [
+        98,
+        4,
+        102,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LeetSwapV2Fees._safeTransfer",
+      "info": "_safeTransfer",
+      "loc": [
+        104,
+        4,
+        112,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LeetSwapV2Fees.claimFeesFor",
+      "info": "claimFeesFor",
+      "loc": [
+        115,
+        4,
+        123,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ILeetSwapV2Factory.allPairsLength",
+      "info": "allPairsLength",
+      "loc": [
+        130,
+        4,
+        130,
+        61
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ILeetSwapV2Factory.isPair",
+      "info": "isPair",
+      "loc": [
+        132,
+        4,
+        132,
+        62
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ILeetSwapV2Factory.pairCodeHash",
+      "info": "pairCodeHash",
+      "loc": [
+        134,
+        4,
+        134,
+        59
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ILeetSwapV2Factory.getPair",
+      "info": "getPair",
+      "loc": [
+        136,
+        4,
+        140,
+        37
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ILeetSwapV2Factory.createPair",
+      "info": "createPair",
+      "loc": [
+        142,
+        4,
+        146,
+        32
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ILeetSwapV2Factory.createPair",
+      "info": "createPair",
+      "loc": [
+        148,
+        4,
+        150,
+        25
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ILeetSwapV2Factory.getInitializable",
+      "info": "getInitializable",
+      "loc": [
+        152,
+        4,
+        159,
+        9
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ILeetSwapV2Factory.protocolFeesShare",
+      "info": "protocolFeesShare",
+      "loc": [
+        161,
+        4,
+        161,
+        64
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ILeetSwapV2Factory.protocolFeesRecipient",
+      "info": "protocolFeesRecipient",
+      "loc": [
+        163,
+        4,
+        163,
+        68
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ILeetSwapV2Factory.tradingFees",
+      "info": "tradingFees",
+      "loc": [
+        165,
+        4,
+        168,
+        25
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ILeetSwapV2Factory.isPaused",
+      "info": "isPaused",
+      "loc": [
+        170,
+        4,
+        170,
+        52
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ILeetSwapV2Pair.factory",
+      "info": "factory",
+      "loc": [
+        177,
+        4,
+        177,
+        54
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ILeetSwapV2Pair.fees",
+      "info": "fees",
+      "loc": [
+        179,
+        4,
+        179,
+        51
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ILeetSwapV2Pair.transferFrom",
+      "info": "transferFrom",
+      "loc": [
+        181,
+        4,
+        185,
+        29
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ILeetSwapV2Pair.permit",
+      "info": "permit",
+      "loc": [
+        187,
+        4,
+        195,
+        14
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ILeetSwapV2Pair.swap",
+      "info": "swap",
+      "loc": [
+        197,
+        4,
+        202,
+        14
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ILeetSwapV2Pair.burn",
+      "info": "burn",
+      "loc": [
+        204,
+        4,
+        206,
+        50
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ILeetSwapV2Pair.mint",
+      "info": "mint",
+      "loc": [
+        208,
+        4,
+        208,
+        66
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ILeetSwapV2Pair.getReserves",
+      "info": "getReserves",
+      "loc": [
+        210,
+        4,
+        217,
+        9
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ILeetSwapV2Pair.getAmountOut",
+      "info": "getAmountOut",
+      "loc": [
+        219,
+        4,
+        219,
+        75
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ILeetSwapV2Pair.current",
+      "info": "current",
+      "loc": [
+        221,
+        4,
+        224,
+        25
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ILeetSwapV2Pair.token0",
+      "info": "token0",
+      "loc": [
+        226,
+        4,
+        226,
+        53
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ILeetSwapV2Pair.token1",
+      "info": "token1",
+      "loc": [
+        228,
+        4,
+        228,
+        53
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ILeetSwapV2Pair.stable",
+      "info": "stable",
+      "loc": [
+        230,
+        4,
+        230,
+        50
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ILeetSwapV2Pair.balanceOf",
+      "info": "balanceOf",
+      "loc": [
+        232,
+        4,
+        232,
+        63
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ILeetSwapV2Pair.sample",
+      "info": "sample",
+      "loc": [
+        235,
+        4,
+        240,
+        46
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ILeetSwapV2Pair.quote",
+      "info": "quote",
+      "loc": [
+        242,
+        4,
+        246,
+        37
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ILeetSwapV2Pair.claimFeesFor",
+      "info": "claimFeesFor",
+      "loc": [
+        248,
+        4,
+        250,
+        52
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ILeetSwapV2Pair.claimFees",
+      "info": "claimFees",
+      "loc": [
+        252,
+        4,
+        252,
+        78
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ILeetSwapV2Pair.claimableFeesFor",
+      "info": "claimableFeesFor",
+      "loc": [
+        254,
+        4,
+        256,
+        52
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ILeetSwapV2Pair.claimableFees",
+      "info": "claimableFees",
+      "loc": [
+        258,
+        4,
+        260,
+        52
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ILeetSwapV2Callee.hook",
+      "info": "hook",
+      "loc": [
+        267,
+        4,
+        272,
+        14
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Math.min",
+      "info": "min",
+      "loc": [
+        279,
+        4,
+        281,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Math.sqrt",
+      "info": "sqrt",
+      "loc": [
+        283,
+        4,
+        294,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20Metadata.name",
+      "info": "name",
+      "loc": [
+        313,
+        4,
+        313,
+        57
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20Metadata.symbol",
+      "info": "symbol",
+      "loc": [
+        318,
+        4,
+        318,
+        59
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20Metadata.decimals",
+      "info": "decimals",
+      "loc": [
+        323,
+        4,
+        323,
+        53
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LeetSwapV2Pair.__constructor__",
+      "info": "__constructor__",
+      "loc": [
+        428,
+        4,
+        438,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LeetSwapV2Pair.decimals0",
+      "info": "decimals0",
+      "loc": [
+        440,
+        4,
+        442,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LeetSwapV2Pair.decimals1",
+      "info": "decimals1",
+      "loc": [
+        444,
+        4,
+        446,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LeetSwapV2Pair.name",
+      "info": "name",
+      "loc": [
+        448,
+        4,
+        470,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LeetSwapV2Pair.symbol",
+      "info": "symbol",
+      "loc": [
+        472,
+        4,
+        494,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LeetSwapV2Pair.observationLength",
+      "info": "observationLength",
+      "loc": [
+        505,
+        4,
+        507,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LeetSwapV2Pair.lastObservation",
+      "info": "lastObservation",
+      "loc": [
+        509,
+        4,
+        511,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LeetSwapV2Pair.metadata",
+      "info": "metadata",
+      "loc": [
+        513,
+        4,
+        535,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LeetSwapV2Pair.tokens",
+      "info": "tokens",
+      "loc": [
+        537,
+        4,
+        539,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LeetSwapV2Pair.claimFees",
+      "info": "claimFees",
+      "loc": [
+        542,
+        4,
+        544,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LeetSwapV2Pair.claimFeesFor",
+      "info": "claimFeesFor",
+      "loc": [
+        546,
+        4,
+        562,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LeetSwapV2Pair.claimableFeesFor",
+      "info": "claimableFeesFor",
+      "loc": [
+        564,
+        4,
+        584,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LeetSwapV2Pair.claimableFees",
+      "info": "claimableFees",
+      "loc": [
+        586,
+        4,
+        592,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LeetSwapV2Pair._transferFeesSupportingTaxTokens",
+      "info": "_transferFeesSupportingTaxTokens",
+      "loc": [
+        595,
+        4,
+        608,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LeetSwapV2Pair._update0",
+      "info": "_update0",
+      "loc": [
+        611,
+        4,
+        628,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LeetSwapV2Pair._update1",
+      "info": "_update1",
+      "loc": [
+        631,
+        4,
+        648,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LeetSwapV2Pair._updateFor",
+      "info": "_updateFor",
+      "loc": [
+        652,
+        4,
+        675,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LeetSwapV2Pair.getReserves",
+      "info": "getReserves",
+      "loc": [
+        677,
+        4,
+        689,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LeetSwapV2Pair._update",
+      "info": "_update",
+      "loc": [
+        692,
+        4,
+        720,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LeetSwapV2Pair.currentCumulativePrices",
+      "info": "currentCumulativePrices",
+      "loc": [
+        723,
+        4,
+        748,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LeetSwapV2Pair.current",
+      "info": "current",
+      "loc": [
+        751,
+        4,
+        772,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LeetSwapV2Pair.quote",
+      "info": "quote",
+      "loc": [
+        775,
+        4,
+        786,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LeetSwapV2Pair.prices",
+      "info": "prices",
+      "loc": [
+        789,
+        4,
+        795,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LeetSwapV2Pair.sample",
+      "info": "sample",
+      "loc": [
+        797,
+        4,
+        827,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LeetSwapV2Pair.mint",
+      "info": "mint",
+      "loc": [
+        831,
+        4,
+        853,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LeetSwapV2Pair.burn",
+      "info": "burn",
+      "loc": [
+        857,
+        4,
+        880,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LeetSwapV2Pair.swap",
+      "info": "swap",
+      "loc": [
+        883,
+        4,
+        939,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LeetSwapV2Pair.skim",
+      "info": "skim",
+      "loc": [
+        942,
+        4,
+        954,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LeetSwapV2Pair.sync",
+      "info": "sync",
+      "loc": [
+        957,
+        4,
+        964,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LeetSwapV2Pair._f",
+      "info": "_f",
+      "loc": [
+        966,
+        4,
+        972,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LeetSwapV2Pair._d",
+      "info": "_d",
+      "loc": [
+        974,
+        4,
+        979,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LeetSwapV2Pair._get_y",
+      "info": "_get_y",
+      "loc": [
+        981,
+        4,
+        1007,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LeetSwapV2Pair.getAmountOut",
+      "info": "getAmountOut",
+      "loc": [
+        1009,
+        4,
+        1021,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LeetSwapV2Pair.getAmountOut",
+      "info": "getAmountOut",
+      "loc": [
+        1023,
+        4,
+        1029,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LeetSwapV2Pair._getAmountOut",
+      "info": "_getAmountOut",
+      "loc": [
+        1031,
+        4,
+        1055,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LeetSwapV2Pair._k",
+      "info": "_k",
+      "loc": [
+        1057,
+        4,
+        1067,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LeetSwapV2Pair._mint",
+      "info": "_mint",
+      "loc": [
+        1069,
+        4,
+        1074,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LeetSwapV2Pair._burn",
+      "info": "_burn",
+      "loc": [
+        1076,
+        4,
+        1081,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LeetSwapV2Pair.approve",
+      "info": "approve",
+      "loc": [
+        1083,
+        4,
+        1088,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LeetSwapV2Pair.permit",
+      "info": "permit",
+      "loc": [
+        1090,
+        4,
+        1133,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LeetSwapV2Pair.transfer",
+      "info": "transfer",
+      "loc": [
+        1135,
+        4,
+        1138,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LeetSwapV2Pair.transferFrom",
+      "info": "transferFrom",
+      "loc": [
+        1140,
+        4,
+        1157,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LeetSwapV2Pair._transferTokens",
+      "info": "_transferTokens",
+      "loc": [
+        1159,
+        4,
+        1171,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: LeetSwapV2Pair._safeTransfer",
+      "info": "_safeTransfer",
+      "loc": [
+        1173,
+        4,
+        1181,
+        4
+      ]
+    }
+  ]
+}

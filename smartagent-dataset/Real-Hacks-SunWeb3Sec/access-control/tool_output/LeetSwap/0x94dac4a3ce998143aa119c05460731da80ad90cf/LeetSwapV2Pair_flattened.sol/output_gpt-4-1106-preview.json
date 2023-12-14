@@ -1,0 +1,8 @@
+burn
+The `burn` function in `LeetSwapV2Pair` is public and relies on external contracts for access control, which could be a vulnerability if those contracts are not secure.
+
+mint
+The `mint` function in `LeetSwapV2Pair` is public and relies on external contracts for access control, potentially allowing unauthorized minting if those contracts are not secure.
+
+_transferFeesSupportingTaxTokens
+The `_transferFeesSupportingTaxTokens` function is public and could be a potential issue if it's not meant to be called by anyone; it should be marked as `internal`.

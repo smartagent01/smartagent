@@ -1,0 +1,59 @@
+{
+  "/smart-agent-artifact/smart-agent/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol": [
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: ShadowAuth.onlyOwner",
+      "info": "onlyOwner",
+      "loc": [
+        228,
+        4,
+        230,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: ShadowAuth.authorizedFor",
+      "info": "authorizedFor",
+      "loc": [
+        235,
+        4,
+        238,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: DividendDistributor.initialization",
+      "info": "initialization",
+      "loc": [
+        407,
+        4,
+        411,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: DividendDistributor.onlyToken",
+      "info": "onlyToken",
+      "loc": [
+        413,
+        4,
+        415,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: ShadowFi.swapping",
+      "info": "swapping",
+      "loc": [
+        599,
+        4,
+        599,
+        60
+      ]
+    }
+  ]
+}

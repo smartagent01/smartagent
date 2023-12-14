@@ -1,0 +1,20 @@
+[
+  {
+    "bug": [
+      "AccessControl"
+    ],
+    "blockchain": "BSC",
+    "address": "0x8e7877FE58bc2A979692862DF9E84E1BF7EC94Ae",
+    "contract": "Safemoon",
+    "function": "burn",
+    "source_file": "SafeMoon.sol",
+    "compiler_version": "0.6.12",
+    "line_start": 1737,
+    "line_end": 1739,
+    "reference": [
+      "https://github.com/SunWeb3Sec/DeFiHackLabs/blob/main/README.md#20230328-safemoon-hack",
+      "https://twitter.com/zokyo_io/status/1641014520041840640"
+    ],
+    "note": "Implementation adress retrieved by cast storage  -b 26854757 -r https://rpc.ankr.com/bsc 0x42981d0bfbAf196529376EE702F2a9Eb9092fcB5 24440054405305269366569402256811496959409073762505157381672968839269610695612"
+  }
+]

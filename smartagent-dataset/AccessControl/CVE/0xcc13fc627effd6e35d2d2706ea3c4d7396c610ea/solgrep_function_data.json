@@ -1,0 +1,235 @@
+{
+  "/smart-agent/smartagent-dataset/AccessControl/CVE/0xcc13fc627effd6e35d2d2706ea3c4d7396c610ea/IDXM.sol": [
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: tokenRecipient.receiveApproval",
+      "info": "receiveApproval",
+      "loc": [
+        9,
+        27,
+        9,
+        123
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.safeMul",
+      "info": "safeMul",
+      "loc": [
+        12,
+        2,
+        16,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.safeSub",
+      "info": "safeSub",
+      "loc": [
+        17,
+        2,
+        20,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.safeAdd",
+      "info": "safeAdd",
+      "loc": [
+        21,
+        2,
+        25,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Owned.__constructor__",
+      "info": "__constructor__",
+      "loc": [
+        30,
+        2,
+        32,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Owned.setOwner",
+      "info": "setOwner",
+      "loc": [
+        33,
+        2,
+        36,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IDXM.__fallback__",
+      "info": "__fallback__",
+      "loc": [
+        61,
+        2,
+        63,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IDXM.__constructor__",
+      "info": "__constructor__",
+      "loc": [
+        80,
+        2,
+        85,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IDXM.uploadBalances",
+      "info": "uploadBalances",
+      "loc": [
+        89,
+        2,
+        98,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IDXM.lockBalances",
+      "info": "lockBalances",
+      "loc": [
+        100,
+        2,
+        102,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IDXM.transfer",
+      "info": "transfer",
+      "loc": [
+        110,
+        2,
+        125,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IDXM.transferFrom",
+      "info": "transferFrom",
+      "loc": [
+        135,
+        2,
+        152,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IDXM.approveAndCall",
+      "info": "approveAndCall",
+      "loc": [
+        162,
+        2,
+        168,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IDXM.approve",
+      "info": "approve",
+      "loc": [
+        177,
+        2,
+        182,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IDXM.setExportFee",
+      "info": "setExportFee",
+      "loc": [
+        184,
+        2,
+        187,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IDXM.setHoldingPeriod",
+      "info": "setHoldingPeriod",
+      "loc": [
+        189,
+        2,
+        191,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IDXM.feeFor",
+      "info": "feeFor",
+      "loc": [
+        214,
+        2,
+        224,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IDXM.unlockToken",
+      "info": "unlockToken",
+      "loc": [
+        228,
+        2,
+        230,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IDXM.precalculate",
+      "info": "precalculate",
+      "loc": [
+        232,
+        2,
+        236,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IDXM.div10",
+      "info": "div10",
+      "loc": [
+        237,
+        2,
+        242,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IDXM.pow10",
+      "info": "pow10",
+      "loc": [
+        243,
+        2,
+        248,
+        2
+      ]
+    }
+  ]
+}

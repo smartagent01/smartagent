@@ -1,0 +1,2 @@
+onERC721Received
+The function executes instructions encoded in the `data` parameter, which could be exploited if not properly secured against unauthorized access.

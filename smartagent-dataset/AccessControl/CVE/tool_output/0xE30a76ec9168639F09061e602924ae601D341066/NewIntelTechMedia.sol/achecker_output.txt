@@ -1,0 +1,34 @@
+File copied : /root/Achecker/NewIntelTechMedia.bin-runtime
+processing /root/Achecker/NewIntelTechMedia.bin-runtime
+Checking contract for [4mViolated-AC-Check[0m 
+------------------
+
+Violated access control check in function withdraw()
+	( 4001)  fa1:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {1} in function NETM()
++--Attacker can make changes to AC item {1} in function transferOwnership(address)
+
+Violated access control check in function burn(uint256)
+	( 4235) 108b:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {1} in function NETM()
++--Attacker can make changes to AC item {1} in function transferOwnership(address)
+
+Violated access control check in function finishDistribution()
+	( 4825) 12d9:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {1} in function NETM()
++--Attacker can make changes to AC item {1} in function transferOwnership(address)
+
+Violated access control check in function withdrawForeignTokens(address)
+	( 5994) 176a:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {1} in function NETM()
++--Attacker can make changes to AC item {1} in function transferOwnership(address)
+
+Violated access control check in function transferOwnership(address)
+	( 6576) 19b0:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {1} in function NETM()
++--Attacker can make changes to AC item {1} in function transferOwnership(address)
+
+
+Checking contract for [4mMissing-AC-Check[0m 
+------------------
+fad014516f8914faf9aa9afb52293b4538686340427d5028bbba46c54d9a241c

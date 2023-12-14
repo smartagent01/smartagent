@@ -1,0 +1,178 @@
+{
+  "0x9a1aef8c9ada4224ad774afdac07c24955c92a54": [
+    {
+      "location": "constructor",
+      "message": "The constructor function does not have any access control modifier, allowing anyone to call it to initialize the contract."
+    },
+    {
+      "location": "mint",
+      "message": "The `mint` function does not have any access control modifier, allowing anyone to mint tokens to any address."
+    },
+    {
+      "location": "transferFrom",
+      "message": "The `transferFrom` function does not have any permission checking to ensure that the sender has the necessary allowance to transfer the specified amount."
+    },
+    {
+      "location": "approve, increaseAllowance, decreaseAllowance",
+      "message": "The `approve`, `increaseAllowance`, and `decreaseAllowance` functions also do not have any access control modifier, allowing anyone to modify the allowance for any address."
+    }
+  ],
+  "0x418C24191aE947A78C99fDc0e45a1f96Afb254BE": [
+    {
+      "location": "mint",
+      "message": "Allows anyone to mint an unlimited amount of tokens."
+    }
+  ],
+  "0xd2869042E12a3506100af1D192b5b04D65137941": [
+    {
+      "location": "setRewardDistributor",
+      "message": "The onlyOwner modifier is correctly implemented in the setRewardDistributor function, restricting access to the owner of the contract."
+    }
+  ],
+  "0x1a62fe088f46561be92bb5f6e83266289b94c154": [
+    {
+      "location": "The contract has a function for setting the addresses of other ERC20 and ERC1155 tokens, which are used for consuming tokens during the upgrade process - Missing permission checking in functions that can change the ownership or admin right of the contract.",
+      "message": "The contract includes a modifier \"onlyMiner\" to restrict certain functions to be accessible only by designated miners - Incorrect implementation of access control modifier."
+    }
+  ],
+  "0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c": [
+    {
+      "location": "renounceOwnership",
+      "message": "This function allows the current owner to renounce their ownership, potentially making the contract ownerless."
+    },
+    {
+      "location": "transferOwnership",
+      "message": "This function allows the current owner to transfer ownership to a new address, which should be used carefully to ensure that ownership is transferred to a trusted address."
+    },
+    {
+      "location": "lock",
+      "message": "This function locks the contract for a specified time period, which can be a potential access control issue if not handled properly."
+    },
+    {
+      "location": "unlock",
+      "message": "This function allows the previous owner to unlock the contract after the specified lock time, which should be used carefully to ensure that only the previous owner can unlock the contract."
+    },
+    {
+      "location": "setTaxFeePercent, setBuyFee, setSellFee, setLiquidityFeePercent, setBuyBackSellLimit, setMaxTxAmount, etc.",
+      "message": "These functions should be accessible only by the owner to prevent unauthorized changes to the contract parameters."
+    },
+    {
+      "location": "enable/disable swap and liquify, buyback, and auto buyback features",
+      "message": "These functions should be accessible only by the owner to prevent unauthorized changes to the contract behavior."
+    },
+    {
+      "location": "set address-specific fees for tax and liquidity",
+      "message": "These functions should be accessible only by the owner to prevent unauthorized changes to the fee structure."
+    }
+  ],
+  "0x4E87880A72f6896E7e0a635A5838fFc89b13bd17": [
+    {
+      "location": "The contract has a constructor that sets the initial owner and initializes the token with a total supply.",
+      "message": "- The constructor should not be public, as it allows anyone to call it to initialize the contract."
+    },
+    {
+      "location": "The contract has a function to transfer tokens, which includes logic to handle fees and swapping for liquidity.",
+      "message": "- The function should include permission checking to ensure only authorized users can transfer tokens."
+    }
+  ],
+  "0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a": [
+    {
+      "location": "changeAdmin",
+      "message": "The changeAdmin function restricts the ability to change the administrator to only the current admin."
+    },
+    {
+      "location": "setSuperOperator",
+      "message": "The setSuperOperator function restricts the ability to add super operators to only the admin."
+    },
+    {
+      "location": "setMetaTransactionProcessor",
+      "message": "The setMetaTransactionProcessor function restricts the ability to set meta-transaction processors to only the admin."
+    }
+  ],
+  "0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944": [
+    {
+      "location": "The buggy functions are:",
+      "message": "1. Missing permission checking in functions that can change ownership or admin rights of the contract."
+    },
+    {
+      "location": "2. Unauthorized access control for withdrawing ether or tokens from the contract.",
+      "message": "3. Unauthorized access control for burning, transferring tokens, or minting tokens."
+    },
+    {
+      "location": "4. Unauthorized access control for performing external calls to arbitrary contracts.",
+      "message": "5. Unauthorized access control for delegate calling to controlled contract."
+    }
+  ],
+  "0xF0b7DE03134857391d8D43Ed48e20EDF21461097": [
+    {
+      "location": "initializeContract",
+      "message": "Incorrect constructor name or initialize function that is public, allowing anyone to call it to initialize the contract."
+    },
+    {
+      "location": "setNewOwner",
+      "message": "Missing permission checking in function that can change the ownership or admin right of the contract."
+    }
+  ],
+  "0x6844ef18012a383c14e9a76a93602616ee9d6132": [
+    {
+      "location": "setSwapPairs",
+      "message": "The setSwapPairs function does not have any access control mechanism, allowing anyone to set pairs for swapping."
+    },
+    {
+      "location": "harvestMarket",
+      "message": "The harvestMarket function mints tokens to the MarketAddress based on pending mint value without proper permission checking."
+    },
+    {
+      "location": "balanceOf",
+      "message": "The balanceOf function adjusts the balance by subtracting any pending burn amount for the account without proper permission checking."
+    }
+  ],
+  "0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9": [
+    {
+      "location": "renounceOwnership",
+      "message": "Properly checks for permission using the onlyOwner modifier."
+    },
+    {
+      "location": "transferOwnership",
+      "message": "Properly checks for permission using the onlyOwner modifier."
+    }
+  ],
+  "0x70678291bDDfd95498d1214BE368e19e882f7614": [
+    {
+      "location": "createNode",
+      "message": "This function allows anyone to create nodes without any access control checks."
+    },
+    {
+      "location": "claimNodeReward",
+      "message": "claimAllNodesReward"
+    },
+    {
+      "location": "These functions allow anyone to claim rewards for nodes without any access control checks.",
+      "message": "getRewardTotalAmountOf"
+    },
+    {
+      "location": "getRewardAmountOf",
+      "message": "These functions allow anyone to query reward amounts for any account without any access control checks."
+    },
+    {
+      "location": "changeNodePrice",
+      "message": "changeRewardPerNode"
+    }
+  ],
+  "0x863DF6BFa4469f3ead0bE8f9F2AAE51c91A907b4": [
+    {
+      "location": "The contract has a function for executing a transaction, which is protected by the onlyowner modifier. This ensures that only the owner can execute transactions.",
+      "message": "The contract has a modifier called onlyowner, which restricts access to certain functions to only the owner of the contract. This is a good access control measure."
+    }
+  ],
+  "0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0": [
+    {
+      "location": "The contract has a constructor that sets the initial owner and initializes the token with a total supply.",
+      "message": "- Incorrect constructor name or initialize function that is public, allowing anyone to call it to initialize the contract."
+    },
+    {
+      "location": "The rescueToken function allows the owner to rescue tokens from the contract.",
+      "message": "- Missing permission checking in functions that can change the ownership or admin right of the contract."
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "0x2Ef27BF41236bD859a95209e17a43Fbd26851f92/MorphToken.sol": [
+    {
+      "location": "owned",
+      "message": "+--Attacker can make changes to AC item {0} in function owned()\n"
+    }
+  ],
+  "0x5ABC07D28DCC3B60a164d57e4E3981a090c5d6De/BOMBBA.sol": [
+    {
+      "location": "quaker",
+      "message": "+--Attacker can make changes to AC item {0} in function quaker(address)\n"
+    }
+  ],
+  "0x6E58b4c41cAB75dc0239938BF5455aB8823EE4DE/B2X.sol": [
+    {
+      "location": "owned",
+      "message": "+--Attacker can make changes to AC item {0} in function owned()\n"
+    }
+  ],
+  "0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol": [
+    {
+      "location": "Mining24",
+      "message": "+--Attacker can make changes to AC item {1} in function Mining24(uint256,uint256)\n"
+    }
+  ],
+  "0x9924A7E3A2756Ab8B9A828485f052b6693AaA33E/BAFCToken.sol": [
+    {
+      "location": "UBSexToken",
+      "message": "+--Attacker can make changes to AC item {1} in function UBSexToken()\n"
+    }
+  ],
+  "0x9ab4FD2234D75CfA894C394b367e48055b531e56/RobotBTC.sol": [
+    {
+      "location": "owned",
+      "message": "+--Attacker can make changes to AC item {0} in function owned()\n"
+    }
+  ],
+  "0x9b481067ef9773d52efd0fb5b665a5dc0c8e1a68/ERCDDAToken.sol": [
+    {
+      "location": "owned",
+      "message": "+--Attacker can make changes to AC item {0} in function owned()\n"
+    }
+  ],
+  "0xCdCFc0f66c522Fd086A1b725ea3c0Eeb9F9e8814/AURA.sol": [
+    {
+      "location": "setOwner",
+      "message": "+--Attacker can make changes to AC item {0} in function setOwner(address)\n"
+    }
+  ],
+  "0xE30a76ec9168639F09061e602924ae601D341066/NewIntelTechMedia.sol": [
+    {
+      "location": "NETM",
+      "message": "+--Attacker can make changes to AC item {1} in function NETM()\n"
+    }
+  ],
+  "0xcc13fc627effd6e35d2d2706ea3c4d7396c610ea/IDXM.sol": [
+    {
+      "location": "setOwner",
+      "message": "+--Attacker can make changes to AC item {0} in function setOwner(address)\n"
+    }
+  ],
+  "0xd58132f2fbd65f02beee0626542e6ee059009ab4/XBORNID.sol": [
+    {
+      "location": "XBornID",
+      "message": "+--Attacker can make changes to AC item {1} in function XBornID()\n"
+    }
+  ]
+}

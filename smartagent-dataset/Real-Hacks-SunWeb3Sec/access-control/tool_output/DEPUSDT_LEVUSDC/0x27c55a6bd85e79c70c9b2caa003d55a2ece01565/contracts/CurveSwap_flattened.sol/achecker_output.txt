@@ -1,0 +1,9 @@
+File copied : /root/Achecker/CurveSwap.bin-runtime
+processing /root/Achecker/CurveSwap.bin-runtime
+Checking contract for [4mViolated-AC-Check[0m 
+------------------
+
+
+Checking contract for [4mMissing-AC-Check[0m 
+------------------
+7d4f401da5417bc9fc76d6572bc7ab893312508764b2ef0a9c2086f07acc4ac0

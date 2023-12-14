@@ -1,0 +1,323 @@
+{
+  "/smart-agent/smartagent-dataset/AccessControl/CVE/0xE30a76ec9168639F09061e602924ae601D341066/NewIntelTechMedia.sol": [
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.mul",
+      "info": "mul",
+      "loc": [
+        12,
+        2,
+        16,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.div",
+      "info": "div",
+      "loc": [
+        18,
+        2,
+        21,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.sub",
+      "info": "sub",
+      "loc": [
+        23,
+        2,
+        26,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.add",
+      "info": "add",
+      "loc": [
+        28,
+        2,
+        32,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ForeignToken.balanceOf",
+      "info": "balanceOf",
+      "loc": [
+        36,
+        4,
+        36,
+        72
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ForeignToken.transfer",
+      "info": "transfer",
+      "loc": [
+        37,
+        4,
+        37,
+        72
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20Basic.balanceOf",
+      "info": "balanceOf",
+      "loc": [
+        42,
+        4,
+        42,
+        69
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20Basic.transfer",
+      "info": "transfer",
+      "loc": [
+        43,
+        4,
+        43,
+        70
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.allowance",
+      "info": "allowance",
+      "loc": [
+        48,
+        4,
+        48,
+        88
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.transferFrom",
+      "info": "transferFrom",
+      "loc": [
+        49,
+        4,
+        49,
+        88
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.approve",
+      "info": "approve",
+      "loc": [
+        50,
+        4,
+        50,
+        74
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Token.distr",
+      "info": "distr",
+      "loc": [
+        55,
+        4,
+        55,
+        71
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Token.totalSupply",
+      "info": "totalSupply",
+      "loc": [
+        56,
+        4,
+        56,
+        69
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Token.balanceOf",
+      "info": "balanceOf",
+      "loc": [
+        57,
+        4,
+        57,
+        82
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: NewIntelTechMedia.NETM",
+      "info": "NETM",
+      "loc": [
+        103,
+        4,
+        106,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: NewIntelTechMedia.transferOwnership",
+      "info": "transferOwnership",
+      "loc": [
+        108,
+        4,
+        112,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: NewIntelTechMedia.finishDistribution",
+      "info": "finishDistribution",
+      "loc": [
+        114,
+        4,
+        118,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: NewIntelTechMedia.distr",
+      "info": "distr",
+      "loc": [
+        120,
+        4,
+        131,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: NewIntelTechMedia.__fallback__",
+      "info": "__fallback__",
+      "loc": [
+        133,
+        4,
+        135,
+        5
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: NewIntelTechMedia.getTokens",
+      "info": "getTokens",
+      "loc": [
+        137,
+        4,
+        158,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: NewIntelTechMedia.balanceOf",
+      "info": "balanceOf",
+      "loc": [
+        160,
+        4,
+        162,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: NewIntelTechMedia.transfer",
+      "info": "transfer",
+      "loc": [
+        169,
+        4,
+        177,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: NewIntelTechMedia.transferFrom",
+      "info": "transferFrom",
+      "loc": [
+        179,
+        4,
+        189,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: NewIntelTechMedia.approve",
+      "info": "approve",
+      "loc": [
+        191,
+        4,
+        196,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: NewIntelTechMedia.allowance",
+      "info": "allowance",
+      "loc": [
+        198,
+        4,
+        200,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: NewIntelTechMedia.getTokenBalance",
+      "info": "getTokenBalance",
+      "loc": [
+        202,
+        4,
+        206,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: NewIntelTechMedia.withdraw",
+      "info": "withdraw",
+      "loc": [
+        208,
+        4,
+        211,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: NewIntelTechMedia.burn",
+      "info": "burn",
+      "loc": [
+        213,
+        4,
+        221,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: NewIntelTechMedia.withdrawForeignTokens",
+      "info": "withdrawForeignTokens",
+      "loc": [
+        223,
+        4,
+        227,
+        4
+      ]
+    }
+  ]
+}

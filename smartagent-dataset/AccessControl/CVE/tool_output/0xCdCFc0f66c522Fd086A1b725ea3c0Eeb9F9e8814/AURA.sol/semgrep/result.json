@@ -1,0 +1,61 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xCdCFc0f66c522Fd086A1b725ea3c0Eeb9F9e8814/AURA.sol",
+            "line": 144,
+            "message": "Caching the array length outside a loop saves reading it on each iteration, as long as the array's length is not changed during the loop.",
+            "name": "array-length-outside-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xCdCFc0f66c522Fd086A1b725ea3c0Eeb9F9e8814/AURA.sol",
+            "line": 140,
+            "message": "Uninitialized variables are assigned with the types default value. Explicitly initializing a variable with its default value costs unnecessary gas.",
+            "name": "init-variables-with-default-value"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xCdCFc0f66c522Fd086A1b725ea3c0Eeb9F9e8814/AURA.sol",
+            "line": 145,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xCdCFc0f66c522Fd086A1b725ea3c0Eeb9F9e8814/AURA.sol",
+            "line": 145,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xCdCFc0f66c522Fd086A1b725ea3c0Eeb9F9e8814/AURA.sol",
+            "line": 144,
+            "message": "A lot of times there is no risk that the loop counter can overflow. Using Solidity's unchecked block saves the overflow checks.",
+            "name": "unnecessary-checked-arithmetic-in-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xCdCFc0f66c522Fd086A1b725ea3c0Eeb9F9e8814/AURA.sol",
+            "line": 17,
+            "message": "Using multiple require statements is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-multiple-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0xCdCFc0f66c522Fd086A1b725ea3c0Eeb9F9e8814/AURA.sol",
+            "line": 144,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "semgrep",
+        "mode": "solidity",
+        "version": "2023/08/21"
+    }
+}

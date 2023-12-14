@@ -1,0 +1,341 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/LeetSwap/0x94dac4a3ce998143aa119c05460731da80ad90cf/LeetSwapV2Pair_flattened.sol",
+            "line": 782,
+            "message": "Caching the array length outside a loop saves reading it on each iteration, as long as the array's length is not changed during the loop.",
+            "name": "array-length-outside-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/LeetSwap/0x94dac4a3ce998143aa119c05460731da80ad90cf/LeetSwapV2Pair_flattened.sol",
+            "line": 625,
+            "message": "<x> += <y> costs more gas than <x> = <x> + <y> for state variables.",
+            "name": "inefficient-state-variable-increment"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/LeetSwap/0x94dac4a3ce998143aa119c05460731da80ad90cf/LeetSwapV2Pair_flattened.sol",
+            "line": 645,
+            "message": "<x> += <y> costs more gas than <x> = <x> + <y> for state variables.",
+            "name": "inefficient-state-variable-increment"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/LeetSwap/0x94dac4a3ce998143aa119c05460731da80ad90cf/LeetSwapV2Pair_flattened.sol",
+            "line": 701,
+            "message": "<x> += <y> costs more gas than <x> = <x> + <y> for state variables.",
+            "name": "inefficient-state-variable-increment"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/LeetSwap/0x94dac4a3ce998143aa119c05460731da80ad90cf/LeetSwapV2Pair_flattened.sol",
+            "line": 702,
+            "message": "<x> += <y> costs more gas than <x> = <x> + <y> for state variables.",
+            "name": "inefficient-state-variable-increment"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/LeetSwap/0x94dac4a3ce998143aa119c05460731da80ad90cf/LeetSwapV2Pair_flattened.sol",
+            "line": 1071,
+            "message": "<x> += <y> costs more gas than <x> = <x> + <y> for state variables.",
+            "name": "inefficient-state-variable-increment"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/LeetSwap/0x94dac4a3ce998143aa119c05460731da80ad90cf/LeetSwapV2Pair_flattened.sol",
+            "line": 333,
+            "message": "Uninitialized variables are assigned with the types default value. Explicitly initializing a variable with its default value costs unnecessary gas.",
+            "name": "init-variables-with-default-value"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/LeetSwap/0x94dac4a3ce998143aa119c05460731da80ad90cf/LeetSwapV2Pair_flattened.sol",
+            "line": 372,
+            "message": "Uninitialized variables are assigned with the types default value. Explicitly initializing a variable with its default value costs unnecessary gas.",
+            "name": "init-variables-with-default-value"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/LeetSwap/0x94dac4a3ce998143aa119c05460731da80ad90cf/LeetSwapV2Pair_flattened.sol",
+            "line": 373,
+            "message": "Uninitialized variables are assigned with the types default value. Explicitly initializing a variable with its default value costs unnecessary gas.",
+            "name": "init-variables-with-default-value"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/LeetSwap/0x94dac4a3ce998143aa119c05460731da80ad90cf/LeetSwapV2Pair_flattened.sol",
+            "line": 98,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/LeetSwap/0x94dac4a3ce998143aa119c05460731da80ad90cf/LeetSwapV2Pair_flattened.sol",
+            "line": 99,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/LeetSwap/0x94dac4a3ce998143aa119c05460731da80ad90cf/LeetSwapV2Pair_flattened.sol",
+            "line": 100,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/LeetSwap/0x94dac4a3ce998143aa119c05460731da80ad90cf/LeetSwapV2Pair_flattened.sol",
+            "line": 101,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/LeetSwap/0x94dac4a3ce998143aa119c05460731da80ad90cf/LeetSwapV2Pair_flattened.sol",
+            "line": 102,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/LeetSwap/0x94dac4a3ce998143aa119c05460731da80ad90cf/LeetSwapV2Pair_flattened.sol",
+            "line": 428,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/LeetSwap/0x94dac4a3ce998143aa119c05460731da80ad90cf/LeetSwapV2Pair_flattened.sol",
+            "line": 429,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/LeetSwap/0x94dac4a3ce998143aa119c05460731da80ad90cf/LeetSwapV2Pair_flattened.sol",
+            "line": 430,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/LeetSwap/0x94dac4a3ce998143aa119c05460731da80ad90cf/LeetSwapV2Pair_flattened.sol",
+            "line": 431,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/LeetSwap/0x94dac4a3ce998143aa119c05460731da80ad90cf/LeetSwapV2Pair_flattened.sol",
+            "line": 432,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/LeetSwap/0x94dac4a3ce998143aa119c05460731da80ad90cf/LeetSwapV2Pair_flattened.sol",
+            "line": 433,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/LeetSwap/0x94dac4a3ce998143aa119c05460731da80ad90cf/LeetSwapV2Pair_flattened.sol",
+            "line": 434,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/LeetSwap/0x94dac4a3ce998143aa119c05460731da80ad90cf/LeetSwapV2Pair_flattened.sol",
+            "line": 435,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/LeetSwap/0x94dac4a3ce998143aa119c05460731da80ad90cf/LeetSwapV2Pair_flattened.sol",
+            "line": 436,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/LeetSwap/0x94dac4a3ce998143aa119c05460731da80ad90cf/LeetSwapV2Pair_flattened.sol",
+            "line": 437,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/LeetSwap/0x94dac4a3ce998143aa119c05460731da80ad90cf/LeetSwapV2Pair_flattened.sol",
+            "line": 812,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/LeetSwap/0x94dac4a3ce998143aa119c05460731da80ad90cf/LeetSwapV2Pair_flattened.sol",
+            "line": 813,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/LeetSwap/0x94dac4a3ce998143aa119c05460731da80ad90cf/LeetSwapV2Pair_flattened.sol",
+            "line": 814,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/LeetSwap/0x94dac4a3ce998143aa119c05460731da80ad90cf/LeetSwapV2Pair_flattened.sol",
+            "line": 815,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/LeetSwap/0x94dac4a3ce998143aa119c05460731da80ad90cf/LeetSwapV2Pair_flattened.sol",
+            "line": 816,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/LeetSwap/0x94dac4a3ce998143aa119c05460731da80ad90cf/LeetSwapV2Pair_flattened.sol",
+            "line": 817,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/LeetSwap/0x94dac4a3ce998143aa119c05460731da80ad90cf/LeetSwapV2Pair_flattened.sol",
+            "line": 782,
+            "message": "A lot of times there is no risk that the loop counter can overflow. Using Solidity's unchecked block saves the overflow checks.",
+            "name": "unnecessary-checked-arithmetic-in-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/LeetSwap/0x94dac4a3ce998143aa119c05460731da80ad90cf/LeetSwapV2Pair_flattened.sol",
+            "line": 986,
+            "message": "A lot of times there is no risk that the loop counter can overflow. Using Solidity's unchecked block saves the overflow checks.",
+            "name": "unnecessary-checked-arithmetic-in-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/LeetSwap/0x94dac4a3ce998143aa119c05460731da80ad90cf/LeetSwapV2Pair_flattened.sol",
+            "line": 700,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/LeetSwap/0x94dac4a3ce998143aa119c05460731da80ad90cf/LeetSwapV2Pair_flattened.sol",
+            "line": 701,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/LeetSwap/0x94dac4a3ce998143aa119c05460731da80ad90cf/LeetSwapV2Pair_flattened.sol",
+            "line": 702,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/LeetSwap/0x94dac4a3ce998143aa119c05460731da80ad90cf/LeetSwapV2Pair_flattened.sol",
+            "line": 703,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/LeetSwap/0x94dac4a3ce998143aa119c05460731da80ad90cf/LeetSwapV2Pair_flattened.sol",
+            "line": 890,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/LeetSwap/0x94dac4a3ce998143aa119c05460731da80ad90cf/LeetSwapV2Pair_flattened.sol",
+            "line": 891,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/LeetSwap/0x94dac4a3ce998143aa119c05460731da80ad90cf/LeetSwapV2Pair_flattened.sol",
+            "line": 920,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/LeetSwap/0x94dac4a3ce998143aa119c05460731da80ad90cf/LeetSwapV2Pair_flattened.sol",
+            "line": 1148,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/LeetSwap/0x94dac4a3ce998143aa119c05460731da80ad90cf/LeetSwapV2Pair_flattened.sol",
+            "line": 1149,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/LeetSwap/0x94dac4a3ce998143aa119c05460731da80ad90cf/LeetSwapV2Pair_flattened.sol",
+            "line": 1150,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/LeetSwap/0x94dac4a3ce998143aa119c05460731da80ad90cf/LeetSwapV2Pair_flattened.sol",
+            "line": 1151,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/LeetSwap/0x94dac4a3ce998143aa119c05460731da80ad90cf/LeetSwapV2Pair_flattened.sol",
+            "line": 1152,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/LeetSwap/0x94dac4a3ce998143aa119c05460731da80ad90cf/LeetSwapV2Pair_flattened.sol",
+            "line": 1153,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/LeetSwap/0x94dac4a3ce998143aa119c05460731da80ad90cf/LeetSwapV2Pair_flattened.sol",
+            "line": 782,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/LeetSwap/0x94dac4a3ce998143aa119c05460731da80ad90cf/LeetSwapV2Pair_flattened.sol",
+            "line": 986,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "semgrep",
+        "mode": "solidity",
+        "version": "2023/08/21"
+    }
+}

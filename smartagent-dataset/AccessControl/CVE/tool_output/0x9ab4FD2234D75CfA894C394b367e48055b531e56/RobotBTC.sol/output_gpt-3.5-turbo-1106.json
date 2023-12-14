@@ -1,0 +1,16 @@
+```
+owned
+Constructor named `owned` should be `constructor` instead.
+
+mintToken
+Missing modifier to enforce access control.
+
+freezeAccount
+Missing modifier to enforce access control.
+
+setPrices
+Missing modifier to enforce access control.
+
+setExchange
+Missing modifier to enforce access control.
+```

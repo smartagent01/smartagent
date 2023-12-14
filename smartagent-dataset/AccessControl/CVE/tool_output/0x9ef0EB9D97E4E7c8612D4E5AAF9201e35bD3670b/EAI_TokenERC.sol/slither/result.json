@@ -1,0 +1,202 @@
+{
+    "errors": [
+        "EXIT_CODE_21"
+    ],
+    "fails": [],
+    "findings": [
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ef0EB9D97E4E7c8612D4E5AAF9201e35bD3670b/EAI_TokenERC.sol",
+            "impact": "Informational",
+            "line": 7,
+            "line_end": 8,
+            "message": "EAI_TokenERC.decimals should be constant (EAI_TokenERC.sol#7-8)\n",
+            "name": "constable-states"
+        },
+        {
+            "confidence": "High",
+            "contract": "EAI_TokenERC",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ef0EB9D97E4E7c8612D4E5AAF9201e35bD3670b/EAI_TokenERC.sol",
+            "function": "EAI_TokenERC20",
+            "impact": "Informational",
+            "line": 30,
+            "line_end": 41,
+            "message": "EAI_TokenERC.EAI_TokenERC20 (EAI_TokenERC.sol#30-41) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "EAI_TokenERC",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ef0EB9D97E4E7c8612D4E5AAF9201e35bD3670b/EAI_TokenERC.sol",
+            "function": "transfer",
+            "impact": "Informational",
+            "line": 69,
+            "line_end": 77,
+            "message": "EAI_TokenERC.transfer (EAI_TokenERC.sol#69-77) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "EAI_TokenERC",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ef0EB9D97E4E7c8612D4E5AAF9201e35bD3670b/EAI_TokenERC.sol",
+            "function": "transferFrom",
+            "impact": "Informational",
+            "line": 83,
+            "line_end": 94,
+            "message": "EAI_TokenERC.transferFrom (EAI_TokenERC.sol#83-94) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "EAI_TokenERC",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ef0EB9D97E4E7c8612D4E5AAF9201e35bD3670b/EAI_TokenERC.sol",
+            "function": "burn",
+            "impact": "Informational",
+            "line": 99,
+            "line_end": 109,
+            "message": "EAI_TokenERC.burn (EAI_TokenERC.sol#99-109) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "EAI_TokenERC",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ef0EB9D97E4E7c8612D4E5AAF9201e35bD3670b/EAI_TokenERC.sol",
+            "function": "burnFrom",
+            "impact": "Informational",
+            "line": 115,
+            "line_end": 123,
+            "message": "EAI_TokenERC.burnFrom (EAI_TokenERC.sol#115-123) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ef0EB9D97E4E7c8612D4E5AAF9201e35bD3670b/EAI_TokenERC.sol",
+            "impact": "Informational",
+            "line": 1,
+            "message": "Detected issues with version pragma in EAI_TokenERC.sol:\n\t- pragma solidity^0.4.16 (EAI_TokenERC.sol#1): it allows old versions\n",
+            "name": "solc-version"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ef0EB9D97E4E7c8612D4E5AAF9201e35bD3670b/EAI_TokenERC.sol",
+            "impact": "Informational",
+            "line": 3,
+            "line_end": 123,
+            "message": "Contract 'EAI_TokenERC' (EAI_TokenERC.sol#3-123) is not in CapWords\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ef0EB9D97E4E7c8612D4E5AAF9201e35bD3670b/EAI_TokenERC.sol",
+            "impact": "Informational",
+            "line": 30,
+            "line_end": 41,
+            "message": "Function 'EAI_TokenERC.EAI_TokenERC20' (EAI_TokenERC.sol#30-41) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ef0EB9D97E4E7c8612D4E5AAF9201e35bD3670b/EAI_TokenERC.sol",
+            "impact": "Informational",
+            "line": 43,
+            "line_end": 64,
+            "message": "Function 'EAI_TokenERC._transfer' (EAI_TokenERC.sol#43-64) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ef0EB9D97E4E7c8612D4E5AAF9201e35bD3670b/EAI_TokenERC.sol",
+            "impact": "Informational",
+            "line": 43,
+            "line_end": 44,
+            "message": "Parameter '_from' of EAI_TokenERC._transfer (EAI_TokenERC.sol#43-44) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ef0EB9D97E4E7c8612D4E5AAF9201e35bD3670b/EAI_TokenERC.sol",
+            "impact": "Informational",
+            "line": 44,
+            "message": "Parameter '_to' of EAI_TokenERC._transfer (EAI_TokenERC.sol#44) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ef0EB9D97E4E7c8612D4E5AAF9201e35bD3670b/EAI_TokenERC.sol",
+            "impact": "Informational",
+            "line": 44,
+            "message": "Parameter '_value' of EAI_TokenERC._transfer (EAI_TokenERC.sol#44) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ef0EB9D97E4E7c8612D4E5AAF9201e35bD3670b/EAI_TokenERC.sol",
+            "impact": "Informational",
+            "line": 70,
+            "message": "Parameter '_to' of EAI_TokenERC.transfer (EAI_TokenERC.sol#70) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ef0EB9D97E4E7c8612D4E5AAF9201e35bD3670b/EAI_TokenERC.sol",
+            "impact": "Informational",
+            "line": 70,
+            "message": "Parameter '_value' of EAI_TokenERC.transfer (EAI_TokenERC.sol#70) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ef0EB9D97E4E7c8612D4E5AAF9201e35bD3670b/EAI_TokenERC.sol",
+            "impact": "Informational",
+            "line": 84,
+            "message": "Parameter '_from' of EAI_TokenERC.transferFrom (EAI_TokenERC.sol#84) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ef0EB9D97E4E7c8612D4E5AAF9201e35bD3670b/EAI_TokenERC.sol",
+            "impact": "Informational",
+            "line": 84,
+            "message": "Parameter '_to' of EAI_TokenERC.transferFrom (EAI_TokenERC.sol#84) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ef0EB9D97E4E7c8612D4E5AAF9201e35bD3670b/EAI_TokenERC.sol",
+            "impact": "Informational",
+            "line": 84,
+            "message": "Parameter '_value' of EAI_TokenERC.transferFrom (EAI_TokenERC.sol#84) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ef0EB9D97E4E7c8612D4E5AAF9201e35bD3670b/EAI_TokenERC.sol",
+            "impact": "Informational",
+            "line": 99,
+            "message": "Parameter '_value' of EAI_TokenERC.burn (EAI_TokenERC.sol#99) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ef0EB9D97E4E7c8612D4E5AAF9201e35bD3670b/EAI_TokenERC.sol",
+            "impact": "Informational",
+            "line": 115,
+            "message": "Parameter '_from' of EAI_TokenERC.burnFrom (EAI_TokenERC.sol#115) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ef0EB9D97E4E7c8612D4E5AAF9201e35bD3670b/EAI_TokenERC.sol",
+            "impact": "Informational",
+            "line": 115,
+            "message": "Parameter '_value' of EAI_TokenERC.burnFrom (EAI_TokenERC.sol#115) is not in mixedCase\n",
+            "name": "naming-convention"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "slither",
+        "mode": "solidity",
+        "version": "2022/11/14"
+    }
+}

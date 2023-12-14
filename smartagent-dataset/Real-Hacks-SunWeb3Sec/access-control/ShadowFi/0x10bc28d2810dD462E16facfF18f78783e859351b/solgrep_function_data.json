@@ -1,0 +1,1181 @@
+{
+  "/smart-agent-artifact/smart-agent/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol": [
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.add",
+      "info": "add",
+      "loc": [
+        66,
+        4,
+        71,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.sub",
+      "info": "sub",
+      "loc": [
+        72,
+        4,
+        74,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.sub",
+      "info": "sub",
+      "loc": [
+        75,
+        4,
+        80,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.mul",
+      "info": "mul",
+      "loc": [
+        81,
+        4,
+        90,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.div",
+      "info": "div",
+      "loc": [
+        91,
+        4,
+        93,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.div",
+      "info": "div",
+      "loc": [
+        94,
+        4,
+        101,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IBEP20.totalSupply",
+      "info": "totalSupply",
+      "loc": [
+        108,
+        4,
+        108,
+        58
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IBEP20.decimals",
+      "info": "decimals",
+      "loc": [
+        109,
+        4,
+        109,
+        53
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IBEP20.symbol",
+      "info": "symbol",
+      "loc": [
+        110,
+        4,
+        110,
+        59
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IBEP20.name",
+      "info": "name",
+      "loc": [
+        111,
+        4,
+        111,
+        57
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IBEP20.getOwner",
+      "info": "getOwner",
+      "loc": [
+        112,
+        4,
+        112,
+        55
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IBEP20.balanceOf",
+      "info": "balanceOf",
+      "loc": [
+        113,
+        4,
+        113,
+        71
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IBEP20.transfer",
+      "info": "transfer",
+      "loc": [
+        114,
+        4,
+        114,
+        80
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IBEP20.allowance",
+      "info": "allowance",
+      "loc": [
+        115,
+        4,
+        115,
+        87
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IBEP20.approve",
+      "info": "approve",
+      "loc": [
+        116,
+        4,
+        116,
+        77
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IBEP20.transferFrom",
+      "info": "transferFrom",
+      "loc": [
+        117,
+        4,
+        117,
+        100
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IDEXFactory.createPair",
+      "info": "createPair",
+      "loc": [
+        123,
+        4,
+        123,
+        87
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IDEXRouter.factory",
+      "info": "factory",
+      "loc": [
+        127,
+        4,
+        127,
+        54
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IDEXRouter.WETH",
+      "info": "WETH",
+      "loc": [
+        128,
+        4,
+        128,
+        51
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IDEXRouter.addLiquidity",
+      "info": "addLiquidity",
+      "loc": [
+        130,
+        4,
+        139,
+        67
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IDEXRouter.addLiquidityETH",
+      "info": "addLiquidityETH",
+      "loc": [
+        141,
+        4,
+        148,
+        81
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IDEXRouter.swapExactTokensForTokensSupportingFeeOnTransferTokens",
+      "info": "swapExactTokensForTokensSupportingFeeOnTransferTokens",
+      "loc": [
+        150,
+        4,
+        156,
+        14
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IDEXRouter.swapExactETHForTokensSupportingFeeOnTransferTokens",
+      "info": "swapExactETHForTokensSupportingFeeOnTransferTokens",
+      "loc": [
+        158,
+        4,
+        163,
+        22
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IDEXRouter.swapExactTokensForETHSupportingFeeOnTransferTokens",
+      "info": "swapExactTokensForETHSupportingFeeOnTransferTokens",
+      "loc": [
+        165,
+        4,
+        171,
+        14
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowAuth.__constructor__",
+      "info": "__constructor__",
+      "loc": [
+        202,
+        4,
+        223,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowAuth.authorizeFor",
+      "info": "authorizeFor",
+      "loc": [
+        243,
+        4,
+        247,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowAuth.authorizeForMultiplePermissions",
+      "info": "authorizeForMultiplePermissions",
+      "loc": [
+        252,
+        4,
+        258,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowAuth.unauthorizeFor",
+      "info": "unauthorizeFor",
+      "loc": [
+        263,
+        4,
+        269,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowAuth.unauthorizeForMultiplePermissions",
+      "info": "unauthorizeForMultiplePermissions",
+      "loc": [
+        274,
+        4,
+        282,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowAuth.isOwner",
+      "info": "isOwner",
+      "loc": [
+        287,
+        4,
+        289,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowAuth.isAuthorizedFor",
+      "info": "isAuthorizedFor",
+      "loc": [
+        294,
+        4,
+        296,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowAuth.isAuthorizedFor",
+      "info": "isAuthorizedFor",
+      "loc": [
+        301,
+        4,
+        303,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowAuth.transferOwnership",
+      "info": "transferOwnership",
+      "loc": [
+        308,
+        4,
+        316,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowAuth.getPermissionNameToIndex",
+      "info": "getPermissionNameToIndex",
+      "loc": [
+        321,
+        4,
+        323,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowAuth.getPermissionUnlockTime",
+      "info": "getPermissionUnlockTime",
+      "loc": [
+        328,
+        4,
+        330,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowAuth.isLocked",
+      "info": "isLocked",
+      "loc": [
+        335,
+        4,
+        337,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowAuth.lockPermission",
+      "info": "lockPermission",
+      "loc": [
+        342,
+        4,
+        347,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowAuth.unlockPermission",
+      "info": "unlockPermission",
+      "loc": [
+        352,
+        4,
+        357,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IDividendDistributor.setDistributionCriteria",
+      "info": "setDistributionCriteria",
+      "loc": [
+        367,
+        4,
+        367,
+        91
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IDividendDistributor.setShare",
+      "info": "setShare",
+      "loc": [
+        368,
+        4,
+        368,
+        67
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IDividendDistributor.deposit",
+      "info": "deposit",
+      "loc": [
+        369,
+        4,
+        369,
+        39
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IDividendDistributor.process",
+      "info": "process",
+      "loc": [
+        370,
+        4,
+        370,
+        42
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IDividendDistributor.claimDividend",
+      "info": "claimDividend",
+      "loc": [
+        371,
+        4,
+        371,
+        37
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: DividendDistributor.__constructor__",
+      "info": "__constructor__",
+      "loc": [
+        417,
+        4,
+        422,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: DividendDistributor.setDistributionCriteria",
+      "info": "setDistributionCriteria",
+      "loc": [
+        424,
+        4,
+        427,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: DividendDistributor.setShare",
+      "info": "setShare",
+      "loc": [
+        429,
+        4,
+        443,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: DividendDistributor.deposit",
+      "info": "deposit",
+      "loc": [
+        445,
+        4,
+        463,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: DividendDistributor.process",
+      "info": "process",
+      "loc": [
+        465,
+        4,
+        489,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: DividendDistributor.shouldDistribute",
+      "info": "shouldDistribute",
+      "loc": [
+        491,
+        4,
+        494,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: DividendDistributor.distributeDividend",
+      "info": "distributeDividend",
+      "loc": [
+        496,
+        4,
+        507,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: DividendDistributor.claimDividend",
+      "info": "claimDividend",
+      "loc": [
+        509,
+        4,
+        511,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: DividendDistributor.getUnpaidEarnings",
+      "info": "getUnpaidEarnings",
+      "loc": [
+        513,
+        4,
+        522,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: DividendDistributor.getCumulativeDividends",
+      "info": "getCumulativeDividends",
+      "loc": [
+        524,
+        4,
+        526,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: DividendDistributor.addShareholder",
+      "info": "addShareholder",
+      "loc": [
+        528,
+        4,
+        531,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: DividendDistributor.removeShareholder",
+      "info": "removeShareholder",
+      "loc": [
+        533,
+        4,
+        537,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowFi.__constructor__",
+      "info": "__constructor__",
+      "loc": [
+        603,
+        4,
+        629,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowFi.__receiveEther__",
+      "info": "__receiveEther__",
+      "loc": [
+        631,
+        4,
+        631,
+        33
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowFi.totalSupply",
+      "info": "totalSupply",
+      "loc": [
+        633,
+        4,
+        633,
+        133
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowFi.decimals",
+      "info": "decimals",
+      "loc": [
+        634,
+        4,
+        634,
+        83
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowFi.symbol",
+      "info": "symbol",
+      "loc": [
+        635,
+        4,
+        635,
+        87
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowFi.name",
+      "info": "name",
+      "loc": [
+        636,
+        4,
+        636,
+        83
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowFi.getOwner",
+      "info": "getOwner",
+      "loc": [
+        637,
+        4,
+        637,
+        81
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowFi.balanceOf",
+      "info": "balanceOf",
+      "loc": [
+        638,
+        4,
+        638,
+        108
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowFi.allowance",
+      "info": "allowance",
+      "loc": [
+        639,
+        4,
+        639,
+        136
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowFi.approve",
+      "info": "approve",
+      "loc": [
+        641,
+        4,
+        651,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowFi.approveMax",
+      "info": "approveMax",
+      "loc": [
+        653,
+        4,
+        655,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowFi.transfer",
+      "info": "transfer",
+      "loc": [
+        657,
+        4,
+        659,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowFi.transferFrom",
+      "info": "transferFrom",
+      "loc": [
+        661,
+        4,
+        667,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowFi._transferFrom",
+      "info": "_transferFrom",
+      "loc": [
+        669,
+        4,
+        696,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowFi._basicTransfer",
+      "info": "_basicTransfer",
+      "loc": [
+        698,
+        4,
+        703,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowFi.checkTxLimit",
+      "info": "checkTxLimit",
+      "loc": [
+        705,
+        4,
+        707,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowFi.shouldTakeFee",
+      "info": "shouldTakeFee",
+      "loc": [
+        709,
+        4,
+        719,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowFi.getTotalFee",
+      "info": "getTotalFee",
+      "loc": [
+        721,
+        4,
+        725,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowFi.getMultipliedFee",
+      "info": "getMultipliedFee",
+      "loc": [
+        727,
+        4,
+        732,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowFi.takeFee",
+      "info": "takeFee",
+      "loc": [
+        734,
+        4,
+        741,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowFi.isSell",
+      "info": "isSell",
+      "loc": [
+        743,
+        4,
+        749,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowFi.shouldSwapBack",
+      "info": "shouldSwapBack",
+      "loc": [
+        751,
+        4,
+        756,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowFi.swapBack",
+      "info": "swapBack",
+      "loc": [
+        758,
+        4,
+        809,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowFi.triggerBuyback",
+      "info": "triggerBuyback",
+      "loc": [
+        811,
+        4,
+        818,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowFi.clearBuybackMultiplier",
+      "info": "clearBuybackMultiplier",
+      "loc": [
+        820,
+        4,
+        822,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowFi.buyTokens",
+      "info": "buyTokens",
+      "loc": [
+        824,
+        4,
+        841,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowFi.setBuybackMultiplierSettings",
+      "info": "setBuybackMultiplierSettings",
+      "loc": [
+        843,
+        4,
+        848,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowFi.launched",
+      "info": "launched",
+      "loc": [
+        850,
+        4,
+        852,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowFi.launch",
+      "info": "launch",
+      "loc": [
+        854,
+        4,
+        857,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowFi.setTxLimit",
+      "info": "setTxLimit",
+      "loc": [
+        859,
+        4,
+        862,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowFi.setIsDividendExempt",
+      "info": "setIsDividendExempt",
+      "loc": [
+        864,
+        4,
+        873,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowFi.setIsFeeExempt",
+      "info": "setIsFeeExempt",
+      "loc": [
+        875,
+        4,
+        877,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowFi.setIsTxLimitExempt",
+      "info": "setIsTxLimitExempt",
+      "loc": [
+        879,
+        4,
+        881,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowFi.setFees",
+      "info": "setFees",
+      "loc": [
+        883,
+        4,
+        893,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowFi.setFeeReceivers",
+      "info": "setFeeReceivers",
+      "loc": [
+        895,
+        4,
+        898,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowFi.setSwapBackSettings",
+      "info": "setSwapBackSettings",
+      "loc": [
+        900,
+        4,
+        903,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowFi.setTargetLiquidity",
+      "info": "setTargetLiquidity",
+      "loc": [
+        905,
+        4,
+        908,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowFi.setDistributionCriteria",
+      "info": "setDistributionCriteria",
+      "loc": [
+        910,
+        4,
+        912,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowFi.setDistributorSettings",
+      "info": "setDistributorSettings",
+      "loc": [
+        914,
+        4,
+        917,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowFi.getCirculatingSupply",
+      "info": "getCirculatingSupply",
+      "loc": [
+        919,
+        4,
+        921,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowFi.getLiquidityBacking",
+      "info": "getLiquidityBacking",
+      "loc": [
+        923,
+        4,
+        925,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowFi.isOverLiquified",
+      "info": "isOverLiquified",
+      "loc": [
+        927,
+        4,
+        929,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowFi.claimDividend",
+      "info": "claimDividend",
+      "loc": [
+        931,
+        4,
+        933,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowFi.addPair",
+      "info": "addPair",
+      "loc": [
+        935,
+        4,
+        937,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowFi.removeLastPair",
+      "info": "removeLastPair",
+      "loc": [
+        939,
+        4,
+        941,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowFi.setFeesOnNormalTransfers",
+      "info": "setFeesOnNormalTransfers",
+      "loc": [
+        943,
+        4,
+        945,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowFi.setLaunchedAt",
+      "info": "setLaunchedAt",
+      "loc": [
+        947,
+        4,
+        949,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowFi.setAllowedAddress",
+      "info": "setAllowedAddress",
+      "loc": [
+        954,
+        4,
+        956,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowFi.burn",
+      "info": "burn",
+      "loc": [
+        958,
+        4,
+        962,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowFi.airdrop",
+      "info": "airdrop",
+      "loc": [
+        964,
+        4,
+        969,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowFi.isAirdropped",
+      "info": "isAirdropped",
+      "loc": [
+        971,
+        4,
+        973,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ShadowFi.setBlackListed",
+      "info": "setBlackListed",
+      "loc": [
+        975,
+        4,
+        977,
+        4
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "/smart-agent-artifact/smart-agent/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/TempleDao/0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol": [
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: Ownable.onlyOwner",
+      "info": "onlyOwner",
+      "loc": [
+        71,
+        4,
+        74,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: StaxLPStaking.onlyMigrator",
+      "info": "onlyMigrator",
+      "loc": [
+        1173,
+        4,
+        1176,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: StaxLPStaking.updateReward",
+      "info": "updateReward",
+      "loc": [
+        1178,
+        4,
+        1192,
+        4
+      ]
+    }
+  ]
+}

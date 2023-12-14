@@ -1,0 +1,16 @@
+```
+createNode
+This function allows anyone to create nodes without any access control checks.
+
+claimNodeReward
+claimAllNodesReward
+These functions allow anyone to claim rewards for nodes without any access control checks.
+
+getRewardTotalAmountOf
+getRewardAmountOf
+These functions allow anyone to query reward amounts for any account without any access control checks.
+
+changeNodePrice
+changeRewardPerNode
+These functions allow anyone to change the node price and reward per day without any access control checks.
+```

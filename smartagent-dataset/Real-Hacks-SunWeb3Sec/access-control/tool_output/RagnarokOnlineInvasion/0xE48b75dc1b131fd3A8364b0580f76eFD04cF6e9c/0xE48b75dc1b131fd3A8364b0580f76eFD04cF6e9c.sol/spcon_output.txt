@@ -1,0 +1,13 @@
+Running SPCON... 0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c 600 2022-05-23
+INFO:SlitherSolcParsing:No contract were found in None, check the correct compilation
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/SpCon-0.1.0-py3.8.egg/spcon/__main__.py", line 67, in main
+    execute_command(args)
+  File "/usr/local/lib/python3.8/dist-packages/SpCon-0.1.0-py3.8.egg/spcon/__main__.py", line 27, in execute_command
+    contractName, contractAbi, reads, reads2, writes =  getRWofContract(address=args.eth_address)
+  File "/usr/local/lib/python3.8/dist-packages/SpCon-0.1.0-py3.8.egg/spcon/staticAnalyzer.py", line 23, in getRWofContract
+    contractName, contractAbi, reads, reads2,  writes = analyzer.analyze(address=address)
+  File "/usr/local/lib/python3.8/dist-packages/SpCon-0.1.0-py3.8.egg/spcon/staticAnalyzer.py", line 54, in analyze
+    for item in os.listdir(contract_dir):
+FileNotFoundError: [Errno 2] No such file or directory: '/home/spcon/crytic-export/etherscan-contracts2'
+total timecost: 1.385774850845337 seconds

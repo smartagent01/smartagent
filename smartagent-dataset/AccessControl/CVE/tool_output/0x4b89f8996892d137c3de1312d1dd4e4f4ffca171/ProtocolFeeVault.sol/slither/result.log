@@ -1,0 +1,56 @@
+INFO:Detectors:[93m
+AddressUtil.isContract (/sb/ProtocolFeeVault.sol#117-128) is declared view but contains assembly code
+ERC20SafeTransfer.checkReturnValue (/sb/ProtocolFeeVault.sol#518-549) is declared view but contains assembly code
+Reference: https://github.com/trailofbits/slither/wiki/Detectors-Documentation#constant-functions-changing-the-state[0m
+INFO:Detectors:[93m
+Reentrancy in ProtocolFeeVault.fundDAO (/sb/ProtocolFeeVault.sol#881-905):
+	External calls:
+	- (None,None,None,None,None,amountBurn,amountDAO,None) = getProtocolFeeStats() (/sb/ProtocolFeeVault.sol#885-886)
+	- require(bool,string)(BurnableERC20(lrcAddress).burn(amountBurn),BURN_FAILURE) (/sb/ProtocolFeeVault.sol#893-897)
+	State variables written after the call(s):
+	- claimedBurn (/sb/ProtocolFeeVault.sol#897-900)
+	- claimedDAOFund (/sb/ProtocolFeeVault.sol#901-904)
+Reference: https://github.com/trailofbits/slither/wiki/Detectors-Documentation#reentrancy-vulnerabilities-1[0m
+INFO:Detectors:[93m
+ProtocolFeeVault.sellTokenForLRC (/sb/ProtocolFeeVault.sol#906-922) does not use the value returned by external calls:
+	-recipient.sendETHAndVerify(amount,gasleft()()) (/sb/ProtocolFeeVault.sol#915-917)
+Reference: https://github.com/trailofbits/slither/wiki/Detectors-Documentation#unused-return[0m
+INFO:Detectors:[92m
+AddressUtil.isContract uses assembly (/sb/ProtocolFeeVault.sol#117-128)
+	- /sb/ProtocolFeeVault.sol#125-127
+ERC20SafeTransfer.checkReturnValue uses assembly (/sb/ProtocolFeeVault.sol#518-549)
+	- /sb/ProtocolFeeVault.sol#527-548
+Reference: https://github.com/trailofbits/slither/wiki/Detectors-Documentation#assembly-usage[0m
+INFO:Detectors:[92m
+ERC20.totalSupply (/sb/ProtocolFeeVault.sol#26-31) should be declared external
+ERC20.balanceOf (/sb/ProtocolFeeVault.sol#31-38) should be declared external
+ERC20.allowance (/sb/ProtocolFeeVault.sol#38-46) should be declared external
+ERC20.transfer (/sb/ProtocolFeeVault.sol#47-53) should be declared external
+ERC20.transferFrom (/sb/ProtocolFeeVault.sol#54-62) should be declared external
+ERC20.approve (/sb/ProtocolFeeVault.sol#62-69) should be declared external
+BurnableERC20.burn (/sb/ProtocolFeeVault.sol#202-209) should be declared external
+BurnableERC20.burnFrom (/sb/ProtocolFeeVault.sol#209-210) should be declared external
+Ownable.transferOwnership (/sb/ProtocolFeeVault.sol#285-298) should be declared external
+Claimable.transferOwnership (/sb/ProtocolFeeVault.sol#323-336) should be declared external
+Ownable.renounceOwnership (/sb/ProtocolFeeVault.sol#298-304) should be declared external
+Claimable.claimOwnership (/sb/ProtocolFeeVault.sol#338-344) should be declared external
+Reference: https://github.com/trailofbits/slither/wiki/Detectors-Documentation#public-function-that-could-be-declared-as-external[0m
+INFO:Detectors:[92m
+Detected issues with version pragma in /sb/ProtocolFeeVault.sol:
+	- pragma solidity^0.5.11 (/sb/ProtocolFeeVault.sol#17-20): it allows old versions
+Reference: https://github.com/trailofbits/slither/wiki/Detectors-Documentation#incorrect-version-of-solidity[0m
+INFO:Detectors:[92m
+Low level call in AddressUtil.sendETH (/sb/ProtocolFeeVault.sol#141-153):
+	-(success,None) = recipient.call.value(amount).gas(gasLimit)() /sb/ProtocolFeeVault.sol#152
+Low level call in ERC20SafeTransfer.safeTransferWithGasLimit (/sb/ProtocolFeeVault.sol#414-447):
+	-(success) = token.call.gas(gasLimit)(callData) /sb/ProtocolFeeVault.sol#441-444
+Low level call in ERC20SafeTransfer.safeTransferFromWithGasLimit (/sb/ProtocolFeeVault.sol#492-517):
+	-(success) = token.call.gas(gasLimit)(callData) /sb/ProtocolFeeVault.sol#514-516
+Reference: https://github.com/trailofbits/slither/wiki/Detectors-Documentation#low-level-calls[0m
+INFO:Detectors:[92m
+Parameter '_userStakingPoolAddress' of ProtocolFeeVault.updateSettings (/sb/ProtocolFeeVault.sol#844) is not in mixedCase
+Parameter '_tokenSellerAddress' of ProtocolFeeVault.updateSettings (/sb/ProtocolFeeVault.sol#844-845) is not in mixedCase
+Parameter '_daoAddress' of ProtocolFeeVault.updateSettings (/sb/ProtocolFeeVault.sol#845) is not in mixedCase
+Parameter '_lrcAddress' of ProtocolFeeVault. (/sb/ProtocolFeeVault.sol#834-836) is not in mixedCase
+Reference: https://github.com/trailofbits/slither/wiki/Detectors-Documentation#conformance-to-solidity-naming-conventions[0m
+INFO:Slither:/sb/ProtocolFeeVault.sol analyzed (11 contracts), 26 result(s) found

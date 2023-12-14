@@ -1,0 +1,4602 @@
+{
+  "/smart-agent-artifact/smart-agent/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/DEPUSDT_LEVUSDC/0x27c55a6bd85e79c70c9b2caa003d55a2ece01565/contracts/CurveSwap_flattened.sol": [
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ICurveFi.exchange_underlying",
+      "info": "exchange_underlying",
+      "loc": [
+        8,
+        4,
+        8,
+        89
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ICurveFi.exchange",
+      "info": "exchange",
+      "loc": [
+        9,
+        4,
+        9,
+        78
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IRegistry.get_decimals",
+      "info": "get_decimals",
+      "loc": [
+        16,
+        4,
+        16,
+        78
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IRegistry.exchange",
+      "info": "exchange",
+      "loc": [
+        18,
+        4,
+        18,
+        137
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IRegistry.get_exchange_amount",
+      "info": "get_exchange_amount",
+      "loc": [
+        21,
+        4,
+        21,
+        118
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IAddressProvider.get_registry",
+      "info": "get_registry",
+      "loc": [
+        28,
+        4,
+        28,
+        41
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IAddressProvider.get_address",
+      "info": "get_address",
+      "loc": [
+        29,
+        4,
+        29,
+        65
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20.totalSupply",
+      "info": "totalSupply",
+      "loc": [
+        59,
+        4,
+        59,
+        58
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20.balanceOf",
+      "info": "balanceOf",
+      "loc": [
+        64,
+        4,
+        64,
+        71
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20.transfer",
+      "info": "transfer",
+      "loc": [
+        73,
+        4,
+        73,
+        73
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20.allowance",
+      "info": "allowance",
+      "loc": [
+        82,
+        4,
+        82,
+        86
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20.approve",
+      "info": "approve",
+      "loc": [
+        98,
+        4,
+        98,
+        77
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20.transferFrom",
+      "info": "transferFrom",
+      "loc": [
+        109,
+        4,
+        113,
+        29
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Address.isContract",
+      "info": "isContract",
+      "loc": [
+        157,
+        4,
+        163,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Address.sendValue",
+      "info": "sendValue",
+      "loc": [
+        181,
+        4,
+        186,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Address.functionCall",
+      "info": "functionCall",
+      "loc": [
+        206,
+        4,
+        208,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Address.functionCall",
+      "info": "functionCall",
+      "loc": [
+        216,
+        4,
+        222,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Address.functionCallWithValue",
+      "info": "functionCallWithValue",
+      "loc": [
+        235,
+        4,
+        241,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Address.functionCallWithValue",
+      "info": "functionCallWithValue",
+      "loc": [
+        249,
+        4,
+        258,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Address.functionStaticCall",
+      "info": "functionStaticCall",
+      "loc": [
+        266,
+        4,
+        268,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Address.functionStaticCall",
+      "info": "functionStaticCall",
+      "loc": [
+        276,
+        4,
+        283,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Address.functionDelegateCall",
+      "info": "functionDelegateCall",
+      "loc": [
+        291,
+        4,
+        293,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Address.functionDelegateCall",
+      "info": "functionDelegateCall",
+      "loc": [
+        301,
+        4,
+        308,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Address.verifyCallResultFromTarget",
+      "info": "verifyCallResultFromTarget",
+      "loc": [
+        316,
+        4,
+        332,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Address.verifyCallResult",
+      "info": "verifyCallResult",
+      "loc": [
+        340,
+        4,
+        350,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Address._revert",
+      "info": "_revert",
+      "loc": [
+        352,
+        4,
+        364,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeERC20.safeTransfer",
+      "info": "safeTransfer",
+      "loc": [
+        379,
+        4,
+        385,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeERC20.safeTransferFrom",
+      "info": "safeTransferFrom",
+      "loc": [
+        387,
+        4,
+        394,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeERC20.safeApprove",
+      "info": "safeApprove",
+      "loc": [
+        403,
+        4,
+        416,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeERC20.safeIncreaseAllowance",
+      "info": "safeIncreaseAllowance",
+      "loc": [
+        418,
+        4,
+        425,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeERC20.safeDecreaseAllowance",
+      "info": "safeDecreaseAllowance",
+      "loc": [
+        427,
+        4,
+        438,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeERC20._callOptionalReturn",
+      "info": "_callOptionalReturn",
+      "loc": [
+        462,
+        4,
+        472,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console._sendLogPayload",
+      "info": "_sendLogPayload",
+      "loc": [
+        481,
+        1,
+        488,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        490,
+        1,
+        492,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.logInt",
+      "info": "logInt",
+      "loc": [
+        494,
+        1,
+        496,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.logUint",
+      "info": "logUint",
+      "loc": [
+        498,
+        1,
+        500,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.logString",
+      "info": "logString",
+      "loc": [
+        502,
+        1,
+        504,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.logBool",
+      "info": "logBool",
+      "loc": [
+        506,
+        1,
+        508,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.logAddress",
+      "info": "logAddress",
+      "loc": [
+        510,
+        1,
+        512,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.logBytes",
+      "info": "logBytes",
+      "loc": [
+        514,
+        1,
+        516,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.logBytes1",
+      "info": "logBytes1",
+      "loc": [
+        518,
+        1,
+        520,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.logBytes2",
+      "info": "logBytes2",
+      "loc": [
+        522,
+        1,
+        524,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.logBytes3",
+      "info": "logBytes3",
+      "loc": [
+        526,
+        1,
+        528,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.logBytes4",
+      "info": "logBytes4",
+      "loc": [
+        530,
+        1,
+        532,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.logBytes5",
+      "info": "logBytes5",
+      "loc": [
+        534,
+        1,
+        536,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.logBytes6",
+      "info": "logBytes6",
+      "loc": [
+        538,
+        1,
+        540,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.logBytes7",
+      "info": "logBytes7",
+      "loc": [
+        542,
+        1,
+        544,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.logBytes8",
+      "info": "logBytes8",
+      "loc": [
+        546,
+        1,
+        548,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.logBytes9",
+      "info": "logBytes9",
+      "loc": [
+        550,
+        1,
+        552,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.logBytes10",
+      "info": "logBytes10",
+      "loc": [
+        554,
+        1,
+        556,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.logBytes11",
+      "info": "logBytes11",
+      "loc": [
+        558,
+        1,
+        560,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.logBytes12",
+      "info": "logBytes12",
+      "loc": [
+        562,
+        1,
+        564,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.logBytes13",
+      "info": "logBytes13",
+      "loc": [
+        566,
+        1,
+        568,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.logBytes14",
+      "info": "logBytes14",
+      "loc": [
+        570,
+        1,
+        572,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.logBytes15",
+      "info": "logBytes15",
+      "loc": [
+        574,
+        1,
+        576,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.logBytes16",
+      "info": "logBytes16",
+      "loc": [
+        578,
+        1,
+        580,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.logBytes17",
+      "info": "logBytes17",
+      "loc": [
+        582,
+        1,
+        584,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.logBytes18",
+      "info": "logBytes18",
+      "loc": [
+        586,
+        1,
+        588,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.logBytes19",
+      "info": "logBytes19",
+      "loc": [
+        590,
+        1,
+        592,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.logBytes20",
+      "info": "logBytes20",
+      "loc": [
+        594,
+        1,
+        596,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.logBytes21",
+      "info": "logBytes21",
+      "loc": [
+        598,
+        1,
+        600,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.logBytes22",
+      "info": "logBytes22",
+      "loc": [
+        602,
+        1,
+        604,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.logBytes23",
+      "info": "logBytes23",
+      "loc": [
+        606,
+        1,
+        608,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.logBytes24",
+      "info": "logBytes24",
+      "loc": [
+        610,
+        1,
+        612,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.logBytes25",
+      "info": "logBytes25",
+      "loc": [
+        614,
+        1,
+        616,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.logBytes26",
+      "info": "logBytes26",
+      "loc": [
+        618,
+        1,
+        620,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.logBytes27",
+      "info": "logBytes27",
+      "loc": [
+        622,
+        1,
+        624,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.logBytes28",
+      "info": "logBytes28",
+      "loc": [
+        626,
+        1,
+        628,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.logBytes29",
+      "info": "logBytes29",
+      "loc": [
+        630,
+        1,
+        632,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.logBytes30",
+      "info": "logBytes30",
+      "loc": [
+        634,
+        1,
+        636,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.logBytes31",
+      "info": "logBytes31",
+      "loc": [
+        638,
+        1,
+        640,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.logBytes32",
+      "info": "logBytes32",
+      "loc": [
+        642,
+        1,
+        644,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        646,
+        1,
+        648,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        650,
+        1,
+        652,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        654,
+        1,
+        656,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        658,
+        1,
+        660,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        662,
+        1,
+        664,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        666,
+        1,
+        668,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        670,
+        1,
+        672,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        674,
+        1,
+        676,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        678,
+        1,
+        680,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        682,
+        1,
+        684,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        686,
+        1,
+        688,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        690,
+        1,
+        692,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        694,
+        1,
+        696,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        698,
+        1,
+        700,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        702,
+        1,
+        704,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        706,
+        1,
+        708,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        710,
+        1,
+        712,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        714,
+        1,
+        716,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        718,
+        1,
+        720,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        722,
+        1,
+        724,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        726,
+        1,
+        728,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        730,
+        1,
+        732,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        734,
+        1,
+        736,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        738,
+        1,
+        740,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        742,
+        1,
+        744,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        746,
+        1,
+        748,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        750,
+        1,
+        752,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        754,
+        1,
+        756,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        758,
+        1,
+        760,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        762,
+        1,
+        764,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        766,
+        1,
+        768,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        770,
+        1,
+        772,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        774,
+        1,
+        776,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        778,
+        1,
+        780,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        782,
+        1,
+        784,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        786,
+        1,
+        788,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        790,
+        1,
+        792,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        794,
+        1,
+        796,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        798,
+        1,
+        800,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        802,
+        1,
+        804,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        806,
+        1,
+        808,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        810,
+        1,
+        812,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        814,
+        1,
+        816,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        818,
+        1,
+        820,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        822,
+        1,
+        824,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        826,
+        1,
+        828,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        830,
+        1,
+        832,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        834,
+        1,
+        836,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        838,
+        1,
+        840,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        842,
+        1,
+        844,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        846,
+        1,
+        848,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        850,
+        1,
+        852,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        854,
+        1,
+        856,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        858,
+        1,
+        860,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        862,
+        1,
+        864,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        866,
+        1,
+        868,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        870,
+        1,
+        872,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        874,
+        1,
+        876,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        878,
+        1,
+        880,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        882,
+        1,
+        884,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        886,
+        1,
+        888,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        890,
+        1,
+        892,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        894,
+        1,
+        896,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        898,
+        1,
+        900,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        902,
+        1,
+        904,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        906,
+        1,
+        908,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        910,
+        1,
+        912,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        914,
+        1,
+        916,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        918,
+        1,
+        920,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        922,
+        1,
+        924,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        926,
+        1,
+        928,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        930,
+        1,
+        932,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        934,
+        1,
+        936,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        938,
+        1,
+        940,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        942,
+        1,
+        944,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        946,
+        1,
+        948,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        950,
+        1,
+        952,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        954,
+        1,
+        956,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        958,
+        1,
+        960,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        962,
+        1,
+        964,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        966,
+        1,
+        968,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        970,
+        1,
+        972,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        974,
+        1,
+        976,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        978,
+        1,
+        980,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        982,
+        1,
+        984,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        986,
+        1,
+        988,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        990,
+        1,
+        992,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        994,
+        1,
+        996,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        998,
+        1,
+        1000,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1002,
+        1,
+        1004,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1006,
+        1,
+        1008,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1010,
+        1,
+        1012,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1014,
+        1,
+        1016,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1018,
+        1,
+        1020,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1022,
+        1,
+        1024,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1026,
+        1,
+        1028,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1030,
+        1,
+        1032,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1034,
+        1,
+        1036,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1038,
+        1,
+        1040,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1042,
+        1,
+        1044,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1046,
+        1,
+        1048,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1050,
+        1,
+        1052,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1054,
+        1,
+        1056,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1058,
+        1,
+        1060,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1062,
+        1,
+        1064,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1066,
+        1,
+        1068,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1070,
+        1,
+        1072,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1074,
+        1,
+        1076,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1078,
+        1,
+        1080,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1082,
+        1,
+        1084,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1086,
+        1,
+        1088,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1090,
+        1,
+        1092,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1094,
+        1,
+        1096,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1098,
+        1,
+        1100,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1102,
+        1,
+        1104,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1106,
+        1,
+        1108,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1110,
+        1,
+        1112,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1114,
+        1,
+        1116,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1118,
+        1,
+        1120,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1122,
+        1,
+        1124,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1126,
+        1,
+        1128,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1130,
+        1,
+        1132,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1134,
+        1,
+        1136,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1138,
+        1,
+        1140,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1142,
+        1,
+        1144,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1146,
+        1,
+        1148,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1150,
+        1,
+        1152,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1154,
+        1,
+        1156,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1158,
+        1,
+        1160,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1162,
+        1,
+        1164,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1166,
+        1,
+        1168,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1170,
+        1,
+        1172,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1174,
+        1,
+        1176,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1178,
+        1,
+        1180,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1182,
+        1,
+        1184,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1186,
+        1,
+        1188,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1190,
+        1,
+        1192,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1194,
+        1,
+        1196,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1198,
+        1,
+        1200,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1202,
+        1,
+        1204,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1206,
+        1,
+        1208,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1210,
+        1,
+        1212,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1214,
+        1,
+        1216,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1218,
+        1,
+        1220,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1222,
+        1,
+        1224,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1226,
+        1,
+        1228,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1230,
+        1,
+        1232,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1234,
+        1,
+        1236,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1238,
+        1,
+        1240,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1242,
+        1,
+        1244,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1246,
+        1,
+        1248,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1250,
+        1,
+        1252,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1254,
+        1,
+        1256,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1258,
+        1,
+        1260,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1262,
+        1,
+        1264,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1266,
+        1,
+        1268,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1270,
+        1,
+        1272,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1274,
+        1,
+        1276,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1278,
+        1,
+        1280,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1282,
+        1,
+        1284,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1286,
+        1,
+        1288,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1290,
+        1,
+        1292,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1294,
+        1,
+        1296,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1298,
+        1,
+        1300,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1302,
+        1,
+        1304,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1306,
+        1,
+        1308,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1310,
+        1,
+        1312,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1314,
+        1,
+        1316,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1318,
+        1,
+        1320,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1322,
+        1,
+        1324,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1326,
+        1,
+        1328,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1330,
+        1,
+        1332,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1334,
+        1,
+        1336,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1338,
+        1,
+        1340,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1342,
+        1,
+        1344,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1346,
+        1,
+        1348,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1350,
+        1,
+        1352,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1354,
+        1,
+        1356,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1358,
+        1,
+        1360,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1362,
+        1,
+        1364,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1366,
+        1,
+        1368,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1370,
+        1,
+        1372,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1374,
+        1,
+        1376,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1378,
+        1,
+        1380,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1382,
+        1,
+        1384,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1386,
+        1,
+        1388,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1390,
+        1,
+        1392,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1394,
+        1,
+        1396,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1398,
+        1,
+        1400,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1402,
+        1,
+        1404,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1406,
+        1,
+        1408,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1410,
+        1,
+        1412,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1414,
+        1,
+        1416,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1418,
+        1,
+        1420,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1422,
+        1,
+        1424,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1426,
+        1,
+        1428,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1430,
+        1,
+        1432,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1434,
+        1,
+        1436,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1438,
+        1,
+        1440,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1442,
+        1,
+        1444,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1446,
+        1,
+        1448,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1450,
+        1,
+        1452,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1454,
+        1,
+        1456,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1458,
+        1,
+        1460,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1462,
+        1,
+        1464,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1466,
+        1,
+        1468,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1470,
+        1,
+        1472,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1474,
+        1,
+        1476,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1478,
+        1,
+        1480,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1482,
+        1,
+        1484,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1486,
+        1,
+        1488,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1490,
+        1,
+        1492,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1494,
+        1,
+        1496,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1498,
+        1,
+        1500,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1502,
+        1,
+        1504,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1506,
+        1,
+        1508,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1510,
+        1,
+        1512,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1514,
+        1,
+        1516,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1518,
+        1,
+        1520,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1522,
+        1,
+        1524,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1526,
+        1,
+        1528,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1530,
+        1,
+        1532,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1534,
+        1,
+        1536,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1538,
+        1,
+        1540,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1542,
+        1,
+        1544,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1546,
+        1,
+        1548,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1550,
+        1,
+        1552,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1554,
+        1,
+        1556,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1558,
+        1,
+        1560,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1562,
+        1,
+        1564,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1566,
+        1,
+        1568,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1570,
+        1,
+        1572,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1574,
+        1,
+        1576,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1578,
+        1,
+        1580,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1582,
+        1,
+        1584,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1586,
+        1,
+        1588,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1590,
+        1,
+        1592,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1594,
+        1,
+        1596,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1598,
+        1,
+        1600,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1602,
+        1,
+        1604,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1606,
+        1,
+        1608,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1610,
+        1,
+        1612,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1614,
+        1,
+        1616,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1618,
+        1,
+        1620,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1622,
+        1,
+        1624,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1626,
+        1,
+        1628,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1630,
+        1,
+        1632,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1634,
+        1,
+        1636,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1638,
+        1,
+        1640,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1642,
+        1,
+        1644,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1646,
+        1,
+        1648,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1650,
+        1,
+        1652,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1654,
+        1,
+        1656,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1658,
+        1,
+        1660,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1662,
+        1,
+        1664,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1666,
+        1,
+        1668,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1670,
+        1,
+        1672,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1674,
+        1,
+        1676,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1678,
+        1,
+        1680,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1682,
+        1,
+        1684,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1686,
+        1,
+        1688,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1690,
+        1,
+        1692,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1694,
+        1,
+        1696,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1698,
+        1,
+        1700,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1702,
+        1,
+        1704,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1706,
+        1,
+        1708,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1710,
+        1,
+        1712,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1714,
+        1,
+        1716,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1718,
+        1,
+        1720,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1722,
+        1,
+        1724,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1726,
+        1,
+        1728,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1730,
+        1,
+        1732,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1734,
+        1,
+        1736,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1738,
+        1,
+        1740,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1742,
+        1,
+        1744,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1746,
+        1,
+        1748,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1750,
+        1,
+        1752,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1754,
+        1,
+        1756,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1758,
+        1,
+        1760,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1762,
+        1,
+        1764,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1766,
+        1,
+        1768,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1770,
+        1,
+        1772,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1774,
+        1,
+        1776,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1778,
+        1,
+        1780,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1782,
+        1,
+        1784,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1786,
+        1,
+        1788,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1790,
+        1,
+        1792,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1794,
+        1,
+        1796,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1798,
+        1,
+        1800,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1802,
+        1,
+        1804,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1806,
+        1,
+        1808,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1810,
+        1,
+        1812,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1814,
+        1,
+        1816,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1818,
+        1,
+        1820,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1822,
+        1,
+        1824,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1826,
+        1,
+        1828,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1830,
+        1,
+        1832,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1834,
+        1,
+        1836,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1838,
+        1,
+        1840,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1842,
+        1,
+        1844,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1846,
+        1,
+        1848,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1850,
+        1,
+        1852,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1854,
+        1,
+        1856,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1858,
+        1,
+        1860,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1862,
+        1,
+        1864,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1866,
+        1,
+        1868,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1870,
+        1,
+        1872,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1874,
+        1,
+        1876,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1878,
+        1,
+        1880,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1882,
+        1,
+        1884,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1886,
+        1,
+        1888,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1890,
+        1,
+        1892,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1894,
+        1,
+        1896,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1898,
+        1,
+        1900,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1902,
+        1,
+        1904,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1906,
+        1,
+        1908,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1910,
+        1,
+        1912,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1914,
+        1,
+        1916,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1918,
+        1,
+        1920,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1922,
+        1,
+        1924,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1926,
+        1,
+        1928,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1930,
+        1,
+        1932,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1934,
+        1,
+        1936,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1938,
+        1,
+        1940,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1942,
+        1,
+        1944,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1946,
+        1,
+        1948,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1950,
+        1,
+        1952,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1954,
+        1,
+        1956,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1958,
+        1,
+        1960,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1962,
+        1,
+        1964,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1966,
+        1,
+        1968,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1970,
+        1,
+        1972,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1974,
+        1,
+        1976,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1978,
+        1,
+        1980,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1982,
+        1,
+        1984,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1986,
+        1,
+        1988,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1990,
+        1,
+        1992,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1994,
+        1,
+        1996,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        1998,
+        1,
+        2000,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: console.log",
+      "info": "log",
+      "loc": [
+        2002,
+        1,
+        2004,
+        1
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: CurveSwap.setAddressesCurve",
+      "info": "setAddressesCurve",
+      "loc": [
+        2031,
+        4,
+        2040,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: CurveSwap.QueryAddressProvider",
+      "info": "QueryAddressProvider",
+      "loc": [
+        2042,
+        4,
+        2044,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: CurveSwap.PerformExchange",
+      "info": "PerformExchange",
+      "loc": [
+        2052,
+        4,
+        2056,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: CurveSwap.changeUSDT2USDC",
+      "info": "changeUSDT2USDC",
+      "loc": [
+        2058,
+        4,
+        2063,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: CurveSwap.changeUSDC2USDT",
+      "info": "changeUSDC2USDT",
+      "loc": [
+        2065,
+        4,
+        2070,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: CurveSwap.approveToken",
+      "info": "approveToken",
+      "loc": [
+        2072,
+        4,
+        2075,
+        4
+      ]
+    }
+  ]
+}

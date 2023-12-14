@@ -1,0 +1,19 @@
+[
+  {
+    "bug": [
+      "AccessControl"
+    ],
+    "blockchain": "BSC",
+    "address": "0x4E87880A72f6896E7e0a635A5838fFc89b13bd17",
+    "contract": "MBC",
+    "function": "swapAndLiquifyStepv1",
+    "source_file": "./0x4E87880A72f6896E7e0a635A5838fFc89b13bd17/0x4E87880A72f6896E7e0a635A5838fFc89b13bd17.sol",
+    "line_start": 1259,
+    "line_end": 1276,
+    "reference": [
+      "https://github.com/SunWeb3Sec/DeFiHackLabs/blob/main/src/test/MBC_ZZSH_exp.sol",
+      "https://twitter.com/AnciliaInc/status/1597742575623888896"
+    ],
+    "note": ""
+  }
+]

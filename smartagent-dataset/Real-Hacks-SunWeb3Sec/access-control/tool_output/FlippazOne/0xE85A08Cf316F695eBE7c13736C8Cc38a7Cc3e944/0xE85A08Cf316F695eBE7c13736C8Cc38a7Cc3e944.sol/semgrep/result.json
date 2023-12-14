@@ -1,0 +1,880 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1160,
+            "message": "By demanding that the receiver of the owner permissions actively accept via a contract call of its own,  `Ownable2Step` and `Ownable2StepUpgradeable` prevent the contract ownership from accidentally being transferred  to an address that cannot handle it.",
+            "name": "use-ownable2step"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1184,
+            "message": "Uninitialized variables are assigned with the types default value. Explicitly initializing a variable with its default value costs unnecessary gas.",
+            "name": "init-variables-with-default-value"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 578,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 579,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 580,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 581,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1194,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1195,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1196,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1197,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1328,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1329,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1329,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1330,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1330,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1331,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1332,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1332,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1328,
+            "message": "A lot of times there is no risk that the loop counter can overflow. Using Solidity's unchecked block saves the overflow checks.",
+            "name": "unnecessary-checked-arithmetic-in-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 271,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 274,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 344,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 345,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 372,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 399,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 516,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 597,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 606,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 628,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 648,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 650,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 651,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 652,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 653,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 662,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 690,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 715,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 744,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 767,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 796,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 797,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 798,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 799,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 815,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 816,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 870,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 871,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 907,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 933,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 998,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1023,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1083,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1103,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1148,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1218,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1233,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1249,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1250,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1251,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1252,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1255,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1292,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1293,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1294,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1295,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1297,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1311,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1312,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1313,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1327,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1338,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1343,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1345,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1349,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1351,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1356,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1361,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1366,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1367,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1369,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1383,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1330,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1331,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1332,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1333,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 477,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 499,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1263,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1328,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 274,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 344,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 372,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 399,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 597,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 606,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 628,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 648,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 650,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 651,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 652,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 653,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 662,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 690,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 715,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 744,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 767,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 796,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 797,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 798,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 799,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 870,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 871,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 933,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 998,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1023,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1103,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1255,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1295,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1313,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1343,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1349,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 1367,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 744,
+            "message": "ERC721 onERC721Received() reentrancy",
+            "name": "erc721-reentrancy"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+            "line": 797,
+            "message": "ERC721 onERC721Received() reentrancy",
+            "name": "erc721-reentrancy"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "semgrep",
+        "mode": "solidity",
+        "version": "2023/08/21"
+    }
+}

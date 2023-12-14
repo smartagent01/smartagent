@@ -1,0 +1,50 @@
+{
+    "docker": {
+        "command": null,
+        "detach": true,
+        "entrypoint": "'/sb/bin/do_solidity.sh' '/sb/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol' '600' '/sb/bin' '0'",
+        "image": "smartbugs/mythril:0.23.15",
+        "user": 0,
+        "volumes": {
+            "/tmp/tmpx_dlhlot": {
+                "bind": "/sb",
+                "mode": "rw"
+            }
+        }
+    },
+    "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/landNFT/0x1a62fe088f46561be92bb5f6e83266289b94c154/0x1a62fe088f46561be92bb5f6e83266289b94c154.sol",
+    "platform": {
+        "cpu": "AMD EPYC 7513 32-Core Processor",
+        "python": "3.9.12.final.0 (64 bit)",
+        "release": "5.4.0-163-generic",
+        "smartbugs": "2.0.8",
+        "system": "Linux",
+        "version": "#180-Ubuntu SMP Tue Sep 5 13:21:23 UTC 2023"
+    },
+    "result": {
+        "duration": 8.916359424591064,
+        "exit_code": 1,
+        "logs": "result.log",
+        "output": null,
+        "start": 1702377980.3010135
+    },
+    "runid": "20231212_1046",
+    "solc": "0.8.23",
+    "tool": {
+        "bin": "scripts",
+        "command": null,
+        "cpu_quota": null,
+        "entrypoint": "'$BIN/do_solidity.sh' '$FILENAME' '$TIMEOUT' '$BIN' '$MAIN'",
+        "id": "mythril-0.23.15",
+        "image": "smartbugs/mythril:0.23.15",
+        "info": "Mythril analyses EVM bytecode using symbolic analysis, taint analysis and control flow checking to detect a variety of security vulnerabilities.",
+        "mem_limit": null,
+        "mode": "solidity",
+        "name": "Mythril",
+        "origin": "https://github.com/ConsenSys/mythril",
+        "output": null,
+        "parser": "parser.py",
+        "solc": true,
+        "version": "0.23.15"
+    }
+}

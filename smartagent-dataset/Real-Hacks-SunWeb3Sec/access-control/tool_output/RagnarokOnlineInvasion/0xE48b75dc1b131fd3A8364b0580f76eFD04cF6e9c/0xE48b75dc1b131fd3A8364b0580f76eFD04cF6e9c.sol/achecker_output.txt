@@ -1,0 +1,3 @@
+File copied : /root/Achecker/ROIToken.bin-runtime
+processing /root/Achecker/ROIToken.bin-runtime
+b957d49142397e525659598835375401ebe91269e0cf07ef4960d9611134f461

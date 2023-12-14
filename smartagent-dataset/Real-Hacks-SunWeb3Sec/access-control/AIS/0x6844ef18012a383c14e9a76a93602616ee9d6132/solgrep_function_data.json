@@ -1,0 +1,609 @@
+{
+  "/smart-agent-artifact/smart-agent/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/AIS/0x6844ef18012a383c14e9a76a93602616ee9d6132/0x6844ef18012a383c14e9a76a93602616ee9d6132.sol": [
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Context._msgSender",
+      "info": "_msgSender",
+      "loc": [
+        184,
+        4,
+        186,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Context._msgData",
+      "info": "_msgData",
+      "loc": [
+        188,
+        4,
+        190,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Ownable.__constructor__",
+      "info": "__constructor__",
+      "loc": [
+        231,
+        4,
+        236,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Ownable.owner",
+      "info": "owner",
+      "loc": [
+        249,
+        4,
+        251,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Ownable._checkOwner",
+      "info": "_checkOwner",
+      "loc": [
+        256,
+        4,
+        260,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Ownable.renounceOwnership",
+      "info": "renounceOwnership",
+      "loc": [
+        269,
+        4,
+        271,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Ownable.transferOwnership",
+      "info": "transferOwnership",
+      "loc": [
+        277,
+        4,
+        282,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Ownable._transferOwnership",
+      "info": "_transferOwnership",
+      "loc": [
+        288,
+        4,
+        292,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Pausable.__constructor__",
+      "info": "__constructor__",
+      "loc": [
+        338,
+        4,
+        340,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Pausable.paused",
+      "info": "paused",
+      "loc": [
+        369,
+        4,
+        371,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Pausable._requireNotPaused",
+      "info": "_requireNotPaused",
+      "loc": [
+        376,
+        4,
+        380,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Pausable._requirePaused",
+      "info": "_requirePaused",
+      "loc": [
+        385,
+        4,
+        389,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Pausable._pause",
+      "info": "_pause",
+      "loc": [
+        398,
+        4,
+        401,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Pausable._unpause",
+      "info": "_unpause",
+      "loc": [
+        410,
+        4,
+        413,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20.totalSupply",
+      "info": "totalSupply",
+      "loc": [
+        444,
+        4,
+        444,
+        58
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20.balanceOf",
+      "info": "balanceOf",
+      "loc": [
+        449,
+        4,
+        449,
+        71
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20.transfer",
+      "info": "transfer",
+      "loc": [
+        458,
+        4,
+        458,
+        72
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20.allowance",
+      "info": "allowance",
+      "loc": [
+        467,
+        4,
+        467,
+        86
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20.approve",
+      "info": "approve",
+      "loc": [
+        484,
+        4,
+        484,
+        76
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20.transferFrom",
+      "info": "transferFrom",
+      "loc": [
+        495,
+        4,
+        495,
+        90
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20Metadata.name",
+      "info": "name",
+      "loc": [
+        513,
+        4,
+        513,
+        57
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20Metadata.symbol",
+      "info": "symbol",
+      "loc": [
+        518,
+        4,
+        518,
+        59
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20Metadata.decimals",
+      "info": "decimals",
+      "loc": [
+        523,
+        4,
+        523,
+        53
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.__constructor__",
+      "info": "__constructor__",
+      "loc": [
+        576,
+        4,
+        579,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.name",
+      "info": "name",
+      "loc": [
+        584,
+        4,
+        586,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.symbol",
+      "info": "symbol",
+      "loc": [
+        592,
+        4,
+        594,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.decimals",
+      "info": "decimals",
+      "loc": [
+        609,
+        4,
+        611,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.totalSupply",
+      "info": "totalSupply",
+      "loc": [
+        616,
+        4,
+        618,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.balanceOf",
+      "info": "balanceOf",
+      "loc": [
+        623,
+        4,
+        625,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.transfer",
+      "info": "transfer",
+      "loc": [
+        635,
+        4,
+        639,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.allowance",
+      "info": "allowance",
+      "loc": [
+        644,
+        4,
+        646,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.approve",
+      "info": "approve",
+      "loc": [
+        658,
+        4,
+        662,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.transferFrom",
+      "info": "transferFrom",
+      "loc": [
+        680,
+        4,
+        685,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20._transfer",
+      "info": "_transfer",
+      "loc": [
+        697,
+        4,
+        705,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20._update",
+      "info": "_update",
+      "loc": [
+        714,
+        4,
+        742,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20._mint",
+      "info": "_mint",
+      "loc": [
+        752,
+        4,
+        757,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20._burn",
+      "info": "_burn",
+      "loc": [
+        767,
+        4,
+        772,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20._approve",
+      "info": "_approve",
+      "loc": [
+        789,
+        4,
+        791,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20._approve",
+      "info": "_approve",
+      "loc": [
+        810,
+        4,
+        821,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20._spendAllowance",
+      "info": "_spendAllowance",
+      "loc": [
+        831,
+        4,
+        841,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20Pausable._update",
+      "info": "_update",
+      "loc": [
+        874,
+        4,
+        876,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20Burnable.burn",
+      "info": "burn",
+      "loc": [
+        899,
+        4,
+        901,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20Burnable.burnFrom",
+      "info": "burnFrom",
+      "loc": [
+        914,
+        4,
+        917,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IMarketVault.addMarketValue",
+      "info": "addMarketValue",
+      "loc": [
+        930,
+        4,
+        930,
+        50
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AISPACE.__constructor__",
+      "info": "__constructor__",
+      "loc": [
+        934,
+        4,
+        941,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AISPACE.setSwapPairs",
+      "info": "setSwapPairs",
+      "loc": [
+        949,
+        4,
+        951,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AISPACE.pause",
+      "info": "pause",
+      "loc": [
+        952,
+        4,
+        954,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AISPACE.unpause",
+      "info": "unpause",
+      "loc": [
+        956,
+        4,
+        958,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AISPACE._update",
+      "info": "_update",
+      "loc": [
+        962,
+        4,
+        967,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AISPACE.harvestMarket",
+      "info": "harvestMarket",
+      "loc": [
+        968,
+        4,
+        972,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AISPACE._transferAIS",
+      "info": "_transferAIS",
+      "loc": [
+        973,
+        4,
+        998,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AISPACE.setMarketAddress",
+      "info": "setMarketAddress",
+      "loc": [
+        1000,
+        4,
+        1002,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AISPACE.transfer",
+      "info": "transfer",
+      "loc": [
+        1003,
+        4,
+        1007,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AISPACE.balanceOf",
+      "info": "balanceOf",
+      "loc": [
+        1008,
+        4,
+        1010,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AISPACE.transferFrom",
+      "info": "transferFrom",
+      "loc": [
+        1012,
+        4,
+        1017,
+        4
+      ]
+    }
+  ]
+}

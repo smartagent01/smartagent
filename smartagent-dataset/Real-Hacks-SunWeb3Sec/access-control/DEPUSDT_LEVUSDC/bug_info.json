@@ -1,0 +1,18 @@
+[
+  {
+    "bug": [
+      "AccessControl"
+    ],
+    "blockchain": "ETH",
+    "address": "0x27c55a6bd85e79c70c9b2caa003d55a2ece01565",
+    "contract": "CurveSwap",
+    "function": "approveToken",
+    "source_file": "./0x27c55a6bd85e79c70c9b2caa003d55a2ece01565/contracts/CurveSwap_flattened.sol",
+    "line_start": 2072,
+    "line_end": 2075,
+    "reference": [
+        "https://github.com/SunWeb3Sec/DeFiHackLabs/blob/main/src/test/DEPUSDT_LEVUSDC_exp.sol",
+        "https://twitter.com/numencyber/status/1669278694744150016?cxt=HHwWgMDS9Z2IvKouAAAA"
+    ]
+  }
+]

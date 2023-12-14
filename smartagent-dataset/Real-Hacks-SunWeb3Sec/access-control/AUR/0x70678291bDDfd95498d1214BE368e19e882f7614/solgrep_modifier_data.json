@@ -1,0 +1,15 @@
+{
+  "/smart-agent-artifact/smart-agent/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/AUR/0x70678291bDDfd95498d1214BE368e19e882f7614/0x70678291bDDfd95498d1214BE368e19e882f7614.sol": [
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: Ownable.onlyOwner",
+      "info": "onlyOwner",
+      "loc": [
+        296,
+        4,
+        299,
+        4
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "/smart-agent/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol": [
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: Cryptbond.canDistr",
+      "info": "canDistr",
+      "loc": [
+        81,
+        4,
+        84,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: Cryptbond.onlyOwner",
+      "info": "onlyOwner",
+      "loc": [
+        86,
+        4,
+        89,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: Cryptbond.onlyWhitelist",
+      "info": "onlyWhitelist",
+      "loc": [
+        91,
+        4,
+        94,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: Cryptbond.onlyPayloadSize",
+      "info": "onlyPayloadSize",
+      "loc": [
+        230,
+        4,
+        233,
+        4
+      ]
+    }
+  ]
+}

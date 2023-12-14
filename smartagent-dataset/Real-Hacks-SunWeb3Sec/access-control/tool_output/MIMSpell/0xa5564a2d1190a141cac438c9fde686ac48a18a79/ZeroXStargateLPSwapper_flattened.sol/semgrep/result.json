@@ -1,0 +1,292 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/MIMSpell/0xa5564a2d1190a141cac438c9fde686ac48a18a79/ZeroXStargateLPSwapper_flattened.sol",
+            "line": 101,
+            "message": "To guarantee arguments type safety it is recommended to use `abi.encodeCall` instead of `abi.encodeWithSelector`.",
+            "name": "use-abi-encodecall-instead-of-encodewithselector"
+        },
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/MIMSpell/0xa5564a2d1190a141cac438c9fde686ac48a18a79/ZeroXStargateLPSwapper_flattened.sol",
+            "line": 109,
+            "message": "To guarantee arguments type safety it is recommended to use `abi.encodeCall` instead of `abi.encodeWithSelector`.",
+            "name": "use-abi-encodecall-instead-of-encodewithselector"
+        },
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/MIMSpell/0xa5564a2d1190a141cac438c9fde686ac48a18a79/ZeroXStargateLPSwapper_flattened.sol",
+            "line": 117,
+            "message": "To guarantee arguments type safety it is recommended to use `abi.encodeCall` instead of `abi.encodeWithSelector`.",
+            "name": "use-abi-encodecall-instead-of-encodewithselector"
+        },
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/MIMSpell/0xa5564a2d1190a141cac438c9fde686ac48a18a79/ZeroXStargateLPSwapper_flattened.sol",
+            "line": 126,
+            "message": "To guarantee arguments type safety it is recommended to use `abi.encodeCall` instead of `abi.encodeWithSelector`.",
+            "name": "use-abi-encodecall-instead-of-encodewithselector"
+        },
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/MIMSpell/0xa5564a2d1190a141cac438c9fde686ac48a18a79/ZeroXStargateLPSwapper_flattened.sol",
+            "line": 135,
+            "message": "To guarantee arguments type safety it is recommended to use `abi.encodeCall` instead of `abi.encodeWithSelector`.",
+            "name": "use-abi-encodecall-instead-of-encodewithselector"
+        },
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/MIMSpell/0xa5564a2d1190a141cac438c9fde686ac48a18a79/ZeroXStargateLPSwapper_flattened.sol",
+            "line": 150,
+            "message": "To guarantee arguments type safety it is recommended to use `abi.encodeCall` instead of `abi.encodeWithSelector`.",
+            "name": "use-abi-encodecall-instead-of-encodewithselector"
+        },
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/MIMSpell/0xa5564a2d1190a141cac438c9fde686ac48a18a79/ZeroXStargateLPSwapper_flattened.sol",
+            "line": 166,
+            "message": "To guarantee arguments type safety it is recommended to use `abi.encodeCall` instead of `abi.encodeWithSelector`.",
+            "name": "use-abi-encodecall-instead-of-encodewithselector"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/MIMSpell/0xa5564a2d1190a141cac438c9fde686ac48a18a79/ZeroXStargateLPSwapper_flattened.sol",
+            "line": 687,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/MIMSpell/0xa5564a2d1190a141cac438c9fde686ac48a18a79/ZeroXStargateLPSwapper_flattened.sol",
+            "line": 688,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/MIMSpell/0xa5564a2d1190a141cac438c9fde686ac48a18a79/ZeroXStargateLPSwapper_flattened.sol",
+            "line": 689,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/MIMSpell/0xa5564a2d1190a141cac438c9fde686ac48a18a79/ZeroXStargateLPSwapper_flattened.sol",
+            "line": 690,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/MIMSpell/0xa5564a2d1190a141cac438c9fde686ac48a18a79/ZeroXStargateLPSwapper_flattened.sol",
+            "line": 691,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/MIMSpell/0xa5564a2d1190a141cac438c9fde686ac48a18a79/ZeroXStargateLPSwapper_flattened.sol",
+            "line": 692,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/MIMSpell/0xa5564a2d1190a141cac438c9fde686ac48a18a79/ZeroXStargateLPSwapper_flattened.sol",
+            "line": 693,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/MIMSpell/0xa5564a2d1190a141cac438c9fde686ac48a18a79/ZeroXStargateLPSwapper_flattened.sol",
+            "line": 694,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/MIMSpell/0xa5564a2d1190a141cac438c9fde686ac48a18a79/ZeroXStargateLPSwapper_flattened.sol",
+            "line": 695,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/MIMSpell/0xa5564a2d1190a141cac438c9fde686ac48a18a79/ZeroXStargateLPSwapper_flattened.sol",
+            "line": 696,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/MIMSpell/0xa5564a2d1190a141cac438c9fde686ac48a18a79/ZeroXStargateLPSwapper_flattened.sol",
+            "line": 127,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/MIMSpell/0xa5564a2d1190a141cac438c9fde686ac48a18a79/ZeroXStargateLPSwapper_flattened.sol",
+            "line": 136,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/MIMSpell/0xa5564a2d1190a141cac438c9fde686ac48a18a79/ZeroXStargateLPSwapper_flattened.sol",
+            "line": 151,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/MIMSpell/0xa5564a2d1190a141cac438c9fde686ac48a18a79/ZeroXStargateLPSwapper_flattened.sol",
+            "line": 167,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/MIMSpell/0xa5564a2d1190a141cac438c9fde686ac48a18a79/ZeroXStargateLPSwapper_flattened.sol",
+            "line": 723,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/MIMSpell/0xa5564a2d1190a141cac438c9fde686ac48a18a79/ZeroXStargateLPSwapper_flattened.sol",
+            "line": 127,
+            "message": "Using multiple require statements is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-multiple-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/MIMSpell/0xa5564a2d1190a141cac438c9fde686ac48a18a79/ZeroXStargateLPSwapper_flattened.sol",
+            "line": 136,
+            "message": "Using multiple require statements is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-multiple-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/MIMSpell/0xa5564a2d1190a141cac438c9fde686ac48a18a79/ZeroXStargateLPSwapper_flattened.sol",
+            "line": 151,
+            "message": "Using multiple require statements is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-multiple-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/MIMSpell/0xa5564a2d1190a141cac438c9fde686ac48a18a79/ZeroXStargateLPSwapper_flattened.sol",
+            "line": 167,
+            "message": "Using multiple require statements is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-multiple-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/MIMSpell/0xa5564a2d1190a141cac438c9fde686ac48a18a79/ZeroXStargateLPSwapper_flattened.sol",
+            "line": 251,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/MIMSpell/0xa5564a2d1190a141cac438c9fde686ac48a18a79/ZeroXStargateLPSwapper_flattened.sol",
+            "line": 252,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/MIMSpell/0xa5564a2d1190a141cac438c9fde686ac48a18a79/ZeroXStargateLPSwapper_flattened.sol",
+            "line": 253,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/MIMSpell/0xa5564a2d1190a141cac438c9fde686ac48a18a79/ZeroXStargateLPSwapper_flattened.sol",
+            "line": 267,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/MIMSpell/0xa5564a2d1190a141cac438c9fde686ac48a18a79/ZeroXStargateLPSwapper_flattened.sol",
+            "line": 268,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/MIMSpell/0xa5564a2d1190a141cac438c9fde686ac48a18a79/ZeroXStargateLPSwapper_flattened.sol",
+            "line": 269,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/MIMSpell/0xa5564a2d1190a141cac438c9fde686ac48a18a79/ZeroXStargateLPSwapper_flattened.sol",
+            "line": 666,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/MIMSpell/0xa5564a2d1190a141cac438c9fde686ac48a18a79/ZeroXStargateLPSwapper_flattened.sol",
+            "line": 667,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/MIMSpell/0xa5564a2d1190a141cac438c9fde686ac48a18a79/ZeroXStargateLPSwapper_flattened.sol",
+            "line": 668,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/MIMSpell/0xa5564a2d1190a141cac438c9fde686ac48a18a79/ZeroXStargateLPSwapper_flattened.sol",
+            "line": 85,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/MIMSpell/0xa5564a2d1190a141cac438c9fde686ac48a18a79/ZeroXStargateLPSwapper_flattened.sol",
+            "line": 88,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/MIMSpell/0xa5564a2d1190a141cac438c9fde686ac48a18a79/ZeroXStargateLPSwapper_flattened.sol",
+            "line": 252,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/MIMSpell/0xa5564a2d1190a141cac438c9fde686ac48a18a79/ZeroXStargateLPSwapper_flattened.sol",
+            "line": 268,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/MIMSpell/0xa5564a2d1190a141cac438c9fde686ac48a18a79/ZeroXStargateLPSwapper_flattened.sol",
+            "line": 732,
+            "message": "Possible arithmetic underflow",
+            "name": "basic-arithmetic-underflow"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "semgrep",
+        "mode": "solidity",
+        "version": "2023/08/21"
+    }
+}

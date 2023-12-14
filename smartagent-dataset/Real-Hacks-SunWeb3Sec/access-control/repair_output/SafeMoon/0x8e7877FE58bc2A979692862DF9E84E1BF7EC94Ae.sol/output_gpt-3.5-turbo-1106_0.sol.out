@@ -1,0 +1,5 @@
+5. burnTokens
+The function to burn tokens requires the caller to have the necessary tokens to burn.
+
+5. mintTokens
+The function to mint tokens is restricted to the whitelistMint function.

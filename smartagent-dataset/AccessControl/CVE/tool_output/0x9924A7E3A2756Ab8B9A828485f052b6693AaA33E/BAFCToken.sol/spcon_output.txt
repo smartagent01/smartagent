@@ -1,0 +1,19 @@
+Running SPCON... 0x9924A7E3A2756Ab8B9A828485f052b6693AaA33E 600 2022-05-23
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/SpCon-0.1.0-py3.8.egg/spcon/__main__.py", line 67, in main
+    execute_command(args)
+  File "/usr/local/lib/python3.8/dist-packages/SpCon-0.1.0-py3.8.egg/spcon/__main__.py", line 34, in execute_command
+    assert  boolflag==True, "security policies inference error"
+AssertionError: security policies inference error
+Installing solc '0.4.24'...
+Version '0.4.24' installed.
+2022-05-23
+{'limit': 1, 'network': 'ethereum', 'address': '0x9924A7E3A2756Ab8B9A828485f052b6693AaA33E', 'date': '2022-05-23'}
+0x9924A7E3A2756Ab8B9A828485f052b6693AaA33E BAFCToken
+./0x9924A7E3A2756Ab8B9A828485f052b6693AaA33E
+loaded abi.
+0  functions []
+0  users
+Timecost for loading history: 0.002553701400756836
+No.user: 0; No.func: 0
+total timecost: 10.619617223739624 seconds

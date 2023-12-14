@@ -1,0 +1,5 @@
+quaker
+This function sets the owner and ownerWallet variables without the onlyOwner modifier, allowing anyone to potentially change the owner and ownerWallet.
+
+showMyTokenBalance
+This function does not have any access control measures, allowing anyone to call it to view the token balance of any address.

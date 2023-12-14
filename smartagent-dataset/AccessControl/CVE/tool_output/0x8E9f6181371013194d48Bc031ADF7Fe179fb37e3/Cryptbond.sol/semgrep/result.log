@@ -1,0 +1,121 @@
+METRICS: Using configs from the Registry (like --config=p/ci) reports pseudonymous rule metrics to semgrep.dev.
+To disable Registry rule metrics, use "--metrics=off".
+Using configs only from local files (like --config=xyz.yml) does not enable metrics.
+
+More information: https://semgrep.dev/docs/metrics
+
+               
+               
+┌─────────────┐
+│ Scan Status │
+└─────────────┘
+  Scanning 1 file tracked by git with 48 Code rules:
+  Scanning 1 file with 48 solidity rules.
+                    
+                    
+┌──────────────────┐
+│ 31 Code Findings │
+└──────────────────┘
+                      
+    /sb/Cryptbond.sol 
+       solidity.performance.array-length-outside-loop                           
+          Caching the array length outside a loop saves reading it on each      
+  iteration, as long as the                                                     
+          array's length is not changed during the loop.                        
+                                                                                
+          120┆ for (uint i = 0; i < addresses.length; i++) {
+            ⋮┆----------------------------------------
+          126┆ for (uint i = 0; i < addresses.length; i++) {
+            ⋮┆----------------------------------------
+          155┆ for (uint i = 0; i < addresses.length; i++) {
+            ⋮┆----------------------------------------
+          170┆ for (uint i = 0; i < addresses.length; i++) {
+            ⋮┆----------------------------------------
+          185┆ for (uint8 i = 0; i < addresses.length; i++) {
+            ⋮┆----------------------------------------
+       solidity.performance.init-variables-with-default-value                   
+          Uninitialized variables are assigned with the types default value.    
+  Explicitly initializing a                                                     
+          variable with its default value costs unnecessary gas.                
+                                                                                
+           65┆ uint256 private totalReserved = 0;
+            ⋮┆----------------------------------------
+           66┆ uint256 private totalBounties = 0;
+            ⋮┆----------------------------------------
+           67┆ uint256 public totalDistributed = 0;
+            ⋮┆----------------------------------------
+           68┆ uint256 public totalRemaining = 0;
+            ⋮┆----------------------------------------
+           79┆ bool public distributionFinished = false;
+            ⋮┆----------------------------------------
+       solidity.performance.state-variable-read-in-a-loop                       
+          Replace state variable reads and writes within loops with local       
+  variable reads and writes.                                                    
+                                                                                
+          121┆ blacklist[addresses[i]] = false;
+            ⋮┆----------------------------------------
+          127┆ blacklist[addresses[i]] = true;
+            ⋮┆----------------------------------------
+          156┆ require(value <= totalRemaining);
+            ⋮┆----------------------------------------
+          156┆ require(value <= totalRemaining);
+            ⋮┆----------------------------------------
+          157┆ distr(addresses[i], value);
+            ⋮┆----------------------------------------
+          171┆ require(amount <= totalRemaining);
+            ⋮┆----------------------------------------
+          186┆ require(amounts[i] <= totalRemaining);
+            ⋮┆----------------------------------------
+          189┆ if (totalDistributed >= totalSupply) {
+            ⋮┆----------------------------------------
+          189┆ if (totalDistributed >= totalSupply) {
+            ⋮┆----------------------------------------
+          190┆ distributionFinished = true;
+            ⋮┆----------------------------------------
+       solidity.performance.unnecessary-checked-arithmetic-in-loop              
+          A lot of times there is no risk that the loop counter can overflow.   
+  Using Solidity's                                                              
+          unchecked block saves the overflow checks.                            
+                                                                                
+          120┆ for (uint i = 0; i < addresses.length; i++) {
+            ⋮┆----------------------------------------
+          126┆ for (uint i = 0; i < addresses.length; i++) {
+            ⋮┆----------------------------------------
+          155┆ for (uint i = 0; i < addresses.length; i++) {
+            ⋮┆----------------------------------------
+          170┆ for (uint i = 0; i < addresses.length; i++) {
+            ⋮┆----------------------------------------
+          185┆ for (uint8 i = 0; i < addresses.length; i++) {
+            ⋮┆----------------------------------------
+       solidity.performance.use-nested-if                                       
+          Using nested is cheaper than using && multiple check combinations.    
+  There are more                                                                
+          advantages, such as easier to read code and better coverage reports.  
+                                                                                
+          261┆ if (_value != 0 && allowed[msg.sender][_spender] != 0) { return  
+  false; }                                                                      
+            ⋮┆----------------------------------------
+       solidity.performance.use-prefix-increment-not-postfix                    
+          Consider using the prefix increment expression whenever the return    
+  value is not needed. The                                                      
+          prefix increment expression is cheaper in terms of gas.               
+                                                                                
+          120┆ for (uint i = 0; i < addresses.length; i++) {
+            ⋮┆----------------------------------------
+          126┆ for (uint i = 0; i < addresses.length; i++) {
+            ⋮┆----------------------------------------
+          155┆ for (uint i = 0; i < addresses.length; i++) {
+            ⋮┆----------------------------------------
+          170┆ for (uint i = 0; i < addresses.length; i++) {
+            ⋮┆----------------------------------------
+          185┆ for (uint8 i = 0; i < addresses.length; i++) {
+
+                
+                
+┌──────────────┐
+│ Scan Summary │
+└──────────────┘
+
+Ran 48 rules on 1 file: 31 findings.
+
+A new version of Semgrep is available. See https://semgrep.dev/docs/upgrading

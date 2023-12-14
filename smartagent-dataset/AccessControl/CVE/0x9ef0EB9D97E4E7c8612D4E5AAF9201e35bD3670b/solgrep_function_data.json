@@ -1,0 +1,70 @@
+{
+  "/smart-agent/smartagent-dataset/AccessControl/CVE/0x9ef0EB9D97E4E7c8612D4E5AAF9201e35bD3670b/EAI_TokenERC.sol": [
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: EAI_TokenERC.EAI_TokenERC20",
+      "info": "EAI_TokenERC20",
+      "loc": [
+        29,
+        4,
+        38,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: EAI_TokenERC._transfer",
+      "info": "_transfer",
+      "loc": [
+        43,
+        4,
+        59,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: EAI_TokenERC.transfer",
+      "info": "transfer",
+      "loc": [
+        69,
+        4,
+        72,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: EAI_TokenERC.transferFrom",
+      "info": "transferFrom",
+      "loc": [
+        83,
+        4,
+        88,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: EAI_TokenERC.burn",
+      "info": "burn",
+      "loc": [
+        98,
+        4,
+        104,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: EAI_TokenERC.burnFrom",
+      "info": "burnFrom",
+      "loc": [
+        114,
+        4,
+        122,
+        4
+      ]
+    }
+  ]
+}

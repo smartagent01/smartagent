@@ -1,0 +1,463 @@
+{
+  "0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32": [
+    {
+      "location": "babyRouterDelegateCall",
+      "message": "BabySmartRouter.babyRouterDelegateCall(bytes) (0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol#2269-2280) uses delegatecall to a input-controlled function id\n\t- (success) = normalRouter.delegatecall(data) (0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol#2270)\n",
+      "tool": [
+        "slither"
+      ]
+    },
+    {
+      "location": "Fallback Function in BabySmartRouter",
+      "message": "The fallback function delegates calls to a `normalRouter` without proper access control checks, potentially allowing unauthorized actions if `normalRouter` is compromised or incorrectly implemented.",
+      "tool": [
+        "gpt4"
+      ]
+    }
+  ],
+  "0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821": [
+    {
+      "location": "delegateCallSwap",
+      "message": "leveragedPool.delegateCallSwap(bytes) (0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol#1215-1223) uses delegatecall to a input-controlled function id\n\t- (success,returnData) = phxSwapLib.delegatecall(data) (0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol#1216)\n",
+      "tool": [
+        "slither"
+      ]
+    },
+    {
+      "location": "initialize",
+      "message": "leveragedPool (0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol#1046-1535) is an upgradeable contract that does not protect its initialize functions: versionUpdater.initialize() (0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol#776-778)leveragedPool.initialize() (0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol#1053-1056). Anyone can delete the contract with: leveragedPool.buyLeverage(uint256,uint256,uint256,bytes) (0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol#1191-1193)leveragedPool.buyHedge(uint256,uint256,uint256,bytes) (0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol#1194-1196)leveragedPool.buyLeverage2(uint256,uint256,uint256,bytes) (0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol#1197-1199)leveragedPool.buyHedge2(uint256,uint256,uint256,bytes) (0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol#1200-1202)leveragedPool.sellLeverage(uint256,uint256,uint256,bytes) (0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol#1203-1205)leveragedPool.sellHedge(uint256,uint256,uint256,bytes) (0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol#1206-1208)leveragedPool.sellLeverage2(uint256,uint256,uint256,bytes) (0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol#1209-1211)leveragedPool.sellHedge2(uint256,uint256,uint256,bytes) (0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol#1212-1214)leveragedPool.delegateCallSwap(bytes) (0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol#1215-1223)leveragedPool.rebalance() (0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol#1355-1357)leveragedPool.rebalanceAndLiquidate() (0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol#1433-1444)",
+      "tool": [
+        "slither"
+      ]
+    }
+  ],
+  "0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c": [
+    {
+      "location": "swapETHForTokens",
+      "message": "ROIToken.swapETHForTokens(uint256) (0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol#833-848) sends eth to arbitrary user\n\tDangerous calls:\n\t- uniswapV2Router.swapExactETHForTokensSupportingFeeOnTransferTokens{value: amount}(0,path,deadAddress,block.timestamp.add(300)) (0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol#840-845)\n",
+      "tool": [
+        "slither"
+      ]
+    },
+    {
+      "location": "addLiquidity",
+      "message": "ROIToken.addLiquidity(uint256,uint256) (0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol#850-863) sends eth to arbitrary user\n\tDangerous calls:\n\t- uniswapV2Router.addLiquidityETH{value: ethAmount}(address(this),tokenAmount,0,0,owner(),block.timestamp) (0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c.sol#855-862)\n",
+      "tool": [
+        "slither"
+      ]
+    },
+    {
+      "location": "unlock",
+      "message": "The `unlock` function allows the previous owner to regain control without any time delay after locking, which could be exploited if the previous owner's address is compromised.",
+      "tool": [
+        "gpt4"
+      ]
+    }
+  ],
+  "0x33e690aea97e4ef25f0d140f1bf044d663091daf": [
+    {
+      "location": "preCheck",
+      "message": "SwapHandler.preCheck(SwapTypes.SwapRequest,SwapHandler.SwapMeta) (Dexible_flattened.sol#4043-4067) uses arbitrary from in transferFrom: request.tokenIn.token.safeTransferFrom(request.executionRequest.requester,address(this),request.routes[0].routeAmount.amount) (Dexible_flattened.sol#4065)\n",
+      "tool": [
+        "slither"
+      ]
+    },
+    {
+      "location": "payRelayGas",
+      "message": "SwapHandler.payRelayGas(uint256) (Dexible_flattened.sol#4075-4090) sends eth to arbitrary user\n\tDangerous calls:\n\t- address(msg.sender).transfer(gasFee) (Dexible_flattened.sol#4087)\n",
+      "tool": [
+        "slither"
+      ]
+    }
+  ],
+  "0x10bc28d2810dD462E16facfF18f78783e859351b": [
+    {
+      "location": "swapBack",
+      "message": "ShadowFi.swapBack() (0x10bc28d2810dD462E16facfF18f78783e859351b.sol#758-809) sends eth to arbitrary user\n\tDangerous calls:\n\t- address(marketingFeeReceiver).call{gas: 30000,value: amountBNBMarketing}() (0x10bc28d2810dD462E16facfF18f78783e859351b.sol#786)\n",
+      "tool": [
+        "slither"
+      ]
+    }
+  ],
+  "0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944": [
+    {
+      "location": "ownerWithdrawAllTo",
+      "message": "FlippazOne.ownerWithdrawAllTo(address) (0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol#1359-1362) sends eth to arbitrary user\n\tDangerous calls:\n\t- (success) = toAddress.call{value: address(this).balance}() (0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol#1360)\n",
+      "tool": [
+        "slither"
+      ]
+    },
+    {
+      "location": "ownerWithdrawAll",
+      "message": "FlippazOne.ownerWithdrawAll() (0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol#1354-1357) sends eth to arbitrary user\n\tDangerous calls:\n\t- (success) = owner().call{value: address(this).balance}() (0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol#1355)\n",
+      "tool": [
+        "slither"
+      ]
+    },
+    {
+      "location": "isApprovedForAll",
+      "message": "The function overrides OpenZeppelin's implementation and could be vulnerable if `projectProxy` is not managed securely.",
+      "tool": [
+        "gpt4"
+      ]
+    },
+    {
+      "location": "refundBids",
+      "message": "The function is public without access control and should be reviewed to prevent potential abuse.",
+      "tool": [
+        "gpt4"
+      ]
+    }
+  ],
+  "0x9008d19f58aabd9ed0d60971565aa8510560ab41": [
+    {
+      "location": "fastTransferFromAccount",
+      "message": "GPv2Transfer.fastTransferFromAccount(IVault,GPv2Transfer.Data,address) (GPv2Settlement_flatten.sol#823-854) uses arbitrary from in transferFrom: transfer.token.safeTransferFrom(transfer.account,recipient,transfer.amount) (GPv2Settlement_flatten.sol#834-838)\n",
+      "tool": [
+        "slither"
+      ]
+    },
+    {
+      "location": "transferFromAccounts",
+      "message": "GPv2Transfer.transferFromAccounts(IVault,GPv2Transfer.Data[],address) (GPv2Settlement_flatten.sol#868-911) uses arbitrary from in transferFrom: transfer.token.safeTransferFrom(transfer.account,recipient,transfer.amount) (GPv2Settlement_flatten.sol#889-893)\n",
+      "tool": [
+        "slither"
+      ]
+    },
+    {
+      "location": "simulateDelegatecallInternal",
+      "message": "StorageAccessible.simulateDelegatecallInternal(address,bytes) (GPv2Settlement_flatten.sol#1961-1969) uses delegatecall to a input-controlled function id\n\t- (success,response) = targetContract.delegatecall(calldataPayload) (GPv2Settlement_flatten.sol#1967)\n",
+      "tool": [
+        "slither"
+      ]
+    }
+  ],
+  "0x863DF6BFa4469f3ead0bE8f9F2AAE51c91A907b4": [
+    {
+      "location": "kill",
+      "message": "WalletLibrary.kill(address) () allows anyone to destruct the contract\n",
+      "tool": [
+        "slither",
+        "gpt4"
+      ]
+    },
+    {
+      "location": "Wallet",
+      "message": "The `Wallet` contract's use of delegate call within the constructor for initialization is unconventional and could lead to errors.",
+      "tool": [
+        "gpt4",
+        "gpt4"
+      ]
+    }
+  ],
+  "0xAE975a25646E6eB859615d0A147B909c13D31FEd": [
+    {
+      "location": "buyMiner",
+      "message": "ERC20Mintable.buyMiner(address,uint256) (ULME.sol#982-996) uses arbitrary from in transferFrom: require(bool,string)(IERC20(_usdt_token).transferFrom(user,address(this),usdt),buyUlm: transferFrom to ulm error) (ULME.sol#988)\n",
+      "tool": [
+        "slither",
+        "gpt4"
+      ]
+    }
+  ],
+  "0xD55f01B4B51B7F48912cD8Ca3CDD8070A1a9DBa5": [
+    {
+      "location": "sweepToken",
+      "message": "A call to a user-supplied address is executed.\nAn external message call to an address specified by the caller is executed. Note that the callee account might contain arbitrary code and could re-enter any function within this contract. Reentering the contract in an intermediate state may lead to unexpected behaviour. Make sure that no state modifications are executed after this call and/or reentrancy guards are in place.\nClassification: SWC-107",
+      "tool": [
+        "mythril",
+        "gpt4"
+      ]
+    },
+    {
+      "location": "setOracleData",
+      "message": "This function should be protected by access control to prevent unauthorized users from changing the oracle.",
+      "tool": [
+        "gpt4",
+        "gpt4"
+      ]
+    },
+    {
+      "location": "_setPendingAdmin",
+      "message": "This function should be protected by access control checks to ensure that only authorized users can call it.",
+      "tool": [
+        "gpt4",
+        "gpt4"
+      ]
+    },
+    {
+      "location": "_acceptAdmin",
+      "message": "This function should be protected by access control checks to ensure that only authorized users can call it.",
+      "tool": [
+        "gpt4",
+        "gpt4"
+      ]
+    },
+    {
+      "location": "_setCointroller",
+      "message": "This function should be protected by access control checks to ensure that only authorized users can call it.",
+      "tool": [
+        "gpt4",
+        "gpt4"
+      ]
+    },
+    {
+      "location": "_setReserveFactor",
+      "message": "This function should be protected by access control checks to ensure that only authorized users can call it.",
+      "tool": [
+        "gpt4",
+        "gpt4"
+      ]
+    },
+    {
+      "location": "_addReserves",
+      "message": "This function should be protected by access control checks to ensure that only authorized users can call it.",
+      "tool": [
+        "gpt4",
+        "gpt4"
+      ]
+    },
+    {
+      "location": "_reduceReserves",
+      "message": "This function should be protected by access control checks to ensure that only authorized users can call it.",
+      "tool": [
+        "gpt4",
+        "gpt4"
+      ]
+    }
+  ],
+  "0x531110418d8591c92e9cbbfc722db8ffb604fafd": [
+    {
+      "location": "onERC721Received",
+      "message": "The function executes instructions encoded in the `data` parameter, which could be exploited if not properly secured against unauthorized access.",
+      "tool": [
+        "gpt4"
+      ]
+    }
+  ],
+  "0x9a1aef8c9ada4224ad774afdac07c24955c92a54": [
+    {
+      "location": "mint",
+      "message": "The `mint` function is public, allowing anyone to mint an unlimited amount of tokens.",
+      "tool": [
+        "gpt4"
+      ]
+    },
+    {
+      "location": "_constructor",
+      "message": "The constructor is incorrectly marked as `public`, which is a syntax issue in Solidity 0.5.x and above.",
+      "tool": [
+        "gpt4"
+      ]
+    }
+  ],
+  "0x418C24191aE947A78C99fDc0e45a1f96Afb254BE": [
+    {
+      "location": "mint",
+      "message": "The `mint` function is public and lacks access control, allowing any user to mint tokens without restriction.",
+      "tool": [
+        "gpt4"
+      ]
+    }
+  ],
+  "0x4E87880A72f6896E7e0a635A5838fFc89b13bd17": [
+    {
+      "location": "rescueToken",
+      "message": "The `rescueToken` function allows the `_tokenOwner` to transfer any ERC20 token from the contract, which could be a potential risk.",
+      "tool": [
+        "gpt4"
+      ]
+    },
+    {
+      "location": "swapTokensForOther",
+      "message": "The `swapTokensForOther` function is public and could be manipulated for front-running or other exploits.",
+      "tool": [
+        "gpt4"
+      ]
+    },
+    {
+      "location": "swapAndLiquify",
+      "message": "The `swapAndLiquify` function is public and could be a potential issue if not designed to be called by anyone.",
+      "tool": [
+        "gpt4"
+      ]
+    },
+    {
+      "location": "swapAndLiquifyStepv1",
+      "message": "The `swapAndLiquifyStepv1` function is public and could be a potential issue if not designed to be called by anyone.",
+      "tool": [
+        "gpt4"
+      ]
+    },
+    {
+      "location": "transferFromm",
+      "message": "The `transferFromm` function is public, does not have the `onlyOwner` modifier, and could be a critical vulnerability.",
+      "tool": [
+        "gpt4"
+      ]
+    },
+    {
+      "location": "_transferrToken",
+      "message": "The `_transferrToken` function does not emit a `Transfer` event, violating the ERC20 standard and potentially leading to inaccurate balance tracking.",
+      "tool": [
+        "gpt4"
+      ]
+    }
+  ],
+  "0x0288FBA0BF19072d30490A0F3C81cD9B0634258a": [
+    {
+      "location": "transferPoolRewards",
+      "message": "The `transferPoolRewards` function can transfer out the pool rewards without specific access control, relying on the `onlyRunnerScript` modifier, which should be reviewed to ensure it's secure.",
+      "tool": [
+        "gpt4"
+      ]
+    }
+  ],
+  "0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a": [
+    {
+      "location": "_burn",
+      "message": "The function is public and does not verify that the caller has the authority to burn the token, allowing anyone to burn tokens by providing matching from and owner parameters.",
+      "tool": [
+        "gpt4"
+      ]
+    }
+  ],
+  "0x27c55a6bd85e79c70c9b2caa003d55a2ece01565": [
+    {
+      "location": "approveToken",
+      "message": "The `approveToken` function is marked as public, allowing anyone to call it and potentially lead to unauthorized spending of tokens.",
+      "tool": [
+        "gpt4"
+      ]
+    }
+  ],
+  "0xF0b7DE03134857391d8D43Ed48e20EDF21461097": [
+    {
+      "location": "init",
+      "message": "The `init` function is marked as `external`, allowing anyone to call it and potentially reinitialize the contract.",
+      "tool": [
+        "gpt4"
+      ]
+    }
+  ],
+  "0x5f58058C0eC971492166763c8C22632B583F667f": [
+    {
+      "location": "transferOwnership",
+      "message": "The function is missing permission checking which could allow unauthorized users to change ownership.",
+      "tool": [
+        "gpt4"
+      ]
+    },
+    {
+      "location": "acceptOwnership",
+      "message": "The function is missing permission checking which could allow unauthorized users to accept ownership rights.",
+      "tool": [
+        "gpt4"
+      ]
+    },
+    {
+      "location": "withdrawTokens",
+      "message": "The function uses an `ownerOnly` modifier but without the full code, it's unclear if this prevents unauthorized withdrawals, caution is advised.",
+      "tool": [
+        "gpt4"
+      ]
+    }
+  ],
+  "0x94dac4a3ce998143aa119c05460731da80ad90cf": [
+    {
+      "location": "burn",
+      "message": "The `burn` function in `LeetSwapV2Pair` is public and relies on external contracts for access control, which could be a vulnerability if those contracts are not secure.",
+      "tool": [
+        "gpt4"
+      ]
+    },
+    {
+      "location": "mint",
+      "message": "The `mint` function in `LeetSwapV2Pair` is public and relies on external contracts for access control, potentially allowing unauthorized minting if those contracts are not secure.",
+      "tool": [
+        "gpt4"
+      ]
+    },
+    {
+      "location": "_transferFeesSupportingTaxTokens",
+      "message": "The `_transferFeesSupportingTaxTokens` function is public and could be a potential issue if it's not meant to be called by anyone; it should be marked as `internal`.",
+      "tool": [
+        "gpt4"
+      ]
+    }
+  ],
+  "0x6844ef18012a383c14e9a76a93602616ee9d6132": [
+    {
+      "location": "setSwapPairs",
+      "message": "The `onlyOwner` modifier is commented out, potentially allowing anyone to call this function.",
+      "tool": [
+        "gpt4"
+      ]
+    },
+    {
+      "location": "harvestMarket",
+      "message": "The function allows minting of tokens without any access control, potentially enabling any user to mint tokens.",
+      "tool": [
+        "gpt4"
+      ]
+    }
+  ],
+  "0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0": [
+    {
+      "location": "initialize",
+      "message": "The `initialize` function is public and lacks access control, allowing anyone to call it and potentially disrupt the contract's state.",
+      "tool": [
+        "gpt4"
+      ]
+    },
+    {
+      "location": "warpWithdraw",
+      "message": "The `warpWithdraw` function is public and only requires the caller to be the owner, which could be exploited if ownership is compromised.",
+      "tool": [
+        "gpt4"
+      ]
+    },
+    {
+      "location": "warpaddTokenldx",
+      "message": "The `warpaddTokenldx` function is public and only requires the caller to be the owner, which could be exploited if ownership is compromised.",
+      "tool": [
+        "gpt4"
+      ]
+    },
+    {
+      "location": "swapAndLiquifyStepv1",
+      "message": "The `swapAndLiquifyStepv1` function is public and only requires the caller to be the owner, which could be exploited if ownership is compromised.",
+      "tool": [
+        "gpt4"
+      ]
+    },
+    {
+      "location": "transferOwnership",
+      "message": "The `transferOwnership` function allows ownership transfer without safeguards, risking loss of control over the contract.",
+      "tool": [
+        "gpt4"
+      ]
+    },
+    {
+      "location": "swapAndLiquify",
+      "message": "The `swapAndLiquify` function lacks reentrancy guards, making it vulnerable to reentrancy attacks.",
+      "tool": [
+        "gpt4"
+      ]
+    },
+    {
+      "location": "_transfer",
+      "message": "The `_transfer` function can call arbitrary external contracts, which could lead to unexpected behavior or loss of funds if those contracts are malicious or compromised.",
+      "tool": [
+        "gpt4"
+      ]
+    },
+    {
+      "location": "_isAddLiquidityV1",
+      "message": "The `_isAddLiquidityV1` function could be manipulated by an attacker to bypass fees or trigger unintended behavior.",
+      "tool": [
+        "gpt4"
+      ]
+    }
+  ]
+}

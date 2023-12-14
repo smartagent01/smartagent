@@ -1,0 +1,9 @@
+File copied : /root/Achecker/cERC20.bin-runtime
+processing /root/Achecker/cERC20.bin-runtime
+Checking contract for [4mViolated-AC-Check[0m 
+------------------
+
+
+Checking contract for [4mMissing-AC-Check[0m 
+------------------
+0bd04d53a8f70e673d23b73b48ba57c2b7a759d559e0f515e0a26f3b80051696

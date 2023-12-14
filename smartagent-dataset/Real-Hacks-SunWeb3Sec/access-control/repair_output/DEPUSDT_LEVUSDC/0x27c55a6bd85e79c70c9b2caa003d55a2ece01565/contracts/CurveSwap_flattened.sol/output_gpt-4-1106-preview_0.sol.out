@@ -1,0 +1,11 @@
+setAddressesCurve
+The function allows setting critical contract addresses without proper access control.
+
+approveToken
+The function could lead to unauthorized approvals if called by public or external functions without proper checks.
+
+changeUSDT2USDC
+Unauthorized users could perform token exchanges if this function is called by public or external functions without access control.
+
+changeUSDC2USDT
+Unauthorized users could perform token exchanges if this function is called by public or external functions without access control.

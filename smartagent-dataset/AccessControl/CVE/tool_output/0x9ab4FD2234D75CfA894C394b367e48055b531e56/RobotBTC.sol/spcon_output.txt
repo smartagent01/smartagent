@@ -1,0 +1,42 @@
+Running SPCON... 0x9ab4FD2234D75CfA894C394b367e48055b531e56 600 2022-05-23
+Installing solc '0.4.18'...
+Version '0.4.18' installed.
+2022-05-23
+{'limit': 2127, 'network': 'ethereum', 'address': '0x9ab4FD2234D75CfA894C394b367e48055b531e56', 'date': '2022-05-23'}
+0x9ab4FD2234D75CfA894C394b367e48055b531e56 RobotBTC
+./0x9ab4FD2234D75CfA894C394b367e48055b531e56
+loaded abi.
+5  functions ['approve', 'transfer', 'owned', 'mintToken', 'transferFrom']
+75  users
+Timecost for loading history: 0.013504981994628906
+No.user: 75; No.func: 5
++----------------------------------------------------+
+| Basic roles statistics (id, len(users), functions) |
++-----------+----------+-----------------------------+
+|   RoleId  |  Users   |          Functions          |
++-----------+----------+-----------------------------+
+|     0     |    3     |         ['approve']         |
+|     1     |    70    |         ['transfer']        |
+|     2     |    3     |          ['owned']          |
+|     3     |    2     |       ['transferFrom']      |
+|     4     |    2     |        ['mintToken']        |
++-----------+----------+-----------------------------+
+Gen. 0 (0.00%): Max/Min/Avg Fitness(Raw)             [2.18(3.22)/1.68(1.31)/1.81(1.81)]
+Gen. 100 (100.00%): INFO:spcon.symExec:Totally 0 integrity policies
+INFO:spcon.symExec:Totally 1 integrity policies
+INFO:spcon.symExec:Test Sequence: ['owned']
+INFO:spcon.symExec:SymExecEVM().symExec: owned()
+INFO:spcon.symExec:attacker: 0xc0ffee753b42bda1bcfa682f29685e2fd6729016
+INFO:spcon.symExec:test sequence timeout
+INFO:spcon.symExec:Testing time: 336.3508462905884 seconds
+Max/Min/Avg Fitness(Raw)             [3.69(4.26)/2.16(1.31)/3.07(3.07)]
+Total time elapsed: 7.046 seconds.
+best role number: 2
+Role#0:{'owned', 'approve', 'mintToken', 'transfer'}
+Role#1:{'transferFrom'}
+Time cost: 7.0667266845703125
+Security Policy:
+Policy#0: owned approve mintToken transfer -> allowance owner via functions owned approve
+total timecost: 355.6833357810974 seconds
+https://api.etherscan.io/api?module=proxy&action=eth_getStorageAt&address=0x9ab4FD2234D75CfA894C394b367e48055b531e56&position=0x0&tag=latest&apikey=CMMEM9V5Y1B1S1JT4MITADSPPACMJBYPZ2
+https://api.etherscan.io/api?module=proxy&action=eth_getStorageAt&address=0x9ab4FD2234D75CfA894C394b367e48055b531e56&position=0x0&tag=latest&apikey=CMMEM9V5Y1B1S1JT4MITADSPPACMJBYPZ2

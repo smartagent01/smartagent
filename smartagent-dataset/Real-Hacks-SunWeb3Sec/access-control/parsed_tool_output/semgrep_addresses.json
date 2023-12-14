@@ -1,0 +1,80 @@
+{
+  "0xD55f01B4B51B7F48912cD8Ca3CDD8070A1a9DBa5": [
+    {
+      "location": 2895,
+      "message": "Oracle price data can be submitted by anyone"
+    }
+  ],
+  "0x531110418d8591c92e9cbbfc722db8ffb604fafd": [
+    {
+      "location": 1293,
+      "message": "Possible arithmetic underflow"
+    }
+  ],
+  "0xa5564a2d1190a141cac438c9fde686ac48a18a79": [
+    {
+      "location": 732,
+      "message": "Possible arithmetic underflow"
+    }
+  ],
+  "0x1a62fe088f46561be92bb5f6e83266289b94c154": [
+    {
+      "location": 1101,
+      "message": "ERC721 onERC721Received() reentrancy"
+    }
+  ],
+  "0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c": [
+    {
+      "location": 185,
+      "message": "Unrestricted transferOwnership"
+    }
+  ],
+  "0x4E87880A72f6896E7e0a635A5838fFc89b13bd17": [
+    {
+      "location": 1254,
+      "message": "No slippage check in a Uniswap v2/v3 trade"
+    }
+  ],
+  "0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a": [
+    {
+      "location": 358,
+      "message": "ERC721 onERC721Received() reentrancy"
+    }
+  ],
+  "0x10bc28d2810dD462E16facfF18f78783e859351b": [
+    {
+      "location": 834,
+      "message": "No slippage check in a Uniswap v2/v3 trade"
+    }
+  ],
+  "0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944": [
+    {
+      "location": 797,
+      "message": "ERC721 onERC721Received() reentrancy"
+    }
+  ],
+  "0xF0b7DE03134857391d8D43Ed48e20EDF21461097": [
+    {
+      "location": 699,
+      "message": "ERC721 onERC721Received() reentrancy"
+    }
+  ],
+  "0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9": [
+    {
+      "location": 1387,
+      "message": "No slippage check in a Uniswap v2/v3 trade"
+    }
+  ],
+  "0x9008d19f58aabd9ed0d60971565aa8510560ab41": [
+    {
+      "location": 1967,
+      "message": "An attacker may perform delegatecall() to an arbitrary address."
+    }
+  ],
+  "0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0": [
+    {
+      "location": 1225,
+      "message": "No slippage check in a Uniswap v2/v3 trade"
+    }
+  ]
+}

@@ -1,0 +1,347 @@
+METRICS: Using configs from the Registry (like --config=p/ci) reports pseudonymous rule metrics to semgrep.dev.
+To disable Registry rule metrics, use "--metrics=off".
+Using configs only from local files (like --config=xyz.yml) does not enable metrics.
+
+More information: https://semgrep.dev/docs/metrics
+
+               
+               
+┌─────────────┐
+│ Scan Status │
+└─────────────┘
+  Scanning 1 file tracked by git with 48 Code rules:
+  Scanning 1 file with 48 solidity rules.
+                    
+                    
+┌──────────────────┐
+│ 98 Code Findings │
+└──────────────────┘
+                                                                 
+    /sb/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol 
+       solidity.best-practice.use-abi-encodecall-instead-of-encodewithselector  
+          To guarantee arguments type safety it is recommended to use           
+  `abi.encodeCall` instead of                                                   
+          `abi.encodeWithSelector`.                                             
+                                                                                
+         1779┆ _callOptionalReturn(token,                                       
+  abi.encodeWithSelector(token.transfer.selector, to, value));                  
+            ⋮┆----------------------------------------
+         1788┆ _callOptionalReturn(token,                                       
+  abi.encodeWithSelector(token.transferFrom.selector, from, to, value));        
+            ⋮┆----------------------------------------
+         1810┆ _callOptionalReturn(token,                                       
+  abi.encodeWithSelector(token.approve.selector, spender, value));              
+            ⋮┆----------------------------------------
+         1819┆ _callOptionalReturn(token,                                       
+  abi.encodeWithSelector(token.approve.selector, spender, newAllowance));       
+            ⋮┆----------------------------------------
+         1831┆ _callOptionalReturn(token,                                       
+  abi.encodeWithSelector(token.approve.selector, spender, newAllowance));       
+            ⋮┆----------------------------------------
+       solidity.performance.array-length-outside-loop                           
+          Caching the array length outside a loop saves reading it on each      
+  iteration, as long as the                                                     
+          array's length is not changed during the loop.                        
+                                                                                
+         2213┆ for (uint256 i = 0; i < _strategists.length; i =                 
+  _uncheckedInc(i)) {                                                           
+            ⋮┆----------------------------------------
+       solidity.performance.inefficient-state-variable-increment             
+          <x> += <y> costs more gas than <x> = <x> + <y> for state variables.
+                                                                             
+         1408┆ _totalSupply += amount;
+            ⋮┆----------------------------------------
+         2547┆ totalAllocBPS += allocBPS;
+            ⋮┆----------------------------------------
+         2562┆ totalAllocBPS += allocBPS;
+            ⋮┆----------------------------------------
+         2705┆ totalAllocated += credit;
+            ⋮┆----------------------------------------
+       solidity.performance.non-payable-constructor      
+          Consider making costructor payable to save gas.
+                                                         
+         1200┆ constructor(string memory name_, string memory symbol_) {
+         1201┆     _name = name_;
+         1202┆     _symbol = symbol_;
+         1203┆ }
+            ⋮┆----------------------------------------
+         2199┆ constructor(
+         2200┆     address _asset,
+         2201┆     string memory _name,
+         2202┆     string memory _symbol,
+         2203┆     uint256 _tvlCap,
+         2204┆     address[] memory _strategists,
+         2205┆     address[] memory _multisigRoles
+         2206┆ ) ERC20(string(_name), string(_symbol)) {
+         2207┆     asset = _asset;
+         2208┆     constructionTime = block.timestamp;
+             [hid 15 additional lines, adjust with --max-lines-per-finding] 
+       solidity.performance.state-variable-read-in-a-loop                       
+          Replace state variable reads and writes within loops with local       
+  variable reads and writes.                                                    
+                                                                                
+         2442┆ address stratAddr = withdrawalQueue[i];
+            ⋮┆----------------------------------------
+         2443┆ uint256 strategyBal = strategies[stratAddr].allocated;
+            ⋮┆----------------------------------------
+         2459┆ strategies[stratAddr].allocated -= actualWithdrawn;
+            ⋮┆----------------------------------------
+         2460┆ totalAllocated -= actualWithdrawn;
+            ⋮┆----------------------------------------
+         2633┆ StrategyParams storage params = strategies[strategy];
+            ⋮┆----------------------------------------
+         2635┆ withdrawalQueue.push(strategy);
+            ⋮┆----------------------------------------
+         2844┆ if (role == cascadingAccess[i]) {
+            ⋮┆----------------------------------------
+         2853┆ if (hasRole(cascadingAccess[i], msg.sender)) {
+            ⋮┆----------------------------------------
+       solidity.performance.use-custom-error-not-require                        
+          Consider using custom errors as they are more gas efficient while     
+  allowing developers  to                                                       
+          describe the error in detail using NatSpec.                           
+                                                                                
+          273┆ require(value == 0, "Strings: hex length insufficient");
+            ⋮┆----------------------------------------
+          496┆ require(account == _msgSender(), "AccessControl: can only        
+  renounce roles for self");                                                    
+            ⋮┆----------------------------------------
+         1024┆ require(_status != _ENTERED, "ReentrancyGuard: reentrant call");
+            ⋮┆----------------------------------------
+         1350┆ require(currentAllowance >= subtractedValue, "ERC20: decreased   
+  allowance below zero");                                                       
+            ⋮┆----------------------------------------
+         1377┆ require(from != address(0), "ERC20: transfer from the zero       
+  address");                                                                    
+            ⋮┆----------------------------------------
+         1378┆ require(to != address(0), "ERC20: transfer to the zero address");
+            ⋮┆----------------------------------------
+         1383┆ require(fromBalance >= amount, "ERC20: transfer amount exceeds   
+  balance");                                                                    
+            ⋮┆----------------------------------------
+         1404┆ require(account != address(0), "ERC20: mint to the zero          
+  address");                                                                    
+            ⋮┆----------------------------------------
+         1427┆ require(account != address(0), "ERC20: burn from the zero        
+  address");                                                                    
+            ⋮┆----------------------------------------
+         1432┆ require(accountBalance >= amount, "ERC20: burn amount exceeds    
+  balance");                                                                    
+            ⋮┆----------------------------------------
+         1461┆ require(owner != address(0), "ERC20: approve from the zero       
+  address");                                                                    
+            ⋮┆----------------------------------------
+         1462┆ require(spender != address(0), "ERC20: approve to the zero       
+  address");                                                                    
+            ⋮┆----------------------------------------
+         1483┆ require(currentAllowance >= amount, "ERC20: insufficient         
+  allowance");                                                                  
+            ⋮┆----------------------------------------
+         1599┆ require(address(this).balance >= amount, "Address: insufficient  
+  balance");                                                                    
+            ⋮┆----------------------------------------
+         1602┆ require(success, "Address: unable to send value, recipient may   
+  have reverted");                                                              
+            ⋮┆----------------------------------------
+         1672┆ require(address(this).balance >= value, "Address: insufficient   
+  balance for call");                                                           
+            ⋮┆----------------------------------------
+         1673┆ require(isContract(target), "Address: call to non-contract");
+            ⋮┆----------------------------------------
+         1700┆ require(isContract(target), "Address: static call to             
+  non-contract");                                                               
+            ⋮┆----------------------------------------
+         1727┆ require(isContract(target), "Address: delegate call to           
+  non-contract");                                                               
+            ⋮┆----------------------------------------
+         1806┆ require(
+         1807┆     (value == 0) || (token.allowance(address(this), spender) ==  
+  0),                                                                           
+         1808┆     "SafeERC20: approve from non-zero to non-zero allowance"
+         1809┆ );
+            ⋮┆----------------------------------------
+         1829┆ require(oldAllowance >= value, "SafeERC20: decreased allowance   
+  below zero");                                                                 
+            ⋮┆----------------------------------------
+         1849┆ require(abi.decode(returndata, (bool)), "SafeERC20: ERC20        
+  operation did not succeed");                                                  
+            ⋮┆----------------------------------------
+         2326┆ require(!emergencyShutdown, "Cannot deposit during emergency     
+  shutdown");                                                                   
+            ⋮┆----------------------------------------
+         2327┆ require(assets != 0, "please provide amount");
+            ⋮┆----------------------------------------
+         2329┆ require(_pool + assets <= tvlCap, "vault is full!");
+            ⋮┆----------------------------------------
+         2366┆ require(!emergencyShutdown, "Cannot mint during emergency        
+  shutdown");                                                                   
+            ⋮┆----------------------------------------
+         2367┆ require(shares != 0, "please provide amount");
+            ⋮┆----------------------------------------
+         2370┆ require(_pool + assets <= tvlCap, "vault is full!");
+            ⋮┆----------------------------------------
+         2414┆ require(assets != 0, "please provide amount");
+                
+                
+┌──────────────┐
+│ Scan Summary │
+└──────────────┘
+
+Ran 48 rules on 1 file: 98 findings.
+            ⋮┆----------------------------------------
+         2468┆ require(totalLoss <= ((assets + totalLoss) * withdrawMaxLoss) /  
+  PERCENT_DIVISOR, "Cannot exceed the maximum allowed withdraw slippage");      
+            ⋮┆----------------------------------------
+         2519┆ require(shares != 0, "please provide amount");
+            ⋮┆----------------------------------------
+         2531┆ require(!emergencyShutdown, "Cannot add a strategy during        
+  emergency shutdown");                                                         
+            ⋮┆----------------------------------------
+         2532┆ require(strategy != address(0), "Cannot add the zero address");
+            ⋮┆----------------------------------------
+         2533┆ require(strategies[strategy].activation == 0, "Strategy must not 
+  be added already");                                                           
+            ⋮┆----------------------------------------
+         2534┆ require(address(this) == IStrategy(strategy).vault(), "The       
+  strategy must use this vault");                                               
+            ⋮┆----------------------------------------
+         2535┆ require(asset == IStrategy(strategy).want(), "The strategy must  
+  use the same want");                                                          
+            ⋮┆----------------------------------------
+         2536┆ require(allocBPS + totalAllocBPS <= PERCENT_DIVISOR, "Total      
+  allocation points are over 100%");                                            
+            ⋮┆----------------------------------------
+         2559┆ require(strategies[strategy].activation != 0, "Strategy must be  
+  active");                                                                     
+            ⋮┆----------------------------------------
+         2563┆ require(totalAllocBPS <= PERCENT_DIVISOR, "Total allocation      
+  points are over 100%");                                                       
+            ⋮┆----------------------------------------
+         2628┆ require(queueLength != 0, "Cannot set an empty withdrawal        
+  queue");                                                                      
+            ⋮┆----------------------------------------
+         2634┆ require(params.activation != 0, "Can only use active strategies  
+  in the withdrawal queue");                                                    
+            ⋮┆----------------------------------------
+         2649┆ require(loss <= allocation, "Strategy cannot loose more than what
+  was allocated to it");                                                        
+            ⋮┆----------------------------------------
+         2678┆ require(strategy.activation != 0, "Only active strategies can    
+  report");                                                                     
+            ⋮┆----------------------------------------
+         2752┆ require(_withdrawMaxLoss <= PERCENT_DIVISOR, "withdrawMaxLoss    
+  cannot be greater than 100%");                                                
+            ⋮┆----------------------------------------
+         2805┆ require(token != asset, "!asset");
+            ⋮┆----------------------------------------
+         2828┆ require(degradation <= DEGRADATION_COEFFICIENT, "Degradation     
+  cannot be more than 100%");                                                   
+            ⋮┆----------------------------------------
+       solidity.performance.use-prefix-increment-not-postfix                    
+          Consider using the prefix increment expression whenever the return    
+  value is not needed. The                                                      
+          prefix increment expression is cheaper in terms of gas.               
+                                                                                
+          234┆ digits++;
+            ⋮┆----------------------------------------
+          256┆ length++;
+            ⋮┆----------------------------------------
+       solidity.performance.use-short-revert-string                             
+          Shortening revert strings to fit in 32 bytes will decrease gas costs  
+  for deployment and  gas                                                       
+          costs when the revert condition has been met.                         
+                                                                                
+          496┆ require(account == _msgSender(), "AccessControl: can only        
+  renounce roles for self");                                                    
+            ⋮┆----------------------------------------
+         1350┆ require(currentAllowance >= subtractedValue, "ERC20: decreased   
+  allowance below zero");                                                       
+            ⋮┆----------------------------------------
+         1377┆ require(from != address(0), "ERC20: transfer from the zero       
+  address");                                                                    
+            ⋮┆----------------------------------------
+         1378┆ require(to != address(0), "ERC20: transfer to the zero address");
+            ⋮┆----------------------------------------
+         1383┆ require(fromBalance >= amount, "ERC20: transfer amount exceeds   
+  balance");                                                                    
+            ⋮┆----------------------------------------
+         1427┆ require(account != address(0), "ERC20: burn from the zero        
+  address");                                                                    
+            ⋮┆----------------------------------------
+         1432┆ require(accountBalance >= amount, "ERC20: burn amount exceeds    
+  balance");                                                                    
+            ⋮┆----------------------------------------
+         1461┆ require(owner != address(0), "ERC20: approve from the zero       
+  address");                                                                    
+            ⋮┆----------------------------------------
+         1462┆ require(spender != address(0), "ERC20: approve to the zero       
+  address");                                                                    
+            ⋮┆----------------------------------------
+         1602┆ require(success, "Address: unable to send value, recipient may   
+  have reverted");                                                              
+            ⋮┆----------------------------------------
+         1672┆ require(address(this).balance >= value, "Address: insufficient   
+  balance for call");                                                           
+            ⋮┆----------------------------------------
+         1700┆ require(isContract(target), "Address: static call to             
+  non-contract");                                                               
+            ⋮┆----------------------------------------
+         1727┆ require(isContract(target), "Address: delegate call to           
+  non-contract");                                                               
+            ⋮┆----------------------------------------
+         1806┆ require(
+         1807┆     (value == 0) || (token.allowance(address(this), spender) ==  
+  0),                                                                           
+         1808┆     "SafeERC20: approve from non-zero to non-zero allowance"
+         1809┆ );
+            ⋮┆----------------------------------------
+         1829┆ require(oldAllowance >= value, "SafeERC20: decreased allowance   
+  below zero");                                                                 
+            ⋮┆----------------------------------------
+         1849┆ require(abi.decode(returndata, (bool)), "SafeERC20: ERC20        
+  operation did not succeed");                                                  
+            ⋮┆----------------------------------------
+         2326┆ require(!emergencyShutdown, "Cannot deposit during emergency     
+  shutdown");                                                                   
+            ⋮┆----------------------------------------
+         2366┆ require(!emergencyShutdown, "Cannot mint during emergency        
+  shutdown");                                                                   
+            ⋮┆----------------------------------------
+         2468┆ require(totalLoss <= ((assets + totalLoss) * withdrawMaxLoss) /  
+  PERCENT_DIVISOR, "Cannot exceed the maximum allowed withdraw slippage");      
+            ⋮┆----------------------------------------
+         2531┆ require(!emergencyShutdown, "Cannot add a strategy during        
+  emergency shutdown");                                                         
+            ⋮┆----------------------------------------
+         2533┆ require(strategies[strategy].activation == 0, "Strategy must not 
+  be added already");                                                           
+            ⋮┆----------------------------------------
+         2535┆ require(asset == IStrategy(strategy).want(), "The strategy must  
+  use the same want");                                                          
+            ⋮┆----------------------------------------
+         2536┆ require(allocBPS + totalAllocBPS <= PERCENT_DIVISOR, "Total      
+  allocation points are over 100%");                                            
+            ⋮┆----------------------------------------
+         2563┆ require(totalAllocBPS <= PERCENT_DIVISOR, "Total allocation      
+  points are over 100%");                                                       
+            ⋮┆----------------------------------------
+         2628┆ require(queueLength != 0, "Cannot set an empty withdrawal        
+  queue");                                                                      
+            ⋮┆----------------------------------------
+         2634┆ require(params.activation != 0, "Can only use active strategies  
+  in the withdrawal queue");                                                    
+            ⋮┆----------------------------------------
+         2649┆ require(loss <= allocation, "Strategy cannot loose more than what
+  was allocated to it");                                                        
+            ⋮┆----------------------------------------
+         2678┆ require(strategy.activation != 0, "Only active strategies can    
+  report");                                                                     
+            ⋮┆----------------------------------------
+         2752┆ require(_withdrawMaxLoss <= PERCENT_DIVISOR, "withdrawMaxLoss    
+  cannot be greater than 100%");                                                
+            ⋮┆----------------------------------------
+         2828┆ require(degradation <= DEGRADATION_COEFFICIENT, "Degradation     
+  cannot be more than 100%");                                                   
+
+
+A new version of Semgrep is available. See https://semgrep.dev/docs/upgrading

@@ -1,0 +1,2 @@
+updateSettings
+The updateSettings function allows the owner to update the addresses of the user staking pool, token seller, and DAO contract without proper permission checking.

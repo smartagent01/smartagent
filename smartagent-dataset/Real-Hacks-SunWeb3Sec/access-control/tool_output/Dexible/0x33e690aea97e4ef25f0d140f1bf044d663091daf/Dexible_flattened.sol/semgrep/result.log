@@ -1,0 +1,289 @@
+METRICS: Using configs from the Registry (like --config=p/ci) reports pseudonymous rule metrics to semgrep.dev.
+To disable Registry rule metrics, use "--metrics=off".
+Using configs only from local files (like --config=xyz.yml) does not enable metrics.
+
+More information: https://semgrep.dev/docs/metrics
+
+               
+               
+┌─────────────┐
+│ Scan Status │
+└─────────────┘
+  Scanning 1 file tracked by git with 48 Code rules:
+  Scanning 1 file with 48 solidity rules.
+                    
+                    
+┌──────────────────┐
+│ 73 Code Findings │
+└──────────────────┘
+                              
+    /sb/Dexible_flattened.sol 
+       solidity.best-practice.use-abi-encodecall-instead-of-encodewithselector  
+          To guarantee arguments type safety it is recommended to use           
+  `abi.encodeCall` instead of                                                   
+          `abi.encodeWithSelector`.                                             
+                                                                                
+          457┆ _callOptionalReturn(token,                                       
+  abi.encodeWithSelector(token.transfer.selector, to, value));                  
+            ⋮┆----------------------------------------
+          466┆ _callOptionalReturn(token,                                       
+  abi.encodeWithSelector(token.transferFrom.selector, from, to, value));        
+            ⋮┆----------------------------------------
+          488┆ _callOptionalReturn(token,                                       
+  abi.encodeWithSelector(token.approve.selector, spender, value));              
+            ⋮┆----------------------------------------
+          497┆ _callOptionalReturn(token,                                       
+  abi.encodeWithSelector(token.approve.selector, spender, newAllowance));       
+            ⋮┆----------------------------------------
+          509┆ _callOptionalReturn(token,                                       
+  abi.encodeWithSelector(token.approve.selector, spender, newAllowance));       
+            ⋮┆----------------------------------------
+       solidity.performance.array-length-outside-loop                           
+          Caching the array length outside a loop saves reading it on each      
+  iteration, as long as the                                                     
+          array's length is not changed during the loop.                        
+                                                                                
+         3762┆ for(uint i=0;i<request.routes.length;++i) {
+            ⋮┆----------------------------------------
+         4156┆ for(uint i=0;i<config.initialRelays.length;++i) {
+            ⋮┆----------------------------------------
+       solidity.performance.inefficient-state-variable-increment             
+          <x> += <y> costs more gas than <x> = <x> + <y> for state variables.
+                                                                             
+         1021┆ _totalSupply += amount;
+            ⋮┆----------------------------------------
+       solidity.performance.non-payable-constructor      
+          Consider making costructor payable to save gas.
+                                                         
+          811┆ constructor(string memory name_, string memory symbol_) {
+          812┆     _name = name_;
+          813┆     _symbol = symbol_;
+          814┆ }
+            ⋮┆----------------------------------------
+       solidity.performance.unnecessary-checked-arithmetic-in-loop              
+          A lot of times there is no risk that the loop counter can overflow.   
+  Using Solidity's                                                              
+          unchecked block saves the overflow checks.                            
+                                                                                
+         3762┆ for(uint i=0;i<request.routes.length;++i) {
+            ⋮┆----------------------------------------
+         4156┆ for(uint i=0;i<config.initialRelays.length;++i) {
+            ⋮┆----------------------------------------
+         4164┆ for(uint i=0;i<relays.length;++i) {
+            ⋮┆----------------------------------------
+       solidity.performance.use-custom-error-not-require                        
+          Consider using custom errors as they are more gas efficient while     
+  allowing developers  to                                                       
+          describe the error in detail using NatSpec.                           
+                                                                                
+          255┆ require(address(this).balance >= amount, "Address: insufficient  
+  balance");                                                                    
+            ⋮┆----------------------------------------
+          258┆ require(success, "Address: unable to send value, recipient may   
+  have reverted");                                                              
+            ⋮┆----------------------------------------
+          328┆ require(address(this).balance >= value, "Address: insufficient   
+  balance for call");                                                           
+            ⋮┆----------------------------------------
+          399┆ require(isContract(target), "Address: call to non-contract");
+            ⋮┆----------------------------------------
+          484┆ require(
+          485┆     (value == 0) || (token.allowance(address(this), spender) ==  
+  0),                                                                           
+          486┆     "SafeERC20: approve from non-zero to non-zero allowance"
+          487┆ );
+            ⋮┆----------------------------------------
+          507┆ require(oldAllowance >= value, "SafeERC20: decreased allowance   
+  below zero");                                                                 
+            ⋮┆----------------------------------------
+          526┆ require(nonceAfter == nonceBefore + 1, "SafeERC20: permit did not
+  succeed");                                                                    
+            ⋮┆----------------------------------------
+          543┆ require(abi.decode(returndata, (bool)), "SafeERC20: ERC20        
+  operation did not succeed");                                                  
+            ⋮┆----------------------------------------
+          961┆ require(currentAllowance >= subtractedValue, "ERC20: decreased   
+  allowance below zero");                                                       
+            ⋮┆----------------------------------------
+          988┆ require(from != address(0), "ERC20: transfer from the zero       
+  address");                                                                    
+            ⋮┆----------------------------------------
+          989┆ require(to != address(0), "ERC20: transfer to the zero address");
+            ⋮┆----------------------------------------
+          994┆ require(fromBalance >= amount, "ERC20: transfer amount exceeds   
+  balance");                                                                    
+            ⋮┆----------------------------------------
+         1017┆ require(account != address(0), "ERC20: mint to the zero          
+  address");                                                                    
+            ⋮┆----------------------------------------
+         1043┆ require(account != address(0), "ERC20: burn from the zero        
+  address");                                                                    
+            ⋮┆----------------------------------------
+         1048┆ require(accountBalance >= amount, "ERC20: burn amount exceeds    
+  balance");                                                                    
+            ⋮┆----------------------------------------
+         1078┆ require(owner != address(0), "ERC20: approve from the zero       
+  address");                                                                    
+            ⋮┆----------------------------------------
+         1079┆ require(spender != address(0), "ERC20: approve to the zero       
+  address");                                                                    
+            ⋮┆----------------------------------------
+         1100┆ require(currentAllowance >= amount, "ERC20: insufficient         
+  allowance");                                                                  
+            ⋮┆----------------------------------------
+         1652┆ require(!DexibleStorage.load().paused, "Contract operations are  
+  paused");                                                                     
+            ⋮┆----------------------------------------
+         1657┆ require(msg.sender == DexibleStorage.load().adminMultiSig,       
+  "Unauthorized");                                                              
+            ⋮┆----------------------------------------
+         1662┆ require(msg.sender ==                                            
+  address(DexibleStorage.load().communityVault), "Only vault can execute this   
+  function");                                                                   
+            ⋮┆----------------------------------------
+         1668┆ require(dd.relays[msg.sender], "Only relay allowed to call");
+            ⋮┆----------------------------------------
+         1673┆ require(msg.sender == address(this), "Only allowed as internal   
+  call");                                                                       
+            ⋮┆----------------------------------------
+         3722┆ require(value == 0, "Strings: hex length insufficient");
+            ⋮┆----------------------------------------
+         3768┆ revert("Failed to swap");
+            ⋮┆----------------------------------------
+         3780┆ require(meta.outAmount >= request.tokenOut.amount, "Insufficient 
+  output generated");                                                           
+            ⋮┆----------------------------------------
+         3907┆ require(request.executionRequest.fee.affiliatePortion <          
+  meta.bpsAmount-meta.toRevshare, "Miscalculated affiliate portion");           
+            ⋮┆----------------------------------------
+         4047┆ require(
+         4048┆     dd.communityVault.isFeeTokenAllowed(fToken),
+         4049┆     "Fee token is not allowed"
+         4050┆ );
+            ⋮┆----------------------------------------
+         4053┆ require(fToken == address(request.tokenIn.token) ||
+         4054┆         fToken == address(request.tokenOut.token),
+         4055┆         "Fee token must be input or output token");
+            ⋮┆----------------------------------------
+         4133┆ require(msg.sender == ds.adminMultiSig, "Unauthorized");
+            ⋮┆----------------------------------------
+         4136┆ require(config.communityVault != address(0), "Invalid            
+  CommunityVault address");                                                     
+            ⋮┆----------------------------------------
+         4137┆ require(config.treasury != address(0), "Invalid treasury");
+            ⋮┆----------------------------------------
+         4138┆ require(config.dxblToken != address(0), "Invalid DXBL token      
+  address");                                                                    
+            ⋮┆----------------------------------------
+         4139┆ require(config.revshareSplitRatio > 0, "Invalid revshare split   
+  ratio");                                                                      
+            ⋮┆----------------------------------------
+         4140┆ require(config.stdBpsRate > 0, "Must provide a standard bps fee  
+  rate");                                                                       
+            ⋮┆----------------------------------------
+         4141┆ require(config.minBpsRate > 0, "minBpsRate is required");
+            ⋮┆----------------------------------------
+         4142┆ require(config.minBpsRate < config.stdBpsRate, "Min bps rate must
+  be less than std");                                                           
+            ⋮┆----------------------------------------
+         4143┆ require(config.stdGasAdjustment != address(0), "Invalid          
+  stdGasAdjustment address");                                                   
+            ⋮┆----------------------------------------
+         4222┆ require(con != address(0), "Invalid contract address");
+            ⋮┆----------------------------------------
+         4317┆ require(rec.send(amount), "Transfer failed");
+            ⋮┆----------------------------------------
+       solidity.performance.use-nested-if                                       
+          Using nested is cheaper than using && multiple check combinations.    
+  There are more                                                                
+          advantages, such as easier to read code and better coverage reports.  
+                                                                                
+         3470┆ if (rounding == Rounding.Up && mulmod(x, y, denominator) > 0) {
+         3471┆     result += 1;
+         3472┆ }
+            ⋮┆----------------------------------------
+         3955┆ if(address(dd.communityVault) != meta.preSwapVault && totalGas > 
+  200_000) {                                                                    
+         3956┆     totalGas -= 200_000; //give credit for estimated migration   
+  gas                                                                           
+         3957┆ }
+            ⋮┆----------------------------------------
+       solidity.performance.use-prefix-decrement-not-postfix                    
+          Consider using the prefix decrement expression whenever the return    
+  value is not needed. The                                                      
+          prefix decrement expression is cheaper in terms of gas.               
+                                                                                
+         3690┆ ptr--;
+            ⋮┆----------------------------------------
+       solidity.performance.use-short-revert-string                             
+          Shortening revert strings to fit in 32 bytes will decrease gas costs  
+  for deployment and  gas                                                       
+          costs when the revert condition has been met.                         
+                                                                                
+          258┆ require(success, "Address: unable to send value, recipient may   
+  have reverted");                                                              
+            ⋮┆----------------------------------------
+          328┆ require(address(this).balance >= value, "Address: insufficient   
+  balance for call");                                                           
+            ⋮┆----------------------------------------
+          484┆ require(
+          485┆     (value == 0) || (token.allowance(address(this), spender) ==  
+  0),                                                                           
+          486┆     "SafeERC20: approve from non-zero to non-zero allowance"
+          487┆ );
+            ⋮┆----------------------------------------
+          507┆ require(oldAllowance >= value, "SafeERC20: decreased allowance   
+  below zero");                                                                 
+            ⋮┆----------------------------------------
+          526┆ require(nonceAfter == nonceBefore + 1, "SafeERC20: permit did not
+  succeed");                                                                    
+            ⋮┆----------------------------------------
+          543┆ require(abi.decode(returndata, (bool)), "SafeERC20: ERC20        
+  operation did not succeed");                                                  
+            ⋮┆----------------------------------------
+          961┆ require(currentAllowance >= subtractedValue, "ERC20: decreased   
+  allowance below zero");                                                       
+            ⋮┆----------------------------------------
+          988┆ require(from != address(0), "ERC20: transfer from the zero       
+  address");                                                                    
+            ⋮┆----------------------------------------
+          989┆ require(to != address(0), "ERC20: transfer to the zero address");
+            ⋮┆----------------------------------------
+          994┆ require(fromBalance >= amount, "ERC20: transfer amount exceeds   
+  balance");                                                                    
+            ⋮┆----------------------------------------
+         1043┆ require(account != address(0), "ERC20: burn from the zero        
+  address");                                                                    
+            ⋮┆----------------------------------------
+         1048┆ require(accountBalance >= amount, "ERC20: burn amount exceeds    
+  balance");                                                                    
+            ⋮┆----------------------------------------
+         1078┆ require(owner != address(0), "ERC20: approve from the zero       
+  address");                                                                    
+            ⋮┆----------------------------------------
+         1079┆ require(spender != address(0), "ERC20: approve to the zero       
+  address");                                                                    
+            ⋮┆----------------------------------------
+         1662┆ require(msg.sender ==                                            
+  address(DexibleStorage.load().communityVault), "Only vault can execute this   
+  function");                                                                   
+            ⋮┆----------------------------------------
+         4053┆ require(fToken == address(request.tokenIn.token) ||
+         4054┆         fToken == address(request.tokenOut.token),
+         4055┆         "Fee token must be input or output token");
+            ⋮┆----------------------------------------
+         4140┆ require(config.stdBpsRate > 0, "Must provide a standard bps fee  
+  rate");                                                                       
+            ⋮┆----------------------------------------
+         4142┆ require(config.minBpsRate < config.stdBpsRate, "Min bps rate must
+  be less than std");                                                           
+
+                
+                
+┌──────────────┐
+│ Scan Summary │
+└──────────────┘
+
+Ran 48 rules on 1 file: 73 findings.
+
+A new version of Semgrep is available. See https://semgrep.dev/docs/upgrading

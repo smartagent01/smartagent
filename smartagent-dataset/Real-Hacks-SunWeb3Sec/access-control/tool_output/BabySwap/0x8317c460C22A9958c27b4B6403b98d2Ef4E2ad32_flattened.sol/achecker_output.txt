@@ -1,0 +1,9 @@
+File copied : /root/Achecker/BabySmartRouter.bin-runtime
+processing /root/Achecker/BabySmartRouter.bin-runtime
+Checking contract for [4mViolated-AC-Check[0m 
+------------------
+
+
+Checking contract for [4mMissing-AC-Check[0m 
+------------------
+45046b52de7c1ed1f5fb51def67b9dd03e644a3040a388d2c3f9d5a1fad1d090

@@ -1,0 +1,6 @@
+```
+initializeContract
+Incorrect constructor name or initialize function that is public, allowing anyone to call it to initialize the contract.
+setNewOwner
+Missing permission checking in function that can change the ownership or admin right of the contract.
+```

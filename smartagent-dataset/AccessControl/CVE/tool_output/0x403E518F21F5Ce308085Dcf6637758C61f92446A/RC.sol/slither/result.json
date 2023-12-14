@@ -1,0 +1,911 @@
+{
+    "errors": [
+        "EXIT_CODE_93"
+    ],
+    "fails": [],
+    "findings": [
+        {
+            "confidence": "Medium",
+            "contract": "RC",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "function": "giveToken",
+            "impact": "High",
+            "line": 321,
+            "line_end": 333,
+            "message": "Reentrancy in RC.giveToken (RC.sol#321-333):\n\tExternal calls:\n\t- tokenSaleContract.claim(_buyer,pendingTokenUser[_buyer]) (RC.sol#328-330)\n\t- tokenSaleContract.wallet().transfer(etherUser[_buyer]) (RC.sol#332-333)\n\tExternal calls sending eth:\n\t- tokenSaleContract.wallet().transfer(etherUser[_buyer]) (RC.sol#332-333)\n\tState variables written after the call(s):\n\t- etherUser (RC.sol#333)\n",
+            "name": "reentrancy-eth"
+        },
+        {
+            "confidence": "Medium",
+            "contract": "RC",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "function": "releaseTokensTo",
+            "impact": "High",
+            "line": 243,
+            "line_end": 250,
+            "message": "Reentrancy in RC.releaseTokensTo (RC.sol#243-250):\n\tExternal calls:\n\t- takeEther(buyer) (RC.sol#246-247)\n\t- giveToken(buyer) (RC.sol#247)\n\tState variables written after the call(s):\n\t- etherUser (RC.sol#247)\n\t- pendingTokenUser (RC.sol#247)\n",
+            "name": "reentrancy-eth"
+        },
+        {
+            "confidence": "Medium",
+            "contract": "RC",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "function": "giveToken",
+            "impact": "Medium",
+            "line": 321,
+            "line_end": 333,
+            "message": "Reentrancy in RC.giveToken (RC.sol#321-333):\n\tExternal calls:\n\t- tokenSaleContract.claim(_buyer,pendingTokenUser[_buyer]) (RC.sol#328-330)\n\tState variables written after the call(s):\n\t- pendingTokenUser (RC.sol#331-332)\n",
+            "name": "reentrancy-no-eth"
+        },
+        {
+            "confidence": "Medium",
+            "contract": "RC",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "function": "takeEther",
+            "impact": "Medium",
+            "line": 290,
+            "line_end": 321,
+            "message": "Reentrancy in RC.takeEther (RC.sol#290-321):\n\tExternal calls:\n\t- oneToken = 10 ** uint256(tokenSaleContract.decimals()) (RC.sol#293-294)\n\t- tokenValue = tokenSaleContract.tokenValueInEther(oneTokenInUsdWei) (RC.sol#294-295)\n\t- unboughtTokens = tokenInterface(tokenSaleContract.tokenContract()).balanceOf(tokenSaleContract) (RC.sol#299-301)\n\tState variables written after the call(s):\n\t- remainingTokens (RC.sol#309)\n\t- remainingTokens (RC.sol#311-314)\n",
+            "name": "reentrancy-no-eth"
+        },
+        {
+            "confidence": "Medium",
+            "contract": "TokenSale",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "function": "addMeByRC",
+            "impact": "Medium",
+            "line": 464,
+            "message": "TokenSale.addMeByRC uses tx.origin for authorization:\n\t- require(bool)(tx.origin == owner) (RC.sol#464)\n",
+            "name": "tx-origin"
+        },
+        {
+            "confidence": "Medium",
+            "contract": "RC",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "function": "giveToken",
+            "impact": "Medium",
+            "line": 321,
+            "line_end": 333,
+            "message": "RC.giveToken (RC.sol#321-333) does not use the value returned by external calls:\n\t-tokenSaleContract.claim(_buyer,pendingTokenUser[_buyer]) (RC.sol#328-330)\n",
+            "name": "unused-return"
+        },
+        {
+            "confidence": "Medium",
+            "contract": "RC",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "function": "claimTokenBonus",
+            "impact": "Medium",
+            "line": 334,
+            "line_end": 355,
+            "message": "RC.claimTokenBonus (RC.sol#334-355) does not use the value returned by external calls:\n\t-tokenSaleContract.claim(_buyer,addTokenAmount) (RC.sol#351-355)\n",
+            "name": "unused-return"
+        },
+        {
+            "confidence": "Medium",
+            "contract": "TokenSale",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "function": "buyFromRC",
+            "impact": "Medium",
+            "line": 416,
+            "line_end": 452,
+            "message": "TokenSale.buyFromRC (RC.sol#416-452) does not use the value returned by external calls:\n\t-tokenContract.transfer(_buyer,tokenAmount) (RC.sol#445-448)\n",
+            "name": "unused-return"
+        },
+        {
+            "confidence": "Medium",
+            "contract": "RC",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "function": "RC",
+            "impact": "Low",
+            "line": 187,
+            "line_end": 213,
+            "message": "Reentrancy in RC.RC (RC.sol#187-213):\n\tExternal calls:\n\t- tokenSaleContract.addMeByRC() (RC.sol#205-206)\n\tState variables written after the call(s):\n\t- etherMinimum (RC.sol#211)\n\t- oneTokenInUsdWei (RC.sol#209-210)\n\t- remainingTokens (RC.sol#209)\n\t- soldTokens (RC.sol#207-209)\n",
+            "name": "reentrancy-benign"
+        },
+        {
+            "confidence": "Medium",
+            "contract": "RC",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "function": "RC",
+            "impact": "Low",
+            "line": 187,
+            "line_end": 213,
+            "message": "Reentrancy in RC.RC (RC.sol#187-213):\n\tExternal calls:\n\t- tokenSaleContract.addMeByRC() (RC.sol#205-206)\n\t- setTimeRC(_startTime,_endTime) (RC.sol#211-213)\n\tState variables written after the call(s):\n\t- endTime (RC.sol#211-213)\n\t- startTime (RC.sol#211-213)\n",
+            "name": "reentrancy-benign"
+        },
+        {
+            "confidence": "Medium",
+            "contract": "RC",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "function": "giveToken",
+            "impact": "Low",
+            "line": 321,
+            "line_end": 333,
+            "message": "Reentrancy in RC.giveToken (RC.sol#321-333):\n\tExternal calls:\n\t- tokenSaleContract.claim(_buyer,pendingTokenUser[_buyer]) (RC.sol#328-330)\n\tState variables written after the call(s):\n\t- soldTokens (RC.sol#330-331)\n",
+            "name": "reentrancy-benign"
+        },
+        {
+            "confidence": "Medium",
+            "contract": "RC",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "function": "setTimeRC",
+            "impact": "Low",
+            "line": 213,
+            "line_end": 228,
+            "message": "Reentrancy in RC.setTimeRC (RC.sol#213-228):\n\tExternal calls:\n\t- startTime = tokenSaleContract.startTime() (RC.sol#218-220)\n\t- endTime = tokenSaleContract.endTime() (RC.sol#225-227)\n\tState variables written after the call(s):\n\t- endTime (RC.sol#225-227)\n",
+            "name": "reentrancy-benign"
+        },
+        {
+            "confidence": "Medium",
+            "contract": "RC",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "function": "setTimeRC",
+            "impact": "Low",
+            "line": 213,
+            "line_end": 228,
+            "message": "Reentrancy in RC.setTimeRC (RC.sol#213-228):\n\tExternal calls:\n\t- startTime = tokenSaleContract.startTime() (RC.sol#218-220)\n\tState variables written after the call(s):\n\t- endTime (RC.sol#227)\n",
+            "name": "reentrancy-benign"
+        },
+        {
+            "confidence": "Medium",
+            "contract": "RC",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "function": "takeEther",
+            "impact": "Low",
+            "line": 290,
+            "line_end": 321,
+            "message": "Reentrancy in RC.takeEther (RC.sol#290-321):\n\tExternal calls:\n\t- oneToken = 10 ** uint256(tokenSaleContract.decimals()) (RC.sol#293-294)\n\t- tokenValue = tokenSaleContract.tokenValueInEther(oneTokenInUsdWei) (RC.sol#294-295)\n\t- unboughtTokens = tokenInterface(tokenSaleContract.tokenContract()).balanceOf(tokenSaleContract) (RC.sol#299-301)\n\tExternal calls sending eth:\n\t- _buyer.transfer(refund) (RC.sol#309-311)\n\tState variables written after the call(s):\n\t- etherUser (RC.sol#315-317)\n\t- pendingTokenUser (RC.sol#317-319)\n",
+            "name": "reentrancy-benign"
+        },
+        {
+            "confidence": "High",
+            "contract": "Ownable",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "function": "transferOwnership",
+            "impact": "Informational",
+            "line": 64,
+            "line_end": 72,
+            "message": "Ownable.transferOwnership (RC.sol#64-72) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "tokenInterface",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "function": "balanceOf",
+            "impact": "Informational",
+            "line": 72,
+            "line_end": 73,
+            "message": "tokenInterface.balanceOf (RC.sol#72-73) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "tokenInterface",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "function": "transfer",
+            "impact": "Informational",
+            "line": 75,
+            "line_end": 77,
+            "message": "tokenInterface.transfer (RC.sol#75-77) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "rateInterface",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "function": "readRate",
+            "impact": "Informational",
+            "line": 77,
+            "line_end": 82,
+            "message": "rateInterface.readRate (RC.sol#77-82) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "RC",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "function": "started",
+            "impact": "Informational",
+            "line": 250,
+            "line_end": 254,
+            "message": "RC.started (RC.sol#250-254) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "ICOEngineInterface",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "function": "started",
+            "impact": "Informational",
+            "line": 85,
+            "message": "ICOEngineInterface.started (RC.sol#85) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "RC",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "function": "ended",
+            "impact": "Informational",
+            "line": 254,
+            "line_end": 259,
+            "message": "RC.ended (RC.sol#254-259) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "ICOEngineInterface",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "function": "ended",
+            "impact": "Informational",
+            "line": 88,
+            "message": "ICOEngineInterface.ended (RC.sol#88) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "RC",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "function": "startTime",
+            "impact": "Informational",
+            "line": 259,
+            "line_end": 262,
+            "message": "RC.startTime (RC.sol#259-262) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "ICOEngineInterface",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "function": "startTime",
+            "impact": "Informational",
+            "line": 91,
+            "message": "ICOEngineInterface.startTime (RC.sol#91) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "ICOEngineInterface",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "function": "endTime",
+            "impact": "Informational",
+            "line": 94,
+            "line_end": 95,
+            "message": "ICOEngineInterface.endTime (RC.sol#94-95) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "RC",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "function": "endTime",
+            "impact": "Informational",
+            "line": 262,
+            "line_end": 266,
+            "message": "RC.endTime (RC.sol#262-266) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "ICOEngineInterface",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "function": "totalTokens",
+            "impact": "Informational",
+            "line": 105,
+            "message": "ICOEngineInterface.totalTokens (RC.sol#105) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "RC",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "function": "totalTokens",
+            "impact": "Informational",
+            "line": 266,
+            "line_end": 268,
+            "message": "RC.totalTokens (RC.sol#266-268) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "ICOEngineInterface",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "function": "remainingTokens",
+            "impact": "Informational",
+            "line": 109,
+            "line_end": 110,
+            "message": "ICOEngineInterface.remainingTokens (RC.sol#109-110) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "RC",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "function": "remainingTokens",
+            "impact": "Informational",
+            "line": 268,
+            "line_end": 273,
+            "message": "RC.remainingTokens (RC.sol#268-273) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "ICOEngineInterface",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "function": "price",
+            "impact": "Informational",
+            "line": 116,
+            "line_end": 117,
+            "message": "ICOEngineInterface.price (RC.sol#116-117) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "RC",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "function": "price",
+            "impact": "Informational",
+            "line": 273,
+            "line_end": 281,
+            "message": "RC.price (RC.sol#273-281) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "KYCBase",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "function": "buyTokensFor",
+            "impact": "Informational",
+            "line": 138,
+            "line_end": 147,
+            "message": "KYCBase.buyTokensFor (RC.sol#138-147) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "KYCBase",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "function": "buyTokens",
+            "impact": "Informational",
+            "line": 147,
+            "line_end": 151,
+            "message": "KYCBase.buyTokens (RC.sol#147-151) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "RC",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "function": "setTime",
+            "impact": "Informational",
+            "line": 232,
+            "line_end": 237,
+            "message": "RC.setTime (RC.sol#232-237) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "RC",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "function": "changeMinimum",
+            "impact": "Informational",
+            "line": 237,
+            "line_end": 243,
+            "message": "RC.changeMinimum (RC.sol#237-243) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "RC",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "function": "fallback",
+            "impact": "Informational",
+            "line": 281,
+            "line_end": 287,
+            "message": "RC.fallback (RC.sol#281-287) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "RC",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "function": "refundEther",
+            "impact": "Informational",
+            "line": 355,
+            "line_end": 360,
+            "message": "RC.refundEther (RC.sol#355-360) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "RC",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "function": "withdraw",
+            "impact": "Informational",
+            "line": 361,
+            "line_end": 363,
+            "message": "RC.withdraw (RC.sol#361-363) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "RC",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "function": "userBalance",
+            "impact": "Informational",
+            "line": 365,
+            "line_end": 371,
+            "message": "RC.userBalance (RC.sol#365-371) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "TokenSale",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "function": "buyFromRC",
+            "impact": "Informational",
+            "line": 416,
+            "line_end": 452,
+            "message": "TokenSale.buyFromRC (RC.sol#416-452) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "TokenSale",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "function": "addMeByRC",
+            "impact": "Informational",
+            "line": 462,
+            "line_end": 468,
+            "message": "TokenSale.addMeByRC (RC.sol#462-468) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "TokenSale",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "function": "withdraw",
+            "impact": "Informational",
+            "line": 473,
+            "line_end": 476,
+            "message": "TokenSale.withdraw (RC.sol#473-476) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "TokenSale",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "function": "withdrawTokens",
+            "impact": "Informational",
+            "line": 477,
+            "line_end": 482,
+            "message": "TokenSale.withdrawTokens (RC.sol#477-482) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "TokenSale",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "function": "setTokenContract",
+            "impact": "Informational",
+            "line": 484,
+            "line_end": 488,
+            "message": "TokenSale.setTokenContract (RC.sol#484-488) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "TokenSale",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "function": "setWalletAddress",
+            "impact": "Informational",
+            "line": 488,
+            "line_end": 489,
+            "message": "TokenSale.setWalletAddress (RC.sol#488-489) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "TokenSale",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "function": "setAdvisorAddress",
+            "impact": "Informational",
+            "line": 489,
+            "line_end": 495,
+            "message": "TokenSale.setAdvisorAddress (RC.sol#489-495) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "TokenSale",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "function": "setAdvisorFee",
+            "impact": "Informational",
+            "message": "TokenSale.setAdvisorFee (RC.sol) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "TokenSale",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "function": "setRateContract",
+            "impact": "Informational",
+            "message": "TokenSale.setRateContract (RC.sol) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "TokenSale",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "function": "claim",
+            "impact": "Informational",
+            "message": "TokenSale.claim (RC.sol) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "TokenSale",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "function": "fallback",
+            "impact": "Informational",
+            "message": "TokenSale.fallback (RC.sol) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "impact": "Informational",
+            "line": 1,
+            "message": "Detected issues with version pragma in RC.sol:\n\t- pragma solidity^0.4.19 (RC.sol#1): it allows old versions\n",
+            "name": "solc-version"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "impact": "Informational",
+            "line": 49,
+            "line_end": 53,
+            "message": "Function 'Ownable.Ownable' (RC.sol#49-53) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "impact": "Informational",
+            "line": 72,
+            "line_end": 77,
+            "message": "Contract 'tokenInterface' (RC.sol#72-77) is not in CapWords\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "impact": "Informational",
+            "line": 77,
+            "line_end": 82,
+            "message": "Contract 'rateInterface' (RC.sol#77-82) is not in CapWords\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "impact": "Informational",
+            "line": 123,
+            "line_end": 127,
+            "message": "Function 'KYCBase.KYCBase' (RC.sol#123-127) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "impact": "Informational",
+            "line": 187,
+            "line_end": 213,
+            "message": "Function 'RC.RC' (RC.sol#187-213) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "impact": "Informational",
+            "line": 187,
+            "message": "Parameter '_tokenSaleContract' of RC.RC (RC.sol#187) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "impact": "Informational",
+            "line": 187,
+            "message": "Parameter '_oneTokenInUsdWei' of RC.RC (RC.sol#187) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "impact": "Informational",
+            "line": 187,
+            "line_end": 188,
+            "message": "Parameter '_remainingTokens' of RC.RC (RC.sol#187-188) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "impact": "Informational",
+            "line": 188,
+            "message": "Parameter '_etherMinimum' of RC.RC (RC.sol#188) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "impact": "Informational",
+            "line": 188,
+            "line_end": 189,
+            "message": "Parameter '_startTime' of RC.RC (RC.sol#188-189) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "impact": "Informational",
+            "line": 189,
+            "message": "Parameter '_endTime' of RC.RC (RC.sol#189) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "impact": "Informational",
+            "line": 190,
+            "message": "Parameter '_tokenThreshold' of RC.RC (RC.sol#190) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "impact": "Informational",
+            "line": 190,
+            "line_end": 191,
+            "message": "Parameter '_bonusThreshold' of RC.RC (RC.sol#190-191) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "impact": "Informational",
+            "line": 215,
+            "message": "Parameter '_startTime' of RC.setTimeRC (RC.sol#215) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "impact": "Informational",
+            "line": 215,
+            "line_end": 216,
+            "message": "Parameter '_endTime' of RC.setTimeRC (RC.sol#215-216) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "impact": "Informational",
+            "line": 232,
+            "message": "Parameter '_newStart' of RC.setTime (RC.sol#232) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "impact": "Informational",
+            "line": 232,
+            "line_end": 233,
+            "message": "Parameter '_newEnd' of RC.setTime (RC.sol#232-233) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "impact": "Informational",
+            "line": 238,
+            "line_end": 239,
+            "message": "Parameter '_newEtherMinimum' of RC.changeMinimum (RC.sol#238-239) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "impact": "Informational",
+            "line": 290,
+            "message": "Parameter '_buyer' of RC.takeEther (RC.sol#290) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "impact": "Informational",
+            "line": 323,
+            "message": "Parameter '_buyer' of RC.giveToken (RC.sol#323) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "impact": "Informational",
+            "line": 336,
+            "message": "Parameter '_buyer' of RC.claimTokenBonus (RC.sol#336) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "impact": "Informational",
+            "line": 365,
+            "line_end": 366,
+            "message": "Parameter '_user' of RC.userBalance (RC.sol#365-366) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "impact": "Informational",
+            "line": 386,
+            "line_end": 394,
+            "message": "Function 'TokenSale.TokenSale' (RC.sol#386-394) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "impact": "Informational",
+            "line": 386,
+            "message": "Parameter '_tokenAddress' of TokenSale.TokenSale (RC.sol#386) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "impact": "Informational",
+            "line": 386,
+            "message": "Parameter '_rateAddress' of TokenSale.TokenSale (RC.sol#386) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "impact": "Informational",
+            "line": 386,
+            "line_end": 387,
+            "message": "Parameter '_startTime' of TokenSale.TokenSale (RC.sol#386-387) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "impact": "Informational",
+            "line": 387,
+            "message": "Parameter '_endTime' of TokenSale.TokenSale (RC.sol#387) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "impact": "Informational",
+            "line": 394,
+            "line_end": 395,
+            "message": "Parameter '_oneTokenInUsdWei' of TokenSale.tokenValueInEther (RC.sol#394-395) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "impact": "Informational",
+            "line": 416,
+            "message": "Parameter '_buyer' of TokenSale.buyFromRC (RC.sol#416) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "impact": "Informational",
+            "line": 416,
+            "line_end": 417,
+            "message": "Parameter '_rcTokenValue' of TokenSale.buyFromRC (RC.sol#416-417) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "impact": "Informational",
+            "line": 417,
+            "message": "Parameter '_remainingTokens' of TokenSale.buyFromRC (RC.sol#417) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "impact": "Informational",
+            "line": 454,
+            "line_end": 455,
+            "message": "Parameter '_amount' of TokenSale.forward (RC.sol#454-455) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "impact": "Informational",
+            "line": 468,
+            "message": "Parameter '_newStart' of TokenSale.setTime (RC.sol#468) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "impact": "Informational",
+            "line": 468,
+            "message": "Parameter '_newEnd' of TokenSale.setTime (RC.sol#468) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "impact": "Informational",
+            "line": 484,
+            "message": "Parameter '_tokenContract' of TokenSale.setTokenContract (RC.sol#484) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "impact": "Informational",
+            "line": 488,
+            "message": "Parameter '_wallet' of TokenSale.setWalletAddress (RC.sol#488) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "impact": "Informational",
+            "line": 492,
+            "message": "Parameter '_advisor' of TokenSale.setAdvisorAddress (RC.sol#492) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "impact": "Informational",
+            "message": "Parameter '_advisorFee' of TokenSale.setAdvisorFee (RC.sol) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "impact": "Informational",
+            "message": "Parameter '_rateAddress' of TokenSale.setRateContract (RC.sol) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "impact": "Informational",
+            "message": "Parameter '_buyer' of TokenSale.claim (RC.sol) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x403E518F21F5Ce308085Dcf6637758C61f92446A/RC.sol",
+            "impact": "Informational",
+            "message": "Parameter '_amount' of TokenSale.claim (RC.sol) is not in mixedCase\n",
+            "name": "naming-convention"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "slither",
+        "mode": "solidity",
+        "version": "2022/11/14"
+    }
+}

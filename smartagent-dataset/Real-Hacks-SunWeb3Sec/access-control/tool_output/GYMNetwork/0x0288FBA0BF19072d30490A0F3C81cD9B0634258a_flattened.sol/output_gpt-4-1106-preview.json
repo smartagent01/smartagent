@@ -1,0 +1,2 @@
+transferPoolRewards
+The `transferPoolRewards` function can transfer out the pool rewards without specific access control, relying on the `onlyRunnerScript` modifier, which should be reviewed to ensure it's secure.

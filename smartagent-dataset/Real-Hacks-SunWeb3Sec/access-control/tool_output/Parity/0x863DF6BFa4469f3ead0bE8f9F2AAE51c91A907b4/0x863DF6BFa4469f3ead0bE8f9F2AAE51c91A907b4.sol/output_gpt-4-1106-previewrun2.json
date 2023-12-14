@@ -1,0 +1,10 @@
+```
+Wallet
+The `initWallet` function is publicly callable and may lead to re-initialization if the `only_uninitialized` modifier is bypassed or incorrectly implemented.
+
+execute
+The `execute` function may allow an owner to perform an external call to an arbitrary contract without sufficient checks if the daily limit has not been reached or only one owner is required.
+
+_walletLibrary
+The hardcoded `_walletLibrary` address poses a risk if the library is compromised or incorrectly implemented, potentially allowing unauthorized delegate calls.
+```

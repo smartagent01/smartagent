@@ -1,0 +1,246 @@
+{
+  "/smart-agent/smartagent-dataset/AccessControl/CVE/0x9924A7E3A2756Ab8B9A828485f052b6693AaA33E/BAFCToken.sol": [
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.mul",
+      "info": "mul",
+      "loc": [
+        4,
+        2,
+        8,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.div",
+      "info": "div",
+      "loc": [
+        10,
+        2,
+        13,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.sub",
+      "info": "sub",
+      "loc": [
+        15,
+        2,
+        18,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.add",
+      "info": "add",
+      "loc": [
+        20,
+        2,
+        24,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.assert",
+      "info": "assert",
+      "loc": [
+        26,
+        2,
+        30,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20Basic.balanceOf",
+      "info": "balanceOf",
+      "loc": [
+        36,
+        2,
+        36,
+        57
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20Basic.transfer",
+      "info": "transfer",
+      "loc": [
+        37,
+        2,
+        37,
+        43
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20Basic.allowance",
+      "info": "allowance",
+      "loc": [
+        40,
+        2,
+        40,
+        76
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20Basic.transferFrom",
+      "info": "transferFrom",
+      "loc": [
+        41,
+        2,
+        41,
+        61
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20Basic.approve",
+      "info": "approve",
+      "loc": [
+        42,
+        2,
+        42,
+        47
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: BasicToken.transfer",
+      "info": "transfer",
+      "loc": [
+        108,
+        2,
+        116,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: BasicToken.balanceOf",
+      "info": "balanceOf",
+      "loc": [
+        118,
+        2,
+        120,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: BasicToken.freezeAccount",
+      "info": "freezeAccount",
+      "loc": [
+        125,
+        2,
+        128,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: BasicToken.accountFrozenStatus",
+      "info": "accountFrozenStatus",
+      "loc": [
+        130,
+        2,
+        132,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: BasicToken.transferOwnership",
+      "info": "transferOwnership",
+      "loc": [
+        134,
+        2,
+        140,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: BasicToken.switchLiquidity",
+      "info": "switchLiquidity",
+      "loc": [
+        142,
+        2,
+        145,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: BasicToken.liquidityStatus",
+      "info": "liquidityStatus",
+      "loc": [
+        147,
+        2,
+        149,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: StandardToken.transferFrom",
+      "info": "transferFrom",
+      "loc": [
+        157,
+        2,
+        167,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: StandardToken.approve",
+      "info": "approve",
+      "loc": [
+        169,
+        2,
+        174,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: StandardToken.allowance",
+      "info": "allowance",
+      "loc": [
+        176,
+        2,
+        178,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: BAFCToken.UBSexToken",
+      "info": "UBSexToken",
+      "loc": [
+        190,
+        4,
+        194,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: BAFCToken.__fallback__",
+      "info": "__fallback__",
+      "loc": [
+        196,
+        4,
+        198,
+        4
+      ]
+    }
+  ]
+}

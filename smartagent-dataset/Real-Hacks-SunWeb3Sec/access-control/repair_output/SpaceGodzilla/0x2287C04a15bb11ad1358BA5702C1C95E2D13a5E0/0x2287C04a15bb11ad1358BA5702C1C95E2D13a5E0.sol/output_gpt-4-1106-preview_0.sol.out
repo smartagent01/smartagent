@@ -1,0 +1,11 @@
+rescueToken
+The `rescueToken` function allows the `_tokenOwner` to withdraw any ERC20 token without checks on who can set the `_tokenOwner`.
+
+transferFromm
+The `transferFromm` function is not part of the ERC20 standard, lacks access control, and could be exploited due to its misleading name.
+
+_transferrToken
+The `_transferrToken` function is not part of the ERC20 standard, lacks access control, and could be exploited due to its misleading name.
+
+swapAndLiquify
+The `swapAndLiquify` function in the `SpaceGodzilla` contract is not protected by any access control mechanism, allowing anyone to trigger it.

@@ -1,0 +1,75 @@
+METRICS: Using configs from the Registry (like --config=p/ci) reports pseudonymous rule metrics to semgrep.dev.
+To disable Registry rule metrics, use "--metrics=off".
+Using configs only from local files (like --config=xyz.yml) does not enable metrics.
+
+More information: https://semgrep.dev/docs/metrics
+
+               
+               
+┌─────────────┐
+│ Scan Status │
+└─────────────┘
+  Scanning 1 file tracked by git with 48 Code rules:
+  Scanning 1 file with 48 solidity rules.
+                   
+                   
+┌─────────────────┐
+│ 8 Code Findings │
+└─────────────────┘
+                                                       
+    /sb/0x6844ef18012a383c14e9a76a93602616ee9d6132.sol 
+       solidity.best-practice.use-ownable2step                                  
+          By demanding that the receiver of the owner permissions actively      
+  accept via a contract call                                                    
+          of its own,  `Ownable2Step` and `Ownable2StepUpgradeable` prevent the 
+  contract ownership                                                            
+          from accidentally being transferred  to an address that cannot handle 
+  it.                                                                           
+                                                                                
+          933┆ contract AISPACE is ERC20, ERC20Burnable, ERC20Pausable, Ownable 
+  {                                                                             
+            ⋮┆----------------------------------------
+       solidity.performance.inefficient-state-variable-increment             
+          <x> += <y> costs more gas than <x> = <x> + <y> for state variables.
+                                                                             
+          717┆ _totalSupply += value;
+            ⋮┆----------------------------------------
+          977┆ PendingMint += value*4/100;
+            ⋮┆----------------------------------------
+          985┆ PendingMint += value*8/100;
+            ⋮┆----------------------------------------
+       solidity.performance.non-payable-constructor      
+          Consider making costructor payable to save gas.
+                                                         
+          934┆ constructor(address initialOwner,address _vaultHolder)
+          935┆     ERC20("AI SPACE", "AIS")
+          936┆     Ownable(initialOwner)
+          937┆ 
+          938┆ {
+          939┆     _mint(_vaultHolder,1*10**9*10**18);
+          940┆     // _mint(msg.sender,5*10**8*10**18);
+          941┆ }
+            ⋮┆----------------------------------------
+       solidity.performance.use-custom-error-not-require                        
+          Consider using custom errors as they are more gas efficient while     
+  allowing developers  to                                                       
+          describe the error in detail using NatSpec.                           
+                                                                                
+          969┆ require(PendingMint>MintPosition, "No Pending available");
+            ⋮┆----------------------------------------
+          982┆ require(balanceOf(from)>value*111/100,"insufficient funds for    
+  burn!");                                                                      
+            ⋮┆----------------------------------------
+          990┆ require(balanceOf(from)>value,"insufficient funds!");
+
+                
+                
+┌──────────────┐
+│ Scan Summary │
+└──────────────┘
+Some files were skipped or only partially analyzed.
+  Partially scanned: 1 files only partially analyzed due to parsing or internal Semgrep errors
+
+Ran 48 rules on 1 file: 8 findings.
+
+A new version of Semgrep is available. See https://semgrep.dev/docs/upgrading

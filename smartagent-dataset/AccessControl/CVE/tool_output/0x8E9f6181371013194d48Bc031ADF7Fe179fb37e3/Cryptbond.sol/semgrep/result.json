@@ -1,0 +1,229 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "line": 120,
+            "message": "Caching the array length outside a loop saves reading it on each iteration, as long as the array's length is not changed during the loop.",
+            "name": "array-length-outside-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "line": 126,
+            "message": "Caching the array length outside a loop saves reading it on each iteration, as long as the array's length is not changed during the loop.",
+            "name": "array-length-outside-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "line": 155,
+            "message": "Caching the array length outside a loop saves reading it on each iteration, as long as the array's length is not changed during the loop.",
+            "name": "array-length-outside-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "line": 170,
+            "message": "Caching the array length outside a loop saves reading it on each iteration, as long as the array's length is not changed during the loop.",
+            "name": "array-length-outside-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "line": 185,
+            "message": "Caching the array length outside a loop saves reading it on each iteration, as long as the array's length is not changed during the loop.",
+            "name": "array-length-outside-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "line": 65,
+            "message": "Uninitialized variables are assigned with the types default value. Explicitly initializing a variable with its default value costs unnecessary gas.",
+            "name": "init-variables-with-default-value"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "line": 66,
+            "message": "Uninitialized variables are assigned with the types default value. Explicitly initializing a variable with its default value costs unnecessary gas.",
+            "name": "init-variables-with-default-value"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "line": 67,
+            "message": "Uninitialized variables are assigned with the types default value. Explicitly initializing a variable with its default value costs unnecessary gas.",
+            "name": "init-variables-with-default-value"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "line": 68,
+            "message": "Uninitialized variables are assigned with the types default value. Explicitly initializing a variable with its default value costs unnecessary gas.",
+            "name": "init-variables-with-default-value"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "line": 79,
+            "message": "Uninitialized variables are assigned with the types default value. Explicitly initializing a variable with its default value costs unnecessary gas.",
+            "name": "init-variables-with-default-value"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "line": 121,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "line": 127,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "line": 156,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "line": 156,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "line": 157,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "line": 171,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "line": 186,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "line": 189,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "line": 189,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "line": 190,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "line": 120,
+            "message": "A lot of times there is no risk that the loop counter can overflow. Using Solidity's unchecked block saves the overflow checks.",
+            "name": "unnecessary-checked-arithmetic-in-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "line": 126,
+            "message": "A lot of times there is no risk that the loop counter can overflow. Using Solidity's unchecked block saves the overflow checks.",
+            "name": "unnecessary-checked-arithmetic-in-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "line": 155,
+            "message": "A lot of times there is no risk that the loop counter can overflow. Using Solidity's unchecked block saves the overflow checks.",
+            "name": "unnecessary-checked-arithmetic-in-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "line": 170,
+            "message": "A lot of times there is no risk that the loop counter can overflow. Using Solidity's unchecked block saves the overflow checks.",
+            "name": "unnecessary-checked-arithmetic-in-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "line": 185,
+            "message": "A lot of times there is no risk that the loop counter can overflow. Using Solidity's unchecked block saves the overflow checks.",
+            "name": "unnecessary-checked-arithmetic-in-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "line": 261,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "line": 120,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "line": 126,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "line": 155,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "line": 170,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x8E9f6181371013194d48Bc031ADF7Fe179fb37e3/Cryptbond.sol",
+            "line": 185,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "semgrep",
+        "mode": "solidity",
+        "version": "2023/08/21"
+    }
+}

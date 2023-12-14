@@ -1,0 +1,40 @@
+Running SPCON... 0x9008d19f58aabd9ed0d60971565aa8510560ab41 600 2022-05-23
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/SpCon-0.1.0-py3.8.egg/spcon/__main__.py", line 67, in main
+    execute_command(args)
+  File "/usr/local/lib/python3.8/dist-packages/SpCon-0.1.0-py3.8.egg/spcon/__main__.py", line 27, in execute_command
+    contractName, contractAbi, reads, reads2, writes =  getRWofContract(address=args.eth_address)
+  File "/usr/local/lib/python3.8/dist-packages/SpCon-0.1.0-py3.8.egg/spcon/staticAnalyzer.py", line 23, in getRWofContract
+    contractName, contractAbi, reads, reads2,  writes = analyzer.analyze(address=address)
+  File "/usr/local/lib/python3.8/dist-packages/SpCon-0.1.0-py3.8.egg/spcon/staticAnalyzer.py", line 49, in analyze
+    slither = Slither(cc)
+  File "/usr/local/lib/python3.8/dist-packages/slither_analyzer-0.8.0-py3.8.egg/slither/slither.py", line 102, in __init__
+    parser.parse_contracts()
+  File "/usr/local/lib/python3.8/dist-packages/slither_analyzer-0.8.0-py3.8.egg/slither/solc_parsing/slither_compilation_unit_solc.py", line 384, in parse_contracts
+    self._analyze_third_part(contracts_to_be_analyzed, libraries)
+  File "/usr/local/lib/python3.8/dist-packages/slither_analyzer-0.8.0-py3.8.egg/slither/solc_parsing/slither_compilation_unit_solc.py", line 490, in _analyze_third_part
+    self._analyze_variables_modifiers_functions(contract)
+  File "/usr/local/lib/python3.8/dist-packages/slither_analyzer-0.8.0-py3.8.egg/slither/solc_parsing/slither_compilation_unit_solc.py", line 556, in _analyze_variables_modifiers_functions
+    contract.analyze_content_functions()
+  File "/usr/local/lib/python3.8/dist-packages/slither_analyzer-0.8.0-py3.8.egg/slither/solc_parsing/declarations/contract.py", line 354, in analyze_content_functions
+    function_parser.analyze_content()
+  File "/usr/local/lib/python3.8/dist-packages/slither_analyzer-0.8.0-py3.8.egg/slither/solc_parsing/declarations/function.py", line 319, in analyze_content
+    node_parser.analyze_expressions()
+  File "/usr/local/lib/python3.8/dist-packages/slither_analyzer-0.8.0-py3.8.egg/slither/solc_parsing/yul/parse_yul.py", line 319, in analyze_expressions
+    node.analyze_expressions()
+  File "/usr/local/lib/python3.8/dist-packages/slither_analyzer-0.8.0-py3.8.egg/slither/solc_parsing/yul/parse_yul.py", line 59, in analyze_expressions
+    expression = parse_yul(self._scope, self, self._unparsed_expression)
+  File "/usr/local/lib/python3.8/dist-packages/slither_analyzer-0.8.0-py3.8.egg/slither/solc_parsing/yul/parse_yul.py", line 781, in parse_yul
+    op = parsers.get(ast["nodeType"], parse_yul_unsupported)(root, node, ast)
+  File "/usr/local/lib/python3.8/dist-packages/slither_analyzer-0.8.0-py3.8.egg/slither/solc_parsing/yul/parse_yul.py", line 673, in parse_yul_function_call
+    args = [parse_yul(root, node, arg) for arg in ast["arguments"]]
+  File "/usr/local/lib/python3.8/dist-packages/slither_analyzer-0.8.0-py3.8.egg/slither/solc_parsing/yul/parse_yul.py", line 673, in <listcomp>
+    args = [parse_yul(root, node, arg) for arg in ast["arguments"]]
+  File "/usr/local/lib/python3.8/dist-packages/slither_analyzer-0.8.0-py3.8.egg/slither/solc_parsing/yul/parse_yul.py", line 781, in parse_yul
+    op = parsers.get(ast["nodeType"], parse_yul_unsupported)(root, node, ast)
+  File "/usr/local/lib/python3.8/dist-packages/slither_analyzer-0.8.0-py3.8.egg/slither/solc_parsing/yul/parse_yul.py", line 752, in parse_yul_identifier
+    raise SlitherException(f"unresolved reference to identifier {name}")
+slither.exceptions.SlitherException: unresolved reference to identifier callData.offset
+Installing solc '0.7.6'...
+Version '0.7.6' installed.
+total timecost: 16.12731623649597 seconds

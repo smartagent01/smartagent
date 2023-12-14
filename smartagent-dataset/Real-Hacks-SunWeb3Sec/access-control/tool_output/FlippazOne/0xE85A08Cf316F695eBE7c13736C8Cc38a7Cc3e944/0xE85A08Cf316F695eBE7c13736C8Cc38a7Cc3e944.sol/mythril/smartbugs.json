@@ -1,0 +1,50 @@
+{
+    "docker": {
+        "command": null,
+        "detach": true,
+        "entrypoint": "'/sb/bin/do_solidity.sh' '/sb/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol' '600' '/sb/bin' '0'",
+        "image": "smartbugs/mythril:0.23.15",
+        "user": 0,
+        "volumes": {
+            "/tmp/tmpioqz9c6u": {
+                "bind": "/sb",
+                "mode": "rw"
+            }
+        }
+    },
+    "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/FlippazOne/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944.sol",
+    "platform": {
+        "cpu": "AMD EPYC 7513 32-Core Processor",
+        "python": "3.9.12.final.0 (64 bit)",
+        "release": "5.4.0-163-generic",
+        "smartbugs": "2.0.8",
+        "system": "Linux",
+        "version": "#180-Ubuntu SMP Tue Sep 5 13:21:23 UTC 2023"
+    },
+    "result": {
+        "duration": 8.58953070640564,
+        "exit_code": 1,
+        "logs": "result.log",
+        "output": null,
+        "start": 1702378585.5101013
+    },
+    "runid": "20231212_1056",
+    "solc": "0.8.23",
+    "tool": {
+        "bin": "scripts",
+        "command": null,
+        "cpu_quota": null,
+        "entrypoint": "'$BIN/do_solidity.sh' '$FILENAME' '$TIMEOUT' '$BIN' '$MAIN'",
+        "id": "mythril-0.23.15",
+        "image": "smartbugs/mythril:0.23.15",
+        "info": "Mythril analyses EVM bytecode using symbolic analysis, taint analysis and control flow checking to detect a variety of security vulnerabilities.",
+        "mem_limit": null,
+        "mode": "solidity",
+        "name": "Mythril",
+        "origin": "https://github.com/ConsenSys/mythril",
+        "output": null,
+        "parser": "parser.py",
+        "solc": true,
+        "version": "0.23.15"
+    }
+}

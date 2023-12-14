@@ -1,0 +1,176 @@
+File copied : /root/sailfish/code/static_analysis/analysis/EtherCartel.sol
+processing /root/sailfish/code/static_analysis/analysis/EtherCartel.sol
+Installing solc '0.4.26'...
+Version '0.4.26' installed.
+Switched global version to 0.4.26
+[INFO] | 2023-12-05 02:52:12 AM | analyzer.EtherCartel | Analysis started at: 2023-12-05 02:52:12 AM
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Version constraints: ['^0.4.18']
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | solc version: v0.4.18
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Callgraph generation started!
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Callgraph generation finished!
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Interprocedural CFG generation started!
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Interprocedural CFG generation finished!
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Storage dependency graph generation started!
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Storage dependency graph generation finished!
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Value Range Analysis started
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Generating return summary for DrugDealer
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Return summary generated for DrugDealer
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Range graph generated
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Processed function DrugDealer
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Generating return summary for seedMarket
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Return summary generated for seedMarket
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Range graph generated
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Processed function seedMarket
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Generating return summary for getFreeKilo
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Return summary generated for getFreeKilo
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Range graph generated
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Processed function getFreeKilo
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Generating return summary for getBalance
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Return summary generated for getBalance
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | State variable assignement do not exist
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Processed function getBalance
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Generating return summary for getMyKilo
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Return summary generated for getMyKilo
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | State variable assignement do not exist
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Processed function getMyKilo
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Generating return summary for min
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Return summary generated for min
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | State variable assignement do not exist
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Processed function min
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Generating return summary for slitherConstructorVariables
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Return summary generated for slitherConstructorVariables
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Range graph generated
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Processed function slitherConstructorVariables
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Generating return summary for add
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Return summary generated for add
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | State variable assignement do not exist
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Processed function add
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Generating return summary for div
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Return summary generated for div
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | State variable assignement do not exist
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Processed function div
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Generating return summary for sub
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Return summary generated for sub
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | State variable assignement do not exist
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Processed function sub
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Generating return summary for mul
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Return summary generated for mul
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | State variable assignement do not exist
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Processed function mul
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Generating return summary for getDrugsSinceLastCollect
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Return summary generated for getDrugsSinceLastCollect
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | State variable assignement do not exist
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Processed function getDrugsSinceLastCollect
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Generating return summary for calculateTrade
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Return summary generated for calculateTrade
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | State variable assignement do not exist
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Processed function calculateTrade
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Generating return summary for devFee
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Return summary generated for devFee
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | State variable assignement do not exist
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Processed function devFee
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Generating return summary for getMyDrugs
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Return summary generated for getMyDrugs
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | State variable assignement do not exist
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Processed function getMyDrugs
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Generating return summary for calculateDrugSell
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Return summary generated for calculateDrugSell
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | State variable assignement do not exist
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Processed function calculateDrugSell
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Generating return summary for calculateDrugBuy
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Return summary generated for calculateDrugBuy
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | State variable assignement do not exist
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Processed function calculateDrugBuy
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Generating return summary for collectDrugs
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Return summary generated for collectDrugs
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Range graph generated
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Processed function collectDrugs
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Generating return summary for sellDrugs
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Return summary generated for sellDrugs
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Range graph generated
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Processed function sellDrugs
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Generating return summary for buyDrugs
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Return summary generated for buyDrugs
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Range graph generated
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Processed function buyDrugs
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Generating return summary for calculateDrugBuySimple
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Return summary generated for calculateDrugBuySimple
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | State variable assignement do not exist
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Processed function calculateDrugBuySimple
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Value Range Analysis took 0.007799 seconds
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Value Range Analysis finished
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Storage dependency graph compostion started!
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Storage dependency graph compostion finished!
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Dependency detection started!
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Dependency detection finished!
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Static Analysis took 1.497120 seconds
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Dependency does not exist
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Symbolic execution is not needed!
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Analysis finished!
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Analysis took 1.497293 seconds
+[INFO] | 2023-12-05 02:52:13 AM | analyzer.EtherCartel | Analysis finished at: 2023-12-05 02:52:13 AM
+[36m[#] Analysing started: EtherCartel.sol[0m
+/root/.solc-select/artifacts/solc-0.4.26
+[36m[#] Interprocedural CFG generation started for DrugDealer[0m
+[36m[#] Interprocedural CFG generated for DrugDealer[0m
+[36m[#] Interprocedural CFG generation started for collectDrugs[0m
+[36m[#] Interprocedural CFG generated for collectDrugs[0m
+[36m[#] Interprocedural CFG generation started for sellDrugs[0m
+[36m[#] Interprocedural CFG generated for sellDrugs[0m
+[36m[#] Interprocedural CFG generation started for buyDrugs[0m
+[36m[#] Interprocedural CFG generated for buyDrugs[0m
+[36m[#] Interprocedural CFG generation started for calculateTrade[0m
+[36m[#] Interprocedural CFG generated for calculateTrade[0m
+[36m[#] Interprocedural CFG generation started for calculateDrugSell[0m
+[36m[#] Interprocedural CFG generated for calculateDrugSell[0m
+[36m[#] Interprocedural CFG generation started for calculateDrugBuy[0m
+[36m[#] Interprocedural CFG generated for calculateDrugBuy[0m
+[36m[#] Interprocedural CFG generation started for calculateDrugBuySimple[0m
+[36m[#] Interprocedural CFG generated for calculateDrugBuySimple[0m
+[36m[#] Interprocedural CFG generation started for devFee[0m
+[36m[#] Interprocedural CFG generated for devFee[0m
+[36m[#] Interprocedural CFG generation started for seedMarket[0m
+[36m[#] Interprocedural CFG generated for seedMarket[0m
+[36m[#] Interprocedural CFG generation started for getFreeKilo[0m
+[36m[#] Interprocedural CFG generated for getFreeKilo[0m
+[36m[#] Interprocedural CFG generation started for getBalance[0m
+[36m[#] Interprocedural CFG generated for getBalance[0m
+[36m[#] Interprocedural CFG generation started for getMyKilo[0m
+[36m[#] Interprocedural CFG generated for getMyKilo[0m
+[36m[#] Interprocedural CFG generation started for getMyDrugs[0m
+[36m[#] Interprocedural CFG generated for getMyDrugs[0m
+[36m[#] Interprocedural CFG generation started for getDrugsSinceLastCollect[0m
+[36m[#] Interprocedural CFG generated for getDrugsSinceLastCollect[0m
+[36m[#] SDG generation started for DrugDealer[0m
+[36m[#] SDG generated for DrugDealer[0m
+[36m[#] SDG generation started for collectDrugs[0m
+[36m[#] SDG generated for collectDrugs[0m
+[36m[#] SDG generation started for sellDrugs[0m
+[36m[#] SDG generated for sellDrugs[0m
+[36m[#] SDG generation started for buyDrugs[0m
+[36m[#] SDG generated for buyDrugs[0m
+[36m[#] SDG generation started for calculateTrade[0m
+[36m[#] SDG generated for calculateTrade[0m
+[36m[#] SDG generation started for calculateDrugSell[0m
+[36m[#] SDG generated for calculateDrugSell[0m
+[36m[#] SDG generation started for calculateDrugBuy[0m
+[36m[#] SDG generated for calculateDrugBuy[0m
+[36m[#] SDG generation started for calculateDrugBuySimple[0m
+[36m[#] SDG generated for calculateDrugBuySimple[0m
+[36m[#] SDG generation started for devFee[0m
+[36m[#] SDG generated for devFee[0m
+[36m[#] SDG generation started for seedMarket[0m
+[36m[#] SDG generated for seedMarket[0m
+[36m[#] SDG generation started for getFreeKilo[0m
+[36m[#] SDG generated for getFreeKilo[0m
+[36m[#] SDG generation started for getBalance[0m
+[36m[#] SDG generated for getBalance[0m
+[36m[#] SDG generation started for getMyKilo[0m
+[36m[#] SDG generated for getMyKilo[0m
+[36m[#] SDG generation started for getMyDrugs[0m
+[36m[#] SDG generated for getMyDrugs[0m
+[36m[#] SDG generation started for getDrugsSinceLastCollect[0m
+[36m[#] SDG generated for getDrugsSinceLastCollect[0m
+[36m[#] Analysis took 1.497293 seconds[0m
+[36m[#] Analysis completed: EtherCartel.sol [0m
+7782688bf138ffaca12474278089b10272a5d2950a6bb841371dd30fa5e320ae

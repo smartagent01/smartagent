@@ -1,0 +1,824 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 1779,
+            "message": "To guarantee arguments type safety it is recommended to use `abi.encodeCall` instead of `abi.encodeWithSelector`.",
+            "name": "use-abi-encodecall-instead-of-encodewithselector"
+        },
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 1788,
+            "message": "To guarantee arguments type safety it is recommended to use `abi.encodeCall` instead of `abi.encodeWithSelector`.",
+            "name": "use-abi-encodecall-instead-of-encodewithselector"
+        },
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 1810,
+            "message": "To guarantee arguments type safety it is recommended to use `abi.encodeCall` instead of `abi.encodeWithSelector`.",
+            "name": "use-abi-encodecall-instead-of-encodewithselector"
+        },
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 1819,
+            "message": "To guarantee arguments type safety it is recommended to use `abi.encodeCall` instead of `abi.encodeWithSelector`.",
+            "name": "use-abi-encodecall-instead-of-encodewithselector"
+        },
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 1831,
+            "message": "To guarantee arguments type safety it is recommended to use `abi.encodeCall` instead of `abi.encodeWithSelector`.",
+            "name": "use-abi-encodecall-instead-of-encodewithselector"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2213,
+            "message": "Caching the array length outside a loop saves reading it on each iteration, as long as the array's length is not changed during the loop.",
+            "name": "array-length-outside-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 1408,
+            "message": "<x> += <y> costs more gas than <x> = <x> + <y> for state variables.",
+            "name": "inefficient-state-variable-increment"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2547,
+            "message": "<x> += <y> costs more gas than <x> = <x> + <y> for state variables.",
+            "name": "inefficient-state-variable-increment"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2562,
+            "message": "<x> += <y> costs more gas than <x> = <x> + <y> for state variables.",
+            "name": "inefficient-state-variable-increment"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2705,
+            "message": "<x> += <y> costs more gas than <x> = <x> + <y> for state variables.",
+            "name": "inefficient-state-variable-increment"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 1200,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 1201,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 1202,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 1203,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2199,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2200,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2201,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2202,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2203,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2204,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2205,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2206,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2207,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2208,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2442,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2443,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2459,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2460,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2633,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2635,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2844,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2853,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 273,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 496,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 1024,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 1350,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 1377,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 1378,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 1383,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 1404,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 1427,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 1432,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 1461,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 1462,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 1483,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 1599,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 1602,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 1672,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 1673,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 1700,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 1727,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 1806,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 1807,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 1808,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 1809,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 1829,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 1849,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2326,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2327,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2329,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2366,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2367,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2370,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2414,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2468,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2519,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2531,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2532,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2533,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2534,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2535,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2536,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2559,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2563,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2628,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2634,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2649,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2678,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2752,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2805,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2828,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 234,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 256,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 496,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 1350,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 1377,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 1378,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 1383,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 1427,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 1432,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 1461,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 1462,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 1602,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 1672,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 1700,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 1727,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 1806,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 1807,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 1808,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 1809,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 1829,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 1849,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2326,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2366,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2468,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2531,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2533,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2535,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2536,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2563,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2628,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2634,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2649,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2678,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2752,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ReaperFarm/0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D_flattened.sol",
+            "line": 2828,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "semgrep",
+        "mode": "solidity",
+        "version": "2023/08/21"
+    }
+}

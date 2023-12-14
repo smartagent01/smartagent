@@ -1,0 +1,394 @@
+{
+    "errors": [
+        "EXIT_CODE_41"
+    ],
+    "fails": [],
+    "findings": [
+        {
+            "confidence": "High",
+            "contract": "TokenERC20",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ab4FD2234D75CfA894C394b367e48055b531e56/RobotBTC.sol",
+            "function": "transfer",
+            "impact": "Medium",
+            "line": 22,
+            "line_end": 174,
+            "message": "TokenERC20 (RobotBTC.sol#22-174) has incorrect ERC20 function interface(s):\n\t-transfer (RobotBTC.sol#86-92)\n",
+            "name": "erc20-interface"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ab4FD2234D75CfA894C394b367e48055b531e56/RobotBTC.sol",
+            "impact": "Informational",
+            "line": 26,
+            "line_end": 27,
+            "message": "TokenERC20.decimals should be constant (RobotBTC.sol#26-27)\n",
+            "name": "constable-states"
+        },
+        {
+            "confidence": "High",
+            "contract": "Owned",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ab4FD2234D75CfA894C394b367e48055b531e56/RobotBTC.sol",
+            "function": "owned",
+            "impact": "Informational",
+            "line": 6,
+            "line_end": 10,
+            "message": "Owned.owned (RobotBTC.sol#6-10) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "Owned",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ab4FD2234D75CfA894C394b367e48055b531e56/RobotBTC.sol",
+            "function": "transferOwnership",
+            "impact": "Informational",
+            "line": 15,
+            "line_end": 20,
+            "message": "Owned.transferOwnership (RobotBTC.sol#15-20) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "tokenRecipient",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ab4FD2234D75CfA894C394b367e48055b531e56/RobotBTC.sol",
+            "function": "receiveApproval",
+            "impact": "Informational",
+            "line": 20,
+            "line_end": 22,
+            "message": "tokenRecipient.receiveApproval (RobotBTC.sol#20-22) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "TokenERC20",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ab4FD2234D75CfA894C394b367e48055b531e56/RobotBTC.sol",
+            "function": "transfer",
+            "impact": "Informational",
+            "line": 86,
+            "line_end": 92,
+            "message": "TokenERC20.transfer (RobotBTC.sol#86-92) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "TokenERC20",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ab4FD2234D75CfA894C394b367e48055b531e56/RobotBTC.sol",
+            "function": "transferFrom",
+            "impact": "Informational",
+            "line": 98,
+            "line_end": 108,
+            "message": "TokenERC20.transferFrom (RobotBTC.sol#98-108) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "TokenERC20",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ab4FD2234D75CfA894C394b367e48055b531e56/RobotBTC.sol",
+            "function": "approveAndCall",
+            "impact": "Informational",
+            "line": 129,
+            "line_end": 141,
+            "message": "TokenERC20.approveAndCall (RobotBTC.sol#129-141) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "TokenERC20",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ab4FD2234D75CfA894C394b367e48055b531e56/RobotBTC.sol",
+            "function": "burn",
+            "impact": "Informational",
+            "line": 144,
+            "line_end": 156,
+            "message": "TokenERC20.burn (RobotBTC.sol#144-156) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "TokenERC20",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ab4FD2234D75CfA894C394b367e48055b531e56/RobotBTC.sol",
+            "function": "burnFrom",
+            "impact": "Informational",
+            "line": 160,
+            "line_end": 174,
+            "message": "TokenERC20.burnFrom (RobotBTC.sol#160-174) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "RobotBTC",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ab4FD2234D75CfA894C394b367e48055b531e56/RobotBTC.sol",
+            "function": "mintToken",
+            "impact": "Informational",
+            "line": 213,
+            "line_end": 219,
+            "message": "RobotBTC.mintToken (RobotBTC.sol#213-219) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "RobotBTC",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ab4FD2234D75CfA894C394b367e48055b531e56/RobotBTC.sol",
+            "function": "freezeAccount",
+            "impact": "Informational",
+            "line": 224,
+            "line_end": 226,
+            "message": "RobotBTC.freezeAccount (RobotBTC.sol#224-226) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "RobotBTC",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ab4FD2234D75CfA894C394b367e48055b531e56/RobotBTC.sol",
+            "function": "setPrices",
+            "impact": "Informational",
+            "line": 233,
+            "line_end": 236,
+            "message": "RobotBTC.setPrices (RobotBTC.sol#233-236) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "RobotBTC",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ab4FD2234D75CfA894C394b367e48055b531e56/RobotBTC.sol",
+            "function": "buy",
+            "impact": "Informational",
+            "line": 239,
+            "line_end": 242,
+            "message": "RobotBTC.buy (RobotBTC.sol#239-242) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "RobotBTC",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ab4FD2234D75CfA894C394b367e48055b531e56/RobotBTC.sol",
+            "function": "sell",
+            "impact": "Informational",
+            "line": 244,
+            "line_end": 251,
+            "message": "RobotBTC.sell (RobotBTC.sol#244-251) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "RobotBTC",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ab4FD2234D75CfA894C394b367e48055b531e56/RobotBTC.sol",
+            "function": "setExchange",
+            "impact": "Informational",
+            "message": "RobotBTC.setExchange (RobotBTC.sol) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ab4FD2234D75CfA894C394b367e48055b531e56/RobotBTC.sol",
+            "impact": "Informational",
+            "line": 1,
+            "message": "Detected issues with version pragma in RobotBTC.sol:\n\t- pragma solidity^0.4.18 (RobotBTC.sol#1): it allows old versions\n",
+            "name": "solc-version"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ab4FD2234D75CfA894C394b367e48055b531e56/RobotBTC.sol",
+            "impact": "Informational",
+            "line": 20,
+            "line_end": 22,
+            "message": "Contract 'tokenRecipient' (RobotBTC.sol#20-22) is not in CapWords\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ab4FD2234D75CfA894C394b367e48055b531e56/RobotBTC.sol",
+            "impact": "Informational",
+            "line": 46,
+            "line_end": 57,
+            "message": "Function 'TokenERC20.TokenERC20' (RobotBTC.sol#46-57) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ab4FD2234D75CfA894C394b367e48055b531e56/RobotBTC.sol",
+            "impact": "Informational",
+            "line": 59,
+            "line_end": 80,
+            "message": "Function 'TokenERC20._transfer' (RobotBTC.sol#59-80) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ab4FD2234D75CfA894C394b367e48055b531e56/RobotBTC.sol",
+            "impact": "Informational",
+            "line": 60,
+            "message": "Parameter '_from' of TokenERC20._transfer (RobotBTC.sol#60) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ab4FD2234D75CfA894C394b367e48055b531e56/RobotBTC.sol",
+            "impact": "Informational",
+            "line": 60,
+            "message": "Parameter '_to' of TokenERC20._transfer (RobotBTC.sol#60) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ab4FD2234D75CfA894C394b367e48055b531e56/RobotBTC.sol",
+            "impact": "Informational",
+            "line": 60,
+            "message": "Parameter '_value' of TokenERC20._transfer (RobotBTC.sol#60) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ab4FD2234D75CfA894C394b367e48055b531e56/RobotBTC.sol",
+            "impact": "Informational",
+            "line": 87,
+            "line_end": 89,
+            "message": "Parameter '_to' of TokenERC20.transfer (RobotBTC.sol#87-89) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ab4FD2234D75CfA894C394b367e48055b531e56/RobotBTC.sol",
+            "impact": "Informational",
+            "line": 90,
+            "message": "Parameter '_value' of TokenERC20.transfer (RobotBTC.sol#90) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ab4FD2234D75CfA894C394b367e48055b531e56/RobotBTC.sol",
+            "impact": "Informational",
+            "line": 99,
+            "message": "Parameter '_from' of TokenERC20.transferFrom (RobotBTC.sol#99) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ab4FD2234D75CfA894C394b367e48055b531e56/RobotBTC.sol",
+            "impact": "Informational",
+            "line": 99,
+            "message": "Parameter '_to' of TokenERC20.transferFrom (RobotBTC.sol#99) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ab4FD2234D75CfA894C394b367e48055b531e56/RobotBTC.sol",
+            "impact": "Informational",
+            "line": 99,
+            "message": "Parameter '_value' of TokenERC20.transferFrom (RobotBTC.sol#99) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ab4FD2234D75CfA894C394b367e48055b531e56/RobotBTC.sol",
+            "impact": "Informational",
+            "line": 115,
+            "line_end": 116,
+            "message": "Parameter '_spender' of TokenERC20.approve (RobotBTC.sol#115-116) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ab4FD2234D75CfA894C394b367e48055b531e56/RobotBTC.sol",
+            "impact": "Informational",
+            "line": 116,
+            "message": "Parameter '_value' of TokenERC20.approve (RobotBTC.sol#116) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ab4FD2234D75CfA894C394b367e48055b531e56/RobotBTC.sol",
+            "impact": "Informational",
+            "line": 129,
+            "message": "Parameter '_spender' of TokenERC20.approveAndCall (RobotBTC.sol#129) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ab4FD2234D75CfA894C394b367e48055b531e56/RobotBTC.sol",
+            "impact": "Informational",
+            "line": 130,
+            "message": "Parameter '_value' of TokenERC20.approveAndCall (RobotBTC.sol#130) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ab4FD2234D75CfA894C394b367e48055b531e56/RobotBTC.sol",
+            "impact": "Informational",
+            "line": 130,
+            "message": "Parameter '_extraData' of TokenERC20.approveAndCall (RobotBTC.sol#130) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ab4FD2234D75CfA894C394b367e48055b531e56/RobotBTC.sol",
+            "impact": "Informational",
+            "line": 145,
+            "message": "Parameter '_value' of TokenERC20.burn (RobotBTC.sol#145) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ab4FD2234D75CfA894C394b367e48055b531e56/RobotBTC.sol",
+            "impact": "Informational",
+            "line": 160,
+            "line_end": 161,
+            "message": "Parameter '_from' of TokenERC20.burnFrom (RobotBTC.sol#160-161) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ab4FD2234D75CfA894C394b367e48055b531e56/RobotBTC.sol",
+            "impact": "Informational",
+            "line": 161,
+            "message": "Parameter '_value' of TokenERC20.burnFrom (RobotBTC.sol#161) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ab4FD2234D75CfA894C394b367e48055b531e56/RobotBTC.sol",
+            "impact": "Informational",
+            "line": 197,
+            "line_end": 209,
+            "message": "Function 'RobotBTC._transfer' (RobotBTC.sol#197-209) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ab4FD2234D75CfA894C394b367e48055b531e56/RobotBTC.sol",
+            "impact": "Informational",
+            "line": 197,
+            "message": "Parameter '_from' of RobotBTC._transfer (RobotBTC.sol#197) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ab4FD2234D75CfA894C394b367e48055b531e56/RobotBTC.sol",
+            "impact": "Informational",
+            "line": 197,
+            "message": "Parameter '_to' of RobotBTC._transfer (RobotBTC.sol#197) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ab4FD2234D75CfA894C394b367e48055b531e56/RobotBTC.sol",
+            "impact": "Informational",
+            "line": 197,
+            "message": "Parameter '_value' of RobotBTC._transfer (RobotBTC.sol#197) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9ab4FD2234D75CfA894C394b367e48055b531e56/RobotBTC.sol",
+            "impact": "Informational",
+            "line": 194,
+            "line_end": 196,
+            "message": "Function 'RobotBTC.RobotBTC' (RobotBTC.sol#194-196) is not in mixedCase\n",
+            "name": "naming-convention"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "slither",
+        "mode": "solidity",
+        "version": "2022/11/14"
+    }
+}

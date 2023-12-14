@@ -1,0 +1,768 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 472,
+            "message": "To guarantee arguments type safety it is recommended to use `abi.encodeCall` instead of `abi.encodeWithSelector`.",
+            "name": "use-abi-encodecall-instead-of-encodewithselector"
+        },
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 476,
+            "message": "To guarantee arguments type safety it is recommended to use `abi.encodeCall` instead of `abi.encodeWithSelector`.",
+            "name": "use-abi-encodecall-instead-of-encodewithselector"
+        },
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 494,
+            "message": "To guarantee arguments type safety it is recommended to use `abi.encodeCall` instead of `abi.encodeWithSelector`.",
+            "name": "use-abi-encodecall-instead-of-encodewithselector"
+        },
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 499,
+            "message": "To guarantee arguments type safety it is recommended to use `abi.encodeCall` instead of `abi.encodeWithSelector`.",
+            "name": "use-abi-encodecall-instead-of-encodewithselector"
+        },
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 504,
+            "message": "To guarantee arguments type safety it is recommended to use `abi.encodeCall` instead of `abi.encodeWithSelector`.",
+            "name": "use-abi-encodecall-instead-of-encodewithselector"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 879,
+            "message": "Uninitialized variables are assigned with the types default value. Explicitly initializing a variable with its default value costs unnecessary gas.",
+            "name": "init-variables-with-default-value"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 539,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 540,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 541,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 542,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 593,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 594,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 595,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 596,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 1049,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 1050,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 808,
+            "message": "A lot of times there is no risk that the loop counter can overflow. Using Solidity's unchecked block saves the overflow checks.",
+            "name": "unnecessary-checked-arithmetic-in-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 121,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 175,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 313,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 317,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 374,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 375,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 399,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 423,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 491,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 492,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 493,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 521,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 540,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 559,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 629,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 657,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 659,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 670,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 679,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 740,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 780,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 809,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 815,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 820,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 825,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 826,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 911,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 915,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 919,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 923,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 924,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 935,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 1060,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 1105,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 1235,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 1241,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 1250,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 1272,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 1303,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 1359,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 1442,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 1514,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 1522,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 780,
+            "message": "Using multiple require statements is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-multiple-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 809,
+            "message": "Using multiple require statements is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-multiple-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 815,
+            "message": "Using multiple require statements is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-multiple-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 820,
+            "message": "Using multiple require statements is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-multiple-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 825,
+            "message": "Using multiple require statements is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-multiple-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 826,
+            "message": "Using multiple require statements is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-multiple-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 1105,
+            "message": "Using multiple require statements is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-multiple-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 1326,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 1327,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 1328,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 1329,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 1380,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 1381,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 1382,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 1383,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 1384,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 1385,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 1386,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 1387,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 1388,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 1389,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 808,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 175,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 317,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 374,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 399,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 423,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 491,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 492,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 493,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 521,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 540,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 559,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 629,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 657,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 659,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 670,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 679,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 740,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 780,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 911,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 915,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 919,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 923,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 924,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 1241,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 1303,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Phoenix/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821/0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821.sol",
+            "line": 1442,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "semgrep",
+        "mode": "solidity",
+        "version": "2023/08/21"
+    }
+}

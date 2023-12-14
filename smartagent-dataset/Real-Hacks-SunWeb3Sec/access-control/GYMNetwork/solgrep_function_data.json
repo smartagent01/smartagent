@@ -1,0 +1,2028 @@
+{
+  "/smart-agent-artifact/smart-agent/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/GYMNetwork/0x0288FBA0BF19072d30490A0F3C81cD9B0634258a_flattened.sol": [
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20Upgradeable.totalSupply",
+      "info": "totalSupply",
+      "loc": [
+        38,
+        4,
+        38,
+        58
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20Upgradeable.balanceOf",
+      "info": "balanceOf",
+      "loc": [
+        43,
+        4,
+        43,
+        71
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20Upgradeable.transfer",
+      "info": "transfer",
+      "loc": [
+        52,
+        4,
+        52,
+        73
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20Upgradeable.allowance",
+      "info": "allowance",
+      "loc": [
+        61,
+        4,
+        61,
+        86
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20Upgradeable.approve",
+      "info": "approve",
+      "loc": [
+        77,
+        4,
+        77,
+        77
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20Upgradeable.transferFrom",
+      "info": "transferFrom",
+      "loc": [
+        88,
+        4,
+        92,
+        29
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AddressUpgradeable.isContract",
+      "info": "isContract",
+      "loc": [
+        130,
+        4,
+        136,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AddressUpgradeable.sendValue",
+      "info": "sendValue",
+      "loc": [
+        154,
+        4,
+        159,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AddressUpgradeable.functionCall",
+      "info": "functionCall",
+      "loc": [
+        179,
+        4,
+        181,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AddressUpgradeable.functionCall",
+      "info": "functionCall",
+      "loc": [
+        189,
+        4,
+        195,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AddressUpgradeable.functionCallWithValue",
+      "info": "functionCallWithValue",
+      "loc": [
+        208,
+        4,
+        214,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AddressUpgradeable.functionCallWithValue",
+      "info": "functionCallWithValue",
+      "loc": [
+        222,
+        4,
+        233,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AddressUpgradeable.functionStaticCall",
+      "info": "functionStaticCall",
+      "loc": [
+        241,
+        4,
+        243,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AddressUpgradeable.functionStaticCall",
+      "info": "functionStaticCall",
+      "loc": [
+        251,
+        4,
+        260,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AddressUpgradeable.verifyCallResult",
+      "info": "verifyCallResult",
+      "loc": [
+        268,
+        4,
+        288,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeERC20Upgradeable.safeTransfer",
+      "info": "safeTransfer",
+      "loc": [
+        303,
+        4,
+        309,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeERC20Upgradeable.safeTransferFrom",
+      "info": "safeTransferFrom",
+      "loc": [
+        311,
+        4,
+        318,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeERC20Upgradeable.safeApprove",
+      "info": "safeApprove",
+      "loc": [
+        327,
+        4,
+        340,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeERC20Upgradeable.safeIncreaseAllowance",
+      "info": "safeIncreaseAllowance",
+      "loc": [
+        342,
+        4,
+        349,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeERC20Upgradeable.safeDecreaseAllowance",
+      "info": "safeDecreaseAllowance",
+      "loc": [
+        351,
+        4,
+        362,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeERC20Upgradeable._callOptionalReturn",
+      "info": "_callOptionalReturn",
+      "loc": [
+        370,
+        4,
+        380,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IWETH.deposit",
+      "info": "deposit",
+      "loc": [
+        388,
+        4,
+        388,
+        39
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IWETH.withdraw",
+      "info": "withdraw",
+      "loc": [
+        390,
+        4,
+        390,
+        43
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IWETH.transfer",
+      "info": "transfer",
+      "loc": [
+        392,
+        4,
+        392,
+        56
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IWETH.balanceOf",
+      "info": "balanceOf",
+      "loc": [
+        394,
+        4,
+        394,
+        67
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IGymMLM.isOnGymMLM",
+      "info": "isOnGymMLM",
+      "loc": [
+        405,
+        4,
+        405,
+        61
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IGymMLM.addGymMLM",
+      "info": "addGymMLM",
+      "loc": [
+        407,
+        4,
+        407,
+        49
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IGymMLM.distributeRewards",
+      "info": "distributeRewards",
+      "loc": [
+        409,
+        4,
+        414,
+        14
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IGymMLM.updateInvestment",
+      "info": "updateInvestment",
+      "loc": [
+        416,
+        4,
+        416,
+        77
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IGymMLM.investment",
+      "info": "investment",
+      "loc": [
+        418,
+        4,
+        418,
+        70
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IGymMLM.getPendingRewards",
+      "info": "getPendingRewards",
+      "loc": [
+        420,
+        4,
+        420,
+        79
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IPancakeRouter01.factory",
+      "info": "factory",
+      "loc": [
+        433,
+        4,
+        433,
+        54
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IPancakeRouter01.WETH",
+      "info": "WETH",
+      "loc": [
+        435,
+        4,
+        435,
+        51
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IPancakeRouter01.addLiquidity",
+      "info": "addLiquidity",
+      "loc": [
+        437,
+        4,
+        452,
+        9
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IPancakeRouter01.addLiquidityETH",
+      "info": "addLiquidityETH",
+      "loc": [
+        454,
+        4,
+        468,
+        9
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IPancakeRouter01.removeLiquidity",
+      "info": "removeLiquidity",
+      "loc": [
+        470,
+        4,
+        478,
+        57
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IPancakeRouter01.removeLiquidityETH",
+      "info": "removeLiquidityETH",
+      "loc": [
+        480,
+        4,
+        487,
+        63
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IPancakeRouter01.removeLiquidityWithPermit",
+      "info": "removeLiquidityWithPermit",
+      "loc": [
+        489,
+        4,
+        501,
+        57
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IPancakeRouter01.removeLiquidityETHWithPermit",
+      "info": "removeLiquidityETHWithPermit",
+      "loc": [
+        503,
+        4,
+        514,
+        63
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IPancakeRouter01.swapExactTokensForTokens",
+      "info": "swapExactTokensForTokens",
+      "loc": [
+        516,
+        4,
+        522,
+        49
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IPancakeRouter01.swapTokensForExactTokens",
+      "info": "swapTokensForExactTokens",
+      "loc": [
+        524,
+        4,
+        530,
+        49
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IPancakeRouter01.swapExactETHForTokens",
+      "info": "swapExactETHForTokens",
+      "loc": [
+        532,
+        4,
+        537,
+        57
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IPancakeRouter01.swapTokensForExactETH",
+      "info": "swapTokensForExactETH",
+      "loc": [
+        539,
+        4,
+        545,
+        49
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IPancakeRouter01.swapExactTokensForETH",
+      "info": "swapExactTokensForETH",
+      "loc": [
+        547,
+        4,
+        553,
+        49
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IPancakeRouter01.swapETHForExactTokens",
+      "info": "swapETHForExactTokens",
+      "loc": [
+        555,
+        4,
+        560,
+        57
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IPancakeRouter01.quote",
+      "info": "quote",
+      "loc": [
+        562,
+        4,
+        566,
+        45
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IPancakeRouter01.getAmountOut",
+      "info": "getAmountOut",
+      "loc": [
+        568,
+        4,
+        572,
+        47
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IPancakeRouter01.getAmountIn",
+      "info": "getAmountIn",
+      "loc": [
+        574,
+        4,
+        578,
+        46
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IPancakeRouter01.getAmountsOut",
+      "info": "getAmountsOut",
+      "loc": [
+        580,
+        4,
+        580,
+        118
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IPancakeRouter01.getAmountsIn",
+      "info": "getAmountsIn",
+      "loc": [
+        582,
+        4,
+        582,
+        118
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IPancakeRouter02.swapExactTokensForTokensSupportingFeeOnTransferTokens",
+      "info": "swapExactTokensForTokensSupportingFeeOnTransferTokens",
+      "loc": [
+        586,
+        4,
+        592,
+        14
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IPancakeRouter02.swapExactETHForTokensSupportingFeeOnTransferTokens",
+      "info": "swapExactETHForTokensSupportingFeeOnTransferTokens",
+      "loc": [
+        594,
+        4,
+        599,
+        22
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IPancakeRouter02.swapExactTokensForETHSupportingFeeOnTransferTokens",
+      "info": "swapExactTokensForETHSupportingFeeOnTransferTokens",
+      "loc": [
+        601,
+        4,
+        607,
+        14
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20Burnable.burn",
+      "info": "burn",
+      "loc": [
+        616,
+        4,
+        616,
+        43
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20Burnable.burnFrom",
+      "info": "burnFrom",
+      "loc": [
+        618,
+        4,
+        618,
+        65
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Initializable._disableInitializers",
+      "info": "_disableInitializers",
+      "loc": [
+        760,
+        4,
+        762,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Initializable._setInitializedVersion",
+      "info": "_setInitializedVersion",
+      "loc": [
+        764,
+        4,
+        779,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ContextUpgradeable.__Context_init",
+      "info": "__Context_init",
+      "loc": [
+        793,
+        4,
+        794,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ContextUpgradeable.__Context_init_unchained",
+      "info": "__Context_init_unchained",
+      "loc": [
+        796,
+        4,
+        797,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ContextUpgradeable._msgSender",
+      "info": "_msgSender",
+      "loc": [
+        798,
+        4,
+        800,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ContextUpgradeable._msgData",
+      "info": "_msgData",
+      "loc": [
+        802,
+        4,
+        804,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: OwnableUpgradeable.__Ownable_init",
+      "info": "__Ownable_init",
+      "loc": [
+        835,
+        4,
+        837,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: OwnableUpgradeable.__Ownable_init_unchained",
+      "info": "__Ownable_init_unchained",
+      "loc": [
+        839,
+        4,
+        841,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: OwnableUpgradeable.owner",
+      "info": "owner",
+      "loc": [
+        846,
+        4,
+        848,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: OwnableUpgradeable.renounceOwnership",
+      "info": "renounceOwnership",
+      "loc": [
+        865,
+        4,
+        867,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: OwnableUpgradeable.transferOwnership",
+      "info": "transferOwnership",
+      "loc": [
+        873,
+        4,
+        876,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: OwnableUpgradeable._transferOwnership",
+      "info": "_transferOwnership",
+      "loc": [
+        882,
+        4,
+        886,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ReentrancyGuardUpgradeable.__ReentrancyGuard_init",
+      "info": "__ReentrancyGuard_init",
+      "loc": [
+        935,
+        4,
+        937,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ReentrancyGuardUpgradeable.__ReentrancyGuard_init_unchained",
+      "info": "__ReentrancyGuard_init_unchained",
+      "loc": [
+        939,
+        4,
+        941,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IPancakePair.name",
+      "info": "name",
+      "loc": [
+        978,
+        4,
+        978,
+        57
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IPancakePair.symbol",
+      "info": "symbol",
+      "loc": [
+        979,
+        4,
+        979,
+        59
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IPancakePair.decimals",
+      "info": "decimals",
+      "loc": [
+        980,
+        4,
+        980,
+        53
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IPancakePair.totalSupply",
+      "info": "totalSupply",
+      "loc": [
+        981,
+        4,
+        981,
+        55
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IPancakePair.balanceOf",
+      "info": "balanceOf",
+      "loc": [
+        982,
+        4,
+        982,
+        66
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IPancakePair.allowance",
+      "info": "allowance",
+      "loc": [
+        983,
+        4,
+        983,
+        83
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IPancakePair.approve",
+      "info": "approve",
+      "loc": [
+        985,
+        4,
+        985,
+        73
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IPancakePair.transfer",
+      "info": "transfer",
+      "loc": [
+        986,
+        4,
+        986,
+        69
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IPancakePair.transferFrom",
+      "info": "transferFrom",
+      "loc": [
+        987,
+        4,
+        987,
+        87
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IPancakePair.DOMAIN_SEPARATOR",
+      "info": "DOMAIN_SEPARATOR",
+      "loc": [
+        989,
+        4,
+        989,
+        63
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IPancakePair.PERMIT_TYPEHASH",
+      "info": "PERMIT_TYPEHASH",
+      "loc": [
+        990,
+        4,
+        990,
+        62
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IPancakePair.nonces",
+      "info": "nonces",
+      "loc": [
+        991,
+        4,
+        991,
+        63
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IPancakePair.permit",
+      "info": "permit",
+      "loc": [
+        993,
+        4,
+        993,
+        118
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IPancakePair.MINIMUM_LIQUIDITY",
+      "info": "MINIMUM_LIQUIDITY",
+      "loc": [
+        1007,
+        4,
+        1007,
+        61
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IPancakePair.factory",
+      "info": "factory",
+      "loc": [
+        1008,
+        4,
+        1008,
+        54
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IPancakePair.token0",
+      "info": "token0",
+      "loc": [
+        1009,
+        4,
+        1009,
+        53
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IPancakePair.token1",
+      "info": "token1",
+      "loc": [
+        1010,
+        4,
+        1010,
+        53
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IPancakePair.getReserves",
+      "info": "getReserves",
+      "loc": [
+        1011,
+        4,
+        1011,
+        112
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IPancakePair.price0CumulativeLast",
+      "info": "price0CumulativeLast",
+      "loc": [
+        1012,
+        4,
+        1012,
+        64
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IPancakePair.price1CumulativeLast",
+      "info": "price1CumulativeLast",
+      "loc": [
+        1013,
+        4,
+        1013,
+        64
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IPancakePair.kLast",
+      "info": "kLast",
+      "loc": [
+        1014,
+        4,
+        1014,
+        49
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IPancakePair.mint",
+      "info": "mint",
+      "loc": [
+        1016,
+        4,
+        1016,
+        63
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IPancakePair.burn",
+      "info": "burn",
+      "loc": [
+        1017,
+        4,
+        1017,
+        75
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IPancakePair.swap",
+      "info": "swap",
+      "loc": [
+        1018,
+        4,
+        1018,
+        93
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IPancakePair.skim",
+      "info": "skim",
+      "loc": [
+        1019,
+        4,
+        1019,
+        38
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IPancakePair.sync",
+      "info": "sync",
+      "loc": [
+        1020,
+        4,
+        1020,
+        28
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IPancakePair.initialize",
+      "info": "initialize",
+      "loc": [
+        1022,
+        4,
+        1022,
+        50
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IPancakeFactory.feeTo",
+      "info": "feeTo",
+      "loc": [
+        1030,
+        4,
+        1030,
+        52
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IPancakeFactory.feeToSetter",
+      "info": "feeToSetter",
+      "loc": [
+        1031,
+        4,
+        1031,
+        58
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IPancakeFactory.getPair",
+      "info": "getPair",
+      "loc": [
+        1033,
+        4,
+        1033,
+        89
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IPancakeFactory.allPairs",
+      "info": "allPairs",
+      "loc": [
+        1034,
+        4,
+        1034,
+        64
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IPancakeFactory.allPairsLength",
+      "info": "allPairsLength",
+      "loc": [
+        1035,
+        4,
+        1035,
+        58
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IPancakeFactory.createPair",
+      "info": "createPair",
+      "loc": [
+        1037,
+        4,
+        1037,
+        87
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IPancakeFactory.setFeeTo",
+      "info": "setFeeTo",
+      "loc": [
+        1039,
+        4,
+        1039,
+        39
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IPancakeFactory.setFeeToSetter",
+      "info": "setFeeToSetter",
+      "loc": [
+        1040,
+        4,
+        1040,
+        45
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: DateTime._daysFromDate",
+      "info": "_daysFromDate",
+      "loc": [
+        1098,
+        4,
+        1120,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: DateTime._daysToDate",
+      "info": "_daysToDate",
+      "loc": [
+        1139,
+        4,
+        1164,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: DateTime.timestampFromDate",
+      "info": "timestampFromDate",
+      "loc": [
+        1166,
+        4,
+        1172,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: DateTime.timestampFromDateTime",
+      "info": "timestampFromDateTime",
+      "loc": [
+        1174,
+        4,
+        1190,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: DateTime.timestampToDate",
+      "info": "timestampToDate",
+      "loc": [
+        1192,
+        4,
+        1202,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: DateTime.timestampToDateTime",
+      "info": "timestampToDateTime",
+      "loc": [
+        1204,
+        4,
+        1222,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: DateTime.isValidDate",
+      "info": "isValidDate",
+      "loc": [
+        1224,
+        4,
+        1235,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: DateTime.isValidDateTime",
+      "info": "isValidDateTime",
+      "loc": [
+        1237,
+        4,
+        1250,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: DateTime.isLeapYear",
+      "info": "isLeapYear",
+      "loc": [
+        1252,
+        4,
+        1259,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: DateTime._isLeapYear",
+      "info": "_isLeapYear",
+      "loc": [
+        1261,
+        4,
+        1263,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: DateTime.isWeekDay",
+      "info": "isWeekDay",
+      "loc": [
+        1265,
+        4,
+        1267,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: DateTime.isWeekEnd",
+      "info": "isWeekEnd",
+      "loc": [
+        1269,
+        4,
+        1271,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: DateTime.getDaysInMonth",
+      "info": "getDaysInMonth",
+      "loc": [
+        1273,
+        4,
+        1281,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: DateTime._getDaysInMonth",
+      "info": "_getDaysInMonth",
+      "loc": [
+        1283,
+        4,
+        1303,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: DateTime.getDayOfWeek",
+      "info": "getDayOfWeek",
+      "loc": [
+        1306,
+        4,
+        1313,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: DateTime.getYear",
+      "info": "getYear",
+      "loc": [
+        1315,
+        4,
+        1317,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: DateTime.getMonth",
+      "info": "getMonth",
+      "loc": [
+        1319,
+        4,
+        1321,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: DateTime.getDay",
+      "info": "getDay",
+      "loc": [
+        1323,
+        4,
+        1325,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: DateTime.getHour",
+      "info": "getHour",
+      "loc": [
+        1327,
+        4,
+        1330,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: DateTime.getMinute",
+      "info": "getMinute",
+      "loc": [
+        1332,
+        4,
+        1339,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: DateTime.getSecond",
+      "info": "getSecond",
+      "loc": [
+        1341,
+        4,
+        1347,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: DateTime.addYears",
+      "info": "addYears",
+      "loc": [
+        1349,
+        4,
+        1366,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: DateTime.addMonths",
+      "info": "addMonths",
+      "loc": [
+        1368,
+        4,
+        1387,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: DateTime.addDays",
+      "info": "addDays",
+      "loc": [
+        1389,
+        4,
+        1396,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: DateTime.addHours",
+      "info": "addHours",
+      "loc": [
+        1398,
+        4,
+        1405,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: DateTime.addMinutes",
+      "info": "addMinutes",
+      "loc": [
+        1407,
+        4,
+        1414,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: DateTime.addSeconds",
+      "info": "addSeconds",
+      "loc": [
+        1416,
+        4,
+        1423,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: DateTime.subYears",
+      "info": "subYears",
+      "loc": [
+        1425,
+        4,
+        1442,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: DateTime.subMonths",
+      "info": "subMonths",
+      "loc": [
+        1444,
+        4,
+        1463,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: DateTime.subDays",
+      "info": "subDays",
+      "loc": [
+        1465,
+        4,
+        1472,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: DateTime.subHours",
+      "info": "subHours",
+      "loc": [
+        1474,
+        4,
+        1481,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: DateTime.subMinutes",
+      "info": "subMinutes",
+      "loc": [
+        1483,
+        4,
+        1490,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: DateTime.subSeconds",
+      "info": "subSeconds",
+      "loc": [
+        1492,
+        4,
+        1499,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: DateTime.diffYears",
+      "info": "diffYears",
+      "loc": [
+        1501,
+        4,
+        1510,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: DateTime.diffMonths",
+      "info": "diffMonths",
+      "loc": [
+        1512,
+        4,
+        1523,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: DateTime.diffDays",
+      "info": "diffDays",
+      "loc": [
+        1525,
+        4,
+        1532,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: DateTime.diffHours",
+      "info": "diffHours",
+      "loc": [
+        1534,
+        4,
+        1541,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: DateTime.diffMinutes",
+      "info": "diffMinutes",
+      "loc": [
+        1543,
+        4,
+        1550,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: DateTime.diffSeconds",
+      "info": "diffSeconds",
+      "loc": [
+        1552,
+        4,
+        1559,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: GymSinglePool.__receiveEther__",
+      "info": "__receiveEther__",
+      "loc": [
+        1700,
+        4,
+        1700,
+        32
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: GymSinglePool.__fallback__",
+      "info": "__fallback__",
+      "loc": [
+        1702,
+        4,
+        1702,
+        33
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: GymSinglePool.initialize",
+      "info": "initialize",
+      "loc": [
+        1705,
+        4,
+        1741,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: GymSinglePool.setPoolInfo",
+      "info": "setPoolInfo",
+      "loc": [
+        1744,
+        4,
+        1750,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: GymSinglePool.updateStartBlock",
+      "info": "updateStartBlock",
+      "loc": [
+        1752,
+        4,
+        1754,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: GymSinglePool.setMLMAddress",
+      "info": "setMLMAddress",
+      "loc": [
+        1756,
+        4,
+        1758,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: GymSinglePool.setTokenAddress",
+      "info": "setTokenAddress",
+      "loc": [
+        1760,
+        4,
+        1762,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: GymSinglePool.setVaultContractAddress",
+      "info": "setVaultContractAddress",
+      "loc": [
+        1763,
+        4,
+        1765,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: GymSinglePool.setFarmingContractAddress",
+      "info": "setFarmingContractAddress",
+      "loc": [
+        1766,
+        4,
+        1768,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: GymSinglePool.setRelationshipReward",
+      "info": "setRelationshipReward",
+      "loc": [
+        1770,
+        4,
+        1772,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: GymSinglePool.setOnlyRunnerScript",
+      "info": "setOnlyRunnerScript",
+      "loc": [
+        1773,
+        4,
+        1775,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: GymSinglePool.setGymWBNBPair",
+      "info": "setGymWBNBPair",
+      "loc": [
+        1777,
+        4,
+        1779,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: GymSinglePool.setPancakeRouterAddress",
+      "info": "setPancakeRouterAddress",
+      "loc": [
+        1780,
+        4,
+        1782,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: GymSinglePool.setIsPoolActive",
+      "info": "setIsPoolActive",
+      "loc": [
+        1784,
+        4,
+        1786,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: GymSinglePool.setIsInMigrationToVTwo",
+      "info": "setIsInMigrationToVTwo",
+      "loc": [
+        1787,
+        4,
+        1789,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: GymSinglePool.setHolderRewardContractAddress",
+      "info": "setHolderRewardContractAddress",
+      "loc": [
+        1791,
+        4,
+        1793,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: GymSinglePool.setWbnbAndUSDTTokenArray",
+      "info": "setWbnbAndUSDTTokenArray",
+      "loc": [
+        1796,
+        4,
+        1798,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: GymSinglePool.setUnlockedTimestampQualification",
+      "info": "setUnlockedTimestampQualification",
+      "loc": [
+        1799,
+        4,
+        1801,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: GymSinglePool.setLevels",
+      "info": "setLevels",
+      "loc": [
+        1802,
+        4,
+        1804,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: GymSinglePool.setTreasuryAddress",
+      "info": "setTreasuryAddress",
+      "loc": [
+        1810,
+        4,
+        1812,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: GymSinglePool.deposit",
+      "info": "deposit",
+      "loc": [
+        1818,
+        4,
+        1827,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: GymSinglePool.depositFromOtherContract",
+      "info": "depositFromOtherContract",
+      "loc": [
+        1832,
+        4,
+        1840,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: GymSinglePool.getUserLevelInSinglePool",
+      "info": "getUserLevelInSinglePool",
+      "loc": [
+        1846,
+        4,
+        1855,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: GymSinglePool._deposit",
+      "info": "_deposit",
+      "loc": [
+        1862,
+        4,
+        1923,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: GymSinglePool._autoDeposit",
+      "info": "_autoDeposit",
+      "loc": [
+        1930,
+        4,
+        1979,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: GymSinglePool.getPrice",
+      "info": "getPrice",
+      "loc": [
+        1984,
+        4,
+        1988,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: GymSinglePool.withdraw",
+      "info": "withdraw",
+      "loc": [
+        1995,
+        4,
+        2001,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: GymSinglePool._withdraw",
+      "info": "_withdraw",
+      "loc": [
+        2007,
+        4,
+        2040,
+        8
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: GymSinglePool.claim",
+      "info": "claim",
+      "loc": [
+        2047,
+        4,
+        2054,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: GymSinglePool._claim",
+      "info": "_claim",
+      "loc": [
+        2060,
+        4,
+        2098,
+        8
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: GymSinglePool.transferPoolRewards",
+      "info": "transferPoolRewards",
+      "loc": [
+        2105,
+        4,
+        2111,
+        8
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: GymSinglePool.safeRewardTransfer",
+      "info": "safeRewardTransfer",
+      "loc": [
+        2120,
+        4,
+        2131,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: GymSinglePool.getUserInfo",
+      "info": "getUserInfo",
+      "loc": [
+        2135,
+        4,
+        2137,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: GymSinglePool.pendingReward",
+      "info": "pendingReward",
+      "loc": [
+        2144,
+        4,
+        2162,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: GymSinglePool.updatePool",
+      "info": "updatePool",
+      "loc": [
+        2168,
+        4,
+        2186,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: GymSinglePool._claimAll",
+      "info": "_claimAll",
+      "loc": [
+        2192,
+        4,
+        2229,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: GymSinglePool.claimAll",
+      "info": "claimAll",
+      "loc": [
+        2233,
+        4,
+        2236,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: GymSinglePool.claimAndReinvest",
+      "info": "claimAndReinvest",
+      "loc": [
+        2240,
+        4,
+        2243,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: GymSinglePool.refreshMyLevel",
+      "info": "refreshMyLevel",
+      "loc": [
+        2245,
+        4,
+        2252,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: GymSinglePool.totalLockedTokens",
+      "info": "totalLockedTokens",
+      "loc": [
+        2253,
+        4,
+        2263,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: GymSinglePool.switchToUnlocked",
+      "info": "switchToUnlocked",
+      "loc": [
+        2265,
+        4,
+        2276,
+        4
+      ]
+    }
+  ]
+}

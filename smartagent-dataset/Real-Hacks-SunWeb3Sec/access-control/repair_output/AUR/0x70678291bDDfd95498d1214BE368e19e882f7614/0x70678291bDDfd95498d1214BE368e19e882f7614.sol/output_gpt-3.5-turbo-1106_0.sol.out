@@ -1,0 +1,31 @@
+```
+createNode
+The createNode function allows anyone to create nodes without access control checks.
+
+claimNodeReward
+The claimNodeReward function allows anyone to claim rewards for nodes without access control checks.
+
+claimAllNodesReward
+The claimAllNodesReward function allows anyone to claim rewards for all nodes without access control checks.
+
+getRewardTotalAmountOf
+The getRewardTotalAmountOf function allows anyone to query the total reward amount without access control checks.
+
+getRewardAmountOf
+The getRewardAmountOf function allows anyone to query the reward amount for a specific node without access control checks.
+
+changeNodePrice
+The changeNodePrice function allows anyone to change the node price without access control checks.
+
+changeRewardPerNode
+The changeRewardPerNode function allows anyone to change the reward per node without access control checks.
+
+setTeamWallet
+The setTeamWallet function allows anyone to change the team wallet without access control checks.
+
+setTeamFees
+The setTeamFees function allows anyone to change the team fees without access control checks.
+
+setMaxNodes
+The setMaxNodes function allows anyone to change the maximum nodes without access control checks.
+```

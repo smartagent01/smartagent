@@ -1,0 +1,22 @@
+```
+IDXM()
+The constructor function `IDXM()` is public, which means anyone can call it to initialize the contract. This could be a potential access control bug if only the owner should be able to initialize the contract.
+
+setOwner
+The `setOwner` function allows anyone to change the owner of the contract, which could be a potential access control bug if only the current owner should be able to change the owner.
+
+uploadBalances
+The `uploadBalances` function can only be called by the owner, but it does not check for permission to change the balances of other addresses. This could be a potential access control bug if only the owner should be able to change the balances of other addresses.
+
+lockBalances
+The `lockBalances` function can only be called by the owner, but it does not check for permission to lock the balances. This could be a potential access control bug if only the owner should be able to lock the balances.
+
+transfer and transferFrom
+The `transfer` and `transferFrom` functions do not have any access control modifiers, which means anyone can call these functions to transfer tokens. This could be a potential access control bug if only certain addresses should be able to transfer tokens.
+
+unlockToken
+The `unlockToken` function can only be called by the owner, but it does not check for permission to unlock the token. This could be a potential access control bug if only the owner should be able to unlock the token.
+
+setExportFee and setHoldingPeriod
+The `setExportFee` and `setHoldingPeriod` functions can only be called by the owner, but they do not check for permission to change the export fee or holding period. This could be a potential access control bug if only the owner should be able to change these parameters.
+```

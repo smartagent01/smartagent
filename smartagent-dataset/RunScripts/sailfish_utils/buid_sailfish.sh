@@ -1,0 +1,1 @@
+docker build -t sailfish-new -f sailfishDockerfile .

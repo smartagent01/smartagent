@@ -1,0 +1,40 @@
+```
+ToOwner
+The `owner` variable is initialized with `msg.sender` in the constructor function `ToOwner`, but there is no access control or permission checking to ensure that only the contract creator can call this function. This could potentially allow anyone to become the owner of the contract.
+
+Mining24
+The `Mining24` function also sets the `owner` variable to `msg.sender` without any access control or permission checking. This could also potentially allow anyone to become the owner of the contract.
+
+setParameters
+The `setParameters` function allows the owner to set parameters without any access control or permission checking. This could potentially lead to unauthorized changes to the contract state.
+
+enableWhitelist
+The `enableWhitelist` function allows the owner to modify the `blacklist` mapping without any access control or permission checking. This could potentially lead to unauthorized changes to the contract state.
+
+disableWhitelist
+The `disableWhitelist` function allows the owner to modify the `blacklist` mapping without any access control or permission checking. This could potentially lead to unauthorized changes to the contract state.
+
+finishDistribution
+The `finishDistribution` function allows the owner to finish the distribution without any access control or permission checking. This could potentially lead to unauthorized changes to the contract state.
+
+airdrop
+The `airdrop` function allows the owner to distribute tokens without any access control or permission checking. This could potentially lead to unauthorized token distribution.
+
+distribution
+The `distribution` function allows the owner to distribute tokens without any access control or permission checking. This could potentially lead to unauthorized token distribution.
+
+distributeAmounts
+The `distributeAmounts` function allows the owner to distribute tokens without any access control or permission checking. This could potentially lead to unauthorized token distribution.
+
+getTokens
+The `getTokens` function allows anyone on the whitelist to get tokens without any access control or permission checking. This could potentially lead to unauthorized token distribution.
+
+withdraw
+The `withdraw` function allows the owner to withdraw ether from the contract without any access control or permission checking. This could potentially lead to unauthorized ether withdrawal.
+
+burn
+The `burn` function allows the owner to burn tokens without any access control or permission checking. This could potentially lead to unauthorized token burning.
+
+withdrawForeignTokens
+The `withdrawForeignTokens` function allows the owner to withdraw tokens from the contract without any access control or permission checking. This could potentially lead to unauthorized token withdrawal.
+```

@@ -1,0 +1,747 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 714,
+            "message": "Caching the array length outside a loop saves reading it on each iteration, as long as the array's length is not changed during the loop.",
+            "name": "array-length-outside-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 745,
+            "message": "Caching the array length outside a loop saves reading it on each iteration, as long as the array's length is not changed during the loop.",
+            "name": "array-length-outside-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 567,
+            "message": "Uninitialized variables are assigned with the types default value. Explicitly initializing a variable with its default value costs unnecessary gas.",
+            "name": "init-variables-with-default-value"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 591,
+            "message": "Uninitialized variables are assigned with the types default value. Explicitly initializing a variable with its default value costs unnecessary gas.",
+            "name": "init-variables-with-default-value"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 417,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 418,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 419,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 420,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 421,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 422,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 603,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 604,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 605,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 606,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 607,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 608,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 609,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 610,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 611,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 612,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 205,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 254,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 255,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 278,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 279,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 312,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 313,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 313,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 476,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 477,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 480,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 480,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 481,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 481,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 486,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 204,
+            "message": "A lot of times there is no risk that the loop counter can overflow. Using Solidity's unchecked block saves the overflow checks.",
+            "name": "unnecessary-checked-arithmetic-in-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 253,
+            "message": "A lot of times there is no risk that the loop counter can overflow. Using Solidity's unchecked block saves the overflow checks.",
+            "name": "unnecessary-checked-arithmetic-in-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 277,
+            "message": "A lot of times there is no risk that the loop counter can overflow. Using Solidity's unchecked block saves the overflow checks.",
+            "name": "unnecessary-checked-arithmetic-in-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 311,
+            "message": "A lot of times there is no risk that the loop counter can overflow. Using Solidity's unchecked block saves the overflow checks.",
+            "name": "unnecessary-checked-arithmetic-in-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 714,
+            "message": "A lot of times there is no risk that the loop counter can overflow. Using Solidity's unchecked block saves the overflow checks.",
+            "name": "unnecessary-checked-arithmetic-in-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 745,
+            "message": "A lot of times there is no risk that the loop counter can overflow. Using Solidity's unchecked block saves the overflow checks.",
+            "name": "unnecessary-checked-arithmetic-in-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 68,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 87,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 229,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 236,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 264,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 275,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 353,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 643,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 646,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 671,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 674,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 706,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 839,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 891,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 892,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 674,
+            "message": "Using multiple require statements is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-multiple-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 844,
+            "message": "Using multiple require statements is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-multiple-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 865,
+            "message": "Using multiple require statements is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-multiple-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 434,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 435,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 436,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 437,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 438,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 436,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 437,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 438,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 670,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 671,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 672,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 682,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 723,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 204,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 253,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 277,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 311,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 486,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 487,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 714,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 745,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 87,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 353,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 643,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 671,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 674,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 839,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 452,
+            "message": "No slippage check in a Uniswap v2/v3 trade",
+            "name": "no-slippage-check"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 453,
+            "message": "No slippage check in a Uniswap v2/v3 trade",
+            "name": "no-slippage-check"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 454,
+            "message": "No slippage check in a Uniswap v2/v3 trade",
+            "name": "no-slippage-check"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 455,
+            "message": "No slippage check in a Uniswap v2/v3 trade",
+            "name": "no-slippage-check"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 456,
+            "message": "No slippage check in a Uniswap v2/v3 trade",
+            "name": "no-slippage-check"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 457,
+            "message": "No slippage check in a Uniswap v2/v3 trade",
+            "name": "no-slippage-check"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 769,
+            "message": "No slippage check in a Uniswap v2/v3 trade",
+            "name": "no-slippage-check"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 770,
+            "message": "No slippage check in a Uniswap v2/v3 trade",
+            "name": "no-slippage-check"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 771,
+            "message": "No slippage check in a Uniswap v2/v3 trade",
+            "name": "no-slippage-check"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 772,
+            "message": "No slippage check in a Uniswap v2/v3 trade",
+            "name": "no-slippage-check"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 773,
+            "message": "No slippage check in a Uniswap v2/v3 trade",
+            "name": "no-slippage-check"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 774,
+            "message": "No slippage check in a Uniswap v2/v3 trade",
+            "name": "no-slippage-check"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 775,
+            "message": "No slippage check in a Uniswap v2/v3 trade",
+            "name": "no-slippage-check"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 829,
+            "message": "No slippage check in a Uniswap v2/v3 trade",
+            "name": "no-slippage-check"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 830,
+            "message": "No slippage check in a Uniswap v2/v3 trade",
+            "name": "no-slippage-check"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 831,
+            "message": "No slippage check in a Uniswap v2/v3 trade",
+            "name": "no-slippage-check"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 832,
+            "message": "No slippage check in a Uniswap v2/v3 trade",
+            "name": "no-slippage-check"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 833,
+            "message": "No slippage check in a Uniswap v2/v3 trade",
+            "name": "no-slippage-check"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/ShadowFi/0x10bc28d2810dD462E16facfF18f78783e859351b/0x10bc28d2810dD462E16facfF18f78783e859351b.sol",
+            "line": 834,
+            "message": "No slippage check in a Uniswap v2/v3 trade",
+            "name": "no-slippage-check"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "semgrep",
+        "mode": "solidity",
+        "version": "2023/08/21"
+    }
+}

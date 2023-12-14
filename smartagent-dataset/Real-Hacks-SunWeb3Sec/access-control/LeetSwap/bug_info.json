@@ -1,0 +1,19 @@
+[
+  {
+    "bug": [
+      "AccessControl"
+    ],
+    "blockchain": "Base",
+    "address": "0x94dac4a3ce998143aa119c05460731da80ad90cf",
+    "contract": "LeetSwapV2Pair",
+    "function": "_transferFeesSupportingTaxTokens",
+    "source_file": "LeetSwapV2Pair_flattened.sol",
+    "line_start": 595,
+    "line_end": 608,
+    "reference": [
+        "https://github.com/SunWeb3Sec/DeFiHackLabs/blob/main/src/test/Leetswap_exp.sol",
+        "https://twitter.com/BlockSecTeam/status/1686217464051539968",
+        "https://twitter.com/peckshield/status/1686209024587710464"
+    ]
+  }
+]

@@ -1,0 +1,68 @@
+Running SPCON... 0xCdCFc0f66c522Fd086A1b725ea3c0Eeb9F9e8814 600 
+Installing solc '0.4.19'...
+Version '0.4.19' installed.
+2023-12-08
+{'limit': 20000, 'network': 'ethereum', 'address': '0xCdCFc0f66c522Fd086A1b725ea3c0Eeb9F9e8814', 'date': '2023-12-08'}
+0xCdCFc0f66c522Fd086A1b725ea3c0Eeb9F9e8814 AURA
+./0xCdCFc0f66c522Fd086A1b725ea3c0Eeb9F9e8814
+loaded abi.
+11  functions ['symbol', 'decimals', 'lockBalances', 'allowance', 'balanceOf', 'safeAdd', 'approve', 'setOwner', 'totalSupply', 'transfer', 'safeSub']
+19088  users
+Timecost for loading history: 1.7823326587677002
+No.user: 19088; No.func: 11
++----------------------------------------------------+
+| Basic roles statistics (id, len(users), functions) |
++-----------+----------+-----------------------------+
+|   RoleId  |  Users   |          Functions          |
++-----------+----------+-----------------------------+
+|     0     |    1     |          ['symbol']         |
+|     1     |    4     |         ['decimals']        |
+|     2     |    3     |       ['lockBalances']      |
+|     3     |    3     |        ['allowance']        |
+|     4     |    20    |        ['balanceOf']        |
+|     5     |  16702   |         ['approve']         |
+|     6     |    26    |         ['setOwner']        |
+|     7     |    2     |       ['totalSupply']       |
+|     8     |   2970   |         ['transfer']        |
+|     9     |    2     |         ['safeAdd']         |
+|     10    |    2     |         ['safeSub']         |
++-----------+----------+-----------------------------+
+Gen. 0 (0.00%): Max/Min/Avg Fitness(Raw)             [2.01(2.15)/1.45(1.35)/1.68(1.68)]
+Gen. 100 (100.00%): INFO:spcon.symExec:Totally 0 integrity policies
+INFO:spcon.symExec:Totally 2 integrity policies
+INFO:spcon.symExec:Test Sequence: ['lockBalances']
+INFO:spcon.symExec:SymExecEVM().symExec: lockBalances()
+INFO:spcon.symExec:attacker: 0xc0ffee753b42bda1bcfa682f29685e2fd6729016
+INFO:spcon.symExec:transaction status: false
+INFO:spcon.symExec:test sequence is not feasible
+INFO:spcon.symExec:Test Sequence: ['setOwner', 'lockBalances']
+INFO:spcon.symExec:SymExecEVM().symExec: setOwner(address)
+INFO:spcon.symExec:attacker: 0xc0ffee753b42bda1bcfa682f29685e2fd6729016
+INFO:spcon.symExec:transaction status: success
+INFO:spcon.symExec:SymExecEVM().symExec: lockBalances()
+INFO:spcon.symExec:attacker: 0xc0ffee753b42bda1bcfa682f29685e2fd6729016
+INFO:spcon.symExec:transaction status: success
+CRITICAL:spcon.symExec:Permission Bug: find an attack sequence ['setOwner', 'lockBalances']
+INFO:spcon.symExec:Test Sequence: ['setOwner']
+INFO:spcon.symExec:SymExecEVM().symExec: setOwner(address)
+INFO:spcon.symExec:attacker: 0xc0ffee753b42bda1bcfa682f29685e2fd6729016
+INFO:spcon.symExec:transaction status: success
+CRITICAL:spcon.symExec:Permission Bug: find an attack sequence ['setOwner']
+INFO:spcon.symExec:Testing time: 25.632519006729126 seconds
+Max/Min/Avg Fitness(Raw)             [2.09(2.29)/1.56(1.46)/1.74(1.74)]
+Total time elapsed: 14.049 seconds.
+best role number: 5
+Role#0:{'symbol'}
+Role#1:{'balanceOf', 'transfer', 'decimals'}
+Role#2:{'lockBalances', 'setOwner', 'safeAdd'}
+Role#3:{'approve', 'allowance'}
+Role#4:{'totalSupply', 'safeSub'}
+Time cost: 89.45268821716309
+Security Policy:
+Policy#0: lockBalances setOwner safeAdd -> balancesUploaded owner via functions lockBalances setOwner
+Policy#1: approve allowance -> allowance via functions approve
+https://api.etherscan.io/api?module=proxy&action=eth_getStorageAt&address=0xCdCFc0f66c522Fd086A1b725ea3c0Eeb9F9e8814&position=0x0&tag=latest&apikey=CMMEM9V5Y1B1S1JT4MITADSPPACMJBYPZ2
+https://api.etherscan.io/api?module=proxy&action=eth_getStorageAt&address=0xCdCFc0f66c522Fd086A1b725ea3c0Eeb9F9e8814&position=0x0&tag=latest&apikey=CMMEM9V5Y1B1S1JT4MITADSPPACMJBYPZ2
+https://api.etherscan.io/api?module=proxy&action=eth_getStorageAt&address=0xCdCFc0f66c522Fd086A1b725ea3c0Eeb9F9e8814&position=0x7&tag=latest&apikey=CMMEM9V5Y1B1S1JT4MITADSPPACMJBYPZ2
+https://api.etherscan.io/api?module=proxy&action=eth_getStorageAt&address=0xCdCFc0f66c522Fd086A1b725ea3c0Eeb9F9e8814&position=0x7&tag=latest&apikey=CMMEM9V5Y1B1S1JT4MITADSPPACMJBYPZ2
+total timecost: 156.70727491378784 seconds

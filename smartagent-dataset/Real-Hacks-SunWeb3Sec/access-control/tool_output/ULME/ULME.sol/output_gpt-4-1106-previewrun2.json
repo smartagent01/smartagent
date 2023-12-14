@@ -1,0 +1,2 @@
+buyMiner
+The function does not have an access control modifier, allowing anyone to call it and potentially exploit it.

@@ -1,0 +1,29 @@
+File copied : /root/Achecker/AURA.bin-runtime
+processing /root/Achecker/AURA.bin-runtime
+Checking contract for [4mViolated-AC-Check[0m 
+------------------
+
+Violated access control check in function unlockToken()
+	( 2576)  a10:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {0} in function setOwner(address)
+
+Violated access control check in function lockBalances()
+	( 3015)  bc7:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {0} in function setOwner(address)
+
+Violated access control check in function transferFrom(address,address,uint256)
+	( 4600) 11f8:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {0} in function setOwner(address)
+
+Violated access control check in function transfer(address,uint256)
+	( 4600) 11f8:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {0} in function setOwner(address)
+
+Violated access control check in function uploadBalances(address[],uint256[])
+	( 3868)  f1c:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {0} in function setOwner(address)
+
+
+Checking contract for [4mMissing-AC-Check[0m 
+------------------
+de911234602507ed86656894a22fa0f64b816478fe1f89d68c7c02c39831ba33

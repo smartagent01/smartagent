@@ -1,0 +1,138 @@
+{
+    "errors": [
+        "EXIT_CODE_13"
+    ],
+    "fails": [],
+    "findings": [
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9b481067ef9773d52efd0fb5b665a5dc0c8e1a68/ERCDDAToken.sol",
+            "impact": "Informational",
+            "line": 6,
+            "line_end": 7,
+            "message": "ERCDDAToken.decimals should be constant (ERCDDAToken.sol#6-7)\n",
+            "name": "constable-states"
+        },
+        {
+            "confidence": "High",
+            "contract": "ERCDDAToken",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9b481067ef9773d52efd0fb5b665a5dc0c8e1a68/ERCDDAToken.sol",
+            "function": "owned",
+            "impact": "Informational",
+            "line": 15,
+            "line_end": 19,
+            "message": "ERCDDAToken.owned (ERCDDAToken.sol#15-19) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "ERCDDAToken",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9b481067ef9773d52efd0fb5b665a5dc0c8e1a68/ERCDDAToken.sol",
+            "function": "transfer",
+            "impact": "Informational",
+            "line": 47,
+            "line_end": 52,
+            "message": "ERCDDAToken.transfer (ERCDDAToken.sol#47-52) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "ERCDDAToken",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9b481067ef9773d52efd0fb5b665a5dc0c8e1a68/ERCDDAToken.sol",
+            "function": "freezeAccount",
+            "impact": "Informational",
+            "line": 52,
+            "line_end": 57,
+            "message": "ERCDDAToken.freezeAccount (ERCDDAToken.sol#52-57) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "ERCDDAToken",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9b481067ef9773d52efd0fb5b665a5dc0c8e1a68/ERCDDAToken.sol",
+            "function": "burn",
+            "impact": "Informational",
+            "line": 57,
+            "line_end": 65,
+            "message": "ERCDDAToken.burn (ERCDDAToken.sol#57-65) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "ERCDDAToken",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9b481067ef9773d52efd0fb5b665a5dc0c8e1a68/ERCDDAToken.sol",
+            "function": "mintToken",
+            "impact": "Informational",
+            "line": 65,
+            "line_end": 69,
+            "message": "ERCDDAToken.mintToken (ERCDDAToken.sol#65-69) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9b481067ef9773d52efd0fb5b665a5dc0c8e1a68/ERCDDAToken.sol",
+            "impact": "Informational",
+            "line": 36,
+            "line_end": 47,
+            "message": "Function 'ERCDDAToken._transfer' (ERCDDAToken.sol#36-47) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9b481067ef9773d52efd0fb5b665a5dc0c8e1a68/ERCDDAToken.sol",
+            "impact": "Informational",
+            "line": 36,
+            "message": "Parameter '_from' of ERCDDAToken._transfer (ERCDDAToken.sol#36) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9b481067ef9773d52efd0fb5b665a5dc0c8e1a68/ERCDDAToken.sol",
+            "impact": "Informational",
+            "line": 36,
+            "line_end": 37,
+            "message": "Parameter '_to' of ERCDDAToken._transfer (ERCDDAToken.sol#36-37) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9b481067ef9773d52efd0fb5b665a5dc0c8e1a68/ERCDDAToken.sol",
+            "impact": "Informational",
+            "line": 37,
+            "message": "Parameter '_value' of ERCDDAToken._transfer (ERCDDAToken.sol#37) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9b481067ef9773d52efd0fb5b665a5dc0c8e1a68/ERCDDAToken.sol",
+            "impact": "Informational",
+            "line": 47,
+            "message": "Parameter '_to' of ERCDDAToken.transfer (ERCDDAToken.sol#47) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9b481067ef9773d52efd0fb5b665a5dc0c8e1a68/ERCDDAToken.sol",
+            "impact": "Informational",
+            "line": 47,
+            "line_end": 48,
+            "message": "Parameter '_value' of ERCDDAToken.transfer (ERCDDAToken.sol#47-48) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x9b481067ef9773d52efd0fb5b665a5dc0c8e1a68/ERCDDAToken.sol",
+            "impact": "Informational",
+            "line": 57,
+            "line_end": 58,
+            "message": "Parameter '_value' of ERCDDAToken.burn (ERCDDAToken.sol#57-58) is not in mixedCase\n",
+            "name": "naming-convention"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "slither",
+        "mode": "solidity",
+        "version": "2022/11/14"
+    }
+}

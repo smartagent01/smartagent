@@ -1,0 +1,1 @@
+Based on the provided text, there are no functions listed with access control bugs. The analysis indicates that the contract's sensitive functions are protected with the appropriate modifiers and checks.

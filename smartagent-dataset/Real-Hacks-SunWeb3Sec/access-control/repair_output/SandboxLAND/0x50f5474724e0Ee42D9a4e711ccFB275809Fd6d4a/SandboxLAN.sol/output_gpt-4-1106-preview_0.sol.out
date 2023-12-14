@@ -1,0 +1,2 @@
+mintQuad
+The function lacks a hard cap on the number of tokens that can be minted, potentially allowing unlimited minting if the minter role is not managed properly.

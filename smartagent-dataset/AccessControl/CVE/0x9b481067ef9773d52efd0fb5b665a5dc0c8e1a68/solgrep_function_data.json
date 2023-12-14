@@ -1,0 +1,81 @@
+{
+  "/smart-agent/smartagent-dataset/AccessControl/CVE/0x9b481067ef9773d52efd0fb5b665a5dc0c8e1a68/ERCDDAToken.sol": [
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERCDDAToken.owned",
+      "info": "owned",
+      "loc": [
+        15,
+        4,
+        17,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERCDDAToken.__constructor__",
+      "info": "__constructor__",
+      "loc": [
+        24,
+        2,
+        34,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERCDDAToken._transfer",
+      "info": "_transfer",
+      "loc": [
+        36,
+        4,
+        45,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERCDDAToken.transfer",
+      "info": "transfer",
+      "loc": [
+        47,
+        4,
+        50,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERCDDAToken.freezeAccount",
+      "info": "freezeAccount",
+      "loc": [
+        52,
+        4,
+        55,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERCDDAToken.burn",
+      "info": "burn",
+      "loc": [
+        57,
+        4,
+        63,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERCDDAToken.mintToken",
+      "info": "mintToken",
+      "loc": [
+        65,
+        1,
+        68,
+        1
+      ]
+    }
+  ]
+}

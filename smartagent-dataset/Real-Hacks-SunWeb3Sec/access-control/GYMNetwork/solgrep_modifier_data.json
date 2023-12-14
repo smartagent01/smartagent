@@ -1,0 +1,81 @@
+{
+  "/smart-agent-artifact/smart-agent/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/GYMNetwork/0x0288FBA0BF19072d30490A0F3C81cD9B0634258a_flattened.sol": [
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: Initializable.initializer",
+      "info": "initializer",
+      "loc": [
+        709,
+        4,
+        719,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: Initializable.reinitializer",
+      "info": "reinitializer",
+      "loc": [
+        733,
+        4,
+        743,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: Initializable.onlyInitializing",
+      "info": "onlyInitializing",
+      "loc": [
+        749,
+        4,
+        752,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: OwnableUpgradeable.onlyOwner",
+      "info": "onlyOwner",
+      "loc": [
+        853,
+        4,
+        856,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: ReentrancyGuardUpgradeable.nonReentrant",
+      "info": "nonReentrant",
+      "loc": [
+        950,
+        4,
+        962,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: GymSinglePool.onlyRunnerScript",
+      "info": "onlyRunnerScript",
+      "loc": [
+        1692,
+        4,
+        1695,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: GymSinglePool.onlyBank",
+      "info": "onlyBank",
+      "loc": [
+        1696,
+        4,
+        1699,
+        4
+      ]
+    }
+  ]
+}

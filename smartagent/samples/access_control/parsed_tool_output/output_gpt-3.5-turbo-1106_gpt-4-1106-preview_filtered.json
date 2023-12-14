@@ -1,0 +1,20 @@
+{
+  "MorphToken/MorphToken.sol": [
+    {
+      "location": "owned",
+      "message": "The `Owned` contract has a constructor named `owned`, which should be named `Owned` to match the contract name. This could potentially allow anyone to call it to initialize the contract.",
+      "tool": [
+        "gpt3"
+      ]
+    }
+  ],
+  "Melo/Melo.sol": [
+    {
+      "location": "mint",
+      "message": "The `mint` function is marked as public, which means anyone can call it to mint tokens. This can be a potential access control bug if minting should be restricted to certain roles.",
+      "tool": [
+        "gpt3"
+      ]
+    }
+  ]
+}

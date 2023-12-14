@@ -1,0 +1,9 @@
+File copied : /root/Achecker/ProtocolFeeVault.bin-runtime
+processing /root/Achecker/ProtocolFeeVault.bin-runtime
+Checking contract for [4mViolated-AC-Check[0m 
+------------------
+
+
+Checking contract for [4mMissing-AC-Check[0m 
+------------------
+febb62fafe3bf0e82c330d4c47450472c85dfe6e35aead879f5060bd33f27713

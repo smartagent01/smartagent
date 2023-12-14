@@ -1,0 +1,117 @@
+Running SPCON... 0xF0b7DE03134857391d8D43Ed48e20EDF21461097 600 2022-05-23
+Installing solc '0.5.17'...
+Version '0.5.17' installed.
+2022-05-23
+{'limit': 29, 'network': 'ethereum', 'address': '0xF0b7DE03134857391d8D43Ed48e20EDF21461097', 'date': '2022-05-23'}
+0xF0b7DE03134857391d8D43Ed48e20EDF21461097 NFT
+./0xF0b7DE03134857391d8D43Ed48e20EDF21461097
+loaded abi.
+7  functions ['init', 'mint', 'owner', 'transferFrom', 'burn', 'transferOwnership', 'ownerOf']
+6  users
+Timecost for loading history: 0.005360126495361328
+No.user: 6; No.func: 7
++----------------------------------------------------+
+| Basic roles statistics (id, len(users), functions) |
++----------+--------+--------------------------------+
+|  RoleId  | Users  |           Functions            |
++----------+--------+--------------------------------+
+|    0     |   2    |            ['init']            |
+|    1     |   2    |            ['mint']            |
+|    2     |   2    |        ['transferFrom']        |
+|    3     |   1    |     ['transferOwnership']      |
+|    4     |   1    |          ['ownerOf']           |
+|    5     |   1    |       ['owner', 'burn']        |
++----------+--------+--------------------------------+
+Gen. 0 (0.00%): Max/Min/Avg Fitness(Raw)             [2.08(2.29)/1.44(1.26)/1.74(1.74)]
+Gen. 100 (100.00%): INFO:spcon.symExec:Totally 0 integrity policies
+INFO:spcon.symExec:Totally 1 integrity policies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/SpCon-0.1.0-py3.8.egg/spcon/symExec.py", line 587, in symExec
+    SymExecEVM().symCreateContractAccount(contract=contract, EthereumAddress=EthereumAddress)
+  File "/usr/local/lib/python3.8/dist-packages/SpCon-0.1.0-py3.8.egg/spcon/symExec.py", line 473, in symCreateContractAccount
+    contract_account = m.solidity_create_contract(source_code = address, \
+  File "/usr/local/lib/python3.8/dist-packages/manticore-0.3.8.dev231202-py3.8.egg/manticore/ethereum/manticore.py", line 588, in solidity_create_contract
+    md = SolidityMetadata(*compile_results)
+  File "/usr/local/lib/python3.8/dist-packages/manticore-0.3.8.dev231202-py3.8.egg/manticore/ethereum/solidity.py", line 91, in __init__
+    self.srcmap = self.__build_source_map(self.init_bytecode, srcmap)
+  File "/usr/local/lib/python3.8/dist-packages/manticore-0.3.8.dev231202-py3.8.egg/manticore/ethereum/solidity.py", line 116, in __build_source_map
+    byte_offset = int(
+ValueError: invalid literal for int() with base 10: ''
+CRITICAL:spcon.symExec:NFT-0xF0b7DE03134857391d8D43Ed48e20EDF21461097 cannot be deployed using manticore
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/SpCon-0.1.0-py3.8.egg/spcon/symExec.py", line 587, in symExec
+    SymExecEVM().symCreateContractAccount(contract=contract, EthereumAddress=EthereumAddress)
+  File "/usr/local/lib/python3.8/dist-packages/SpCon-0.1.0-py3.8.egg/spcon/symExec.py", line 473, in symCreateContractAccount
+    contract_account = m.solidity_create_contract(source_code = address, \
+  File "/usr/local/lib/python3.8/dist-packages/manticore-0.3.8.dev231202-py3.8.egg/manticore/ethereum/manticore.py", line 588, in solidity_create_contract
+    md = SolidityMetadata(*compile_results)
+  File "/usr/local/lib/python3.8/dist-packages/manticore-0.3.8.dev231202-py3.8.egg/manticore/ethereum/solidity.py", line 91, in __init__
+    self.srcmap = self.__build_source_map(self.init_bytecode, srcmap)
+  File "/usr/local/lib/python3.8/dist-packages/manticore-0.3.8.dev231202-py3.8.egg/manticore/ethereum/solidity.py", line 116, in __build_source_map
+    byte_offset = int(
+ValueError: invalid literal for int() with base 10: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/SpCon-0.1.0-py3.8.egg/spcon/__main__.py", line 36, in execute_command
+    SymExecEVM().fuzzing(contract=contractName, EthereumAddress=args.eth_address, separation_policies = separation_policies, integrity_policies=integrity_policies,\
+  File "/usr/local/lib/python3.8/dist-packages/timeout_decorator-0.5.0-py3.8.egg/timeout_decorator/timeout_decorator.py", line 82, in new_function
+    return function(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/SpCon-0.1.0-py3.8.egg/spcon/symExec.py", line 653, in fuzzing
+    attack_test_sequence = greedyTesting(data, S=Stack, unauthorizedusers = unauthorizedusers, desc=f"Testing separation priviledgefuncs...\nR: {authorizedrole[1]}\n")
+  File "/usr/local/lib/python3.8/dist-packages/SpCon-0.1.0-py3.8.egg/spcon/symExec.py", line 611, in greedyTesting
+    if not symExec(unauthorizedusers, S):
+  File "/usr/local/lib/python3.8/dist-packages/SpCon-0.1.0-py3.8.egg/spcon/symExec.py", line 591, in symExec
+    exit(-1)
+  File "/usr/lib/python3.8/_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/SpCon-0.1.0-py3.8.egg/spcon/symExec.py", line 587, in symExec
+    SymExecEVM().symCreateContractAccount(contract=contract, EthereumAddress=EthereumAddress)
+  File "/usr/local/lib/python3.8/dist-packages/SpCon-0.1.0-py3.8.egg/spcon/symExec.py", line 473, in symCreateContractAccount
+    contract_account = m.solidity_create_contract(source_code = address, \
+  File "/usr/local/lib/python3.8/dist-packages/manticore-0.3.8.dev231202-py3.8.egg/manticore/ethereum/manticore.py", line 588, in solidity_create_contract
+    md = SolidityMetadata(*compile_results)
+  File "/usr/local/lib/python3.8/dist-packages/manticore-0.3.8.dev231202-py3.8.egg/manticore/ethereum/solidity.py", line 91, in __init__
+    self.srcmap = self.__build_source_map(self.init_bytecode, srcmap)
+  File "/usr/local/lib/python3.8/dist-packages/manticore-0.3.8.dev231202-py3.8.egg/manticore/ethereum/solidity.py", line 116, in __build_source_map
+    byte_offset = int(
+ValueError: invalid literal for int() with base 10: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/SpCon-0.1.0-py3.8.egg/spcon/__main__.py", line 36, in execute_command
+    SymExecEVM().fuzzing(contract=contractName, EthereumAddress=args.eth_address, separation_policies = separation_policies, integrity_policies=integrity_policies,\
+  File "/usr/local/lib/python3.8/dist-packages/timeout_decorator-0.5.0-py3.8.egg/timeout_decorator/timeout_decorator.py", line 82, in new_function
+    return function(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/SpCon-0.1.0-py3.8.egg/spcon/symExec.py", line 653, in fuzzing
+    attack_test_sequence = greedyTesting(data, S=Stack, unauthorizedusers = unauthorizedusers, desc=f"Testing separation priviledgefuncs...\nR: {authorizedrole[1]}\n")
+  File "/usr/local/lib/python3.8/dist-packages/SpCon-0.1.0-py3.8.egg/spcon/symExec.py", line 611, in greedyTesting
+    if not symExec(unauthorizedusers, S):
+  File "/usr/local/lib/python3.8/dist-packages/SpCon-0.1.0-py3.8.egg/spcon/symExec.py", line 591, in symExec
+    exit(-1)
+  File "/usr/lib/python3.8/_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/SpCon-0.1.0-py3.8.egg/spcon/__main__.py", line 67, in main
+    execute_command(args)
+  File "/usr/local/lib/python3.8/dist-packages/SpCon-0.1.0-py3.8.egg/spcon/__main__.py", line 41, in execute_command
+    raise Exception("Unkown error")
+Exception: Unkown error
+Max/Min/Avg Fitness(Raw)             [3.83(4.68)/2.39(1.31)/3.19(3.19)]
+Total time elapsed: 9.098 seconds.
+best role number: 3
+Role#0:{'init', 'mint', 'owner', 'burn', 'ownerOf'}
+Role#1:{'transferFrom'}
+Role#2:{'transferOwnership'}
+Time cost: 9.107451677322388
+Security Policy:
+Policy#0: init mint ownerOf owner burn -> _tokenName _supportedInterfaces _tokenSymbol via functions init
+total timecost: 38.61160612106323 seconds

@@ -1,0 +1,47 @@
+METRICS: Using configs from the Registry (like --config=p/ci) reports pseudonymous rule metrics to semgrep.dev.
+To disable Registry rule metrics, use "--metrics=off".
+Using configs only from local files (like --config=xyz.yml) does not enable metrics.
+
+More information: https://semgrep.dev/docs/metrics
+
+               
+               
+┌─────────────┐
+│ Scan Status │
+└─────────────┘
+  Scanning 1 file tracked by git with 48 Code rules:
+  Scanning 1 file with 48 solidity rules.
+                  
+                  
+┌────────────────┐
+│ 1 Code Finding │
+└────────────────┘
+                       
+    /sb/MorphToken.sol 
+       solidity.performance.use-nested-if                                       
+          Using nested is cheaper than using && multiple check combinations.    
+  There are more                                                                
+          advantages, such as easier to read code and better coverage reports.  
+                                                                                
+           98┆  if (balanceOf[_from] >= _amount
+           99┆      && allowed[_from][msg.sender] >= _amount
+          100┆      && _amount > 0
+          101┆      && balanceOf[_to].add(_amount) > balanceOf[_to])
+          102┆ {
+          103┆      balanceOf[_from] = balanceOf[_from].sub(_amount);
+          104┆      allowed[_from][msg.sender] =                                
+  allowed[_from][msg.sender].sub(_amount);                                      
+          105┆      balanceOf[_to] = balanceOf[_to].add(_amount);
+          106┆      return true;
+          107┆ } else {
+             [hid 2 additional lines, adjust with --max-lines-per-finding] 
+
+                
+                
+┌──────────────┐
+│ Scan Summary │
+└──────────────┘
+
+Ran 48 rules on 1 file: 1 finding.
+
+A new version of Semgrep is available. See https://semgrep.dev/docs/upgrading

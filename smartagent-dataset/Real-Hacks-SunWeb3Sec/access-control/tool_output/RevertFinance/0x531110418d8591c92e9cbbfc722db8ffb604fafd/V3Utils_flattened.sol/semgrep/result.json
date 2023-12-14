@@ -1,0 +1,439 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 983,
+            "message": "To guarantee arguments type safety it is recommended to use `abi.encodeCall` instead of `abi.encodeWithSelector`.",
+            "name": "use-abi-encodecall-instead-of-encodewithselector"
+        },
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 992,
+            "message": "To guarantee arguments type safety it is recommended to use `abi.encodeCall` instead of `abi.encodeWithSelector`.",
+            "name": "use-abi-encodecall-instead-of-encodewithselector"
+        },
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 1014,
+            "message": "To guarantee arguments type safety it is recommended to use `abi.encodeCall` instead of `abi.encodeWithSelector`.",
+            "name": "use-abi-encodecall-instead-of-encodewithselector"
+        },
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 1023,
+            "message": "To guarantee arguments type safety it is recommended to use `abi.encodeCall` instead of `abi.encodeWithSelector`.",
+            "name": "use-abi-encodecall-instead-of-encodewithselector"
+        },
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 1035,
+            "message": "To guarantee arguments type safety it is recommended to use `abi.encodeCall` instead of `abi.encodeWithSelector`.",
+            "name": "use-abi-encodecall-instead-of-encodewithselector"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 1139,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 1140,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 1141,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 1142,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 781,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 784,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 854,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 925,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 1010,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 1011,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 1012,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 1013,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 1033,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 1052,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 1069,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 1301,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 1302,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 1303,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 1485,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 1486,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 1487,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 1488,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 1489,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 1490,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 1491,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 1492,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 1609,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 1610,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 1611,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 1612,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 1613,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 1614,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 1615,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 1616,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 1617,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 1624,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 1625,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 1626,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 1627,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 1628,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 1629,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 1630,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 1631,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 1632,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 1633,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 784,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 854,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 1010,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 1011,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 1012,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 1013,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 1033,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 1052,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 1069,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 1284,
+            "message": "Possible arithmetic underflow",
+            "name": "basic-arithmetic-underflow"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/RevertFinance/0x531110418d8591c92e9cbbfc722db8ffb604fafd/V3Utils_flattened.sol",
+            "line": 1293,
+            "message": "Possible arithmetic underflow",
+            "name": "basic-arithmetic-underflow"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "semgrep",
+        "mode": "solidity",
+        "version": "2023/08/21"
+    }
+}

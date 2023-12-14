@@ -1,0 +1,516 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 319,
+            "message": "By demanding that the receiver of the owner permissions actively accept via a contract call of its own,  `Ownable2Step` and `Ownable2StepUpgradeable` prevent the contract ownership from accidentally being transferred  to an address that cannot handle it.",
+            "name": "use-ownable2step"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 272,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 273,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 274,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 275,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 276,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 337,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 338,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 339,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 340,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 1079,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 1080,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 1081,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 1082,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 1083,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 1084,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 1085,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 1086,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 1087,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 1088,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 1112,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 1240,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 1241,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 1241,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 1111,
+            "message": "A lot of times there is no risk that the loop counter can overflow. Using Solidity's unchecked block saves the overflow checks.",
+            "name": "unnecessary-checked-arithmetic-in-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 1239,
+            "message": "A lot of times there is no risk that the loop counter can overflow. Using Solidity's unchecked block saves the overflow checks.",
+            "name": "unnecessary-checked-arithmetic-in-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 289,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 310,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 311,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 312,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 313,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 563,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 564,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 599,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 620,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 652,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 653,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 694,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 753,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 1158,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 1159,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 1173,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 1174,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 1175,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 1176,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 1177,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 1178,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 1179,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 1180,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 1181,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 1182,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 1111,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 1239,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 310,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 311,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 312,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 313,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 563,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 564,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 620,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 652,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 653,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 753,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 1158,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 1159,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 1219,
+            "message": "No slippage check in a Uniswap v2/v3 trade",
+            "name": "no-slippage-check"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 1220,
+            "message": "No slippage check in a Uniswap v2/v3 trade",
+            "name": "no-slippage-check"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 1221,
+            "message": "No slippage check in a Uniswap v2/v3 trade",
+            "name": "no-slippage-check"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 1222,
+            "message": "No slippage check in a Uniswap v2/v3 trade",
+            "name": "no-slippage-check"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 1223,
+            "message": "No slippage check in a Uniswap v2/v3 trade",
+            "name": "no-slippage-check"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 1224,
+            "message": "No slippage check in a Uniswap v2/v3 trade",
+            "name": "no-slippage-check"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+            "line": 1225,
+            "message": "No slippage check in a Uniswap v2/v3 trade",
+            "name": "no-slippage-check"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "semgrep",
+        "mode": "solidity",
+        "version": "2023/08/21"
+    }
+}

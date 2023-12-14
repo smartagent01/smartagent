@@ -1,0 +1,404 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "line": 417,
+            "message": "To guarantee arguments type safety it is recommended to use `abi.encodeCall` instead of `abi.encodeWithSelector`.",
+            "name": "use-abi-encodecall-instead-of-encodewithselector"
+        },
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "line": 418,
+            "message": "To guarantee arguments type safety it is recommended to use `abi.encodeCall` instead of `abi.encodeWithSelector`.",
+            "name": "use-abi-encodecall-instead-of-encodewithselector"
+        },
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "line": 419,
+            "message": "To guarantee arguments type safety it is recommended to use `abi.encodeCall` instead of `abi.encodeWithSelector`.",
+            "name": "use-abi-encodecall-instead-of-encodewithselector"
+        },
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "line": 420,
+            "message": "To guarantee arguments type safety it is recommended to use `abi.encodeCall` instead of `abi.encodeWithSelector`.",
+            "name": "use-abi-encodecall-instead-of-encodewithselector"
+        },
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "line": 421,
+            "message": "To guarantee arguments type safety it is recommended to use `abi.encodeCall` instead of `abi.encodeWithSelector`.",
+            "name": "use-abi-encodecall-instead-of-encodewithselector"
+        },
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "line": 495,
+            "message": "To guarantee arguments type safety it is recommended to use `abi.encodeCall` instead of `abi.encodeWithSelector`.",
+            "name": "use-abi-encodecall-instead-of-encodewithselector"
+        },
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "line": 496,
+            "message": "To guarantee arguments type safety it is recommended to use `abi.encodeCall` instead of `abi.encodeWithSelector`.",
+            "name": "use-abi-encodecall-instead-of-encodewithselector"
+        },
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "line": 497,
+            "message": "To guarantee arguments type safety it is recommended to use `abi.encodeCall` instead of `abi.encodeWithSelector`.",
+            "name": "use-abi-encodecall-instead-of-encodewithselector"
+        },
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "line": 498,
+            "message": "To guarantee arguments type safety it is recommended to use `abi.encodeCall` instead of `abi.encodeWithSelector`.",
+            "name": "use-abi-encodecall-instead-of-encodewithselector"
+        },
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "line": 499,
+            "message": "To guarantee arguments type safety it is recommended to use `abi.encodeCall` instead of `abi.encodeWithSelector`.",
+            "name": "use-abi-encodecall-instead-of-encodewithselector"
+        },
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "line": 500,
+            "message": "To guarantee arguments type safety it is recommended to use `abi.encodeCall` instead of `abi.encodeWithSelector`.",
+            "name": "use-abi-encodecall-instead-of-encodewithselector"
+        },
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "line": 300,
+            "message": "By demanding that the receiver of the owner permissions actively accept via a contract call of its own,  `Ownable2Step` and `Ownable2StepUpgradeable` prevent the contract ownership from accidentally being transferred  to an address that cannot handle it.",
+            "name": "use-ownable2step"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "line": 258,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "line": 259,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "line": 260,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "line": 261,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "line": 262,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "line": 804,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "line": 805,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "line": 806,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "line": 807,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "line": 808,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "line": 809,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "line": 810,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "line": 162,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "line": 267,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "line": 280,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "line": 306,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "line": 318,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "line": 397,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "line": 398,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "line": 399,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "line": 400,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "line": 477,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "line": 568,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "line": 579,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "line": 592,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "line": 643,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "line": 808,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "line": 823,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "line": 824,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "line": 825,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "line": 826,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "line": 827,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "line": 828,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "line": 842,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "line": 843,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "line": 864,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "line": 880,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "line": 881,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "line": 891,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "line": 892,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "line": 893,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "line": 894,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "line": 895,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "line": 318,
+            "message": "Using multiple require statements is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-multiple-require"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "semgrep",
+        "mode": "solidity",
+        "version": "2023/08/21"
+    }
+}

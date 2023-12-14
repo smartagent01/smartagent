@@ -1,0 +1,2 @@
+unlock
+The `unlock` function allows the previous owner to regain control without any time delay after locking, which could be exploited if the previous owner's address is compromised.

@@ -1,0 +1,3 @@
+File copied : /root/Achecker/ShadowFi.bin-runtime
+processing /root/Achecker/ShadowFi.bin-runtime
+57e82678502e2ed07284ea24edc501a1c8a609c8f52a1e8aef2230e987873b0a

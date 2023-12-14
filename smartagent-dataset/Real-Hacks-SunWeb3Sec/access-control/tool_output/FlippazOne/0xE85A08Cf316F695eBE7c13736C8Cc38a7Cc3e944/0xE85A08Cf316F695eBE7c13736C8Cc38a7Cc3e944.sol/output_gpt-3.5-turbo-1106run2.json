@@ -1,0 +1,6 @@
+The buggy functions are:
+1. Missing permission checking in functions that can change ownership or admin rights of the contract.
+2. Unauthorized access control for withdrawing ether or tokens from the contract.
+3. Unauthorized access control for burning, transferring tokens, or minting tokens.
+4. Unauthorized access control for performing external calls to arbitrary contracts.
+5. Unauthorized access control for delegate calling to controlled contract.

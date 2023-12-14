@@ -1,0 +1,2 @@
+buyMiner
+The `buyMiner` function lacks access control, allowing any user to call it which could be exploited if not intended for public use.

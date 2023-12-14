@@ -1,0 +1,2 @@
+renounceOwnership
+Proper permission checking is implemented before allowing ownership changes.

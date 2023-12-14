@@ -1,0 +1,1423 @@
+{
+  "/smart-agent-artifact/smart-agent/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/MBC_ZZSH/0x4E87880A72f6896E7e0a635A5838fFc89b13bd17/0x4E87880A72f6896E7e0a635A5838fFc89b13bd17.sol": [
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Context._msgSender",
+      "info": "_msgSender",
+      "loc": [
+        6,
+        4,
+        8,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Context._msgData",
+      "info": "_msgData",
+      "loc": [
+        10,
+        4,
+        14,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Pair.name",
+      "info": "name",
+      "loc": [
+        25,
+        4,
+        25,
+        57
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Pair.symbol",
+      "info": "symbol",
+      "loc": [
+        27,
+        4,
+        27,
+        59
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Pair.decimals",
+      "info": "decimals",
+      "loc": [
+        29,
+        4,
+        29,
+        53
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Pair.totalSupply",
+      "info": "totalSupply",
+      "loc": [
+        31,
+        4,
+        31,
+        58
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Pair.balanceOf",
+      "info": "balanceOf",
+      "loc": [
+        33,
+        4,
+        33,
+        69
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Pair.allowance",
+      "info": "allowance",
+      "loc": [
+        35,
+        4,
+        38,
+        21
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Pair.approve",
+      "info": "approve",
+      "loc": [
+        40,
+        4,
+        40,
+        76
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Pair.transfer",
+      "info": "transfer",
+      "loc": [
+        42,
+        4,
+        42,
+        72
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Pair.transferFrom",
+      "info": "transferFrom",
+      "loc": [
+        44,
+        4,
+        48,
+        29
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Pair.DOMAIN_SEPARATOR",
+      "info": "DOMAIN_SEPARATOR",
+      "loc": [
+        50,
+        4,
+        50,
+        63
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Pair.PERMIT_TYPEHASH",
+      "info": "PERMIT_TYPEHASH",
+      "loc": [
+        52,
+        4,
+        52,
+        62
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Pair.nonces",
+      "info": "nonces",
+      "loc": [
+        54,
+        4,
+        54,
+        66
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Pair.permit",
+      "info": "permit",
+      "loc": [
+        56,
+        4,
+        64,
+        14
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Pair.MINIMUM_LIQUIDITY",
+      "info": "MINIMUM_LIQUIDITY",
+      "loc": [
+        83,
+        4,
+        83,
+        64
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Pair.factory",
+      "info": "factory",
+      "loc": [
+        85,
+        4,
+        85,
+        54
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Pair.token0",
+      "info": "token0",
+      "loc": [
+        87,
+        4,
+        87,
+        53
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Pair.token1",
+      "info": "token1",
+      "loc": [
+        89,
+        4,
+        89,
+        53
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Pair.getReserves",
+      "info": "getReserves",
+      "loc": [
+        91,
+        4,
+        98,
+        5
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Pair.price0CumulativeLast",
+      "info": "price0CumulativeLast",
+      "loc": [
+        100,
+        4,
+        100,
+        67
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Pair.price1CumulativeLast",
+      "info": "price1CumulativeLast",
+      "loc": [
+        102,
+        4,
+        102,
+        67
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Pair.kLast",
+      "info": "kLast",
+      "loc": [
+        104,
+        4,
+        104,
+        52
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Pair.mint",
+      "info": "mint",
+      "loc": [
+        106,
+        4,
+        106,
+        66
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Pair.burn",
+      "info": "burn",
+      "loc": [
+        108,
+        4,
+        110,
+        46
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Pair.swap",
+      "info": "swap",
+      "loc": [
+        112,
+        4,
+        117,
+        14
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Pair.skim",
+      "info": "skim",
+      "loc": [
+        119,
+        4,
+        119,
+        38
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Pair.sync",
+      "info": "sync",
+      "loc": [
+        121,
+        4,
+        121,
+        28
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Pair.initialize",
+      "info": "initialize",
+      "loc": [
+        123,
+        4,
+        123,
+        50
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Factory.feeTo",
+      "info": "feeTo",
+      "loc": [
+        134,
+        4,
+        134,
+        52
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Factory.feeToSetter",
+      "info": "feeToSetter",
+      "loc": [
+        136,
+        4,
+        136,
+        58
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Factory.getPair",
+      "info": "getPair",
+      "loc": [
+        138,
+        4,
+        141,
+        26
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Factory.allPairs",
+      "info": "allPairs",
+      "loc": [
+        143,
+        4,
+        143,
+        67
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Factory.allPairsLength",
+      "info": "allPairsLength",
+      "loc": [
+        145,
+        4,
+        145,
+        61
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Factory.createPair",
+      "info": "createPair",
+      "loc": [
+        147,
+        4,
+        149,
+        26
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Factory.setFeeTo",
+      "info": "setFeeTo",
+      "loc": [
+        151,
+        4,
+        151,
+        39
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Factory.setFeeToSetter",
+      "info": "setFeeToSetter",
+      "loc": [
+        153,
+        4,
+        153,
+        45
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20.totalSupply",
+      "info": "totalSupply",
+      "loc": [
+        161,
+        4,
+        161,
+        58
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20.balanceOf",
+      "info": "balanceOf",
+      "loc": [
+        166,
+        4,
+        166,
+        71
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20.transfer",
+      "info": "transfer",
+      "loc": [
+        175,
+        4,
+        177,
+        18
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20.allowance",
+      "info": "allowance",
+      "loc": [
+        186,
+        4,
+        189,
+        21
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20.approve",
+      "info": "approve",
+      "loc": [
+        205,
+        4,
+        205,
+        77
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20.transferFrom",
+      "info": "transferFrom",
+      "loc": [
+        216,
+        4,
+        220,
+        29
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20Metadata.name",
+      "info": "name",
+      "loc": [
+        245,
+        4,
+        245,
+        57
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20Metadata.symbol",
+      "info": "symbol",
+      "loc": [
+        250,
+        4,
+        250,
+        59
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IERC20Metadata.decimals",
+      "info": "decimals",
+      "loc": [
+        255,
+        4,
+        255,
+        53
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Ownable.__constructor__",
+      "info": "__constructor__",
+      "loc": [
+        268,
+        4,
+        272,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Ownable.owner",
+      "info": "owner",
+      "loc": [
+        277,
+        4,
+        279,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Ownable.renounceOwnership",
+      "info": "renounceOwnership",
+      "loc": [
+        296,
+        4,
+        299,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Ownable.transferOwnership",
+      "info": "transferOwnership",
+      "loc": [
+        305,
+        4,
+        312,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.__constructor__",
+      "info": "__constructor__",
+      "loc": [
+        333,
+        4,
+        336,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.name",
+      "info": "name",
+      "loc": [
+        341,
+        4,
+        343,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.symbol",
+      "info": "symbol",
+      "loc": [
+        349,
+        4,
+        351,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.decimals",
+      "info": "decimals",
+      "loc": [
+        366,
+        4,
+        368,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.totalSupply",
+      "info": "totalSupply",
+      "loc": [
+        373,
+        4,
+        375,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.balanceOf",
+      "info": "balanceOf",
+      "loc": [
+        380,
+        4,
+        388,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.transfer",
+      "info": "transfer",
+      "loc": [
+        398,
+        4,
+        406,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.allowance",
+      "info": "allowance",
+      "loc": [
+        411,
+        4,
+        419,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.approve",
+      "info": "approve",
+      "loc": [
+        428,
+        4,
+        436,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.transferFrom",
+      "info": "transferFrom",
+      "loc": [
+        451,
+        4,
+        466,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.transferFromm",
+      "info": "transferFromm",
+      "loc": [
+        468,
+        4,
+        483,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.increaseAllowance",
+      "info": "increaseAllowance",
+      "loc": [
+        497,
+        4,
+        508,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.decreaseAllowance",
+      "info": "decreaseAllowance",
+      "loc": [
+        524,
+        4,
+        538,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20._transfer",
+      "info": "_transfer",
+      "loc": [
+        554,
+        4,
+        562,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20._transferToken",
+      "info": "_transferToken",
+      "loc": [
+        564,
+        4,
+        572,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20._transferrToken",
+      "info": "_transferrToken",
+      "loc": [
+        574,
+        4,
+        583,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20._mint",
+      "info": "_mint",
+      "loc": [
+        594,
+        4,
+        602,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20._burn",
+      "info": "_burn",
+      "loc": [
+        615,
+        4,
+        626,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20._approve",
+      "info": "_approve",
+      "loc": [
+        643,
+        4,
+        653,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20._beforeTokenTransfer",
+      "info": "_beforeTokenTransfer",
+      "loc": [
+        669,
+        4,
+        673,
+        24
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.add",
+      "info": "add",
+      "loc": [
+        688,
+        4,
+        693,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.sub",
+      "info": "sub",
+      "loc": [
+        705,
+        4,
+        707,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.sub",
+      "info": "sub",
+      "loc": [
+        719,
+        4,
+        728,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.mul",
+      "info": "mul",
+      "loc": [
+        740,
+        4,
+        752,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.div",
+      "info": "div",
+      "loc": [
+        766,
+        4,
+        768,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.div",
+      "info": "div",
+      "loc": [
+        782,
+        4,
+        792,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.mod",
+      "info": "mod",
+      "loc": [
+        806,
+        4,
+        808,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.mod",
+      "info": "mod",
+      "loc": [
+        822,
+        4,
+        829,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: EthWarp.withdraw",
+      "info": "withdraw",
+      "loc": [
+        832,
+        4,
+        832,
+        46
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: EthWarp.warpToken",
+      "info": "warpToken",
+      "loc": [
+        833,
+        1,
+        833,
+        66
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: EthWarp.addTokenldx",
+      "info": "addTokenldx",
+      "loc": [
+        834,
+        4,
+        834,
+        49
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Router01.factory",
+      "info": "factory",
+      "loc": [
+        838,
+        4,
+        838,
+        54
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Router01.WETH",
+      "info": "WETH",
+      "loc": [
+        840,
+        4,
+        840,
+        51
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Router01.addLiquidity",
+      "info": "addLiquidity",
+      "loc": [
+        842,
+        4,
+        857,
+        5
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Router01.addLiquidityETH",
+      "info": "addLiquidityETH",
+      "loc": [
+        859,
+        4,
+        873,
+        5
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Router01.removeLiquidity",
+      "info": "removeLiquidity",
+      "loc": [
+        875,
+        4,
+        883,
+        57
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Router01.removeLiquidityETH",
+      "info": "removeLiquidityETH",
+      "loc": [
+        885,
+        4,
+        892,
+        63
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Router01.removeLiquidityWithPermit",
+      "info": "removeLiquidityWithPermit",
+      "loc": [
+        894,
+        4,
+        906,
+        57
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Router01.removeLiquidityETHWithPermit",
+      "info": "removeLiquidityETHWithPermit",
+      "loc": [
+        908,
+        4,
+        919,
+        63
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Router01.swapExactTokensForTokens",
+      "info": "swapExactTokensForTokens",
+      "loc": [
+        921,
+        4,
+        927,
+        49
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Router01.swapTokensForExactTokens",
+      "info": "swapTokensForExactTokens",
+      "loc": [
+        929,
+        4,
+        935,
+        49
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Router01.swapExactETHForTokens",
+      "info": "swapExactETHForTokens",
+      "loc": [
+        937,
+        4,
+        942,
+        57
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Router01.swapTokensForExactETH",
+      "info": "swapTokensForExactETH",
+      "loc": [
+        944,
+        4,
+        950,
+        49
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Router01.swapExactTokensForETH",
+      "info": "swapExactTokensForETH",
+      "loc": [
+        952,
+        4,
+        958,
+        49
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Router01.swapETHForExactTokens",
+      "info": "swapETHForExactTokens",
+      "loc": [
+        960,
+        4,
+        965,
+        57
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Router01.quote",
+      "info": "quote",
+      "loc": [
+        967,
+        4,
+        971,
+        45
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Router01.getAmountOut",
+      "info": "getAmountOut",
+      "loc": [
+        973,
+        4,
+        977,
+        47
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Router01.getAmountIn",
+      "info": "getAmountIn",
+      "loc": [
+        979,
+        4,
+        983,
+        46
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Router01.getAmountsOut",
+      "info": "getAmountsOut",
+      "loc": [
+        985,
+        4,
+        988,
+        38
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Router01.getAmountsIn",
+      "info": "getAmountsIn",
+      "loc": [
+        990,
+        4,
+        993,
+        38
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Router02.removeLiquidityETHSupportingFeeOnTransferTokens",
+      "info": "removeLiquidityETHSupportingFeeOnTransferTokens",
+      "loc": [
+        997,
+        4,
+        1004,
+        42
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Router02.removeLiquidityETHWithPermitSupportingFeeOnTransferTokens",
+      "info": "removeLiquidityETHWithPermitSupportingFeeOnTransferTokens",
+      "loc": [
+        1006,
+        4,
+        1017,
+        42
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Router02.swapExactTokensForTokensSupportingFeeOnTransferTokens",
+      "info": "swapExactTokensForTokensSupportingFeeOnTransferTokens",
+      "loc": [
+        1019,
+        4,
+        1025,
+        14
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Router02.swapExactETHForTokensSupportingFeeOnTransferTokens",
+      "info": "swapExactETHForTokensSupportingFeeOnTransferTokens",
+      "loc": [
+        1027,
+        4,
+        1032,
+        22
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: IUniswapV2Router02.swapExactTokensForETHSupportingFeeOnTransferTokens",
+      "info": "swapExactTokensForETHSupportingFeeOnTransferTokens",
+      "loc": [
+        1034,
+        4,
+        1040,
+        14
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MBC.__constructor__",
+      "info": "__constructor__",
+      "loc": [
+        1076,
+        4,
+        1095,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MBC.__receiveEther__",
+      "info": "__receiveEther__",
+      "loc": [
+        1097,
+        4,
+        1097,
+        32
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MBC.updateUniswapV2Router",
+      "info": "updateUniswapV2Router",
+      "loc": [
+        1099,
+        4,
+        1102,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MBC.excludeFromFees",
+      "info": "excludeFromFees",
+      "loc": [
+        1104,
+        4,
+        1106,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MBC.excludeFromVip",
+      "info": "excludeFromVip",
+      "loc": [
+        1107,
+        1,
+        1109,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MBC.excludeMultipleAccountsFromFees",
+      "info": "excludeMultipleAccountsFromFees",
+      "loc": [
+        1111,
+        4,
+        1115,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MBC.setSwapTokensAtAmount",
+      "info": "setSwapTokensAtAmount",
+      "loc": [
+        1117,
+        4,
+        1119,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MBC.changeSwapWarp",
+      "info": "changeSwapWarp",
+      "loc": [
+        1121,
+        1,
+        1124,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MBC.addOtherTokenPair",
+      "info": "addOtherTokenPair",
+      "loc": [
+        1126,
+        4,
+        1128,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MBC.changeDistribution",
+      "info": "changeDistribution",
+      "loc": [
+        1130,
+        4,
+        1132,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MBC.warpWithdraw",
+      "info": "warpWithdraw",
+      "loc": [
+        1134,
+        4,
+        1136,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MBC.changeRate",
+      "info": "changeRate",
+      "loc": [
+        1142,
+        1,
+        1146,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MBC.changeSwapStats",
+      "info": "changeSwapStats",
+      "loc": [
+        1151,
+        1,
+        1154,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MBC.warpaddTokenldx",
+      "info": "warpaddTokenldx",
+      "loc": [
+        1156,
+        4,
+        1158,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MBC.setSwapAndLiquifyEnabled",
+      "info": "setSwapAndLiquifyEnabled",
+      "loc": [
+        1160,
+        4,
+        1162,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MBC._setAutomatedMarketMakerPair",
+      "info": "_setAutomatedMarketMakerPair",
+      "loc": [
+        1164,
+        4,
+        1166,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MBC.isExcludedFromFees",
+      "info": "isExcludedFromFees",
+      "loc": [
+        1168,
+        4,
+        1170,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MBC._transfer",
+      "info": "_transfer",
+      "loc": [
+        1172,
+        4,
+        1229,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MBC.swapAndLiquify",
+      "info": "swapAndLiquify",
+      "loc": [
+        1233,
+        1,
+        1242,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MBC.swapTokensForOther",
+      "info": "swapTokensForOther",
+      "loc": [
+        1244,
+        4,
+        1256,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MBC.swapAndLiquifyStepv1",
+      "info": "swapAndLiquifyStepv1",
+      "loc": [
+        1259,
+        4,
+        1263,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MBC.addLiquidityUsdt",
+      "info": "addLiquidityUsdt",
+      "loc": [
+        1265,
+        4,
+        1276,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MBC.rescueToken",
+      "info": "rescueToken",
+      "loc": [
+        1278,
+        4,
+        1284,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: MBC._isAddLiquidityV1",
+      "info": "_isAddLiquidityV1",
+      "loc": [
+        1286,
+        1,
+        1304,
+        4
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+DrugDealer
+The constructor is named incorrectly, which will not set the `ceoAddress` to `msg.sender` as intended.
+
+seedMarket
+The function lacks permission checks, allowing anyone to call it and potentially reinitialize the market.
+
+collectDrugs
+The referral system can be exploited by a user who refers themselves due to insufficient checks.

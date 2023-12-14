@@ -1,0 +1,2 @@
+setRewardDistributor
+The onlyOwner modifier is correctly implemented in the setRewardDistributor function, restricting access to the owner of the contract.

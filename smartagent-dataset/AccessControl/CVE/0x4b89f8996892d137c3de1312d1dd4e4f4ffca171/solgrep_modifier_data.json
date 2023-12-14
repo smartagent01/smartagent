@@ -1,0 +1,37 @@
+{
+  "/smart-agent/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol": [
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: Ownable.onlyOwner",
+      "info": "onlyOwner",
+      "loc": [
+        265,
+        4,
+        269,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: Claimable.onlyPendingOwner",
+      "info": "onlyPendingOwner",
+      "loc": [
+        305,
+        4,
+        308,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: ReentrancyGuard.nonReentrant",
+      "info": "nonReentrant",
+      "loc": [
+        640,
+        4,
+        653,
+        4
+      ]
+    }
+  ]
+}

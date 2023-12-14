@@ -1,0 +1,8 @@
+changeAdmin
+The changeAdmin function restricts the ability to change the administrator to only the current admin.
+
+setSuperOperator
+The setSuperOperator function restricts the ability to add super operators to only the admin.
+
+setMetaTransactionProcessor
+The setMetaTransactionProcessor function restricts the ability to set meta-transaction processors to only the admin.

@@ -1,0 +1,182 @@
+{
+    "errors": [
+        "EXIT_CODE_17"
+    ],
+    "fails": [],
+    "findings": [
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x5088b94cf8a1143eb228b6d3f008350ca742ddc2/EtherCartel.sol",
+            "impact": "Informational",
+            "line": 7,
+            "message": "EtherCartel.DRUGS_TO_PRODUCE_1KILO should be constant (EtherCartel.sol#7)\nEtherCartel.PSN should be constant (EtherCartel.sol#9-10)\nEtherCartel.PSNH should be constant (EtherCartel.sol#10-11)\nEtherCartel.STARTING_KILOS should be constant (EtherCartel.sol#8-9)\n",
+            "name": "constable-states"
+        },
+        {
+            "confidence": "High",
+            "contract": "EtherCartel",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x5088b94cf8a1143eb228b6d3f008350ca742ddc2/EtherCartel.sol",
+            "function": "DrugDealer",
+            "impact": "Informational",
+            "line": 18,
+            "line_end": 21,
+            "message": "EtherCartel.DrugDealer (EtherCartel.sol#18-21) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "EtherCartel",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x5088b94cf8a1143eb228b6d3f008350ca742ddc2/EtherCartel.sol",
+            "function": "collectDrugs",
+            "impact": "Informational",
+            "line": 21,
+            "line_end": 39,
+            "message": "EtherCartel.collectDrugs (EtherCartel.sol#21-39) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "EtherCartel",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x5088b94cf8a1143eb228b6d3f008350ca742ddc2/EtherCartel.sol",
+            "function": "sellDrugs",
+            "impact": "Informational",
+            "line": 39,
+            "line_end": 50,
+            "message": "EtherCartel.sellDrugs (EtherCartel.sol#39-50) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "EtherCartel",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x5088b94cf8a1143eb228b6d3f008350ca742ddc2/EtherCartel.sol",
+            "function": "buyDrugs",
+            "impact": "Informational",
+            "line": 50,
+            "line_end": 57,
+            "message": "EtherCartel.buyDrugs (EtherCartel.sol#50-57) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "EtherCartel",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x5088b94cf8a1143eb228b6d3f008350ca742ddc2/EtherCartel.sol",
+            "function": "calculateDrugBuySimple",
+            "impact": "Informational",
+            "line": 67,
+            "line_end": 71,
+            "message": "EtherCartel.calculateDrugBuySimple (EtherCartel.sol#67-71) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "EtherCartel",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x5088b94cf8a1143eb228b6d3f008350ca742ddc2/EtherCartel.sol",
+            "function": "seedMarket",
+            "impact": "Informational",
+            "line": 74,
+            "line_end": 80,
+            "message": "EtherCartel.seedMarket (EtherCartel.sol#74-80) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "EtherCartel",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x5088b94cf8a1143eb228b6d3f008350ca742ddc2/EtherCartel.sol",
+            "function": "getFreeKilo",
+            "impact": "Informational",
+            "line": 80,
+            "line_end": 85,
+            "message": "EtherCartel.getFreeKilo (EtherCartel.sol#80-85) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "EtherCartel",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x5088b94cf8a1143eb228b6d3f008350ca742ddc2/EtherCartel.sol",
+            "function": "getBalance",
+            "impact": "Informational",
+            "line": 86,
+            "line_end": 88,
+            "message": "EtherCartel.getBalance (EtherCartel.sol#86-88) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "EtherCartel",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x5088b94cf8a1143eb228b6d3f008350ca742ddc2/EtherCartel.sol",
+            "function": "getMyKilo",
+            "impact": "Informational",
+            "line": 89,
+            "line_end": 91,
+            "message": "EtherCartel.getMyKilo (EtherCartel.sol#89-91) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x5088b94cf8a1143eb228b6d3f008350ca742ddc2/EtherCartel.sol",
+            "impact": "Informational",
+            "line": 1,
+            "message": "Detected issues with version pragma in EtherCartel.sol:\n\t- pragma solidity^0.4.18 (EtherCartel.sol#1): it allows old versions\n",
+            "name": "solc-version"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x5088b94cf8a1143eb228b6d3f008350ca742ddc2/EtherCartel.sol",
+            "impact": "Informational",
+            "line": 18,
+            "line_end": 21,
+            "message": "Function 'EtherCartel.DrugDealer' (EtherCartel.sol#18-21) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x5088b94cf8a1143eb228b6d3f008350ca742ddc2/EtherCartel.sol",
+            "impact": "Informational",
+            "line": 7,
+            "message": "Variable 'EtherCartel.DRUGS_TO_PRODUCE_1KILO' (EtherCartel.sol#7) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x5088b94cf8a1143eb228b6d3f008350ca742ddc2/EtherCartel.sol",
+            "impact": "Informational",
+            "line": 8,
+            "line_end": 9,
+            "message": "Variable 'EtherCartel.STARTING_KILOS' (EtherCartel.sol#8-9) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x5088b94cf8a1143eb228b6d3f008350ca742ddc2/EtherCartel.sol",
+            "impact": "Informational",
+            "line": 9,
+            "line_end": 10,
+            "message": "Variable 'EtherCartel.PSN' (EtherCartel.sol#9-10) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x5088b94cf8a1143eb228b6d3f008350ca742ddc2/EtherCartel.sol",
+            "impact": "Informational",
+            "line": 10,
+            "line_end": 11,
+            "message": "Variable 'EtherCartel.PSNH' (EtherCartel.sol#10-11) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x5088b94cf8a1143eb228b6d3f008350ca742ddc2/EtherCartel.sol",
+            "impact": "Informational",
+            "line": 13,
+            "line_end": 14,
+            "message": "Variable 'EtherCartel.Kilos' (EtherCartel.sol#13-14) is not in mixedCase\n",
+            "name": "naming-convention"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "slither",
+        "mode": "solidity",
+        "version": "2022/11/14"
+    }
+}

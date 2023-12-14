@@ -1,0 +1,301 @@
+{
+    "errors": [
+        "EXIT_CODE_29"
+    ],
+    "fails": [],
+    "findings": [
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x6E58b4c41cAB75dc0239938BF5455aB8823EE4DE/B2X.sol",
+            "impact": "Informational",
+            "line": 110,
+            "line_end": 111,
+            "message": "Deprecated standard detected @ B2X.sol#110-111:\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+            "name": "deprecated-standards"
+        },
+        {
+            "confidence": "High",
+            "contract": "Token",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x6E58b4c41cAB75dc0239938BF5455aB8823EE4DE/B2X.sol",
+            "function": "totalSupply",
+            "impact": "Informational",
+            "line": 6,
+            "line_end": 8,
+            "message": "Token.totalSupply (B2X.sol#6-8) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "StandardToken",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x6E58b4c41cAB75dc0239938BF5455aB8823EE4DE/B2X.sol",
+            "function": "balanceOf",
+            "impact": "Informational",
+            "line": 77,
+            "line_end": 80,
+            "message": "StandardToken.balanceOf (B2X.sol#77-80) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "Token",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x6E58b4c41cAB75dc0239938BF5455aB8823EE4DE/B2X.sol",
+            "function": "balanceOf",
+            "impact": "Informational",
+            "line": 9,
+            "line_end": 12,
+            "message": "Token.balanceOf (B2X.sol#9-12) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "StandardToken",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x6E58b4c41cAB75dc0239938BF5455aB8823EE4DE/B2X.sol",
+            "function": "transfer",
+            "impact": "Informational",
+            "line": 47,
+            "line_end": 57,
+            "message": "StandardToken.transfer (B2X.sol#47-57) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "Token",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x6E58b4c41cAB75dc0239938BF5455aB8823EE4DE/B2X.sol",
+            "function": "transfer",
+            "impact": "Informational",
+            "line": 12,
+            "line_end": 15,
+            "message": "Token.transfer (B2X.sol#12-15) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "Token",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x6E58b4c41cAB75dc0239938BF5455aB8823EE4DE/B2X.sol",
+            "function": "transferFrom",
+            "impact": "Informational",
+            "line": 15,
+            "line_end": 18,
+            "message": "Token.transferFrom (B2X.sol#15-18) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "StandardToken",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x6E58b4c41cAB75dc0239938BF5455aB8823EE4DE/B2X.sol",
+            "function": "transferFrom",
+            "impact": "Informational",
+            "line": 57,
+            "line_end": 68,
+            "message": "StandardToken.transferFrom (B2X.sol#57-68) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "Token",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x6E58b4c41cAB75dc0239938BF5455aB8823EE4DE/B2X.sol",
+            "function": "approve",
+            "impact": "Informational",
+            "line": 18,
+            "line_end": 21,
+            "message": "Token.approve (B2X.sol#18-21) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "StandardToken",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x6E58b4c41cAB75dc0239938BF5455aB8823EE4DE/B2X.sol",
+            "function": "approve",
+            "impact": "Informational",
+            "line": 81,
+            "line_end": 86,
+            "message": "StandardToken.approve (B2X.sol#81-86) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "StandardToken",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x6E58b4c41cAB75dc0239938BF5455aB8823EE4DE/B2X.sol",
+            "function": "allowance",
+            "impact": "Informational",
+            "line": 86,
+            "line_end": 93,
+            "message": "StandardToken.allowance (B2X.sol#86-93) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "Token",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x6E58b4c41cAB75dc0239938BF5455aB8823EE4DE/B2X.sol",
+            "function": "allowance",
+            "impact": "Informational",
+            "line": 21,
+            "line_end": 23,
+            "message": "Token.allowance (B2X.sol#21-23) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "Owned",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x6E58b4c41cAB75dc0239938BF5455aB8823EE4DE/B2X.sol",
+            "function": "owned",
+            "impact": "Informational",
+            "line": 32,
+            "line_end": 36,
+            "message": "Owned.owned (B2X.sol#32-36) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "Owned",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x6E58b4c41cAB75dc0239938BF5455aB8823EE4DE/B2X.sol",
+            "function": "transferOwnership",
+            "impact": "Informational",
+            "line": 40,
+            "line_end": 45,
+            "message": "Owned.transferOwnership (B2X.sol#40-45) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "StandardToken",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x6E58b4c41cAB75dc0239938BF5455aB8823EE4DE/B2X.sol",
+            "function": "distributeToken",
+            "impact": "Informational",
+            "line": 69,
+            "line_end": 76,
+            "message": "StandardToken.distributeToken (B2X.sol#69-76) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "B2X",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x6E58b4c41cAB75dc0239938BF5455aB8823EE4DE/B2X.sol",
+            "function": "fallback",
+            "impact": "Informational",
+            "line": 110,
+            "line_end": 111,
+            "message": "B2X.fallback (B2X.sol#110-111) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x6E58b4c41cAB75dc0239938BF5455aB8823EE4DE/B2X.sol",
+            "impact": "Informational",
+            "line": 1,
+            "message": "Detected issues with version pragma in B2X.sol:\n\t- pragma solidity^0.4.4 (B2X.sol#1): it allows old versions\n",
+            "name": "solc-version"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x6E58b4c41cAB75dc0239938BF5455aB8823EE4DE/B2X.sol",
+            "impact": "Informational",
+            "line": 77,
+            "line_end": 78,
+            "message": "Parameter '_owner' of StandardToken.balanceOf (B2X.sol#77-78) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x6E58b4c41cAB75dc0239938BF5455aB8823EE4DE/B2X.sol",
+            "impact": "Informational",
+            "line": 47,
+            "line_end": 48,
+            "message": "Parameter '_to' of StandardToken.transfer (B2X.sol#47-48) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x6E58b4c41cAB75dc0239938BF5455aB8823EE4DE/B2X.sol",
+            "impact": "Informational",
+            "line": 48,
+            "line_end": 49,
+            "message": "Parameter '_value' of StandardToken.transfer (B2X.sol#48-49) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x6E58b4c41cAB75dc0239938BF5455aB8823EE4DE/B2X.sol",
+            "impact": "Informational",
+            "line": 57,
+            "line_end": 58,
+            "message": "Parameter '_from' of StandardToken.transferFrom (B2X.sol#57-58) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x6E58b4c41cAB75dc0239938BF5455aB8823EE4DE/B2X.sol",
+            "impact": "Informational",
+            "line": 58,
+            "line_end": 59,
+            "message": "Parameter '_to' of StandardToken.transferFrom (B2X.sol#58-59) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x6E58b4c41cAB75dc0239938BF5455aB8823EE4DE/B2X.sol",
+            "impact": "Informational",
+            "line": 59,
+            "message": "Parameter '_value' of StandardToken.transferFrom (B2X.sol#59) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x6E58b4c41cAB75dc0239938BF5455aB8823EE4DE/B2X.sol",
+            "impact": "Informational",
+            "line": 81,
+            "message": "Parameter '_spender' of StandardToken.approve (B2X.sol#81) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x6E58b4c41cAB75dc0239938BF5455aB8823EE4DE/B2X.sol",
+            "impact": "Informational",
+            "line": 81,
+            "line_end": 82,
+            "message": "Parameter '_value' of StandardToken.approve (B2X.sol#81-82) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x6E58b4c41cAB75dc0239938BF5455aB8823EE4DE/B2X.sol",
+            "impact": "Informational",
+            "line": 87,
+            "message": "Parameter '_owner' of StandardToken.allowance (B2X.sol#87) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x6E58b4c41cAB75dc0239938BF5455aB8823EE4DE/B2X.sol",
+            "impact": "Informational",
+            "line": 87,
+            "line_end": 88,
+            "message": "Parameter '_spender' of StandardToken.allowance (B2X.sol#87-88) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x6E58b4c41cAB75dc0239938BF5455aB8823EE4DE/B2X.sol",
+            "impact": "Informational",
+            "line": 69,
+            "line_end": 70,
+            "message": "Parameter '_value' of StandardToken.distributeToken (B2X.sol#69-70) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x6E58b4c41cAB75dc0239938BF5455aB8823EE4DE/B2X.sol",
+            "impact": "Informational",
+            "line": 117,
+            "line_end": 125,
+            "message": "Function 'B2X.B2X' (B2X.sol#117-125) is not in mixedCase\n",
+            "name": "naming-convention"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "slither",
+        "mode": "solidity",
+        "version": "2022/11/14"
+    }
+}

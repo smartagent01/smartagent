@@ -1,0 +1,592 @@
+METRICS: Using configs from the Registry (like --config=p/ci) reports pseudonymous rule metrics to semgrep.dev.
+To disable Registry rule metrics, use "--metrics=off".
+Using configs only from local files (like --config=xyz.yml) does not enable metrics.
+
+More information: https://semgrep.dev/docs/metrics
+
+               
+               
+┌─────────────┐
+│ Scan Status │
+└─────────────┘
+  Scanning 1 file tracked by git with 48 Code rules:
+  Scanning 1 file with 48 solidity rules.
+                     
+                     
+┌───────────────────┐
+│ 129 Code Findings │
+└───────────────────┘
+                       
+    /sb/SandboxLAN.sol 
+       solidity.best-practice.use-abi-encodecall-instead-of-encodewithselector  
+          To guarantee arguments type safety it is recommended to use           
+  `abi.encodeCall` instead of                                                   
+          `abi.encodeWithSelector`.                                             
+                                                                                
+          304┆ bytes memory call_data = abi.encodeWithSelector(
+          305┆     ERC165ID,
+          306┆     interfaceId
+          307┆ );
+            ⋮┆----------------------------------------
+       solidity.performance.non-payable-constructor      
+          Consider making costructor payable to save gas.
+                                                         
+          169┆ constructor(
+          170┆     address metaTransactionContract,
+          171┆     address admin
+          172┆ ) internal {
+          173┆     _admin = admin;
+          174┆     _setMetaTransactionProcessor(metaTransactionContract, true);
+          175┆ }
+            ⋮┆----------------------------------------
+          579┆ constructor(
+          580┆     address metaTransactionContract,
+          581┆     address admin
+          582┆ ) public ERC721BaseToken(metaTransactionContract, admin) {
+          583┆ }
+            ⋮┆----------------------------------------
+         1030┆ constructor(
+         1031┆     address metaTransactionContract,
+         1032┆     address admin
+         1033┆ ) public LandBaseToken(
+         1034┆     metaTransactionContract,
+         1035┆     admin
+         1036┆ ) {
+         1037┆ }
+            ⋮┆----------------------------------------
+       solidity.performance.state-variable-read-in-a-loop                       
+          Replace state variable reads and writes within loops with local       
+  variable reads and writes.                                                    
+                                                                                
+          400┆ require(authorized || (operatorEnabled && _operators[id] ==      
+  msg.sender), "not authorized");                                               
+            ⋮┆----------------------------------------
+          401┆ _owners[id] = uint256(to);
+            ⋮┆----------------------------------------
+       solidity.performance.unnecessary-checked-arithmetic-in-loop              
+          A lot of times there is no risk that the loop counter can overflow.   
+  Using Solidity's                                                              
+          unchecked block saves the overflow checks.                            
+                                                                                
+          396┆ for(uint256 i = 0; i < numTokens; i ++) {
+            ⋮┆----------------------------------------
+          687┆ for (uint256 i = 0; i < size*size; i++) {
+            ⋮┆----------------------------------------
+          744┆ for (uint256 i = 0; i < size*size; i++) {
+            ⋮┆----------------------------------------
+          781┆ for (uint256 i = 0; i < sizes.length; i++) {
+            ⋮┆----------------------------------------
+          792┆ for (uint256 j = 0; j < sizes.length; j++) {
+            ⋮┆----------------------------------------
+          794┆ for (uint256 i = 0; i < size*size; i++) {
+            ⋮┆----------------------------------------
+          816┆ for (uint256 i = 0; i < size*size; i++) {
+            ⋮┆----------------------------------------
+          852┆ for (uint256 xi = x; xi < x+3; xi++) {
+            ⋮┆----------------------------------------
+          853┆ for (uint256 yi = y; yi < y+3; yi++) {
+            ⋮┆----------------------------------------
+       solidity.performance.use-custom-error-not-require                        
+          Consider using custom errors as they are more gas efficient while     
+  allowing developers  to                                                       
+          describe the error in detail using NatSpec.                           
+                                                                                
+           36┆ require(msg.sender == _admin, "only admin can change admin");
+            ⋮┆----------------------------------------
+           42┆ require (msg.sender == _admin, "only admin allowed");
+            ⋮┆----------------------------------------
+           58┆ require(
+           59┆     msg.sender == _admin,
+           60┆     "only admin is allowed to add super operators"
+           61┆ );
+            ⋮┆----------------------------------------
+           83┆ require(
+           84┆     msg.sender == _admin,
+           85┆     "only admin can setup metaTransactionProcessors"
+           86┆ );
+            ⋮┆----------------------------------------
+          190┆ require(owner != address(0), "owner is zero address");
+            ⋮┆----------------------------------------
+          212┆ require(owner != address(0), "token does not exist");
+            ⋮┆----------------------------------------
+          237┆ require(sender != address(0), "sender is zero address");
+            ⋮┆----------------------------------------
+          238┆ require(
+          239┆     msg.sender == sender ||
+          240┆     _metaTransactionContracts[msg.sender] ||
+          241┆     _superOperators[msg.sender] ||
+          242┆     _operatorsForAll[sender][msg.sender],
+          243┆     "not authorized to approve"
+          244┆ );
+            ⋮┆----------------------------------------
+          245┆ require(owner == sender, "owner != sender");
+            ⋮┆----------------------------------------
+          256┆ require(owner != address(0), "token does not exist");
+            ⋮┆----------------------------------------
+          257┆ require(
+          258┆     owner == msg.sender ||
+          259┆     _superOperators[msg.sender] ||
+          260┆     _operatorsForAll[owner][msg.sender],
+          261┆     "not authorized to approve"
+          262┆ );
+            ⋮┆----------------------------------------
+          273┆ require(owner != address(0), "token does not exist");
+            ⋮┆----------------------------------------
+          283┆ require(owner != address(0), "token does not exist");
+            ⋮┆----------------------------------------
+          284┆ require(owner == from, "not owner in _checkTransfer");
+            ⋮┆----------------------------------------
+          285┆ require(to != address(0), "can't send to zero address");
+            ⋮┆----------------------------------------
+          288┆ require(
+          289┆     _superOperators[msg.sender] ||
+          290┆     _operatorsForAll[from][msg.sender] ||
+          291┆     (operatorEnabled && _operators[id] == msg.sender),
+          292┆     "not approved to transfer"
+          293┆ );
+            ⋮┆----------------------------------------
+          339┆ require(
+          340┆     _checkOnERC721Received(metaTx ? from : msg.sender, from, to, 
+  id, ""),                                                                      
+          341┆     "erc721 transfer rejected by to"
+          342┆ );
+            ⋮┆----------------------------------------
+          357┆ require(
+          358┆     _checkOnERC721Received(metaTx ? from : msg.sender, from, to, 
+  id, data),                                                                    
+          359┆     "ERC721: transfer rejected by to"
+          360┆ );
+            ⋮┆----------------------------------------
+          392┆ require(from != address(0), "from is zero address");
+            ⋮┆----------------------------------------
+          393┆ require(to != address(0), "can't send to zero address");
+            ⋮┆----------------------------------------
+          399┆ require(owner == from, "not owner in batchTransferFrom");
+            ⋮┆----------------------------------------
+          400┆ require(authorized || (operatorEnabled && _operators[id] ==      
+  msg.sender), "not authorized");                                               
+            ⋮┆----------------------------------------
+          410┆ require(
+          411┆     _checkOnERC721BatchReceived(metaTx ? from : msg.sender, from,
+  to, ids, data),                                                               
+          412┆     "erc721 batch transfer rejected by to"
+          413┆ );
+            ⋮┆----------------------------------------
+          450┆ require(sender != address(0), "Invalid sender address");
+            ⋮┆----------------------------------------
+          451┆ require(
+          452┆     msg.sender == sender ||
+          453┆     _metaTransactionContracts[msg.sender] ||
+          454┆     _superOperators[msg.sender],
+          455┆     "not authorized to approve for all"
+          456┆ );
+            ⋮┆----------------------------------------
+          476┆ require(
+          477┆     !_superOperators[operator],
+          478┆     "super operator can't have their approvalForAll changed"
+          479┆ );
+            ⋮┆----------------------------------------
+          502┆ require(from == owner, "not owner");
+            ⋮┆----------------------------------------
+          518┆ require(from != address(0), "Invalid sender address");
+            ⋮┆----------------------------------------
+          520┆ require(
+          521┆     msg.sender == from ||
+          522┆     _metaTransactionContracts[msg.sender] ||
+          523┆     (operatorEnabled && _operators[id] == msg.sender) ||
+          524┆     _superOperators[msg.sender] ||
+          525┆     _operatorsForAll[from][msg.sender],
+          526┆     "not authorized to burn"
+          527┆ );
+            ⋮┆----------------------------------------
+          564┆ require(
+          565┆     msg.sender == _admin,
+          566┆     "only admin is allowed to add minters"
+          567┆ );
+            ⋮┆----------------------------------------
+          601┆ require(_ownerOf(id) != address(0), "token does not exist");
+            ⋮┆----------------------------------------
+          609┆ require(_ownerOf(id) != address(0), "token does not exist");
+            ⋮┆----------------------------------------
+          622┆ require(to != address(0), "to is zero address");
+            ⋮┆----------------------------------------
+          623┆ require(
+          624┆     isMinter(msg.sender),
+          625┆     "Only a minter can mint"
+          626┆ );
+            ⋮┆----------------------------------------
+          627┆ require(x % size == 0 && y % size == 0, "Invalid coordinates");
+            ⋮┆----------------------------------------
+          628┆ require(x <= GRID_SIZE - size && y <= GRID_SIZE - size, "Out of  
+  bounds");                                                                     
+            ⋮┆----------------------------------------
+          644┆ require(false, "Invalid size");
+            ⋮┆----------------------------------------
+          647┆ require(_owners[LAYER_24x24 + (x/24) * 24 + ((y/24) * 24) *      
+  GRID_SIZE] == 0, "Already minted as 24x24");                                  
+            ⋮┆----------------------------------------
+          652┆ require(
+          653┆     _owners[LAYER_12x12 + (x/12) * 12 + ((y/12) * 12) *          
+  GRID_SIZE] == 0,                                                              
+          654┆     "Already minted as 12x12"
+          655┆ );
+            ⋮┆----------------------------------------
+          660┆ require(_owners[id12x12] == 0, "Already minted as 12x12");
+            ⋮┆----------------------------------------
+          666┆ require(_owners[LAYER_6x6 + (x/6) * 6 + ((y/6) * 6) * GRID_SIZE] 
+  == 0, "Already minted as 6x6");                                               
+            ⋮┆----------------------------------------
+          671┆ require(_owners[id6x6] == 0, "Already minted as 6x6");
+            ⋮┆----------------------------------------
+          677┆ require(_owners[LAYER_3x3 + (x/3) * 3 + ((y/3) * 3) * GRID_SIZE] 
+  == 0, "Already minted as 3x3");                                               
+            ⋮┆----------------------------------------
+          682┆ require(_owners[id3x3] == 0, "Already minted as 3x3");
+            ⋮┆----------------------------------------
+          689┆ require(_owners[id] == 0, "Already minted");
+            ⋮┆----------------------------------------
+          716┆ require(from != address(0), "from is zero address");
+            ⋮┆----------------------------------------
+          717┆ require(to != address(0), "can't send to zero address");
+            ⋮┆----------------------------------------
+          720┆ require(
+          721┆     _superOperators[msg.sender] ||
+          722┆     _operatorsForAll[from][msg.sender],
+          723┆     "not authorized to transferQuad"
+          724┆ );
+            ⋮┆----------------------------------------
+          747┆ require(
+          748┆     _checkOnERC721BatchReceived(operator, from, to, ids, data),
+          749┆     "erc721 batch transfer rejected by to"
+          750┆ );
+            ⋮┆----------------------------------------
+          769┆ require(from != address(0), "from is zero address");
+            ⋮┆----------------------------------------
+          770┆ require(to != address(0), "can't send to zero address");
+            ⋮┆----------------------------------------
+          771┆ require(sizes.length == xs.length && xs.length == ys.length,     
+  "invalid data");                                                              
+            ⋮┆----------------------------------------
+          774┆ require(
+          775┆     _superOperators[msg.sender] ||
+          776┆     _operatorsForAll[from][msg.sender],
+          777┆     "not authorized to transferMultiQuads"
+          778┆ );
+            ⋮┆----------------------------------------
+          799┆ require(
+          800┆     _checkOnERC721BatchReceived(metaTx ? from : msg.sender, from,
+  to, ids, data),                                                               
+          801┆     "erc721 batch transfer rejected by to"
+          802┆ );
+            ⋮┆----------------------------------------
+          810┆ require(owner != address(0), "token does not exist");
+            ⋮┆----------------------------------------
+          811┆ require(owner == from, "not owner in _transferQuad");
+            ⋮┆----------------------------------------
+          824┆ require(address(owner) == from, "not owner");
+            ⋮┆----------------------------------------
+          832┆ require(x % size == 0 && y % size == 0, "Invalid coordinates");
+            ⋮┆----------------------------------------
+          833┆ require(x <= GRID_SIZE - size && y <= GRID_SIZE - size, "Out of  
+  bounds");                                                                     
+            ⋮┆----------------------------------------
+          844┆ require(false, "Invalid size");
+            ⋮┆----------------------------------------
+          859┆ require(
+          860┆     _owners[quadId] == uint256(from) ||
+          861┆     _owners[LAYER_6x6 + (x/6) * 6 + ((y/6) * 6) * GRID_SIZE] ==  
+  uint256(from) ||                                                              
+          862┆     _owners[LAYER_12x12 + (x/12) * 12 + ((y/12) * 12) *          
+  GRID_SIZE] == uint256(from) ||                                                
+          863┆     _owners[LAYER_24x24 + (x/24) * 24 + ((y/24) * 24) *          
+  GRID_SIZE] == uint256(from),                                                  
+                
+                
+┌──────────────┐
+│ Scan Summary │
+└──────────────┘
+          864┆     "not owner of all sub quads nor parent quads"
+          865┆ );
+            ⋮┆----------------------------------------
+          883┆ require(owner3x3 == uint256(from), "not owner of 3x3 quad");
+            ⋮┆----------------------------------------
+          892┆ require(
+          893┆     _owners[quadId] == uint256(from) ||
+          894┆     _owners[LAYER_12x12 + (x/12) * 12 + ((y/12) * 12) *          
+  GRID_SIZE] == uint256(from) ||                                                
+          895┆     _owners[LAYER_24x24 + (x/24) * 24 + ((y/24) * 24) *          
+  GRID_SIZE] == uint256(from),                                                  
+          896┆     "not owner of all sub quads nor parent quads"
+          897┆ );
+            ⋮┆----------------------------------------
+          915┆ require(owner6x6 == uint256(from), "not owner of 6x6 quad");
+            ⋮┆----------------------------------------
+
+Ran 48 rules on 1 file: 129 findings.
+          924┆ require(
+          925┆     _owners[quadId] == uint256(from) ||
+          926┆     _owners[LAYER_24x24 + (x/24) * 24 + ((y/24) * 24) *          
+  GRID_SIZE] == uint256(from),                                                  
+          927┆     "not owner of all sub quads nor parent quads"
+          928┆ );
+            ⋮┆----------------------------------------
+          946┆ require(owner12x12 == uint256(from), "not owner of 12x12 quad");
+            ⋮┆----------------------------------------
+          955┆ require(
+          956┆     _owners[quadId] == uint256(from),
+          957┆     "not owner of all sub quads not parent quad"
+          958┆ );
+            ⋮┆----------------------------------------
+          967┆ require(id & LAYER == 0, "Invalid token id");
+            ⋮┆----------------------------------------
+          995┆ require(id & LAYER == 0, "Invalid token id");
+            ⋮┆----------------------------------------
+         1081┆ require(_ownerOf(id) != address(0), "Id does not exist");
+            ⋮┆----------------------------------------
+       solidity.performance.use-multiple-require                                
+          Using multiple require statements is cheaper than using && multiple   
+  check combinations.                                                           
+          There are more advantages, such as easier to read code and better     
+  coverage reports.                                                             
+                                                                                
+          288┆ require(
+          289┆     _superOperators[msg.sender] ||
+          290┆     _operatorsForAll[from][msg.sender] ||
+          291┆     (operatorEnabled && _operators[id] == msg.sender),
+          292┆     "not approved to transfer"
+          293┆ );
+            ⋮┆----------------------------------------
+          400┆ require(authorized || (operatorEnabled && _operators[id] ==      
+  msg.sender), "not authorized");                                               
+            ⋮┆----------------------------------------
+          520┆ require(
+          521┆     msg.sender == from ||
+          522┆     _metaTransactionContracts[msg.sender] ||
+          523┆     (operatorEnabled && _operators[id] == msg.sender) ||
+          524┆     _superOperators[msg.sender] ||
+          525┆     _operatorsForAll[from][msg.sender],
+          526┆     "not authorized to burn"
+          527┆ );
+            ⋮┆----------------------------------------
+          627┆ require(x % size == 0 && y % size == 0, "Invalid coordinates");
+            ⋮┆----------------------------------------
+          628┆ require(x <= GRID_SIZE - size && y <= GRID_SIZE - size, "Out of  
+  bounds");                                                                     
+            ⋮┆----------------------------------------
+          771┆ require(sizes.length == xs.length && xs.length == ys.length,     
+  "invalid data");                                                              
+            ⋮┆----------------------------------------
+          832┆ require(x % size == 0 && y % size == 0, "Invalid coordinates");
+            ⋮┆----------------------------------------
+          833┆ require(x <= GRID_SIZE - size && y <= GRID_SIZE - size, "Out of  
+  bounds");                                                                     
+            ⋮┆----------------------------------------
+       solidity.performance.use-nested-if                                       
+          Using nested is cheaper than using && multiple check combinations.    
+  There are more                                                                
+          advantages, such as easier to read code and better coverage reports.  
+                                                                                
+          287┆ if (msg.sender != from && !isMetaTx) {
+          288┆     require(
+          289┆         _superOperators[msg.sender] ||
+          290┆         _operatorsForAll[from][msg.sender] ||
+          291┆         (operatorEnabled && _operators[id] == msg.sender),
+          292┆         "not approved to transfer"
+          293┆     );
+          294┆ }
+            ⋮┆----------------------------------------
+          338┆ if (to.isContract() && _checkInterfaceWith10000Gas(to,           
+  ERC721_MANDATORY_RECEIVER)) {                                                 
+          339┆     require(
+          340┆         _checkOnERC721Received(metaTx ? from : msg.sender, from, 
+  to, id, ""),                                                                  
+          341┆         "erc721 transfer rejected by to"
+          342┆     );
+          343┆ }
+            ⋮┆----------------------------------------
+          409┆ if (to.isContract() && (safe || _checkInterfaceWith10000Gas(to,  
+  ERC721_MANDATORY_RECEIVER))) {                                                
+          410┆     require(
+          411┆         _checkOnERC721BatchReceived(metaTx ? from : msg.sender,  
+  from, to, ids, data),                                                         
+          412┆         "erc721 batch transfer rejected by to"
+          413┆     );
+          414┆ }
+            ⋮┆----------------------------------------
+          719┆ if (msg.sender != from && !metaTx) {
+          720┆     require(
+          721┆         _superOperators[msg.sender] ||
+          722┆         _operatorsForAll[from][msg.sender],
+          723┆         "not authorized to transferQuad"
+          724┆     );
+          725┆ }
+            ⋮┆----------------------------------------
+          742┆ if (to.isContract() && _checkInterfaceWith10000Gas(to,           
+  ERC721_MANDATORY_RECEIVER)) {                                                 
+          743┆     uint256[] memory ids = new uint256[](size*size);
+          744┆     for (uint256 i = 0; i < size*size; i++) {
+          745┆         ids[i] = _idInPath(i, size, x, y);
+          746┆     }
+          747┆     require(
+          748┆         _checkOnERC721BatchReceived(operator, from, to, ids,     
+  data),                                                                        
+          749┆         "erc721 batch transfer rejected by to"
+          750┆     );
+          751┆ }
+            ⋮┆----------------------------------------
+          773┆ if (msg.sender != from && !metaTx) {
+          774┆     require(
+          775┆         _superOperators[msg.sender] ||
+          776┆         _operatorsForAll[from][msg.sender],
+          777┆         "not authorized to transferMultiQuads"
+          778┆     );
+          779┆ }
+            ⋮┆----------------------------------------
+          789┆ if (to.isContract() && _checkInterfaceWith10000Gas(to,           
+  ERC721_MANDATORY_RECEIVER)) {                                                 
+          790┆     uint256[] memory ids = new uint256[](numTokensTransfered);
+          791┆     uint256 counter = 0;
+          792┆     for (uint256 j = 0; j < sizes.length; j++) {
+          793┆         uint256 size = sizes[j];
+          794┆         for (uint256 i = 0; i < size*size; i++) {
+          795┆             ids[counter] = _idInPath(i, size, xs[j], ys[j]);
+          796┆             counter++;
+          797┆         }
+          798┆     }
+             [hid 5 additional lines, adjust with --max-lines-per-finding] 
+       solidity.performance.use-prefix-decrement-not-postfix                    
+          Consider using the prefix decrement expression whenever the return    
+  value is not needed. The                                                      
+          prefix decrement expression is cheaper in terms of gas.               
+                                                                                
+          178┆ _numNFTPerAddress[from]--;
+            ⋮┆----------------------------------------
+          504┆ _numNFTPerAddress[from]--;
+            ⋮┆----------------------------------------
+       solidity.performance.use-prefix-increment-not-postfix                    
+          Consider using the prefix increment expression whenever the return    
+  value is not needed. The                                                      
+          prefix increment expression is cheaper in terms of gas.               
+                                                                                
+          179┆ _numNFTPerAddress[to]++;
+            ⋮┆----------------------------------------
+          396┆ for(uint256 i = 0; i < numTokens; i ++) {
+            ⋮┆----------------------------------------
+          687┆ for (uint256 i = 0; i < size*size; i++) {
+            ⋮┆----------------------------------------
+          744┆ for (uint256 i = 0; i < size*size; i++) {
+            ⋮┆----------------------------------------
+          781┆ for (uint256 i = 0; i < sizes.length; i++) {
+            ⋮┆----------------------------------------
+          792┆ for (uint256 j = 0; j < sizes.length; j++) {
+            ⋮┆----------------------------------------
+          794┆ for (uint256 i = 0; i < size*size; i++) {
+            ⋮┆----------------------------------------
+          796┆ counter++;
+            ⋮┆----------------------------------------
+          816┆ for (uint256 i = 0; i < size*size; i++) {
+            ⋮┆----------------------------------------
+          852┆ for (uint256 xi = x; xi < x+3; xi++) {
+            ⋮┆----------------------------------------
+          853┆ for (uint256 yi = y; yi < y+3; yi++) {
+            ⋮┆----------------------------------------
+         1063┆ len++;
+            ⋮┆----------------------------------------
+       solidity.performance.use-short-revert-string                             
+          Shortening revert strings to fit in 32 bytes will decrease gas costs  
+  for deployment and  gas                                                       
+          costs when the revert condition has been met.                         
+                                                                                
+           58┆ require(
+           59┆     msg.sender == _admin,
+           60┆     "only admin is allowed to add super operators"
+           61┆ );
+            ⋮┆----------------------------------------
+           83┆ require(
+           84┆     msg.sender == _admin,
+           85┆     "only admin can setup metaTransactionProcessors"
+           86┆ );
+            ⋮┆----------------------------------------
+          410┆ require(
+          411┆     _checkOnERC721BatchReceived(metaTx ? from : msg.sender, from,
+  to, ids, data),                                                               
+          412┆     "erc721 batch transfer rejected by to"
+          413┆ );
+            ⋮┆----------------------------------------
+          451┆ require(
+          452┆     msg.sender == sender ||
+          453┆     _metaTransactionContracts[msg.sender] ||
+          454┆     _superOperators[msg.sender],
+          455┆     "not authorized to approve for all"
+          456┆ );
+            ⋮┆----------------------------------------
+          476┆ require(
+          477┆     !_superOperators[operator],
+          478┆     "super operator can't have their approvalForAll changed"
+          479┆ );
+            ⋮┆----------------------------------------
+          564┆ require(
+          565┆     msg.sender == _admin,
+          566┆     "only admin is allowed to add minters"
+          567┆ );
+            ⋮┆----------------------------------------
+          747┆ require(
+          748┆     _checkOnERC721BatchReceived(operator, from, to, ids, data),
+          749┆     "erc721 batch transfer rejected by to"
+          750┆ );
+            ⋮┆----------------------------------------
+          774┆ require(
+          775┆     _superOperators[msg.sender] ||
+          776┆     _operatorsForAll[from][msg.sender],
+          777┆     "not authorized to transferMultiQuads"
+          778┆ );
+            ⋮┆----------------------------------------
+          799┆ require(
+          800┆     _checkOnERC721BatchReceived(metaTx ? from : msg.sender, from,
+  to, ids, data),                                                               
+          801┆     "erc721 batch transfer rejected by to"
+          802┆ );
+            ⋮┆----------------------------------------
+          859┆ require(
+          860┆     _owners[quadId] == uint256(from) ||
+          861┆     _owners[LAYER_6x6 + (x/6) * 6 + ((y/6) * 6) * GRID_SIZE] ==  
+  uint256(from) ||                                                              
+          862┆     _owners[LAYER_12x12 + (x/12) * 12 + ((y/12) * 12) *          
+  GRID_SIZE] == uint256(from) ||                                                
+          863┆     _owners[LAYER_24x24 + (x/24) * 24 + ((y/24) * 24) *          
+  GRID_SIZE] == uint256(from),                                                  
+          864┆     "not owner of all sub quads nor parent quads"
+          865┆ );
+            ⋮┆----------------------------------------
+          892┆ require(
+          893┆     _owners[quadId] == uint256(from) ||
+          894┆     _owners[LAYER_12x12 + (x/12) * 12 + ((y/12) * 12) *          
+  GRID_SIZE] == uint256(from) ||                                                
+          895┆     _owners[LAYER_24x24 + (x/24) * 24 + ((y/24) * 24) *          
+  GRID_SIZE] == uint256(from),                                                  
+          896┆     "not owner of all sub quads nor parent quads"
+          897┆ );
+            ⋮┆----------------------------------------
+          924┆ require(
+          925┆     _owners[quadId] == uint256(from) ||
+          926┆     _owners[LAYER_24x24 + (x/24) * 24 + ((y/24) * 24) *          
+  GRID_SIZE] == uint256(from),                                                  
+          927┆     "not owner of all sub quads nor parent quads"
+          928┆ );
+            ⋮┆----------------------------------------
+          955┆ require(
+          956┆     _owners[quadId] == uint256(from),
+          957┆     "not owner of all sub quads not parent quad"
+          958┆ );
+            ⋮┆----------------------------------------
+       solidity.security.erc721-reentrancy    
+          ERC721 onERC721Received() reentrancy
+                                              
+          340┆ _checkOnERC721Received(metaTx ? from : msg.sender, from, to, id, 
+  ""),                                                                          
+            ⋮┆----------------------------------------
+          358┆ _checkOnERC721Received(metaTx ? from : msg.sender, from, to, id, 
+  data),                                                                        
+
+
+A new version of Semgrep is available. See https://semgrep.dev/docs/upgrading

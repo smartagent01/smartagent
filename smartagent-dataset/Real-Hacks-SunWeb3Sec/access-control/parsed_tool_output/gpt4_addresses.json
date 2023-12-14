@@ -1,0 +1,218 @@
+{
+  "0xD55f01B4B51B7F48912cD8Ca3CDD8070A1a9DBa5": [
+    {
+      "location": "setOracleData",
+      "message": "This function should be protected by access control to prevent unauthorized users from changing the oracle."
+    },
+    {
+      "location": "_setPendingAdmin",
+      "message": "This function should be protected by access control checks to ensure that only authorized users can call it."
+    },
+    {
+      "location": "_acceptAdmin",
+      "message": "This function should be protected by access control checks to ensure that only authorized users can call it."
+    },
+    {
+      "location": "_setCointroller",
+      "message": "This function should be protected by access control checks to ensure that only authorized users can call it."
+    },
+    {
+      "location": "_setReserveFactor",
+      "message": "This function should be protected by access control checks to ensure that only authorized users can call it."
+    },
+    {
+      "location": "_addReserves",
+      "message": "This function should be protected by access control checks to ensure that only authorized users can call it."
+    },
+    {
+      "location": "_reduceReserves",
+      "message": "This function should be protected by access control checks to ensure that only authorized users can call it."
+    },
+    {
+      "location": "sweepToken",
+      "message": "This function should be protected by access control to prevent unauthorized access."
+    }
+  ],
+  "0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32": [
+    {
+      "location": "Fallback Function in BabySmartRouter",
+      "message": "The fallback function delegates calls to a `normalRouter` without proper access control checks, potentially allowing unauthorized actions if `normalRouter` is compromised or incorrectly implemented."
+    }
+  ],
+  "0x531110418d8591c92e9cbbfc722db8ffb604fafd": [
+    {
+      "location": "onERC721Received",
+      "message": "The function executes instructions encoded in the `data` parameter, which could be exploited if not properly secured against unauthorized access."
+    }
+  ],
+  "0x9a1aef8c9ada4224ad774afdac07c24955c92a54": [
+    {
+      "location": "mint",
+      "message": "The `mint` function is public, allowing anyone to mint an unlimited amount of tokens."
+    },
+    {
+      "location": "_constructor",
+      "message": "The constructor is incorrectly marked as `public`, which is a syntax issue in Solidity 0.5.x and above."
+    }
+  ],
+  "0x418C24191aE947A78C99fDc0e45a1f96Afb254BE": [
+    {
+      "location": "mint",
+      "message": "The `mint` function is public and lacks access control, allowing any user to mint tokens without restriction."
+    }
+  ],
+  "0xE48b75dc1b131fd3A8364b0580f76eFD04cF6e9c": [
+    {
+      "location": "unlock",
+      "message": "The `unlock` function allows the previous owner to regain control without any time delay after locking, which could be exploited if the previous owner's address is compromised."
+    }
+  ],
+  "0x4E87880A72f6896E7e0a635A5838fFc89b13bd17": [
+    {
+      "location": "rescueToken",
+      "message": "The `rescueToken` function allows the `_tokenOwner` to transfer any ERC20 token from the contract, which could be a potential risk."
+    },
+    {
+      "location": "swapTokensForOther",
+      "message": "The `swapTokensForOther` function is public and could be manipulated for front-running or other exploits."
+    },
+    {
+      "location": "swapAndLiquify",
+      "message": "The `swapAndLiquify` function is public and could be a potential issue if not designed to be called by anyone."
+    },
+    {
+      "location": "swapAndLiquifyStepv1",
+      "message": "The `swapAndLiquifyStepv1` function is public and could be a potential issue if not designed to be called by anyone."
+    },
+    {
+      "location": "transferFromm",
+      "message": "The `transferFromm` function is public, does not have the `onlyOwner` modifier, and could be a critical vulnerability."
+    },
+    {
+      "location": "_transferrToken",
+      "message": "The `_transferrToken` function does not emit a `Transfer` event, violating the ERC20 standard and potentially leading to inaccurate balance tracking."
+    }
+  ],
+  "0x0288FBA0BF19072d30490A0F3C81cD9B0634258a": [
+    {
+      "location": "transferPoolRewards",
+      "message": "The `transferPoolRewards` function can transfer out the pool rewards without specific access control, relying on the `onlyRunnerScript` modifier, which should be reviewed to ensure it's secure."
+    }
+  ],
+  "0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a": [
+    {
+      "location": "_burn",
+      "message": "The function is public and does not verify that the caller has the authority to burn the token, allowing anyone to burn tokens by providing matching from and owner parameters."
+    }
+  ],
+  "0x27c55a6bd85e79c70c9b2caa003d55a2ece01565": [
+    {
+      "location": "approveToken",
+      "message": "The `approveToken` function is marked as public, allowing anyone to call it and potentially lead to unauthorized spending of tokens."
+    }
+  ],
+  "0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944": [
+    {
+      "location": "isApprovedForAll",
+      "message": "The function overrides OpenZeppelin's implementation and could be vulnerable if `projectProxy` is not managed securely."
+    },
+    {
+      "location": "refundBids",
+      "message": "The function is public without access control and should be reviewed to prevent potential abuse."
+    }
+  ],
+  "0xF0b7DE03134857391d8D43Ed48e20EDF21461097": [
+    {
+      "location": "init",
+      "message": "The `init` function is marked as `external`, allowing anyone to call it and potentially reinitialize the contract."
+    }
+  ],
+  "0x5f58058C0eC971492166763c8C22632B583F667f": [
+    {
+      "location": "transferOwnership",
+      "message": "The function is missing permission checking which could allow unauthorized users to change ownership."
+    },
+    {
+      "location": "acceptOwnership",
+      "message": "The function is missing permission checking which could allow unauthorized users to accept ownership rights."
+    },
+    {
+      "location": "withdrawTokens",
+      "message": "The function uses an `ownerOnly` modifier but without the full code, it's unclear if this prevents unauthorized withdrawals, caution is advised."
+    }
+  ],
+  "0x94dac4a3ce998143aa119c05460731da80ad90cf": [
+    {
+      "location": "burn",
+      "message": "The `burn` function in `LeetSwapV2Pair` is public and relies on external contracts for access control, which could be a vulnerability if those contracts are not secure."
+    },
+    {
+      "location": "mint",
+      "message": "The `mint` function in `LeetSwapV2Pair` is public and relies on external contracts for access control, potentially allowing unauthorized minting if those contracts are not secure."
+    },
+    {
+      "location": "_transferFeesSupportingTaxTokens",
+      "message": "The `_transferFeesSupportingTaxTokens` function is public and could be a potential issue if it's not meant to be called by anyone; it should be marked as `internal`."
+    }
+  ],
+  "0x6844ef18012a383c14e9a76a93602616ee9d6132": [
+    {
+      "location": "setSwapPairs",
+      "message": "The `onlyOwner` modifier is commented out, potentially allowing anyone to call this function."
+    },
+    {
+      "location": "harvestMarket",
+      "message": "The function allows minting of tokens without any access control, potentially enabling any user to mint tokens."
+    }
+  ],
+  "0x863DF6BFa4469f3ead0bE8f9F2AAE51c91A907b4": [
+    {
+      "location": "Wallet",
+      "message": "The `Wallet` contract's use of delegate call within the constructor for initialization is unconventional and could lead to errors."
+    },
+    {
+      "location": "Wallet",
+      "message": "The fallback function in the `Wallet` contract could be a potential vulnerability as it allows for any function of the `_walletLibrary` to be called if the library is not secure."
+    }
+  ],
+  "0xAE975a25646E6eB859615d0A147B909c13D31FEd": [
+    {
+      "location": "buyMiner",
+      "message": "The `buyMiner` function lacks access control, allowing any user to call it which could be exploited if not intended for public use."
+    }
+  ],
+  "0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0": [
+    {
+      "location": "initialize",
+      "message": "The `initialize` function is public and lacks access control, allowing anyone to call it and potentially disrupt the contract's state."
+    },
+    {
+      "location": "warpWithdraw",
+      "message": "The `warpWithdraw` function is public and only requires the caller to be the owner, which could be exploited if ownership is compromised."
+    },
+    {
+      "location": "warpaddTokenldx",
+      "message": "The `warpaddTokenldx` function is public and only requires the caller to be the owner, which could be exploited if ownership is compromised."
+    },
+    {
+      "location": "swapAndLiquifyStepv1",
+      "message": "The `swapAndLiquifyStepv1` function is public and only requires the caller to be the owner, which could be exploited if ownership is compromised."
+    },
+    {
+      "location": "transferOwnership",
+      "message": "The `transferOwnership` function allows ownership transfer without safeguards, risking loss of control over the contract."
+    },
+    {
+      "location": "swapAndLiquify",
+      "message": "The `swapAndLiquify` function lacks reentrancy guards, making it vulnerable to reentrancy attacks."
+    },
+    {
+      "location": "_transfer",
+      "message": "The `_transfer` function can call arbitrary external contracts, which could lead to unexpected behavior or loss of funds if those contracts are malicious or compromised."
+    },
+    {
+      "location": "_isAddLiquidityV1",
+      "message": "The `_isAddLiquidityV1` function could be manipulated by an attacker to bypass fees or trigger unintended behavior."
+    }
+  ]
+}

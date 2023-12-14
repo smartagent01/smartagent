@@ -1,0 +1,13 @@
+```
+freezeAccount
+The "onlyOwner" modifier is used, but the "owner" variable is not initialized in the constructor function, leading to potential unauthorized access.
+
+transferOwnership
+The "onlyOwner" modifier is used, but the "owner" variable is not initialized in the constructor function, leading to potential unauthorized access.
+
+switchLiquidity
+The "switchLiquidity" function allows anyone to switch the liquidity, potentially leading to unauthorized changes in the contract's behavior.
+
+approve
+The "approve" function does not have proper permission checking, allowing anyone to approve spending on behalf of another address.
+```

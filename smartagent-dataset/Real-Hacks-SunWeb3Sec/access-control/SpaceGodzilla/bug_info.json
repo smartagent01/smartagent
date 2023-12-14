@@ -1,0 +1,21 @@
+[
+  {
+    "bug": [
+      "AccessControl"
+    ],
+    "blockchain": "BSC",
+    "source_file": "./0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol",
+    "address": "0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0",
+    "contract": "SpaceGodzilla",
+    "function": "swapAndLiquifyStepv1",
+    "line_start": 1229,
+    "line_end": 1233,
+    "reference": [
+      "https://github.com/SunWeb3Sec/DeFiHackLabs/blob/main/src/test/SpaceGodzilla.exp.sol",
+      "https://mobile.twitter.com/BlockSecTeam/status/1547456591900749824",
+      "https://learnblockchain.cn/article/4395",
+      "https://learnblockchain.cn/article/4396"
+    ],
+    "note": "Manipulating the k value made possible by allowing the attacker public access to addLiquidityUsdt through the swapAndLiquifyStepv1 function."
+  }
+]

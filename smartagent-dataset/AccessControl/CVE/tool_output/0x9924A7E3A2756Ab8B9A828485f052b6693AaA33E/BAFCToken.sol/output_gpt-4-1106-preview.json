@@ -1,0 +1,14 @@
+UBSexToken
+The constructor for the `BAFCToken` contract is incorrectly named `UBSexToken`, allowing public reinitialization.
+
+approve
+The `approve` function does not check if the contract is `transferable`, potentially allowing approvals that cannot be executed.
+
+transfer
+The `transfer` function does not check if the `msg.sender` account is frozen, allowing a frozen account to transfer tokens.
+
+transferOwnership
+The `transferOwnership` function does not emit an event when ownership is changed, lacking transparency for critical state changes.
+
+switchLiquidity
+The `switchLiquidity` function does not emit an event when liquidity is switched, lacking transparency for critical state changes.

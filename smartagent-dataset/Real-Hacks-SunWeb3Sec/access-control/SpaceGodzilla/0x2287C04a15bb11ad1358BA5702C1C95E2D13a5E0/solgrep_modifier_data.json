@@ -1,0 +1,15 @@
+{
+  "/smart-agent-artifact/smart-agent/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SpaceGodzilla/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0/0x2287C04a15bb11ad1358BA5702C1C95E2D13a5E0.sol": [
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: Ownable.onlyOwner",
+      "info": "onlyOwner",
+      "loc": [
+        288,
+        4,
+        291,
+        4
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+docker build -t slither-smartagent -f slitherDockerfile .

@@ -1,0 +1,26 @@
+{
+  "MorphToken/MorphToken.sol": [
+    {
+      "location": "owned",
+      "message": "The `Owned` contract has a constructor named `owned`, which should be named `Owned` to match the contract name. This could potentially allow anyone to call it to initialize the contract."
+    }
+  ],
+  "Melo/Melo.sol": [
+    {
+      "location": "constructor",
+      "message": "The constructor function does not have any access control modifier, which means anyone can call it to initialize the contract. This can be a potential access control bug."
+    },
+    {
+      "location": "mint",
+      "message": "The `mint` function is marked as public, which means anyone can call it to mint tokens. This can be a potential access control bug if minting should be restricted to certain roles."
+    },
+    {
+      "location": "increaseAllowance",
+      "message": "The `increaseAllowance` function is marked as public, which means anyone can increase the allowance. This can be a potential access control bug if allowance modification should be restricted to certain roles."
+    },
+    {
+      "location": "decreaseAllowance",
+      "message": "The `decreaseAllowance` function is marked as public, which means anyone can decrease the allowance. This can be a potential access control bug if allowance modification should be restricted to certain roles."
+    }
+  ]
+}

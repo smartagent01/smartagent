@@ -1,0 +1,10 @@
+```
+owned
+The `Owned` contract has a constructor named `owned`, which is incorrect as the constructor should have the same name as the contract. This could potentially allow anyone to call the `owned` function and change the owner of the contract.
+
+distributeToken
+The `distributeToken` function in the `StandardToken` contract allows anyone to distribute tokens, which could potentially be a permission-related bug if it's not intended for anyone to be able to distribute tokens.
+
+fallback function
+The `B2X` contract has a fallback function that uses `throw`, which is deprecated in favor of using `revert` in newer versions of Solidity.
+```

@@ -1,0 +1,26 @@
+File copied : /root/Achecker/output_gpt-3.5-turbo-1106_1.sol.bin-runtime
+processing /root/Achecker/output_gpt-3.5-turbo-1106_1.sol.bin-runtime
+Checking contract for [4mViolated-AC-Check[0m 
+------------------
+
+Violated access control check in function burn(uint256)
+	( 1456)  5b0:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {0} in function Owned()
+
+Violated access control check in function mintToken(address,uint256)
+	( 1829)  725:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {0} in function Owned()
+
+Violated access control check in function freezeAccount(address,bool)
+	( 2333)  91d:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {0} in function Owned()
+
+Violated access control check in function transfer(address,uint256)
+	( 2883)  b43:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {6} in function freezeAccount(address,bool)
+
+
+Checking contract for [4mMissing-AC-Check[0m 
+------------------
+2a3053f49aab2cd6ce7f1f3749a1d341138de44dbaeef36689f9f1f2f642040b
+(False, 'Owned', '+--Attacker can make changes to AC item {0} in function Owned()')

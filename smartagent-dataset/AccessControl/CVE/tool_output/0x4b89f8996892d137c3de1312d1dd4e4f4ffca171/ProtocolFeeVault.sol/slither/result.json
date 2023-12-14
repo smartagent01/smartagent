@@ -1,0 +1,284 @@
+{
+    "errors": [
+        "EXIT_CODE_26"
+    ],
+    "fails": [],
+    "findings": [
+        {
+            "confidence": "Medium",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "impact": "Medium",
+            "line": 117,
+            "line_end": 128,
+            "message": "AddressUtil.isContract (ProtocolFeeVault.sol#117-128) is declared view but contains assembly code\n",
+            "name": "constant-function"
+        },
+        {
+            "confidence": "Medium",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "impact": "Medium",
+            "line": 518,
+            "line_end": 549,
+            "message": "ERC20SafeTransfer.checkReturnValue (ProtocolFeeVault.sol#518-549) is declared view but contains assembly code\n",
+            "name": "constant-function"
+        },
+        {
+            "confidence": "Medium",
+            "contract": "ProtocolFeeVault",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "function": "fundDAO",
+            "impact": "Medium",
+            "line": 881,
+            "line_end": 905,
+            "message": "Reentrancy in ProtocolFeeVault.fundDAO (ProtocolFeeVault.sol#881-905):\n\tExternal calls:\n\t- (None,None,None,None,None,amountBurn,amountDAO,None) = getProtocolFeeStats() (ProtocolFeeVault.sol#885-886)\n\t- require(bool,string)(BurnableERC20(lrcAddress).burn(amountBurn),BURN_FAILURE) (ProtocolFeeVault.sol#893-897)\n\tState variables written after the call(s):\n\t- claimedBurn (ProtocolFeeVault.sol#897-900)\n\t- claimedDAOFund (ProtocolFeeVault.sol#901-904)\n",
+            "name": "reentrancy-no-eth"
+        },
+        {
+            "confidence": "Medium",
+            "contract": "ProtocolFeeVault",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "function": "sellTokenForLRC",
+            "impact": "Medium",
+            "line": 906,
+            "line_end": 922,
+            "message": "ProtocolFeeVault.sellTokenForLRC (ProtocolFeeVault.sol#906-922) does not use the value returned by external calls:\n\t-recipient.sendETHAndVerify(amount,gasleft()()) (ProtocolFeeVault.sol#915-917)\n",
+            "name": "unused-return"
+        },
+        {
+            "confidence": "High",
+            "contract": "AddressUtil",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "function": "isContract",
+            "impact": "Informational",
+            "line": 117,
+            "line_end": 128,
+            "message": "AddressUtil.isContract uses assembly (ProtocolFeeVault.sol#117-128)\n\t- ProtocolFeeVault.sol#125-127\n",
+            "name": "assembly"
+        },
+        {
+            "confidence": "High",
+            "contract": "ERC20SafeTransfer",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "function": "checkReturnValue",
+            "impact": "Informational",
+            "line": 518,
+            "line_end": 549,
+            "message": "ERC20SafeTransfer.checkReturnValue uses assembly (ProtocolFeeVault.sol#518-549)\n\t- ProtocolFeeVault.sol#527-548\n",
+            "name": "assembly"
+        },
+        {
+            "confidence": "High",
+            "contract": "ERC20",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "function": "totalSupply",
+            "impact": "Informational",
+            "line": 26,
+            "line_end": 31,
+            "message": "ERC20.totalSupply (ProtocolFeeVault.sol#26-31) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "ERC20",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "function": "balanceOf",
+            "impact": "Informational",
+            "line": 31,
+            "line_end": 38,
+            "message": "ERC20.balanceOf (ProtocolFeeVault.sol#31-38) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "ERC20",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "function": "allowance",
+            "impact": "Informational",
+            "line": 38,
+            "line_end": 46,
+            "message": "ERC20.allowance (ProtocolFeeVault.sol#38-46) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "ERC20",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "function": "transfer",
+            "impact": "Informational",
+            "line": 47,
+            "line_end": 53,
+            "message": "ERC20.transfer (ProtocolFeeVault.sol#47-53) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "ERC20",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "function": "transferFrom",
+            "impact": "Informational",
+            "line": 54,
+            "line_end": 62,
+            "message": "ERC20.transferFrom (ProtocolFeeVault.sol#54-62) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "ERC20",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "function": "approve",
+            "impact": "Informational",
+            "line": 62,
+            "line_end": 69,
+            "message": "ERC20.approve (ProtocolFeeVault.sol#62-69) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "BurnableERC20",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "function": "burn",
+            "impact": "Informational",
+            "line": 202,
+            "line_end": 209,
+            "message": "BurnableERC20.burn (ProtocolFeeVault.sol#202-209) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "BurnableERC20",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "function": "burnFrom",
+            "impact": "Informational",
+            "line": 209,
+            "line_end": 210,
+            "message": "BurnableERC20.burnFrom (ProtocolFeeVault.sol#209-210) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "Ownable",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "function": "transferOwnership",
+            "impact": "Informational",
+            "line": 285,
+            "line_end": 298,
+            "message": "Ownable.transferOwnership (ProtocolFeeVault.sol#285-298) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "Claimable",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "function": "transferOwnership",
+            "impact": "Informational",
+            "line": 323,
+            "line_end": 336,
+            "message": "Claimable.transferOwnership (ProtocolFeeVault.sol#323-336) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "Ownable",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "function": "renounceOwnership",
+            "impact": "Informational",
+            "line": 298,
+            "line_end": 304,
+            "message": "Ownable.renounceOwnership (ProtocolFeeVault.sol#298-304) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "Claimable",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "function": "claimOwnership",
+            "impact": "Informational",
+            "line": 338,
+            "line_end": 344,
+            "message": "Claimable.claimOwnership (ProtocolFeeVault.sol#338-344) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "impact": "Informational",
+            "line": 17,
+            "line_end": 20,
+            "message": "Detected issues with version pragma in ProtocolFeeVault.sol:\n\t- pragma solidity^0.5.11 (ProtocolFeeVault.sol#17-20): it allows old versions\n",
+            "name": "solc-version"
+        },
+        {
+            "confidence": "High",
+            "contract": "AddressUtil",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "function": "sendETH",
+            "impact": "Informational",
+            "line": 141,
+            "line_end": 153,
+            "message": "Low level call in AddressUtil.sendETH (ProtocolFeeVault.sol#141-153):\n\t-(success,None) = recipient.call.value(amount).gas(gasLimit)() ProtocolFeeVault.sol#152\n",
+            "name": "low-level-calls"
+        },
+        {
+            "confidence": "High",
+            "contract": "ERC20SafeTransfer",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "function": "safeTransferWithGasLimit",
+            "impact": "Informational",
+            "line": 414,
+            "line_end": 447,
+            "message": "Low level call in ERC20SafeTransfer.safeTransferWithGasLimit (ProtocolFeeVault.sol#414-447):\n\t-(success) = token.call.gas(gasLimit)(callData) ProtocolFeeVault.sol#441-444\n",
+            "name": "low-level-calls"
+        },
+        {
+            "confidence": "High",
+            "contract": "ERC20SafeTransfer",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "function": "safeTransferFromWithGasLimit",
+            "impact": "Informational",
+            "line": 492,
+            "line_end": 517,
+            "message": "Low level call in ERC20SafeTransfer.safeTransferFromWithGasLimit (ProtocolFeeVault.sol#492-517):\n\t-(success) = token.call.gas(gasLimit)(callData) ProtocolFeeVault.sol#514-516\n",
+            "name": "low-level-calls"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "impact": "Informational",
+            "line": 844,
+            "message": "Parameter '_userStakingPoolAddress' of ProtocolFeeVault.updateSettings (ProtocolFeeVault.sol#844) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "impact": "Informational",
+            "line": 844,
+            "line_end": 845,
+            "message": "Parameter '_tokenSellerAddress' of ProtocolFeeVault.updateSettings (ProtocolFeeVault.sol#844-845) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "impact": "Informational",
+            "line": 845,
+            "message": "Parameter '_daoAddress' of ProtocolFeeVault.updateSettings (ProtocolFeeVault.sol#845) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+            "impact": "Informational",
+            "line": 834,
+            "line_end": 836,
+            "message": "Parameter '_lrcAddress' of ProtocolFeeVault. (ProtocolFeeVault.sol#834-836) is not in mixedCase\n",
+            "name": "naming-convention"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "slither",
+        "mode": "solidity",
+        "version": "2022/11/14"
+    }
+}

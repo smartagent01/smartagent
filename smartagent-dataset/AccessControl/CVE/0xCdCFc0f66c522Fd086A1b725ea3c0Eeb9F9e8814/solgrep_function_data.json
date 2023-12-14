@@ -1,0 +1,169 @@
+{
+  "/smart-agent/smartagent-dataset/AccessControl/CVE/0xCdCFc0f66c522Fd086A1b725ea3c0Eeb9F9e8814/AURA.sol": [
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: tokenRecipient.receiveApproval",
+      "info": "receiveApproval",
+      "loc": [
+        3,
+        27,
+        3,
+        123
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.safeMul",
+      "info": "safeMul",
+      "loc": [
+        6,
+        2,
+        10,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.safeSub",
+      "info": "safeSub",
+      "loc": [
+        11,
+        2,
+        14,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.safeAdd",
+      "info": "safeAdd",
+      "loc": [
+        15,
+        2,
+        19,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Owned.__constructor__",
+      "info": "__constructor__",
+      "loc": [
+        24,
+        2,
+        26,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Owned.setOwner",
+      "info": "setOwner",
+      "loc": [
+        27,
+        2,
+        30,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AURA.__constructor__",
+      "info": "__constructor__",
+      "loc": [
+        53,
+        4,
+        56,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AURA._transfer",
+      "info": "_transfer",
+      "loc": [
+        61,
+        4,
+        71,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AURA.transfer",
+      "info": "transfer",
+      "loc": [
+        81,
+        4,
+        84,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AURA.transferFrom",
+      "info": "transferFrom",
+      "loc": [
+        95,
+        4,
+        100,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AURA.approve",
+      "info": "approve",
+      "loc": [
+        110,
+        4,
+        115,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AURA.approveAndCall",
+      "info": "approveAndCall",
+      "loc": [
+        126,
+        4,
+        134,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AURA.unlockToken",
+      "info": "unlockToken",
+      "loc": [
+        136,
+        4,
+        138,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AURA.uploadBalances",
+      "info": "uploadBalances",
+      "loc": [
+        141,
+        4,
+        149,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: AURA.lockBalances",
+      "info": "lockBalances",
+      "loc": [
+        150,
+        4,
+        152,
+        4
+      ]
+    }
+  ]
+}

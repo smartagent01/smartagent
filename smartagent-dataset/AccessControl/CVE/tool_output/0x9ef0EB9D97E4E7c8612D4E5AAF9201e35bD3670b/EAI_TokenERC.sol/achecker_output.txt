@@ -1,0 +1,9 @@
+File copied : /root/Achecker/EAI_TokenERC.bin-runtime
+processing /root/Achecker/EAI_TokenERC.bin-runtime
+Checking contract for [4mViolated-AC-Check[0m 
+------------------
+
+
+Checking contract for [4mMissing-AC-Check[0m 
+------------------
+bbea45a04a8a5d5ab058d5460c46a4b7f2b12725143a554109cfe35b70f008b8

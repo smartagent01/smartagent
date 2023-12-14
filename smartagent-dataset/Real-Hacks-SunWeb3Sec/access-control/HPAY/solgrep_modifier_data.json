@@ -1,0 +1,147 @@
+{
+  "/smart-agent-artifact/smart-agent/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/HPAY/0xE9bc03Ef08E991a99F1bd095a8590499931DcC30_flattened.sol": [
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: Pausable.whenNotPaused",
+      "info": "whenNotPaused",
+      "loc": [
+        604,
+        4,
+        607,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: Pausable.whenPaused",
+      "info": "whenPaused",
+      "loc": [
+        616,
+        4,
+        619,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: AccessControl.onlyRole",
+      "info": "onlyRole",
+      "loc": [
+        987,
+        4,
+        990,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: Initializable.initializer",
+      "info": "initializer",
+      "loc": [
+        1889,
+        4,
+        1906,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: Initializable.onlyInitializing",
+      "info": "onlyInitializing",
+      "loc": [
+        1912,
+        4,
+        1915,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: OwnableUpgradeable.onlyOwner",
+      "info": "onlyOwner",
+      "loc": [
+        1989,
+        4,
+        1992,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: AccessControlUpgradeable.onlyRole",
+      "info": "onlyRole",
+      "loc": [
+        2666,
+        4,
+        2669,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: BaseStaking.canWithdraw",
+      "info": "canWithdraw",
+      "loc": [
+        2876,
+        4,
+        2883,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: BaseStaking.canStake",
+      "info": "canStake",
+      "loc": [
+        2884,
+        4,
+        2887,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: BaseStaking.canClaim",
+      "info": "canClaim",
+      "loc": [
+        2888,
+        4,
+        2891,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: BaseStaking.updateReward",
+      "info": "updateReward",
+      "loc": [
+        2933,
+        4,
+        2944,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: MintableSupplyStaking.updateReward",
+      "info": "updateReward",
+      "loc": [
+        3329,
+        4,
+        3336,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: MintableAutoCompundRelockBonus.updateReward",
+      "info": "updateReward",
+      "loc": [
+        3539,
+        4,
+        3546,
+        4
+      ]
+    }
+  ]
+}

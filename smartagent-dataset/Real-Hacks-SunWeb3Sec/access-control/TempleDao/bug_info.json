@@ -1,0 +1,18 @@
+[
+  {
+    "bug": [
+      "AccessControl"
+    ],
+    "blockchain": "Ethereum",
+    "address": "0xd2869042E12a3506100af1D192b5b04D65137941",
+    "contract": "StaxLPStaking",
+    "source_file": "0xd2869042E12a3506100af1D192b5b04D65137941_flattened.sol",
+    "function": "migrateStake",
+    "line_start": 1155,
+    "line_end": 1158,
+    "reference": [
+      "https://github.com/SunWeb3Sec/DeFiHackLabs/blob/main/src/test/Templedao_exp.sol"
+    ],
+    "note": ""
+  }
+]

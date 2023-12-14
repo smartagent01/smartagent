@@ -1,0 +1,2 @@
+mint
+The `mint` function is public and lacks access control, allowing any user to mint tokens without restriction.

@@ -1,0 +1,19 @@
+[
+  {
+    "bug": [
+      "AccessControl"
+    ],
+    "blockchain": "Ethereum",
+    "address": "0x418C24191aE947A78C99fDc0e45a1f96Afb254BE",
+    "source_file": "./0x418C24191aE947A78C99fDc0e45a1f96Afb254BE/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE.sol",
+    "contract": "Token",
+    "function": "mint",
+    "line_start": 489,
+    "line_end": 492,
+    "reference": [
+      "https://github.com/SunWeb3Sec/DeFiHackLabs/blob/main/src/test/Uerii_exp.sol",
+      "https://twitter.com/peckshield/status/1581988895142526976"
+    ],
+    "note": ""
+  }
+]

@@ -1,0 +1,5 @@
+renounceOwnership
+Properly checks for permission using the onlyOwner modifier.
+
+transferOwnership
+Properly checks for permission using the onlyOwner modifier.

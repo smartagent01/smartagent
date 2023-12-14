@@ -1,0 +1,943 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2119,
+            "message": "To guarantee arguments type safety it is recommended to use `abi.encodeCall` instead of `abi.encodeWithSelector`.",
+            "name": "use-abi-encodecall-instead-of-encodewithselector"
+        },
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2125,
+            "message": "To guarantee arguments type safety it is recommended to use `abi.encodeCall` instead of `abi.encodeWithSelector`.",
+            "name": "use-abi-encodecall-instead-of-encodewithselector"
+        },
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2131,
+            "message": "To guarantee arguments type safety it is recommended to use `abi.encodeCall` instead of `abi.encodeWithSelector`.",
+            "name": "use-abi-encodecall-instead-of-encodewithselector"
+        },
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2199,
+            "message": "By demanding that the receiver of the owner permissions actively accept via a contract call of its own,  `Ownable2Step` and `Ownable2StepUpgradeable` prevent the contract ownership from accidentally being transferred  to an address that cannot handle it.",
+            "name": "use-ownable2step"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 1976,
+            "message": "Caching the array length outside a loop saves reading it on each iteration, as long as the array's length is not changed during the loop.",
+            "name": "array-length-outside-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 1987,
+            "message": "Caching the array length outside a loop saves reading it on each iteration, as long as the array's length is not changed during the loop.",
+            "name": "array-length-outside-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 1999,
+            "message": "Caching the array length outside a loop saves reading it on each iteration, as long as the array's length is not changed during the loop.",
+            "name": "array-length-outside-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2009,
+            "message": "Caching the array length outside a loop saves reading it on each iteration, as long as the array's length is not changed during the loop.",
+            "name": "array-length-outside-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2288,
+            "message": "Caching the array length outside a loop saves reading it on each iteration, as long as the array's length is not changed during the loop.",
+            "name": "array-length-outside-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2296,
+            "message": "Caching the array length outside a loop saves reading it on each iteration, as long as the array's length is not changed during the loop.",
+            "name": "array-length-outside-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2300,
+            "message": "Caching the array length outside a loop saves reading it on each iteration, as long as the array's length is not changed during the loop.",
+            "name": "array-length-outside-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2428,
+            "message": "Caching the array length outside a loop saves reading it on each iteration, as long as the array's length is not changed during the loop.",
+            "name": "array-length-outside-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2445,
+            "message": "Caching the array length outside a loop saves reading it on each iteration, as long as the array's length is not changed during the loop.",
+            "name": "array-length-outside-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2447,
+            "message": "Caching the array length outside a loop saves reading it on each iteration, as long as the array's length is not changed during the loop.",
+            "name": "array-length-outside-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2220,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2221,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2222,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2223,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2224,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2225,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2238,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2239,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2240,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2241,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2242,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2243,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2244,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2245,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2246,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 1976,
+            "message": "A lot of times there is no risk that the loop counter can overflow. Using Solidity's unchecked block saves the overflow checks.",
+            "name": "unnecessary-checked-arithmetic-in-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 1987,
+            "message": "A lot of times there is no risk that the loop counter can overflow. Using Solidity's unchecked block saves the overflow checks.",
+            "name": "unnecessary-checked-arithmetic-in-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2288,
+            "message": "A lot of times there is no risk that the loop counter can overflow. Using Solidity's unchecked block saves the overflow checks.",
+            "name": "unnecessary-checked-arithmetic-in-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2428,
+            "message": "A lot of times there is no risk that the loop counter can overflow. Using Solidity's unchecked block saves the overflow checks.",
+            "name": "unnecessary-checked-arithmetic-in-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 72,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 93,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 210,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 269,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 1910,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 1912,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 1930,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 1931,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 1937,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 1938,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 1946,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 1947,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 1956,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 1957,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 1964,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 1965,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 1973,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 1984,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 1996,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2006,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2120,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2126,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2132,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2137,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2208,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2317,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2335,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2351,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2353,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2369,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2371,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2390,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2392,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2410,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2412,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2469,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2470,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2471,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2472,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2483,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2491,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2492,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2493,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2494,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2506,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2513,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 1931,
+            "message": "Using multiple require statements is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-multiple-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 1938,
+            "message": "Using multiple require statements is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-multiple-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 1947,
+            "message": "Using multiple require statements is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-multiple-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 1957,
+            "message": "Using multiple require statements is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-multiple-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 1965,
+            "message": "Using multiple require statements is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-multiple-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 1984,
+            "message": "Using multiple require statements is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-multiple-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2006,
+            "message": "Using multiple require statements is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-multiple-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2120,
+            "message": "Using multiple require statements is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-multiple-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2126,
+            "message": "Using multiple require statements is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-multiple-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2132,
+            "message": "Using multiple require statements is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-multiple-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2249,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2250,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2251,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2252,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2253,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2254,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2255,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2256,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2257,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2258,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 1999,
+            "message": "Consider using the prefix decrement expression whenever the return value is not needed. The prefix decrement expression is cheaper in terms of gas.",
+            "name": "use-prefix-decrement-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2009,
+            "message": "Consider using the prefix decrement expression whenever the return value is not needed. The prefix decrement expression is cheaper in terms of gas.",
+            "name": "use-prefix-decrement-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 1976,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 1987,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2288,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2428,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 93,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 269,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 1931,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 1937,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 1938,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 1946,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 1947,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 1956,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 1957,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 1964,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 1965,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2132,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2137,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2317,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2335,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2353,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2371,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2392,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2412,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2469,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2470,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2471,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2472,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2491,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2492,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2493,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2494,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/BabySwap/0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32_flattened.sol",
+            "line": 2513,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs",
+            "name": "use-short-revert-string"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "semgrep",
+        "mode": "solidity",
+        "version": "2023/08/21"
+    }
+}

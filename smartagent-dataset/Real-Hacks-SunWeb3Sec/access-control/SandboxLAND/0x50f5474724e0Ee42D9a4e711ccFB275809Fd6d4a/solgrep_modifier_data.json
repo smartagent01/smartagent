@@ -1,0 +1,15 @@
+{
+  "/smart-agent-artifact/smart-agent/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol": [
+    {
+      "rule": "GenericGrep",
+      "tag": "match-modifier: Admin.onlyAdmin",
+      "info": "onlyAdmin",
+      "loc": [
+        41,
+        4,
+        44,
+        4
+      ]
+    }
+  ]
+}

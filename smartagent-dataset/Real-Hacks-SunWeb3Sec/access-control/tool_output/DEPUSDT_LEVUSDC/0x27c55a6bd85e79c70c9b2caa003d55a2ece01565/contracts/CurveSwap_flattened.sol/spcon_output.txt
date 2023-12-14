@@ -1,0 +1,22 @@
+Running SPCON... 0x27c55a6bd85e79c70c9b2caa003d55a2ece01565 600 2022-05-23
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/SpCon-0.1.0-py3.8.egg/spcon/__main__.py", line 67, in main
+    execute_command(args)
+  File "/usr/local/lib/python3.8/dist-packages/SpCon-0.1.0-py3.8.egg/spcon/__main__.py", line 27, in execute_command
+    contractName, contractAbi, reads, reads2, writes =  getRWofContract(address=args.eth_address)
+  File "/usr/local/lib/python3.8/dist-packages/SpCon-0.1.0-py3.8.egg/spcon/staticAnalyzer.py", line 23, in getRWofContract
+    contractName, contractAbi, reads, reads2,  writes = analyzer.analyze(address=address)
+  File "/usr/local/lib/python3.8/dist-packages/SpCon-0.1.0-py3.8.egg/spcon/staticAnalyzer.py", line 49, in analyze
+    slither = Slither(cc)
+  File "/usr/local/lib/python3.8/dist-packages/slither_analyzer-0.8.0-py3.8.egg/slither/slither.py", line 81, in __init__
+    parser.parse_top_level_from_loaded_json(ast, path)
+  File "/usr/local/lib/python3.8/dist-packages/slither_analyzer-0.8.0-py3.8.egg/slither/solc_parsing/slither_compilation_unit_solc.py", line 169, in parse_top_level_from_loaded_json
+    contract_parser = ContractSolc(self, contract, top_level_data)
+  File "/usr/local/lib/python3.8/dist-packages/slither_analyzer-0.8.0-py3.8.egg/slither/solc_parsing/declarations/contract.py", line 68, in __init__
+    self._parse_contract_items()
+  File "/usr/local/lib/python3.8/dist-packages/slither_analyzer-0.8.0-py3.8.egg/slither/solc_parsing/declarations/contract.py", line 250, in _parse_contract_items
+    raise ParsingError("Unknown contract item: " + item[self.get_key()])
+slither.solc_parsing.exceptions.ParsingError: Unknown contract item: ErrorDefinition
+Installing solc '0.8.15'...
+Version '0.8.15' installed.
+total timecost: 11.409916877746582 seconds

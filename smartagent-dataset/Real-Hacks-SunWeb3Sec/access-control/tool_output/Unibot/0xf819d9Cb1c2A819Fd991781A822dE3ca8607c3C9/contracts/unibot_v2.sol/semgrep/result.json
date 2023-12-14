@@ -1,0 +1,1587 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 991,
+            "message": "By demanding that the receiver of the owner permissions actively accept via a contract call of its own,  `Ownable2Step` and `Ownable2StepUpgradeable` prevent the contract ownership from accidentally being transferred  to an address that cannot handle it.",
+            "name": "use-ownable2step"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 466,
+            "message": "<x> += <y> costs more gas than <x> = <x> + <y> for state variables.",
+            "name": "inefficient-state-variable-increment"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1350,
+            "message": "<x> += <y> costs more gas than <x> = <x> + <y> for state variables.",
+            "name": "inefficient-state-variable-increment"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1351,
+            "message": "<x> += <y> costs more gas than <x> = <x> + <y> for state variables.",
+            "name": "inefficient-state-variable-increment"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1352,
+            "message": "<x> += <y> costs more gas than <x> = <x> + <y> for state variables.",
+            "name": "inefficient-state-variable-increment"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1357,
+            "message": "<x> += <y> costs more gas than <x> = <x> + <y> for state variables.",
+            "name": "inefficient-state-variable-increment"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1358,
+            "message": "<x> += <y> costs more gas than <x> = <x> + <y> for state variables.",
+            "name": "inefficient-state-variable-increment"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1359,
+            "message": "<x> += <y> costs more gas than <x> = <x> + <y> for state variables.",
+            "name": "inefficient-state-variable-increment"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1008,
+            "message": "Uninitialized variables are assigned with the types default value. Explicitly initializing a variable with its default value costs unnecessary gas.",
+            "name": "init-variables-with-default-value"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1009,
+            "message": "Uninitialized variables are assigned with the types default value. Explicitly initializing a variable with its default value costs unnecessary gas.",
+            "name": "init-variables-with-default-value"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1011,
+            "message": "Uninitialized variables are assigned with the types default value. Explicitly initializing a variable with its default value costs unnecessary gas.",
+            "name": "init-variables-with-default-value"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 263,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 264,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 265,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 266,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1068,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1069,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1070,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1071,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1072,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1073,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1074,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1075,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1076,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1077,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 72,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 92,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 367,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 408,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 435,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 436,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 441,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 462,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 485,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 490,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 519,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 520,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1147,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1148,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1149,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1150,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1151,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1152,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1153,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1154,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1160,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1161,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1162,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1163,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1168,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1169,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1170,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1171,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1196,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1208,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1220,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1221,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1222,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1223,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1257,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1258,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1259,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1260,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1263,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1280,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1281,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1282,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1283,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1291,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1292,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1293,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1294,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1295,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1296,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1297,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1298,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1305,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1306,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1307,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1308,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1310,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1311,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1312,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1313,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1463,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1481,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1482,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1483,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1484,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1485,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1491,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1492,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1493,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1494,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1495,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1482,
+            "message": "Using multiple require statements is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-multiple-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1483,
+            "message": "Using multiple require statements is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-multiple-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1484,
+            "message": "Using multiple require statements is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-multiple-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1485,
+            "message": "Using multiple require statements is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-multiple-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1492,
+            "message": "Using multiple require statements is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-multiple-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1493,
+            "message": "Using multiple require statements is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-multiple-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1494,
+            "message": "Using multiple require statements is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-multiple-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1495,
+            "message": "Using multiple require statements is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-multiple-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1272,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1273,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1274,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1275,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1276,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1277,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1278,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1279,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1280,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1281,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1287,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1288,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1289,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1290,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1291,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1292,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1293,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1294,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1295,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1296,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1301,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1302,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1303,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1304,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1305,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1306,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1307,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1308,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1309,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1310,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1322,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1323,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1324,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1325,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1326,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1327,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1328,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1329,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1330,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1331,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1348,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1349,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1350,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1351,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1352,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1353,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1354,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1355,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1356,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1357,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1355,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1356,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1357,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1358,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1359,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1360,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1444,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1445,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1446,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1447,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1448,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1449,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1450,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1451,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 92,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 367,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 408,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 435,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 436,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 441,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 485,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 490,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 519,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 520,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1147,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1148,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1149,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1150,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1151,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1152,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1153,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1154,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1160,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1161,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1162,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1163,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1168,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1169,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1170,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1171,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1220,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1221,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1222,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1223,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1257,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1258,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1263,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1291,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1292,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1293,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1294,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1305,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1306,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1307,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1308,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1481,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1482,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1483,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1484,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1485,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1491,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1492,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1493,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1494,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1495,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1381,
+            "message": "No slippage check in a Uniswap v2/v3 trade",
+            "name": "no-slippage-check"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1382,
+            "message": "No slippage check in a Uniswap v2/v3 trade",
+            "name": "no-slippage-check"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1383,
+            "message": "No slippage check in a Uniswap v2/v3 trade",
+            "name": "no-slippage-check"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1384,
+            "message": "No slippage check in a Uniswap v2/v3 trade",
+            "name": "no-slippage-check"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1385,
+            "message": "No slippage check in a Uniswap v2/v3 trade",
+            "name": "no-slippage-check"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1386,
+            "message": "No slippage check in a Uniswap v2/v3 trade",
+            "name": "no-slippage-check"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Unibot/0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9/contracts/unibot_v2.sol",
+            "line": 1387,
+            "message": "No slippage check in a Uniswap v2/v3 trade",
+            "name": "no-slippage-check"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "semgrep",
+        "mode": "solidity",
+        "version": "2023/08/21"
+    }
+}

@@ -1,0 +1,14 @@
+owned
+The `owned` function is incorrectly named and should be the constructor, allowing anyone to call it and change the owner after deployment.
+
+mintToken
+The `mintToken` function has no cap on the minting amount, potentially leading to an unlimited supply of tokens.
+
+RobotBTC
+The `RobotBTC` contract does not call the `owned` constructor, possibly resulting in the owner being the zero address.
+
+buy
+The `buy` function does not check for overflows when calculating the `amount` of tokens to transfer.
+
+sell
+The `sell` function does not check that the caller has enough tokens before attempting to transfer ether to them.

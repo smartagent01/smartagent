@@ -1,0 +1,2777 @@
+[
+    {
+        "contract": "ERC721Events",
+        "contract_vars": [],
+        "inheritance": [],
+        "functions": [],
+        "modifiers": []
+    },
+    {
+        "contract": "Admin",
+        "contract_vars": [
+            "_admin"
+        ],
+        "inheritance": [],
+        "functions": [
+            {
+                "name": "getAdmin()",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "_admin"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "changeAdmin(address)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "_admin",
+                    "msg.sender"
+                ],
+                "write_vars": [
+                    "_admin"
+                ],
+                "internal_calls": [
+                    "require(bool,string)"
+                ],
+                "external_calls": []
+            }
+        ],
+        "modifiers": [
+            {
+                "name": "onlyAdmin()",
+                "visibility": "internal",
+                "read_vars": [
+                    "_admin",
+                    "msg.sender"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "require(bool,string)"
+                ],
+                "external_calls": []
+            }
+        ]
+    },
+    {
+        "contract": "SuperOperators",
+        "contract_vars": [
+            "_admin",
+            "_superOperators"
+        ],
+        "inheritance": [
+            "Admin"
+        ],
+        "functions": [
+            {
+                "name": "getAdmin()",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "_admin"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "changeAdmin(address)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "_admin",
+                    "msg.sender"
+                ],
+                "write_vars": [
+                    "_admin"
+                ],
+                "internal_calls": [
+                    "require(bool,string)"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "setSuperOperator(address,bool)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "_admin",
+                    "msg.sender"
+                ],
+                "write_vars": [
+                    "_superOperators"
+                ],
+                "internal_calls": [
+                    "require(bool,string)"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "isSuperOperator(address)",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [
+                    "_superOperators"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            }
+        ],
+        "modifiers": [
+            {
+                "name": "onlyAdmin()",
+                "visibility": "internal",
+                "read_vars": [
+                    "_admin",
+                    "msg.sender"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "require(bool,string)"
+                ],
+                "external_calls": []
+            }
+        ]
+    },
+    {
+        "contract": "MetaTransactionReceiver",
+        "contract_vars": [
+            "_admin",
+            "_metaTransactionContracts"
+        ],
+        "inheritance": [
+            "Admin"
+        ],
+        "functions": [
+            {
+                "name": "getAdmin()",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "_admin"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "changeAdmin(address)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "_admin",
+                    "msg.sender"
+                ],
+                "write_vars": [
+                    "_admin"
+                ],
+                "internal_calls": [
+                    "require(bool,string)"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "setMetaTransactionProcessor(address,bool)",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [
+                    "_admin",
+                    "msg.sender"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "_setMetaTransactionProcessor",
+                    "require(bool,string)"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "_setMetaTransactionProcessor(address,bool)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [
+                    "_metaTransactionContracts"
+                ],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "isMetaTransactionProcessor(address)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "_metaTransactionContracts"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            }
+        ],
+        "modifiers": [
+            {
+                "name": "onlyAdmin()",
+                "visibility": "internal",
+                "read_vars": [
+                    "_admin",
+                    "msg.sender"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "require(bool,string)"
+                ],
+                "external_calls": []
+            }
+        ]
+    },
+    {
+        "contract": "ERC721TokenReceiver",
+        "contract_vars": [],
+        "inheritance": [],
+        "functions": [
+            {
+                "name": "onERC721Received(address,address,uint256,bytes)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            }
+        ],
+        "modifiers": []
+    },
+    {
+        "contract": "AddressUtils",
+        "contract_vars": [],
+        "inheritance": [],
+        "functions": [
+            {
+                "name": "toPayable(address)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "isContract(address)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            }
+        ],
+        "modifiers": []
+    },
+    {
+        "contract": "ERC721MandatoryTokenReceiver",
+        "contract_vars": [],
+        "inheritance": [],
+        "functions": [
+            {
+                "name": "onERC721BatchReceived(address,address,uint256[],bytes)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "onERC721Received(address,address,uint256,bytes)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            }
+        ],
+        "modifiers": []
+    },
+    {
+        "contract": "ERC721BaseToken",
+        "contract_vars": [
+            "_admin",
+            "_superOperators",
+            "_metaTransactionContracts",
+            "_ERC721_RECEIVED",
+            "_ERC721_BATCH_RECEIVED",
+            "ERC165ID",
+            "ERC721_MANDATORY_RECEIVER",
+            "_numNFTPerAddress",
+            "_owners",
+            "_operatorsForAll",
+            "_operators"
+        ],
+        "inheritance": [
+            "MetaTransactionReceiver",
+            "SuperOperators",
+            "Admin",
+            "ERC721Events"
+        ],
+        "functions": [
+            {
+                "name": "setMetaTransactionProcessor(address,bool)",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [
+                    "_admin",
+                    "msg.sender"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "_setMetaTransactionProcessor",
+                    "require(bool,string)"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "_setMetaTransactionProcessor(address,bool)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [
+                    "_metaTransactionContracts"
+                ],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "isMetaTransactionProcessor(address)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "_metaTransactionContracts"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "getAdmin()",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "_admin"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "changeAdmin(address)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "_admin",
+                    "msg.sender"
+                ],
+                "write_vars": [
+                    "_admin"
+                ],
+                "internal_calls": [
+                    "require(bool,string)"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "setSuperOperator(address,bool)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "_admin",
+                    "msg.sender"
+                ],
+                "write_vars": [
+                    "_superOperators"
+                ],
+                "internal_calls": [
+                    "require(bool,string)"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "isSuperOperator(address)",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [
+                    "_superOperators"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "constructor(address,address)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [
+                    "_admin"
+                ],
+                "internal_calls": [
+                    "_setMetaTransactionProcessor"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "_transferFrom(address,address,uint256)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "_numNFTPerAddress"
+                ],
+                "write_vars": [
+                    "_numNFTPerAddress",
+                    "_owners"
+                ],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "balanceOf(address)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "_numNFTPerAddress"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "require(bool,string)"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "_ownerOf(uint256)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "_owners"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "_ownerAndOperatorEnabledOf(uint256)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "_owners"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "ownerOf(uint256)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [
+                    "require(bool,string)",
+                    "_ownerOf"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "_approveFor(address,address,uint256)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [
+                    "_operators",
+                    "_owners"
+                ],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "approveFor(address,address,uint256)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "_metaTransactionContracts",
+                    "_operatorsForAll",
+                    "_superOperators",
+                    "msg.sender"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "require(bool,string)",
+                    "_ownerOf",
+                    "_approveFor"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "approve(address,uint256)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "_operatorsForAll",
+                    "_superOperators",
+                    "msg.sender"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "require(bool,string)",
+                    "_ownerOf",
+                    "_approveFor"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "getApproved(uint256)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "_operators"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "require(bool,string)",
+                    "_ownerAndOperatorEnabledOf"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "_checkTransfer(address,address,uint256)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "_metaTransactionContracts",
+                    "_operators",
+                    "_operatorsForAll",
+                    "_superOperators",
+                    "msg.sender"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "require(bool,string)",
+                    "_ownerAndOperatorEnabledOf"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "_checkInterfaceWith10000Gas(address,bytes4)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "ERC165ID"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "assert(bool)",
+                    "abi.encodeWithSelector()",
+                    "gasleft()"
+                ],
+                "external_calls": [
+                    "abi.encodeWithSelector(ERC165ID,interfaceId)"
+                ]
+            },
+            {
+                "name": "transferFrom(address,address,uint256)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "ERC721_MANDATORY_RECEIVER",
+                    "msg.sender"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "_checkInterfaceWith10000Gas",
+                    "require(bool,string)",
+                    "_transferFrom",
+                    "_checkTransfer",
+                    "_checkOnERC721Received"
+                ],
+                "external_calls": [
+                    "to.isContract()"
+                ]
+            },
+            {
+                "name": "safeTransferFrom(address,address,uint256,bytes)",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [
+                    "msg.sender"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "_checkOnERC721Received",
+                    "require(bool,string)",
+                    "_transferFrom",
+                    "_checkTransfer"
+                ],
+                "external_calls": [
+                    "to.isContract()"
+                ]
+            },
+            {
+                "name": "safeTransferFrom(address,address,uint256)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [
+                    "safeTransferFrom"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "batchTransferFrom(address,address,uint256[],bytes)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [
+                    "_batchTransferFrom"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "_batchTransferFrom(address,address,uint256[],bytes,bool)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "ERC721_MANDATORY_RECEIVER",
+                    "_metaTransactionContracts",
+                    "_numNFTPerAddress",
+                    "_operators",
+                    "_operatorsForAll",
+                    "_superOperators",
+                    "msg.sender"
+                ],
+                "write_vars": [
+                    "_numNFTPerAddress",
+                    "_owners"
+                ],
+                "internal_calls": [
+                    "_checkInterfaceWith10000Gas",
+                    "require(bool,string)",
+                    "_checkOnERC721BatchReceived",
+                    "_ownerAndOperatorEnabledOf"
+                ],
+                "external_calls": [
+                    "to.isContract()"
+                ]
+            },
+            {
+                "name": "safeBatchTransferFrom(address,address,uint256[],bytes)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [
+                    "_batchTransferFrom"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "supportsInterface(bytes4)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "setApprovalForAllFor(address,address,bool)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "_metaTransactionContracts",
+                    "_superOperators",
+                    "msg.sender"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "_setApprovalForAll",
+                    "require(bool,string)"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "setApprovalForAll(address,bool)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "msg.sender"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "_setApprovalForAll"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "_setApprovalForAll(address,address,bool)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "_superOperators"
+                ],
+                "write_vars": [
+                    "_operatorsForAll"
+                ],
+                "internal_calls": [
+                    "require(bool,string)"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "isApprovedForAll(address,address)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "_operatorsForAll",
+                    "_superOperators"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "_burn(address,address,uint256)",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [
+                    "_numNFTPerAddress"
+                ],
+                "write_vars": [
+                    "_numNFTPerAddress",
+                    "_owners"
+                ],
+                "internal_calls": [
+                    "require(bool,string)"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "burn(uint256)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "msg.sender"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "_burn",
+                    "_ownerOf"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "burnFrom(address,uint256)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "_metaTransactionContracts",
+                    "_operators",
+                    "_operatorsForAll",
+                    "_superOperators",
+                    "msg.sender"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "require(bool,string)",
+                    "_burn",
+                    "_ownerAndOperatorEnabledOf"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "_checkOnERC721Received(address,address,address,uint256,bytes)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "_ERC721_RECEIVED"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": [
+                    "ERC721TokenReceiver(to).onERC721Received(operator,from,tokenId,_data)"
+                ]
+            },
+            {
+                "name": "_checkOnERC721BatchReceived(address,address,address,uint256[],bytes)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "_ERC721_BATCH_RECEIVED"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": [
+                    "ERC721MandatoryTokenReceiver(to).onERC721BatchReceived(operator,from,ids,_data)"
+                ]
+            },
+            {
+                "name": "slitherConstructorConstantVariables()",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [
+                    "ERC165ID",
+                    "ERC721_MANDATORY_RECEIVER",
+                    "_ERC721_BATCH_RECEIVED",
+                    "_ERC721_RECEIVED"
+                ],
+                "internal_calls": [],
+                "external_calls": []
+            }
+        ],
+        "modifiers": [
+            {
+                "name": "onlyAdmin()",
+                "visibility": "internal",
+                "read_vars": [
+                    "_admin",
+                    "msg.sender"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "require(bool,string)"
+                ],
+                "external_calls": []
+            }
+        ]
+    },
+    {
+        "contract": "LandBaseToken",
+        "contract_vars": [
+            "_admin",
+            "_superOperators",
+            "_metaTransactionContracts",
+            "_ERC721_RECEIVED",
+            "_ERC721_BATCH_RECEIVED",
+            "ERC165ID",
+            "ERC721_MANDATORY_RECEIVER",
+            "_numNFTPerAddress",
+            "_owners",
+            "_operatorsForAll",
+            "_operators",
+            "GRID_SIZE",
+            "LAYER",
+            "LAYER_1x1",
+            "LAYER_3x3",
+            "LAYER_6x6",
+            "LAYER_12x12",
+            "LAYER_24x24",
+            "_minters"
+        ],
+        "inheritance": [
+            "ERC721BaseToken",
+            "MetaTransactionReceiver",
+            "SuperOperators",
+            "Admin",
+            "ERC721Events"
+        ],
+        "functions": [
+            {
+                "name": "constructor(address,address)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [
+                    "_admin"
+                ],
+                "internal_calls": [
+                    "_setMetaTransactionProcessor"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "_transferFrom(address,address,uint256)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "_numNFTPerAddress"
+                ],
+                "write_vars": [
+                    "_numNFTPerAddress",
+                    "_owners"
+                ],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "balanceOf(address)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "_numNFTPerAddress"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "require(bool,string)"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "_ownerOf(uint256)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "_owners"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "_ownerAndOperatorEnabledOf(uint256)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "_owners"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "ownerOf(uint256)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [
+                    "require(bool,string)",
+                    "_ownerOf"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "_approveFor(address,address,uint256)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [
+                    "_operators",
+                    "_owners"
+                ],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "approveFor(address,address,uint256)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "_metaTransactionContracts",
+                    "_operatorsForAll",
+                    "_superOperators",
+                    "msg.sender"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "_approveFor",
+                    "require(bool,string)",
+                    "_ownerOf"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "approve(address,uint256)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "_operatorsForAll",
+                    "_superOperators",
+                    "msg.sender"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "_approveFor",
+                    "require(bool,string)",
+                    "_ownerOf"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "getApproved(uint256)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "_operators"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "require(bool,string)",
+                    "_ownerAndOperatorEnabledOf"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "_checkTransfer(address,address,uint256)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "_metaTransactionContracts",
+                    "_operators",
+                    "_operatorsForAll",
+                    "_superOperators",
+                    "msg.sender"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "require(bool,string)",
+                    "_ownerAndOperatorEnabledOf"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "_checkInterfaceWith10000Gas(address,bytes4)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "ERC165ID"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "assert(bool)",
+                    "abi.encodeWithSelector()",
+                    "gasleft()"
+                ],
+                "external_calls": [
+                    "abi.encodeWithSelector(ERC165ID,interfaceId)"
+                ]
+            },
+            {
+                "name": "transferFrom(address,address,uint256)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "ERC721_MANDATORY_RECEIVER",
+                    "msg.sender"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "_checkTransfer",
+                    "require(bool,string)",
+                    "_checkOnERC721Received",
+                    "_checkInterfaceWith10000Gas",
+                    "_transferFrom"
+                ],
+                "external_calls": [
+                    "to.isContract()"
+                ]
+            },
+            {
+                "name": "safeTransferFrom(address,address,uint256,bytes)",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [
+                    "msg.sender"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "_checkOnERC721Received",
+                    "_transferFrom",
+                    "require(bool,string)",
+                    "_checkTransfer"
+                ],
+                "external_calls": [
+                    "to.isContract()"
+                ]
+            },
+            {
+                "name": "safeTransferFrom(address,address,uint256)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [
+                    "safeTransferFrom"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "batchTransferFrom(address,address,uint256[],bytes)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [
+                    "_batchTransferFrom"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "_batchTransferFrom(address,address,uint256[],bytes,bool)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "ERC721_MANDATORY_RECEIVER",
+                    "_metaTransactionContracts",
+                    "_numNFTPerAddress",
+                    "_operators",
+                    "_operatorsForAll",
+                    "_superOperators",
+                    "msg.sender"
+                ],
+                "write_vars": [
+                    "_numNFTPerAddress",
+                    "_owners"
+                ],
+                "internal_calls": [
+                    "require(bool,string)",
+                    "_checkOnERC721BatchReceived",
+                    "_checkInterfaceWith10000Gas",
+                    "_ownerAndOperatorEnabledOf"
+                ],
+                "external_calls": [
+                    "to.isContract()"
+                ]
+            },
+            {
+                "name": "safeBatchTransferFrom(address,address,uint256[],bytes)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [
+                    "_batchTransferFrom"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "supportsInterface(bytes4)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "setApprovalForAllFor(address,address,bool)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "_metaTransactionContracts",
+                    "_superOperators",
+                    "msg.sender"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "require(bool,string)",
+                    "_setApprovalForAll"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "setApprovalForAll(address,bool)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "msg.sender"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "_setApprovalForAll"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "_setApprovalForAll(address,address,bool)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "_superOperators"
+                ],
+                "write_vars": [
+                    "_operatorsForAll"
+                ],
+                "internal_calls": [
+                    "require(bool,string)"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "isApprovedForAll(address,address)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "_operatorsForAll",
+                    "_superOperators"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "_burn(address,address,uint256)",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [
+                    "_numNFTPerAddress"
+                ],
+                "write_vars": [
+                    "_numNFTPerAddress",
+                    "_owners"
+                ],
+                "internal_calls": [
+                    "require(bool,string)"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "burn(uint256)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "msg.sender"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "_burn",
+                    "_ownerOf"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "burnFrom(address,uint256)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "_metaTransactionContracts",
+                    "_operators",
+                    "_operatorsForAll",
+                    "_superOperators",
+                    "msg.sender"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "require(bool,string)",
+                    "_burn",
+                    "_ownerAndOperatorEnabledOf"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "_checkOnERC721Received(address,address,address,uint256,bytes)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "_ERC721_RECEIVED"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": [
+                    "ERC721TokenReceiver(to).onERC721Received(operator,from,tokenId,_data)"
+                ]
+            },
+            {
+                "name": "_checkOnERC721BatchReceived(address,address,address,uint256[],bytes)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "_ERC721_BATCH_RECEIVED"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": [
+                    "ERC721MandatoryTokenReceiver(to).onERC721BatchReceived(operator,from,ids,_data)"
+                ]
+            },
+            {
+                "name": "setMetaTransactionProcessor(address,bool)",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [
+                    "_admin",
+                    "msg.sender"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "require(bool,string)",
+                    "_setMetaTransactionProcessor"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "_setMetaTransactionProcessor(address,bool)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [
+                    "_metaTransactionContracts"
+                ],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "isMetaTransactionProcessor(address)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "_metaTransactionContracts"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "getAdmin()",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "_admin"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "changeAdmin(address)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "_admin",
+                    "msg.sender"
+                ],
+                "write_vars": [
+                    "_admin"
+                ],
+                "internal_calls": [
+                    "require(bool,string)"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "setSuperOperator(address,bool)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "_admin",
+                    "msg.sender"
+                ],
+                "write_vars": [
+                    "_superOperators"
+                ],
+                "internal_calls": [
+                    "require(bool,string)"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "isSuperOperator(address)",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [
+                    "_superOperators"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "setMinter(address,bool)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "_admin",
+                    "msg.sender"
+                ],
+                "write_vars": [
+                    "_minters"
+                ],
+                "internal_calls": [
+                    "require(bool,string)"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "isMinter(address)",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [
+                    "_minters"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "constructor(address,address)",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [
+                    "constructor"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "width()",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "GRID_SIZE"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "height()",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "GRID_SIZE"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "x(uint256)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "GRID_SIZE"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "require(bool,string)",
+                    "_ownerOf"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "y(uint256)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "GRID_SIZE"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "require(bool,string)",
+                    "_ownerOf"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "mintQuad(address,uint256,uint256,uint256,bytes)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "GRID_SIZE",
+                    "LAYER_12x12",
+                    "LAYER_24x24",
+                    "LAYER_3x3",
+                    "LAYER_6x6",
+                    "_numNFTPerAddress",
+                    "_owners",
+                    "msg.sender"
+                ],
+                "write_vars": [
+                    "_numNFTPerAddress",
+                    "_owners"
+                ],
+                "internal_calls": [
+                    "require(bool,string)",
+                    "_checkBatchReceiverAcceptQuad",
+                    "isMinter",
+                    "_idInPath"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "_idInPath(uint256,uint256,uint256,uint256)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "GRID_SIZE"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "transferQuad(address,address,uint256,uint256,uint256,bytes)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "_metaTransactionContracts",
+                    "_numNFTPerAddress",
+                    "_operatorsForAll",
+                    "_superOperators",
+                    "msg.sender"
+                ],
+                "write_vars": [
+                    "_numNFTPerAddress"
+                ],
+                "internal_calls": [
+                    "require(bool,string)",
+                    "_checkBatchReceiverAcceptQuad",
+                    "_transferQuad"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "_checkBatchReceiverAcceptQuad(address,address,address,uint256,uint256,uint256,bytes)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "ERC721_MANDATORY_RECEIVER"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "require(bool,string)",
+                    "_checkOnERC721BatchReceived",
+                    "_checkInterfaceWith10000Gas",
+                    "_idInPath"
+                ],
+                "external_calls": [
+                    "new uint256[](size * size)",
+                    "to.isContract()"
+                ]
+            },
+            {
+                "name": "batchTransferQuad(address,address,uint256[],uint256[],uint256[],bytes)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "ERC721_MANDATORY_RECEIVER",
+                    "_metaTransactionContracts",
+                    "_numNFTPerAddress",
+                    "_operatorsForAll",
+                    "_superOperators",
+                    "msg.sender"
+                ],
+                "write_vars": [
+                    "_numNFTPerAddress"
+                ],
+                "internal_calls": [
+                    "_idInPath",
+                    "require(bool,string)",
+                    "_checkInterfaceWith10000Gas",
+                    "_transferQuad",
+                    "_checkOnERC721BatchReceived"
+                ],
+                "external_calls": [
+                    "new uint256[](numTokensTransfered)",
+                    "to.isContract()"
+                ]
+            },
+            {
+                "name": "_transferQuad(address,address,uint256,uint256,uint256)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "GRID_SIZE"
+                ],
+                "write_vars": [
+                    "_owners"
+                ],
+                "internal_calls": [
+                    "require(bool,string)",
+                    "_regroup",
+                    "_ownerOf",
+                    "_idInPath"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "_checkAndClear(address,uint256)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "_owners"
+                ],
+                "write_vars": [
+                    "_owners"
+                ],
+                "internal_calls": [
+                    "require(bool,string)"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "_regroup(address,address,uint256,uint256,uint256)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "GRID_SIZE"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "_regroup3x3",
+                    "_regroup12x12",
+                    "require(bool,string)",
+                    "_regroup6x6",
+                    "_regroup24x24"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "_regroup3x3(address,address,uint256,uint256,bool)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "GRID_SIZE",
+                    "LAYER_12x12",
+                    "LAYER_24x24",
+                    "LAYER_3x3",
+                    "LAYER_6x6",
+                    "_owners"
+                ],
+                "write_vars": [
+                    "_owners"
+                ],
+                "internal_calls": [
+                    "_checkAndClear",
+                    "require(bool,string)"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "_regroup6x6(address,address,uint256,uint256,bool)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "GRID_SIZE",
+                    "LAYER_12x12",
+                    "LAYER_24x24",
+                    "LAYER_3x3",
+                    "LAYER_6x6",
+                    "_owners"
+                ],
+                "write_vars": [
+                    "_owners"
+                ],
+                "internal_calls": [
+                    "require(bool,string)",
+                    "_regroup3x3"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "_regroup12x12(address,address,uint256,uint256,bool)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "GRID_SIZE",
+                    "LAYER_12x12",
+                    "LAYER_24x24",
+                    "LAYER_6x6",
+                    "_owners"
+                ],
+                "write_vars": [
+                    "_owners"
+                ],
+                "internal_calls": [
+                    "require(bool,string)",
+                    "_regroup6x6"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "_regroup24x24(address,address,uint256,uint256,bool)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "GRID_SIZE",
+                    "LAYER_12x12",
+                    "LAYER_24x24",
+                    "_owners"
+                ],
+                "write_vars": [
+                    "_owners"
+                ],
+                "internal_calls": [
+                    "_regroup12x12",
+                    "require(bool,string)"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "_ownerOf(uint256)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "GRID_SIZE",
+                    "LAYER",
+                    "LAYER_12x12",
+                    "LAYER_24x24",
+                    "LAYER_3x3",
+                    "LAYER_6x6",
+                    "_owners"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "require(bool,string)"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "_ownerAndOperatorEnabledOf(uint256)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "GRID_SIZE",
+                    "LAYER",
+                    "LAYER_12x12",
+                    "LAYER_24x24",
+                    "LAYER_3x3",
+                    "LAYER_6x6",
+                    "_owners"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "require(bool,string)"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "slitherConstructorConstantVariables()",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [
+                    "ERC165ID",
+                    "ERC721_MANDATORY_RECEIVER",
+                    "GRID_SIZE",
+                    "LAYER",
+                    "LAYER_12x12",
+                    "LAYER_1x1",
+                    "LAYER_24x24",
+                    "LAYER_3x3",
+                    "LAYER_6x6",
+                    "_ERC721_BATCH_RECEIVED",
+                    "_ERC721_RECEIVED"
+                ],
+                "internal_calls": [],
+                "external_calls": []
+            }
+        ],
+        "modifiers": [
+            {
+                "name": "onlyAdmin()",
+                "visibility": "internal",
+                "read_vars": [
+                    "_admin",
+                    "msg.sender"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "require(bool,string)"
+                ],
+                "external_calls": []
+            }
+        ]
+    },
+    {
+        "contract": "Land",
+        "contract_vars": [
+            "_admin",
+            "_superOperators",
+            "_metaTransactionContracts",
+            "_ERC721_RECEIVED",
+            "_ERC721_BATCH_RECEIVED",
+            "ERC165ID",
+            "ERC721_MANDATORY_RECEIVER",
+            "_numNFTPerAddress",
+            "_owners",
+            "_operatorsForAll",
+            "_operators",
+            "GRID_SIZE",
+            "LAYER",
+            "LAYER_1x1",
+            "LAYER_3x3",
+            "LAYER_6x6",
+            "LAYER_12x12",
+            "LAYER_24x24",
+            "_minters"
+        ],
+        "inheritance": [
+            "LandBaseToken",
+            "ERC721BaseToken",
+            "MetaTransactionReceiver",
+            "SuperOperators",
+            "Admin",
+            "ERC721Events"
+        ],
+        "functions": [
+            {
+                "name": "setMinter(address,bool)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "_admin",
+                    "msg.sender"
+                ],
+                "write_vars": [
+                    "_minters"
+                ],
+                "internal_calls": [
+                    "require(bool,string)"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "isMinter(address)",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [
+                    "_minters"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "constructor(address,address)",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [
+                    "constructor"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "width()",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "GRID_SIZE"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "height()",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "GRID_SIZE"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "x(uint256)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "GRID_SIZE"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "_ownerOf",
+                    "require(bool,string)"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "y(uint256)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "GRID_SIZE"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "_ownerOf",
+                    "require(bool,string)"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "mintQuad(address,uint256,uint256,uint256,bytes)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "GRID_SIZE",
+                    "LAYER_12x12",
+                    "LAYER_24x24",
+                    "LAYER_3x3",
+                    "LAYER_6x6",
+                    "_numNFTPerAddress",
+                    "_owners",
+                    "msg.sender"
+                ],
+                "write_vars": [
+                    "_numNFTPerAddress",
+                    "_owners"
+                ],
+                "internal_calls": [
+                    "isMinter",
+                    "require(bool,string)",
+                    "_checkBatchReceiverAcceptQuad",
+                    "_idInPath"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "_idInPath(uint256,uint256,uint256,uint256)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "GRID_SIZE"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "transferQuad(address,address,uint256,uint256,uint256,bytes)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "_metaTransactionContracts",
+                    "_numNFTPerAddress",
+                    "_operatorsForAll",
+                    "_superOperators",
+                    "msg.sender"
+                ],
+                "write_vars": [
+                    "_numNFTPerAddress"
+                ],
+                "internal_calls": [
+                    "_transferQuad",
+                    "require(bool,string)",
+                    "_checkBatchReceiverAcceptQuad"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "_checkBatchReceiverAcceptQuad(address,address,address,uint256,uint256,uint256,bytes)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "ERC721_MANDATORY_RECEIVER"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "require(bool,string)",
+                    "_idInPath",
+                    "_checkOnERC721BatchReceived",
+                    "_checkInterfaceWith10000Gas"
+                ],
+                "external_calls": [
+                    "new uint256[](size * size)",
+                    "to.isContract()"
+                ]
+            },
+            {
+                "name": "batchTransferQuad(address,address,uint256[],uint256[],uint256[],bytes)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "ERC721_MANDATORY_RECEIVER",
+                    "_metaTransactionContracts",
+                    "_numNFTPerAddress",
+                    "_operatorsForAll",
+                    "_superOperators",
+                    "msg.sender"
+                ],
+                "write_vars": [
+                    "_numNFTPerAddress"
+                ],
+                "internal_calls": [
+                    "_checkOnERC721BatchReceived",
+                    "require(bool,string)",
+                    "_transferQuad",
+                    "_idInPath",
+                    "_checkInterfaceWith10000Gas"
+                ],
+                "external_calls": [
+                    "to.isContract()",
+                    "new uint256[](numTokensTransfered)"
+                ]
+            },
+            {
+                "name": "_transferQuad(address,address,uint256,uint256,uint256)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "GRID_SIZE"
+                ],
+                "write_vars": [
+                    "_owners"
+                ],
+                "internal_calls": [
+                    "_ownerOf",
+                    "require(bool,string)",
+                    "_idInPath",
+                    "_regroup"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "_checkAndClear(address,uint256)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "_owners"
+                ],
+                "write_vars": [
+                    "_owners"
+                ],
+                "internal_calls": [
+                    "require(bool,string)"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "_regroup(address,address,uint256,uint256,uint256)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "GRID_SIZE"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "_regroup24x24",
+                    "require(bool,string)",
+                    "_regroup12x12",
+                    "_regroup6x6",
+                    "_regroup3x3"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "_regroup3x3(address,address,uint256,uint256,bool)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "GRID_SIZE",
+                    "LAYER_12x12",
+                    "LAYER_24x24",
+                    "LAYER_3x3",
+                    "LAYER_6x6",
+                    "_owners"
+                ],
+                "write_vars": [
+                    "_owners"
+                ],
+                "internal_calls": [
+                    "require(bool,string)",
+                    "_checkAndClear"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "_regroup6x6(address,address,uint256,uint256,bool)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "GRID_SIZE",
+                    "LAYER_12x12",
+                    "LAYER_24x24",
+                    "LAYER_3x3",
+                    "LAYER_6x6",
+                    "_owners"
+                ],
+                "write_vars": [
+                    "_owners"
+                ],
+                "internal_calls": [
+                    "require(bool,string)",
+                    "_regroup3x3"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "_regroup12x12(address,address,uint256,uint256,bool)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "GRID_SIZE",
+                    "LAYER_12x12",
+                    "LAYER_24x24",
+                    "LAYER_6x6",
+                    "_owners"
+                ],
+                "write_vars": [
+                    "_owners"
+                ],
+                "internal_calls": [
+                    "_regroup6x6",
+                    "require(bool,string)"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "_regroup24x24(address,address,uint256,uint256,bool)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "GRID_SIZE",
+                    "LAYER_12x12",
+                    "LAYER_24x24",
+                    "_owners"
+                ],
+                "write_vars": [
+                    "_owners"
+                ],
+                "internal_calls": [
+                    "require(bool,string)",
+                    "_regroup12x12"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "_ownerOf(uint256)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "GRID_SIZE",
+                    "LAYER",
+                    "LAYER_12x12",
+                    "LAYER_24x24",
+                    "LAYER_3x3",
+                    "LAYER_6x6",
+                    "_owners"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "require(bool,string)"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "_ownerAndOperatorEnabledOf(uint256)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "GRID_SIZE",
+                    "LAYER",
+                    "LAYER_12x12",
+                    "LAYER_24x24",
+                    "LAYER_3x3",
+                    "LAYER_6x6",
+                    "_owners"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "require(bool,string)"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "constructor(address,address)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [
+                    "_admin"
+                ],
+                "internal_calls": [
+                    "_setMetaTransactionProcessor"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "_transferFrom(address,address,uint256)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "_numNFTPerAddress"
+                ],
+                "write_vars": [
+                    "_numNFTPerAddress",
+                    "_owners"
+                ],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "balanceOf(address)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "_numNFTPerAddress"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "require(bool,string)"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "_ownerOf(uint256)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "_owners"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "_ownerAndOperatorEnabledOf(uint256)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "_owners"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "ownerOf(uint256)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [
+                    "_ownerOf",
+                    "require(bool,string)"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "_approveFor(address,address,uint256)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [
+                    "_operators",
+                    "_owners"
+                ],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "approveFor(address,address,uint256)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "_metaTransactionContracts",
+                    "_operatorsForAll",
+                    "_superOperators",
+                    "msg.sender"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "_ownerOf",
+                    "require(bool,string)",
+                    "_approveFor"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "approve(address,uint256)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "_operatorsForAll",
+                    "_superOperators",
+                    "msg.sender"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "_ownerOf",
+                    "require(bool,string)",
+                    "_approveFor"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "getApproved(uint256)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "_operators"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "require(bool,string)",
+                    "_ownerAndOperatorEnabledOf"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "_checkTransfer(address,address,uint256)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "_metaTransactionContracts",
+                    "_operators",
+                    "_operatorsForAll",
+                    "_superOperators",
+                    "msg.sender"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "require(bool,string)",
+                    "_ownerAndOperatorEnabledOf"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "_checkInterfaceWith10000Gas(address,bytes4)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "ERC165ID"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "assert(bool)",
+                    "abi.encodeWithSelector()",
+                    "gasleft()"
+                ],
+                "external_calls": [
+                    "abi.encodeWithSelector(ERC165ID,interfaceId)"
+                ]
+            },
+            {
+                "name": "transferFrom(address,address,uint256)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "ERC721_MANDATORY_RECEIVER",
+                    "msg.sender"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "require(bool,string)",
+                    "_checkTransfer",
+                    "_checkOnERC721Received",
+                    "_checkInterfaceWith10000Gas",
+                    "_transferFrom"
+                ],
+                "external_calls": [
+                    "to.isContract()"
+                ]
+            },
+            {
+                "name": "safeTransferFrom(address,address,uint256,bytes)",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [
+                    "msg.sender"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "_transferFrom",
+                    "require(bool,string)",
+                    "_checkOnERC721Received",
+                    "_checkTransfer"
+                ],
+                "external_calls": [
+                    "to.isContract()"
+                ]
+            },
+            {
+                "name": "safeTransferFrom(address,address,uint256)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [
+                    "safeTransferFrom"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "batchTransferFrom(address,address,uint256[],bytes)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [
+                    "_batchTransferFrom"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "_batchTransferFrom(address,address,uint256[],bytes,bool)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "ERC721_MANDATORY_RECEIVER",
+                    "_metaTransactionContracts",
+                    "_numNFTPerAddress",
+                    "_operators",
+                    "_operatorsForAll",
+                    "_superOperators",
+                    "msg.sender"
+                ],
+                "write_vars": [
+                    "_numNFTPerAddress",
+                    "_owners"
+                ],
+                "internal_calls": [
+                    "require(bool,string)",
+                    "_checkInterfaceWith10000Gas",
+                    "_checkOnERC721BatchReceived",
+                    "_ownerAndOperatorEnabledOf"
+                ],
+                "external_calls": [
+                    "to.isContract()"
+                ]
+            },
+            {
+                "name": "safeBatchTransferFrom(address,address,uint256[],bytes)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [
+                    "_batchTransferFrom"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "supportsInterface(bytes4)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "setApprovalForAllFor(address,address,bool)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "_metaTransactionContracts",
+                    "_superOperators",
+                    "msg.sender"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "_setApprovalForAll",
+                    "require(bool,string)"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "setApprovalForAll(address,bool)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "msg.sender"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "_setApprovalForAll"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "_setApprovalForAll(address,address,bool)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "_superOperators"
+                ],
+                "write_vars": [
+                    "_operatorsForAll"
+                ],
+                "internal_calls": [
+                    "require(bool,string)"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "isApprovedForAll(address,address)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "_operatorsForAll",
+                    "_superOperators"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "_burn(address,address,uint256)",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [
+                    "_numNFTPerAddress"
+                ],
+                "write_vars": [
+                    "_numNFTPerAddress",
+                    "_owners"
+                ],
+                "internal_calls": [
+                    "require(bool,string)"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "burn(uint256)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "msg.sender"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "_ownerOf",
+                    "_burn"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "burnFrom(address,uint256)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "_metaTransactionContracts",
+                    "_operators",
+                    "_operatorsForAll",
+                    "_superOperators",
+                    "msg.sender"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "require(bool,string)",
+                    "_burn",
+                    "_ownerAndOperatorEnabledOf"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "_checkOnERC721Received(address,address,address,uint256,bytes)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "_ERC721_RECEIVED"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": [
+                    "ERC721TokenReceiver(to).onERC721Received(operator,from,tokenId,_data)"
+                ]
+            },
+            {
+                "name": "_checkOnERC721BatchReceived(address,address,address,uint256[],bytes)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "_ERC721_BATCH_RECEIVED"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": [
+                    "ERC721MandatoryTokenReceiver(to).onERC721BatchReceived(operator,from,ids,_data)"
+                ]
+            },
+            {
+                "name": "setMetaTransactionProcessor(address,bool)",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [
+                    "_admin",
+                    "msg.sender"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "require(bool,string)",
+                    "_setMetaTransactionProcessor"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "_setMetaTransactionProcessor(address,bool)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [
+                    "_metaTransactionContracts"
+                ],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "isMetaTransactionProcessor(address)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "_metaTransactionContracts"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "getAdmin()",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "_admin"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "changeAdmin(address)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "_admin",
+                    "msg.sender"
+                ],
+                "write_vars": [
+                    "_admin"
+                ],
+                "internal_calls": [
+                    "require(bool,string)"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "setSuperOperator(address,bool)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [
+                    "_admin",
+                    "msg.sender"
+                ],
+                "write_vars": [
+                    "_superOperators"
+                ],
+                "internal_calls": [
+                    "require(bool,string)"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "isSuperOperator(address)",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [
+                    "_superOperators"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "constructor(address,address)",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [
+                    "constructor"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "name()",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "symbol()",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "uint2str(uint256)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": [
+                    "new bytes(len)"
+                ]
+            },
+            {
+                "name": "tokenURI(uint256)",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [
+                    "_ownerOf",
+                    "require(bool,string)",
+                    "abi.encodePacked()",
+                    "uint2str"
+                ],
+                "external_calls": [
+                    "abi.encodePacked(https://api.sandbox.game/lands/,uint2str(id),/metadata.json)"
+                ]
+            },
+            {
+                "name": "supportsInterface(bytes4)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "slitherConstructorConstantVariables()",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [
+                    "ERC165ID",
+                    "ERC721_MANDATORY_RECEIVER",
+                    "GRID_SIZE",
+                    "LAYER",
+                    "LAYER_12x12",
+                    "LAYER_1x1",
+                    "LAYER_24x24",
+                    "LAYER_3x3",
+                    "LAYER_6x6",
+                    "_ERC721_BATCH_RECEIVED",
+                    "_ERC721_RECEIVED"
+                ],
+                "internal_calls": [],
+                "external_calls": []
+            }
+        ],
+        "modifiers": [
+            {
+                "name": "onlyAdmin()",
+                "visibility": "internal",
+                "read_vars": [
+                    "_admin",
+                    "msg.sender"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "require(bool,string)"
+                ],
+                "external_calls": []
+            }
+        ]
+    }
+]

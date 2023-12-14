@@ -1,0 +1,2 @@
+_burn
+The function is public and does not verify that the caller has the authority to burn the token, allowing anyone to burn tokens by providing matching from and owner parameters.

@@ -1,0 +1,50 @@
+{
+    "docker": {
+        "command": null,
+        "detach": true,
+        "entrypoint": "'/sb/bin/do_solidity.sh' '/sb/ProtocolFeeVault.sol' '600' '/sb/bin' '0'",
+        "image": "smartbugs/mythril:0.23.15",
+        "user": 0,
+        "volumes": {
+            "/tmp/tmphwkdpu17": {
+                "bind": "/sb",
+                "mode": "rw"
+            }
+        }
+    },
+    "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x4b89f8996892d137c3de1312d1dd4e4f4ffca171/ProtocolFeeVault.sol",
+    "platform": {
+        "cpu": "AMD EPYC 7513 32-Core Processor",
+        "python": "3.9.12.final.0 (64 bit)",
+        "release": "5.4.0-163-generic",
+        "smartbugs": "2.0.8",
+        "system": "Linux",
+        "version": "#180-Ubuntu SMP Tue Sep 5 13:21:23 UTC 2023"
+    },
+    "result": {
+        "duration": 519.4449362754822,
+        "exit_code": 0,
+        "logs": "result.log",
+        "output": null,
+        "start": 1701744210.256349
+    },
+    "runid": "20231205_0243",
+    "solc": "0.5.17",
+    "tool": {
+        "bin": "scripts",
+        "command": null,
+        "cpu_quota": null,
+        "entrypoint": "'$BIN/do_solidity.sh' '$FILENAME' '$TIMEOUT' '$BIN' '$MAIN'",
+        "id": "mythril-0.23.15",
+        "image": "smartbugs/mythril:0.23.15",
+        "info": "Mythril analyses EVM bytecode using symbolic analysis, taint analysis and control flow checking to detect a variety of security vulnerabilities.",
+        "mem_limit": null,
+        "mode": "solidity",
+        "name": "Mythril",
+        "origin": "https://github.com/ConsenSys/mythril",
+        "output": null,
+        "parser": "parser.py",
+        "solc": true,
+        "version": "0.23.15"
+    }
+}

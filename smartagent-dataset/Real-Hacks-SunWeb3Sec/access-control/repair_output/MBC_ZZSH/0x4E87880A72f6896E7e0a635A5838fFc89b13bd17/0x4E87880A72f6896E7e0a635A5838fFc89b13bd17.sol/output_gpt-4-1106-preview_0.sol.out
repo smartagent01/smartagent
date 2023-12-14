@@ -1,0 +1,5 @@
+swapAndLiquify
+The function can be called by anyone and should be monitored to prevent potential abuse.
+
+swapTokensForOther
+The function is public and can be called by anyone, which could be exploited.

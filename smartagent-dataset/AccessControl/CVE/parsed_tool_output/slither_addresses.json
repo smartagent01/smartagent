@@ -1,0 +1,6 @@
+{
+  "0x403E518F21F5Ce308085Dcf6637758C61f92446A": {
+    "location": "addMeByRC",
+    "message": "TokenSale.addMeByRC() (RC.sol#447-453) uses tx.origin for authorization: require(bool)(tx.origin == owner) (RC.sol#448)\n"
+  }
+}

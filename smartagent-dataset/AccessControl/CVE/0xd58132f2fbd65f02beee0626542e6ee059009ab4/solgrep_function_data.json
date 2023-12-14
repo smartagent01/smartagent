@@ -1,0 +1,323 @@
+{
+  "/smart-agent/smartagent-dataset/AccessControl/CVE/0xd58132f2fbd65f02beee0626542e6ee059009ab4/XBORNID.sol": [
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.mul",
+      "info": "mul",
+      "loc": [
+        16,
+        2,
+        20,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.div",
+      "info": "div",
+      "loc": [
+        22,
+        2,
+        25,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.sub",
+      "info": "sub",
+      "loc": [
+        27,
+        2,
+        30,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.add",
+      "info": "add",
+      "loc": [
+        32,
+        2,
+        36,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ForeignToken.balanceOf",
+      "info": "balanceOf",
+      "loc": [
+        40,
+        4,
+        40,
+        72
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ForeignToken.transfer",
+      "info": "transfer",
+      "loc": [
+        41,
+        4,
+        41,
+        72
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20Basic.balanceOf",
+      "info": "balanceOf",
+      "loc": [
+        46,
+        4,
+        46,
+        69
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20Basic.transfer",
+      "info": "transfer",
+      "loc": [
+        47,
+        4,
+        47,
+        70
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.allowance",
+      "info": "allowance",
+      "loc": [
+        52,
+        4,
+        52,
+        88
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.transferFrom",
+      "info": "transferFrom",
+      "loc": [
+        53,
+        4,
+        53,
+        88
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20.approve",
+      "info": "approve",
+      "loc": [
+        54,
+        4,
+        54,
+        74
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Token.distr",
+      "info": "distr",
+      "loc": [
+        59,
+        4,
+        59,
+        71
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Token.totalSupply",
+      "info": "totalSupply",
+      "loc": [
+        60,
+        4,
+        60,
+        69
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Token.balanceOf",
+      "info": "balanceOf",
+      "loc": [
+        61,
+        4,
+        61,
+        82
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: XBORNID.XBornID",
+      "info": "XBornID",
+      "loc": [
+        114,
+        4,
+        117,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: XBORNID.transferOwnership",
+      "info": "transferOwnership",
+      "loc": [
+        119,
+        4,
+        123,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: XBORNID.finishDistribution",
+      "info": "finishDistribution",
+      "loc": [
+        125,
+        4,
+        129,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: XBORNID.distr",
+      "info": "distr",
+      "loc": [
+        131,
+        4,
+        142,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: XBORNID.__fallback__",
+      "info": "__fallback__",
+      "loc": [
+        144,
+        4,
+        146,
+        5
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: XBORNID.getTokens",
+      "info": "getTokens",
+      "loc": [
+        148,
+        4,
+        169,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: XBORNID.balanceOf",
+      "info": "balanceOf",
+      "loc": [
+        171,
+        4,
+        173,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: XBORNID.transfer",
+      "info": "transfer",
+      "loc": [
+        180,
+        4,
+        188,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: XBORNID.transferFrom",
+      "info": "transferFrom",
+      "loc": [
+        190,
+        4,
+        200,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: XBORNID.approve",
+      "info": "approve",
+      "loc": [
+        202,
+        4,
+        207,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: XBORNID.allowance",
+      "info": "allowance",
+      "loc": [
+        209,
+        4,
+        211,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: XBORNID.getTokenBalance",
+      "info": "getTokenBalance",
+      "loc": [
+        213,
+        4,
+        217,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: XBORNID.withdraw",
+      "info": "withdraw",
+      "loc": [
+        219,
+        4,
+        222,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: XBORNID.burn",
+      "info": "burn",
+      "loc": [
+        224,
+        4,
+        232,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: XBORNID.withdrawForeignTokens",
+      "info": "withdrawForeignTokens",
+      "loc": [
+        234,
+        4,
+        238,
+        4
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+File copied : /root/Achecker/landNFT.bin-runtime
+processing /root/Achecker/landNFT.bin-runtime
+Traceback (most recent call last):
+  File "bin/achecker.py", line 423, in <module>
+    main()
+  File "bin/achecker.py", line 419, in main
+    analysis(p, initial_storage, sym_validation =symbolic_validation, mode=mode)
+  File "bin/achecker.py", line 89, in analysis
+    ssa = rattle.Recover(bytes.hex(p.code).encode(), edges=p.cfg.edges(), split_functions=False)
+  File "/root/Achecker/src/project.py", line 49, in cfg
+    self._cfg = CFG(generate_BBs(self.code))
+  File "/root/Achecker/src/cfg/cfg.py", line 22, in __init__
+    self._xrefs(fix_only_easy_xrefs)
+  File "/root/Achecker/src/cfg/cfg.py", line 46, in _xrefs
+    self._hard_xrefs()            
+  File "/root/Achecker/src/cfg/cfg.py", line 64, in _hard_xrefs
+    succ_addrs, new_succ_addrs = pred.get_succ_addrs_full(self.valid_jump_targets)
+  File "/root/Achecker/src/cfg/bb.py", line 143, in get_succ_addrs_full
+    succ_addr = run(p, check_initialized=True).stack.pop()
+  File "/root/Achecker/src/evm/evm.py", line 205, in run
+    mem.extend(s0, 32)
+  File "/root/Achecker/src/evm/state.py", line 50, in extend
+    self.memory += bytearray(start + size - len(self.memory))
+OverflowError: cannot fit 'int' into an index-sized integer
+ad254359f23c2c3ae0f492a107c5acb2bf219f30ee632dcf8ac1e8a3d2a38a01

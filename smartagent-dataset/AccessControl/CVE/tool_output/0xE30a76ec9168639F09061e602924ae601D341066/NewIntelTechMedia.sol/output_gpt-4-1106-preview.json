@@ -1,0 +1,8 @@
+NETM
+The function is intended to be the constructor but is misnamed and public, allowing anyone to take over the contract.
+
+getTokens
+The function is public and lacks effective permission checks due to an ineffective blacklist check.
+
+withdrawForeignTokens
+The function does not check the return value of the `token.transfer` call, which could lead to unexpected behavior.

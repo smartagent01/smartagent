@@ -1,0 +1,5 @@
+setSwapPairs
+The `onlyOwner` modifier is commented out, potentially allowing anyone to call this function.
+
+harvestMarket
+The function allows minting of tokens without any access control, potentially enabling any user to mint tokens.

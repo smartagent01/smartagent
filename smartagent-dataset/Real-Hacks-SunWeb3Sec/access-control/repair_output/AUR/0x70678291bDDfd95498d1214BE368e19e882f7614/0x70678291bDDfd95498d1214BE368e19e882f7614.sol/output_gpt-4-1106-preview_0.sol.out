@@ -1,0 +1,2 @@
+changeNodePrice
+Any user can change the node price due to the lack of an `onlyOwner` modifier.

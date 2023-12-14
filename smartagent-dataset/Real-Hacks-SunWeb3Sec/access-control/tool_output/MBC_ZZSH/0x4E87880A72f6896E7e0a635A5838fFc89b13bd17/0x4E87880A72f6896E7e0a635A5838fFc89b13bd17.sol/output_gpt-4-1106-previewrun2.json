@@ -1,0 +1,23 @@
+rescueToken
+The function allows `_tokenOwner` to transfer any ERC20 token from the contract, which could be a risk if `_tokenOwner` is not the contract owner or is compromised.
+
+swapAndLiquify
+The function is public and should be internal or have access control to prevent unauthorized access.
+
+swapTokensForOther
+The function is public and should be internal or have access control to prevent unauthorized access.
+
+swapAndLiquifyStepv1
+The function is public and should be internal or have access control to prevent unauthorized access.
+
+addLiquidityUsdt
+The function is public and should be internal or have access control to prevent unauthorized access.
+
+transferFromm
+The function is a duplicate of `transferFrom` but lacks proper access control, potentially allowing unauthorized token transfers.
+
+_transferrToken
+The function is a duplicate of `_transferToken` but lacks proper access control, potentially allowing unauthorized token transfers.
+
+changeSwapWarp
+The function allows the owner to change the `warp` contract address without validating that the new address is a valid contract, which could lead to loss of funds.

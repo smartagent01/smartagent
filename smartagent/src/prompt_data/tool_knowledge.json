@@ -1,0 +1,31 @@
+{
+    "slither" :
+    ["slither is a static analysis tool",
+    "has high false positive rate",
+    "mostly related to conditional statements where it cannot determine the value of the variable at runtime",
+    "it does not understand the intended logic of function",
+    "it may fail to detect the modifier logic"
+    ],
+    "mythril":
+    ["mythril is a symbolic execution tool",
+    "it does not understand the intended logic of the function",
+    "it may fail to see if a condition is unreachable or a bug is not exploitable"],
+    "achecker":
+    ["achecker is a static analysis tool",
+    "it may not understand the intended logic of the function",
+    "it has low false postive rate"
+    ],
+    "spcon":
+    ["spcon is a role-mining tool",
+    "it finds roles from onchain transactions",
+    "it can only detect the role-based access control issues",
+    "it may not understand the intended logic of the function",
+    "it has low false postive rate"
+    ],
+    "llm":
+    ["llm is a large language model based bug detector",
+    "it can understand the logic of the function better than rule-based tools",
+    "it can detect the logic bugs that are not related to the role-based access control",
+    "it may have hallucination issues"
+    ]
+}

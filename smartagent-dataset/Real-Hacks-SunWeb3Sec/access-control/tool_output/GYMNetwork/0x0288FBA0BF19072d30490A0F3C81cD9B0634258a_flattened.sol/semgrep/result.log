@@ -1,0 +1,351 @@
+METRICS: Using configs from the Registry (like --config=p/ci) reports pseudonymous rule metrics to semgrep.dev.
+To disable Registry rule metrics, use "--metrics=off".
+Using configs only from local files (like --config=xyz.yml) does not enable metrics.
+
+More information: https://semgrep.dev/docs/metrics
+
+               
+               
+┌─────────────┐
+│ Scan Status │
+└─────────────┘
+  Scanning 1 file tracked by git with 48 Code rules:
+  Scanning 1 file with 48 solidity rules.
+                    
+                    
+┌──────────────────┐
+│ 94 Code Findings │
+└──────────────────┘
+                                                                 
+    /sb/0x0288FBA0BF19072d30490A0F3C81cD9B0634258a_flattened.sol 
+       solidity.best-practice.use-abi-encodecall-instead-of-encodewithselector  
+          To guarantee arguments type safety it is recommended to use           
+  `abi.encodeCall` instead of                                                   
+          `abi.encodeWithSelector`.                                             
+                                                                                
+          308┆ _callOptionalReturn(token,                                       
+  abi.encodeWithSelector(token.transfer.selector, to, value));                  
+            ⋮┆----------------------------------------
+          317┆ _callOptionalReturn(token,                                       
+  abi.encodeWithSelector(token.transferFrom.selector, from, to, value));        
+            ⋮┆----------------------------------------
+          339┆ _callOptionalReturn(token,                                       
+  abi.encodeWithSelector(token.approve.selector, spender, value));              
+            ⋮┆----------------------------------------
+          348┆ _callOptionalReturn(token,                                       
+  abi.encodeWithSelector(token.approve.selector, spender, newAllowance));       
+            ⋮┆----------------------------------------
+          360┆ _callOptionalReturn(token,                                       
+  abi.encodeWithSelector(token.approve.selector, spender, newAllowance));       
+            ⋮┆----------------------------------------
+       solidity.best-practice.use-ownable2step                                  
+          By demanding that the receiver of the owner permissions actively      
+  accept via a contract call                                                    
+          of its own,  `Ownable2Step` and `Ownable2StepUpgradeable` prevent the 
+  contract ownership                                                            
+          from accidentally being transferred  to an address that cannot handle 
+  it.                                                                           
+                                                                                
+         1574┆ contract GymSinglePool is ReentrancyGuardUpgradeable,            
+  OwnableUpgradeable {                                                          
+            ⋮┆----------------------------------------
+       solidity.performance.array-length-outside-loop                           
+          Caching the array length outside a loop saves reading it on each      
+  iteration, as long as the                                                     
+          array's length is not changed during the loop.                        
+                                                                                
+         1849┆ for (uint32 i = 0; i<levels.length ; i++) {
+            ⋮┆----------------------------------------
+         1916┆ for (uint i = 0; i<levels.length ; i++) {
+            ⋮┆----------------------------------------
+         2031┆ for (uint i = 0; i<levels.length ; i++) {
+            ⋮┆----------------------------------------
+         2247┆ for (uint i = 0; i<levels.length ; i++) {
+            ⋮┆----------------------------------------
+       solidity.performance.inefficient-state-variable-increment             
+          <x> += <y> costs more gas than <x> = <x> + <y> for state variables.
+                                                                             
+         1878┆ totalBurntInSinglePool += burnTokensAmount;
+            ⋮┆----------------------------------------
+         1890┆ totalGymnetLocked += amountToDeposit;
+            ⋮┆----------------------------------------
+         1892┆ totalGymnetUnlocked += amountToDeposit;
+            ⋮┆----------------------------------------
+         1954┆ totalGymnetLocked += amountToDeposit;
+            ⋮┆----------------------------------------
+         1956┆ totalGymnetUnlocked += amountToDeposit;
+            ⋮┆----------------------------------------
+         2083┆ poolRewardsAmount += calculateDistrubutionReward;
+            ⋮┆----------------------------------------
+         2089┆ totalClaimtInPool += pending;
+            ⋮┆----------------------------------------
+         2209┆ poolRewardsAmount += calculateDistrubutionReward;
+            ⋮┆----------------------------------------
+         2215┆ totalClaimtInPool += pending;
+            ⋮┆----------------------------------------
+         2274┆ totalGymnetUnlocked += depositDetails.depositTokens;
+            ⋮┆----------------------------------------
+       solidity.performance.state-variable-read-in-a-loop                       
+          Replace state variable reads and writes within loops with local       
+  variable reads and writes.                                                    
+                                                                                
+         1849┆ for (uint32 i = 0; i<levels.length ; i++) {
+            ⋮┆----------------------------------------
+         1850┆ if(_totalDepositDollarValue >= levels[i]) {
+            ⋮┆----------------------------------------
+         1916┆ for (uint i = 0; i<levels.length ; i++) {
+            ⋮┆----------------------------------------
+         1917┆ if(user.totalDepositDollarValue >= levels[i]) {
+            ⋮┆----------------------------------------
+         2031┆ for (uint i = 0; i<levels.length ; i++) {
+            ⋮┆----------------------------------------
+         2032┆ if(user.totalDepositDollarValue >= levels[i]) {
+            ⋮┆----------------------------------------
+         2201┆ UserDeposits storage depositDetails =                            
+  user_deposits[msg.sender][i];                                                 
+            ⋮┆----------------------------------------
+         2205┆ uint256 distributeRewardTokenAmt = (pending *                    
+  RELATIONSHIP_REWARD) / 100;                                                   
+            ⋮┆----------------------------------------
+         2209┆ poolRewardsAmount += calculateDistrubutionReward;
+            ⋮┆----------------------------------------
+         2215┆ totalClaimtInPool += pending;
+            ⋮┆----------------------------------------
+         2247┆ for (uint i = 0; i<levels.length ; i++) {
+            ⋮┆----------------------------------------
+         2248┆ if(user.totalDepositDollarValue >= levels[i]) {
+            ⋮┆----------------------------------------
+         2257┆ UserDeposits storage depositDetails = user_deposits[_user][i];
+            ⋮┆----------------------------------------
+       solidity.performance.unnecessary-checked-arithmetic-in-loop              
+          A lot of times there is no risk that the loop counter can overflow.   
+  Using Solidity's                                                              
+          unchecked block saves the overflow checks.                            
+                                                                                
+         1849┆ for (uint32 i = 0; i<levels.length ; i++) {
+            ⋮┆----------------------------------------
+         1916┆ for (uint i = 0; i<levels.length ; i++) {
+            ⋮┆----------------------------------------
+         2031┆ for (uint i = 0; i<levels.length ; i++) {
+            ⋮┆----------------------------------------
+         2200┆ for (uint256 i = 0; i<user.depositId ; i++) {
+            ⋮┆----------------------------------------
+         2247┆ for (uint i = 0; i<levels.length ; i++) {
+            ⋮┆----------------------------------------
+         2256┆ for (uint256 i = 0; i<user.depositId ; i++) {
+            ⋮┆----------------------------------------
+       solidity.performance.use-custom-error-not-require                        
+          Consider using custom errors as they are more gas efficient while     
+  allowing developers  to                                                       
+          describe the error in detail using NatSpec.                           
+                                                                                
+          155┆ require(address(this).balance >= amount, "Address: insufficient  
+  balance");                                                                    
+            ⋮┆----------------------------------------
+          158┆ require(success, "Address: unable to send value, recipient may   
+  have reverted");                                                              
+            ⋮┆----------------------------------------
+          228┆ require(address(this).balance >= value, "Address: insufficient   
+  balance for call");                                                           
+            ⋮┆----------------------------------------
+          229┆ require(isContract(target), "Address: call to non-contract");
+            ⋮┆----------------------------------------
+          256┆ require(isContract(target), "Address: static call to             
+  non-contract");                                                               
+            ⋮┆----------------------------------------
+          335┆ require(
+          336┆     (value == 0) || (token.allowance(address(this), spender) ==  
+  0),                                                                           
+          337┆     "SafeERC20: approve from non-zero to non-zero allowance"
+          338┆ );
+            ⋮┆----------------------------------------
+          358┆ require(oldAllowance >= value, "SafeERC20: decreased allowance   
+  below zero");                                                                 
+            ⋮┆----------------------------------------
+          378┆ require(abi.decode(returndata, (bool)), "SafeERC20: ERC20        
+  operation did not succeed");                                                  
+            ⋮┆----------------------------------------
+          750┆ require(_initializing, "Initializable: contract is not           
+  initializing");                                                               
+            ⋮┆----------------------------------------
+          769┆ require(
+          770┆     version == 1 &&                                              
+  !AddressUpgradeable.isContract(address(this)),                                
+          771┆     "Initializable: contract is already initialized"
+          772┆ );
+            ⋮┆----------------------------------------
+          775┆ require(_initialized < version, "Initializable: contract is      
+  already initialized");                                                        
+            ⋮┆----------------------------------------
+          854┆ require(owner() == _msgSender(), "Ownable: caller is not the     
+  owner");                                                                      
+            ⋮┆----------------------------------------
+          874┆ require(newOwner != address(0), "Ownable: new owner is the zero  
+  address");                                                                    
+            ⋮┆----------------------------------------
+          952┆ require(_status != _ENTERED, "ReentrancyGuard: reentrant call");
+            ⋮┆----------------------------------------
+         1693┆ require(msg.sender == runnerScriptAddress || msg.sender ==       
+  owner(), "Only Runner Script");                                               
+            ⋮┆----------------------------------------
+         1697┆ require(msg.sender == vaultContractAddress, "GymFarming:: Only   
+  bank");                                                                       
+            ⋮┆----------------------------------------
+         1714┆ require(block.number < _startBlock, "SinglePool: Start block must
+  have a bigger value");                                                        
+            ⋮┆----------------------------------------
+         1824┆ require(isPoolActive,'Contract is not running yet');
+            ⋮┆----------------------------------------
+         1838┆ require(isPoolActive,'Contract is not running yet');
+            ⋮┆----------------------------------------
+         1998┆ require(_depositId >= 0, "Value is not specified");
+            ⋮┆----------------------------------------
+         2015┆ require(block.timestamp >                                        
+  depositDetails.withdrawalTimestamp,"Locking Period isn't over yet.");         
+            ⋮┆----------------------------------------
+         2017┆ require(!depositDetails.is_finished,"You already withdrawn your  
+  deposit.");                                                                   
+            ⋮┆----------------------------------------
+         2050┆ require(_depositId >= 0, "Value is not specified");
+            ⋮┆----------------------------------------
+         2072┆ require(pending > 0 ,"No rewards to claim.");
+            ⋮┆----------------------------------------
+         2106┆ require(address(holderRewardContractAddress) !=                  
+  address(0x0),"Holder Reward Address::SET_ZERO_ADDRESS");                      
+            ⋮┆----------------------------------------
+         2127┆ require(IERC20Upgradeable(_rewardToken).transfer(_to, _bal),     
+  "GymSinglePool:: Transfer failed");                                           
+            ⋮┆----------------------------------------
+         2129┆ require(IERC20Upgradeable(_rewardToken).transfer(_to, _amount),  
+  "GymSinglePool:: Transfer failed");                                           
+            ⋮┆----------------------------------------
+         2241┆ require(isPoolActive,'Contract is not running yet');
+            ⋮┆----------------------------------------
+         2268┆ require(depositDetails.depositTimestamp <=                       
+  unlockedTimestampQualification,'Function is only for Users that deposited     
+  before Unlocked Staking Upgrade');                                            
+            ⋮┆----------------------------------------
+       solidity.performance.use-multiple-require                                
+          Using multiple require statements is cheaper than using && multiple   
+  check combinations.                                                           
+          There are more advantages, such as easier to read code and better     
+  coverage reports.                                                             
+                                                                                
+          769┆ require(
+          770┆     version == 1 &&                                              
+  !AddressUpgradeable.isContract(address(this)),                                
+          771┆     "Initializable: contract is already initialized"
+          772┆ );
+            ⋮┆----------------------------------------
+       solidity.performance.use-nested-if                                       
+          Using nested is cheaper than using && multiple check combinations.    
+  There are more                                                                
+          advantages, such as easier to read code and better coverage reports.  
+                                                                                
+         1229┆ if (year >= 1970 && month > 0 && month <= 12) {
+         1230┆     uint256 daysInMonth = _getDaysInMonth(year, month);
+         1231┆     if (day > 0 && day <= daysInMonth) {
+         1232┆         valid = true;
+         1233┆     }
+         1234┆ }
+            ⋮┆----------------------------------------
+         1231┆ if (day > 0 && day <= daysInMonth) {
+         1232┆     valid = true;
+         1233┆ }
+            ⋮┆----------------------------------------
+         1246┆ if (hour < 24 && minute < 60 && second < 60) {
+         1247┆     valid = true;
+         1248┆ }
+            ⋮┆----------------------------------------
+         2155┆ if (block.number > pool.lastRewardBlock && sharesTotal != 0) {
+         2156┆     uint256 _multiplier = block.number - pool.lastRewardBlock;
+         2157┆     uint256 _reward = (_multiplier * pool.rewardPerBlock);
+         2158┆      _accRewardPerShare = _accRewardPerShare + ((_reward * 1e18) 
+  / sharesTotal);                                                               
+         2159┆ }
+            ⋮┆----------------------------------------
+         2258┆ if(depositDetails.stakePeriod != 0 &&                            
+  !depositDetails.is_finished) {                                                
+         2259┆     totalDepositLocked += depositDetails.depositTokens;
+         2260┆ }
+            ⋮┆----------------------------------------
+       solidity.performance.use-prefix-increment-not-postfix                    
+          Consider using the prefix increment expression whenever the return    
+  value is not needed. The                                                      
+          prefix increment expression is cheaper in terms of gas.               
+                                                                                
+         1849┆ for (uint32 i = 0; i<levels.length ; i++) {
+            ⋮┆----------------------------------------
+         1916┆ for (uint i = 0; i<levels.length ; i++) {
+            ⋮┆----------------------------------------
+         2031┆ for (uint i = 0; i<levels.length ; i++) {
+            ⋮┆----------------------------------------
+         2200┆ for (uint256 i = 0; i<user.depositId ; i++) {
+            ⋮┆----------------------------------------
+         2247┆ for (uint i = 0; i<levels.length ; i++) {
+            ⋮┆----------------------------------------
+         2256┆ for (uint256 i = 0; i<user.depositId ; i++) {
+            ⋮┆----------------------------------------
+       solidity.performance.use-short-revert-string                             
+          Shortening revert strings to fit in 32 bytes will decrease gas costs  
+  for deployment and  gas                                                       
+          costs when the revert condition has been met.                         
+                                                                                
+          158┆ require(success, "Address: unable to send value, recipient may   
+  have reverted");                                                              
+            ⋮┆----------------------------------------
+          228┆ require(address(this).balance >= value, "Address: insufficient   
+  balance for call");                                                           
+            ⋮┆----------------------------------------
+          256┆ require(isContract(target), "Address: static call to             
+  non-contract");                                                               
+            ⋮┆----------------------------------------
+          335┆ require(
+          336┆     (value == 0) || (token.allowance(address(this), spender) ==  
+  0),                                                                           
+          337┆     "SafeERC20: approve from non-zero to non-zero allowance"
+          338┆ );
+            ⋮┆----------------------------------------
+          358┆ require(oldAllowance >= value, "SafeERC20: decreased allowance   
+  below zero");                                                                 
+            ⋮┆----------------------------------------
+          378┆ require(abi.decode(returndata, (bool)), "SafeERC20: ERC20        
+  operation did not succeed");                                                  
+            ⋮┆----------------------------------------
+          750┆ require(_initializing, "Initializable: contract is not           
+  initializing");                                                               
+            ⋮┆----------------------------------------
+          769┆ require(
+          770┆     version == 1 &&                                              
+  !AddressUpgradeable.isContract(address(this)),                                
+          771┆     "Initializable: contract is already initialized"
+          772┆ );
+            ⋮┆----------------------------------------
+          775┆ require(_initialized < version, "Initializable: contract is      
+  already initialized");                                                        
+            ⋮┆----------------------------------------
+          874┆ require(newOwner != address(0), "Ownable: new owner is the zero  
+  address");                                                                    
+            ⋮┆----------------------------------------
+         1714┆ require(block.number < _startBlock, "SinglePool: Start block must
+  have a bigger value");                                                        
+            ⋮┆----------------------------------------
+         2017┆ require(!depositDetails.is_finished,"You already withdrawn your  
+  deposit.");                                                                   
+            ⋮┆----------------------------------------
+         2106┆ require(address(holderRewardContractAddress) !=                  
+  address(0x0),"Holder Reward Address::SET_ZERO_ADDRESS");                      
+            ⋮┆----------------------------------------
+         2268┆ require(depositDetails.depositTimestamp <=                       
+  unlockedTimestampQualification,'Function is only for Users that deposited     
+  before Unlocked Staking Upgrade');                                            
+
+                
+                
+┌──────────────┐
+│ Scan Summary │
+└──────────────┘
+
+Ran 48 rules on 1 file: 94 findings.
+
+A new version of Semgrep is available. See https://semgrep.dev/docs/upgrading

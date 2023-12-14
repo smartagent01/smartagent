@@ -1,0 +1,5 @@
+approveAndCall
+The function could be a potential vulnerability if the `tokenRecipient` contract is malicious or if the `locked` variable is not managed correctly.
+
+uploadBalances
+This function could be a potential vulnerability if the owner uploads incorrect balances or manipulates the supply in an unintended way.

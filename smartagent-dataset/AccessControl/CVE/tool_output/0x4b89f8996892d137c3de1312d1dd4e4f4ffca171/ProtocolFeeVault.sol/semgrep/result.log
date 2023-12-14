@@ -1,0 +1,141 @@
+METRICS: Using configs from the Registry (like --config=p/ci) reports pseudonymous rule metrics to semgrep.dev.
+To disable Registry rule metrics, use "--metrics=off".
+Using configs only from local files (like --config=xyz.yml) does not enable metrics.
+
+More information: https://semgrep.dev/docs/metrics
+
+               
+               
+┌─────────────┐
+│ Scan Status │
+└─────────────┘
+  Scanning 1 file tracked by git with 48 Code rules:
+  Scanning 1 file with 48 solidity rules.
+                    
+                    
+┌──────────────────┐
+│ 25 Code Findings │
+└──────────────────┘
+                             
+    /sb/ProtocolFeeVault.sol 
+       solidity.best-practice.use-abi-encodecall-instead-of-encodewithselector  
+          To guarantee arguments type safety it is recommended to use           
+  `abi.encodeCall` instead of                                                   
+          `abi.encodeWithSelector`.                                             
+                                                                                
+          417┆ bytes memory callData = abi.encodeWithSelector(
+          418┆     bytes4(0xa9059cbb),
+          419┆     to,
+          420┆     value
+          421┆ );
+            ⋮┆----------------------------------------
+          495┆ bytes memory callData = abi.encodeWithSelector(
+          496┆     bytes4(0x23b872dd),
+          497┆     from,
+          498┆     to,
+          499┆     value
+          500┆ );
+            ⋮┆----------------------------------------
+       solidity.best-practice.use-ownable2step                                  
+          By demanding that the receiver of the owner permissions actively      
+  accept via a contract call                                                    
+          of its own,  `Ownable2Step` and `Ownable2StepUpgradeable` prevent the 
+  contract ownership                                                            
+          from accidentally being transferred  to an address that cannot handle 
+  it.                                                                           
+                                                                                
+          300┆ contract Claimable is Ownable
+            ⋮┆----------------------------------------
+       solidity.performance.non-payable-constructor      
+          Consider making costructor payable to save gas.
+                                                         
+          258┆ constructor()
+          259┆     public
+          260┆ {
+          261┆     owner = msg.sender;
+          262┆ }
+            ⋮┆----------------------------------------
+          804┆ constructor(address _lrcAddress)
+          805┆     Claimable()
+          806┆     public
+          807┆ {
+          808┆     require(_lrcAddress != address(0), "ZERO_ADDRESS");
+          809┆     lrcAddress = _lrcAddress;
+          810┆ }
+            ⋮┆----------------------------------------
+       solidity.performance.use-custom-error-not-require                        
+          Consider using custom errors as they are more gas efficient while     
+  allowing developers  to                                                       
+          describe the error in detail using NatSpec.                           
+                                                                                
+          162┆ require(success, "TRANSFER_FAILURE");
+            ⋮┆----------------------------------------
+          267┆ require(msg.sender == owner, "UNAUTHORIZED");
+            ⋮┆----------------------------------------
+          280┆ require(newOwner != address(0), "ZERO_ADDRESS");
+            ⋮┆----------------------------------------
+          306┆ require(msg.sender == pendingOwner, "UNAUTHORIZED");
+            ⋮┆----------------------------------------
+          318┆ require(newOwner != address(0) && newOwner != owner,             
+  "INVALID_ADDRESS");                                                           
+            ⋮┆----------------------------------------
+          397┆ require(
+          398┆     safeTransferWithGasLimit(token, to, value, gasLimit),
+          399┆     "TRANSFER_FAILURE"
+          400┆ );
+            ⋮┆----------------------------------------
+          477┆ require(result, "TRANSFER_FAILURE");
+            ⋮┆----------------------------------------
+          568┆ require(a == 0 || c / a == b, "MUL_OVERFLOW");
+            ⋮┆----------------------------------------
+          579┆ require(b <= a, "SUB_UNDERFLOW");
+            ⋮┆----------------------------------------
+          592┆ require(c >= a, "ADD_OVERFLOW");
+            ⋮┆----------------------------------------
+          643┆ require(_guardValue == 0, "REENTRANCY");
+            ⋮┆----------------------------------------
+          808┆ require(_lrcAddress != address(0), "ZERO_ADDRESS");
+            ⋮┆----------------------------------------
+          823┆ require(
+          824┆     userStakingPoolAddress != _userStakingPoolAddress ||
+          825┆     tokenSellerAddress != _tokenSellerAddress ||
+          826┆     daoAddress != _daoAddress,
+          827┆     "SAME_ADDRESSES"
+          828┆ );
+            ⋮┆----------------------------------------
+          842┆ require(amount > 0, "ZERO_VALUE");
+            ⋮┆----------------------------------------
+          843┆ require(msg.sender == userStakingPoolAddress, "UNAUTHORIZED");
+            ⋮┆----------------------------------------
+          864┆ require(BurnableERC20(lrcAddress).burn(amountBurn),              
+  "BURN_FAILURE");                                                              
+            ⋮┆----------------------------------------
+          880┆ require(amount > 0, "ZERO_AMOUNT");
+            ⋮┆----------------------------------------
+          881┆ require(token != lrcAddress, "PROHIBITED");
+            ⋮┆----------------------------------------
+          891┆ require(
+          892┆     tokenSellerAddress == address(0) ||
+          893┆     ITokenSeller(tokenSellerAddress).sellToken(token,            
+  lrcAddress),                                                                  
+          894┆     "SELL_FAILURE"
+          895┆ );
+            ⋮┆----------------------------------------
+       solidity.performance.use-multiple-require                                
+          Using multiple require statements is cheaper than using && multiple   
+  check combinations.                                                           
+          There are more advantages, such as easier to read code and better     
+  coverage reports.                                                             
+                                                                                
+          318┆ require(newOwner != address(0) && newOwner != owner,             
+  "INVALID_ADDRESS");                                                           
+
+                
+                
+┌──────────────┐
+│ Scan Summary │
+└──────────────┘
+
+Ran 48 rules on 1 file: 25 findings.
+
+A new version of Semgrep is available. See https://semgrep.dev/docs/upgrading

@@ -1,0 +1,8 @@
+owned
+The function is public and lacks access control, allowing anyone to call it and potentially initialize the contract multiple times.
+
+MorphToken
+The constructor does not use the `onlyOwner` modifier, allowing anyone to set themselves as the owner upon deployment.
+
+ERC20
+The contract lacks access control mechanisms for critical functions like minting or burning tokens.

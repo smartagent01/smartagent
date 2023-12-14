@@ -1,0 +1,2413 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 304,
+            "message": "To guarantee arguments type safety it is recommended to use `abi.encodeCall` instead of `abi.encodeWithSelector`.",
+            "name": "use-abi-encodecall-instead-of-encodewithselector"
+        },
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 305,
+            "message": "To guarantee arguments type safety it is recommended to use `abi.encodeCall` instead of `abi.encodeWithSelector`.",
+            "name": "use-abi-encodecall-instead-of-encodewithselector"
+        },
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 306,
+            "message": "To guarantee arguments type safety it is recommended to use `abi.encodeCall` instead of `abi.encodeWithSelector`.",
+            "name": "use-abi-encodecall-instead-of-encodewithselector"
+        },
+        {
+            "category": "best-practice",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 307,
+            "message": "To guarantee arguments type safety it is recommended to use `abi.encodeCall` instead of `abi.encodeWithSelector`.",
+            "name": "use-abi-encodecall-instead-of-encodewithselector"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 169,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 170,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 171,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 172,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 173,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 174,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 175,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 579,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 580,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 581,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 582,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 583,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 1030,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 1031,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 1032,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 1033,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 1034,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 1035,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 1036,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 1037,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 400,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 401,
+            "message": "Replace state variable reads and writes within loops with local variable reads and writes.",
+            "name": "state-variable-read-in-a-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 396,
+            "message": "A lot of times there is no risk that the loop counter can overflow. Using Solidity's unchecked block saves the overflow checks.",
+            "name": "unnecessary-checked-arithmetic-in-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 687,
+            "message": "A lot of times there is no risk that the loop counter can overflow. Using Solidity's unchecked block saves the overflow checks.",
+            "name": "unnecessary-checked-arithmetic-in-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 744,
+            "message": "A lot of times there is no risk that the loop counter can overflow. Using Solidity's unchecked block saves the overflow checks.",
+            "name": "unnecessary-checked-arithmetic-in-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 781,
+            "message": "A lot of times there is no risk that the loop counter can overflow. Using Solidity's unchecked block saves the overflow checks.",
+            "name": "unnecessary-checked-arithmetic-in-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 792,
+            "message": "A lot of times there is no risk that the loop counter can overflow. Using Solidity's unchecked block saves the overflow checks.",
+            "name": "unnecessary-checked-arithmetic-in-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 794,
+            "message": "A lot of times there is no risk that the loop counter can overflow. Using Solidity's unchecked block saves the overflow checks.",
+            "name": "unnecessary-checked-arithmetic-in-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 816,
+            "message": "A lot of times there is no risk that the loop counter can overflow. Using Solidity's unchecked block saves the overflow checks.",
+            "name": "unnecessary-checked-arithmetic-in-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 852,
+            "message": "A lot of times there is no risk that the loop counter can overflow. Using Solidity's unchecked block saves the overflow checks.",
+            "name": "unnecessary-checked-arithmetic-in-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 853,
+            "message": "A lot of times there is no risk that the loop counter can overflow. Using Solidity's unchecked block saves the overflow checks.",
+            "name": "unnecessary-checked-arithmetic-in-loop"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 36,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 42,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 58,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 59,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 60,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 61,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 83,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 84,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 85,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 86,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 190,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 212,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 237,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 238,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 239,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 240,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 241,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 242,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 243,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 244,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 245,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 256,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 257,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 258,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 259,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 260,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 261,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 262,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 273,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 283,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 284,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 285,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 288,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 289,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 290,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 291,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 292,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 293,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 339,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 340,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 341,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 342,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 357,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 358,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 359,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 360,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 392,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 393,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 399,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 400,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 410,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 411,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 412,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 413,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 450,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 451,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 452,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 453,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 454,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 455,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 456,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 476,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 477,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 478,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 479,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 502,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 518,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 520,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 521,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 522,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 523,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 524,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 525,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 526,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 527,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 564,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 565,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 566,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 567,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 601,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 609,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 622,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 623,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 624,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 625,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 626,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 627,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 628,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 644,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 647,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 652,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 653,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 654,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 655,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 660,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 666,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 671,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 677,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 682,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 689,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 716,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 717,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 720,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 721,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 722,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 723,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 724,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 747,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 748,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 749,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 750,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 769,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 770,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 771,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 774,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 775,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 776,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 777,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 778,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 799,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 800,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 801,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 802,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 810,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 811,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 824,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 832,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 833,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 844,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 859,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 860,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 861,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 862,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 863,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 864,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 865,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 883,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 892,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 893,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 894,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 895,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 896,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 897,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 915,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 924,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 925,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 926,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 927,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 928,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 946,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 955,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 956,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 957,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 958,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 967,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 995,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 1081,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 288,
+            "message": "Using multiple require statements is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-multiple-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 289,
+            "message": "Using multiple require statements is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-multiple-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 290,
+            "message": "Using multiple require statements is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-multiple-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 291,
+            "message": "Using multiple require statements is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-multiple-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 292,
+            "message": "Using multiple require statements is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-multiple-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 293,
+            "message": "Using multiple require statements is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-multiple-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 400,
+            "message": "Using multiple require statements is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-multiple-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 520,
+            "message": "Using multiple require statements is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-multiple-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 521,
+            "message": "Using multiple require statements is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-multiple-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 522,
+            "message": "Using multiple require statements is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-multiple-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 523,
+            "message": "Using multiple require statements is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-multiple-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 524,
+            "message": "Using multiple require statements is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-multiple-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 525,
+            "message": "Using multiple require statements is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-multiple-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 526,
+            "message": "Using multiple require statements is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-multiple-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 527,
+            "message": "Using multiple require statements is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-multiple-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 627,
+            "message": "Using multiple require statements is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-multiple-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 628,
+            "message": "Using multiple require statements is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-multiple-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 771,
+            "message": "Using multiple require statements is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-multiple-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 832,
+            "message": "Using multiple require statements is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-multiple-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 833,
+            "message": "Using multiple require statements is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-multiple-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 287,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 288,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 289,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 290,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 291,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 292,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 293,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 294,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 338,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 339,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 340,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 341,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 342,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 343,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 409,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 410,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 411,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 412,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 413,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 414,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 719,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 720,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 721,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 722,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 723,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 724,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 725,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 742,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 743,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 744,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 745,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 746,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 747,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 748,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 749,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 750,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 751,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 773,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 774,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 775,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 776,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 777,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 778,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 779,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 789,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 790,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 791,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 792,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 793,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 794,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 795,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 796,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 797,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 798,
+            "message": "Using nested is cheaper than using && multiple check combinations. There are more advantages, such as easier to read code and better coverage reports.",
+            "name": "use-nested-if"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 178,
+            "message": "Consider using the prefix decrement expression whenever the return value is not needed. The prefix decrement expression is cheaper in terms of gas.",
+            "name": "use-prefix-decrement-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 504,
+            "message": "Consider using the prefix decrement expression whenever the return value is not needed. The prefix decrement expression is cheaper in terms of gas.",
+            "name": "use-prefix-decrement-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 179,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 396,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 687,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 744,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 781,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 792,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 794,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 796,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 816,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 852,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 853,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 1063,
+            "message": "Consider using the prefix increment expression whenever the return value is not needed. The prefix increment expression is cheaper in terms of gas.",
+            "name": "use-prefix-increment-not-postfix"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 58,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 59,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 60,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 61,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 83,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 84,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 85,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 86,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 410,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 411,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 412,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 413,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 451,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 452,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 453,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 454,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 455,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 456,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 476,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 477,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 478,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 479,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 564,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 565,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 566,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 567,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 747,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 748,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 749,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 750,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 774,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 775,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 776,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 777,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 778,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 799,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 800,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 801,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 802,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 859,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 860,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 861,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 862,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 863,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 864,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 865,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 892,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 893,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 894,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 895,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 896,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 897,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 924,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 925,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 926,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 927,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 928,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 955,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 956,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 957,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 958,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 340,
+            "message": "ERC721 onERC721Received() reentrancy",
+            "name": "erc721-reentrancy"
+        },
+        {
+            "category": "security",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/SandboxLAND/0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+            "line": 358,
+            "message": "ERC721 onERC721Received() reentrancy",
+            "name": "erc721-reentrancy"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "semgrep",
+        "mode": "solidity",
+        "version": "2023/08/21"
+    }
+}

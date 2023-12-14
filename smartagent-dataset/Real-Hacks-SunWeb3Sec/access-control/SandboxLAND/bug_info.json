@@ -1,0 +1,19 @@
+[
+  {
+    "bug": [
+      "AccessControl"
+    ],
+    "blockchain": "BSC",
+    "address": "0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a",
+    "contract": "ERC721BaseToken",
+    "function": "_burn",
+    "source_file": "./0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a/SandboxLAN.sol",
+    "line_start": 499,
+    "line_end": 501,
+    "reference": [
+      "https://github.com/SunWeb3Sec/DeFiHackLabs/blob/main/src/test/Sandbox_exp.sol",
+      "https://slowmist.medium.com/the-vulnerability-behind-the-sandbox-land-migration-2abf68933170"
+    ],
+    "note": ""
+  }
+]

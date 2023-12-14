@@ -1,0 +1,2615 @@
+[
+    {
+        "contract": "Context",
+        "contract_vars": [],
+        "inheritance": [],
+        "functions": [
+            {
+                "name": "constructor()",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "_msgSender()",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "msg.sender"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "_msgData()",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "msg.data"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            }
+        ],
+        "modifiers": []
+    },
+    {
+        "contract": "IERC20",
+        "contract_vars": [],
+        "inheritance": [],
+        "functions": [
+            {
+                "name": "totalSupply()",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "balanceOf(address)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "transfer(address,uint256)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "allowance(address,address)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "approve(address,uint256)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "transferFrom(address,address,uint256)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            }
+        ],
+        "modifiers": []
+    },
+    {
+        "contract": "SafeMath",
+        "contract_vars": [],
+        "inheritance": [],
+        "functions": [
+            {
+                "name": "add(uint256,uint256)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [
+                    "require(bool,string)"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "sub(uint256,uint256)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [
+                    "sub"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "sub(uint256,uint256,string)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [
+                    "require(bool,string)"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "mul(uint256,uint256)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [
+                    "require(bool,string)"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "div(uint256,uint256)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [
+                    "div"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "div(uint256,uint256,string)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [
+                    "require(bool,string)"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "mod(uint256,uint256)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [
+                    "mod"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "mod(uint256,uint256,string)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [
+                    "require(bool,string)"
+                ],
+                "external_calls": []
+            }
+        ],
+        "modifiers": []
+    },
+    {
+        "contract": "ERC20",
+        "contract_vars": [
+            "_balances",
+            "_allowances",
+            "_totalSupply"
+        ],
+        "inheritance": [
+            "IERC20",
+            "Context"
+        ],
+        "functions": [
+            {
+                "name": "totalSupply()",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "balanceOf(address)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "transfer(address,uint256)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "allowance(address,address)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "approve(address,uint256)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "transferFrom(address,address,uint256)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "constructor()",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "_msgSender()",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "msg.sender"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "_msgData()",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "msg.data"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "totalSupply()",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [
+                    "_totalSupply"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "balanceOf(address)",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [
+                    "_balances"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "transfer(address,uint256)",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [
+                    "_transfer",
+                    "_msgSender"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "allowance(address,address)",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [
+                    "_allowances"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "approve(address,uint256)",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [
+                    "_msgSender",
+                    "_approve"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "transferFrom(address,address,uint256)",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [
+                    "_allowances"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "_transfer",
+                    "_msgSender",
+                    "_approve"
+                ],
+                "external_calls": [
+                    "_allowances[sender][_msgSender()].sub(amount,ERC20: transfer amount exceeds allowance)"
+                ]
+            },
+            {
+                "name": "increaseAllowance(address,uint256)",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [
+                    "_allowances"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "_msgSender",
+                    "_approve"
+                ],
+                "external_calls": [
+                    "_allowances[_msgSender()][spender].add(addedValue)"
+                ]
+            },
+            {
+                "name": "decreaseAllowance(address,uint256)",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [
+                    "_allowances"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "_msgSender",
+                    "_approve"
+                ],
+                "external_calls": [
+                    "_allowances[_msgSender()][spender].sub(subtractedValue,ERC20: decreased allowance below zero)"
+                ]
+            },
+            {
+                "name": "_transfer(address,address,uint256)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "_balances"
+                ],
+                "write_vars": [
+                    "_balances"
+                ],
+                "internal_calls": [
+                    "require(bool,string)"
+                ],
+                "external_calls": [
+                    "_balances[sender].sub(amount,ERC20: transfer amount exceeds balance)",
+                    "_balances[recipient].add(amount)"
+                ]
+            },
+            {
+                "name": "_mint(address,uint256)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "_balances",
+                    "_totalSupply"
+                ],
+                "write_vars": [
+                    "_balances",
+                    "_totalSupply"
+                ],
+                "internal_calls": [
+                    "require(bool,string)"
+                ],
+                "external_calls": [
+                    "_balances[account].add(amount)",
+                    "_totalSupply.add(amount)"
+                ]
+            },
+            {
+                "name": "_burn(address,uint256)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "_balances",
+                    "_totalSupply"
+                ],
+                "write_vars": [
+                    "_balances",
+                    "_totalSupply"
+                ],
+                "internal_calls": [
+                    "require(bool,string)"
+                ],
+                "external_calls": [
+                    "_balances[account].sub(amount,ERC20: burn amount exceeds balance)",
+                    "_totalSupply.sub(amount)"
+                ]
+            },
+            {
+                "name": "_approve(address,address,uint256)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [
+                    "_allowances"
+                ],
+                "internal_calls": [
+                    "require(bool,string)"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "_burnFrom(address,uint256)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "_allowances"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "_burn",
+                    "_msgSender",
+                    "_approve"
+                ],
+                "external_calls": [
+                    "_allowances[account][_msgSender()].sub(amount,ERC20: burn amount exceeds allowance)"
+                ]
+            }
+        ],
+        "modifiers": []
+    },
+    {
+        "contract": "ERC20Detailed",
+        "contract_vars": [
+            "_name",
+            "_symbol",
+            "_decimals"
+        ],
+        "inheritance": [
+            "IERC20"
+        ],
+        "functions": [
+            {
+                "name": "totalSupply()",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "balanceOf(address)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "transfer(address,uint256)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "allowance(address,address)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "approve(address,uint256)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "transferFrom(address,address,uint256)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "constructor(string,string,uint8)",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [
+                    "_decimals",
+                    "_name",
+                    "_symbol"
+                ],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "name()",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [
+                    "_name"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "symbol()",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [
+                    "_symbol"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "decimals()",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [
+                    "_decimals"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            }
+        ],
+        "modifiers": []
+    },
+    {
+        "contract": "Roles",
+        "contract_vars": [],
+        "inheritance": [],
+        "functions": [
+            {
+                "name": "add(Roles.Role,address)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [
+                    "require(bool,string)",
+                    "has"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "remove(Roles.Role,address)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [
+                    "require(bool,string)",
+                    "has"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "has(Roles.Role,address)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [
+                    "require(bool,string)"
+                ],
+                "external_calls": []
+            }
+        ],
+        "modifiers": []
+    },
+    {
+        "contract": "MinterRole",
+        "contract_vars": [
+            "_minters"
+        ],
+        "inheritance": [
+            "Context"
+        ],
+        "functions": [
+            {
+                "name": "constructor()",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "_msgSender()",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "msg.sender"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "_msgData()",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "msg.data"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "constructor()",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [
+                    "_msgSender",
+                    "_addMinter"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "isMinter(address)",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [
+                    "_minters"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": [
+                    "_minters.has(account)"
+                ]
+            },
+            {
+                "name": "addMinter(address)",
+                "visibility": "public",
+                "modifiers": [
+                    "onlyMinter"
+                ],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [
+                    "onlyMinter",
+                    "_addMinter"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "renounceMinter()",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [
+                    "_removeMinter",
+                    "_msgSender"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "_addMinter(address)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "_minters"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": [
+                    "_minters.add(account)"
+                ]
+            },
+            {
+                "name": "_removeMinter(address)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "_minters"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": [
+                    "_minters.remove(account)"
+                ]
+            }
+        ],
+        "modifiers": [
+            {
+                "name": "onlyMinter()",
+                "visibility": "internal",
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [
+                    "isMinter",
+                    "require(bool,string)",
+                    "_msgSender"
+                ],
+                "external_calls": []
+            }
+        ]
+    },
+    {
+        "contract": "Address",
+        "contract_vars": [],
+        "inheritance": [],
+        "functions": [
+            {
+                "name": "isContract(address)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "toPayable(address)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "sendValue(address,uint256)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "this"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "require(bool,string)",
+                    "balance(address)"
+                ],
+                "external_calls": [
+                    "recipient.call.value(amount)()",
+                    "recipient.call.value(amount)"
+                ]
+            }
+        ],
+        "modifiers": []
+    },
+    {
+        "contract": "ReentrancyGuard",
+        "contract_vars": [
+            "_notEntered"
+        ],
+        "inheritance": [],
+        "functions": [
+            {
+                "name": "constructor()",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [
+                    "_notEntered"
+                ],
+                "internal_calls": [],
+                "external_calls": []
+            }
+        ],
+        "modifiers": [
+            {
+                "name": "nonReentrant()",
+                "visibility": "internal",
+                "read_vars": [
+                    "_notEntered"
+                ],
+                "write_vars": [
+                    "_notEntered"
+                ],
+                "internal_calls": [
+                    "require(bool,string)"
+                ],
+                "external_calls": []
+            }
+        ]
+    },
+    {
+        "contract": "IUniswapV2Router01",
+        "contract_vars": [],
+        "inheritance": [],
+        "functions": [
+            {
+                "name": "factory()",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "WETH()",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "swapExactTokensForTokens(uint256,uint256,address[],address,uint256)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "addLiquidity(address,uint256,uint256,uint256,uint256)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "transferLiquidity(address,uint256)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "getCommunityToken(uint256)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "transfer(address,address,uint256)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            }
+        ],
+        "modifiers": []
+    },
+    {
+        "contract": "IUniswapV2Factory",
+        "contract_vars": [],
+        "inheritance": [],
+        "functions": [
+            {
+                "name": "getPair(address,address)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            }
+        ],
+        "modifiers": []
+    },
+    {
+        "contract": "IUniswapV2Pair",
+        "contract_vars": [],
+        "inheritance": [],
+        "functions": [
+            {
+                "name": "mint(address)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "getReserves()",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "isWhite(address)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "white(address)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            }
+        ],
+        "modifiers": []
+    },
+    {
+        "contract": "ERC20Mintable",
+        "contract_vars": [
+            "_balances",
+            "_allowances",
+            "_totalSupply",
+            "_minters",
+            "_notEntered",
+            "BASE_RATIO",
+            "_limit",
+            "_transactFeeValue",
+            "sale_date",
+            "ContractorsFee",
+            "ContractorsAddress",
+            "_usdt_token",
+            "_roter",
+            "_sell",
+            "_dis"
+        ],
+        "inheritance": [
+            "ReentrancyGuard",
+            "MinterRole",
+            "ERC20",
+            "IERC20",
+            "Context"
+        ],
+        "functions": [
+            {
+                "name": "constructor()",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [
+                    "_notEntered"
+                ],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "constructor()",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [
+                    "_msgSender",
+                    "_addMinter"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "isMinter(address)",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [
+                    "_minters"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": [
+                    "_minters.has(account)"
+                ]
+            },
+            {
+                "name": "addMinter(address)",
+                "visibility": "public",
+                "modifiers": [
+                    "onlyMinter"
+                ],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [
+                    "onlyMinter",
+                    "_addMinter"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "renounceMinter()",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [
+                    "_removeMinter",
+                    "_msgSender"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "_addMinter(address)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "_minters"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": [
+                    "_minters.add(account)"
+                ]
+            },
+            {
+                "name": "_removeMinter(address)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "_minters"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": [
+                    "_minters.remove(account)"
+                ]
+            },
+            {
+                "name": "constructor()",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "_msgSender()",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "msg.sender"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "_msgData()",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "msg.data"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "totalSupply()",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [
+                    "_totalSupply"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "balanceOf(address)",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [
+                    "_balances"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "transfer(address,uint256)",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [
+                    "_transfer",
+                    "_msgSender"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "allowance(address,address)",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [
+                    "_allowances"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "approve(address,uint256)",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [
+                    "_approve",
+                    "_msgSender"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "transferFrom(address,address,uint256)",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [
+                    "_allowances"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "_transfer",
+                    "_approve",
+                    "_msgSender"
+                ],
+                "external_calls": [
+                    "_allowances[sender][_msgSender()].sub(amount,ERC20: transfer amount exceeds allowance)"
+                ]
+            },
+            {
+                "name": "increaseAllowance(address,uint256)",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [
+                    "_allowances"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "_approve",
+                    "_msgSender"
+                ],
+                "external_calls": [
+                    "_allowances[_msgSender()][spender].add(addedValue)"
+                ]
+            },
+            {
+                "name": "decreaseAllowance(address,uint256)",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [
+                    "_allowances"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "_approve",
+                    "_msgSender"
+                ],
+                "external_calls": [
+                    "_allowances[_msgSender()][spender].sub(subtractedValue,ERC20: decreased allowance below zero)"
+                ]
+            },
+            {
+                "name": "_transfer(address,address,uint256)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "_balances"
+                ],
+                "write_vars": [
+                    "_balances"
+                ],
+                "internal_calls": [
+                    "require(bool,string)"
+                ],
+                "external_calls": [
+                    "_balances[sender].sub(amount,ERC20: transfer amount exceeds balance)",
+                    "_balances[recipient].add(amount)"
+                ]
+            },
+            {
+                "name": "_mint(address,uint256)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "_balances",
+                    "_totalSupply"
+                ],
+                "write_vars": [
+                    "_balances",
+                    "_totalSupply"
+                ],
+                "internal_calls": [
+                    "require(bool,string)"
+                ],
+                "external_calls": [
+                    "_totalSupply.add(amount)",
+                    "_balances[account].add(amount)"
+                ]
+            },
+            {
+                "name": "_burn(address,uint256)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "_balances",
+                    "_totalSupply"
+                ],
+                "write_vars": [
+                    "_balances",
+                    "_totalSupply"
+                ],
+                "internal_calls": [
+                    "require(bool,string)"
+                ],
+                "external_calls": [
+                    "_balances[account].sub(amount,ERC20: burn amount exceeds balance)",
+                    "_totalSupply.sub(amount)"
+                ]
+            },
+            {
+                "name": "_approve(address,address,uint256)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [
+                    "_allowances"
+                ],
+                "internal_calls": [
+                    "require(bool,string)"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "_burnFrom(address,uint256)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "_allowances"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "_burn",
+                    "_approve",
+                    "_msgSender"
+                ],
+                "external_calls": [
+                    "_allowances[account][_msgSender()].sub(amount,ERC20: burn amount exceeds allowance)"
+                ]
+            },
+            {
+                "name": "totalSupply()",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "balanceOf(address)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "transfer(address,uint256)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "allowance(address,address)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "approve(address,uint256)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "transferFrom(address,address,uint256)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "constructor(address)",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [
+                    "_dis"
+                ],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "getTransactFee()",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [
+                    "_transactFeeValue"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "setTransactFee(uint256)",
+                "visibility": "public",
+                "modifiers": [
+                    "onlyMinter"
+                ],
+                "read_vars": [],
+                "write_vars": [
+                    "_transactFeeValue"
+                ],
+                "internal_calls": [
+                    "onlyMinter"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "setDis(address)",
+                "visibility": "public",
+                "modifiers": [
+                    "onlyMinter"
+                ],
+                "read_vars": [],
+                "write_vars": [
+                    "_dis"
+                ],
+                "internal_calls": [
+                    "onlyMinter"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "setSaleDate(uint256)",
+                "visibility": "public",
+                "modifiers": [
+                    "onlyMinter"
+                ],
+                "read_vars": [],
+                "write_vars": [
+                    "sale_date"
+                ],
+                "internal_calls": [
+                    "onlyMinter"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "setSell(address)",
+                "visibility": "public",
+                "modifiers": [
+                    "onlyMinter"
+                ],
+                "read_vars": [],
+                "write_vars": [
+                    "_sell"
+                ],
+                "internal_calls": [
+                    "onlyMinter"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "setRoter(address,address)",
+                "visibility": "public",
+                "modifiers": [
+                    "onlyMinter"
+                ],
+                "read_vars": [
+                    "_roter",
+                    "_usdt_token"
+                ],
+                "write_vars": [
+                    "_roter",
+                    "_usdt_token"
+                ],
+                "internal_calls": [
+                    "onlyMinter"
+                ],
+                "external_calls": [
+                    "IERC20(_usdt_token).approve(_roter,1e40)"
+                ]
+            },
+            {
+                "name": "sendTransfer(address,uint256)",
+                "visibility": "public",
+                "modifiers": [
+                    "nonReentrant",
+                    "onlyMinter"
+                ],
+                "read_vars": [
+                    "this"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "onlyMinter",
+                    "require(bool,string)",
+                    "nonReentrant"
+                ],
+                "external_calls": [
+                    "IERC20(address(this)).transfer(account,amount)"
+                ]
+            },
+            {
+                "name": "sendApprove(address,uint256)",
+                "visibility": "public",
+                "modifiers": [
+                    "onlyMinter",
+                    "nonReentrant"
+                ],
+                "read_vars": [
+                    "this"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "nonReentrant",
+                    "require(bool,string)",
+                    "onlyMinter"
+                ],
+                "external_calls": [
+                    "IERC20(address(this)).approve(account,amount)"
+                ]
+            },
+            {
+                "name": "setContractorsFee(uint256[],address[],uint256)",
+                "visibility": "public",
+                "modifiers": [
+                    "onlyMinter"
+                ],
+                "read_vars": [
+                    "ContractorsAddress",
+                    "ContractorsFee"
+                ],
+                "write_vars": [
+                    "ContractorsAddress",
+                    "ContractorsFee"
+                ],
+                "internal_calls": [
+                    "require(bool,string)",
+                    "onlyMinter"
+                ],
+                "external_calls": [
+                    "ContractorsFee.push(fee)",
+                    "ContractorsAddress.push(add)"
+                ]
+            },
+            {
+                "name": "getContractorsFee(uint256)",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [
+                    "ContractorsAddress",
+                    "ContractorsFee"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "require(bool,string)",
+                    "isMinter",
+                    "_msgSender"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "addLiquidity(uint256,uint256)",
+                "visibility": "public",
+                "modifiers": [
+                    "onlyMinter"
+                ],
+                "read_vars": [
+                    "_sell",
+                    "this"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "require(bool,string)",
+                    "onlyMinter"
+                ],
+                "external_calls": [
+                    "IERC20(address(this)).approve(_sell,amountTokenDesired)",
+                    "IUniswapV2Router01(_sell).addLiquidity(address(this),amountUsdt,amountTokenDesired,1,1)"
+                ]
+            },
+            {
+                "name": "transferLiquidity(uint256)",
+                "visibility": "public",
+                "modifiers": [
+                    "onlyMinter"
+                ],
+                "read_vars": [
+                    "_sell",
+                    "this"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "require(bool,string)",
+                    "onlyMinter"
+                ],
+                "external_calls": [
+                    "IERC20(address(this)).approve(_sell,1000000000)",
+                    "IUniswapV2Router01(_sell).transferLiquidity(address(this),amountUsdt)"
+                ]
+            },
+            {
+                "name": "isContract(address)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "transactionFee(address,address,uint256)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "BASE_RATIO",
+                    "ContractorsAddress",
+                    "ContractorsFee",
+                    "_dis",
+                    "_roter",
+                    "_transactFeeValue",
+                    "_usdt_token",
+                    "sale_date",
+                    "block.timestamp",
+                    "this"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "_transfer",
+                    "require(bool,string)",
+                    "_msgSender",
+                    "isContract",
+                    "balanceOf"
+                ],
+                "external_calls": [
+                    "BASE_RATIO.div(10000)",
+                    "mod.mod(BASE_RATIO.div(10000))",
+                    "balanceOf(from).sub(amount)",
+                    "BASE_RATIO.div(10000000)",
+                    "amount.mul(fee).div(100)",
+                    "IUniswapV2Pair(_dis).isWhite(from)",
+                    "BASE_RATIO.div(10000)",
+                    "BASE_RATIO.div(1000).mul(9)",
+                    "IERC20(_usdt_token).balanceOf(pair)",
+                    "amount.mul(fee)",
+                    "amount.mul(_transactFeeValue).div(100)",
+                    "usdt_mt.mod(BASE_RATIO.div(1000))",
+                    "BASE_RATIO.div(1000)",
+                    "amount.mul(_transactFeeValue)",
+                    "IUniswapV2Pair(_dis).isWhite(to)",
+                    "BASE_RATIO.div(1000)",
+                    "IERC20(address(this)).balanceOf(pair)",
+                    "realAmount.sub(fee)",
+                    "BASE_RATIO.div(1000).mul(8)",
+                    "IUniswapV2Factory(IUniswapV2Router01(_roter).factory()).getPair(_usdt_token,address(this))",
+                    "realAmount.sub(transactFeeValue)",
+                    "IUniswapV2Pair(_dis).white(from)",
+                    "IUniswapV2Pair(_dis).white(from)",
+                    "IUniswapV2Router01(_roter).factory()",
+                    "usdt.mul(BASE_RATIO).div(mt)",
+                    "transactFeeValue.mul(ContractorsFee[setType][i]).div(100)",
+                    "mod.sub(mod.mod(BASE_RATIO.div(10000))).div(BASE_RATIO.div(10000))",
+                    "usdt.mul(BASE_RATIO)",
+                    "BASE_RATIO.div(1000)",
+                    "transactFeeValue.mul(ContractorsFee[setType][i])",
+                    "mod.mul(5)",
+                    "mod.sub(mod.mod(BASE_RATIO.div(10000)))",
+                    "IUniswapV2Pair(_dis).white(to)"
+                ]
+            },
+            {
+                "name": "_transfer(address,address,uint256)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [
+                    "_transfer",
+                    "transactionFee"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "buyMiner(address,uint256)",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [
+                    "_roter",
+                    "_usdt_token",
+                    "sale_date",
+                    "block.timestamp",
+                    "this"
+                ],
+                "write_vars": [
+                    "sale_date"
+                ],
+                "internal_calls": [
+                    "require(bool,string)"
+                ],
+                "external_calls": [
+                    "IERC20(address(this)).balanceOf(k)",
+                    "usdt.add(usdt.div(10))",
+                    "IUniswapV2Router01(_roter).swapExactTokensForTokens(usdt,1000000,token,k,block.timestamp + 60)",
+                    "new address[](2)",
+                    "usdt.div(10)",
+                    "IERC20(_usdt_token).transferFrom(user,address(this),usdt)",
+                    "IUniswapV2Router01(k).transfer(address(this),address(this),IERC20(address(this)).balanceOf(k))"
+                ]
+            },
+            {
+                "name": "slitherConstructorVariables()",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [
+                    "_transactFeeValue",
+                    "sale_date"
+                ],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "slitherConstructorConstantVariables()",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [
+                    "BASE_RATIO"
+                ],
+                "internal_calls": [],
+                "external_calls": []
+            }
+        ],
+        "modifiers": [
+            {
+                "name": "nonReentrant()",
+                "visibility": "internal",
+                "read_vars": [
+                    "_notEntered"
+                ],
+                "write_vars": [
+                    "_notEntered"
+                ],
+                "internal_calls": [
+                    "require(bool,string)"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "onlyMinter()",
+                "visibility": "internal",
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [
+                    "require(bool,string)",
+                    "isMinter",
+                    "_msgSender"
+                ],
+                "external_calls": []
+            }
+        ]
+    },
+    {
+        "contract": "UniverseGoldMountain",
+        "contract_vars": [
+            "_balances",
+            "_allowances",
+            "_totalSupply",
+            "_name",
+            "_symbol",
+            "_decimals",
+            "_minters",
+            "_notEntered",
+            "BASE_RATIO",
+            "_limit",
+            "_transactFeeValue",
+            "sale_date",
+            "ContractorsFee",
+            "ContractorsAddress",
+            "_usdt_token",
+            "_roter",
+            "_sell",
+            "_dis"
+        ],
+        "inheritance": [
+            "ERC20Mintable",
+            "ReentrancyGuard",
+            "MinterRole",
+            "ERC20Detailed",
+            "ERC20",
+            "IERC20",
+            "Context"
+        ],
+        "functions": [
+            {
+                "name": "constructor(address)",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [
+                    "_dis"
+                ],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "getTransactFee()",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [
+                    "_transactFeeValue"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "setTransactFee(uint256)",
+                "visibility": "public",
+                "modifiers": [
+                    "onlyMinter"
+                ],
+                "read_vars": [],
+                "write_vars": [
+                    "_transactFeeValue"
+                ],
+                "internal_calls": [
+                    "onlyMinter"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "setDis(address)",
+                "visibility": "public",
+                "modifiers": [
+                    "onlyMinter"
+                ],
+                "read_vars": [],
+                "write_vars": [
+                    "_dis"
+                ],
+                "internal_calls": [
+                    "onlyMinter"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "setSaleDate(uint256)",
+                "visibility": "public",
+                "modifiers": [
+                    "onlyMinter"
+                ],
+                "read_vars": [],
+                "write_vars": [
+                    "sale_date"
+                ],
+                "internal_calls": [
+                    "onlyMinter"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "setSell(address)",
+                "visibility": "public",
+                "modifiers": [
+                    "onlyMinter"
+                ],
+                "read_vars": [],
+                "write_vars": [
+                    "_sell"
+                ],
+                "internal_calls": [
+                    "onlyMinter"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "setRoter(address,address)",
+                "visibility": "public",
+                "modifiers": [
+                    "onlyMinter"
+                ],
+                "read_vars": [
+                    "_roter",
+                    "_usdt_token"
+                ],
+                "write_vars": [
+                    "_roter",
+                    "_usdt_token"
+                ],
+                "internal_calls": [
+                    "onlyMinter"
+                ],
+                "external_calls": [
+                    "IERC20(_usdt_token).approve(_roter,1e40)"
+                ]
+            },
+            {
+                "name": "sendTransfer(address,uint256)",
+                "visibility": "public",
+                "modifiers": [
+                    "nonReentrant",
+                    "onlyMinter"
+                ],
+                "read_vars": [
+                    "this"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "onlyMinter",
+                    "require(bool,string)",
+                    "nonReentrant"
+                ],
+                "external_calls": [
+                    "IERC20(address(this)).transfer(account,amount)"
+                ]
+            },
+            {
+                "name": "sendApprove(address,uint256)",
+                "visibility": "public",
+                "modifiers": [
+                    "onlyMinter",
+                    "nonReentrant"
+                ],
+                "read_vars": [
+                    "this"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "onlyMinter",
+                    "require(bool,string)",
+                    "nonReentrant"
+                ],
+                "external_calls": [
+                    "IERC20(address(this)).approve(account,amount)"
+                ]
+            },
+            {
+                "name": "setContractorsFee(uint256[],address[],uint256)",
+                "visibility": "public",
+                "modifiers": [
+                    "onlyMinter"
+                ],
+                "read_vars": [
+                    "ContractorsAddress",
+                    "ContractorsFee"
+                ],
+                "write_vars": [
+                    "ContractorsAddress",
+                    "ContractorsFee"
+                ],
+                "internal_calls": [
+                    "onlyMinter",
+                    "require(bool,string)"
+                ],
+                "external_calls": [
+                    "ContractorsAddress.push(add)",
+                    "ContractorsFee.push(fee)"
+                ]
+            },
+            {
+                "name": "getContractorsFee(uint256)",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [
+                    "ContractorsAddress",
+                    "ContractorsFee"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "_msgSender",
+                    "require(bool,string)",
+                    "isMinter"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "addLiquidity(uint256,uint256)",
+                "visibility": "public",
+                "modifiers": [
+                    "onlyMinter"
+                ],
+                "read_vars": [
+                    "_sell",
+                    "this"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "onlyMinter",
+                    "require(bool,string)"
+                ],
+                "external_calls": [
+                    "IERC20(address(this)).approve(_sell,amountTokenDesired)",
+                    "IUniswapV2Router01(_sell).addLiquidity(address(this),amountUsdt,amountTokenDesired,1,1)"
+                ]
+            },
+            {
+                "name": "transferLiquidity(uint256)",
+                "visibility": "public",
+                "modifiers": [
+                    "onlyMinter"
+                ],
+                "read_vars": [
+                    "_sell",
+                    "this"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "onlyMinter",
+                    "require(bool,string)"
+                ],
+                "external_calls": [
+                    "IUniswapV2Router01(_sell).transferLiquidity(address(this),amountUsdt)",
+                    "IERC20(address(this)).approve(_sell,1000000000)"
+                ]
+            },
+            {
+                "name": "isContract(address)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "transactionFee(address,address,uint256)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "BASE_RATIO",
+                    "ContractorsAddress",
+                    "ContractorsFee",
+                    "_dis",
+                    "_roter",
+                    "_transactFeeValue",
+                    "_usdt_token",
+                    "sale_date",
+                    "block.timestamp",
+                    "this"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "_transfer",
+                    "require(bool,string)",
+                    "isContract",
+                    "_msgSender",
+                    "balanceOf"
+                ],
+                "external_calls": [
+                    "realAmount.sub(fee)",
+                    "BASE_RATIO.div(1000).mul(8)",
+                    "IUniswapV2Factory(IUniswapV2Router01(_roter).factory()).getPair(_usdt_token,address(this))",
+                    "realAmount.sub(transactFeeValue)",
+                    "IUniswapV2Pair(_dis).white(from)",
+                    "IUniswapV2Pair(_dis).white(from)",
+                    "IUniswapV2Router01(_roter).factory()",
+                    "usdt.mul(BASE_RATIO).div(mt)",
+                    "transactFeeValue.mul(ContractorsFee[setType][i]).div(100)",
+                    "mod.sub(mod.mod(BASE_RATIO.div(10000))).div(BASE_RATIO.div(10000))",
+                    "usdt.mul(BASE_RATIO)",
+                    "BASE_RATIO.div(1000)",
+                    "transactFeeValue.mul(ContractorsFee[setType][i])",
+                    "mod.mul(5)",
+                    "mod.sub(mod.mod(BASE_RATIO.div(10000)))",
+                    "IUniswapV2Pair(_dis).white(to)",
+                    "BASE_RATIO.div(10000)",
+                    "mod.mod(BASE_RATIO.div(10000))",
+                    "balanceOf(from).sub(amount)",
+                    "BASE_RATIO.div(10000000)",
+                    "amount.mul(fee).div(100)",
+                    "IUniswapV2Pair(_dis).isWhite(from)",
+                    "BASE_RATIO.div(10000)",
+                    "BASE_RATIO.div(1000).mul(9)",
+                    "IERC20(_usdt_token).balanceOf(pair)",
+                    "amount.mul(fee)",
+                    "amount.mul(_transactFeeValue).div(100)",
+                    "usdt_mt.mod(BASE_RATIO.div(1000))",
+                    "BASE_RATIO.div(1000)",
+                    "amount.mul(_transactFeeValue)",
+                    "IUniswapV2Pair(_dis).isWhite(to)",
+                    "BASE_RATIO.div(1000)",
+                    "IERC20(address(this)).balanceOf(pair)"
+                ]
+            },
+            {
+                "name": "_transfer(address,address,uint256)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [
+                    "_transfer",
+                    "transactionFee"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "buyMiner(address,uint256)",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [
+                    "_roter",
+                    "_usdt_token",
+                    "sale_date",
+                    "block.timestamp",
+                    "this"
+                ],
+                "write_vars": [
+                    "sale_date"
+                ],
+                "internal_calls": [
+                    "require(bool,string)"
+                ],
+                "external_calls": [
+                    "IUniswapV2Router01(_roter).swapExactTokensForTokens(usdt,1000000,token,k,block.timestamp + 60)",
+                    "new address[](2)",
+                    "usdt.div(10)",
+                    "IERC20(_usdt_token).transferFrom(user,address(this),usdt)",
+                    "IUniswapV2Router01(k).transfer(address(this),address(this),IERC20(address(this)).balanceOf(k))",
+                    "IERC20(address(this)).balanceOf(k)",
+                    "usdt.add(usdt.div(10))"
+                ]
+            },
+            {
+                "name": "constructor()",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [
+                    "_notEntered"
+                ],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "constructor()",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [
+                    "_msgSender",
+                    "_addMinter"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "isMinter(address)",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [
+                    "_minters"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": [
+                    "_minters.has(account)"
+                ]
+            },
+            {
+                "name": "addMinter(address)",
+                "visibility": "public",
+                "modifiers": [
+                    "onlyMinter"
+                ],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [
+                    "onlyMinter",
+                    "_addMinter"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "renounceMinter()",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [
+                    "_removeMinter",
+                    "_msgSender"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "_addMinter(address)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "_minters"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": [
+                    "_minters.add(account)"
+                ]
+            },
+            {
+                "name": "_removeMinter(address)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "_minters"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": [
+                    "_minters.remove(account)"
+                ]
+            },
+            {
+                "name": "constructor()",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "_msgSender()",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "msg.sender"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "_msgData()",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "msg.data"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "totalSupply()",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [
+                    "_totalSupply"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "balanceOf(address)",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [
+                    "_balances"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "transfer(address,uint256)",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [
+                    "_transfer",
+                    "_msgSender"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "allowance(address,address)",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [
+                    "_allowances"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "approve(address,uint256)",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [
+                    "_approve",
+                    "_msgSender"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "transferFrom(address,address,uint256)",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [
+                    "_allowances"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "_transfer",
+                    "_approve",
+                    "_msgSender"
+                ],
+                "external_calls": [
+                    "_allowances[sender][_msgSender()].sub(amount,ERC20: transfer amount exceeds allowance)"
+                ]
+            },
+            {
+                "name": "increaseAllowance(address,uint256)",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [
+                    "_allowances"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "_approve",
+                    "_msgSender"
+                ],
+                "external_calls": [
+                    "_allowances[_msgSender()][spender].add(addedValue)"
+                ]
+            },
+            {
+                "name": "decreaseAllowance(address,uint256)",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [
+                    "_allowances"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "_approve",
+                    "_msgSender"
+                ],
+                "external_calls": [
+                    "_allowances[_msgSender()][spender].sub(subtractedValue,ERC20: decreased allowance below zero)"
+                ]
+            },
+            {
+                "name": "_transfer(address,address,uint256)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "_balances"
+                ],
+                "write_vars": [
+                    "_balances"
+                ],
+                "internal_calls": [
+                    "require(bool,string)"
+                ],
+                "external_calls": [
+                    "_balances[recipient].add(amount)",
+                    "_balances[sender].sub(amount,ERC20: transfer amount exceeds balance)"
+                ]
+            },
+            {
+                "name": "_mint(address,uint256)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "_balances",
+                    "_totalSupply"
+                ],
+                "write_vars": [
+                    "_balances",
+                    "_totalSupply"
+                ],
+                "internal_calls": [
+                    "require(bool,string)"
+                ],
+                "external_calls": [
+                    "_totalSupply.add(amount)",
+                    "_balances[account].add(amount)"
+                ]
+            },
+            {
+                "name": "_burn(address,uint256)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "_balances",
+                    "_totalSupply"
+                ],
+                "write_vars": [
+                    "_balances",
+                    "_totalSupply"
+                ],
+                "internal_calls": [
+                    "require(bool,string)"
+                ],
+                "external_calls": [
+                    "_totalSupply.sub(amount)",
+                    "_balances[account].sub(amount,ERC20: burn amount exceeds balance)"
+                ]
+            },
+            {
+                "name": "_approve(address,address,uint256)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [
+                    "_allowances"
+                ],
+                "internal_calls": [
+                    "require(bool,string)"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "_burnFrom(address,uint256)",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [
+                    "_allowances"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "_burn",
+                    "_approve",
+                    "_msgSender"
+                ],
+                "external_calls": [
+                    "_allowances[account][_msgSender()].sub(amount,ERC20: burn amount exceeds allowance)"
+                ]
+            },
+            {
+                "name": "totalSupply()",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "balanceOf(address)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "transfer(address,uint256)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "allowance(address,address)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "approve(address,uint256)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "transferFrom(address,address,uint256)",
+                "visibility": "external",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "constructor(string,string,uint8)",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [
+                    "_decimals",
+                    "_name",
+                    "_symbol"
+                ],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "name()",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [
+                    "_name"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "symbol()",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [
+                    "_symbol"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "decimals()",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [
+                    "_decimals"
+                ],
+                "write_vars": [],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "constructor(address)",
+                "visibility": "public",
+                "modifiers": [],
+                "read_vars": [
+                    "this"
+                ],
+                "write_vars": [],
+                "internal_calls": [
+                    "_mint",
+                    "constructor",
+                    "constructor",
+                    "addMinter"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "slitherConstructorVariables()",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [
+                    "_transactFeeValue",
+                    "sale_date"
+                ],
+                "internal_calls": [],
+                "external_calls": []
+            },
+            {
+                "name": "slitherConstructorConstantVariables()",
+                "visibility": "internal",
+                "modifiers": [],
+                "read_vars": [],
+                "write_vars": [
+                    "BASE_RATIO"
+                ],
+                "internal_calls": [],
+                "external_calls": []
+            }
+        ],
+        "modifiers": [
+            {
+                "name": "nonReentrant()",
+                "visibility": "internal",
+                "read_vars": [
+                    "_notEntered"
+                ],
+                "write_vars": [
+                    "_notEntered"
+                ],
+                "internal_calls": [
+                    "require(bool,string)"
+                ],
+                "external_calls": []
+            },
+            {
+                "name": "onlyMinter()",
+                "visibility": "internal",
+                "read_vars": [],
+                "write_vars": [],
+                "internal_calls": [
+                    "_msgSender",
+                    "require(bool,string)",
+                    "isMinter"
+                ],
+                "external_calls": []
+            }
+        ]
+    }
+]

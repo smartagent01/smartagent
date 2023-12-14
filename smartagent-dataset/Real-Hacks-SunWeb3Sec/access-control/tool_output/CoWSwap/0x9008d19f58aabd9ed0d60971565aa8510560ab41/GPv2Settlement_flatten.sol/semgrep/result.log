@@ -1,0 +1,225 @@
+METRICS: Using configs from the Registry (like --config=p/ci) reports pseudonymous rule metrics to semgrep.dev.
+To disable Registry rule metrics, use "--metrics=off".
+Using configs only from local files (like --config=xyz.yml) does not enable metrics.
+
+More information: https://semgrep.dev/docs/metrics
+
+               
+               
+┌─────────────┐
+│ Scan Status │
+└─────────────┘
+  Scanning 1 file tracked by git with 48 Code rules:
+  Scanning 1 file with 48 solidity rules.
+                    
+                    
+┌──────────────────┐
+│ 53 Code Findings │
+└──────────────────┘
+                                   
+    /sb/GPv2Settlement_flatten.sol 
+       solidity.best-practice.use-abi-encodecall-instead-of-encodewithselector  
+          To guarantee arguments type safety it is recommended to use           
+  `abi.encodeCall` instead of                                                   
+          `abi.encodeWithSelector`.                                             
+                                                                                
+         1937┆ bytes memory innerCall =
+         1938┆     abi.encodeWithSelector(
+         1939┆         this.simulateDelegatecallInternal.selector,
+         1940┆         targetContract,
+         1941┆         calldataPayload
+         1942┆     );
+            ⋮┆----------------------------------------
+       solidity.performance.array-length-outside-loop                           
+          Caching the array length outside a loop saves reading it on each      
+  iteration, as long as the                                                     
+          array's length is not changed during the loop.                        
+                                                                                
+          927┆ for (uint256 i = 0; i < transfers.length; i++) {
+            ⋮┆----------------------------------------
+       solidity.performance.non-payable-constructor      
+          Consider making costructor payable to save gas.
+                                                         
+          990┆ constructor(IVault vault_) {
+          991┆     creator = msg.sender;
+          992┆     vault = vault_;
+          993┆ }
+            ⋮┆----------------------------------------
+         2040┆ constructor(GPv2Authentication authenticator_, IVault vault_) {
+         2041┆     authenticator = authenticator_;
+         2042┆     vault = vault_;
+         2043┆     vaultRelayer = new GPv2VaultRelayer(vault_);
+         2044┆ }
+            ⋮┆----------------------------------------
+       solidity.performance.unnecessary-checked-arithmetic-in-loop              
+          A lot of times there is no risk that the loop counter can overflow.   
+  Using Solidity's                                                              
+          unchecked block saves the overflow checks.                            
+                                                                                
+          881┆ for (uint256 i = 0; i < transfers.length; i++) {
+            ⋮┆----------------------------------------
+          927┆ for (uint256 i = 0; i < transfers.length; i++) {
+            ⋮┆----------------------------------------
+         1917┆ for (uint256 index = 0; index < length; index++) {
+            ⋮┆----------------------------------------
+         2277┆ for (uint256 i = 0; i < trades.length; i++) {
+            ⋮┆----------------------------------------
+         2420┆ for (uint256 i; i < interactions.length; i++) {
+            ⋮┆----------------------------------------
+         2449┆ for (uint256 i = 0; i < orderUids.length; i++) {
+            ⋮┆----------------------------------------
+       solidity.performance.use-custom-error-not-require                        
+          Consider using custom errors as they are more gas efficient while     
+  allowing developers  to                                                       
+          describe the error in detail using NatSpec.                           
+                                                                                
+          585┆ require(orderUid.length == UID_LENGTH, "GPv2: uid buffer         
+  overflow");                                                                   
+            ⋮┆----------------------------------------
+          636┆ require(orderUid.length == UID_LENGTH, "GPv2: invalid uid");
+            ⋮┆----------------------------------------
+          683┆ require(getLastTansferResult(token), "GPv2: failed transfer");
+            ⋮┆----------------------------------------
+          716┆ require(getLastTansferResult(token), "GPv2: failed               
+  transferFrom");                                                               
+            ⋮┆----------------------------------------
+          828┆ require(
+          829┆     address(transfer.token) != BUY_ETH_ADDRESS,
+          830┆     "GPv2: cannot transfer native ETH"
+          831┆ );
+            ⋮┆----------------------------------------
+          883┆ require(
+          884┆     address(transfer.token) != BUY_ETH_ADDRESS,
+          885┆     "GPv2: cannot transfer native ETH"
+          886┆ );
+            ⋮┆----------------------------------------
+          931┆ require(
+          932┆     transfer.balance != GPv2Order.BALANCE_INTERNAL,
+          933┆     "GPv2: unsupported internal ETH"
+          934┆ );
+            ⋮┆----------------------------------------
+          998┆ require(msg.sender == creator, "GPv2: not creator");
+            ⋮┆----------------------------------------
+         1266┆ require(owner == msg.sender, "GPv2: cannot presign order");
+            ⋮┆----------------------------------------
+         1361┆ require(
+         1362┆     encodedSignature.length == ECDSA_SIGNATURE_LENGTH,
+         1363┆     "GPv2: malformed ecdsa signature"
+         1364┆ );
+            ⋮┆----------------------------------------
+         1382┆ require(signer != address(0), "GPv2: invalid ecdsa signature");
+            ⋮┆----------------------------------------
+         1476┆ require(
+         1477┆     EIP1271Verifier(owner).isValidSignature(orderDigest,         
+  signature) ==                                                                 
+         1478┆         GPv2EIP1271.MAGICVALUE,
+         1479┆     "GPv2: invalid eip1271 signature"
+         1480┆ );
+            ⋮┆----------------------------------------
+         1496┆ require(encodedSignature.length == 20, "GPv2: malformed          
+  presignature");                                                               
+            ⋮┆----------------------------------------
+         1508┆ require(
+         1509┆     preSignature[orderUid] == PRE_SIGNED,
+         1510┆     "GPv2: order not presigned"
+         1511┆ );
+            ⋮┆----------------------------------------
+         1677┆ require(value >= 0, "SafeCast: not positive");
+            ⋮┆----------------------------------------
+         1689┆ require(
+         1690┆     value <= uint256(type(int256).max),
+         1691┆     "SafeCast: int256 overflow"
+         1692┆ );
+            ⋮┆----------------------------------------
+         1735┆ require(c >= a, "SafeMath: addition overflow");
+            ⋮┆----------------------------------------
+         1750┆ require(b <= a, "SafeMath: subtraction overflow");
+            ⋮┆----------------------------------------
+         1767┆ require(c / a == b, "SafeMath: mul overflow");
+            ⋮┆----------------------------------------
+         1784┆ require(b > 0, "SafeMath: division by 0");
+            ⋮┆----------------------------------------
+         1799┆ require(b > 0, "SafeMath: ceiling division by 0");
+            ⋮┆----------------------------------------
+         1860┆ require(_status != _ENTERED, "ReentrancyGuard: reentrant call");
+            ⋮┆----------------------------------------
+         2055┆ require(authenticator.isSolver(msg.sender), "GPv2: not a         
+  solver");                                                                     
+            ⋮┆----------------------------------------
+         2062┆ require(address(this) == msg.sender, "GPv2: not an interaction");
+            ⋮┆----------------------------------------
+         2148┆ require(limitAmount >= order.buyAmount, "GPv2: limit too low");
+            ⋮┆----------------------------------------
+         2152┆ require(limitAmount <= order.sellAmount, "GPv2: limit too high");
+            ⋮┆----------------------------------------
+         2186┆ require(filledAmount[orderUid] == 0, "GPv2: order filled");
+            ⋮┆----------------------------------------
+         2188┆ require(
+         2189┆     executedSellAmount == order.sellAmount,
+         2190┆     "GPv2: sell amount not respected"
+         2191┆ );
+            ⋮┆----------------------------------------
+         2194┆ require(
+         2195┆     executedBuyAmount == order.buyAmount,
+         2196┆     "GPv2: buy amount not respected"
+         2197┆ );
+            ⋮┆----------------------------------------
+         2221┆ require(owner == msg.sender, "GPv2: caller does not own order");
+            ⋮┆----------------------------------------
+         2320┆ require(order.validTo >= block.timestamp, "GPv2: order expired");
+            ⋮┆----------------------------------------
+         2339┆ require(
+         2340┆     order.sellAmount.mul(sellPrice) >=                           
+  order.buyAmount.mul(buyPrice),                                                
+         2341┆     "GPv2: limit price not respected"
+         2342┆ );
+            ⋮┆----------------------------------------
+         2367┆ require(
+         2368┆     currentFilledAmount <= order.sellAmount,
+         2369┆     "GPv2: order filled"
+         2370┆ );
+            ⋮┆----------------------------------------
+         2385┆ require(
+         2386┆     currentFilledAmount <= order.buyAmount,
+         2387┆     "GPv2: order filled"
+         2388┆ );
+            ⋮┆----------------------------------------
+         2425┆ require(
+         2426┆     interaction.target != address(vaultRelayer),
+         2427┆     "GPv2: forbidden interaction"
+         2428┆ );
+            ⋮┆----------------------------------------
+         2454┆ require(validTo < block.timestamp, "GPv2: order still valid");
+            ⋮┆----------------------------------------
+       solidity.performance.use-prefix-increment-not-postfix                    
+          Consider using the prefix increment expression whenever the return    
+  value is not needed. The                                                      
+          prefix increment expression is cheaper in terms of gas.               
+                                                                                
+          881┆ for (uint256 i = 0; i < transfers.length; i++) {
+            ⋮┆----------------------------------------
+          927┆ for (uint256 i = 0; i < transfers.length; i++) {
+            ⋮┆----------------------------------------
+         1917┆ for (uint256 index = 0; index < length; index++) {
+            ⋮┆----------------------------------------
+         2277┆ for (uint256 i = 0; i < trades.length; i++) {
+            ⋮┆----------------------------------------
+         2420┆ for (uint256 i; i < interactions.length; i++) {
+            ⋮┆----------------------------------------
+         2449┆ for (uint256 i = 0; i < orderUids.length; i++) {
+            ⋮┆----------------------------------------
+       solidity.security.delegatecall-to-arbitrary-address               
+          An attacker may perform delegatecall() to an arbitrary address.
+                                                                         
+         1967┆ (success, response) =                                            
+  targetContract.delegatecall(calldataPayload);                                 
+
+                
+                
+┌──────────────┐
+│ Scan Summary │
+└──────────────┘
+
+Ran 48 rules on 1 file: 53 findings.
+
+A new version of Semgrep is available. See https://semgrep.dev/docs/upgrading

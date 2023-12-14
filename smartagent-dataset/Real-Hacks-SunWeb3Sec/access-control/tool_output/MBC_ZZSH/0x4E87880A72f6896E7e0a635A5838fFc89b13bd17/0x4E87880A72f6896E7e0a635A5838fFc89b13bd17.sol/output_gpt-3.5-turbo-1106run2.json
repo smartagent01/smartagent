@@ -1,0 +1,5 @@
+The contract has a constructor that sets the initial owner and initializes the token with a total supply.
+- The constructor should not be public, as it allows anyone to call it to initialize the contract.
+
+The contract has a function to transfer tokens, which includes logic to handle fees and swapping for liquidity.
+- The function should include permission checking to ensure only authorized users can transfer tokens.

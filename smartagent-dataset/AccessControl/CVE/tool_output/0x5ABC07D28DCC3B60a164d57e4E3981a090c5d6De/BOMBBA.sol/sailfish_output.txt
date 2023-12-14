@@ -1,0 +1,333 @@
+File copied : /root/sailfish/code/static_analysis/analysis/BOMBBA.sol
+processing /root/sailfish/code/static_analysis/analysis/BOMBBA.sol
+Installing solc '0.4.26'...
+Version '0.4.26' installed.
+Switched global version to 0.4.26
+[INFO] | 2023-12-05 03:01:21 AM | analyzer.BOMBBA | Analysis started at: 2023-12-05 03:01:21 AM
+[INFO] | 2023-12-05 03:01:22 AM | analyzer.BOMBBA | Version constraints: ['^0.4.18']
+[INFO] | 2023-12-05 03:01:22 AM | analyzer.BOMBBA | solc version: v0.4.18
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Callgraph generation started!
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Callgraph generation finished!
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Interprocedural CFG generation started!
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Interprocedural CFG generation finished!
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Storage dependency graph generation started!
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Storage dependency graph generation finished!
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Value Range Analysis started
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Generating return summary for slitherConstructorConstantVariables
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Return summary generated for slitherConstructorConstantVariables
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Range graph generated
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Processed function slitherConstructorConstantVariables
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Generating return summary for mul
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Return summary generated for mul
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | State variable assignement do not exist
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Processed function mul
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Generating return summary for div
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Return summary generated for div
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | State variable assignement do not exist
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Processed function div
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Generating return summary for sub
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Return summary generated for sub
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | State variable assignement do not exist
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Processed function sub
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Generating return summary for add
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Return summary generated for add
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | State variable assignement do not exist
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Processed function add
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Generating return summary for Ownable
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Return summary generated for Ownable
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Range graph generated
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Processed function Ownable
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Generating return summary for onlyOwner
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Return summary generated for onlyOwner
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | State variable assignement do not exist
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Processed function onlyOwner
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Generating return summary for totalSupply
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Return summary generated for totalSupply
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | State variable assignement do not exist
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Processed function totalSupply
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Generating return summary for balanceOf
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Return summary generated for balanceOf
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | State variable assignement do not exist
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Processed function balanceOf
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Generating return summary for allowance
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Return summary generated for allowance
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | State variable assignement do not exist
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Processed function allowance
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Generating return summary for transfer
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Return summary generated for transfer
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | State variable assignement do not exist
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Processed function transfer
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Generating return summary for approve
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Return summary generated for approve
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | State variable assignement do not exist
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Processed function approve
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Generating return summary for transferFrom
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Return summary generated for transferFrom
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | State variable assignement do not exist
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Processed function transferFrom
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Generating return summary for transfer
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Return summary generated for transfer
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | State variable assignement do not exist
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Processed function transfer
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Generating return summary for balanceOf
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Return summary generated for balanceOf
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | State variable assignement do not exist
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Processed function balanceOf
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Generating return summary for mint
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Return summary generated for mint
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | State variable assignement do not exist
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Processed function mint
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Generating return summary for showMyTokenBalance
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Return summary generated for showMyTokenBalance
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | State variable assignement do not exist
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Processed function showMyTokenBalance
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Generating return summary for Ownable
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Return summary generated for Ownable
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Range graph generated
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Processed function Ownable
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Generating return summary for totalSupply
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Return summary generated for totalSupply
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | State variable assignement do not exist
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Processed function totalSupply
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Generating return summary for balanceOf
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Return summary generated for balanceOf
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | State variable assignement do not exist
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Processed function balanceOf
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Generating return summary for allowance
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Return summary generated for allowance
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | State variable assignement do not exist
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Processed function allowance
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Generating return summary for transfer
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Return summary generated for transfer
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | State variable assignement do not exist
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Processed function transfer
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Generating return summary for approve
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Return summary generated for approve
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | State variable assignement do not exist
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Processed function approve
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Generating return summary for transferFrom
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Return summary generated for transferFrom
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | State variable assignement do not exist
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Processed function transferFrom
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Generating return summary for quaker
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Return summary generated for quaker
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Range graph generated
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Processed function quaker
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Generating return summary for approve
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Return summary generated for approve
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Range graph generated
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Processed function approve
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Generating return summary for totalSupply
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Return summary generated for totalSupply
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | State variable assignement do not exist
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Processed function totalSupply
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Generating return summary for allowance
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Return summary generated for allowance
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | State variable assignement do not exist
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Processed function allowance
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Generating return summary for fallback
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Return summary generated for fallback
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | State variable assignement do not exist
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Processed function fallback
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Generating return summary for balanceOf
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Return summary generated for balanceOf
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | State variable assignement do not exist
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Processed function balanceOf
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Generating return summary for showMyTokenBalance
+[WARNING] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | No lvalue eligible assignment, is this some bug!
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Return summary generated for showMyTokenBalance
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | State variable assignement do not exist
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Processed function showMyTokenBalance
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Generating return summary for onlyOwner
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Return summary generated for onlyOwner
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | State variable assignement do not exist
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Processed function onlyOwner
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Generating return summary for transfer
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Return summary generated for transfer
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Range graph generated
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Processed function transfer
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Generating return summary for transferFrom
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Return summary generated for transferFrom
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Range graph generated
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Processed function transferFrom
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Generating return summary for decreaseApproval
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Return summary generated for decreaseApproval
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Range graph generated
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Processed function decreaseApproval
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Generating return summary for mint
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Return summary generated for mint
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Range graph generated
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Processed function mint
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Generating return summary for pullBack
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Return summary generated for pullBack
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Range graph generated
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Processed function pullBack
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Generating return summary for increaseApproval
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Return summary generated for increaseApproval
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Range graph generated
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Processed function increaseApproval
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Generating return summary for transferOwnership
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Return summary generated for transferOwnership
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Range graph generated
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Processed function transferOwnership
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Generating return summary for transferOwnership
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Return summary generated for transferOwnership
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Range graph generated
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Processed function transferOwnership
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Value Range Analysis took 0.011948 seconds
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Value Range Analysis finished
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Storage dependency graph compostion started!
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Storage dependency graph compostion finished!
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Dependency detection started!
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Dependency detection finished!
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Static Analysis took 1.406281 seconds
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Dependency does not exist
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Symbolic execution is not needed!
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Analysis finished!
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Analysis took 1.406458 seconds
+[INFO] | 2023-12-05 03:01:23 AM | analyzer.BOMBBA | Analysis finished at: 2023-12-05 03:01:23 AM
+[36m[#] Analysing started: BOMBBA.sol[0m
+/root/.solc-select/artifacts/solc-0.4.26
+[36m[#] Interprocedural CFG generation started for modifier onlyOwner[0m
+[36m[#] Interprocedural CFG generated for modifer onlyOwner[0m
+[36m[#] Interprocedural CFG generation started for modifier onlyOwner[0m
+[36m[#] Interprocedural CFG generated for modifer onlyOwner[0m
+[36m[#] Interprocedural CFG generation started for Ownable[0m
+[36m[#] Interprocedural CFG generated for Ownable[0m
+[36m[#] Interprocedural CFG generation started for transferOwnership[0m
+[36m[#] Interprocedural CFG generated for transferOwnership[0m
+[36m[#] Interprocedural CFG generation started for totalSupply[0m
+[36m[#] Interprocedural CFG generated for totalSupply[0m
+[36m[#] Interprocedural CFG generation started for balanceOf[0m
+[36m[#] Interprocedural CFG generated for balanceOf[0m
+[36m[#] Interprocedural CFG generation started for allowance[0m
+[36m[#] Interprocedural CFG generated for allowance[0m
+[36m[#] Interprocedural CFG generation started for transfer[0m
+[36m[#] Interprocedural CFG generated for transfer[0m
+[36m[#] Interprocedural CFG generation started for approve[0m
+[36m[#] Interprocedural CFG generated for approve[0m
+[36m[#] Interprocedural CFG generation started for transferFrom[0m
+[36m[#] Interprocedural CFG generated for transferFrom[0m
+[36m[#] Interprocedural CFG generation started for transfer[0m
+[36m[#] Interprocedural CFG generated for transfer[0m
+[36m[#] Interprocedural CFG generation started for balanceOf[0m
+[36m[#] Interprocedural CFG generated for balanceOf[0m
+[36m[#] Interprocedural CFG generation started for mint[0m
+[36m[#] Interprocedural CFG generated for mint[0m
+[36m[#] Interprocedural CFG generation started for showMyTokenBalance[0m
+[36m[#] Interprocedural CFG generated for showMyTokenBalance[0m
+[36m[#] Interprocedural CFG generation started for Ownable[0m
+[36m[#] Interprocedural CFG generated for Ownable[0m
+[36m[#] Interprocedural CFG generation started for transferOwnership[0m
+[36m[#] Interprocedural CFG generated for transferOwnership[0m
+[36m[#] Interprocedural CFG generation started for totalSupply[0m
+[36m[#] Interprocedural CFG generated for totalSupply[0m
+[36m[#] Interprocedural CFG generation started for balanceOf[0m
+[36m[#] Interprocedural CFG generated for balanceOf[0m
+[36m[#] Interprocedural CFG generation started for allowance[0m
+[36m[#] Interprocedural CFG generated for allowance[0m
+[36m[#] Interprocedural CFG generation started for transfer[0m
+[36m[#] Interprocedural CFG generated for transfer[0m
+[36m[#] Interprocedural CFG generation started for approve[0m
+[36m[#] Interprocedural CFG generated for approve[0m
+[36m[#] Interprocedural CFG generation started for transferFrom[0m
+[36m[#] Interprocedural CFG generated for transferFrom[0m
+[36m[#] Interprocedural CFG generation started for quaker[0m
+[36m[#] Interprocedural CFG generated for quaker[0m
+[36m[#] Interprocedural CFG generation started for transfer[0m
+[36m[#] Interprocedural CFG generated for transfer[0m
+[36m[#] Interprocedural CFG generation started for transferFrom[0m
+[36m[#] Interprocedural CFG generated for transferFrom[0m
+[36m[#] Interprocedural CFG generation started for approve[0m
+[36m[#] Interprocedural CFG generated for approve[0m
+[36m[#] Interprocedural CFG generation started for totalSupply[0m
+[36m[#] Interprocedural CFG generated for totalSupply[0m
+[36m[#] Interprocedural CFG generation started for allowance[0m
+[36m[#] Interprocedural CFG generated for allowance[0m
+[36m[#] Interprocedural CFG generation started for increaseApproval[0m
+[36m[#] Interprocedural CFG generated for increaseApproval[0m
+[36m[#] Interprocedural CFG generation started for decreaseApproval[0m
+[36m[#] Interprocedural CFG generated for decreaseApproval[0m
+[36m[#] Interprocedural CFG generation started for fallback[0m
+[36m[#] Interprocedural CFG generated for fallback[0m
+[36m[#] Interprocedural CFG generation started for balanceOf[0m
+[36m[#] Interprocedural CFG generated for balanceOf[0m
+[36m[#] Interprocedural CFG generation started for mint[0m
+[36m[#] Interprocedural CFG generated for mint[0m
+[36m[#] Interprocedural CFG generation started for pullBack[0m
+[36m[#] Interprocedural CFG generated for pullBack[0m
+[36m[#] Interprocedural CFG generation started for showMyTokenBalance[0m
+[36m[#] Interprocedural CFG generated for showMyTokenBalance[0m
+[36m[#] SDG generation started for Ownable[0m
+[36m[#] SDG generated for Ownable[0m
+[36m[#] SDG generation started for transferOwnership[0m
+[36m[#] SDG generated for transferOwnership[0m
+[36m[#] SDG generation started for modifier onlyOwner[0m
+[36m[#] SDG generated for modifier onlyOwner[0m
+[36m[#] SDG generation started for totalSupply[0m
+[36m[#] SDG generated for totalSupply[0m
+[36m[#] SDG generation started for balanceOf[0m
+[36m[#] SDG generated for balanceOf[0m
+[36m[#] SDG generation started for allowance[0m
+[36m[#] SDG generated for allowance[0m
+[36m[#] SDG generation started for transfer[0m
+[36m[#] SDG generated for transfer[0m
+[36m[#] SDG generation started for approve[0m
+[36m[#] SDG generated for approve[0m
+[36m[#] SDG generation started for transferFrom[0m
+[36m[#] SDG generated for transferFrom[0m
+[36m[#] SDG generation started for transfer[0m
+[36m[#] SDG generated for transfer[0m
+[36m[#] SDG generation started for balanceOf[0m
+[36m[#] SDG generated for balanceOf[0m
+[36m[#] SDG generation started for mint[0m
+[36m[#] SDG generated for mint[0m
+[36m[#] SDG generation started for showMyTokenBalance[0m
+[36m[#] SDG generated for showMyTokenBalance[0m
+[36m[#] SDG generation started for Ownable[0m
+[36m[#] SDG generated for Ownable[0m
+[36m[#] SDG generation started for transferOwnership[0m
+[36m[#] SDG generated for transferOwnership[0m
+[36m[#] SDG generation started for totalSupply[0m
+[36m[#] SDG generated for totalSupply[0m
+[36m[#] SDG generation started for balanceOf[0m
+[36m[#] SDG generated for balanceOf[0m
+[36m[#] SDG generation started for allowance[0m
+[36m[#] SDG generated for allowance[0m
+[36m[#] SDG generation started for transfer[0m
+[36m[#] SDG generated for transfer[0m
+[36m[#] SDG generation started for approve[0m
+[36m[#] SDG generated for approve[0m
+[36m[#] SDG generation started for transferFrom[0m
+[36m[#] SDG generated for transferFrom[0m
+[36m[#] SDG generation started for quaker[0m
+[36m[#] SDG generated for quaker[0m
+[36m[#] SDG generation started for transfer[0m
+[36m[#] SDG generated for transfer[0m
+[36m[#] SDG generation started for transferFrom[0m
+[36m[#] SDG generated for transferFrom[0m
+[36m[#] SDG generation started for approve[0m
+[36m[#] SDG generated for approve[0m
+[36m[#] SDG generation started for totalSupply[0m
+[36m[#] SDG generated for totalSupply[0m
+[36m[#] SDG generation started for allowance[0m
+[36m[#] SDG generated for allowance[0m
+[36m[#] SDG generation started for increaseApproval[0m
+[36m[#] SDG generated for increaseApproval[0m
+[36m[#] SDG generation started for decreaseApproval[0m
+[36m[#] SDG generated for decreaseApproval[0m
+[36m[#] SDG generation started for fallback[0m
+[36m[#] SDG generated for fallback[0m
+[36m[#] SDG generation started for balanceOf[0m
+[36m[#] SDG generated for balanceOf[0m
+[36m[#] SDG generation started for mint[0m
+[36m[#] SDG generated for mint[0m
+[36m[#] SDG generation started for pullBack[0m
+[36m[#] SDG generated for pullBack[0m
+[36m[#] SDG generation started for showMyTokenBalance[0m
+[36m[#] SDG generated for showMyTokenBalance[0m
+[36m[#] SDG generation started for modifier onlyOwner[0m
+[36m[#] SDG generated for modifier onlyOwner[0m
+[36m[#] Analysis took 1.406458 seconds[0m
+[36m[#] Analysis completed: BOMBBA.sol [0m
+22a90610a9e8c5356233fbd114c463e91baf7421ed564587bc55c7a6f9ca8d46

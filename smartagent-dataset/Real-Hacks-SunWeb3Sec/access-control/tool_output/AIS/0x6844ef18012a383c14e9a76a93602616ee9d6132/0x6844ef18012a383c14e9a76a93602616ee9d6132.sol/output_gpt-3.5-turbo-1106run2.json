@@ -1,0 +1,8 @@
+setSwapPairs
+The setSwapPairs function does not have any access control mechanism, allowing anyone to set pairs for swapping.
+
+harvestMarket
+The harvestMarket function mints tokens to the MarketAddress based on pending mint value without proper permission checking.
+
+balanceOf
+The balanceOf function adjusts the balance by subtracting any pending burn amount for the account without proper permission checking.

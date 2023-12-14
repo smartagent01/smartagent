@@ -1,0 +1,204 @@
+File copied : /root/sailfish/code/static_analysis/analysis/AURA.sol
+processing /root/sailfish/code/static_analysis/analysis/AURA.sol
+Installing solc '0.4.26'...
+Version '0.4.26' installed.
+Switched global version to 0.4.26
+[INFO] | 2023-12-05 04:01:58 AM | analyzer.AURA   | Analysis started at: 2023-12-05 04:01:58 AM
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Version constraints: ['^0.4.19']
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | solc version: v0.4.19
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Callgraph generation started!
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Callgraph generation finished!
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Interprocedural CFG generation started!
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Interprocedural CFG generation finished!
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Storage dependency graph generation started!
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Storage dependency graph generation finished!
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Value Range Analysis started
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Generating return summary for receiveApproval
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Return summary generated for receiveApproval
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | State variable assignement do not exist
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Processed function receiveApproval
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Generating return summary for safeMul
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Return summary generated for safeMul
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | State variable assignement do not exist
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Processed function safeMul
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Generating return summary for safeSub
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Return summary generated for safeSub
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | State variable assignement do not exist
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Processed function safeSub
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Generating return summary for safeAdd
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Return summary generated for safeAdd
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | State variable assignement do not exist
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Processed function safeAdd
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Generating return summary for Owned
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Return summary generated for Owned
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Range graph generated
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Processed function Owned
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Generating return summary for setOwner
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Return summary generated for setOwner
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Range graph generated
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Processed function setOwner
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Generating return summary for Owned
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Return summary generated for Owned
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Range graph generated
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Processed function Owned
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Generating return summary for setOwner
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Return summary generated for setOwner
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Range graph generated
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Processed function setOwner
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Generating return summary for safeMul
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Return summary generated for safeMul
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | State variable assignement do not exist
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Processed function safeMul
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Generating return summary for safeSub
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Return summary generated for safeSub
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | State variable assignement do not exist
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Processed function safeSub
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Generating return summary for safeAdd
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Return summary generated for safeAdd
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | State variable assignement do not exist
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Processed function safeAdd
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Generating return summary for AURA
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Return summary generated for AURA
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Range graph generated
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Processed function AURA
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Generating return summary for _transfer
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Return summary generated for _transfer
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Range graph generated
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Processed function _transfer
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Generating return summary for approve
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Return summary generated for approve
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Range graph generated
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Processed function approve
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Generating return summary for slitherConstructorVariables
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Return summary generated for slitherConstructorVariables
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Range graph generated
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Processed function slitherConstructorVariables
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Generating return summary for onlyOwner
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Return summary generated for onlyOwner
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | State variable assignement do not exist
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Processed function onlyOwner
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Generating return summary for approveAndCall
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Return summary generated for approveAndCall
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Range graph generated
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Processed function approveAndCall
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Generating return summary for uploadBalances
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Return summary generated for uploadBalances
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Range graph generated
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Processed function uploadBalances
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Generating return summary for transfer
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Return summary generated for transfer
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Range graph generated
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Processed function transfer
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Generating return summary for transferFrom
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Return summary generated for transferFrom
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Range graph generated
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Processed function transferFrom
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Generating return summary for unlockToken
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Return summary generated for unlockToken
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Range graph generated
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Processed function unlockToken
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Generating return summary for lockBalances
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Return summary generated for lockBalances
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Range graph generated
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Processed function lockBalances
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Value Range Analysis took 0.006681 seconds
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Value Range Analysis finished
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Storage dependency graph compostion started!
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Storage dependency graph compostion finished!
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Dependency detection started!
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Dependency detection finished!
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Static Analysis took 1.033771 seconds
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Dependency does not exist
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Symbolic execution is not needed!
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Analysis finished!
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Analysis took 1.033949 seconds
+[INFO] | 2023-12-05 04:01:59 AM | analyzer.AURA   | Analysis finished at: 2023-12-05 04:01:59 AM
+[36m[#] Analysing started: AURA.sol[0m
+/root/.solc-select/artifacts/solc-0.4.26
+[36m[#] Interprocedural CFG generation started for modifier onlyOwner[0m
+[36m[#] Interprocedural CFG generated for modifer onlyOwner[0m
+[36m[#] Interprocedural CFG generation started for modifier onlyOwner[0m
+[36m[#] Interprocedural CFG generated for modifer onlyOwner[0m
+[36m[#] Interprocedural CFG generation started for receiveApproval[0m
+[36m[#] Interprocedural CFG generated for receiveApproval[0m
+[36m[#] Interprocedural CFG generation started for safeMul[0m
+[36m[#] Interprocedural CFG generated for safeMul[0m
+[36m[#] Interprocedural CFG generation started for safeSub[0m
+[36m[#] Interprocedural CFG generated for safeSub[0m
+[36m[#] Interprocedural CFG generation started for safeAdd[0m
+[36m[#] Interprocedural CFG generated for safeAdd[0m
+[36m[#] Interprocedural CFG generation started for Owned[0m
+[36m[#] Interprocedural CFG generated for Owned[0m
+[36m[#] Interprocedural CFG generation started for setOwner[0m
+[36m[#] Interprocedural CFG generated for setOwner[0m
+[36m[#] Interprocedural CFG generation started for Owned[0m
+[36m[#] Interprocedural CFG generated for Owned[0m
+[36m[#] Interprocedural CFG generation started for setOwner[0m
+[36m[#] Interprocedural CFG generated for setOwner[0m
+[36m[#] Interprocedural CFG generation started for safeMul[0m
+[36m[#] Interprocedural CFG generated for safeMul[0m
+[36m[#] Interprocedural CFG generation started for safeSub[0m
+[36m[#] Interprocedural CFG generated for safeSub[0m
+[36m[#] Interprocedural CFG generation started for safeAdd[0m
+[36m[#] Interprocedural CFG generated for safeAdd[0m
+[36m[#] Interprocedural CFG generation started for AURA[0m
+[36m[#] Interprocedural CFG generated for AURA[0m
+[36m[#] Interprocedural CFG generation started for transfer[0m
+[36m[#] Interprocedural CFG generated for transfer[0m
+[36m[#] Interprocedural CFG generation started for transferFrom[0m
+[36m[#] Interprocedural CFG generated for transferFrom[0m
+[36m[#] Interprocedural CFG generation started for approve[0m
+[36m[#] Interprocedural CFG generated for approve[0m
+[36m[#] Interprocedural CFG generation started for approveAndCall[0m
+[36m[#] Interprocedural CFG generated for approveAndCall[0m
+[36m[#] Interprocedural CFG generation started for unlockToken[0m
+[36m[#] Interprocedural CFG generated for unlockToken[0m
+[36m[#] Interprocedural CFG generation started for uploadBalances[0m
+[36m[#] Interprocedural CFG generated for uploadBalances[0m
+[36m[#] Interprocedural CFG generation started for lockBalances[0m
+[36m[#] Interprocedural CFG generated for lockBalances[0m
+[36m[#] SDG generation started for receiveApproval[0m
+[36m[#] SDG generated for receiveApproval[0m
+[36m[#] SDG generation started for safeMul[0m
+[36m[#] SDG generated for safeMul[0m
+[36m[#] SDG generation started for safeSub[0m
+[36m[#] SDG generated for safeSub[0m
+[36m[#] SDG generation started for safeAdd[0m
+[36m[#] SDG generated for safeAdd[0m
+[36m[#] SDG generation started for Owned[0m
+[36m[#] SDG generated for Owned[0m
+[36m[#] SDG generation started for setOwner[0m
+[36m[#] SDG generated for setOwner[0m
+[36m[#] SDG generation started for modifier onlyOwner[0m
+[36m[#] SDG generated for modifier onlyOwner[0m
+[36m[#] SDG generation started for Owned[0m
+[36m[#] SDG generated for Owned[0m
+[36m[#] SDG generation started for setOwner[0m
+[36m[#] SDG generated for setOwner[0m
+[36m[#] SDG generation started for safeMul[0m
+[36m[#] SDG generated for safeMul[0m
+[36m[#] SDG generation started for safeSub[0m
+[36m[#] SDG generated for safeSub[0m
+[36m[#] SDG generation started for safeAdd[0m
+[36m[#] SDG generated for safeAdd[0m
+[36m[#] SDG generation started for AURA[0m
+[36m[#] SDG generated for AURA[0m
+[36m[#] SDG generation started for transfer[0m
+[36m[#] SDG generated for transfer[0m
+[36m[#] SDG generation started for transferFrom[0m
+[36m[#] SDG generated for transferFrom[0m
+[36m[#] SDG generation started for approve[0m
+[36m[#] SDG generated for approve[0m
+[36m[#] SDG generation started for approveAndCall[0m
+[36m[#] SDG generated for approveAndCall[0m
+[36m[#] SDG generation started for unlockToken[0m
+[36m[#] SDG generated for unlockToken[0m
+[36m[#] SDG generation started for uploadBalances[0m
+[36m[#] SDG generated for uploadBalances[0m
+[36m[#] SDG generation started for lockBalances[0m
+[36m[#] SDG generated for lockBalances[0m
+[36m[#] SDG generation started for modifier onlyOwner[0m
+[36m[#] SDG generated for modifier onlyOwner[0m
+[36m[#] Analysis took 1.033949 seconds[0m
+[36m[#] Analysis completed: AURA.sol [0m
+f03c2d838bbbec4115b879b77ed270580b3bb256b5ff8de0b0938855ce1e1014

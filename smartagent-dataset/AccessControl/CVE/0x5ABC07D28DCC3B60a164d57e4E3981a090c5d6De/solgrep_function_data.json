@@ -1,0 +1,323 @@
+{
+  "/smart-agent/smartagent-dataset/AccessControl/CVE/0x5ABC07D28DCC3B60a164d57e4E3981a090c5d6De/BOMBBA.sol": [
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.mul",
+      "info": "mul",
+      "loc": [
+        18,
+        2,
+        22,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.div",
+      "info": "div",
+      "loc": [
+        24,
+        1,
+        29,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.sub",
+      "info": "sub",
+      "loc": [
+        31,
+        2,
+        34,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: SafeMath.add",
+      "info": "add",
+      "loc": [
+        36,
+        2,
+        40,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Ownable.__constructor__",
+      "info": "__constructor__",
+      "loc": [
+        54,
+        2,
+        56,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: Ownable.transferOwnership",
+      "info": "transferOwnership",
+      "loc": [
+        72,
+        2,
+        76,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20Interface.totalSupply",
+      "info": "totalSupply",
+      "loc": [
+        86,
+        5,
+        86,
+        58
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20Interface.balanceOf",
+      "info": "balanceOf",
+      "loc": [
+        87,
+        5,
+        87,
+        82
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20Interface.allowance",
+      "info": "allowance",
+      "loc": [
+        88,
+        5,
+        88,
+        101
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20Interface.transfer",
+      "info": "transfer",
+      "loc": [
+        89,
+        5,
+        89,
+        77
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20Interface.approve",
+      "info": "approve",
+      "loc": [
+        90,
+        5,
+        90,
+        81
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: ERC20Interface.transferFrom",
+      "info": "transferFrom",
+      "loc": [
+        91,
+        5,
+        91,
+        95
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: OldXRPCToken.transfer",
+      "info": "transfer",
+      "loc": [
+        97,
+        4,
+        97,
+        61
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: OldXRPCToken.balanceOf",
+      "info": "balanceOf",
+      "loc": [
+        98,
+        4,
+        98,
+        73
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: OldXRPCToken.mint",
+      "info": "mint",
+      "loc": [
+        99,
+        4,
+        99,
+        78
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: OldXRPCToken.showMyTokenBalance",
+      "info": "showMyTokenBalance",
+      "loc": [
+        100,
+        4,
+        100,
+        54
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: BOMBBA.quaker",
+      "info": "quaker",
+      "loc": [
+        118,
+        4,
+        123,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: BOMBBA.transfer",
+      "info": "transfer",
+      "loc": [
+        129,
+        2,
+        135,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: BOMBBA.transferFrom",
+      "info": "transferFrom",
+      "loc": [
+        144,
+        2,
+        154,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: BOMBBA.approve",
+      "info": "approve",
+      "loc": [
+        166,
+        2,
+        170,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: BOMBBA.totalSupply",
+      "info": "totalSupply",
+      "loc": [
+        175,
+        5,
+        177,
+        5
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: BOMBBA.allowance",
+      "info": "allowance",
+      "loc": [
+        185,
+        5,
+        187,
+        5
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: BOMBBA.increaseApproval",
+      "info": "increaseApproval",
+      "loc": [
+        199,
+        2,
+        203,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: BOMBBA.decreaseApproval",
+      "info": "decreaseApproval",
+      "loc": [
+        215,
+        2,
+        224,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: BOMBBA.__fallback__",
+      "info": "__fallback__",
+      "loc": [
+        230,
+        5,
+        232,
+        5
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: BOMBBA.balanceOf",
+      "info": "balanceOf",
+      "loc": [
+        240,
+        2,
+        242,
+        2
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: BOMBBA.mint",
+      "info": "mint",
+      "loc": [
+        244,
+        4,
+        250,
+        4
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: BOMBBA.pullBack",
+      "info": "pullBack",
+      "loc": [
+        251,
+        4,
+        257,
+        5
+      ]
+    },
+    {
+      "rule": "GenericGrep",
+      "tag": "match-function: BOMBBA.showMyTokenBalance",
+      "info": "showMyTokenBalance",
+      "loc": [
+        258,
+        4,
+        260,
+        4
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+_burn
+The `_burn` function is public, allowing anyone to burn tokens without authorization.
+
+setMinter
+The `setMinter` function lacks a check to ensure the admin address is set, potentially allowing unauthorized setting of minters.
+
+transferQuad
+The `transferQuad` function has a potential reentrancy vulnerability due to emitting a `Transfer` event before calling an external contract.
+
+_checkOnERC721Received
+The `_checkOnERC721Received` function does not verify the success of the call to the receiver's `onERC721Received` function.
+
+_checkOnERC721BatchReceived
+The `_checkOnERC721BatchReceived` function does not verify the success of the call to the receiver's `onERC721BatchReceived` function.

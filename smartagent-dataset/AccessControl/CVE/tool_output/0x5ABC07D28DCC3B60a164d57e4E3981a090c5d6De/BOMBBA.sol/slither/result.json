@@ -1,0 +1,370 @@
+{
+    "errors": [
+        "EXIT_CODE_36"
+    ],
+    "fails": [],
+    "findings": [
+        {
+            "confidence": "High",
+            "contract": "OldXRPCToken",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x5ABC07D28DCC3B60a164d57e4E3981a090c5d6De/BOMBBA.sol",
+            "function": "transfer",
+            "impact": "Medium",
+            "line": 98,
+            "line_end": 105,
+            "message": "OldXRPCToken (BOMBBA.sol#98-105) has incorrect ERC20 function interface(s):\n\t-transfer (BOMBBA.sol#98-99)\n",
+            "name": "erc20-interface"
+        },
+        {
+            "confidence": "High",
+            "contract": "BOMBBA",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x5ABC07D28DCC3B60a164d57e4E3981a090c5d6De/BOMBBA.sol",
+            "function": "fallback",
+            "impact": "Medium",
+            "line": 238,
+            "line_end": 240,
+            "message": "Contract locking ether found in BOMBBA.sol:\n\tContract BOMBBA has payable functions:\n\t - fallback (BOMBBA.sol#238-240)\n\tBut does not have a function to withdraw the ether\n",
+            "name": "locked-ether"
+        },
+        {
+            "confidence": "High",
+            "contract": "Ownable",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x5ABC07D28DCC3B60a164d57e4E3981a090c5d6De/BOMBBA.sol",
+            "function": "transferOwnership",
+            "impact": "Informational",
+            "line": 73,
+            "line_end": 82,
+            "message": "Ownable.transferOwnership (BOMBBA.sol#73-82) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "ERC20Interface",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x5ABC07D28DCC3B60a164d57e4E3981a090c5d6De/BOMBBA.sol",
+            "function": "totalSupply",
+            "impact": "Informational",
+            "line": 87,
+            "line_end": 88,
+            "message": "ERC20Interface.totalSupply (BOMBBA.sol#87-88) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "BOMBBA",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x5ABC07D28DCC3B60a164d57e4E3981a090c5d6De/BOMBBA.sol",
+            "function": "totalSupply",
+            "impact": "Informational",
+            "line": 181,
+            "line_end": 183,
+            "message": "BOMBBA.totalSupply (BOMBBA.sol#181-183) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "BOMBBA",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x5ABC07D28DCC3B60a164d57e4E3981a090c5d6De/BOMBBA.sol",
+            "function": "balanceOf",
+            "impact": "Informational",
+            "line": 245,
+            "line_end": 246,
+            "message": "BOMBBA.balanceOf (BOMBBA.sol#245-246) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "ERC20Interface",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x5ABC07D28DCC3B60a164d57e4E3981a090c5d6De/BOMBBA.sol",
+            "function": "balanceOf",
+            "impact": "Informational",
+            "line": 88,
+            "message": "ERC20Interface.balanceOf (BOMBBA.sol#88) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "BOMBBA",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x5ABC07D28DCC3B60a164d57e4E3981a090c5d6De/BOMBBA.sol",
+            "function": "allowance",
+            "impact": "Informational",
+            "line": 190,
+            "line_end": 193,
+            "message": "BOMBBA.allowance (BOMBBA.sol#190-193) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "ERC20Interface",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x5ABC07D28DCC3B60a164d57e4E3981a090c5d6De/BOMBBA.sol",
+            "function": "allowance",
+            "impact": "Informational",
+            "line": 88,
+            "line_end": 90,
+            "message": "ERC20Interface.allowance (BOMBBA.sol#88-90) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "ERC20Interface",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x5ABC07D28DCC3B60a164d57e4E3981a090c5d6De/BOMBBA.sol",
+            "function": "transfer",
+            "impact": "Informational",
+            "line": 90,
+            "line_end": 91,
+            "message": "ERC20Interface.transfer (BOMBBA.sol#90-91) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "BOMBBA",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x5ABC07D28DCC3B60a164d57e4E3981a090c5d6De/BOMBBA.sol",
+            "function": "transfer",
+            "impact": "Informational",
+            "line": 131,
+            "line_end": 140,
+            "message": "BOMBBA.transfer (BOMBBA.sol#131-140) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "BOMBBA",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x5ABC07D28DCC3B60a164d57e4E3981a090c5d6De/BOMBBA.sol",
+            "function": "approve",
+            "impact": "Informational",
+            "line": 169,
+            "line_end": 174,
+            "message": "BOMBBA.approve (BOMBBA.sol#169-174) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "ERC20Interface",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x5ABC07D28DCC3B60a164d57e4E3981a090c5d6De/BOMBBA.sol",
+            "function": "approve",
+            "impact": "Informational",
+            "line": 91,
+            "message": "ERC20Interface.approve (BOMBBA.sol#91) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "BOMBBA",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x5ABC07D28DCC3B60a164d57e4E3981a090c5d6De/BOMBBA.sol",
+            "function": "transferFrom",
+            "impact": "Informational",
+            "line": 146,
+            "line_end": 159,
+            "message": "BOMBBA.transferFrom (BOMBBA.sol#146-159) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "ERC20Interface",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x5ABC07D28DCC3B60a164d57e4E3981a090c5d6De/BOMBBA.sol",
+            "function": "transferFrom",
+            "impact": "Informational",
+            "line": 91,
+            "line_end": 93,
+            "message": "ERC20Interface.transferFrom (BOMBBA.sol#91-93) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "BOMBBA",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x5ABC07D28DCC3B60a164d57e4E3981a090c5d6De/BOMBBA.sol",
+            "function": "quaker",
+            "impact": "Informational",
+            "line": 121,
+            "line_end": 127,
+            "message": "BOMBBA.quaker (BOMBBA.sol#121-127) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "BOMBBA",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x5ABC07D28DCC3B60a164d57e4E3981a090c5d6De/BOMBBA.sol",
+            "function": "increaseApproval",
+            "impact": "Informational",
+            "line": 201,
+            "line_end": 209,
+            "message": "BOMBBA.increaseApproval (BOMBBA.sol#201-209) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "BOMBBA",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x5ABC07D28DCC3B60a164d57e4E3981a090c5d6De/BOMBBA.sol",
+            "function": "decreaseApproval",
+            "impact": "Informational",
+            "line": 218,
+            "line_end": 230,
+            "message": "BOMBBA.decreaseApproval (BOMBBA.sol#218-230) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "BOMBBA",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x5ABC07D28DCC3B60a164d57e4E3981a090c5d6De/BOMBBA.sol",
+            "function": "fallback",
+            "impact": "Informational",
+            "line": 238,
+            "line_end": 240,
+            "message": "BOMBBA.fallback (BOMBBA.sol#238-240) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "BOMBBA",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x5ABC07D28DCC3B60a164d57e4E3981a090c5d6De/BOMBBA.sol",
+            "function": "mint",
+            "impact": "Informational",
+            "line": 246,
+            "line_end": 254,
+            "message": "BOMBBA.mint (BOMBBA.sol#246-254) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "BOMBBA",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x5ABC07D28DCC3B60a164d57e4E3981a090c5d6De/BOMBBA.sol",
+            "function": "pullBack",
+            "impact": "Informational",
+            "line": 254,
+            "line_end": 261,
+            "message": "BOMBBA.pullBack (BOMBBA.sol#254-261) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "contract": "BOMBBA",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x5ABC07D28DCC3B60a164d57e4E3981a090c5d6De/BOMBBA.sol",
+            "function": "showMyTokenBalance",
+            "impact": "Informational",
+            "message": "BOMBBA.showMyTokenBalance (BOMBBA.sol) should be declared external\n",
+            "name": "external-function"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x5ABC07D28DCC3B60a164d57e4E3981a090c5d6De/BOMBBA.sol",
+            "impact": "Informational",
+            "line": 5,
+            "line_end": 7,
+            "message": "Detected issues with version pragma in BOMBBA.sol:\n\t- pragma solidity^0.4.18 (BOMBBA.sol#5-7): it allows old versions\n",
+            "name": "solc-version"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x5ABC07D28DCC3B60a164d57e4E3981a090c5d6De/BOMBBA.sol",
+            "impact": "Informational",
+            "line": 56,
+            "line_end": 60,
+            "message": "Function 'Ownable.Ownable' (BOMBBA.sol#56-60) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x5ABC07D28DCC3B60a164d57e4E3981a090c5d6De/BOMBBA.sol",
+            "impact": "Informational",
+            "line": 245,
+            "message": "Parameter '_owner' of BOMBBA.balanceOf (BOMBBA.sol#245) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x5ABC07D28DCC3B60a164d57e4E3981a090c5d6De/BOMBBA.sol",
+            "impact": "Informational",
+            "line": 131,
+            "message": "Parameter '_to' of BOMBBA.transfer (BOMBBA.sol#131) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x5ABC07D28DCC3B60a164d57e4E3981a090c5d6De/BOMBBA.sol",
+            "impact": "Informational",
+            "line": 131,
+            "message": "Parameter '_value' of BOMBBA.transfer (BOMBBA.sol#131) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x5ABC07D28DCC3B60a164d57e4E3981a090c5d6De/BOMBBA.sol",
+            "impact": "Informational",
+            "line": 170,
+            "line_end": 172,
+            "message": "Parameter '_spender' of BOMBBA.approve (BOMBBA.sol#170-172) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x5ABC07D28DCC3B60a164d57e4E3981a090c5d6De/BOMBBA.sol",
+            "impact": "Informational",
+            "line": 172,
+            "message": "Parameter '_value' of BOMBBA.approve (BOMBBA.sol#172) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x5ABC07D28DCC3B60a164d57e4E3981a090c5d6De/BOMBBA.sol",
+            "impact": "Informational",
+            "line": 146,
+            "line_end": 147,
+            "message": "Parameter '_from' of BOMBBA.transferFrom (BOMBBA.sol#146-147) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x5ABC07D28DCC3B60a164d57e4E3981a090c5d6De/BOMBBA.sol",
+            "impact": "Informational",
+            "line": 147,
+            "message": "Parameter '_to' of BOMBBA.transferFrom (BOMBBA.sol#147) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x5ABC07D28DCC3B60a164d57e4E3981a090c5d6De/BOMBBA.sol",
+            "impact": "Informational",
+            "line": 147,
+            "message": "Parameter '_value' of BOMBBA.transferFrom (BOMBBA.sol#147) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x5ABC07D28DCC3B60a164d57e4E3981a090c5d6De/BOMBBA.sol",
+            "impact": "Informational",
+            "line": 201,
+            "line_end": 202,
+            "message": "Parameter '_spender' of BOMBBA.increaseApproval (BOMBBA.sol#201-202) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x5ABC07D28DCC3B60a164d57e4E3981a090c5d6De/BOMBBA.sol",
+            "impact": "Informational",
+            "line": 202,
+            "line_end": 204,
+            "message": "Parameter '_addedValue' of BOMBBA.increaseApproval (BOMBBA.sol#202-204) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x5ABC07D28DCC3B60a164d57e4E3981a090c5d6De/BOMBBA.sol",
+            "impact": "Informational",
+            "line": 220,
+            "message": "Parameter '_spender' of BOMBBA.decreaseApproval (BOMBBA.sol#220) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "/smart-agent-artifact/smartagent-dataset/AccessControl/CVE/0x5ABC07D28DCC3B60a164d57e4E3981a090c5d6De/BOMBBA.sol",
+            "impact": "Informational",
+            "line": 220,
+            "message": "Parameter '_subtractedValue' of BOMBBA.decreaseApproval (BOMBBA.sol#220) is not in mixedCase\n",
+            "name": "naming-convention"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "slither",
+        "mode": "solidity",
+        "version": "2022/11/14"
+    }
+}

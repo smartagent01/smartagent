@@ -1,0 +1,208 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Uerii_Token/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE.sol",
+            "line": 375,
+            "message": "<x> += <y> costs more gas than <x> = <x> + <y> for state variables.",
+            "name": "inefficient-state-variable-increment"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Uerii_Token/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE.sol",
+            "line": 172,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Uerii_Token/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE.sol",
+            "line": 173,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Uerii_Token/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE.sol",
+            "line": 174,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Uerii_Token/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE.sol",
+            "line": 175,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Uerii_Token/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE.sol",
+            "line": 484,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Uerii_Token/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE.sol",
+            "line": 485,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Uerii_Token/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE.sol",
+            "line": 486,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Uerii_Token/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE.sol",
+            "line": 487,
+            "message": "Consider making costructor payable to save gas.",
+            "name": "non-payable-constructor"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Uerii_Token/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE.sol",
+            "line": 276,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Uerii_Token/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE.sol",
+            "line": 317,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Uerii_Token/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE.sol",
+            "line": 344,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Uerii_Token/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE.sol",
+            "line": 345,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Uerii_Token/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE.sol",
+            "line": 350,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Uerii_Token/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE.sol",
+            "line": 371,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Uerii_Token/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE.sol",
+            "line": 394,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Uerii_Token/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE.sol",
+            "line": 399,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Uerii_Token/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE.sol",
+            "line": 428,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Uerii_Token/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE.sol",
+            "line": 429,
+            "message": "Consider using custom errors as they are more gas efficient while allowing developers  to describe the error in detail using NatSpec.",
+            "name": "use-custom-error-not-require"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Uerii_Token/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE.sol",
+            "line": 276,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Uerii_Token/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE.sol",
+            "line": 317,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Uerii_Token/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE.sol",
+            "line": 344,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Uerii_Token/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE.sol",
+            "line": 345,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Uerii_Token/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE.sol",
+            "line": 350,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Uerii_Token/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE.sol",
+            "line": 394,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Uerii_Token/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE.sol",
+            "line": 399,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Uerii_Token/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE.sol",
+            "line": 428,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        },
+        {
+            "category": "performance",
+            "filename": "/smart-agent-artifact/smartagent-dataset/Real-Hacks-SunWeb3Sec/access-control/Uerii_Token/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE/0x418C24191aE947A78C99fDc0e45a1f96Afb254BE.sol",
+            "line": 429,
+            "message": "Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and  gas costs when the revert condition has been met.",
+            "name": "use-short-revert-string"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "semgrep",
+        "mode": "solidity",
+        "version": "2023/08/21"
+    }
+}

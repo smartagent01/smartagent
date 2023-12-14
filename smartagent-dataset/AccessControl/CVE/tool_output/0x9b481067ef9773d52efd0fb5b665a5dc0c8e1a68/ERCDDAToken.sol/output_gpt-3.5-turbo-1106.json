@@ -1,0 +1,8 @@
+freezeAccount
+Ensuring that only the owner can freeze or unfreeze accounts.
+
+burn
+Ensuring that only the owner can burn tokens.
+
+mintToken
+Ensuring that only the owner can mint new tokens.

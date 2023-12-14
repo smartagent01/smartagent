@@ -1,0 +1,70 @@
+File copied : /root/Achecker/output_gpt-4-1106-preview_0.sol.bin-runtime
+processing /root/Achecker/output_gpt-4-1106-preview_0.sol.bin-runtime
+Checking contract for [4mViolated-AC-Check[0m 
+------------------
+
+Violated access control check in function withdraw()
+	( 4446) 115e:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {1} in function ToOwner()
++--Attacker can make changes to AC item {1} in function transferOwnership(address)
+
+Violated access control check in function burn(uint256)
+	( 4680) 1248:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {1} in function ToOwner()
++--Attacker can make changes to AC item {1} in function transferOwnership(address)
+
+Violated access control check in function disableWhitelist(address[])
+	( 5140) 1414:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {1} in function ToOwner()
++--Attacker can make changes to AC item {1} in function transferOwnership(address)
+
+Violated access control check in function Mining24(uint256,uint256)
+	( 5374) 14fe:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {1} in function ToOwner()
++--Attacker can make changes to AC item {1} in function transferOwnership(address)
+
+Violated access control check in function airdrop(address[])
+	( 5559) 15b7:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {1} in function ToOwner()
++--Attacker can make changes to AC item {1} in function transferOwnership(address)
+
+Violated access control check in function setParameters(uint256,uint256)
+	( 5848) 16d8:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {1} in function ToOwner()
++--Attacker can make changes to AC item {1} in function transferOwnership(address)
+
+Violated access control check in function finishDistribution()
+	( 6017) 1781:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {1} in function ToOwner()
++--Attacker can make changes to AC item {1} in function transferOwnership(address)
+
+Violated access control check in function enableWhitelist(address[])
+	( 6217) 1849:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {1} in function ToOwner()
++--Attacker can make changes to AC item {1} in function transferOwnership(address)
+
+Violated access control check in function distributeAmounts(address[],uint256[])
+	( 6453) 1935:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {1} in function ToOwner()
++--Attacker can make changes to AC item {1} in function transferOwnership(address)
+
+Violated access control check in function withdrawForeignTokens(address)
+	( 8239) 202f:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {1} in function ToOwner()
++--Attacker can make changes to AC item {1} in function transferOwnership(address)
+
+Violated access control check in function transferOwnership(address)
+	( 8821) 2275:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {1} in function ToOwner()
++--Attacker can make changes to AC item {1} in function transferOwnership(address)
+
+Violated access control check in function distribution(address[],uint256)
+	( 9038) 234e:	57	-2 +0 = -2	JUMPI
++--Attacker can make changes to AC item {1} in function ToOwner()
++--Attacker can make changes to AC item {1} in function transferOwnership(address)
+
+
+Checking contract for [4mMissing-AC-Check[0m 
+------------------
+3debfde89b6d5de0776604fea14d5ebf452a610c08fe79bef096303bda7a7e81
+(False, 'ToOwner', '+--Attacker can make changes to AC item {1} in function ToOwner()')

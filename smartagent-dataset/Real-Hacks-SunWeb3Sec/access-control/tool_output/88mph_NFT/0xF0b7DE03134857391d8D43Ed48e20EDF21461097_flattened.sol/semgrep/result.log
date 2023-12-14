@@ -1,0 +1,233 @@
+METRICS: Using configs from the Registry (like --config=p/ci) reports pseudonymous rule metrics to semgrep.dev.
+To disable Registry rule metrics, use "--metrics=off".
+Using configs only from local files (like --config=xyz.yml) does not enable metrics.
+
+More information: https://semgrep.dev/docs/metrics
+
+               
+               
+┌─────────────┐
+│ Scan Status │
+└─────────────┘
+  Scanning 1 file tracked by git with 48 Code rules:
+  Scanning 1 file with 48 solidity rules.
+                    
+                    
+┌──────────────────┐
+│ 54 Code Findings │
+└──────────────────┘
+                                                                 
+    /sb/0xF0b7DE03134857391d8D43Ed48e20EDF21461097_flattened.sol 
+       solidity.best-practice.use-abi-encodecall-instead-of-encodewithselector  
+          To guarantee arguments type safety it is recommended to use           
+  `abi.encodeCall` instead of                                                   
+          `abi.encodeWithSelector`.                                             
+                                                                                
+          784┆ (bool success, bytes memory returndata) =                        
+  to.call(abi.encodeWithSelector(                                               
+          785┆     IERC721Receiver(to).onERC721Received.selector,
+          786┆     _msgSender(),
+          787┆     from,
+          788┆     tokenId,
+          789┆     _data
+          790┆ ));
+            ⋮┆----------------------------------------
+       solidity.best-practice.use-ownable2step                                  
+          By demanding that the receiver of the owner permissions actively      
+  accept via a contract call                                                    
+          of its own,  `Ownable2Step` and `Ownable2StepUpgradeable` prevent the 
+  contract ownership                                                            
+          from accidentally being transferred  to an address that cannot handle 
+  it.                                                                           
+                                                                                
+         1034┆ contract NFT is ERC721Metadata("", ""), Ownable {
+            ⋮┆----------------------------------------
+       solidity.performance.non-payable-constructor      
+          Consider making costructor payable to save gas.
+                                                         
+           22┆ constructor () internal { }
+            ⋮┆----------------------------------------
+          429┆ constructor () internal {
+          430┆     // Derived contracts need only register support for their own
+  interfaces,                                                                   
+          431┆     // we register support for ERC165 itself here
+          432┆     _registerInterface(_INTERFACE_ID_ERC165);
+          433┆ }
+            ⋮┆----------------------------------------
+          502┆ constructor () public {
+          503┆     // register the supported interfaces to conform to ERC721 via
+  ERC165                                                                        
+          504┆     _registerInterface(_INTERFACE_ID_ERC721);
+          505┆ }
+            ⋮┆----------------------------------------
+          858┆ constructor (string memory name, string memory symbol) public {
+          859┆     _name = name;
+          860┆     _symbol = symbol;
+          861┆ 
+          862┆     // register the supported interfaces to conform to ERC721 via
+  ERC165                                                                        
+          863┆     _registerInterface(_INTERFACE_ID_ERC721_METADATA);
+          864┆ }
+            ⋮┆----------------------------------------
+          976┆ constructor () internal {
+          977┆     address msgSender = _msgSender();
+          978┆     _owner = msgSender;
+          979┆     emit OwnershipTransferred(address(0), msgSender);
+          980┆ }
+            ⋮┆----------------------------------------
+       solidity.performance.use-custom-error-not-require                        
+          Consider using custom errors as they are more gas efficient while     
+  allowing developers  to                                                       
+          describe the error in detail using NatSpec.                           
+                                                                                
+          168┆ require(c >= a, "SafeMath: addition overflow");
+            ⋮┆----------------------------------------
+          222┆ require(c / a == b, "SafeMath: multiplication overflow");
+            ⋮┆----------------------------------------
+          361┆ require(address(this).balance >= amount, "Address: insufficient  
+  balance");                                                                    
+            ⋮┆----------------------------------------
+          365┆ require(success, "Address: unable to send value, recipient may   
+  have reverted");                                                              
+            ⋮┆----------------------------------------
+          456┆ require(interfaceId != 0xffffffff, "ERC165: invalid interface    
+  id");                                                                         
+            ⋮┆----------------------------------------
+          513┆ require(owner != address(0), "ERC721: balance query for the zero 
+  address");                                                                    
+            ⋮┆----------------------------------------
+          525┆ require(owner != address(0), "ERC721: owner query for nonexistent
+  token");                                                                      
+            ⋮┆----------------------------------------
+          540┆ require(to != owner, "ERC721: approval to current owner");
+            ⋮┆----------------------------------------
+          542┆ require(_msgSender() == owner || isApprovedForAll(owner,         
+  _msgSender()),                                                                
+          543┆     "ERC721: approve caller is not owner nor approved for all"
+          544┆ );
+            ⋮┆----------------------------------------
+          557┆ require(_exists(tokenId), "ERC721: approved query for nonexistent
+  token");                                                                      
+            ⋮┆----------------------------------------
+          569┆ require(to != _msgSender(), "ERC721: approve to caller");
+            ⋮┆----------------------------------------
+          595┆ require(_isApprovedOrOwner(_msgSender(), tokenId), "ERC721:      
+  transfer caller is not owner nor approved");                                  
+            ⋮┆----------------------------------------
+          628┆ require(_isApprovedOrOwner(_msgSender(), tokenId), "ERC721:      
+  transfer caller is not owner nor approved");                                  
+            ⋮┆----------------------------------------
+          646┆ require(_checkOnERC721Received(from, to, tokenId, _data),        
+  "ERC721: transfer to non ERC721Receiver implementer");                        
+            ⋮┆----------------------------------------
+          667┆ require(_exists(tokenId), "ERC721: operator query for nonexistent
+  token");                                                                      
+            ⋮┆----------------------------------------
+          699┆ require(_checkOnERC721Received(address(0), to, tokenId, _data),  
+  "ERC721: transfer to non ERC721Receiver implementer");                        
+            ⋮┆----------------------------------------
+          709┆ require(to != address(0), "ERC721: mint to the zero address");
+            ⋮┆----------------------------------------
+          710┆ require(!_exists(tokenId), "ERC721: token already minted");
+            ⋮┆----------------------------------------
+          726┆ require(ownerOf(tokenId) == owner, "ERC721: burn of token that is
+  not own");                                                                    
+            ⋮┆----------------------------------------
+          753┆ require(ownerOf(tokenId) == from, "ERC721: transfer of token that
+  is not own");                                                                 
+            ⋮┆----------------------------------------
+          754┆ require(to != address(0), "ERC721: transfer to the zero          
+  address");                                                                    
+            ⋮┆----------------------------------------
+          799┆ revert("ERC721: transfer to non ERC721Receiver implementer");
+            ⋮┆----------------------------------------
+          891┆ require(_exists(tokenId), "ERC721Metadata: URI query for         
+  nonexistent token");                                                          
+            ⋮┆----------------------------------------
+          914┆ require(_exists(tokenId), "ERC721Metadata: URI set of nonexistent
+  token");                                                                      
+            ⋮┆----------------------------------------
+          993┆ require(isOwner(), "Ownable: caller is not the owner");
+            ⋮┆----------------------------------------
+         1028┆ require(newOwner != address(0), "Ownable: new owner is the zero  
+  address");                                                                    
+            ⋮┆----------------------------------------
+       solidity.performance.use-short-revert-string                             
+          Shortening revert strings to fit in 32 bytes will decrease gas costs  
+  for deployment and  gas                                                       
+          costs when the revert condition has been met.                         
+                                                                                
+          222┆ require(c / a == b, "SafeMath: multiplication overflow");
+            ⋮┆----------------------------------------
+          365┆ require(success, "Address: unable to send value, recipient may   
+  have reverted");                                                              
+            ⋮┆----------------------------------------
+          513┆ require(owner != address(0), "ERC721: balance query for the zero 
+  address");                                                                    
+            ⋮┆----------------------------------------
+          525┆ require(owner != address(0), "ERC721: owner query for nonexistent
+  token");                                                                      
+            ⋮┆----------------------------------------
+          540┆ require(to != owner, "ERC721: approval to current owner");
+            ⋮┆----------------------------------------
+          542┆ require(_msgSender() == owner || isApprovedForAll(owner,         
+  _msgSender()),                                                                
+          543┆     "ERC721: approve caller is not owner nor approved for all"
+          544┆ );
+            ⋮┆----------------------------------------
+          557┆ require(_exists(tokenId), "ERC721: approved query for nonexistent
+  token");                                                                      
+            ⋮┆----------------------------------------
+          595┆ require(_isApprovedOrOwner(_msgSender(), tokenId), "ERC721:      
+  transfer caller is not owner nor approved");                                  
+            ⋮┆----------------------------------------
+          628┆ require(_isApprovedOrOwner(_msgSender(), tokenId), "ERC721:      
+  transfer caller is not owner nor approved");                                  
+            ⋮┆----------------------------------------
+          646┆ require(_checkOnERC721Received(from, to, tokenId, _data),        
+  "ERC721: transfer to non ERC721Receiver implementer");                        
+            ⋮┆----------------------------------------
+          667┆ require(_exists(tokenId), "ERC721: operator query for nonexistent
+  token");                                                                      
+            ⋮┆----------------------------------------
+          699┆ require(_checkOnERC721Received(address(0), to, tokenId, _data),  
+  "ERC721: transfer to non ERC721Receiver implementer");                        
+            ⋮┆----------------------------------------
+          726┆ require(ownerOf(tokenId) == owner, "ERC721: burn of token that is
+  not own");                                                                    
+            ⋮┆----------------------------------------
+          753┆ require(ownerOf(tokenId) == from, "ERC721: transfer of token that
+  is not own");                                                                 
+            ⋮┆----------------------------------------
+          754┆ require(to != address(0), "ERC721: transfer to the zero          
+  address");                                                                    
+            ⋮┆----------------------------------------
+          799┆ revert("ERC721: transfer to non ERC721Receiver implementer");
+            ⋮┆----------------------------------------
+          891┆ require(_exists(tokenId), "ERC721Metadata: URI query for         
+  nonexistent token");                                                          
+            ⋮┆----------------------------------------
+          914┆ require(_exists(tokenId), "ERC721Metadata: URI set of nonexistent
+  token");                                                                      
+            ⋮┆----------------------------------------
+         1028┆ require(newOwner != address(0), "Ownable: new owner is the zero  
+  address");                                                                    
+            ⋮┆----------------------------------------
+       solidity.security.erc721-reentrancy    
+          ERC721 onERC721Received() reentrancy
+                                              
+          646┆ require(_checkOnERC721Received(from, to, tokenId, _data),        
+  "ERC721: transfer to non ERC721Receiver implementer");                        
+            ⋮┆----------------------------------------
+          699┆ require(_checkOnERC721Received(address(0), to, tokenId, _data),  
+  "ERC721: transfer to non ERC721Receiver implementer");                        
+
+                
+                
+┌──────────────┐
+│ Scan Summary │
+└──────────────┘
+
+Ran 48 rules on 1 file: 54 findings.
+
+A new version of Semgrep is available. See https://semgrep.dev/docs/upgrading
